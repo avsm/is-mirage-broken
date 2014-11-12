@@ -151,11 +151,11 @@ Installing cohttp.0.11.2.
 The following dependencies couldn't be met:
   - mirage-www[33m -> [mcohttp <= 0.9.6 | cohttp <= 0.9.12
   - mirage-www[33m -> [mcowabloga = 0.0.3[33m -> [mcohttp < 0.10.0
-  - mirage-www[33m -> [mtcpip[33m -> [mmirage-net-unix >= 1.1.0
-  - mirage-http-unix[33m -> [mmirage-tcpip-unix >= 0.9.5[33m -> [m(mirage-net-unix < 1.1.0 & mirage-net-unix >= 1.0.0)
+  - mirage-www[33m -> [mtcpip[33m -> [mmirage-unix >= 1.1.0
+  - mirage-http-unix[33m -> [mmirage-tcpip-unix >= 0.9.5[33m -> [mmirage-unix < 1.1.0
   - bt[33m -> [mcohttp >= 0.11.2
 Your request can't be satisfied:
   - Conflicting version constraints for cohttp
-  - Conflicting version constraints for mirage-net-unix
+  - Conflicting version constraints for mirage-unix
 
 No solution found, exiting
