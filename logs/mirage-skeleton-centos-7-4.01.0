@@ -33,16 +33,17 @@ CentOS 7 depexts: openssl-devel
 + '[' openssl-devel '!=' '' ']'
 + sudo yum install -y openssl-devel
 Loaded plugins: fastestmirror
+Repodata is over 2 weeks old. Install yum-cron? Or run: yum makecache fast
 base                                                     | 3.6 kB     00:00     
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
 (2/2): updates/7/x86_64/pr 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/2): extras/7/x86_64/primary_db                          |  35 kB   00:00     
-(2/2): updates/7/x86_64/pr 4% [-                ]  0.0 B/s | 218 kB   --:-- ETA (2/2): updates/7/x86_64/pr 16% [==-             ] 759 kB/s | 799 kB   00:05 ETA (2/2): updates/7/x86_64/pr 32% [=====           ] 862 kB/s | 1.5 MB   00:03 ETA (2/2): updates/7/x86_64/pr 40% [======-         ] 890 kB/s | 1.9 MB   00:03 ETA (2/2): updates/7/x86_64/pr 56% [=========       ] 983 kB/s | 2.7 MB   00:02 ETA (2/2): updates/7/x86_64/pr 73% [===========-    ] 1.1 MB/s | 3.5 MB   00:01 ETA (2/2): updates/7/x86_64/pr 82% [=============   ] 1.1 MB/s | 3.9 MB   00:00 ETA (2/2): updates/7/x86_64/pr 98% [===============-] 1.1 MB/s | 4.7 MB   00:00 ETA (2/2): updates/7/x86_64/primary_db                         | 4.7 MB   00:03     
+(2/2): updates/7/x86_64/pr 1% [                 ]  0.0 B/s |  94 kB   --:-- ETA (2/2): updates/7/x86_64/pr 5% [-                ] 280 kB/s | 277 kB   00:16 ETA (2/2): updates/7/x86_64/pr 12% [=-              ] 327 kB/s | 607 kB   00:13 ETA (2/2): updates/7/x86_64/pr 21% [===             ] 392 kB/s | 1.0 MB   00:09 ETA (2/2): updates/7/x86_64/pr 36% [=====-          ] 511 kB/s | 1.7 MB   00:06 ETA (2/2): updates/7/x86_64/pr 51% [========        ] 628 kB/s | 2.5 MB   00:03 ETA (2/2): updates/7/x86_64/pr 67% [==========-     ] 738 kB/s | 3.2 MB   00:02 ETA (2/2): updates/7/x86_64/pr 82% [=============   ] 841 kB/s | 3.9 MB   00:01 ETA (2/2): updates/7/x86_64/pr 98% [===============-] 938 kB/s | 4.7 MB   00:00 ETA (2/2): updates/7/x86_64/primary_db                         | 4.7 MB   00:03     
 Determining fastest mirrors
- * base: mirror.fdcservers.net
+ * base: centos.corenetworks.net
  * extras: mirror.sanctuaryhost.com
- * updates: mirror.rackspace.com
+ * updates: www.gtlib.gatech.edu
 Resolving Dependencies
 --> Running transaction check
 ---> Package openssl-devel.x86_64 1:1.0.1e-34.el7_0.6 will be installed
@@ -98,18 +99,18 @@ Upgrade             ( 1 Dependent package)
 Total download size: 3.5 M
 Downloading packages:
 Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
-(2/10): krb5-devel-1.11.3- 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/10): libcom_err-devel-1.42.9-4.el7.x86_64.rpm           |  30 kB   00:00     
+(2/10): krb5-devel-1.11.3- 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/10): keyutils-libs-devel-1.5.8-3.el7.x86_64.rpm         |  37 kB   00:00     
 (2/10): libverto-devel-0.2.5-4.el7.x86_64.rpm              |  12 kB   00:00     
-(3/10): krb5-devel-1.11.3-49.el7.x86_64.rpm                | 611 kB   00:00     
-(4/10): libselinux-devel-2.2.2-6.el7.x86_64.rpm            | 174 kB   00:00     
-(5/10): libsepol-devel-2.1.9-3.el7.x86_64.rpm              |  71 kB   00:00     
-(6/10): pcre-devel-8.32-12.el7.x86_64.rpm                  | 477 kB   00:00     
-(7/10): zlib-devel-1.2.7-13.el7.x86_64.rpm                 |  49 kB   00:00     
-(9/10): openssl-devel-1.0. 39% [======          ]  0.0 B/s | 1.4 MB   --:-- ETA (8/10): openssl-libs-1.0.1e-34.el7_0.6.x86_64.rpm          | 941 kB   00:00     
-(9/10): keyutils-libs-devel-1.5.8-3.el7.x86_64.rpm         |  37 kB   00:01     
-(10/10): openssl-devel-1.0 74% [===========-    ] 1.4 MB/s | 2.6 MB   00:00 ETA (10/10): openssl-devel-1.0 85% [=============-  ] 1.3 MB/s | 3.0 MB   00:00 ETA (10/10): openssl-devel-1.0 88% [==============  ] 1.3 MB/s | 3.1 MB   00:00 ETA (10/10): openssl-devel-1.0 95% [=============== ] 1.2 MB/s | 3.4 MB   00:00 ETA (10/10): openssl-devel-1.0.1e-34.el7_0.6.x86_64.rpm        | 1.2 MB   00:01     
+(3/10): libcom_err-devel-1.42.9-4.el7.x86_64.rpm           |  30 kB   00:00     
+(5/10): libselinux-devel-2 2% [                 ]  0.0 B/s |  79 kB   --:-- ETA (4/10): libsepol-devel-2.1.9-3.el7.x86_64.rpm              |  71 kB   00:00     
+(5/10): krb5-devel-1.11.3-49.el7.x86_64.rpm                | 611 kB   00:00     
+(6/10): zlib-devel-1.2.7-13.el7.x86_64.rpm                 |  49 kB   00:00     
+(7/10): pcre-devel-8.32-12.el7.x86_64.rpm                  | 477 kB   00:00     
+(8/10): libselinux-devel-2.2.2-6.el7.x86_64.rpm            | 174 kB   00:00     
+(10/10): openssl-libs-1.0. 40% [======          ] 1.8 MB/s | 1.4 MB   00:01 ETA (9/10): openssl-devel-1.0. 57% [=========       ] 1.8 MB/s | 2.0 MB   00:00 ETA (9/10): openssl-libs-1.0.1e-34.el7_0.6.x86_64.rpm          | 941 kB   00:00     
+(10/10): openssl-devel-1.0 81% [=============   ] 1.9 MB/s | 2.9 MB   00:00 ETA (10/10): openssl-devel-1.0 92% [==============- ] 1.8 MB/s | 3.3 MB   00:00 ETA (10/10): openssl-devel-1.0.1e-34.el7_0.6.x86_64.rpm        | 1.2 MB   00:01     
 --------------------------------------------------------------------------------
-Total                                              1.3 MB/s | 3.5 MB  00:02     
+Total                                              1.5 MB/s | 3.5 MB  00:02     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -205,12 +206,12 @@ Building re.1.2.2:
   ocaml setup.ml -build
   ocaml setup.ml -install
 Installing optcomp.1.6.
-Installing ounit.2.0.0.
 Copying ~/.opam/repo/default/packages/ssl/ssl.0.4.7/files/pkgconfigure to ~/.opam/4.01.0/build/ssl.0.4.7/
 Building ssl.0.4.7:
   ./configure --prefix /home/opam/.opam/4.01.0
   make
   make install
+Installing ounit.2.0.0.
 Building type_conv.111.13.00:
   make
   make install
@@ -272,10 +273,9 @@ Installing mirage.1.2.0.
 ++ git clone git://github.com/mirage/mirage-skeleton
 Cloning into 'mirage-skeleton'...
 remote: Counting objects: 1216, done.[K
-remote: Compressing objects:  20% (1/5)   [Kremote: Compressing objects:  40% (2/5)   [Kremote: Compressing objects:  60% (3/5)   [Kremote: Compressing objects:  80% (4/5)   [Kremote: Compressing objects: 100% (5/5)   [Kremote: Compressing objects: 100% (5/5), done.[K
-Receiving objects:   0% (1/1216)   Receiving objects:   1% (13/1216)   Receiving objects:   2% (25/1216)   Receiving objects:   3% (37/1216)   Receiving objects:   4% (49/1216)   Receiving objects:   5% (61/1216)   Receiving objects:   6% (73/1216)   Receiving objects:   7% (86/1216)   Receiving objects:   8% (98/1216)   Receiving objects:   9% (110/1216)   Receiving objects:  10% (122/1216)   Receiving objects:  11% (134/1216)   Receiving objects:  12% (146/1216)   Receiving objects:  13% (159/1216)   Receiving objects:  14% (171/1216)   Receiving objects:  15% (183/1216)   Receiving objects:  16% (195/1216)   Receiving objects:  17% (207/1216)   Receiving objects:  18% (219/1216)   Receiving objects:  19% (232/1216)   Receiving objects:  20% (244/1216)   Receiving objects:  21% (256/1216)   Receiving objects:  22% (268/1216)   Receiving objects:  23% (280/1216)   Receiving objects:  24% (292/1216)   Receiving objects:  25% (304/1216)   Receiving objects:  26% (317/1216)   Receiving objects:  27% (329/1216)   Receiving objects:  28% (341/1216)   Receiving objects:  29% (353/1216)   Receiving objects:  30% (365/1216)   Receiving objects:  31% (377/1216)   Receiving objects:  32% (390/1216)   Receiving objects:  33% (402/1216)   Receiving objects:  34% (414/1216)   Receiving objects:  35% (426/1216)   Receiving objects:  36% (438/1216)   Receiving objects:  37% (450/1216)   Receiving objects:  38% (463/1216)   Receiving objects:  39% (475/1216)   Receiving objects:  40% (487/1216)   Receiving objects:  41% (499/1216)   Receiving objects:  42% (511/1216)   Receiving objects:  43% (523/1216)   Receiving objects:  44% (536/1216)   Receiving objects:  45% (548/1216)   Receiving objects:  46% (560/1216)   Receiving objects:  47% (572/1216)   Receiving objects:  48% (584/1216)   Receiving objects:  49% (596/1216)   Receiving objects:  50% (608/1216)   Receiving objects:  51% (621/1216)   Receiving objects:  52% (633/1216)   Receiving objects:  53% (645/1216)   Receiving objects:  54% (657/1216)   Receiving objects:  55% (669/1216)   Receiving objects:  56% (681/1216)   Receiving objects:  57% (694/1216)   Receiving objects:  58% (706/1216)   Receiving objects:  59% (718/1216)   Receiving objects:  60% (730/1216)   Receiving objects:  61% (742/1216)   Receiving objects:  62% (754/1216)   Receiving objects:  63% (767/1216)   Receiving objects:  64% (779/1216)   Receiving objects:  65% (791/1216)   Receiving objects:  66% (803/1216)   Receiving objects:  67% (815/1216)   Receiving objects:  68% (827/1216)   Receiving objects:  69% (840/1216)   Receiving objects:  70% (852/1216)   Receiving objects:  71% (864/1216)   Receiving objects:  72% (876/1216)   Receiving objects:  73% (888/1216)   Receiving objects:  74% (900/1216)   Receiving objects:  75% (912/1216)   Receiving objects:  76% (925/1216)   Receiving objects:  77% (937/1216)   Receiving objects:  78% (949/1216)   Receiving objects:  79% (961/1216)   Receiving objects:  80% (973/1216)   Receiving objects:  81% (985/1216)   Receiving objects:  82% (998/1216)   Receiving objects:  83% (1010/1216)   Receiving objects:  84% (1022/1216)   Receiving objects:  85% (1034/1216)   Receiving objects:  86% (1046/1216)   Receiving objects:  87% (1058/1216)   remote: Total 1216 (delta 0), reused 0 (delta 0)[K
-Receiving objects:  88% (1071/1216)   Receiving objects:  89% (1083/1216)   Receiving objects:  90% (1095/1216)   Receiving objects:  91% (1107/1216)   Receiving objects:  92% (1119/1216)   Receiving objects:  93% (1131/1216)   Receiving objects:  94% (1144/1216)   Receiving objects:  95% (1156/1216)   Receiving objects:  96% (1168/1216)   Receiving objects:  97% (1180/1216)   Receiving objects:  98% (1192/1216)   Receiving objects:  99% (1204/1216)   Receiving objects: 100% (1216/1216)   Receiving objects: 100% (1216/1216), 220.69 KiB | 0 bytes/s, done.
-Resolving deltas:   0% (0/566)   Resolving deltas:   1% (6/566)   Resolving deltas:   3% (20/566)   Resolving deltas:   4% (26/566)   Resolving deltas:   5% (31/566)   Resolving deltas:   7% (45/566)   Resolving deltas:   9% (53/566)   Resolving deltas:  10% (57/566)   Resolving deltas:  11% (67/566)   Resolving deltas:  12% (68/566)   Resolving deltas:  13% (74/566)   Resolving deltas:  14% (80/566)   Resolving deltas:  15% (89/566)   Resolving deltas:  16% (92/566)   Resolving deltas:  18% (104/566)   Resolving deltas:  19% (108/566)   Resolving deltas:  20% (114/566)   Resolving deltas:  21% (120/566)   Resolving deltas:  22% (125/566)   Resolving deltas:  24% (140/566)   Resolving deltas:  25% (144/566)   Resolving deltas:  26% (151/566)   Resolving deltas:  27% (153/566)   Resolving deltas:  28% (160/566)   Resolving deltas:  30% (170/566)   Resolving deltas:  31% (177/566)   Resolving deltas:  34% (196/566)   Resolving deltas:  51% (292/566)   Resolving deltas:  52% (296/566)   Resolving deltas:  53% (305/566)   Resolving deltas:  54% (306/566)   Resolving deltas:  57% (326/566)   Resolving deltas:  59% (339/566)   Resolving deltas:  60% (341/566)   Resolving deltas:  61% (346/566)   Resolving deltas:  62% (353/566)   Resolving deltas:  63% (359/566)   Resolving deltas:  67% (380/566)   Resolving deltas:  68% (389/566)   Resolving deltas:  75% (429/566)   Resolving deltas:  76% (431/566)   Resolving deltas:  77% (437/566)   Resolving deltas:  78% (443/566)   Resolving deltas:  79% (451/566)   Resolving deltas:  80% (457/566)   Resolving deltas:  81% (461/566)   Resolving deltas:  82% (465/566)   Resolving deltas:  83% (472/566)   Resolving deltas:  84% (480/566)   Resolving deltas:  85% (483/566)   Resolving deltas:  86% (489/566)   Resolving deltas:  87% (493/566)   Resolving deltas:  88% (503/566)   Resolving deltas:  89% (507/566)   Resolving deltas:  90% (510/566)   Resolving deltas:  91% (517/566)   Resolving deltas:  92% (521/566)   Resolving deltas:  93% (528/566)   Resolving deltas:  94% (536/566)   Resolving deltas:  95% (538/566)   Resolving deltas:  97% (551/566)   Resolving deltas:  98% (558/566)   Resolving deltas:  99% (563/566)   Resolving deltas: 100% (566/566)   Resolving deltas: 100% (566/566), done.
+Receiving objects:   0% (1/1216)   Receiving objects:   1% (13/1216)   Receiving objects:   2% (25/1216)   Receiving objects:   3% (37/1216)   Receiving objects:   4% (49/1216)   Receiving objects:   5% (61/1216)   Receiving objects:   6% (73/1216)   Receiving objects:   7% (86/1216)   Receiving objects:   8% (98/1216)   Receiving objects:   9% (110/1216)   Receiving objects:  10% (122/1216)   Receiving objects:  11% (134/1216)   Receiving objects:  12% (146/1216)   Receiving objects:  13% (159/1216)   Receiving objects:  14% (171/1216)   Receiving objects:  15% (183/1216)   Receiving objects:  16% (195/1216)   Receiving objects:  17% (207/1216)   Receiving objects:  18% (219/1216)   Receiving objects:  19% (232/1216)   Receiving objects:  20% (244/1216)   Receiving objects:  21% (256/1216)   Receiving objects:  22% (268/1216)   Receiving objects:  23% (280/1216)   Receiving objects:  24% (292/1216)   Receiving objects:  25% (304/1216)   Receiving objects:  26% (317/1216)   Receiving objects:  27% (329/1216)   Receiving objects:  28% (341/1216)   Receiving objects:  29% (353/1216)   Receiving objects:  30% (365/1216)   Receiving objects:  31% (377/1216)   Receiving objects:  32% (390/1216)   Receiving objects:  33% (402/1216)   Receiving objects:  34% (414/1216)   Receiving objects:  35% (426/1216)   Receiving objects:  36% (438/1216)   Receiving objects:  37% (450/1216)   Receiving objects:  38% (463/1216)   Receiving objects:  39% (475/1216)   Receiving objects:  40% (487/1216)   Receiving objects:  41% (499/1216)   Receiving objects:  42% (511/1216)   Receiving objects:  43% (523/1216)   Receiving objects:  44% (536/1216)   Receiving objects:  45% (548/1216)   Receiving objects:  46% (560/1216)   Receiving objects:  47% (572/1216)   Receiving objects:  48% (584/1216)   Receiving objects:  49% (596/1216)   Receiving objects:  50% (608/1216)   Receiving objects:  51% (621/1216)   Receiving objects:  52% (633/1216)   Receiving objects:  53% (645/1216)   Receiving objects:  54% (657/1216)   Receiving objects:  55% (669/1216)   Receiving objects:  56% (681/1216)   Receiving objects:  57% (694/1216)   Receiving objects:  58% (706/1216)   Receiving objects:  59% (718/1216)   Receiving objects:  60% (730/1216)   Receiving objects:  61% (742/1216)   Receiving objects:  62% (754/1216)   Receiving objects:  63% (767/1216)   Receiving objects:  64% (779/1216)   Receiving objects:  65% (791/1216)   Receiving objects:  66% (803/1216)   Receiving objects:  67% (815/1216)   Receiving objects:  68% (827/1216)   Receiving objects:  69% (840/1216)   Receiving objects:  70% (852/1216)   Receiving objects:  71% (864/1216)   Receiving objects:  72% (876/1216)   Receiving objects:  73% (888/1216)   Receiving objects:  74% (900/1216)   Receiving objects:  75% (912/1216)   Receiving objects:  76% (925/1216)   Receiving objects:  77% (937/1216)   Receiving objects:  78% (949/1216)   Receiving objects:  79% (961/1216)   Receiving objects:  80% (973/1216)   Receiving objects:  81% (985/1216)   remote: Total 1216 (delta 0), reused 0 (delta 0)[K
+Receiving objects:  82% (998/1216)   Receiving objects:  83% (1010/1216)   Receiving objects:  84% (1022/1216)   Receiving objects:  85% (1034/1216)   Receiving objects:  86% (1046/1216)   Receiving objects:  87% (1058/1216)   Receiving objects:  88% (1071/1216)   Receiving objects:  89% (1083/1216)   Receiving objects:  90% (1095/1216)   Receiving objects:  91% (1107/1216)   Receiving objects:  92% (1119/1216)   Receiving objects:  93% (1131/1216)   Receiving objects:  94% (1144/1216)   Receiving objects:  95% (1156/1216)   Receiving objects:  96% (1168/1216)   Receiving objects:  97% (1180/1216)   Receiving objects:  98% (1192/1216)   Receiving objects:  99% (1204/1216)   Receiving objects: 100% (1216/1216)   Receiving objects: 100% (1216/1216), 219.08 KiB | 0 bytes/s, done.
+Resolving deltas:   0% (0/569)   Resolving deltas:   1% (6/569)   Resolving deltas:   2% (16/569)   Resolving deltas:   3% (19/569)   Resolving deltas:   4% (24/569)   Resolving deltas:   5% (31/569)   Resolving deltas:   6% (35/569)   Resolving deltas:   7% (44/569)   Resolving deltas:   9% (52/569)   Resolving deltas:  10% (57/569)   Resolving deltas:  11% (64/569)   Resolving deltas:  13% (74/569)   Resolving deltas:  14% (80/569)   Resolving deltas:  15% (87/569)   Resolving deltas:  16% (95/569)   Resolving deltas:  17% (99/569)   Resolving deltas:  18% (104/569)   Resolving deltas:  19% (113/569)   Resolving deltas:  20% (118/569)   Resolving deltas:  21% (121/569)   Resolving deltas:  23% (132/569)   Resolving deltas:  24% (137/569)   Resolving deltas:  25% (144/569)   Resolving deltas:  26% (148/569)   Resolving deltas:  27% (154/569)   Resolving deltas:  28% (160/569)   Resolving deltas:  29% (167/569)   Resolving deltas:  32% (183/569)   Resolving deltas:  35% (202/569)   Resolving deltas:  51% (295/569)   Resolving deltas:  52% (299/569)   Resolving deltas:  53% (302/569)   Resolving deltas:  54% (308/569)   Resolving deltas:  57% (329/569)   Resolving deltas:  59% (341/569)   Resolving deltas:  60% (343/569)   Resolving deltas:  61% (348/569)   Resolving deltas:  62% (355/569)   Resolving deltas:  63% (361/569)   Resolving deltas:  67% (382/569)   Resolving deltas:  72% (411/569)   Resolving deltas:  77% (441/569)   Resolving deltas:  78% (444/569)   Resolving deltas:  81% (461/569)   Resolving deltas:  82% (468/569)   Resolving deltas:  83% (473/569)   Resolving deltas:  84% (478/569)   Resolving deltas:  86% (492/569)   Resolving deltas:  87% (497/569)   Resolving deltas:  88% (501/569)   Resolving deltas:  89% (511/569)   Resolving deltas:  90% (515/569)   Resolving deltas:  91% (520/569)   Resolving deltas:  95% (543/569)   Resolving deltas:  96% (547/569)   Resolving deltas:  97% (554/569)   Resolving deltas:  98% (558/569)   Resolving deltas:  99% (565/569)   Resolving deltas: 100% (569/569)   Resolving deltas: 100% (569/569), done.
 ++ cd mirage-skeleton
 ++ export MODE=unix
 ++ MODE=unix
@@ -306,23 +306,23 @@ The following actions will be performed:
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   129    0   129    0     0    266      0 --:--:-- --:--:-- --:--:--   265
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127    0   127    0     0    286      0 --:--:-- --:--:-- --:--:--   286
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   130    0   130    0     0    288      0 --:--:-- --:--:-- --:--:--   287
-100  3054  100  3054    0     0   3993      0 --:--:-- --:--:-- --:--:--  3993
+                                 Dload  Upload   Total   Spent    L e % Total   f % Received % tXferd    Average SpeeSd   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent   p Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0eed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127    0   127    0     0    280      0 --:--:-- --:--:-- --:--:--   285
+100   129    0   129    0     0    422      0 --:--:-- --:--:-- --:--:--   422
+100   130    0   130    0     0    298      0 --:--:-- --:--:-- --:--:--   299
+100  3017  100  3017    0     0   4063      0 --:--:-- --:--:-- --:--:--  4063
+ 200
+27  3054   27   854    0     0   1442      0  0:00:02 --:--:--  0:00:02  1442100  3054  100  3054    0     0   5130      0 --:--:-- --:--:-- --:--:--  716k
 200
-100  3017  100  3017    0     0   4090      0 --:--:-- --:--:-- --:--:--  4090
-200
-[[32mshared-memory-ring.1.1.0[m] Downloading https://github.com/mirage/shared-memory-ring/archive/1.1.0.tar.gz
-100  956k  100  956k    0     0   741k      0  0:00:01  0:00:01 --:--:--  741k
-200
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0[[32mshared-memory-ring.1.1.0[m] Downloading https://github.com/mirage/shared-memory-ring/archive/1.1.0.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   132    0   132    0     0    301      0 --:--:-- --:--:-- --:--:--   302
-100 63087  100 63087    0     0  78092      0 --:--:-- --:--:-- --:--:-- 78092
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  956k  100  956k    0     0   725k      0  0:00:01  0:00:01 --:--:-- 1326k
+200
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   132    0   132    0     0    442      0 --:--:-- --:--:-- --:--:--   441
+100 63087  100 63087    0     0  95288      0 --:--:-- --:--:-- --:--:-- 95288
 200
 
 [36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
@@ -625,19 +625,19 @@ The following actions will be performed:
 [[32mtuntap.1.0.0[m] Downloading https://github.com/mirage/ocaml-tuntap/archive/v1.0.0.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  % Total    % Received % Xferd  Average Spee  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0d   Time    Time     Time  Current
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127    0   127    0     0    136      0 --:--:-- --:--:-- --:--:--   136
-  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100   130    0   130    0     0    116      0 --:--:--  0:00:01 --:--:--   116
-  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100   127    0   127    0     0     94      0 --:--:--  0:00:01 --:--:--    94
-100 99130  100 99130    0     0  65183      0  0:00:01  0:00:01 --:--:-- 65183
-200
-  1 45871    1   852    0     0    530      0  0:01:26  0:00:01  0:01:25   530  1 51058    1   855    0     0    521      0  0:01:38  0:00:01  0:01:37   521100 45871  100 45871    0     0  27594      0  0:00:01  0:00:01 --:--:--  785k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   127    0   127    0     0    290      0 --:--:-- --:--:-- --:--:--   291
+100   130    0   130    0     0    425      0 --:--:-- --:--:-- --:--:--   426
+100   127    0   127    0     0    295      0 --:--:-- --:--:-- --:--:--   296
+100 45871  100 45871    0     0  69421      0 --:--:-- --:--:-- --:--:-- 69421
 200
 200
-100 51058  100 51058    0     0  29783      0  0:00:01  0:00:01 --:--:--  653k
+ 93 99130   93 92786    0     0   103k      0 --:--:-- --:--:-- --:--:--  103k100 99130  100 99130    0     0   110k      0 --:--:-- --:--:-- --:--:-- 6195k
+ 28 51058   28 14555    0     0  19472      0  0:00:02 --:--:--  0:00:02 19472100 51058  100 51058    0     0  65994      0 --:--:-- --:--:-- --:--:-- 1371k
+200
 
 [36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
 Building tuntap.1.0.0:
@@ -1285,19 +1285,19 @@ The following actions will be performed:
                                  Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0200
-100 55847  100 55847    0     0   149k      0 --:--:-- --:--:-- --:--:--  149k
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   128    0   128    0     0    290      0 --:--:-- --:--:-- --:--:--   290
-100   126    0   126    0     0    276      0 --:--:-- --:--:-- --:--:--   276
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 55847  100 55847    0     0   150k      0 --:--:-- --:--:-- --:--:--  151k
+200
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   128    0   128    0     0    275      0 --:--:-- --:--:-- --:--:--   275
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   126    0   126    0     0    274      0 --:--:-- --:--:-- --:--:--   273
 [[32muri.1.4.0[m] Downloading https://github.com/mirage/ocaml-uri/archive/v1.4.0.tar.gz
-100 43329  100 43329    0     0  54150      0 --:--:-- --:--:-- --:--:-- 54150
+100 43329  100 43329    0     0  54104      0 --:--:-- --:--:-- --:--:-- 54104
 200
-  0     0    0  127k    0     0   140k      0 --:--:-- --:--:-- --:--:--  140k
 200
+  0     0    0  127k    0     0   139k      0 --:--:-- --:--:-- --:--:--  139k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   124    0   124    0     0    279      0 --:--:-- --:--:-- --:--:--   279
-  0     0    0  243k    0     0   243k      0 --:--:--  0:00:01 --:--:--  243k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   124    0   124    0     0    285      0 --:--:-- --:--:-- --:--:--   285
+  0     0    0  243k    0     0   246k      0 --:--:-- --:--:-- --:--:--  246k
 200
 
 [36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
