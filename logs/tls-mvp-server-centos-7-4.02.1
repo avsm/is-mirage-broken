@@ -35,11 +35,11 @@ Repodata is over 2 weeks old. Install yum-cron? Or run: yum makecache fast
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
 (2/2): updates/7/x86_64/pr 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/2): extras/7/x86_64/primary_db                          |  35 kB   00:00     
-(2/2): updates/7/x86_64/pr 1% [                 ]  0.0 B/s |  89 kB   --:-- ETA (2/2): updates/7/x86_64/pr 4% [-                ] 202 kB/s | 226 kB   00:22 ETA (2/2): updates/7/x86_64/pr 10% [=-              ] 242 kB/s | 495 kB   00:18 ETA (2/2): updates/7/x86_64/pr 18% [==-             ] 309 kB/s | 910 kB   00:12 ETA (2/2): updates/7/x86_64/pr 31% [=====           ] 413 kB/s | 1.5 MB   00:08 ETA (2/2): updates/7/x86_64/pr 53% [========-       ] 605 kB/s | 2.6 MB   00:03 ETA (2/2): updates/7/x86_64/pr 94% [=============== ] 963 kB/s | 4.5 MB   00:00 ETA (2/2): updates/7/x86_64/primary_db                         | 4.7 MB   00:02     
+(2/2): updates/7/x86_64/pr 32% [=====           ]  0.0 B/s | 1.6 MB   --:-- ETA (2/2): updates/7/x86_64/pr 69% [===========     ] 2.7 MB/s | 3.3 MB   00:00 ETA (2/2): updates/7/x86_64/primary_db                         | 4.7 MB   00:01     
 Determining fastest mirrors
- * base: mirror.team-cymru.org
- * extras: mirror.team-cymru.org
- * updates: centos.arvixe.com
+ * base: mirror.nexcess.net
+ * extras: cosmos.cites.illinois.edu
+ * updates: centos.chi.host-engine.com
 Package 1:gmp-5.1.1-5.el7.x86_64 already installed and latest version
 Resolving Dependencies
 --> Running transaction check
@@ -63,10 +63,10 @@ Install  2 Packages
 Total download size: 197 k
 Installed size: 361 k
 Downloading packages:
-(1/2): gmp-devel-5.1.1-5.el7.x86_64.rpm                    | 175 kB   00:00     
-(2/2): libffi-devel-3.0.13 88% [==============  ]  0.0 B/s | 175 kB   --:-- ETA (2/2): libffi-devel-3.0.13-11.el7.x86_64.rpm               |  22 kB   00:00     
+(1/2): libffi-devel-3.0.13-11.el7.x86_64.rpm               |  22 kB   00:00     
+(2/2): gmp-devel-5.1.1-5.e 11% [=-              ]  0.0 B/s |  22 kB   --:-- ETA (2/2): gmp-devel-5.1.1-5.el7.x86_64.rpm                    | 175 kB   00:00     
 --------------------------------------------------------------------------------
-Total                                              417 kB/s | 197 kB  00:00     
+Total                                              396 kB/s | 197 kB  00:00     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -132,13 +132,13 @@ The following actions will be performed:
 Copying ~/.opam/repo/default/packages/conf-gmp/conf-gmp.1/files/test.c to ~/.opam/4.02.1/build/conf-gmp.1/
 Building conf-gmp.1:
   cc -c test.c
+Installing conf-gmp.1.
 Building cmdliner.0.9.5:
   ocaml pkg/git.ml
   ocaml pkg/build.ml native=true native-dynlink=true
 Building ctypes.0.3:
   make
   make install
-Installing conf-gmp.1.
 Building lwt.2.4.5:
   ./configure --disable-libev --disable-react --disable-ssl --enable-unix --enable-extra --enable-preemptive --disable-glib
   make build
@@ -148,11 +148,11 @@ Building optcomp.1.6:
   ./configure --prefix /home/opam/.opam/4.02.1
   make
   make install
-Installing ctypes.0.3.
 Installing optcomp.1.6.
 Building ounit.2.0.0:
   make build
   make install
+Installing ctypes.0.3.
 Building re.1.2.2:
   ocaml setup.ml -configure --prefix /home/opam/.opam/4.02.1
   ocaml setup.ml -build
