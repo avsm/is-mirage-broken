@@ -29,10 +29,15 @@ CentOS 7 depexts: openssl-devel
 + '[' openssl-devel '!=' '' ']'
 + sudo yum install -y openssl-devel
 Loaded plugins: fastestmirror
+base                                                     | 3.6 kB     00:00     
+extras                                                   | 3.4 kB     00:00     
+home_ocaml                                               | 1.2 kB     00:00     
+updates                                                  | 3.4 kB     00:00     
+updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 39% [======          ]  0.0 B/s | 1.9 MB   --:-- ETA updates/7/x86_64/primary_d 77% [============    ] 2.8 MB/s | 3.7 MB   00:00 ETA updates/7/x86_64/primary_db                                | 4.8 MB   00:01     
 Loading mirror speeds from cached hostfile
  * base: centos.mirror.constant.com
- * extras: cosmos.cites.illinois.edu
- * updates: mirrors.tripadvisor.com
+ * extras: mirror.atlanticmetro.net
+ * updates: mirrors.lga7.us.voxel.net
 Resolving Dependencies
 --> Running transaction check
 ---> Package openssl-devel.x86_64 1:1.0.1e-34.el7_0.6 will be installed
@@ -87,12 +92,12 @@ Downloading packages:
 (3/9): libselinux-devel-2.2.2-6.el7.x86_64.rpm             | 174 kB   00:00     
 (4/9): libsepol-devel-2.1.9-3.el7.x86_64.rpm               |  71 kB   00:00     
 (5/9): libverto-devel-0.2.5-4.el7.x86_64.rpm               |  12 kB   00:00     
-(7/9): openssl-devel-1.0.1 29% [====-           ]  0.0 B/s | 783 kB   --:-- ETA (6/9): krb5-devel-1.11.3-49.el7.x86_64.rpm                 | 611 kB   00:00     
+(7/9): openssl-devel-1.0.1 14% [==              ]  0.0 B/s | 384 kB   --:-- ETA (6/9): pcre-devel-8.32-12.el7.x86_64.rpm                   | 477 kB   00:00     
 (7/9): zlib-devel-1.2.7-13.el7.x86_64.rpm                  |  49 kB   00:00     
-(8/9): pcre-devel-8.32-12.el7.x86_64.rpm                   | 477 kB   00:00     
-(9/9): openssl-devel-1.0.1 73% [===========-    ] 1.2 MB/s | 1.9 MB   00:00 ETA (9/9): openssl-devel-1.0.1e-34.el7_0.6.x86_64.rpm          | 1.2 MB   00:00     
+(9/9): openssl-devel-1.0.1 37% [=====-          ] 730 kB/s | 986 kB   00:02 ETA (8/9): krb5-devel-1.11.3-4 41% [======-         ] 704 kB/s | 1.1 MB   00:02 ETA (8/9): openssl-devel-1.0.1e-34.el7_0.6.x86_64.rpm          | 1.2 MB   00:00     
+(9/9): krb5-devel-1.11.3-4 91% [==============- ] 927 kB/s | 2.4 MB   00:00 ETA (9/9): krb5-devel-1.11.3-4 97% [===============-] 904 kB/s | 2.5 MB   00:00 ETA (9/9): krb5-devel-1.11.3-49.el7.x86_64.rpm                 | 611 kB   00:02     
 --------------------------------------------------------------------------------
-Total                                              1.7 MB/s | 2.6 MB  00:01     
+Total                                              1.1 MB/s | 2.6 MB  00:02     
 Running transaction check
 Running transaction test
 Transaction test succeeded

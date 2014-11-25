@@ -30,7 +30,7 @@ Ubuntu depexts: libssl-dev
 + sudo apt-get install -qq -y build-essential m4
 + sudo apt-get install -qq -y libssl-dev
 Selecting previously unselected package zlib1g-dev:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 21253 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 23151 files and directories currently installed.)
 Preparing to unpack .../zlib1g-dev_1%3a1.2.8.dfsg-1ubuntu1_amd64.deb ...
 Unpacking zlib1g-dev:amd64 (1:1.2.8.dfsg-1ubuntu1) ...
 Selecting previously unselected package libssl-dev:amd64.
@@ -49,25 +49,34 @@ Ubuntu srcexts:
 + '[' '' '!=' '' ']'
 + opam install lwt ssl cohttp
 The following actions will be performed:
+ - install   re.1.2.2                              [required by cohttp]
+ - install   type_conv.111.13.00                   [required by fieldslib]
+ - install   optcomp.1.6                           [required by ocplib-endian]
+ - install   base-bytes.legacy                     [required by ocplib-endian]
+ - install   stringext.1.0.0                       [required by cohttp]
  - install   ounit.2.0.0                           [required by cohttp]
  - install   ssl.0.4.7
  - install   base-no-ppx.base                      [required by lwt]
- - install   re.1.2.2                              [required by cohttp]
- - install   type_conv.111.13.00                   [required by uri, fieldslib]
- - install   stringext.1.0.0                       [required by cohttp]
- - install   lwt.2.4.6
  - install   sexplib.111.17.00                     [required by cohttp]
  - install   fieldslib.109.20.03                   [required by cohttp]
+ - install   ocplib-endian.0.7                     [required by cstruct]
+ - install   lwt.2.4.6
  - install   uri.1.7.2                             [required by cohttp]
- - install   conduit.0.5.1                         [required by cohttp]
- - install   cohttp.0.11.2
-=== [33m12[m to install ===
+ - install   ipaddr.2.5.0                          [required by conduit]
+ - install   cstruct.1.5.0                         [required by conduit]
+ - install   conduit.0.6.1                         [required by cohttp]
+ - install   cohttp.0.12.0
+=== [33m17[m to install ===
 
 [36m=-=-[m [01mSynchronizing package archives[m [36m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
-[[32mcohttp.0.11.2[m] Downloading https://github.com/mirage/ocaml-cohttp/archive/v0.11.2.tar.gz
-[[32mconduit.0.5.1[m] Downloading https://github.com/mirage/ocaml-conduit/archive/v0.5.1.tar.gz
+[[32mcohttp.0.12.0[m] Downloading https://github.com/mirage/ocaml-cohttp/archive/v0.12.0.tar.gz
+[[32mconduit.0.6.1[m] Downloading https://github.com/mirage/ocaml-conduit/archive/v0.6.1.tar.gz
+[[32mcstruct.1.5.0[m] Downloading https://github.com/mirage/ocaml-cstruct/archive/v1.5.0.tar.gz
 [[32mfieldslib.109.20.03[m] Downloading https://ocaml.janestreet.com/ocaml-core/109.20.00/individual/fieldslib-109.20.03.tar.gz
+[[32mipaddr.2.5.0[m] Downloading https://github.com/mirage/ocaml-ipaddr/archive/2.5.0.tar.gz
 [[32mlwt.2.4.6[m] Downloading https://github.com/ocsigen/lwt/archive/2.4.6.tar.gz
+[[32mocplib-endian.0.7[m] Downloading https://github.com/OCamlPro/ocplib-endian/archive/0.7.tar.gz
+[[32moptcomp.1.6[m] Downloading https://github.com/diml/optcomp/archive/1.6.tar.gz
 [[32mounit.2.0.0[m] Downloading http://forge.ocamlcore.org/frs/download.php/1258/ounit-2.0.0.tar.gz
 [[32mre.1.2.2[m] Downloading https://github.com/ocaml/ocaml-re/archive/ocaml-re-1.2.2.tar.gz
 [[32msexplib.111.17.00[m] Downloading https://ocaml.janestreet.com/ocaml-core/111.17.00/individual/sexplib-111.17.00.tar.gz
@@ -77,7 +86,13 @@ The following actions will be performed:
 [[32muri.1.7.2[m] Downloading https://github.com/mirage/ocaml-uri/archive/v1.7.2.tar.gz
 
 [36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+Installing base-bytes.legacy.
 Installing base-no-ppx.base.
+Building optcomp.1.6:
+  ./configure --prefix /home/opam/.opam/4.01.0
+  make
+  make install
+Installing optcomp.1.6.
 Building ounit.2.0.0:
   make build
   make install
@@ -111,26 +126,41 @@ Building lwt.2.4.6:
   make build
   make install
 Installing lwt.2.4.6.
+Building ocplib-endian.0.7:
+  ocaml setup.ml -configure --disable-debug --prefix /home/opam/.opam/4.01.0
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing ocplib-endian.0.7.
 Building sexplib.111.17.00:
   ./configure --enable-syntax
   make
   make install
 Installing sexplib.111.17.00.
-Building conduit.0.5.1:
+Building cstruct.1.5.0:
+  ./configure --prefix /home/opam/.opam/4.01.0 --enable-lwt --enable-camlp4 --disable-async --enable-unix --enable-tests
   make
   make install
-Installing conduit.0.5.1.
+Installing cstruct.1.5.0.
+Building ipaddr.2.5.0:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
+  make build
+  make install
+Installing ipaddr.2.5.0.
 Building uri.1.7.2:
   ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
   ocaml setup.ml -build
   ocaml setup.ml -install
 Installing uri.1.7.2.
-Building cohttp.0.11.2:
+Building conduit.0.6.1:
+  make
+  make install
+Installing conduit.0.6.1.
+Building cohttp.0.12.0:
   make PREFIX=/home/opam/.opam/4.01.0
   make PREFIX=/home/opam/.opam/4.01.0 install
-Installing cohttp.0.11.2.
+Installing cohttp.0.12.0.
 + opam list --depends-on cohttp --rec -s
-+ deps=bt cowabloga facebook-sdk github iocaml irmin merge-queues merge-ropes message-switch mirage-http mirage-http-unix mirage-http-xen mirage-www opam-sync-github-prs opium slacko sociaml-oauth-client sociaml-tumblr-api vhd-tool websocket xapi xapi-forkexecd xapi-idl xapi-libs-transitional xapi-netdev xapi-networkd xapi-rrd-transport xapi-rrdd xapi-rrdd-plugin xapi-squeezed xapi-tapctl xapi-xenops xapi-xenops-cli xapi-xenopsd xe xe-unikernel-upload xen-api-client 
++ deps=bt cowabloga facebook-sdk github imaplet-lwt iocaml irmin merge-queues merge-ropes message-switch mirage-http mirage-http-unix mirage-http-xen mirage-www opam-publish opam-sync-github-prs opium slacko sociaml-facebook-api sociaml-oauth-client sociaml-tumblr-api vhd-tool websocket xapi xapi-forkexecd xapi-idl xapi-libs-transitional xapi-netdev xapi-networkd xapi-rrd-transport xapi-rrdd xapi-rrdd-plugin xapi-squeezed xapi-tapctl xapi-xenops xapi-xenops-cli xapi-xenopsd xe xe-unikernel-upload xen-api-client 
 + opam config env
 + eval CAML_LD_LIBRARY_PATH="/home/opam/.opam/4.01.0/lib/stublibs"; export CAML_LD_LIBRARY_PATH; MANPATH="/home/opam/.opam/4.01.0/man:"; export MANPATH; MAKELEVEL=""; export MAKELEVEL; MAKEFLAGS=""; export MAKEFLAGS; PERL5LIB="/home/opam/.opam/4.01.0/lib/perl5"; export PERL5LIB; OCAML_TOPLEVEL_PATH="/home/opam/.opam/4.01.0/lib/toplevel"; export OCAML_TOPLEVEL_PATH; PATH="/home/opam/.opam/4.01.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"; export PATH;
 + CAML_LD_LIBRARY_PATH=/home/opam/.opam/4.01.0/lib/stublibs
@@ -147,15 +177,11 @@ Installing cohttp.0.11.2.
 + export OCAML_TOPLEVEL_PATH
 + PATH=/home/opam/.opam/4.01.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 + export PATH
-+ opam install bt cowabloga facebook-sdk github iocaml irmin merge-queues merge-ropes message-switch mirage-http mirage-http-unix mirage-http-xen mirage-www opam-sync-github-prs opium slacko sociaml-oauth-client sociaml-tumblr-api vhd-tool websocket xapi xapi-forkexecd xapi-idl xapi-libs-transitional xapi-netdev xapi-networkd xapi-rrd-transport xapi-rrdd xapi-rrdd-plugin xapi-squeezed xapi-tapctl xapi-xenops xapi-xenops-cli xapi-xenopsd xe xe-unikernel-upload xen-api-client
++ opam install bt cowabloga facebook-sdk github imaplet-lwt iocaml irmin merge-queues merge-ropes message-switch mirage-http mirage-http-unix mirage-http-xen mirage-www opam-publish opam-sync-github-prs opium slacko sociaml-facebook-api sociaml-oauth-client sociaml-tumblr-api vhd-tool websocket xapi xapi-forkexecd xapi-idl xapi-libs-transitional xapi-netdev xapi-networkd xapi-rrd-transport xapi-rrdd xapi-rrdd-plugin xapi-squeezed xapi-tapctl xapi-xenops xapi-xenops-cli xapi-xenopsd xe xe-unikernel-upload xen-api-client
 The following dependencies couldn't be met:
-  - mirage-www[33m -> [mcohttp <= 0.9.6 | cohttp <= 0.9.12
-  - mirage-www[33m -> [mcowabloga = 0.0.3[33m -> [mcohttp < 0.10.0
-  - mirage-www[33m -> [mtcpip[33m -> [mmirage-unix >= 1.1.0
-  - mirage-http-unix[33m -> [mmirage-tcpip-unix >= 0.9.5[33m -> [mmirage-unix < 1.1.0
-  - bt[33m -> [mcohttp >= 0.11.2
+  - sociaml-facebook-api[33m -> [mcohttp >= 0.12.0
+  - merge-ropes[33m -> [mirmin = 0.8.3[33m -> [mcohttp < 0.12.0
 Your request can't be satisfied:
   - Conflicting version constraints for cohttp
-  - Conflicting version constraints for mirage-unix
 
 No solution found, exiting
