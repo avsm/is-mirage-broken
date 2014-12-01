@@ -33,11 +33,11 @@ Loaded plugins: fastestmirror
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-updates/7/x86_64/primary_d 14% [==              ]  0.0 B/s | 700 kB   --:-- ETA updates/7/x86_64/primary_d 36% [=====-          ] 1.1 MB/s | 1.8 MB   00:02 ETA updates/7/x86_64/primary_d 58% [=========       ] 1.2 MB/s | 2.8 MB   00:01 ETA updates/7/x86_64/primary_d 77% [============    ] 1.3 MB/s | 3.7 MB   00:00 ETA updates/7/x86_64/primary_db                                | 4.8 MB   00:01     
+updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 3% [-                ]  0.0 B/s | 175 kB   --:-- ETA updates/7/x86_64/primary_d 15% [==-             ] 926 kB/s | 777 kB   00:04 ETA updates/7/x86_64/primary_d 50% [========        ] 1.2 MB/s | 2.4 MB   00:02 ETA updates/7/x86_64/primary_db                                | 4.8 MB   00:01     
 Loading mirror speeds from cached hostfile
- * base: mirror.steadfast.net
- * extras: mirrors.usinternet.com
- * updates: mirror.raystedman.net
+ * base: mirror.sanctuaryhost.com
+ * extras: mirror.wiredtree.com
+ * updates: centos.chi.host-engine.com
 Package 1:gmp-5.1.1-5.el7.x86_64 already installed and latest version
 Resolving Dependencies
 --> Running transaction check
@@ -61,10 +61,10 @@ Install  2 Packages
 Total download size: 197 k
 Installed size: 361 k
 Downloading packages:
-(2/2): libffi-devel-3.0.13 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/2): libffi-devel-3.0.13-11.el7.x86_64.rpm               |  22 kB   00:00     
+(1/2): libffi-devel-3.0.13-11.el7.x86_64.rpm               |  22 kB   00:00     
 (2/2): gmp-devel-5.1.1-5.el7.x86_64.rpm                    | 175 kB   00:00     
 --------------------------------------------------------------------------------
-Total                                              266 kB/s | 197 kB  00:00     
+Total                                              512 kB/s | 197 kB  00:00     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -132,13 +132,13 @@ The following actions will be performed:
 Copying ~/.opam/repo/default/packages/conf-gmp/conf-gmp.1/files/test.c to ~/.opam/4.01.0/build/conf-gmp.1/
 Building conf-gmp.1:
   cc -c test.c
+Building ctypes.0.3:
+  make
+  make install
 Installing conf-gmp.1.
 Building cmdliner.0.9.6:
   ocaml pkg/git.ml
   ocaml pkg/build.ml native=false native-dynlink=false
-Building ctypes.0.3:
-  make
-  make install
 Building lwt.2.4.5:
   ./configure --disable-libev --disable-react --disable-ssl --enable-unix --enable-extra --enable-preemptive --disable-glib
   make build
@@ -158,10 +158,10 @@ Building re.1.2.2:
   ocaml setup.ml -build
   ocaml setup.ml -install
 Installing re.1.2.2.
-Installing ounit.2.0.0.
 Building type_conv.111.13.00:
   make
   make install
+Installing ounit.2.0.0.
 Building crunch.1.3.0:
   ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
   ocaml setup.ml -build
@@ -180,20 +180,20 @@ Building zarith.1.3:
   make
   make install
 Installing ocplib-endian.0.4.
+Installing zarith.1.3.
 Building sexplib.111.25.00:
   ./configure --enable-syntax
   make
   make install
-Installing zarith.1.3.
 Installing lwt.2.4.5.
 Installing sexplib.111.25.00.
-Building cstruct.1.5.0:
-  ./configure --prefix /home/opam/.opam/4.01.0 --enable-lwt --enable-camlp4 --disable-async --enable-unix --enable-tests
-  make
-  make install
 Building ipaddr.2.5.0:
   ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
   make build
+  make install
+Building cstruct.1.5.0:
+  ./configure --prefix /home/opam/.opam/4.01.0 --enable-lwt --enable-camlp4 --disable-async --enable-unix --enable-tests
+  make
   make install
 Installing ipaddr.2.5.0.
 Installing cstruct.1.5.0.
@@ -211,8 +211,8 @@ Building nocrypto.0.2.2:
 Installing io-page.1.1.1.
 Building mirage-types.2.0.1:
   make install-types
-Installing asn1-combinators.0.1.1.
 Installing mirage-types.2.0.1.
+Installing asn1-combinators.0.1.1.
 Installing nocrypto.0.2.2.
 Building x509.0.2.0:
   ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
@@ -228,9 +228,9 @@ Installing x509.0.2.0.
 [31m#[m [31mpath[m         /home/opam/.opam/4.01.0/build/crunch.1.3.0
 [31m#[m [31mcompiler[m     4.01.0
 [31m#[m [31mexit-code[m    1
-[31m#[m [31menv-file[m     /home/opam/.opam/4.01.0/build/crunch.1.3.0/crunch-2614-d4902a.env
-[31m#[m [31mstdout-file[m  /home/opam/.opam/4.01.0/build/crunch.1.3.0/crunch-2614-d4902a.out
-[31m#[m [31mstderr-file[m  /home/opam/.opam/4.01.0/build/crunch.1.3.0/crunch-2614-d4902a.err
+[31m#[m [31menv-file[m     /home/opam/.opam/4.01.0/build/crunch.1.3.0/crunch-2600-d4902a.env
+[31m#[m [31mstdout-file[m  /home/opam/.opam/4.01.0/build/crunch.1.3.0/crunch-2600-d4902a.out
+[31m#[m [31mstderr-file[m  /home/opam/.opam/4.01.0/build/crunch.1.3.0/crunch-2600-d4902a.err
 [31m### stdout ###
 [m[31m# [m...[truncated]
 [31m# [mocamlfind ocamlc -c -g -I lib -package unix -package cmdliner -I lib -o lib/main.cmo lib/main.ml
@@ -273,4 +273,4 @@ Due to the errors, the following have been [01mcancelled[m
  - install   mirage.2.0.1
  - install   tls.0.2.0
 
-The former state can be restored with opam switch import "/home/opam/.opam/4.01.0/backup/state-20141030172348.export"
+The former state can be restored with opam switch import "/home/opam/.opam/4.01.0/backup/state-20141101172402.export"
