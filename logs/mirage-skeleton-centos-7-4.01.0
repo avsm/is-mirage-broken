@@ -10,297 +10,21 @@
 ++ '[' -z skeleton ']'
 ++ '[' -d .git ']'
 ++ git pull
-remote: Counting objects: 508, done.[K
-remote: Compressing objects:   0% (1/379)   [Kremote: Compressing objects:   1% (4/379)   [Kremote: Compressing objects:   2% (8/379)   [Kremote: Compressing objects:   3% (12/379)   [Kremote: Compressing objects:   4% (16/379)   [Kremote: Compressing objects:   5% (19/379)   [Kremote: Compressing objects:   6% (23/379)   [Kremote: Compressing objects:   7% (27/379)   [Kremote: Compressing objects:   8% (31/379)   [Kremote: Compressing objects:   9% (35/379)   [Kremote: Compressing objects:  10% (38/379)   [Kremote: Compressing objects:  11% (42/379)   [Kremote: Compressing objects:  12% (46/379)   [Kremote: Compressing objects:  13% (50/379)   [Kremote: Compressing objects:  14% (54/379)   [Kremote: Compressing objects:  15% (57/379)   [Kremote: Compressing objects:  16% (61/379)   [Kremote: Compressing objects:  17% (65/379)   [Kremote: Compressing objects:  18% (69/379)   [Kremote: Compressing objects:  19% (73/379)   [Kremote: Compressing objects:  20% (76/379)   [Kremote: Compressing objects:  21% (80/379)   [Kremote: Compressing objects:  22% (84/379)   [Kremote: Compressing objects:  23% (88/379)   [Kremote: Compressing objects:  24% (91/379)   [Kremote: Compressing objects:  25% (95/379)   [Kremote: Compressing objects:  26% (99/379)   [Kremote: Compressing objects:  27% (103/379)   [Kremote: Compressing objects:  28% (107/379)   [Kremote: Compressing objects:  29% (110/379)   [Kremote: Compressing objects:  30% (114/379)   [Kremote: Compressing objects:  31% (118/379)   [Kremote: Compressing objects:  32% (122/379)   [Kremote: Compressing objects:  33% (126/379)   [Kremote: Compressing objects:  34% (129/379)   [Kremote: Compressing objects:  35% (133/379)   [Kremote: Compressing objects:  36% (137/379)   [Kremote: Compressing objects:  37% (141/379)   [Kremote: Compressing objects:  38% (145/379)   [Kremote: Compressing objects:  39% (148/379)   [Kremote: Compressing objects:  40% (152/379)   [Kremote: Compressing objects:  41% (156/379)   [Kremote: Compressing objects:  42% (160/379)   [Kremote: Compressing objects:  43% (163/379)   [Kremote: Compressing objects:  44% (167/379)   [Kremote: Compressing objects:  45% (171/379)   [Kremote: Compressing objects:  46% (175/379)   [Kremote: Compressing objects:  47% (179/379)   [Kremote: Compressing objects:  48% (182/379)   [Kremote: Compressing objects:  49% (186/379)   [Kremote: Compressing objects:  50% (190/379)   [Kremote: Compressing objects:  51% (194/379)   [Kremote: Compressing objects:  52% (198/379)   [Kremote: Compressing objects:  53% (201/379)   [Kremote: Compressing objects:  54% (205/379)   [Kremote: Compressing objects:  55% (209/379)   [Kremote: Compressing objects:  56% (213/379)   [Kremote: Compressing objects:  57% (217/379)   [Kremote: Compressing objects:  58% (220/379)   [Kremote: Compressing objects:  59% (224/379)   [Kremote: Compressing objects:  60% (228/379)   [Kremote: Compressing objects:  61% (232/379)   [Kremote: Compressing objects:  62% (235/379)   [Kremote: Compressing objects:  63% (239/379)   [Kremote: Compressing objects:  64% (243/379)   [Kremote: Compressing objects:  65% (247/379)   [Kremote: Compressing objects:  66% (251/379)   [Kremote: Compressing objects:  67% (254/379)   [Kremote: Compressing objects:  68% (258/379)   [Kremote: Compressing objects:  69% (262/379)   [Kremote: Compressing objects:  70% (266/379)   [Kremote: Compressing objects:  71% (270/379)   [Kremote: Compressing objects:  72% (273/379)   [Kremote: Compressing objects:  73% (277/379)   [Kremote: Compressing objects:  74% (281/379)   [Kremote: Compressing objects:  75% (285/379)   [Kremote: Compressing objects:  76% (289/379)   [Kremote: Compressing objects:  77% (292/379)   [Kremote: Compressing objects:  78% (296/379)   [Kremote: Compressing objects:  79% (300/379)   [Kremote: Compressing objects:  80% (304/379)   [Kremote: Compressing objects:  81% (307/379)   [Kremote: Compressing objects:  82% (311/379)   [Kremote: Compressing objects:  83% (315/379)   [Kremote: Compressing objects:  84% (319/379)   [Kremote: Compressing objects:  85% (323/379)   [Kremote: Compressing objects:  86% (326/379)   [Kremote: Compressing objects:  87% (330/379)   [Kremote: Compressing objects:  88% (334/379)   [Kremote: Compressing objects:  89% (338/379)   [Kremote: Compressing objects:  90% (342/379)   [Kremote: Compressing objects:  91% (345/379)   [Kremote: Compressing objects:  92% (349/379)   [Kremote: Compressing objects:  93% (353/379)   [Kremote: Compressing objects:  94% (357/379)   [Kremote: Compressing objects:  95% (361/379)   [Kremote: Compressing objects:  96% (364/379)   [Kremote: Compressing objects:  97% (368/379)   [Kremote: Compressing objects:  98% (372/379)   [Kremote: Compressing objects:  99% (376/379)   [Kremote: Compressing objects: 100% (379/379)   [Kremote: Compressing objects: 100% (379/379), done.[K
-Receiving objects:   0% (1/508)   Receiving objects:   1% (6/508)   Receiving objects:   2% (11/508)   Receiving objects:   3% (16/508)   Receiving objects:   4% (21/508)   Receiving objects:   5% (26/508)   Receiving objects:   6% (31/508)   Receiving objects:   7% (36/508)   Receiving objects:   8% (41/508)   Receiving objects:   9% (46/508)   Receiving objects:  10% (51/508)   Receiving objects:  11% (56/508)   Receiving objects:  12% (61/508)   Receiving objects:  13% (67/508)   Receiving objects:  14% (72/508)   Receiving objects:  15% (77/508)   Receiving objects:  16% (82/508)   Receiving objects:  17% (87/508)   Receiving objects:  18% (92/508)   Receiving objects:  19% (97/508)   Receiving objects:  20% (102/508)   Receiving objects:  21% (107/508)   Receiving objects:  22% (112/508)   Receiving objects:  23% (117/508)   Receiving objects:  24% (122/508)   Receiving objects:  25% (127/508)   Receiving objects:  26% (133/508)   Receiving objects:  27% (138/508)   Receiving objects:  28% (143/508)   Receiving objects:  29% (148/508)   Receiving objects:  30% (153/508)   Receiving objects:  31% (158/508)   Receiving objects:  32% (163/508)   Receiving objects:  33% (168/508)   Receiving objects:  34% (173/508)   Receiving objects:  35% (178/508)   remote: Total 508 (delta 191), reused 336 (delta 104)[K
-Receiving objects:  36% (183/508)   Receiving objects:  37% (188/508)   Receiving objects:  38% (194/508)   Receiving objects:  39% (199/508)   Receiving objects:  40% (204/508)   Receiving objects:  41% (209/508)   Receiving objects:  42% (214/508)   Receiving objects:  43% (219/508)   Receiving objects:  44% (224/508)   Receiving objects:  45% (229/508)   Receiving objects:  46% (234/508)   Receiving objects:  47% (239/508)   Receiving objects:  48% (244/508)   Receiving objects:  49% (249/508)   Receiving objects:  50% (254/508)   Receiving objects:  51% (260/508)   Receiving objects:  52% (265/508)   Receiving objects:  53% (270/508)   Receiving objects:  54% (275/508)   Receiving objects:  55% (280/508)   Receiving objects:  56% (285/508)   Receiving objects:  57% (290/508)   Receiving objects:  58% (295/508)   Receiving objects:  59% (300/508)   Receiving objects:  60% (305/508)   Receiving objects:  61% (310/508)   Receiving objects:  62% (315/508)   Receiving objects:  63% (321/508)   Receiving objects:  64% (326/508)   Receiving objects:  65% (331/508)   Receiving objects:  66% (336/508)   Receiving objects:  67% (341/508)   Receiving objects:  68% (346/508)   Receiving objects:  69% (351/508)   Receiving objects:  70% (356/508)   Receiving objects:  71% (361/508)   Receiving objects:  72% (366/508)   Receiving objects:  73% (371/508)   Receiving objects:  74% (376/508)   Receiving objects:  75% (381/508)   Receiving objects:  76% (387/508)   Receiving objects:  77% (392/508)   Receiving objects:  78% (397/508)   Receiving objects:  79% (402/508)   Receiving objects:  80% (407/508)   Receiving objects:  81% (412/508)   Receiving objects:  82% (417/508)   Receiving objects:  83% (422/508)   Receiving objects:  84% (427/508)   Receiving objects:  85% (432/508)   Receiving objects:  86% (437/508)   Receiving objects:  87% (442/508)   Receiving objects:  88% (448/508)   Receiving objects:  89% (453/508)   Receiving objects:  90% (458/508)   Receiving objects:  91% (463/508)   Receiving objects:  92% (468/508)   Receiving objects:  93% (473/508)   Receiving objects:  94% (478/508)   Receiving objects:  95% (483/508)   Receiving objects:  96% (488/508)   Receiving objects:  97% (493/508)   Receiving objects:  98% (498/508)   Receiving objects:  99% (503/508)   Receiving objects: 100% (508/508)   Receiving objects: 100% (508/508), 119.40 KiB | 0 bytes/s, done.
-Resolving deltas:   0% (0/191)   Resolving deltas:   1% (2/191)   Resolving deltas:   2% (4/191)   Resolving deltas:   3% (6/191)   Resolving deltas:   4% (8/191)   Resolving deltas:   5% (10/191)   Resolving deltas:   6% (12/191)   Resolving deltas:   7% (15/191)   Resolving deltas:  18% (36/191)   Resolving deltas:  19% (38/191)   Resolving deltas:  21% (42/191)   Resolving deltas:  32% (62/191)   Resolving deltas:  41% (79/191)   Resolving deltas:  42% (81/191)   Resolving deltas:  55% (106/191)   Resolving deltas:  56% (108/191)   Resolving deltas:  57% (109/191)   Resolving deltas:  58% (111/191)   Resolving deltas:  60% (115/191)   Resolving deltas:  61% (117/191)   Resolving deltas:  62% (119/191)   Resolving deltas:  63% (121/191)   Resolving deltas:  64% (124/191)   Resolving deltas:  65% (126/191)   Resolving deltas:  67% (129/191)   Resolving deltas:  68% (130/191)   Resolving deltas:  69% (132/191)   Resolving deltas:  70% (134/191)   Resolving deltas: 100% (191/191)   Resolving deltas: 100% (191/191), done.
+remote: Counting objects: 8, done.[K
+remote: Compressing objects:  12% (1/8)   [Kremote: Compressing objects:  25% (2/8)   [Kremote: Compressing objects:  37% (3/8)   [Kremote: Compressing objects:  50% (4/8)   [Kremote: Compressing objects:  62% (5/8)   [Kremote: Compressing objects:  75% (6/8)   [Kremote: Compressing objects:  87% (7/8)   [Kremote: Compressing objects: 100% (8/8)   [Kremote: Compressing objects: 100% (8/8), done.[K
+remote: Total 8 (delta 0), reused 0 (delta 0)[K
+Unpacking objects:  12% (1/8)   Unpacking objects:  25% (2/8)   Unpacking objects:  37% (3/8)   Unpacking objects:  50% (4/8)   Unpacking objects:  62% (5/8)   Unpacking objects:  75% (6/8)   Unpacking objects:  87% (7/8)   Unpacking objects: 100% (8/8)   Unpacking objects: 100% (8/8), done.
 From git://github.com/ocaml/opam-repository
-   a824417..cb054b4  master     -> origin/master
-Updating a824417..cb054b4
+   b6b93c2..bbb86b4  master     -> origin/master
+Updating b6b93c2..bbb86b4
 Fast-forward
- .../4.03.0+pr119.comp}                             |   2 +-
- compilers/4.03.0/4.03.0+pr119/4.03.0+pr119.descr   |   1 +
- .../4.03.0+pr120.comp}                             |   2 +-
- compilers/4.03.0/4.03.0+pr120/4.03.0+pr120.descr   |   1 +
- compilers/4.03.0/4.03.0+pr73/4.03.0+pr73.descr     |   1 -
- compilers/4.03.0/4.03.0+pr93/4.03.0+pr93.descr     |   1 -
- packages/0install/0install.2.8/descr               |   6 +
- .../0install/0install.2.8/files/0install.install   |  19 +
- .../0install/0install.2.8/files/gui_gtk_dir.patch  |  13 +
- packages/0install/0install.2.8/opam                |  14 +
- packages/0install/0install.2.8/url                 |   2 +
- packages/KaSim/KaSim.3.5.141112/descr              |   1 +
- packages/KaSim/KaSim.3.5.141112/opam               |  18 +
- packages/KaSim/KaSim.3.5.141112/url                |   2 +
- packages/camlpdf/camlpdf.2.1.1/descr               |   1 +
- packages/camlpdf/camlpdf.2.1.1/opam                |   8 +
- packages/camlpdf/camlpdf.2.1.1/url                 |   2 +
- packages/camlprime/camlprime.0.5/descr             |   4 +
- packages/camlprime/camlprime.0.5/opam              |  14 +
- packages/camlprime/camlprime.0.5/url               |   2 +
- packages/cconv/cconv.0.2/descr                     |   6 +
- packages/cconv/cconv.0.2/findlib                   |   1 +
- packages/cconv/cconv.0.2/opam                      |  29 ++
- packages/cconv/cconv.0.2/url                       |   2 +
- packages/coccinelle/coccinelle.1.0.0-rc21/opam     |   2 +-
- packages/coccinelle/coccinelle.1.0.0-rc22/opam     |   2 +-
- packages/conduit/conduit.0.7.0/descr               |   9 +
- packages/conduit/conduit.0.7.0/opam                |  37 ++
- packages/conduit/conduit.0.7.0/url                 |   2 +
- packages/conduit/conduit.0.7.1/descr               |  15 +
- packages/conduit/conduit.0.7.1/opam                |  37 ++
- packages/conduit/conduit.0.7.1/url                 |   2 +
- packages/conf-gmp/conf-gmp.1/opam                  |   2 +-
- packages/cpdf/cpdf.2.1.1/descr                     |   2 +
- packages/cpdf/cpdf.2.1.1/opam                      |  12 +
- packages/cpdf/cpdf.2.1.1/url                       |   2 +
- packages/extprot/extprot.1.1.1/opam                |   1 +
- packages/extprot/extprot.1.1.2/descr               |   5 +
- packages/extprot/extprot.1.1.2/findlib             |   1 +
- packages/extprot/extprot.1.1.2/opam                |  20 +
- packages/extprot/extprot.1.1.2/url                 |   2 +
- packages/ezjsonm/ezjsonm.0.3.1/descr               |   9 +
- packages/ezjsonm/ezjsonm.0.3.1/findlib             |   1 +
- packages/ezjsonm/ezjsonm.0.3.1/opam                |  25 ++
- packages/ezjsonm/ezjsonm.0.3.1/url                 |   2 +
- packages/gen/gen.0.2.2/descr                       |   1 +
- packages/gen/gen.0.2.2/findlib                     |   1 +
- packages/gen/gen.0.2.2/opam                        |  19 +
- packages/gen/gen.0.2.2/url                         |   2 +
- packages/git/git.1.4.1/descr                       |  17 +
- packages/git/git.1.4.1/findlib                     |   3 +
- packages/git/git.1.4.1/opam                        |  41 ++
- packages/git/git.1.4.1/url                         |   2 +
- packages/github/github.0.9.3/descr                 |   1 +
- packages/github/github.0.9.3/findlib               |   1 +
- packages/github/github.0.9.3/opam                  |  32 ++
- packages/github/github.0.9.3/url                   |   2 +
- packages/humane-re/humane-re.0.1.0/descr           |   1 +
- packages/humane-re/humane-re.0.1.0/findlib         |   1 +
- packages/humane-re/humane-re.0.1.0/opam            |  23 ++
- packages/humane-re/humane-re.0.1.0/url             |   2 +
- packages/io-page/io-page.1.2.0/descr               |   1 +
- packages/io-page/io-page.1.2.0/findlib             |   1 +
- packages/io-page/io-page.1.2.0/opam                |  24 ++
- packages/io-page/io-page.1.2.0/url                 |   2 +
- packages/mikmatch/mikmatch.1.0.8/descr             |   1 +
- packages/mikmatch/mikmatch.1.0.8/opam              |  23 ++
- packages/mikmatch/mikmatch.1.0.8/url               |   2 +
- .../mirage-net-macosx.1.0.0/descr                  |  15 +
- .../mirage-net-macosx/mirage-net-macosx.1.0.0/opam |  24 ++
- .../mirage-net-macosx/mirage-net-macosx.1.0.0/url  |   2 +
- packages/mirage-tc/mirage-tc.0.2.0/descr           |  35 ++
- packages/mirage-tc/mirage-tc.0.2.0/opam            |  25 ++
- packages/mirage-tc/mirage-tc.0.2.0/url             |   2 +
- packages/mqtt/mqtt.0.0.1/descr                     |   1 +
- packages/mqtt/mqtt.0.0.1/opam                      |  18 +
- packages/mqtt/mqtt.0.0.1/url                       |   2 +
- packages/ocamleditor/ocamleditor.1.13.2/descr      |   3 +
- packages/ocamleditor/ocamleditor.1.13.2/opam       |  18 +
- packages/ocamleditor/ocamleditor.1.13.2/url        |   2 +
- packages/ocp-index/ocp-index.1.1.1/descr           |   7 +
- .../ocp-index.1.1.1/files/ocaml.4.02.patch         | 440 +++++++++++++++++++++
- packages/ocp-index/ocp-index.1.1.1/opam            |  32 ++
- packages/ocp-index/ocp-index.1.1.1/url             |   2 +
- packages/omd/omd.1.2.3/descr                       |   7 +
- packages/omd/omd.1.2.3/files/omd.install           |   4 +
- packages/omd/omd.1.2.3/opam                        |  21 +
- packages/omd/omd.1.2.3/url                         |   2 +
- packages/pcre/pcre.7.1.3/descr                     |   4 +
- packages/pcre/pcre.7.1.3/findlib                   |   1 +
- packages/pcre/pcre.7.1.3/opam                      |  28 ++
- packages/pcre/pcre.7.1.3/url                       |   2 +
- packages/riakc_ppx/riakc_ppx.3.1.0/descr           |   1 +
- packages/riakc_ppx/riakc_ppx.3.1.0/findlib         |   1 +
- packages/riakc_ppx/riakc_ppx.3.1.0/opam            |  25 ++
- packages/riakc_ppx/riakc_ppx.3.1.0/url             |   2 +
- packages/safa/safa.1.3/descr                       |  11 +
- packages/safa/safa.1.3/opam                        |  13 +
- packages/safa/safa.1.3/url                         |   2 +
- packages/slacko/slacko.0.11.0/descr                |   5 +
- packages/slacko/slacko.0.11.0/opam                 |  21 +
- packages/slacko/slacko.0.11.0/url                  |   2 +
- packages/slap/slap.0.2.2/descr                     |   7 +
- packages/slap/slap.0.2.2/opam                      |  24 ++
- packages/slap/slap.0.2.2/url                       |   2 +
- packages/spatial_index/spatial_index.0.0.2/descr   |   1 +
- packages/spatial_index/spatial_index.0.0.2/opam    |  17 +
- packages/spatial_index/spatial_index.0.0.2/url     |   2 +
- packages/stog-rdf/stog-rdf.0.11.0/opam             |   2 +-
- packages/stog-writing/stog-writing.0.13.0/opam     |   2 +-
- packages/stringext/stringext.1.1.0/descr           |   1 +
- packages/stringext/stringext.1.1.0/findlib         |   1 +
- packages/stringext/stringext.1.1.0/opam            |  14 +
- packages/stringext/stringext.1.1.0/url             |   2 +
- packages/sundialsml/sundialsml.2.5.0p0/descr       |  31 ++
- packages/sundialsml/sundialsml.2.5.0p0/findlib     |   1 +
- packages/sundialsml/sundialsml.2.5.0p0/opam        |  43 ++
- packages/sundialsml/sundialsml.2.5.0p0/url         |   2 +
- packages/symkat/symkat.1.3/descr                   |  12 +
- packages/symkat/symkat.1.3/opam                    |  12 +
- packages/symkat/symkat.1.3/url                     |   2 +
- packages/tcpip/tcpip.2.0.2/descr                   |   1 +
- packages/tcpip/tcpip.2.0.2/opam                    |  20 +
- packages/tcpip/tcpip.2.0.2/url                     |   2 +
- packages/toml/toml.2.0.0/descr                     |   4 +
- packages/toml/toml.2.0.0/findlib                   |   1 +
- packages/toml/toml.2.0.0/opam                      |  14 +
- packages/toml/toml.2.0.0/url                       |   2 +
- packages/toml/toml.2.1.0/descr                     |   4 +
- packages/toml/toml.2.1.0/findlib                   |   1 +
- packages/toml/toml.2.1.0/opam                      |  14 +
- packages/toml/toml.2.1.0/url                       |   2 +
- packages/tophide/tophide.1.0.3/descr               |   3 +
- packages/tophide/tophide.1.0.3/findlib             |   1 +
- packages/tophide/tophide.1.0.3/opam                |  10 +
- packages/tophide/tophide.1.0.3/url                 |   2 +
- packages/vmnet/vmnet.1.0.0/descr                   |  30 ++
- packages/vmnet/vmnet.1.0.0/opam                    |  22 ++
- packages/vmnet/vmnet.1.0.0/url                     |   2 +
- packages/vmnet/vmnet.1.0.1/descr                   |  30 ++
- packages/vmnet/vmnet.1.0.1/opam                    |  22 ++
- packages/vmnet/vmnet.1.0.1/url                     |   2 +
- packages/zenon/zenon.0.7.1/findlib                 |   0
- packages/zenon/zenon.0.7.1/url                     |   4 +-
- 144 files changed, 1685 insertions(+), 11 deletions(-)
- rename compilers/4.03.0/{4.03.0+pr93/4.03.0+pr93.comp => 4.03.0+pr119/4.03.0+pr119.comp} (77%)
- create mode 100644 compilers/4.03.0/4.03.0+pr119/4.03.0+pr119.descr
- rename compilers/4.03.0/{4.03.0+pr73/4.03.0+pr73.comp => 4.03.0+pr120/4.03.0+pr120.comp} (78%)
- create mode 100644 compilers/4.03.0/4.03.0+pr120/4.03.0+pr120.descr
- delete mode 100644 compilers/4.03.0/4.03.0+pr73/4.03.0+pr73.descr
- delete mode 100644 compilers/4.03.0/4.03.0+pr93/4.03.0+pr93.descr
- create mode 100644 packages/0install/0install.2.8/descr
- create mode 100644 packages/0install/0install.2.8/files/0install.install
- create mode 100644 packages/0install/0install.2.8/files/gui_gtk_dir.patch
- create mode 100644 packages/0install/0install.2.8/opam
- create mode 100644 packages/0install/0install.2.8/url
- create mode 100644 packages/KaSim/KaSim.3.5.141112/descr
- create mode 100644 packages/KaSim/KaSim.3.5.141112/opam
- create mode 100644 packages/KaSim/KaSim.3.5.141112/url
- create mode 100644 packages/camlpdf/camlpdf.2.1.1/descr
- create mode 100644 packages/camlpdf/camlpdf.2.1.1/opam
- create mode 100644 packages/camlpdf/camlpdf.2.1.1/url
- create mode 100644 packages/camlprime/camlprime.0.5/descr
- create mode 100644 packages/camlprime/camlprime.0.5/opam
- create mode 100644 packages/camlprime/camlprime.0.5/url
- create mode 100644 packages/cconv/cconv.0.2/descr
- create mode 100644 packages/cconv/cconv.0.2/findlib
- create mode 100644 packages/cconv/cconv.0.2/opam
- create mode 100644 packages/cconv/cconv.0.2/url
- create mode 100644 packages/conduit/conduit.0.7.0/descr
- create mode 100644 packages/conduit/conduit.0.7.0/opam
- create mode 100644 packages/conduit/conduit.0.7.0/url
- create mode 100644 packages/conduit/conduit.0.7.1/descr
- create mode 100644 packages/conduit/conduit.0.7.1/opam
- create mode 100644 packages/conduit/conduit.0.7.1/url
- create mode 100644 packages/cpdf/cpdf.2.1.1/descr
- create mode 100644 packages/cpdf/cpdf.2.1.1/opam
- create mode 100644 packages/cpdf/cpdf.2.1.1/url
- create mode 100644 packages/extprot/extprot.1.1.2/descr
- create mode 100644 packages/extprot/extprot.1.1.2/findlib
- create mode 100644 packages/extprot/extprot.1.1.2/opam
- create mode 100644 packages/extprot/extprot.1.1.2/url
- create mode 100644 packages/ezjsonm/ezjsonm.0.3.1/descr
- create mode 100644 packages/ezjsonm/ezjsonm.0.3.1/findlib
- create mode 100644 packages/ezjsonm/ezjsonm.0.3.1/opam
- create mode 100644 packages/ezjsonm/ezjsonm.0.3.1/url
- create mode 100644 packages/gen/gen.0.2.2/descr
- create mode 100644 packages/gen/gen.0.2.2/findlib
- create mode 100644 packages/gen/gen.0.2.2/opam
- create mode 100644 packages/gen/gen.0.2.2/url
- create mode 100644 packages/git/git.1.4.1/descr
- create mode 100644 packages/git/git.1.4.1/findlib
- create mode 100644 packages/git/git.1.4.1/opam
- create mode 100644 packages/git/git.1.4.1/url
- create mode 100644 packages/github/github.0.9.3/descr
- create mode 100644 packages/github/github.0.9.3/findlib
- create mode 100644 packages/github/github.0.9.3/opam
- create mode 100644 packages/github/github.0.9.3/url
- create mode 100644 packages/humane-re/humane-re.0.1.0/descr
- create mode 100644 packages/humane-re/humane-re.0.1.0/findlib
- create mode 100644 packages/humane-re/humane-re.0.1.0/opam
- create mode 100644 packages/humane-re/humane-re.0.1.0/url
- create mode 100644 packages/io-page/io-page.1.2.0/descr
- create mode 100644 packages/io-page/io-page.1.2.0/findlib
- create mode 100644 packages/io-page/io-page.1.2.0/opam
- create mode 100644 packages/io-page/io-page.1.2.0/url
- create mode 100644 packages/mikmatch/mikmatch.1.0.8/descr
- create mode 100644 packages/mikmatch/mikmatch.1.0.8/opam
- create mode 100644 packages/mikmatch/mikmatch.1.0.8/url
- create mode 100644 packages/mirage-net-macosx/mirage-net-macosx.1.0.0/descr
- create mode 100644 packages/mirage-net-macosx/mirage-net-macosx.1.0.0/opam
- create mode 100644 packages/mirage-net-macosx/mirage-net-macosx.1.0.0/url
- create mode 100644 packages/mirage-tc/mirage-tc.0.2.0/descr
- create mode 100644 packages/mirage-tc/mirage-tc.0.2.0/opam
- create mode 100644 packages/mirage-tc/mirage-tc.0.2.0/url
- create mode 100644 packages/mqtt/mqtt.0.0.1/descr
- create mode 100644 packages/mqtt/mqtt.0.0.1/opam
- create mode 100644 packages/mqtt/mqtt.0.0.1/url
- create mode 100644 packages/ocamleditor/ocamleditor.1.13.2/descr
- create mode 100644 packages/ocamleditor/ocamleditor.1.13.2/opam
- create mode 100644 packages/ocamleditor/ocamleditor.1.13.2/url
- create mode 100644 packages/ocp-index/ocp-index.1.1.1/descr
- create mode 100644 packages/ocp-index/ocp-index.1.1.1/files/ocaml.4.02.patch
- create mode 100644 packages/ocp-index/ocp-index.1.1.1/opam
- create mode 100644 packages/ocp-index/ocp-index.1.1.1/url
- create mode 100644 packages/omd/omd.1.2.3/descr
- create mode 100644 packages/omd/omd.1.2.3/files/omd.install
- create mode 100644 packages/omd/omd.1.2.3/opam
- create mode 100644 packages/omd/omd.1.2.3/url
- create mode 100644 packages/pcre/pcre.7.1.3/descr
- create mode 100644 packages/pcre/pcre.7.1.3/findlib
- create mode 100644 packages/pcre/pcre.7.1.3/opam
- create mode 100644 packages/pcre/pcre.7.1.3/url
- create mode 100644 packages/riakc_ppx/riakc_ppx.3.1.0/descr
- create mode 100644 packages/riakc_ppx/riakc_ppx.3.1.0/findlib
- create mode 100644 packages/riakc_ppx/riakc_ppx.3.1.0/opam
- create mode 100644 packages/riakc_ppx/riakc_ppx.3.1.0/url
- create mode 100644 packages/safa/safa.1.3/descr
- create mode 100644 packages/safa/safa.1.3/opam
- create mode 100644 packages/safa/safa.1.3/url
- create mode 100644 packages/slacko/slacko.0.11.0/descr
- create mode 100644 packages/slacko/slacko.0.11.0/opam
- create mode 100644 packages/slacko/slacko.0.11.0/url
- create mode 100644 packages/slap/slap.0.2.2/descr
- create mode 100644 packages/slap/slap.0.2.2/opam
- create mode 100644 packages/slap/slap.0.2.2/url
- create mode 100644 packages/spatial_index/spatial_index.0.0.2/descr
- create mode 100644 packages/spatial_index/spatial_index.0.0.2/opam
- create mode 100644 packages/spatial_index/spatial_index.0.0.2/url
- create mode 100644 packages/stringext/stringext.1.1.0/descr
- create mode 100644 packages/stringext/stringext.1.1.0/findlib
- create mode 100644 packages/stringext/stringext.1.1.0/opam
- create mode 100644 packages/stringext/stringext.1.1.0/url
- create mode 100644 packages/sundialsml/sundialsml.2.5.0p0/descr
- create mode 100644 packages/sundialsml/sundialsml.2.5.0p0/findlib
- create mode 100644 packages/sundialsml/sundialsml.2.5.0p0/opam
- create mode 100644 packages/sundialsml/sundialsml.2.5.0p0/url
- create mode 100644 packages/symkat/symkat.1.3/descr
- create mode 100644 packages/symkat/symkat.1.3/opam
- create mode 100644 packages/symkat/symkat.1.3/url
- create mode 100644 packages/tcpip/tcpip.2.0.2/descr
- create mode 100644 packages/tcpip/tcpip.2.0.2/opam
- create mode 100644 packages/tcpip/tcpip.2.0.2/url
- create mode 100644 packages/toml/toml.2.0.0/descr
- create mode 100644 packages/toml/toml.2.0.0/findlib
- create mode 100644 packages/toml/toml.2.0.0/opam
- create mode 100644 packages/toml/toml.2.0.0/url
- create mode 100644 packages/toml/toml.2.1.0/descr
- create mode 100644 packages/toml/toml.2.1.0/findlib
- create mode 100644 packages/toml/toml.2.1.0/opam
- create mode 100644 packages/toml/toml.2.1.0/url
- create mode 100644 packages/tophide/tophide.1.0.3/descr
- create mode 100644 packages/tophide/tophide.1.0.3/findlib
- create mode 100644 packages/tophide/tophide.1.0.3/opam
- create mode 100644 packages/tophide/tophide.1.0.3/url
- create mode 100644 packages/vmnet/vmnet.1.0.0/descr
- create mode 100644 packages/vmnet/vmnet.1.0.0/opam
- create mode 100644 packages/vmnet/vmnet.1.0.0/url
- create mode 100644 packages/vmnet/vmnet.1.0.1/descr
- create mode 100644 packages/vmnet/vmnet.1.0.1/opam
- create mode 100644 packages/vmnet/vmnet.1.0.1/url
- delete mode 100644 packages/zenon/zenon.0.7.1/findlib
+ packages/mirage-profile/mirage-profile.0.3/descr |  6 +++++
+ packages/mirage-profile/mirage-profile.0.3/opam  | 28 ++++++++++++++++++++++++
+ packages/mirage-profile/mirage-profile.0.3/url   |  2 ++
+ 3 files changed, 36 insertions(+)
+ create mode 100644 packages/mirage-profile/mirage-profile.0.3/descr
+ create mode 100644 packages/mirage-profile/mirage-profile.0.3/opam
+ create mode 100644 packages/mirage-profile/mirage-profile.0.3/url
 ++ opam remote add mirage git://github.com/mirage/mirage-dev
 [[1;34mmirage[m] Fetching git://github.com/mirage/mirage-dev
 Updating ~/.opam/repo/compiler-index ...
@@ -315,12 +39,6 @@ The following packages have been UPDATED upstream:
 [[1;34mdefault[m] Synchronizing with /home/opam/opam-repository
 Updating ~/.opam/repo/compiler-index ...
 Updating ~/.opam/compilers/ ...
-The following NEW compilers are available:
- - 4.03.0+pr119
- - 4.03.0+pr120
-The following compiler descriptions have been DELETED:
- - 4.03.0+pr73
- - 4.03.0+pr93
 Updating ~/.opam/repo/package-index ...
 Updating ~/.opam/packages/ ...
 Everything as up-to-date as possible (run with --verbose to show unavailable upgrades).
@@ -334,13 +52,11 @@ CentOS 7 depexts: openssl-devel
 Loaded plugins: fastestmirror
 base                                                     | 3.6 kB     00:00     
 extras                                                   | 3.4 kB     00:00     
-home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 3% [-                ]  0.0 B/s | 173 kB   --:-- ETA updates/7/x86_64/primary_d 10% [=-              ] 511 kB/s | 512 kB   00:08 ETA updates/7/x86_64/primary_d 21% [===             ] 584 kB/s | 1.0 MB   00:06 ETA updates/7/x86_64/primary_d 36% [=====-          ] 694 kB/s | 1.7 MB   00:04 ETA updates/7/x86_64/primary_d 59% [=========       ] 875 kB/s | 2.8 MB   00:02 ETA updates/7/x86_64/primary_d 98% [===============-] 1.2 MB/s | 4.7 MB   00:00 ETA updates/7/x86_64/primary_db                                | 4.8 MB   00:02     
-Determining fastest mirrors
- * base: centos.mirrors.tds.net
- * extras: mirror.sanctuaryhost.com
- * updates: mirror.us.oneandone.net
+Loading mirror speeds from cached hostfile
+ * base: mirror.vtti.vt.edu
+ * extras: mirror.cc.columbia.edu
+ * updates: centos.mbni.med.umich.edu
 Resolving Dependencies
 --> Running transaction check
 ---> Package openssl-devel.x86_64 1:1.0.1e-34.el7_0.6 will be installed
@@ -392,15 +108,15 @@ Installed size: 5.7 M
 Downloading packages:
 (2/9): krb5-devel-1.11.3-4 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/9): keyutils-libs-devel-1.5.8-3.el7.x86_64.rpm          |  37 kB   00:00     
 (2/9): libcom_err-devel-1.42.9-4.el7.x86_64.rpm            |  30 kB   00:00     
-(3/9): krb5-devel-1.11.3-49.el7.x86_64.rpm                 | 611 kB   00:00     
-(4/9): libselinux-devel-2.2.2-6.el7.x86_64.rpm             | 174 kB   00:00     
+(3/9): libselinux-devel-2.2.2-6.el7.x86_64.rpm             | 174 kB   00:00     
+(5/9): libsepol-devel-2.1. 27% [====            ]  0.0 B/s | 732 kB   --:-- ETA (4/9): krb5-devel-1.11.3-49.el7.x86_64.rpm                 | 611 kB   00:00     
 (5/9): libsepol-devel-2.1.9-3.el7.x86_64.rpm               |  71 kB   00:00     
 (6/9): libverto-devel-0.2.5-4.el7.x86_64.rpm               |  12 kB   00:00     
 (7/9): pcre-devel-8.32-12.el7.x86_64.rpm                   | 477 kB   00:00     
-(9/9): zlib-devel-1.2.7-13 52% [========        ]  0.0 B/s | 1.4 MB   --:-- ETA (8/9): zlib-devel-1.2.7-13.el7.x86_64.rpm                  |  49 kB   00:00     
-(9/9): openssl-devel-1.0.1 60% [=========-      ] 207 kB/s | 1.6 MB   00:05 ETA (9/9): openssl-devel-1.0.1 72% [===========-    ] 256 kB/s | 1.9 MB   00:02 ETA (9/9): openssl-devel-1.0.1 91% [==============- ] 339 kB/s | 2.4 MB   00:00 ETA (9/9): openssl-devel-1.0.1e-34.el7_0.6.x86_64.rpm          | 1.2 MB   00:01     
+(9/9): zlib-devel-1.2.7-13 52% [========        ] 824 kB/s | 1.4 MB   00:01 ETA (8/9): openssl-devel-1.0.1e-34.el7_0.6.x86_64.rpm          | 1.2 MB   00:00     
+(9/9): zlib-devel-1.2.7-13.el7.x86_64.rpm                  |  49 kB   00:00     
 --------------------------------------------------------------------------------
-Total                                              1.2 MB/s | 2.6 MB  00:02     
+Total                                              2.0 MB/s | 2.6 MB  00:01     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -473,17 +189,17 @@ The following actions will be performed:
 [[32mtype_conv.111.13.00[m] Downloading https://ocaml.janestreet.com/ocaml-core/111.13.00/individual/type_conv-111.13.00.tar.gz
 
 [36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
-Building re.1.2.2:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Building cmdliner.0.9.6:
-  ocaml pkg/git.ml
-  ocaml pkg/build.ml native=false native-dynlink=false
 Building optcomp.1.6:
   ./configure --prefix /home/opam/.opam/4.01.0
   make
   make install
+Building cmdliner.0.9.6:
+  ocaml pkg/git.ml
+  ocaml pkg/build.ml native=false native-dynlink=false
+Building re.1.2.2:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
+  ocaml setup.ml -build
+  ocaml setup.ml -install
 Installing cmdliner.0.9.6.
 Copying ~/.opam/repo/default/packages/ssl/ssl.0.4.7/files/pkgconfigure to ~/.opam/4.01.0/build/ssl.0.4.7/
 Building ssl.0.4.7:
@@ -505,14 +221,14 @@ Building ocplib-endian.0.4:
   ocaml setup.ml -build
   ocaml setup.ml -install
 Installing type_conv.111.13.00.
-[31m[ERROR][m The compilation of crunch.1.3.0 failed.
-Removing crunch.1.3.0.
-  rm -f /home/opam/.opam/4.01.0/bin/ocaml-crunch
-  ocamlfind remove crunch
 Building lwt.2.4.5:
   ./configure --disable-libev --disable-react --enable-ssl --enable-unix --enable-extra --enable-preemptive --disable-glib
   make build
   make install
+[31m[ERROR][m The compilation of crunch.1.3.0 failed.
+Removing crunch.1.3.0.
+  rm -f /home/opam/.opam/4.01.0/bin/ocaml-crunch
+  ocamlfind remove crunch
 Building sexplib.111.25.00:
   ./configure --enable-syntax
   make
@@ -547,9 +263,9 @@ Installing mirage-types.2.0.1.
 [31m#[m [31mpath[m         /home/opam/.opam/4.01.0/build/crunch.1.3.0
 [31m#[m [31mcompiler[m     4.01.0
 [31m#[m [31mexit-code[m    1
-[31m#[m [31menv-file[m     /home/opam/.opam/4.01.0/build/crunch.1.3.0/crunch-1518-0a5907.env
-[31m#[m [31mstdout-file[m  /home/opam/.opam/4.01.0/build/crunch.1.3.0/crunch-1518-0a5907.out
-[31m#[m [31mstderr-file[m  /home/opam/.opam/4.01.0/build/crunch.1.3.0/crunch-1518-0a5907.err
+[31m#[m [31menv-file[m     /home/opam/.opam/4.01.0/build/crunch.1.3.0/crunch-1525-0a5907.env
+[31m#[m [31mstdout-file[m  /home/opam/.opam/4.01.0/build/crunch.1.3.0/crunch-1525-0a5907.out
+[31m#[m [31mstderr-file[m  /home/opam/.opam/4.01.0/build/crunch.1.3.0/crunch-1525-0a5907.err
 [31m### stdout ###
 [m[31m# [m...[truncated]
 [31m# [mocamlfind ocamlc -c -g -I lib -package unix -package cmdliner -I lib -o lib/main.cmo lib/main.ml
@@ -585,4 +301,4 @@ The following [01mfailed[m
 Due to the errors, the following have been [01mcancelled[m
  - install   mirage.2.0.1
 
-The former state can be restored with opam switch import "/home/opam/.opam/4.01.0/backup/state-20141105170659.export"
+The former state can be restored with opam switch import "/home/opam/.opam/4.01.0/backup/state-20141106171042.export"
