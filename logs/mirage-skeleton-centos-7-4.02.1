@@ -10,18 +10,21 @@
 ++ '[' -z skeleton ']'
 ++ '[' -d .git ']'
 ++ git pull
-remote: Counting objects: 8, done.[K
-remote: Compressing objects:  12% (1/8)   [Kremote: Compressing objects:  25% (2/8)   [Kremote: Compressing objects:  37% (3/8)   [Kremote: Compressing objects:  50% (4/8)   [Kremote: Compressing objects:  62% (5/8)   [Kremote: Compressing objects:  75% (6/8)   [Kremote: Compressing objects:  87% (7/8)   [Kremote: Compressing objects: 100% (8/8)   [Kremote: Compressing objects: 100% (8/8), done.[K
-remote: Total 8 (delta 0), reused 0 (delta 0)[K
-Unpacking objects:  12% (1/8)   Unpacking objects:  25% (2/8)   Unpacking objects:  37% (3/8)   Unpacking objects:  50% (4/8)   Unpacking objects:  62% (5/8)   Unpacking objects:  75% (6/8)   Unpacking objects:  87% (7/8)   Unpacking objects: 100% (8/8)   Unpacking objects: 100% (8/8), done.
+remote: Counting objects: 24, done.[K
+remote: Compressing objects:   4% (1/24)   [Kremote: Compressing objects:   8% (2/24)   [Kremote: Compressing objects:  12% (3/24)   [Kremote: Compressing objects:  16% (4/24)   [Kremote: Compressing objects:  20% (5/24)   [Kremote: Compressing objects:  25% (6/24)   [Kremote: Compressing objects:  29% (7/24)   [Kremote: Compressing objects:  33% (8/24)   [Kremote: Compressing objects:  37% (9/24)   [Kremote: Compressing objects:  41% (10/24)   [Kremote: Compressing objects:  45% (11/24)   [Kremote: Compressing objects:  50% (12/24)   [Kremote: Compressing objects:  54% (13/24)   [Kremote: Compressing objects:  58% (14/24)   [Kremote: Compressing objects:  62% (15/24)   [Kremote: Compressing objects:  66% (16/24)   [Kremote: Compressing objects:  70% (17/24)   [Kremote: Compressing objects:  75% (18/24)   [Kremote: Compressing objects:  79% (19/24)   [Kremote: Compressing objects:  83% (20/24)   [Kremote: Compressing objects:  87% (21/24)   [Kremote: Compressing objects:  91% (22/24)   [Kremote: Compressing objects:  95% (23/24)   [Kremote: Compressing objects: 100% (24/24)   [Kremote: Compressing objects: 100% (24/24), done.[K
+remote: Total 24 (delta 6), reused 0 (delta 0)[K
+Unpacking objects:   4% (1/24)   Unpacking objects:   8% (2/24)   Unpacking objects:  12% (3/24)   Unpacking objects:  16% (4/24)   Unpacking objects:  20% (5/24)   Unpacking objects:  25% (6/24)   Unpacking objects:  29% (7/24)   Unpacking objects:  33% (8/24)   Unpacking objects:  37% (9/24)   Unpacking objects:  41% (10/24)   Unpacking objects:  45% (11/24)   Unpacking objects:  50% (12/24)   Unpacking objects:  54% (13/24)   Unpacking objects:  58% (14/24)   Unpacking objects:  62% (15/24)   Unpacking objects:  66% (16/24)   Unpacking objects:  70% (17/24)   Unpacking objects:  75% (18/24)   Unpacking objects:  79% (19/24)   Unpacking objects:  83% (20/24)   Unpacking objects:  87% (21/24)   Unpacking objects:  91% (22/24)   Unpacking objects:  95% (23/24)   Unpacking objects: 100% (24/24)   Unpacking objects: 100% (24/24), done.
 From git://github.com/ocaml/opam-repository
-   b6b93c2..bbb86b4  master     -> origin/master
-Updating b6b93c2..bbb86b4
+   b6b93c2..3a99162  master     -> origin/master
+Updating b6b93c2..3a99162
 Fast-forward
+ packages/ezjsonm/ezjsonm.0.3.1/opam              |  2 +-
+ packages/inotify/inotify.1.4/url                 |  2 +-
+ packages/inotify/inotify.1.5/url                 |  2 +-
  packages/mirage-profile/mirage-profile.0.3/descr |  6 +++++
  packages/mirage-profile/mirage-profile.0.3/opam  | 28 ++++++++++++++++++++++++
  packages/mirage-profile/mirage-profile.0.3/url   |  2 ++
- 3 files changed, 36 insertions(+)
+ 6 files changed, 39 insertions(+), 3 deletions(-)
  create mode 100644 packages/mirage-profile/mirage-profile.0.3/descr
  create mode 100644 packages/mirage-profile/mirage-profile.0.3/opam
  create mode 100644 packages/mirage-profile/mirage-profile.0.3/url
@@ -55,9 +58,9 @@ Loaded plugins: fastestmirror
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
 Loading mirror speeds from cached hostfile
- * base: mirrors.lga7.us.voxel.net
- * extras: mirror.cc.columbia.edu
- * updates: bay.uchicago.edu
+ * base: mirror.steadfast.net
+ * extras: mirrors.gigenet.com
+ * updates: mirror.team-cymru.org
 Resolving Dependencies
 --> Running transaction check
 ---> Package openssl-devel.x86_64 1:1.0.1e-34.el7_0.6 will be installed
@@ -109,13 +112,13 @@ Installed size: 5.7 M
 Downloading packages:
 (2/9): krb5-devel-1.11.3-4 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/9): keyutils-libs-devel-1.5.8-3.el7.x86_64.rpm          |  37 kB   00:00     
 (2/9): libcom_err-devel-1.42.9-4.el7.x86_64.rpm            |  30 kB   00:00     
-(3/9): libselinux-devel-2.2.2-6.el7.x86_64.rpm             | 174 kB   00:00     
-(5/9): libsepol-devel-2.1. 29% [====-           ]  0.0 B/s | 795 kB   --:-- ETA (4/9): krb5-devel-1.11.3-49.el7.x86_64.rpm                 | 611 kB   00:00     
+(4/9): libselinux-devel-2. 18% [==-             ]  0.0 B/s | 498 kB   --:-- ETA (3/9): libselinux-devel-2.2.2-6.el7.x86_64.rpm             | 174 kB   00:00     
+(4/9): krb5-devel-1.11.3-49.el7.x86_64.rpm                 | 611 kB   00:00     
 (5/9): libsepol-devel-2.1.9-3.el7.x86_64.rpm               |  71 kB   00:00     
 (6/9): libverto-devel-0.2.5-4.el7.x86_64.rpm               |  12 kB   00:00     
 (7/9): pcre-devel-8.32-12.el7.x86_64.rpm                   | 477 kB   00:00     
-(9/9): zlib-devel-1.2.7-13 52% [========        ] 836 kB/s | 1.4 MB   00:01 ETA (8/9): openssl-devel-1.0.1e-34.el7_0.6.x86_64.rpm          | 1.2 MB   00:00     
-(9/9): zlib-devel-1.2.7-13.el7.x86_64.rpm                  |  49 kB   00:00     
+(8/9): openssl-devel-1.0.1e-34.el7_0.6.x86_64.rpm          | 1.2 MB   00:00     
+(9/9): zlib-devel-1.2.7-13 98% [===============-] 2.4 MB/s | 2.6 MB   00:00 ETA (9/9): zlib-devel-1.2.7-13.el7.x86_64.rpm                  |  49 kB   00:00     
 --------------------------------------------------------------------------------
 Total                                              2.0 MB/s | 2.6 MB  00:01     
 Running transaction check
@@ -190,14 +193,14 @@ The following actions will be performed:
 [[32mtype_conv.112.01.00[m] Downloading https://ocaml.janestreet.com/ocaml-core/112.01.00/individual/type_conv-112.01.00.tar.gz
 
 [36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
-Building re.1.2.2:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.02.1
-  ocaml setup.ml -build
-  ocaml setup.ml -install
 Building optcomp.1.6:
   ./configure --prefix /home/opam/.opam/4.02.1
   make
   make install
+Building re.1.2.2:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/4.02.1
+  ocaml setup.ml -build
+  ocaml setup.ml -install
 Building cmdliner.0.9.6:
   ocaml pkg/git.ml
   ocaml pkg/build.ml native=false native-dynlink=false
@@ -212,24 +215,24 @@ Building type_conv.112.01.00:
   make
   make install
 Installing optcomp.1.6.
+Installing ssl.0.4.7.
 Building crunch.1.3.0:
   ocaml setup.ml -configure --prefix /home/opam/.opam/4.02.1
   ocaml setup.ml -build
   ocaml setup.ml -install
-Installing ssl.0.4.7.
-Building ocplib-endian.0.4:
-  ocaml setup.ml -configure --disable-debug --prefix /home/opam/.opam/4.02.1
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-[31m[ERROR][m The compilation of crunch.1.3.0 failed.
-Removing crunch.1.3.0.
-  rm -f /home/opam/.opam/4.02.1/bin/ocaml-crunch
-  ocamlfind remove crunch
 Building lwt.2.4.5:
   ./configure --disable-libev --disable-react --enable-ssl --enable-unix --enable-extra --enable-preemptive --disable-glib
   make build
   make install
+[31m[ERROR][m The compilation of crunch.1.3.0 failed.
+Removing crunch.1.3.0.
+  rm -f /home/opam/.opam/4.02.1/bin/ocaml-crunch
+  ocamlfind remove crunch
 Installing type_conv.112.01.00.
+Building ocplib-endian.0.4:
+  ocaml setup.ml -configure --disable-debug --prefix /home/opam/.opam/4.02.1
+  ocaml setup.ml -build
+  ocaml setup.ml -install
 Building sexplib.112.01.00:
   ./configure --enable-syntax
   make
@@ -264,9 +267,9 @@ Installing mirage-types.2.0.1.
 [31m#[m [31mpath[m         /home/opam/.opam/4.02.1/build/crunch.1.3.0
 [31m#[m [31mcompiler[m     4.02.1
 [31m#[m [31mexit-code[m    1
-[31m#[m [31menv-file[m     /home/opam/.opam/4.02.1/build/crunch.1.3.0/crunch-1517-0a5907.env
-[31m#[m [31mstdout-file[m  /home/opam/.opam/4.02.1/build/crunch.1.3.0/crunch-1517-0a5907.out
-[31m#[m [31mstderr-file[m  /home/opam/.opam/4.02.1/build/crunch.1.3.0/crunch-1517-0a5907.err
+[31m#[m [31menv-file[m     /home/opam/.opam/4.02.1/build/crunch.1.3.0/crunch-1585-335865.env
+[31m#[m [31mstdout-file[m  /home/opam/.opam/4.02.1/build/crunch.1.3.0/crunch-1585-335865.out
+[31m#[m [31mstderr-file[m  /home/opam/.opam/4.02.1/build/crunch.1.3.0/crunch-1585-335865.err
 [31m### stdout ###
 [m[31m# [m...[truncated]
 [31m# [mocamlfind ocamlc -c -g -I lib -package unix -package cmdliner -I lib -o lib/main.cmo lib/main.ml
@@ -312,4 +315,4 @@ The following [01mfailed[m
 Due to the errors, the following have been [01mcancelled[m
  - install   mirage.2.0.1
 
-The former state can be restored with opam switch import "/home/opam/.opam/4.02.1/backup/state-20141106171332.export"
+The former state can be restored with opam switch import "/home/opam/.opam/4.02.1/backup/state-20141107170059.export"
