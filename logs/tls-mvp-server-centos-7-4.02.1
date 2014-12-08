@@ -34,9 +34,9 @@ Loaded plugins: fastestmirror
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
 Loading mirror speeds from cached hostfile
- * base: mirror.steadfast.net
- * extras: mirrors.gigenet.com
- * updates: mirror.team-cymru.org
+ * base: mirror.fdcservers.net
+ * extras: mirror.fdcservers.net
+ * updates: mirror.acsnet.com
 Package 1:gmp-5.1.1-5.el7.x86_64 already installed and latest version
 Resolving Dependencies
 --> Running transaction check
@@ -60,10 +60,10 @@ Install  2 Packages
 Total download size: 197 k
 Installed size: 361 k
 Downloading packages:
-(2/2): libffi-devel-3.0.13 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/2): libffi-devel-3.0.13-11.el7.x86_64.rpm               |  22 kB   00:00     
-(2/2): gmp-devel-5.1.1-5.el7.x86_64.rpm                    | 175 kB   00:00     
+(1/2): gmp-devel-5.1.1-5.el7.x86_64.rpm                    | 175 kB   00:00     
+(2/2): libffi-devel-3.0.13 88% [==============  ]  0.0 B/s | 175 kB   --:-- ETA (2/2): libffi-devel-3.0.13-11.el7.x86_64.rpm               |  22 kB   00:00     
 --------------------------------------------------------------------------------
-Total                                              331 kB/s | 197 kB  00:00     
+Total                                              469 kB/s | 197 kB  00:00     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -129,13 +129,13 @@ The following actions will be performed:
 Copying ~/.opam/repo/default/packages/conf-gmp/conf-gmp.1/files/test.c to ~/.opam/4.02.1/build/conf-gmp.1/
 Building conf-gmp.1:
   sh -c cc -c $CFLAGS test.c
-Building cmdliner.0.9.6:
-  ocaml pkg/git.ml
-  ocaml pkg/build.ml native=false native-dynlink=false
+Installing conf-gmp.1.
 Building ctypes.0.3:
   make
   make install
-Installing conf-gmp.1.
+Building cmdliner.0.9.6:
+  ocaml pkg/git.ml
+  ocaml pkg/build.ml native=false native-dynlink=false
 Building lwt.2.4.5:
   ./configure --disable-libev --disable-react --disable-ssl --enable-unix --enable-extra --enable-preemptive --disable-glib
   make build
@@ -276,4 +276,4 @@ Due to the errors, the following have been [01mcancelled[m
  - install   mirage.2.0.1
  - install   tls.0.2.0
 
-The former state can be restored with opam switch import "/home/opam/.opam/4.02.1/backup/state-20141107171905.export"
+The former state can be restored with opam switch import "/home/opam/.opam/4.02.1/backup/state-20141108172022.export"
