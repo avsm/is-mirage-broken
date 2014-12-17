@@ -33,12 +33,10 @@ Loaded plugins: fastestmirror
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-(1/2): extras/7/x86_64/primary_db                          |  39 kB   00:00     
-(2/2): updates/7/x86_64/pr 0% [                 ]  0.0 B/s |  39 kB   --:-- ETA (2/2): updates/7/x86_64/pr 1% [                 ]  26 kB/s |  64 kB   03:29 ETA (2/2): updates/7/x86_64/pr 3% [-                ]  53 kB/s | 208 kB   01:40 ETA (2/2): updates/7/x86_64/pr 15% [==              ] 181 kB/s | 863 kB   00:26 ETA (2/2): updates/7/x86_64/pr 43% [======-         ] 483 kB/s | 2.4 MB   00:06 ETA (2/2): updates/7/x86_64/pr 67% [==========-     ] 722 kB/s | 3.7 MB   00:02 ETA (2/2): updates/7/x86_64/pr 88% [==============  ] 905 kB/s | 4.8 MB   00:00 ETA (2/2): updates/7/x86_64/primary_db                         | 5.4 MB   00:02     
-Determining fastest mirrors
- * base: mirrors.gawsolutions.us
- * extras: mirror.tzulo.com
- * updates: mirror.nexcess.net
+Loading mirror speeds from cached hostfile
+ * base: centos.mirror.constant.com
+ * extras: mirror.umd.edu
+ * updates: mirror.umd.edu
 Package 1:gmp-5.1.1-5.el7.x86_64 already installed and latest version
 Resolving Dependencies
 --> Running transaction check
@@ -62,10 +60,10 @@ Install  2 Packages
 Total download size: 197 k
 Installed size: 361 k
 Downloading packages:
-(1/2): libffi-devel-3.0.13-11.el7.x86_64.rpm               |  22 kB   00:00     
-(2/2): gmp-devel-5.1.1-5.e 11% [=-              ]  0.0 B/s |  22 kB   --:-- ETA (2/2): gmp-devel-5.1.1-5.e 60% [=========-      ]  13 kB/s | 119 kB   00:06 ETA (2/2): gmp-devel-5.1.1-5. 100% [================]  27 kB/s | 197 kB   00:00 ETA (2/2): gmp-devel-5.1.1-5.el7.x86_64.rpm                    | 175 kB   00:07     
+(2/2): libffi-devel-3.0.13 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/2): libffi-devel-3.0.13-11.el7.x86_64.rpm               |  22 kB   00:00     
+(2/2): gmp-devel-5.1.1-5.el7.x86_64.rpm                    | 175 kB   00:00     
 --------------------------------------------------------------------------------
-Total                                               25 kB/s | 197 kB  00:08     
+Total                                              313 kB/s | 197 kB  00:00     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -84,75 +82,73 @@ Installed:
 Complete!
 + opam install -j 3 mirage tls
 The following actions will be performed:
+ - install   base-bytes.base                       [required by ctypes, ocplib-endian]
  - install   conf-gmp.1                            [required by zarith]
  - install   re.1.2.2                              [required by mirage]
- - install   optcomp.1.6                           [required by ocplib-endian]
- - install   ctypes.0.3                            [required by nocrypto]
  - install   lwt.2.4.5                             [required by tls, mirage]
  - install   cmdliner.0.9.6                        [required by mirage]
- - install   type_conv.112.01.00                   [required by sexplib]
+ - install   cppo.1.1.2                            [required by ocplib-endian]
+ - install   type_conv.112.01.00                   [required by nocrypto, cstruct, ipaddr]
+ - install   ctypes.0.3.3                          [required by nocrypto]
  - install   zarith.1.3                            [required by nocrypto]
- - install   ocplib-endian.0.4                     [required by cstruct]
  - install   crunch.1.3.0                          [required by mirage]
- - install   sexplib.112.01.00                     [required by tls, mirage]
+ - install   ocplib-endian.0.8                     [required by cstruct]
+ - install   sexplib.112.06.00                     [required by tls, mirage]
  - install   ipaddr.2.5.0                          [required by mirage]
  - install   cstruct.1.5.0                         [required by tls, mirage]
  - install   nocrypto.0.2.2                        [required by tls]
  - install   io-page.1.2.0                         [required by mirage]
  - install   asn1-combinators.0.1.1                [required by x509]
- - install   mirage-types.2.0.1                    [required by mirage]
+ - install   mirage-types.2.1.1                    [required by mirage]
  - install   x509.0.2.0                            [required by tls]
- - install   mirage.2.0.1
+ - install   mirage.2.1.1
  - install   tls.0.2.0
-=== [33m20[m to install ===
+=== [33m21[m to install ===
 
 [36m=-=-[m [01mSynchronizing package archives[m [36m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
 [[32masn1-combinators.0.1.1[m] Downloading https://github.com/mirleft/ocaml-asn1-combinators/archive/0.1.1.tar.gz
 [[32mcmdliner.0.9.6[m] Downloading http://erratique.ch/software/cmdliner/releases/cmdliner-0.9.6.tbz
+[[32mcppo.1.1.2[m] Downloading http://mjambon.com/releases/cppo/cppo-1.1.2.tar.gz
 [[32mcrunch.1.3.0[m] Downloading https://github.com/mirage/ocaml-crunch/archive/v1.3.0.tar.gz
 [[32mcstruct.1.5.0[m] Downloading https://github.com/mirage/ocaml-cstruct/archive/v1.5.0.tar.gz
-[[32mctypes.0.3[m] Downloading https://github.com/ocamllabs/ocaml-ctypes/archive/0.3.tar.gz
+[[32mctypes.0.3.3[m] Downloading https://github.com/ocamllabs/ocaml-ctypes/archive/0.3.3.tar.gz
 [[32mio-page.1.2.0[m] Downloading https://github.com/mirage/io-page/archive/v1.2.0.tar.gz
 [[32mipaddr.2.5.0[m] Downloading https://github.com/mirage/ocaml-ipaddr/archive/2.5.0.tar.gz
 [[32mlwt.2.4.5[m] Downloading https://github.com/ocsigen/lwt/archive/2.4.5.tar.gz
-[[32mmirage.2.0.1[m] Downloading https://github.com/mirage/mirage/archive/v2.0.1.tar.gz
-[[32mmirage-types.2.0.1[m] Downloading https://github.com/mirage/mirage/archive/v2.0.1.tar.gz
+[[32mmirage.2.1.1[m] Downloading https://github.com/mirage/mirage/archive/v2.1.1.tar.gz
+[[32mmirage-types.2.1.1[m] Downloading https://github.com/mirage/mirage/archive/v2.1.1.tar.gz
 [[32mnocrypto.0.2.2[m] Downloading https://github.com/mirleft/ocaml-nocrypto/archive/0.2.2.tar.gz
-[[32mocplib-endian.0.4[m] Downloading https://github.com/OCamlPro/ocplib-endian/archive/0.4.tar.gz
-[[32moptcomp.1.6[m] Downloading https://github.com/diml/optcomp/archive/1.6.tar.gz
+[[32mocplib-endian.0.8[m] Downloading https://github.com/OCamlPro/ocplib-endian/archive/0.8.tar.gz
 [[32mre.1.2.2[m] Downloading https://github.com/ocaml/ocaml-re/archive/ocaml-re-1.2.2.tar.gz
-[[32msexplib.112.01.00[m] Downloading https://ocaml.janestreet.com/ocaml-core/112.01.00/individual/sexplib-112.01.00.tar.gz
+[[32msexplib.112.06.00[m] Downloading https://github.com/janestreet/sexplib/archive/112.06.00-rc1.tar.gz
 [[32mtls.0.2.0[m] Downloading https://github.com/mirleft/ocaml-tls/archive/0.2.0.tar.gz
 [[32mtype_conv.112.01.00[m] Downloading https://ocaml.janestreet.com/ocaml-core/112.01.00/individual/type_conv-112.01.00.tar.gz
 [[32mx509.0.2.0[m] Downloading https://github.com/mirleft/ocaml-x509/archive/0.2.0.tar.gz
 [[32mzarith.1.3[m] Downloading https://forge.ocamlcore.org/frs/download.php/1471/zarith-1.3.tgz
 
 [36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+Installing base-bytes.base.
 Copying ~/.opam/repo/default/packages/conf-gmp/conf-gmp.1/files/test.c to ~/.opam/4.02.1/build/conf-gmp.1/
 Building conf-gmp.1:
   sh -c cc -c $CFLAGS test.c
 Installing conf-gmp.1.
+Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/4.02.1/build/cppo.1.1.2/
 Building cmdliner.0.9.6:
   ocaml pkg/git.ml
   ocaml pkg/build.ml native=false native-dynlink=false
-Building ctypes.0.3:
+Building cppo.1.1.2:
   make
-  make install
+  make install-lib
 Building lwt.2.4.5:
   ./configure --disable-libev --disable-react --disable-ssl --enable-unix --enable-extra --enable-preemptive --disable-glib
   make build
   make install
 Installing cmdliner.0.9.6.
-Building optcomp.1.6:
-  ./configure --prefix /home/opam/.opam/4.02.1
-  make
-  make install
-Installing optcomp.1.6.
 Building re.1.2.2:
   ocaml setup.ml -configure --prefix /home/opam/.opam/4.02.1
   ocaml setup.ml -build
   ocaml setup.ml -install
-Installing ctypes.0.3.
+Installing cppo.1.1.2.
 Building type_conv.112.01.00:
   make
   make install
@@ -162,25 +158,29 @@ Building crunch.1.3.0:
   ocaml setup.ml -build
   ocaml setup.ml -install
 Installing re.1.2.2.
-Building ocplib-endian.0.4:
-  ocaml setup.ml -configure --disable-debug --prefix /home/opam/.opam/4.02.1
-  ocaml setup.ml -build
-  ocaml setup.ml -install
+Building ctypes.0.3.3:
+  make
+  make install
 [31m[ERROR][m The compilation of crunch.1.3.0 failed.
 Removing crunch.1.3.0.
   rm -f /home/opam/.opam/4.02.1/bin/ocaml-crunch
   ocamlfind remove crunch
-Building sexplib.112.01.00:
+Building ocplib-endian.0.8:
+  ocaml setup.ml -configure --disable-debug --prefix /home/opam/.opam/4.02.1
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing ocplib-endian.0.8.
+Building sexplib.112.06.00:
   ./configure --enable-syntax
   make
   make install
-Installing ocplib-endian.0.4.
+Installing ctypes.0.3.3.
 Building zarith.1.3:
   ./configure
   make
   make install
 Installing zarith.1.3.
-Installing sexplib.112.01.00.
+Installing sexplib.112.06.00.
 Building ipaddr.2.5.0:
   ocaml setup.ml -configure --prefix /home/opam/.opam/4.02.1
   make build
@@ -192,23 +192,23 @@ Building cstruct.1.5.0:
   make install
 Installing ipaddr.2.5.0.
 Installing cstruct.1.5.0.
-Building io-page.1.2.0:
-  ./configure --prefix /home/opam/.opam/4.02.1
-  make
-  make install
 Building asn1-combinators.0.1.1:
   ocaml setup.ml -configure --prefix /home/opam/.opam/4.02.1
   ocaml setup.ml -build
   ocaml setup.ml -install
+Building io-page.1.2.0:
+  ./configure --prefix /home/opam/.opam/4.02.1
+  make
+  make install
 Building nocrypto.0.2.2:
   ocaml setup.ml -configure --prefix /home/opam/.opam/4.02.1
   ocaml setup.ml -build
   ocaml setup.ml -install
 Installing io-page.1.2.0.
-Building mirage-types.2.0.1:
+Building mirage-types.2.1.1:
   make install-types
 Installing asn1-combinators.0.1.1.
-Installing mirage-types.2.0.1.
+Installing mirage-types.2.1.1.
 Installing nocrypto.0.2.2.
 Building x509.0.2.0:
   ocaml setup.ml -configure --prefix /home/opam/.opam/4.02.1
@@ -224,9 +224,9 @@ Installing x509.0.2.0.
 [31m#[m [31mpath[m         /home/opam/.opam/4.02.1/build/crunch.1.3.0
 [31m#[m [31mcompiler[m     4.02.1
 [31m#[m [31mexit-code[m    1
-[31m#[m [31menv-file[m     /home/opam/.opam/4.02.1/build/crunch.1.3.0/crunch-2175-d474c2.env
-[31m#[m [31mstdout-file[m  /home/opam/.opam/4.02.1/build/crunch.1.3.0/crunch-2175-d474c2.out
-[31m#[m [31mstderr-file[m  /home/opam/.opam/4.02.1/build/crunch.1.3.0/crunch-2175-d474c2.err
+[31m#[m [31menv-file[m     /home/opam/.opam/4.02.1/build/crunch.1.3.0/crunch-1111-ebe0e0.env
+[31m#[m [31mstdout-file[m  /home/opam/.opam/4.02.1/build/crunch.1.3.0/crunch-1111-ebe0e0.out
+[31m#[m [31mstderr-file[m  /home/opam/.opam/4.02.1/build/crunch.1.3.0/crunch-1111-ebe0e0.err
 [31m### stdout ###
 [m[31m# [m...[truncated]
 [31m# [mocamlfind ocamlc -c -g -I lib -package unix -package cmdliner -I lib -o lib/main.cmo lib/main.ml
@@ -255,27 +255,28 @@ Installing x509.0.2.0.
 
 [36m=-=-[m [01mError report[m [36m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
 These actions have been completed [01msuccessfully[m
- - install   sexplib.112.01.00
- - install   ocplib-endian.0.4
  - install   type_conv.112.01.00
+ - install   cppo.1.1.2
+ - install   ctypes.0.3.3
  - install   cmdliner.0.9.6
  - install   cstruct.1.5.0
  - install   io-page.1.2.0
  - install   ipaddr.2.5.0
+ - install   ocplib-endian.0.8
  - install   lwt.2.4.5
- - install   ctypes.0.3
  - install   asn1-combinators.0.1.1
- - install   optcomp.1.6
+ - install   sexplib.112.06.00
  - install   re.1.2.2
  - install   nocrypto.0.2.2
  - install   conf-gmp.1
+ - install   mirage-types.2.1.1
  - install   x509.0.2.0
+ - install   base-bytes.base
  - install   zarith.1.3
- - install   mirage-types.2.0.1
 The following [01mfailed[m
  - install   crunch.1.3.0
 Due to the errors, the following have been [01mcancelled[m
- - install   mirage.2.0.1
+ - install   mirage.2.1.1
  - install   tls.0.2.0
 
-The former state can be restored with opam switch import "/home/opam/.opam/4.02.1/backup/state-20141116172907.export"
+The former state can be restored with opam switch import "/home/opam/.opam/4.02.1/backup/state-20141117171444.export"
