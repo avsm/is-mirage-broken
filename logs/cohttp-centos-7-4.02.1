@@ -29,14 +29,10 @@ CentOS 7 depexts: openssl-devel
 + '[' openssl-devel '!=' '' ']'
 + sudo yum install -y openssl-devel
 Loaded plugins: fastestmirror
-base                                                     | 3.6 kB     00:00     
-extras                                                   | 3.4 kB     00:00     
-home_ocaml                                               | 1.2 kB     00:00     
-updates                                                  | 3.4 kB     00:00     
 Loading mirror speeds from cached hostfile
- * base: centos.mirror.constant.com
- * extras: mirror.umd.edu
- * updates: mirror.umd.edu
+ * base: mirrors.seas.harvard.edu
+ * extras: mirror.metrocast.net
+ * updates: mirror.fdcservers.net
 Resolving Dependencies
 --> Running transaction check
 ---> Package openssl-devel.x86_64 1:1.0.1e-34.el7_0.6 will be installed
@@ -89,14 +85,14 @@ Downloading packages:
 (2/9): krb5-devel-1.11.3-4 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/9): keyutils-libs-devel-1.5.8-3.el7.x86_64.rpm          |  37 kB   00:00     
 (2/9): libcom_err-devel-1.42.9-4.el7.x86_64.rpm            |  30 kB   00:00     
 (3/9): libselinux-devel-2.2.2-6.el7.x86_64.rpm             | 174 kB   00:00     
-(5/9): libsepol-devel-2.1. 22% [===-            ]  0.0 B/s | 609 kB   --:-- ETA (4/9): libsepol-devel-2.1.9-3.el7.x86_64.rpm               |  71 kB   00:00     
-(5/9): libverto-devel-0.2.5-4.el7.x86_64.rpm               |  12 kB   00:00     
-(6/9): krb5-devel-1.11.3-49.el7.x86_64.rpm                 | 611 kB   00:00     
+(4/9): krb5-devel-1.11.3-49.el7.x86_64.rpm                 | 611 kB   00:00     
+(5/9): libsepol-devel-2.1.9-3.el7.x86_64.rpm               |  71 kB   00:00     
+(6/9): libverto-devel-0.2.5-4.el7.x86_64.rpm               |  12 kB   00:00     
 (7/9): zlib-devel-1.2.7-13.el7.x86_64.rpm                  |  49 kB   00:00     
-(8/9): openssl-devel-1.0.1e-34.el7_0.6.x86_64.rpm          | 1.2 MB   00:00     
-(9/9): pcre-devel-8.32-12. 82% [=============   ] 1.9 MB/s | 2.1 MB   00:00 ETA (9/9): pcre-devel-8.32-12.el7.x86_64.rpm                   | 477 kB   00:00     
+(8/9): pcre-devel-8.32-12.el7.x86_64.rpm                   | 477 kB   00:00     
+(9/9): openssl-devel-1.0.1e-34.el7_0.6.x86_64.rpm          | 1.2 MB   00:00     
 --------------------------------------------------------------------------------
-Total                                              1.7 MB/s | 2.6 MB  00:01     
+Total                                              2.4 MB/s | 2.6 MB  00:01     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -259,9 +255,9 @@ Removing cohttp.0.13.0.
 [31m#[m [31mpath[m         /home/opam/.opam/4.02.1/build/cohttp.0.13.0
 [31m#[m [31mcompiler[m     4.02.1
 [31m#[m [31mexit-code[m    2
-[31m#[m [31menv-file[m     /home/opam/.opam/4.02.1/build/cohttp.0.13.0/cohttp-4935-48c407.env
-[31m#[m [31mstdout-file[m  /home/opam/.opam/4.02.1/build/cohttp.0.13.0/cohttp-4935-48c407.out
-[31m#[m [31mstderr-file[m  /home/opam/.opam/4.02.1/build/cohttp.0.13.0/cohttp-4935-48c407.err
+[31m#[m [31menv-file[m     /home/opam/.opam/4.02.1/build/cohttp.0.13.0/cohttp-4923-48c407.env
+[31m#[m [31mstdout-file[m  /home/opam/.opam/4.02.1/build/cohttp.0.13.0/cohttp-4923-48c407.out
+[31m#[m [31mstderr-file[m  /home/opam/.opam/4.02.1/build/cohttp.0.13.0/cohttp-4923-48c407.err
 [31m### stdout ###
 [m[31m# [m...[truncated]
 [31m# [m/home/opam/.opam/4.02.1/bin/ocamlfind ocamlopt -c -g -annot -bin-annot -short-paths -principal -strict-sequence -I cohttp -I lwt -I lwt -I async -package cmdliner -package conduit.lwt-unix -package fieldslib -syntax camlp4o -package fieldslib.syntax -package lwt -syntax camlp4o -package lwt.syntax -package lwt.unix -package re.emacs -package sexplib -syntax camlp4o -package sexplib.syntax -package stringext -package threads -package unix -package uri -package uri.services -thread -I bin -I async -I cohttp -I lwt -o bin/cohttp_server_lwt.cmx bin/cohttp_server_lwt.ml
@@ -300,4 +296,4 @@ These actions have been completed [01msuccessfully[m
 The following [01mfailed[m
  - install   cohttp.0.13.0
 
-The former state can be restored with opam switch import "/home/opam/.opam/4.02.1/backup/state-20141117173442.export"
+The former state can be restored with opam switch import "/home/opam/.opam/4.02.1/backup/state-20141118175609.export"
