@@ -10,95 +10,40 @@
 ++ '[' -z skeleton ']'
 ++ '[' -d .git ']'
 ++ git pull
-remote: Counting objects: 112, done.[K
-remote: Compressing objects:   0% (1/110)   [Kremote: Compressing objects:   1% (2/110)   [Kremote: Compressing objects:   2% (3/110)   [Kremote: Compressing objects:   3% (4/110)   [Kremote: Compressing objects:   4% (5/110)   [Kremote: Compressing objects:   5% (6/110)   [Kremote: Compressing objects:   6% (7/110)   [Kremote: Compressing objects:   7% (8/110)   [Kremote: Compressing objects:   8% (9/110)   [Kremote: Compressing objects:   9% (10/110)   [Kremote: Compressing objects:  10% (11/110)   [Kremote: Compressing objects:  11% (13/110)   [Kremote: Compressing objects:  12% (14/110)   [Kremote: Compressing objects:  13% (15/110)   [Kremote: Compressing objects:  14% (16/110)   [Kremote: Compressing objects:  15% (17/110)   [Kremote: Compressing objects:  16% (18/110)   [Kremote: Compressing objects:  17% (19/110)   [Kremote: Compressing objects:  18% (20/110)   [Kremote: Compressing objects:  19% (21/110)   [Kremote: Compressing objects:  20% (22/110)   [Kremote: Compressing objects:  21% (24/110)   [Kremote: Compressing objects:  22% (25/110)   [Kremote: Compressing objects:  23% (26/110)   [Kremote: Compressing objects:  24% (27/110)   [Kremote: Compressing objects:  25% (28/110)   [Kremote: Compressing objects:  26% (29/110)   [Kremote: Compressing objects:  27% (30/110)   [Kremote: Compressing objects:  28% (31/110)   [Kremote: Compressing objects:  29% (32/110)   [Kremote: Compressing objects:  30% (33/110)   [Kremote: Compressing objects:  31% (35/110)   [Kremote: Compressing objects:  32% (36/110)   [Kremote: Compressing objects:  33% (37/110)   [Kremote: Compressing objects:  34% (38/110)   [Kremote: Compressing objects:  35% (39/110)   [Kremote: Compressing objects:  36% (40/110)   [Kremote: Compressing objects:  37% (41/110)   [Kremote: Compressing objects:  38% (42/110)   [Kremote: Compressing objects:  39% (43/110)   [Kremote: Compressing objects:  40% (44/110)   [Kremote: Compressing objects:  41% (46/110)   [Kremote: Compressing objects:  42% (47/110)   [Kremote: Compressing objects:  43% (48/110)   [Kremote: Compressing objects:  44% (49/110)   [Kremote: Compressing objects:  45% (50/110)   [Kremote: Compressing objects:  46% (51/110)   [Kremote: Compressing objects:  47% (52/110)   [Kremote: Compressing objects:  48% (53/110)   [Kremote: Compressing objects:  49% (54/110)   [Kremote: Compressing objects:  50% (55/110)   [Kremote: Compressing objects:  51% (57/110)   [Kremote: Compressing objects:  52% (58/110)   [Kremote: Compressing objects:  53% (59/110)   [Kremote: Compressing objects:  54% (60/110)   [Kremote: Compressing objects:  55% (61/110)   [Kremote: Compressing objects:  56% (62/110)   [Kremote: Compressing objects:  57% (63/110)   [Kremote: Compressing objects:  58% (64/110)   [Kremote: Compressing objects:  59% (65/110)   [Kremote: Compressing objects:  60% (66/110)   [Kremote: Compressing objects:  61% (68/110)   [Kremote: Compressing objects:  62% (69/110)   [Kremote: Compressing objects:  63% (70/110)   [Kremote: Compressing objects:  64% (71/110)   [Kremote: Compressing objects:  65% (72/110)   [Kremote: Compressing objects:  66% (73/110)   [Kremote: Compressing objects:  67% (74/110)   [Kremote: Compressing objects:  68% (75/110)   [Kremote: Compressing objects:  69% (76/110)   [Kremote: Compressing objects:  70% (77/110)   [Kremote: Compressing objects:  71% (79/110)   [Kremote: Compressing objects:  72% (80/110)   [Kremote: Compressing objects:  73% (81/110)   [Kremote: Compressing objects:  74% (82/110)   [Kremote: Compressing objects:  75% (83/110)   [Kremote: Compressing objects:  76% (84/110)   [Kremote: Compressing objects:  77% (85/110)   [Kremote: Compressing objects:  78% (86/110)   [Kremote: Compressing objects:  79% (87/110)   [Kremote: Compressing objects:  80% (88/110)   [Kremote: Compressing objects:  81% (90/110)   [Kremote: Compressing objects:  82% (91/110)   [Kremote: Compressing objects:  83% (92/110)   [Kremote: Compressing objects:  84% (93/110)   [Kremote: Compressing objects:  85% (94/110)   [Kremote: Compressing objects:  86% (95/110)   [Kremote: Compressing objects:  87% (96/110)   [Kremote: Compressing objects:  88% (97/110)   [Kremote: Compressing objects:  89% (98/110)   [Kremote: Compressing objects:  90% (99/110)   [Kremote: Compressing objects:  91% (101/110)   [Kremote: Compressing objects:  92% (102/110)   [Kremote: Compressing objects:  93% (103/110)   [Kremote: Compressing objects:  94% (104/110)   [Kremote: Compressing objects:  95% (105/110)   [Kremote: Compressing objects:  96% (106/110)   [Kremote: Compressing objects:  97% (107/110)   [Kremote: Compressing objects:  98% (108/110)   [Kremote: Compressing objects:  99% (109/110)   [Kremote: Compressing objects: 100% (110/110)   [Kremote: Compressing objects: 100% (110/110), done.[K
-remote: Total 112 (delta 39), reused 3 (delta 0)[K
-Receiving objects:   0% (1/112)   Receiving objects:   1% (2/112)   Receiving objects:   2% (3/112)   Receiving objects:   3% (4/112)   Receiving objects:   4% (5/112)   Receiving objects:   5% (6/112)   Receiving objects:   6% (7/112)   Receiving objects:   7% (8/112)   Receiving objects:   8% (9/112)   Receiving objects:   9% (11/112)   Receiving objects:  10% (12/112)   Receiving objects:  11% (13/112)   Receiving objects:  12% (14/112)   Receiving objects:  13% (15/112)   Receiving objects:  14% (16/112)   Receiving objects:  15% (17/112)   Receiving objects:  16% (18/112)   Receiving objects:  17% (20/112)   Receiving objects:  18% (21/112)   Receiving objects:  19% (22/112)   Receiving objects:  20% (23/112)   Receiving objects:  21% (24/112)   Receiving objects:  22% (25/112)   Receiving objects:  23% (26/112)   Receiving objects:  24% (27/112)   Receiving objects:  25% (28/112)   Receiving objects:  26% (30/112)   Receiving objects:  27% (31/112)   Receiving objects:  28% (32/112)   Receiving objects:  29% (33/112)   Receiving objects:  30% (34/112)   Receiving objects:  31% (35/112)   Receiving objects:  32% (36/112)   Receiving objects:  33% (37/112)   Receiving objects:  34% (39/112)   Receiving objects:  35% (40/112)   Receiving objects:  36% (41/112)   Receiving objects:  37% (42/112)   Receiving objects:  38% (43/112)   Receiving objects:  39% (44/112)   Receiving objects:  40% (45/112)   Receiving objects:  41% (46/112)   Receiving objects:  42% (48/112)   Receiving objects:  43% (49/112)   Receiving objects:  44% (50/112)   Receiving objects:  45% (51/112)   Receiving objects:  46% (52/112)   Receiving objects:  47% (53/112)   Receiving objects:  48% (54/112)   Receiving objects:  49% (55/112)   Receiving objects:  50% (56/112)   Receiving objects:  51% (58/112)   Receiving objects:  52% (59/112)   Receiving objects:  53% (60/112)   Receiving objects:  54% (61/112)   Receiving objects:  55% (62/112)   Receiving objects:  56% (63/112)   Receiving objects:  57% (64/112)   Receiving objects:  58% (65/112)   Receiving objects:  59% (67/112)   Receiving objects:  60% (68/112)   Receiving objects:  61% (69/112)   Receiving objects:  62% (70/112)   Receiving objects:  63% (71/112)   Receiving objects:  64% (72/112)   Receiving objects:  65% (73/112)   Receiving objects:  66% (74/112)   Receiving objects:  67% (76/112)   Receiving objects:  68% (77/112)   Receiving objects:  69% (78/112)   Receiving objects:  70% (79/112)   Receiving objects:  71% (80/112)   Receiving objects:  72% (81/112)   Receiving objects:  73% (82/112)   Receiving objects:  74% (83/112)   Receiving objects:  75% (84/112)   Receiving objects:  76% (86/112)   Receiving objects:  77% (87/112)   Receiving objects:  78% (88/112)   Receiving objects:  79% (89/112)   Receiving objects:  80% (90/112)   Receiving objects:  81% (91/112)   Receiving objects:  82% (92/112)   Receiving objects:  83% (93/112)   Receiving objects:  84% (95/112)   Receiving objects:  85% (96/112)   Receiving objects:  86% (97/112)   Receiving objects:  87% (98/112)   Receiving objects:  88% (99/112)   Receiving objects:  89% (100/112)   Receiving objects:  90% (101/112)   Receiving objects:  91% (102/112)   Receiving objects:  92% (104/112)   Receiving objects:  93% (105/112)   Receiving objects:  94% (106/112)   Receiving objects:  95% (107/112)   Receiving objects:  96% (108/112)   Receiving objects:  97% (109/112)   Receiving objects:  98% (110/112)   Receiving objects:  99% (111/112)   Receiving objects: 100% (112/112)   Receiving objects: 100% (112/112), 38.15 KiB | 0 bytes/s, done.
-Resolving deltas:   0% (0/39)   Resolving deltas:  43% (17/39)   Resolving deltas:  46% (18/39)   Resolving deltas:  48% (19/39)   Resolving deltas:  51% (20/39)   Resolving deltas:  53% (21/39)   Resolving deltas:  58% (23/39)   Resolving deltas:  64% (25/39)   Resolving deltas: 100% (39/39)   Resolving deltas: 100% (39/39), done.
+remote: Counting objects: 51, done.[K
+remote: Compressing objects:   2% (1/44)   [Kremote: Compressing objects:   4% (2/44)   [Kremote: Compressing objects:   6% (3/44)   [Kremote: Compressing objects:   9% (4/44)   [Kremote: Compressing objects:  11% (5/44)   [Kremote: Compressing objects:  13% (6/44)   [Kremote: Compressing objects:  15% (7/44)   [Kremote: Compressing objects:  18% (8/44)   [Kremote: Compressing objects:  20% (9/44)   [Kremote: Compressing objects:  22% (10/44)   [Kremote: Compressing objects:  25% (11/44)   [Kremote: Compressing objects:  27% (12/44)   [Kremote: Compressing objects:  29% (13/44)   [Kremote: Compressing objects:  31% (14/44)   [Kremote: Compressing objects:  34% (15/44)   [Kremote: Compressing objects:  36% (16/44)   [Kremote: Compressing objects:  38% (17/44)   [Kremote: Compressing objects:  40% (18/44)   [Kremote: Compressing objects:  43% (19/44)   [Kremote: Compressing objects:  45% (20/44)   [Kremote: Compressing objects:  47% (21/44)   [Kremote: Compressing objects:  50% (22/44)   [Kremote: Compressing objects:  52% (23/44)   [Kremote: Compressing objects:  54% (24/44)   [Kremote: Compressing objects:  56% (25/44)   [Kremote: Compressing objects:  59% (26/44)   [Kremote: Compressing objects:  61% (27/44)   [Kremote: Compressing objects:  63% (28/44)   [Kremote: Compressing objects:  65% (29/44)   [Kremote: Compressing objects:  68% (30/44)   [Kremote: Compressing objects:  70% (31/44)   [Kremote: Compressing objects:  72% (32/44)   [Kremote: Compressing objects:  75% (33/44)   [Kremote: Compressing objects:  77% (34/44)   [Kremote: Compressing objects:  79% (35/44)   [Kremote: Compressing objects:  81% (36/44)   [Kremote: Compressing objects:  84% (37/44)   [Kremote: Compressing objects:  86% (38/44)   [Kremote: Compressing objects:  88% (39/44)   [Kremote: Compressing objects:  90% (40/44)   [Kremote: Compressing objects:  93% (41/44)   [Kremote: Compressing objects:  95% (42/44)   [Kremote: Compressing objects:  97% (43/44)   [Kremote: Compressing objects: 100% (44/44)   [Kremote: Compressing objects: 100% (44/44), done.[K
+remote: Total 51 (delta 21), reused 18 (delta 6)[K
+Unpacking objects:   1% (1/51)   Unpacking objects:   3% (2/51)   Unpacking objects:   5% (3/51)   Unpacking objects:   7% (4/51)   Unpacking objects:   9% (5/51)   Unpacking objects:  11% (6/51)   Unpacking objects:  13% (7/51)   Unpacking objects:  15% (8/51)   Unpacking objects:  17% (9/51)   Unpacking objects:  19% (10/51)   Unpacking objects:  21% (11/51)   Unpacking objects:  23% (12/51)   Unpacking objects:  25% (13/51)   Unpacking objects:  27% (14/51)   Unpacking objects:  29% (15/51)   Unpacking objects:  31% (16/51)   Unpacking objects:  33% (17/51)   Unpacking objects:  35% (18/51)   Unpacking objects:  37% (19/51)   Unpacking objects:  39% (20/51)   Unpacking objects:  41% (21/51)   Unpacking objects:  43% (22/51)   Unpacking objects:  45% (23/51)   Unpacking objects:  47% (24/51)   Unpacking objects:  49% (25/51)   Unpacking objects:  50% (26/51)   Unpacking objects:  52% (27/51)   Unpacking objects:  54% (28/51)   Unpacking objects:  56% (29/51)   Unpacking objects:  58% (30/51)   Unpacking objects:  60% (31/51)   Unpacking objects:  62% (32/51)   Unpacking objects:  64% (33/51)   Unpacking objects:  66% (34/51)   Unpacking objects:  68% (35/51)   Unpacking objects:  70% (36/51)   Unpacking objects:  72% (37/51)   Unpacking objects:  74% (38/51)   Unpacking objects:  76% (39/51)   Unpacking objects:  78% (40/51)   Unpacking objects:  80% (41/51)   Unpacking objects:  82% (42/51)   Unpacking objects:  84% (43/51)   Unpacking objects:  86% (44/51)   Unpacking objects:  88% (45/51)   Unpacking objects:  90% (46/51)   Unpacking objects:  92% (47/51)   Unpacking objects:  94% (48/51)   Unpacking objects:  96% (49/51)   Unpacking objects:  98% (50/51)   Unpacking objects: 100% (51/51)   Unpacking objects: 100% (51/51), done.
 From git://github.com/ocaml/opam-repository
-   eca16a0..d91032d  master     -> origin/master
-Updating eca16a0..d91032d
+   47eb9a0..2b359e1  master     -> origin/master
+Updating 47eb9a0..2b359e1
 Fast-forward
- compilers/4.03.0/4.03.0+pr128/4.03.0+pr128.descr   |  1 -
- compilers/4.03.0/4.03.0+pr130/4.03.0+pr130.descr   |  1 -
- compilers/4.03.0/4.03.0+pr131/4.03.0+pr131.descr   |  1 -
- .../4.03.0+pr65.comp}                              |  2 +-
- compilers/4.03.0/4.03.0+pr65/4.03.0+pr65.descr     |  1 +
- .../4.03.0+pr68.comp}                              |  2 +-
- compilers/4.03.0/4.03.0+pr68/4.03.0+pr68.descr     |  1 +
- .../4.03.0+pr71.comp}                              |  2 +-
- compilers/4.03.0/4.03.0+pr71/4.03.0+pr71.descr     |  1 +
- packages/containers/containers.0.7/descr           | 10 +++++
- packages/containers/containers.0.7/findlib         |  1 +
- packages/containers/containers.0.7/opam            | 37 ++++++++++++++++
- packages/containers/containers.0.7/url             |  2 +
- packages/git/git.1.4.3/descr                       | 17 ++++++++
- packages/git/git.1.4.3/opam                        | 32 ++++++++++++++
- packages/git/git.1.4.3/url                         |  2 +
- packages/irmin/irmin.0.7.0/descr                   |  6 +--
- packages/irmin/irmin.0.8.0/descr                   |  6 +--
- packages/irmin/irmin.0.8.1/descr                   |  6 +--
- packages/irmin/irmin.0.8.2/descr                   |  6 +--
- packages/irmin/irmin.0.8.3/descr                   |  6 +--
- packages/irmin/irmin.0.9.0/descr                   |  9 ++++
- packages/irmin/irmin.0.9.0/opam                    | 49 ++++++++++++++++++++++
- packages/irmin/irmin.0.9.0/url                     |  2 +
- packages/ketrew/ketrew.0.0.0/opam                  |  2 +-
- packages/mstruct/mstruct.1.3.2/descr               | 11 +++++
- packages/mstruct/mstruct.1.3.2/opam                | 17 ++++++++
- packages/mstruct/mstruct.1.3.2/url                 |  2 +
- packages/omd/omd.1.2.4/descr                       |  7 ++++
- packages/omd/omd.1.2.4/files/omd.install           |  4 ++
- packages/omd/omd.1.2.4/opam                        | 21 ++++++++++
- packages/omd/omd.1.2.4/url                         |  2 +
- packages/res/res.4.0.7/descr                       |  2 +
- packages/res/res.4.0.7/findlib                     |  1 +
- packages/res/res.4.0.7/opam                        | 22 ++++++++++
- packages/res/res.4.0.7/url                         |  2 +
- packages/stemmer/stemmer.0.2/descr                 |  4 ++
- packages/stemmer/stemmer.0.2/opam                  | 14 +++++++
- packages/stemmer/stemmer.0.2/url                   |  2 +
- packages/tcpip/tcpip.2.2.0/opam                    |  1 +
- packages/tcpip/tcpip.2.2.1/descr                   |  1 +
- packages/tcpip/tcpip.2.2.1/opam                    | 36 ++++++++++++++++
- packages/tcpip/tcpip.2.2.1/url                     |  2 +
- 43 files changed, 334 insertions(+), 22 deletions(-)
- delete mode 100644 compilers/4.03.0/4.03.0+pr128/4.03.0+pr128.descr
- delete mode 100644 compilers/4.03.0/4.03.0+pr130/4.03.0+pr130.descr
- delete mode 100644 compilers/4.03.0/4.03.0+pr131/4.03.0+pr131.descr
- rename compilers/4.03.0/{4.03.0+pr131/4.03.0+pr131.comp => 4.03.0+pr65/4.03.0+pr65.comp} (78%)
- create mode 100644 compilers/4.03.0/4.03.0+pr65/4.03.0+pr65.descr
- rename compilers/4.03.0/{4.03.0+pr128/4.03.0+pr128.comp => 4.03.0+pr68/4.03.0+pr68.comp} (80%)
- create mode 100644 compilers/4.03.0/4.03.0+pr68/4.03.0+pr68.descr
- rename compilers/4.03.0/{4.03.0+pr130/4.03.0+pr130.comp => 4.03.0+pr71/4.03.0+pr71.comp} (79%)
- create mode 100644 compilers/4.03.0/4.03.0+pr71/4.03.0+pr71.descr
- create mode 100644 packages/containers/containers.0.7/descr
- create mode 100644 packages/containers/containers.0.7/findlib
- create mode 100644 packages/containers/containers.0.7/opam
- create mode 100644 packages/containers/containers.0.7/url
- create mode 100644 packages/git/git.1.4.3/descr
- create mode 100644 packages/git/git.1.4.3/opam
- create mode 100644 packages/git/git.1.4.3/url
- create mode 100644 packages/irmin/irmin.0.9.0/descr
- create mode 100644 packages/irmin/irmin.0.9.0/opam
- create mode 100644 packages/irmin/irmin.0.9.0/url
- create mode 100644 packages/mstruct/mstruct.1.3.2/descr
- create mode 100644 packages/mstruct/mstruct.1.3.2/opam
- create mode 100644 packages/mstruct/mstruct.1.3.2/url
- create mode 100644 packages/omd/omd.1.2.4/descr
- create mode 100644 packages/omd/omd.1.2.4/files/omd.install
- create mode 100644 packages/omd/omd.1.2.4/opam
- create mode 100644 packages/omd/omd.1.2.4/url
- create mode 100644 packages/res/res.4.0.7/descr
- create mode 100644 packages/res/res.4.0.7/findlib
- create mode 100644 packages/res/res.4.0.7/opam
- create mode 100644 packages/res/res.4.0.7/url
- create mode 100644 packages/stemmer/stemmer.0.2/descr
- create mode 100644 packages/stemmer/stemmer.0.2/opam
- create mode 100644 packages/stemmer/stemmer.0.2/url
- create mode 100644 packages/tcpip/tcpip.2.2.1/descr
- create mode 100644 packages/tcpip/tcpip.2.2.1/opam
- create mode 100644 packages/tcpip/tcpip.2.2.1/url
+ .../conf-python-2-7-dev.1.0/opam                   |  4 ++++
+ packages/conf-python-2-7/conf-python-2-7.1.0/opam  |  4 ++++
+ packages/mirage-unix/mirage-unix.2.1.2/descr       |  1 +
+ packages/mirage-unix/mirage-unix.2.1.2/findlib     |  1 +
+ packages/mirage-unix/mirage-unix.2.1.2/opam        | 19 ++++++++++++++++++
+ packages/mirage-unix/mirage-unix.2.1.2/url         |  2 ++
+ .../mirage-xen-minios.0.6.0/descr                  |  4 ++++
+ .../mirage-xen-minios/mirage-xen-minios.0.6.0/opam | 10 ++++++++++
+ .../mirage-xen-minios/mirage-xen-minios.0.6.0/url  |  2 ++
+ packages/mirage-xen/mirage-xen.2.1.2/descr         |  1 +
+ packages/mirage-xen/mirage-xen.2.1.2/opam          | 23 ++++++++++++++++++++++
+ packages/mirage-xen/mirage-xen.2.1.2/url           |  2 ++
+ packages/ocamldsort/ocamldsort.0.15.0/url          |  2 +-
+ packages/ocamldsort/ocamldsort.0.16.0/url          |  2 +-
+ packages/uri/uri.1.1/opam                          |  1 +
+ 15 files changed, 76 insertions(+), 2 deletions(-)
+ create mode 100644 packages/mirage-unix/mirage-unix.2.1.2/descr
+ create mode 100644 packages/mirage-unix/mirage-unix.2.1.2/findlib
+ create mode 100644 packages/mirage-unix/mirage-unix.2.1.2/opam
+ create mode 100644 packages/mirage-unix/mirage-unix.2.1.2/url
+ create mode 100644 packages/mirage-xen-minios/mirage-xen-minios.0.6.0/descr
+ create mode 100644 packages/mirage-xen-minios/mirage-xen-minios.0.6.0/opam
+ create mode 100644 packages/mirage-xen-minios/mirage-xen-minios.0.6.0/url
+ create mode 100644 packages/mirage-xen/mirage-xen.2.1.2/descr
+ create mode 100644 packages/mirage-xen/mirage-xen.2.1.2/opam
+ create mode 100644 packages/mirage-xen/mirage-xen.2.1.2/url
 ++ opam remote add mirage git://github.com/mirage/mirage-dev
 [[1;34mmirage[m] Fetching git://github.com/mirage/mirage-dev
 Updating ~/.opam/repo/compiler-index ...
@@ -113,14 +58,6 @@ The following packages have been UPDATED upstream:
 [[1;34mdefault[m] Synchronizing with /home/opam/opam-repository
 Updating ~/.opam/repo/compiler-index ...
 Updating ~/.opam/compilers/ ...
-The following NEW compilers are available:
- - 4.03.0+pr65
- - 4.03.0+pr68
- - 4.03.0+pr71
-The following compiler descriptions have been DELETED:
- - 4.03.0+pr128
- - 4.03.0+pr130
- - 4.03.0+pr131
 Updating ~/.opam/repo/package-index ...
 Updating ~/.opam/packages/ ...
 Everything as up-to-date as possible (run with --verbose to show unavailable upgrades).
@@ -132,15 +69,10 @@ CentOS 7 depexts: openssl-devel
 + '[' openssl-devel '!=' '' ']'
 + sudo yum install -y openssl-devel
 Loaded plugins: fastestmirror
-base                                                     | 3.6 kB     00:00     
-extras                                                   | 3.4 kB     00:00     
-home_ocaml                                               | 1.2 kB     00:00     
-updates                                                  | 3.4 kB     00:00     
-updates/7/x86_64/primary_d 7% [=                ]  0.0 B/s | 448 kB   --:-- ETA updates/7/x86_64/primary_d 15% [==-             ] 545 kB/s | 960 kB   00:09 ETA updates/7/x86_64/primary_d 25% [====            ] 636 kB/s | 1.5 MB   00:07 ETA updates/7/x86_64/primary_d 36% [=====-          ] 721 kB/s | 2.2 MB   00:05 ETA updates/7/x86_64/primary_d 46% [=======         ] 801 kB/s | 2.8 MB   00:04 ETA updates/7/x86_64/primary_d 56% [=========       ] 876 kB/s | 3.4 MB   00:03 ETA updates/7/x86_64/primary_d 66% [==========-     ] 946 kB/s | 4.0 MB   00:02 ETA updates/7/x86_64/primary_d 75% [============    ] 995 kB/s | 4.5 MB   00:01 ETA updates/7/x86_64/primary_d 85% [=============-  ] 1.0 MB/s | 5.1 MB   00:00 ETA updates/7/x86_64/primary_d 95% [=============== ] 1.1 MB/s | 5.7 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.0 MB   00:03     
 Loading mirror speeds from cached hostfile
- * base: mirror.ubiquityservers.com
- * extras: mirror.sanctuaryhost.com
- * updates: mirrors.liquidweb.com
+ * base: mirror.solarvps.com
+ * extras: mirror.net.cen.ct.gov
+ * updates: mirror.solarvps.com
 Resolving Dependencies
 --> Running transaction check
 ---> Package openssl-devel.x86_64 1:1.0.1e-34.el7_0.6 will be installed
@@ -191,16 +123,16 @@ Total download size: 2.6 M
 Installed size: 5.7 M
 Downloading packages:
 (2/9): krb5-devel-1.11.3-4 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/9): keyutils-libs-devel-1.5.8-3.el7.x86_64.rpm          |  37 kB   00:00     
-(2/9): libverto-devel-0.2.5-4.el7.x86_64.rpm               |  12 kB   00:00     
-(3/9): libselinux-devel-2.2.2-6.el7.x86_64.rpm             | 174 kB   00:00     
-(4/9): libcom_err-devel-1.42.9-4.el7.x86_64.rpm            |  30 kB   00:00     
-(5/9): libsepol-devel-2.1.9-3.el7.x86_64.rpm               |  71 kB   00:00     
-(6/9): krb5-devel-1.11.3-49.el7.x86_64.rpm                 | 611 kB   00:00     
-(7/9): pcre-devel-8.32-12.el7.x86_64.rpm                   | 477 kB   00:00     
-(8/9): zlib-devel-1.2.7-13.el7.x86_64.rpm                  |  49 kB   00:00     
-(9/9): openssl-devel-1.0.1 75% [============    ]  0.0 B/s | 2.0 MB   --:-- ETA (9/9): openssl-devel-1.0.1 98% [===============-] 637 kB/s | 2.6 MB   00:00 ETA (9/9): openssl-devel-1.0.1e-34.el7_0.6.x86_64.rpm          | 1.2 MB   00:00     
+(3/9): libcom_err-devel-1. 12% [=-              ]  0.0 B/s | 326 kB   --:-- ETA (2/9): libcom_err-devel-1.42.9-4.el7.x86_64.rpm            |  30 kB   00:00     
+(3/9): krb5-devel-1.11.3-49.el7.x86_64.rpm                 | 611 kB   00:00     
+(4/9): libsepol-devel-2.1.9-3.el7.x86_64.rpm               |  71 kB   00:00     
+(5/9): libverto-devel-0.2.5-4.el7.x86_64.rpm               |  12 kB   00:00     
+(6/9): pcre-devel-8.32-12.el7.x86_64.rpm                   | 477 kB   00:00     
+(9/9): zlib-devel-1.2.7-13 51% [========        ] 1.0 MB/s | 1.3 MB   00:01 ETA (7/9): zlib-devel-1.2.7-13.el7.x86_64.rpm                  |  49 kB   00:00     
+(8/9): libselinux-devel-2.2.2-6.el7.x86_64.rpm             | 174 kB   00:00     
+(9/9): openssl-devel-1.0.1 63% [==========      ] 1.0 MB/s | 1.6 MB   00:00 ETA (9/9): openssl-devel-1.0.1 81% [=============   ] 1.0 MB/s | 2.1 MB   00:00 ETA (9/9): openssl-devel-1.0.1e-34.el7_0.6.x86_64.rpm          | 1.2 MB   00:01     
 --------------------------------------------------------------------------------
-Total                                              1.7 MB/s | 2.6 MB  00:01     
+Total                                              1.0 MB/s | 2.6 MB  00:02     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -300,11 +232,11 @@ Building crunch.1.3.0:
   ocaml setup.ml -build
   ocaml setup.ml -install
 Installing ssl.0.4.7.
-Installing type_conv.111.13.00.
 Building ocplib-endian.0.4:
   ocaml setup.ml -configure --disable-debug --prefix /home/opam/.opam/4.01.0
   ocaml setup.ml -build
   ocaml setup.ml -install
+Installing type_conv.111.13.00.
 Building lwt.2.4.5:
   ./configure --disable-libev --disable-react --enable-ssl --enable-unix --enable-extra --enable-preemptive --disable-glib
   make build
@@ -360,9 +292,9 @@ Installing mirage.2.2.0.
 Cloning into 'mirage-skeleton'...
 remote: Counting objects: 1310, done.[K
 remote: Compressing objects:   1% (1/52)   [Kremote: Compressing objects:   3% (2/52)   [Kremote: Compressing objects:   5% (3/52)   [Kremote: Compressing objects:   7% (4/52)   [Kremote: Compressing objects:   9% (5/52)   [Kremote: Compressing objects:  11% (6/52)   [Kremote: Compressing objects:  13% (7/52)   [Kremote: Compressing objects:  15% (8/52)   [Kremote: Compressing objects:  17% (9/52)   [Kremote: Compressing objects:  19% (10/52)   [Kremote: Compressing objects:  21% (11/52)   [Kremote: Compressing objects:  23% (12/52)   [Kremote: Compressing objects:  25% (13/52)   [Kremote: Compressing objects:  26% (14/52)   [Kremote: Compressing objects:  28% (15/52)   [Kremote: Compressing objects:  30% (16/52)   [Kremote: Compressing objects:  32% (17/52)   [Kremote: Compressing objects:  34% (18/52)   [Kremote: Compressing objects:  36% (19/52)   [Kremote: Compressing objects:  38% (20/52)   [Kremote: Compressing objects:  40% (21/52)   [Kremote: Compressing objects:  42% (22/52)   [Kremote: Compressing objects:  44% (23/52)   [Kremote: Compressing objects:  46% (24/52)   [Kremote: Compressing objects:  48% (25/52)   [Kremote: Compressing objects:  50% (26/52)   [Kremote: Compressing objects:  51% (27/52)   [Kremote: Compressing objects:  53% (28/52)   [Kremote: Compressing objects:  55% (29/52)   [Kremote: Compressing objects:  57% (30/52)   [Kremote: Compressing objects:  59% (31/52)   [Kremote: Compressing objects:  61% (32/52)   [Kremote: Compressing objects:  63% (33/52)   [Kremote: Compressing objects:  65% (34/52)   [Kremote: Compressing objects:  67% (35/52)   [Kremote: Compressing objects:  69% (36/52)   [Kremote: Compressing objects:  71% (37/52)   [Kremote: Compressing objects:  73% (38/52)   [Kremote: Compressing objects:  75% (39/52)   [Kremote: Compressing objects:  76% (40/52)   [Kremote: Compressing objects:  78% (41/52)   [Kremote: Compressing objects:  80% (42/52)   [Kremote: Compressing objects:  82% (43/52)   [Kremote: Compressing objects:  84% (44/52)   [Kremote: Compressing objects:  86% (45/52)   [Kremote: Compressing objects:  88% (46/52)   [Kremote: Compressing objects:  90% (47/52)   [Kremote: Compressing objects:  92% (48/52)   [Kremote: Compressing objects:  94% (49/52)   [Kremote: Compressing objects:  96% (50/52)   [Kremote: Compressing objects:  98% (51/52)   [Kremote: Compressing objects: 100% (52/52)   [Kremote: Compressing objects: 100% (52/52), done.[K
-Receiving objects:   0% (1/1310)   Receiving objects:   1% (14/1310)   Receiving objects:   2% (27/1310)   Receiving objects:   3% (40/1310)   Receiving objects:   4% (53/1310)   Receiving objects:   5% (66/1310)   Receiving objects:   6% (79/1310)   Receiving objects:   7% (92/1310)   Receiving objects:   8% (105/1310)   Receiving objects:   9% (118/1310)   Receiving objects:  10% (131/1310)   Receiving objects:  11% (145/1310)   Receiving objects:  12% (158/1310)   Receiving objects:  13% (171/1310)   Receiving objects:  14% (184/1310)   Receiving objects:  15% (197/1310)   Receiving objects:  16% (210/1310)   Receiving objects:  17% (223/1310)   Receiving objects:  18% (236/1310)   Receiving objects:  19% (249/1310)   Receiving objects:  20% (262/1310)   Receiving objects:  21% (276/1310)   Receiving objects:  22% (289/1310)   Receiving objects:  23% (302/1310)   Receiving objects:  24% (315/1310)   Receiving objects:  25% (328/1310)   Receiving objects:  26% (341/1310)   Receiving objects:  27% (354/1310)   Receiving objects:  28% (367/1310)   Receiving objects:  29% (380/1310)   Receiving objects:  30% (393/1310)   Receiving objects:  31% (407/1310)   Receiving objects:  32% (420/1310)   Receiving objects:  33% (433/1310)   Receiving objects:  34% (446/1310)   Receiving objects:  35% (459/1310)   Receiving objects:  36% (472/1310)   Receiving objects:  37% (485/1310)   Receiving objects:  38% (498/1310)   Receiving objects:  39% (511/1310)   Receiving objects:  40% (524/1310)   Receiving objects:  41% (538/1310)   Receiving objects:  42% (551/1310)   Receiving objects:  43% (564/1310)   Receiving objects:  44% (577/1310)   Receiving objects:  45% (590/1310)   Receiving objects:  46% (603/1310)   Receiving objects:  47% (616/1310)   Receiving objects:  48% (629/1310)   Receiving objects:  49% (642/1310)   Receiving objects:  50% (655/1310)   Receiving objects:  51% (669/1310)   Receiving objects:  52% (682/1310)   Receiving objects:  53% (695/1310)   Receiving objects:  54% (708/1310)   Receiving objects:  55% (721/1310)   Receiving objects:  56% (734/1310)   Receiving objects:  57% (747/1310)   Receiving objects:  58% (760/1310)   Receiving objects:  59% (773/1310)   Receiving objects:  60% (786/1310)   Receiving objects:  61% (800/1310)   Receiving objects:  62% (813/1310)   Receiving objects:  63% (826/1310)   Receiving objects:  64% (839/1310)   Receiving objects:  65% (852/1310)   Receiving objects:  66% (865/1310)   Receiving objects:  67% (878/1310)   Receiving objects:  68% (891/1310)   Receiving objects:  69% (904/1310)   Receiving objects:  70% (917/1310)   Receiving objects:  71% (931/1310)   Receiving objects:  72% (944/1310)   Receiving objects:  73% (957/1310)   Receiving objects:  74% (970/1310)   Receiving objects:  75% (983/1310)   Receiving objects:  76% (996/1310)   Receiving objects:  77% (1009/1310)   Receiving objects:  78% (1022/1310)   Receiving objects:  79% (1035/1310)   Receiving objects:  80% (1048/1310)   Receiving objects:  81% (1062/1310)   Receiving objects:  82% (1075/1310)   Receiving objects:  83% (1088/1310)   Receiving objects:  84% (1101/1310)   Receiving objects:  85% (1114/1310)   Receiving objects:  86% (1127/1310)   Receiving objects:  87% (1140/1310)   Receiving objects:  88% (1153/1310)   Receiving objects:  89% (1166/1310)   remote: Total 1310 (delta 24), reused 41 (delta 16)[K
-Receiving objects:  90% (1179/1310)   Receiving objects:  91% (1193/1310)   Receiving objects:  92% (1206/1310)   Receiving objects:  93% (1219/1310)   Receiving objects:  94% (1232/1310)   Receiving objects:  95% (1245/1310)   Receiving objects:  96% (1258/1310)   Receiving objects:  97% (1271/1310)   Receiving objects:  98% (1284/1310)   Receiving objects:  99% (1297/1310)   Receiving objects: 100% (1310/1310)   Receiving objects: 100% (1310/1310), 236.29 KiB | 0 bytes/s, done.
-Resolving deltas:   0% (0/606)   Resolving deltas:   1% (7/606)   Resolving deltas:   3% (19/606)   Resolving deltas:   4% (26/606)   Resolving deltas:   7% (43/606)   Resolving deltas:   8% (51/606)   Resolving deltas:   9% (58/606)   Resolving deltas:  10% (61/606)   Resolving deltas:  11% (69/606)   Resolving deltas:  12% (73/606)   Resolving deltas:  13% (81/606)   Resolving deltas:  14% (85/606)   Resolving deltas:  15% (91/606)   Resolving deltas:  16% (97/606)   Resolving deltas:  17% (105/606)   Resolving deltas:  18% (111/606)   Resolving deltas:  20% (124/606)   Resolving deltas:  21% (131/606)   Resolving deltas:  22% (134/606)   Resolving deltas:  23% (143/606)   Resolving deltas:  24% (148/606)   Resolving deltas:  28% (170/606)   Resolving deltas:  29% (180/606)   Resolving deltas:  30% (183/606)   Resolving deltas:  31% (189/606)   Resolving deltas:  32% (194/606)   Resolving deltas:  35% (213/606)   Resolving deltas:  50% (308/606)   Resolving deltas:  51% (312/606)   Resolving deltas:  52% (321/606)   Resolving deltas:  53% (322/606)   Resolving deltas:  56% (343/606)   Resolving deltas:  58% (355/606)   Resolving deltas:  59% (359/606)   Resolving deltas:  60% (369/606)   Resolving deltas:  61% (370/606)   Resolving deltas:  62% (376/606)   Resolving deltas:  63% (382/606)   Resolving deltas:  66% (402/606)   Resolving deltas:  67% (408/606)   Resolving deltas:  73% (445/606)   Resolving deltas:  74% (449/606)   Resolving deltas:  77% (471/606)   Resolving deltas:  78% (474/606)   Resolving deltas:  79% (479/606)   Resolving deltas:  80% (486/606)   Resolving deltas:  81% (491/606)   Resolving deltas:  82% (498/606)   Resolving deltas:  83% (503/606)   Resolving deltas:  84% (513/606)   Resolving deltas:  85% (518/606)   Resolving deltas:  86% (522/606)   Resolving deltas:  87% (532/606)   Resolving deltas:  88% (534/606)   Resolving deltas:  89% (541/606)   Resolving deltas:  90% (546/606)   Resolving deltas:  91% (554/606)   Resolving deltas:  93% (568/606)   Resolving deltas:  94% (570/606)   Resolving deltas:  95% (577/606)   Resolving deltas:  96% (582/606)   Resolving deltas:  97% (591/606)   Resolving deltas:  98% (596/606)   Resolving deltas:  99% (601/606)   Resolving deltas: 100% (606/606)   Resolving deltas: 100% (606/606), done.
+Receiving objects:   0% (1/1310)   Receiving objects:   1% (14/1310)   Receiving objects:   2% (27/1310)   Receiving objects:   3% (40/1310)   Receiving objects:   4% (53/1310)   Receiving objects:   5% (66/1310)   Receiving objects:   6% (79/1310)   Receiving objects:   7% (92/1310)   Receiving objects:   8% (105/1310)   Receiving objects:   9% (118/1310)   Receiving objects:  10% (131/1310)   Receiving objects:  11% (145/1310)   Receiving objects:  12% (158/1310)   Receiving objects:  13% (171/1310)   Receiving objects:  14% (184/1310)   Receiving objects:  15% (197/1310)   Receiving objects:  16% (210/1310)   Receiving objects:  17% (223/1310)   Receiving objects:  18% (236/1310)   Receiving objects:  19% (249/1310)   Receiving objects:  20% (262/1310)   Receiving objects:  21% (276/1310)   Receiving objects:  22% (289/1310)   Receiving objects:  23% (302/1310)   Receiving objects:  24% (315/1310)   Receiving objects:  25% (328/1310)   Receiving objects:  26% (341/1310)   Receiving objects:  27% (354/1310)   Receiving objects:  28% (367/1310)   Receiving objects:  29% (380/1310)   Receiving objects:  30% (393/1310)   Receiving objects:  31% (407/1310)   Receiving objects:  32% (420/1310)   Receiving objects:  33% (433/1310)   Receiving objects:  34% (446/1310)   Receiving objects:  35% (459/1310)   Receiving objects:  36% (472/1310)   Receiving objects:  37% (485/1310)   Receiving objects:  38% (498/1310)   Receiving objects:  39% (511/1310)   Receiving objects:  40% (524/1310)   Receiving objects:  41% (538/1310)   Receiving objects:  42% (551/1310)   Receiving objects:  43% (564/1310)   Receiving objects:  44% (577/1310)   Receiving objects:  45% (590/1310)   Receiving objects:  46% (603/1310)   Receiving objects:  47% (616/1310)   Receiving objects:  48% (629/1310)   Receiving objects:  49% (642/1310)   Receiving objects:  50% (655/1310)   Receiving objects:  51% (669/1310)   Receiving objects:  52% (682/1310)   Receiving objects:  53% (695/1310)   Receiving objects:  54% (708/1310)   Receiving objects:  55% (721/1310)   Receiving objects:  56% (734/1310)   Receiving objects:  57% (747/1310)   Receiving objects:  58% (760/1310)   Receiving objects:  59% (773/1310)   Receiving objects:  60% (786/1310)   Receiving objects:  61% (800/1310)   Receiving objects:  62% (813/1310)   Receiving objects:  63% (826/1310)   Receiving objects:  64% (839/1310)   Receiving objects:  65% (852/1310)   Receiving objects:  66% (865/1310)   Receiving objects:  67% (878/1310)   Receiving objects:  68% (891/1310)   Receiving objects:  69% (904/1310)   Receiving objects:  70% (917/1310)   Receiving objects:  71% (931/1310)   Receiving objects:  72% (944/1310)   Receiving objects:  73% (957/1310)   Receiving objects:  74% (970/1310)   Receiving objects:  75% (983/1310)   Receiving objects:  76% (996/1310)   Receiving objects:  77% (1009/1310)   Receiving objects:  78% (1022/1310)   Receiving objects:  79% (1035/1310)   Receiving objects:  80% (1048/1310)   Receiving objects:  81% (1062/1310)   Receiving objects:  82% (1075/1310)   Receiving objects:  83% (1088/1310)   Receiving objects:  84% (1101/1310)   Receiving objects:  85% (1114/1310)   Receiving objects:  86% (1127/1310)   Receiving objects:  87% (1140/1310)   Receiving objects:  88% (1153/1310)   Receiving objects:  89% (1166/1310)   Receiving objects:  90% (1179/1310)   Receiving objects:  91% (1193/1310)   Receiving objects:  92% (1206/1310)   Receiving objects:  93% (1219/1310)   Receiving objects:  94% (1232/1310)   Receiving objects:  95% (1245/1310)   remote: Total 1310 (delta 24), reused 41 (delta 16)[K
+Receiving objects:  96% (1258/1310)   Receiving objects:  97% (1271/1310)   Receiving objects:  98% (1284/1310)   Receiving objects:  99% (1297/1310)   Receiving objects: 100% (1310/1310)   Receiving objects: 100% (1310/1310), 236.29 KiB | 0 bytes/s, done.
+Resolving deltas:   0% (0/606)   Resolving deltas:   1% (7/606)   Resolving deltas:   3% (19/606)   Resolving deltas:   4% (27/606)   Resolving deltas:   6% (37/606)   Resolving deltas:   8% (49/606)   Resolving deltas:  10% (61/606)   Resolving deltas:  11% (69/606)   Resolving deltas:  13% (82/606)   Resolving deltas:  14% (88/606)   Resolving deltas:  15% (93/606)   Resolving deltas:  16% (97/606)   Resolving deltas:  17% (105/606)   Resolving deltas:  18% (110/606)   Resolving deltas:  19% (121/606)   Resolving deltas:  20% (124/606)   Resolving deltas:  21% (131/606)   Resolving deltas:  22% (134/606)   Resolving deltas:  23% (143/606)   Resolving deltas:  24% (148/606)   Resolving deltas:  28% (170/606)   Resolving deltas:  29% (180/606)   Resolving deltas:  30% (182/606)   Resolving deltas:  31% (190/606)   Resolving deltas:  32% (194/606)   Resolving deltas:  35% (213/606)   Resolving deltas:  44% (269/606)   Resolving deltas:  45% (274/606)   Resolving deltas:  46% (279/606)   Resolving deltas:  47% (287/606)   Resolving deltas:  48% (291/606)   Resolving deltas:  51% (315/606)   Resolving deltas:  52% (316/606)   Resolving deltas:  54% (328/606)   Resolving deltas:  55% (334/606)   Resolving deltas:  56% (345/606)   Resolving deltas:  57% (346/606)   Resolving deltas:  58% (354/606)   Resolving deltas:  59% (358/606)   Resolving deltas:  63% (383/606)   Resolving deltas:  69% (423/606)   Resolving deltas:  70% (425/606)   Resolving deltas:  73% (445/606)   Resolving deltas:  75% (457/606)   Resolving deltas:  76% (461/606)   Resolving deltas:  77% (468/606)   Resolving deltas:  78% (476/606)   Resolving deltas:  79% (481/606)   Resolving deltas:  80% (488/606)   Resolving deltas:  81% (492/606)   Resolving deltas:  82% (499/606)   Resolving deltas:  83% (509/606)   Resolving deltas:  84% (510/606)   Resolving deltas:  85% (516/606)   Resolving deltas:  86% (522/606)   Resolving deltas:  87% (528/606)   Resolving deltas:  91% (555/606)   Resolving deltas:  92% (559/606)   Resolving deltas:  93% (567/606)   Resolving deltas:  94% (571/606)   Resolving deltas:  95% (578/606)   Resolving deltas:  96% (583/606)   Resolving deltas:  97% (593/606)   Resolving deltas:  98% (596/606)   Resolving deltas:  99% (600/606)   Resolving deltas: 100% (606/606)   Resolving deltas: 100% (606/606), done.
 ++ cd mirage-skeleton
 ++ export MODE=unix
 ++ MODE=unix
@@ -383,7 +315,7 @@ The following actions will be performed:
  - install   mirage-profile.0.4                    [required by mirage-unix]
  - install   mirage-clock-unix.1.0.0               [required by mirage-unix]
  - install   shared-memory-ring.1.1.0              [required by mirage-unix]
- - install   mirage-unix.2.1.1
+ - install   mirage-unix.2.1.2
  - install   mirage-console.2.0.0
 === [33m7[m to install ===
 
@@ -391,7 +323,7 @@ The following actions will be performed:
 [[32mmirage-clock-unix.1.0.0[m] Downloading https://github.com/mirage/mirage-clock/archive/v1.0.0.tar.gz
 [[32mmirage-console.2.0.0[m] Downloading https://github.com/mirage/mirage-console/archive/2.0.0.tar.gz
 [[32mmirage-profile.0.4[m] Downloading https://github.com/mirage/mirage-profile/archive/v0.4.tar.gz
-[[32mmirage-unix.2.1.1[m] Downloading https://github.com/mirage/mirage-platform/archive/v2.1.1.tar.gz
+[[32mmirage-unix.2.1.2[m] Downloading https://github.com/mirage/mirage-platform/archive/v2.1.2.tar.gz
 [[32mounit.2.0.0[m] Downloading http://forge.ocamlcore.org/frs/download.php/1258/ounit-2.0.0.tar.gz
 [[32mshared-memory-ring.1.1.0[m] Downloading https://github.com/mirage/shared-memory-ring/archive/1.1.0.tar.gz
 
@@ -414,10 +346,10 @@ Building shared-memory-ring.1.1.0:
   make all
   make install
 Installing shared-memory-ring.1.1.0.
-Building mirage-unix.2.1.1:
+Building mirage-unix.2.1.2:
   make unix-build
   make unix-install PREFIX=/home/opam/.opam/4.01.0
-Installing mirage-unix.2.1.1.
+Installing mirage-unix.2.1.2.
 Building mirage-console.2.0.0:
   make
   make install
@@ -427,7 +359,7 @@ cd console && make depend
 make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/console'
 opam install mirage-console mirage-unix --verbose
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/console'
 mirage configure network/config.ml --unix 
 [32mMirage[m      [36mUsing specified config file:[m network/config.ml
@@ -441,7 +373,7 @@ mirage configure network/config.ml --unix
 [32mnetwork[m     [33m=>[m opam install --yes mirage-clock-unix mirage-console mirage-net-unix mirage-unix tcpip
 [1;34m[NOTE][m Package mirage-clock-unix is already installed (current version is 1.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 The following actions will be performed:
  - install   tuntap.1.0.0                          [required by mirage-net-unix]
  - install   mirage-net-unix.1.1.1
@@ -474,7 +406,7 @@ opam install mirage-clock-unix mirage-console mirage-net-unix mirage-unix tcpip 
 [1;34m[NOTE][m Package mirage-clock-unix is already installed (current version is 1.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
 [1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
 make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/network'
 mirage configure stackv4/config.ml --unix 
@@ -490,7 +422,7 @@ mirage configure stackv4/config.ml --unix
 [1;34m[NOTE][m Package mirage-clock-unix is already installed (current version is 1.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
 [1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
 The following actions will be performed:
  - install   fieldslib.109.20.03                   [required by cohttp]
@@ -585,7 +517,7 @@ opam install mirage-clock-unix mirage-console mirage-http mirage-net-unix mirage
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
 [1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
 [1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
 make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/stackv4'
 mirage configure ethifv4/config.ml --unix 
@@ -601,7 +533,7 @@ mirage configure ethifv4/config.ml --unix
 [1;34m[NOTE][m Package mirage-clock-unix is already installed (current version is 1.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
 [1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [32methifv4[m     [36mGenerating:[m main.ml
 cd ethifv4 && make depend
 make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/ethifv4'
@@ -609,7 +541,7 @@ opam install mirage-clock-unix mirage-console mirage-net-unix mirage-unix --verb
 [1;34m[NOTE][m Package mirage-clock-unix is already installed (current version is 1.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
 [1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/ethifv4'
 mirage configure io_page/config.ml --unix 
 [32mMirage[m      [36mUsing specified config file:[m io_page/config.ml
@@ -622,13 +554,13 @@ mirage configure io_page/config.ml --unix
 [32mio_page[m     Installing OPAM packages.
 [32mio_page[m     [33m=>[m opam install --yes mirage-console mirage-unix
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [32mio_page[m     [36mGenerating:[m main.ml
 cd io_page && make depend
 make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/io_page'
 opam install mirage-console mirage-unix --verbose
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/io_page'
 mirage configure ping/config.ml --unix 
 [32mMirage[m      [36mUsing specified config file:[m ping/config.ml
@@ -642,7 +574,7 @@ mirage configure ping/config.ml --unix
 [32mping[m        [33m=>[m opam install --yes mirage-console mirage-net-unix mirage-unix tcpip
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
 [1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
 [32mping[m        [36mGenerating:[m main.ml
 cd ping && make depend
@@ -650,7 +582,7 @@ make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/ping'
 opam install mirage-console mirage-net-unix mirage-unix tcpip --verbose
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
 [1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
 make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/ping'
 mirage configure static_website/config.ml --unix 
@@ -674,7 +606,7 @@ mirage configure static_website/config.ml --unix
 [1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
 [1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
 [1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [1;34m[NOTE][m Package re is already installed (current version is 1.2.2).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
 [1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
@@ -695,7 +627,7 @@ opam install conduit crunch cstruct io-page lwt mirage-clock-unix mirage-conduit
 [1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
 [1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
 [1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [1;34m[NOTE][m Package re is already installed (current version is 1.2.2).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
 [1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
@@ -719,7 +651,7 @@ mirage configure dns/config.ml --unix
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
 [1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
 [1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
 [32mdns[m         [36mGenerating:[m main.ml
 [32mdns[m         [36mGenerating:[m /home/opam/opam-repository/mirage-skeleton/dns/static1.ml
@@ -736,7 +668,7 @@ opam install crunch cstruct dns io-page lwt mirage-clock-unix mirage-console mir
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
 [1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
 [1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
 make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/dns'
 mirage configure conduit_server/config.ml --unix 
@@ -756,7 +688,7 @@ mirage configure conduit_server/config.ml --unix
 [1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
 [1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
 [1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
 [1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
 [32mconduit_server[m[36mGenerating:[m main.ml
@@ -770,7 +702,7 @@ opam install conduit mirage-clock-unix mirage-conduit mirage-console mirage-http
 [1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
 [1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
 [1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
 [1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
 make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/conduit_server'
@@ -788,7 +720,7 @@ mirage configure conduit_server_manual/config.ml --unix
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
 [1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
 [1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
 [1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
 [32mconduit_server[m[36mGenerating:[m main.ml
@@ -799,7 +731,7 @@ opam install mirage-clock-unix mirage-console mirage-http mirage-net-unix mirage
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
 [1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
 [1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
 [1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
 make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/conduit_server_manual'
@@ -808,7 +740,7 @@ cd console && make depend
 make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/console'
 opam install mirage-console mirage-unix --verbose
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/console'
 cd network && make depend
 make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/network'
@@ -816,7 +748,7 @@ opam install mirage-clock-unix mirage-console mirage-net-unix mirage-unix tcpip 
 [1;34m[NOTE][m Package mirage-clock-unix is already installed (current version is 1.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
 [1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
 make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/network'
 cd stackv4 && make depend
@@ -826,7 +758,7 @@ opam install mirage-clock-unix mirage-console mirage-http mirage-net-unix mirage
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
 [1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
 [1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
 make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/stackv4'
 cd ethifv4 && make depend
@@ -835,20 +767,20 @@ opam install mirage-clock-unix mirage-console mirage-net-unix mirage-unix --verb
 [1;34m[NOTE][m Package mirage-clock-unix is already installed (current version is 1.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
 [1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/ethifv4'
 cd io_page && make depend
 make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/io_page'
 opam install mirage-console mirage-unix --verbose
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/io_page'
 cd ping && make depend
 make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/ping'
 opam install mirage-console mirage-net-unix mirage-unix tcpip --verbose
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
 [1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
 make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/ping'
 cd static_website && make depend
@@ -865,7 +797,7 @@ opam install conduit crunch cstruct io-page lwt mirage-clock-unix mirage-conduit
 [1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
 [1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
 [1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [1;34m[NOTE][m Package re is already installed (current version is 1.2.2).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
 [1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
@@ -882,7 +814,7 @@ opam install crunch cstruct dns io-page lwt mirage-clock-unix mirage-console mir
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
 [1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
 [1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
 make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/dns'
 cd conduit_server && make depend
@@ -895,7 +827,7 @@ opam install conduit mirage-clock-unix mirage-conduit mirage-console mirage-http
 [1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
 [1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
 [1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
 [1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
 make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/conduit_server'
@@ -906,7 +838,7 @@ opam install mirage-clock-unix mirage-console mirage-http mirage-net-unix mirage
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
 [1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
 [1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
 [1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
 make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/conduit_server_manual'
@@ -984,7 +916,7 @@ TARGET=heads1 mirage configure src/config.ml --unix
 [32mheads1[m      Installing OPAM packages.
 [32mheads1[m      [33m=>[m opam install --yes mirage-console mirage-unix
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [32mheads1[m      [36mGenerating:[m main.ml
 TARGET=heads1 mirage build src/config.ml
 [32mMirage[m      [36mUsing specified config file:[m src/config.ml
@@ -1005,7 +937,7 @@ TARGET=heads2 mirage configure src/config.ml --unix
 [32mheads2[m      Installing OPAM packages.
 [32mheads2[m      [33m=>[m opam install --yes mirage-console mirage-unix
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [32mheads2[m      [36mGenerating:[m main.ml
 TARGET=heads2 mirage build src/config.ml
 [32mMirage[m      [36mUsing specified config file:[m src/config.ml
@@ -1026,7 +958,7 @@ TARGET=heads3 mirage configure src/config.ml --unix
 [32mheads3[m      Installing OPAM packages.
 [32mheads3[m      [33m=>[m opam install --yes mirage-console mirage-unix
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [32mheads3[m      [36mGenerating:[m main.ml
 TARGET=heads3 mirage build src/config.ml
 [32mMirage[m      [36mUsing specified config file:[m src/config.ml
@@ -1047,7 +979,7 @@ TARGET=timeout1 mirage configure src/config.ml --unix
 [32mtimeout1[m    Installing OPAM packages.
 [32mtimeout1[m    [33m=>[m opam install --yes mirage-console mirage-unix
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [32mtimeout1[m    [36mGenerating:[m main.ml
 TARGET=timeout1 mirage build src/config.ml
 [32mMirage[m      [36mUsing specified config file:[m src/config.ml
@@ -1068,7 +1000,7 @@ TARGET=timeout2 mirage configure src/config.ml --unix
 [32mtimeout2[m    Installing OPAM packages.
 [32mtimeout2[m    [33m=>[m opam install --yes mirage-console mirage-unix
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [32mtimeout2[m    [36mGenerating:[m main.ml
 TARGET=timeout2 mirage build src/config.ml
 [32mMirage[m      [36mUsing specified config file:[m src/config.ml
@@ -1089,7 +1021,7 @@ TARGET=echo_server1 mirage configure src/config.ml --unix
 [32mecho_server1[mInstalling OPAM packages.
 [32mecho_server1[m[33m=>[m opam install --yes mirage-console mirage-unix
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [32mecho_server1[m[36mGenerating:[m main.ml
 TARGET=echo_server1 mirage build src/config.ml
 [32mMirage[m      [36mUsing specified config file:[m src/config.ml
@@ -1110,7 +1042,7 @@ TARGET=echo_server2 mirage configure src/config.ml --unix
 [32mecho_server2[mInstalling OPAM packages.
 [32mecho_server2[m[33m=>[m opam install --yes mirage-console mirage-unix
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [32mecho_server2[m[36mGenerating:[m main.ml
 TARGET=echo_server2 mirage build src/config.ml
 [32mMirage[m      [36mUsing specified config file:[m src/config.ml
@@ -1131,7 +1063,7 @@ TARGET=int_server mirage configure src/config.ml --unix
 [32mint_server[m  Installing OPAM packages.
 [32mint_server[m  [33m=>[m opam install --yes mirage-console mirage-unix
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [32mint_server[m  [36mGenerating:[m main.ml
 TARGET=int_server mirage build src/config.ml
 [32mMirage[m      [36mUsing specified config file:[m src/config.ml
@@ -1152,7 +1084,7 @@ TARGET=stream_server mirage configure src/config.ml --unix
 [32mstream_server[mInstalling OPAM packages.
 [32mstream_server[m[33m=>[m opam install --yes mirage-console mirage-unix
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
 [32mstream_server[m[36mGenerating:[m main.ml
 TARGET=stream_server mirage build src/config.ml
 [32mMirage[m      [36mUsing specified config file:[m src/config.ml
@@ -1246,1038 +1178,9 @@ mirage configure console/config.ml --xen
 [32mconsole[m     [33m=>[m opam install --yes mirage-console mirage-xen xen-evtchn xen-gnt xenstore
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
 [1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-The following actions will be performed:
- - install   mirage-clock-xen.1.0.0                [required by mirage-xen]
- - install   xen-evtchn.1.0.5
- - install   conf-pkg-config.1.0                   [required by mirage-xen]
- - install   mirage-xen-minios.0.5.0               [required by mirage-xen]
- - recompile mirage-profile.0.4                    [uses mirage-xen-minios]
- - install   xen-gnt.2.1.0
- - recompile mirage-unix.2.1.1                     [uses mirage-profile]
- - install   mirage-xen.2.1.1
- - recompile vchan.2.0.0                           [uses xen-gnt, mirage-xen, xen-evtchn]
- - recompile mirage-console.2.0.0
- - recompile tcpip.2.2.1                           [uses mirage-xen, mirage-console]
- - recompile dns.0.11.0                            [uses tcpip]
- - recompile mirage-dns.2.0.0                      [uses dns]
- - recompile conduit.0.7.1                         [uses vchan]
- - recompile mirage-conduit.2.0.0                  [uses vchan, tcpip]
- - recompile cohttp.0.14.0                         [uses conduit]
- - recompile mirage-http.2.1.0                     [uses mirage-conduit, cohttp]
-=== [33m6[m to install | [33m11[m to reinstall ===
-
-[36m=-=-[m [01mSynchronizing package archives[m [36m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
-[[32mcohttp.0.14.0[m] v0.14.0.tar.gz is in the local cache, using it.
-[[32mconduit.0.7.1[m] v0.7.1.tar.gz is in the local cache, using it.
-[[32mdns.0.11.0[m] v0.11.0.tar.gz is in the local cache, using it.
-[[32mmirage-clock-xen.1.0.0[m] Downloading https://github.com/mirage/mirage-clock/archive/v1.0.0.tar.gz
-[[32mmirage-console.2.0.0[m] 2.0.0.tar.gz is in the local cache, using it.
-[[32mmirage-http.2.1.0[m] v2.1.0.tar.gz is in the local cache, using it.
-[[32mmirage-profile.0.4[m] v0.4.tar.gz is in the local cache, using it.
-[[32mmirage-unix.2.1.1[m] v2.1.1.tar.gz is in the local cache, using it.
-[[32mmirage-xen.2.1.1[m] Downloading https://github.com/mirage/mirage-platform/archive/v2.1.1.tar.gz
-[[32mmirage-xen-minios.0.5.0[m] Downloading https://github.com/mirage/mirage-xen-minios/releases/download/v0.5.0/mirage-xen-minios-v0.5.0.tar.bz2
-[[32mtcpip.2.2.1[m] v2.2.1.tar.gz is in the local cache, using it.
-[[32mvchan.2.0.0[m] v2.0.0.tar.gz is in the local cache, using it.
-[[32mxen-evtchn.1.0.5[m] Downloading https://github.com/mirage/ocaml-evtchn/archive/v1.0.5.tar.gz
-[[32mxen-gnt.2.1.0[m] Downloading https://github.com/mirage/ocaml-gnt/archive/v2.1.0.tar.gz
-
-[36m=-=-[m [01mRemoving Packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
-Removing mirage-http.2.1.0.
-  make uninstall
-Removing mirage-conduit.2.0.0.
-Removing cohttp.0.14.0.
-  ocamlfind remove cohttp
-Removing conduit.0.7.1.
-  ocamlfind remove conduit
-Removing vchan.2.0.0.
-  ocamlfind remove vchan
-Removing mirage-dns.2.0.0.
-Removing dns.0.11.0.
-  ocamlfind remove dns
-Removing tcpip.2.2.1.
-  ocamlfind remove tcpip
-Removing mirage-console.2.0.0.
-  ocamlfind remove mirage-console
-Removing mirage-unix.2.1.1.
-  make unix-uninstall PREFIX=/home/opam/.opam/4.01.0
-Removing mirage-profile.0.4.
-  ocamlfind remove mirage-profile
-
-[36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
-Building conf-pkg-config.1.0:
-  pkg-config --help
-Installing conf-pkg-config.1.0.
-Building mirage-clock-xen.1.0.0:
-  make xen-build
-  make xen-install
-Installing mirage-clock-xen.1.0.0.
-Building mirage-xen-minios.0.5.0:
-  make build
-Installing mirage-xen-minios.0.5.0.
-Building xen-evtchn.1.0.5:
-  make
-  make install
-Installing xen-evtchn.1.0.5.
-Building mirage-profile.0.4:
-  ./configure --prefix /home/opam/.opam/4.01.0 --enable-xen
-  make
-  make install
-Installing mirage-profile.0.4.
-Building mirage-unix.2.1.1:
-  make unix-build
-  make unix-install PREFIX=/home/opam/.opam/4.01.0
-Installing mirage-unix.2.1.1.
-Building xen-gnt.2.1.0:
-  make
-  make PREFIX=/home/opam/.opam/4.01.0 install
-Installing xen-gnt.2.1.0.
-Building mirage-xen.2.1.1:
-  make xen-build
-  make xen-install PREFIX=/home/opam/.opam/4.01.0
-Installing mirage-xen.2.1.1.
-Building mirage-console.2.0.0:
-  make
-  make install
-Installing mirage-console.2.0.0.
-Building vchan.2.0.0:
-  ./configure
-  make
-  make install
-Installing vchan.2.0.0.
-Building tcpip.2.2.1:
-  ./configure --prefix /home/opam/.opam/4.01.0 --enable-xen
-  make
-  make install
-Installing tcpip.2.2.1.
-Building dns.0.11.0:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0 --enable-lwt --enable-mirage
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing dns.0.11.0.
-Building mirage-dns.2.0.0:
-  ocamlfind query dns.mirage
-Installing mirage-dns.2.0.0.
-Building conduit.0.7.1:
-  make
-  make install
-Installing conduit.0.7.1.
-Building cohttp.0.14.0:
-  make PREFIX=/home/opam/.opam/4.01.0
-  make PREFIX=/home/opam/.opam/4.01.0 install
-Installing cohttp.0.14.0.
-Building mirage-conduit.2.0.0:
-  ocamlfind query conduit.mirage
-Installing mirage-conduit.2.0.0.
-Building mirage-http.2.1.0:
-  make
-  make install
-Installing mirage-http.2.1.0.
-[32mconsole[m     [33m=>[m ocamlfind query -r -format '%d	%(xen_linkopts)' -predicates native lwt.syntax mirage-console.xen mirage-types.lwt
-[32mconsole[m     [36mGenerating:[m main.ml
-cd console && make depend
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/console'
-opam install mirage-console mirage-xen xen-evtchn xen-gnt xenstore --verbose
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/console'
-mirage configure network/config.ml --xen 
-[32mMirage[m      [36mUsing specified config file:[m network/config.ml
-[32mMirage[m      [36mCompiling for target:[m Xen
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/network/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/network/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/network && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mnetwork[m     [36mUsing configuration:[m /home/opam/opam-repository/mirage-skeleton/network/config.ml
-[32mnetwork[m     1 job [Unikernel.Main]
-[32mnetwork[m     Installing OPAM packages.
-[32mnetwork[m     [33m=>[m opam install --yes mirage-clock-xen mirage-console mirage-net-xen mirage-xen tcpip xen-evtchn xen-gnt xenstore
-[1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-The following actions will be performed:
- - install   mirage-net-xen.1.2.0
-=== [33m1[m to install ===
-
-[36m=-=-[m [01mSynchronizing package archives[m [36m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
-[[32mmirage-net-xen.1.2.0[m] Downloading https://github.com/mirage/mirage-net-xen/archive/v1.2.0.tar.gz
-
-[36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
-Building mirage-net-xen.1.2.0:
-  make
-  make install
-Installing mirage-net-xen.1.2.0.
-[32mnetwork[m     [33m=>[m ocamlfind query -r -format '%d	%(xen_linkopts)' -predicates native lwt.syntax mirage-clock-xen mirage-console.xen mirage-net-xen mirage-types.lwt mirage.runtime tcpip.stack-direct
-[32mnetwork[m     [36mGenerating:[m main.ml
-cd network && make depend
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/network'
-opam install mirage-clock-xen mirage-console mirage-net-xen mirage-xen tcpip xen-evtchn xen-gnt xenstore --verbose
-[1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/network'
-mirage configure stackv4/config.ml --xen 
-[32mMirage[m      [36mUsing specified config file:[m stackv4/config.ml
-[32mMirage[m      [36mCompiling for target:[m Xen
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/stackv4/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/stackv4/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/stackv4 && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mstackv4[m     [36mUsing configuration:[m /home/opam/opam-repository/mirage-skeleton/stackv4/config.ml
-[32mstackv4[m     1 job [Unikernel.Main]
-[32mstackv4[m     Installing OPAM packages.
-[32mstackv4[m     [33m=>[m opam install --yes mirage-clock-xen mirage-console mirage-http mirage-net-xen mirage-xen tcpip xen-evtchn xen-gnt xenstore
-[1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-[32mstackv4[m     [33m=>[m ocamlfind query -r -format '%d	%(xen_linkopts)' -predicates native lwt.syntax mirage-clock-xen mirage-console.xen mirage-http mirage-net-xen mirage-types.lwt mirage.runtime tcpip.stack-direct
-[32mstackv4[m     [36mGenerating:[m main.ml
-cd stackv4 && make depend
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/stackv4'
-opam install mirage-clock-xen mirage-console mirage-http mirage-net-xen mirage-xen tcpip xen-evtchn xen-gnt xenstore --verbose
-[1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/stackv4'
-mirage configure ethifv4/config.ml --xen 
-[32mMirage[m      [36mUsing specified config file:[m ethifv4/config.ml
-[32mMirage[m      [36mCompiling for target:[m Xen
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/ethifv4/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/ethifv4/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/ethifv4 && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32methifv4[m     [36mUsing configuration:[m /home/opam/opam-repository/mirage-skeleton/ethifv4/config.ml
-[32methifv4[m     1 job [Unikernel.Main]
-[32methifv4[m     Installing OPAM packages.
-[32methifv4[m     [33m=>[m opam install --yes mirage-clock-xen mirage-console mirage-net-xen mirage-xen xen-evtchn xen-gnt xenstore
-[1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-[32methifv4[m     [33m=>[m ocamlfind query -r -format '%d	%(xen_linkopts)' -predicates native lwt.syntax mirage-clock-xen mirage-console.xen mirage-net-xen mirage-types.lwt tcpip.dhcpv4 tcpip.ethif tcpip.tcp tcpip.udp
-[32methifv4[m     [36mGenerating:[m main.ml
-cd ethifv4 && make depend
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/ethifv4'
-opam install mirage-clock-xen mirage-console mirage-net-xen mirage-xen xen-evtchn xen-gnt xenstore --verbose
-[1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/ethifv4'
-mirage configure io_page/config.ml --xen 
-[32mMirage[m      [36mUsing specified config file:[m io_page/config.ml
-[32mMirage[m      [36mCompiling for target:[m Xen
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/io_page/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/io_page/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/io_page && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mio_page[m     [36mUsing configuration:[m /home/opam/opam-repository/mirage-skeleton/io_page/config.ml
-[32mio_page[m     1 job [Unikernel.Main]
-[32mio_page[m     Installing OPAM packages.
-[32mio_page[m     [33m=>[m opam install --yes mirage-console mirage-xen xen-evtchn xen-gnt xenstore
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-[32mio_page[m     [33m=>[m ocamlfind query -r -format '%d	%(xen_linkopts)' -predicates native lwt.syntax mirage-console.xen mirage-types.lwt
-[32mio_page[m     [36mGenerating:[m main.ml
-cd io_page && make depend
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/io_page'
-opam install mirage-console mirage-xen xen-evtchn xen-gnt xenstore --verbose
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/io_page'
-mirage configure ping/config.ml --xen 
-[32mMirage[m      [36mUsing specified config file:[m ping/config.ml
-[32mMirage[m      [36mCompiling for target:[m Xen
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/ping/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/ping/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/ping && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mping[m        [36mUsing configuration:[m /home/opam/opam-repository/mirage-skeleton/ping/config.ml
-[32mping[m        1 job [Unikernel.Main]
-[32mping[m        Installing OPAM packages.
-[32mping[m        [33m=>[m opam install --yes mirage-console mirage-net-xen mirage-xen tcpip xen-evtchn xen-gnt xenstore
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-[32mping[m        [33m=>[m ocamlfind query -r -format '%d	%(xen_linkopts)' -predicates native lwt.syntax mirage-console.xen mirage-net-xen mirage-types.lwt tcpip.ethif tcpip.ipv4
-[32mping[m        [36mGenerating:[m main.ml
-cd ping && make depend
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/ping'
-opam install mirage-console mirage-net-xen mirage-xen tcpip xen-evtchn xen-gnt xenstore --verbose
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/ping'
-mirage configure static_website/config.ml --xen 
-[32mMirage[m      [36mUsing specified config file:[m static_website/config.ml
-[32mMirage[m      [36mCompiling for target:[m Xen
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/static_website/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/static_website/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/static_website && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mwww[m         [36mUsing configuration:[m /home/opam/opam-repository/mirage-skeleton/static_website/config.ml
-[32mwww[m         1 job [Dispatch.Main]
-[32mwww[m         Installing OPAM packages.
-[32mwww[m         [33m=>[m opam install --yes conduit crunch cstruct io-page lwt mirage-clock-xen mirage-conduit mirage-console mirage-http mirage-net-xen mirage-types mirage-xen re tcpip vchan xen-evtchn xen-gnt xenstore
-[1;34m[NOTE][m Package conduit is already installed (current version is 0.7.1).
-[1;34m[NOTE][m Package crunch is already installed (current version is 1.3.0).
-[1;34m[NOTE][m Package cstruct is already installed (current version is 1.5.0).
-[1;34m[NOTE][m Package io-page is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package lwt is already installed (current version is 2.4.5).
-[1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
-[1;34m[NOTE][m Package mirage-conduit is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package re is already installed (current version is 1.2.2).
-[1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
-[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-[32mwww[m         [33m=>[m ocamlfind query -r -format '%d	%(xen_linkopts)' -predicates native lwt.syntax conduit.mirage cstruct io-page lwt mirage-clock-xen mirage-console.xen mirage-http mirage-net-xen mirage-types mirage-types.lwt mirage.runtime re.str tcpip.stack-direct
-[32mwww[m         [36mGenerating:[m main.ml
-[32mwww[m         [36mGenerating:[m /home/opam/opam-repository/mirage-skeleton/static_website/static1.ml
-[32mwww[m         [33m=>[m ocaml-crunch -o static1.ml /home/opam/opam-repository/mirage-skeleton/static_website/./htdocs
-cd static_website && make depend
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/static_website'
-opam install conduit crunch cstruct io-page lwt mirage-clock-xen mirage-conduit mirage-console mirage-http mirage-net-xen mirage-types mirage-xen re tcpip vchan xen-evtchn xen-gnt xenstore --verbose
-[1;34m[NOTE][m Package conduit is already installed (current version is 0.7.1).
-[1;34m[NOTE][m Package crunch is already installed (current version is 1.3.0).
-[1;34m[NOTE][m Package cstruct is already installed (current version is 1.5.0).
-[1;34m[NOTE][m Package io-page is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package lwt is already installed (current version is 2.4.5).
-[1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
-[1;34m[NOTE][m Package mirage-conduit is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package re is already installed (current version is 1.2.2).
-[1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
-[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/static_website'
-mirage configure dns/config.ml --xen 
-[32mMirage[m      [36mUsing specified config file:[m dns/config.ml
-[32mMirage[m      [36mCompiling for target:[m Xen
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/dns/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/dns/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/dns && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mdns[m         [36mUsing configuration:[m /home/opam/opam-repository/mirage-skeleton/dns/config.ml
-[32mdns[m         1 job [Unikernel.Main]
-[32mdns[m         Installing OPAM packages.
-[32mdns[m         [33m=>[m opam install --yes crunch cstruct dns io-page lwt mirage-clock-xen mirage-console mirage-net-xen mirage-types mirage-xen tcpip xen-evtchn xen-gnt xenstore
-[1;34m[NOTE][m Package crunch is already installed (current version is 1.3.0).
-[1;34m[NOTE][m Package cstruct is already installed (current version is 1.5.0).
-[1;34m[NOTE][m Package dns is already installed (current version is 0.11.0).
-[1;34m[NOTE][m Package io-page is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package lwt is already installed (current version is 2.4.5).
-[1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-[32mdns[m         [33m=>[m ocamlfind query -r -format '%d	%(xen_linkopts)' -predicates native lwt.syntax cstruct dns.lwt-core io-page lwt mirage-clock-xen mirage-console.xen mirage-net-xen mirage-types mirage-types.lwt mirage.runtime tcpip.stack-direct
-[32mdns[m         [36mGenerating:[m main.ml
-[32mdns[m         [36mGenerating:[m /home/opam/opam-repository/mirage-skeleton/dns/static1.ml
-[32mdns[m         [33m=>[m ocaml-crunch -o static1.ml /home/opam/opam-repository/mirage-skeleton/dns/./data
-cd dns && make depend
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/dns'
-opam install crunch cstruct dns io-page lwt mirage-clock-xen mirage-console mirage-net-xen mirage-types mirage-xen tcpip xen-evtchn xen-gnt xenstore --verbose
-[1;34m[NOTE][m Package crunch is already installed (current version is 1.3.0).
-[1;34m[NOTE][m Package cstruct is already installed (current version is 1.5.0).
-[1;34m[NOTE][m Package dns is already installed (current version is 0.11.0).
-[1;34m[NOTE][m Package io-page is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package lwt is already installed (current version is 2.4.5).
-[1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/dns'
-mirage configure conduit_server/config.ml --xen 
-[32mMirage[m      [36mUsing specified config file:[m conduit_server/config.ml
-[32mMirage[m      [36mCompiling for target:[m Xen
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/conduit_server/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/conduit_server/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/conduit_server && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mconduit_server[m[36mUsing configuration:[m /home/opam/opam-repository/mirage-skeleton/conduit_server/config.ml
-[32mconduit_server[m1 job [Unikernel.Main]
-[32mconduit_server[mInstalling OPAM packages.
-[32mconduit_server[m[33m=>[m opam install --yes conduit mirage-clock-xen mirage-conduit mirage-console mirage-http mirage-net-xen mirage-types mirage-xen tcpip vchan xen-evtchn xen-gnt xenstore
-[1;34m[NOTE][m Package conduit is already installed (current version is 0.7.1).
-[1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
-[1;34m[NOTE][m Package mirage-conduit is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
-[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-[32mconduit_server[m[33m=>[m ocamlfind query -r -format '%d	%(xen_linkopts)' -predicates native lwt.syntax conduit.mirage mirage-clock-xen mirage-console.xen mirage-http mirage-net-xen mirage-types.lwt mirage.runtime tcpip.stack-direct
-[32mconduit_server[m[36mGenerating:[m main.ml
-cd conduit_server && make depend
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/conduit_server'
-opam install conduit mirage-clock-xen mirage-conduit mirage-console mirage-http mirage-net-xen mirage-types mirage-xen tcpip vchan xen-evtchn xen-gnt xenstore --verbose
-[1;34m[NOTE][m Package conduit is already installed (current version is 0.7.1).
-[1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
-[1;34m[NOTE][m Package mirage-conduit is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
-[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/conduit_server'
-mirage configure conduit_server_manual/config.ml --xen 
-[32mMirage[m      [36mUsing specified config file:[m conduit_server_manual/config.ml
-[32mMirage[m      [36mCompiling for target:[m Xen
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/conduit_server_manual/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/conduit_server_manual/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/conduit_server_manual && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mconduit_server[m[36mUsing configuration:[m /home/opam/opam-repository/mirage-skeleton/conduit_server_manual/config.ml
-[32mconduit_server[m1 job [Unikernel.Main]
-[32mconduit_server[mInstalling OPAM packages.
-[32mconduit_server[m[33m=>[m opam install --yes mirage-clock-xen mirage-console mirage-http mirage-net-xen mirage-xen tcpip vchan xen-evtchn xen-gnt xenstore
-[1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
-[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-[32mconduit_server[m[33m=>[m ocamlfind query -r -format '%d	%(xen_linkopts)' -predicates native lwt.syntax mirage-clock-xen mirage-console.xen mirage-http mirage-net-xen mirage-types.lwt mirage.runtime tcpip.stack-direct vchan
-[32mconduit_server[m[36mGenerating:[m main.ml
-cd conduit_server_manual && make depend
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/conduit_server_manual'
-opam install mirage-clock-xen mirage-console mirage-http mirage-net-xen mirage-xen tcpip vchan xen-evtchn xen-gnt xenstore --verbose
-[1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
-[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/conduit_server_manual'
-++ make depend
-cd console && make depend
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/console'
-opam install mirage-console mirage-xen xen-evtchn xen-gnt xenstore --verbose
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/console'
-cd network && make depend
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/network'
-opam install mirage-clock-xen mirage-console mirage-net-xen mirage-xen tcpip xen-evtchn xen-gnt xenstore --verbose
-[1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/network'
-cd stackv4 && make depend
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/stackv4'
-opam install mirage-clock-xen mirage-console mirage-http mirage-net-xen mirage-xen tcpip xen-evtchn xen-gnt xenstore --verbose
-[1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/stackv4'
-cd ethifv4 && make depend
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/ethifv4'
-opam install mirage-clock-xen mirage-console mirage-net-xen mirage-xen xen-evtchn xen-gnt xenstore --verbose
-[1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/ethifv4'
-cd io_page && make depend
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/io_page'
-opam install mirage-console mirage-xen xen-evtchn xen-gnt xenstore --verbose
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/io_page'
-cd ping && make depend
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/ping'
-opam install mirage-console mirage-net-xen mirage-xen tcpip xen-evtchn xen-gnt xenstore --verbose
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/ping'
-cd static_website && make depend
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/static_website'
-opam install conduit crunch cstruct io-page lwt mirage-clock-xen mirage-conduit mirage-console mirage-http mirage-net-xen mirage-types mirage-xen re tcpip vchan xen-evtchn xen-gnt xenstore --verbose
-[1;34m[NOTE][m Package conduit is already installed (current version is 0.7.1).
-[1;34m[NOTE][m Package crunch is already installed (current version is 1.3.0).
-[1;34m[NOTE][m Package cstruct is already installed (current version is 1.5.0).
-[1;34m[NOTE][m Package io-page is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package lwt is already installed (current version is 2.4.5).
-[1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
-[1;34m[NOTE][m Package mirage-conduit is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package re is already installed (current version is 1.2.2).
-[1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
-[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/static_website'
-cd dns && make depend
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/dns'
-opam install crunch cstruct dns io-page lwt mirage-clock-xen mirage-console mirage-net-xen mirage-types mirage-xen tcpip xen-evtchn xen-gnt xenstore --verbose
-[1;34m[NOTE][m Package crunch is already installed (current version is 1.3.0).
-[1;34m[NOTE][m Package cstruct is already installed (current version is 1.5.0).
-[1;34m[NOTE][m Package dns is already installed (current version is 0.11.0).
-[1;34m[NOTE][m Package io-page is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package lwt is already installed (current version is 2.4.5).
-[1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/dns'
-cd conduit_server && make depend
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/conduit_server'
-opam install conduit mirage-clock-xen mirage-conduit mirage-console mirage-http mirage-net-xen mirage-types mirage-xen tcpip vchan xen-evtchn xen-gnt xenstore --verbose
-[1;34m[NOTE][m Package conduit is already installed (current version is 0.7.1).
-[1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
-[1;34m[NOTE][m Package mirage-conduit is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
-[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/conduit_server'
-cd conduit_server_manual && make depend
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/conduit_server_manual'
-opam install mirage-clock-xen mirage-console mirage-http mirage-net-xen mirage-xen tcpip vchan xen-evtchn xen-gnt xenstore --verbose
-[1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
-[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/conduit_server_manual'
-++ make build
-cd console && make
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/console'
-ocamlbuild -classic-display -use-ocamlfind -pkgs lwt.syntax,mirage-console.xen,mirage-types.lwt -tags "syntax(camlp4o),annot,bin_annot,strict_sequence,principal" -tag-line "<static*.*>: -syntax(camlp4o)" -cflag -g -lflags -g,-linkpkg,-dontlink,unix main.native.o
-ocamlfind ocamldep -package mirage-types.lwt -package mirage-console.xen -package lwt.syntax -syntax camlp4o -modules main.ml > main.ml.depends
-ocamlfind ocamldep -package mirage-types.lwt -package mirage-console.xen -package lwt.syntax -syntax camlp4o -modules unikernel.ml > unikernel.ml.depends
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package mirage-types.lwt -package mirage-console.xen -package lwt.syntax -syntax camlp4o -o unikernel.cmo unikernel.ml
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package mirage-types.lwt -package mirage-console.xen -package lwt.syntax -syntax camlp4o -o main.cmo main.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package mirage-types.lwt -package mirage-console.xen -package lwt.syntax -syntax camlp4o -o unikernel.cmx unikernel.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package mirage-types.lwt -package mirage-console.xen -package lwt.syntax -syntax camlp4o -o main.cmx main.ml
-ocamlfind ocamlopt -g -linkpkg -dontlink unix -output-obj -package mirage-types.lwt -package mirage-console.xen -package lwt.syntax -syntax camlp4o unikernel.cmx main.cmx -o main.native.o
-pkg-config --print-errors --exists mirage-xen
-ld -d -static -nostdlib \
-  _build/main.native.o \
-   \
-  $(pkg-config --static --libs mirage-xen) \
-  /usr/lib/gcc/x86_64-redhat-linux/4.8.2/libgcc.a \
-  -o mir-console.xen
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/console'
-cd network && make
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/network'
-ocamlbuild -classic-display -use-ocamlfind -pkgs lwt.syntax,mirage-clock-xen,mirage-console.xen,mirage-net-xen,mirage-types.lwt,mirage.runtime,tcpip.stack-direct -tags "syntax(camlp4o),annot,bin_annot,strict_sequence,principal" -tag-line "<static*.*>: -syntax(camlp4o)" -cflag -g -lflags -g,-linkpkg,-dontlink,unix main.native.o
-ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-net-xen -package mirage-console.xen -package mirage-clock-xen -package lwt.syntax -syntax camlp4o -modules main.ml > main.ml.depends
-ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-net-xen -package mirage-console.xen -package mirage-clock-xen -package lwt.syntax -syntax camlp4o -modules unikernel.ml > unikernel.ml.depends
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-net-xen -package mirage-console.xen -package mirage-clock-xen -package lwt.syntax -syntax camlp4o -o unikernel.cmo unikernel.ml
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-net-xen -package mirage-console.xen -package mirage-clock-xen -package lwt.syntax -syntax camlp4o -o main.cmo main.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-net-xen -package mirage-console.xen -package mirage-clock-xen -package lwt.syntax -syntax camlp4o -o unikernel.cmx unikernel.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-net-xen -package mirage-console.xen -package mirage-clock-xen -package lwt.syntax -syntax camlp4o -o main.cmx main.ml
-ocamlfind ocamlopt -g -linkpkg -dontlink unix -output-obj -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-net-xen -package mirage-console.xen -package mirage-clock-xen -package lwt.syntax -syntax camlp4o unikernel.cmx main.cmx -o main.native.o
-pkg-config --print-errors --exists mirage-xen
-ld -d -static -nostdlib \
-  _build/main.native.o \
-  -L/home/opam/.opam/4.01.0/lib/tcpip -ltcpip_xen_stubs \
-  $(pkg-config --static --libs mirage-xen) \
-  /usr/lib/gcc/x86_64-redhat-linux/4.8.2/libgcc.a \
-  -o mir-network.xen
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/network'
-cd stackv4 && make
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/stackv4'
-ocamlbuild -classic-display -use-ocamlfind -pkgs lwt.syntax,mirage-clock-xen,mirage-console.xen,mirage-http,mirage-net-xen,mirage-types.lwt,mirage.runtime,tcpip.stack-direct -tags "syntax(camlp4o),annot,bin_annot,strict_sequence,principal" -tag-line "<static*.*>: -syntax(camlp4o)" -cflag -g -lflags -g,-linkpkg,-dontlink,unix main.native.o
-ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt.syntax -syntax camlp4o -modules main.ml > main.ml.depends
-ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt.syntax -syntax camlp4o -modules unikernel.ml > unikernel.ml.depends
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt.syntax -syntax camlp4o -o unikernel.cmo unikernel.ml
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt.syntax -syntax camlp4o -o main.cmo main.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt.syntax -syntax camlp4o -o unikernel.cmx unikernel.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt.syntax -syntax camlp4o -o main.cmx main.ml
-ocamlfind ocamlopt -g -linkpkg -dontlink unix -output-obj -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt.syntax -syntax camlp4o unikernel.cmx main.cmx -o main.native.o
-pkg-config --print-errors --exists mirage-xen
-ld -d -static -nostdlib \
-  _build/main.native.o \
-  -L/home/opam/.opam/4.01.0/lib/tcpip -ltcpip_xen_stubs \
-  $(pkg-config --static --libs mirage-xen) \
-  /usr/lib/gcc/x86_64-redhat-linux/4.8.2/libgcc.a \
-  -o mir-stackv4.xen
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/stackv4'
-cd ethifv4 && make
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/ethifv4'
-ocamlbuild -classic-display -use-ocamlfind -pkgs lwt.syntax,mirage-clock-xen,mirage-console.xen,mirage-net-xen,mirage-types.lwt,tcpip.dhcpv4,tcpip.ethif,tcpip.tcp,tcpip.udp -tags "syntax(camlp4o),annot,bin_annot,strict_sequence,principal" -tag-line "<static*.*>: -syntax(camlp4o)" -cflag -g -lflags -g,-linkpkg,-dontlink,unix main.native.o
-ocamlfind ocamldep -package tcpip.udp -package tcpip.tcp -package tcpip.ethif -package tcpip.dhcpv4 -package mirage-types.lwt -package mirage-net-xen -package mirage-console.xen -package mirage-clock-xen -package lwt.syntax -syntax camlp4o -modules main.ml > main.ml.depends
-ocamlfind ocamldep -package tcpip.udp -package tcpip.tcp -package tcpip.ethif -package tcpip.dhcpv4 -package mirage-types.lwt -package mirage-net-xen -package mirage-console.xen -package mirage-clock-xen -package lwt.syntax -syntax camlp4o -modules unikernel.ml > unikernel.ml.depends
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.udp -package tcpip.tcp -package tcpip.ethif -package tcpip.dhcpv4 -package mirage-types.lwt -package mirage-net-xen -package mirage-console.xen -package mirage-clock-xen -package lwt.syntax -syntax camlp4o -o unikernel.cmo unikernel.ml
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.udp -package tcpip.tcp -package tcpip.ethif -package tcpip.dhcpv4 -package mirage-types.lwt -package mirage-net-xen -package mirage-console.xen -package mirage-clock-xen -package lwt.syntax -syntax camlp4o -o main.cmo main.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.udp -package tcpip.tcp -package tcpip.ethif -package tcpip.dhcpv4 -package mirage-types.lwt -package mirage-net-xen -package mirage-console.xen -package mirage-clock-xen -package lwt.syntax -syntax camlp4o -o unikernel.cmx unikernel.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.udp -package tcpip.tcp -package tcpip.ethif -package tcpip.dhcpv4 -package mirage-types.lwt -package mirage-net-xen -package mirage-console.xen -package mirage-clock-xen -package lwt.syntax -syntax camlp4o -o main.cmx main.ml
-ocamlfind ocamlopt -g -linkpkg -dontlink unix -output-obj -package tcpip.udp -package tcpip.tcp -package tcpip.ethif -package tcpip.dhcpv4 -package mirage-types.lwt -package mirage-net-xen -package mirage-console.xen -package mirage-clock-xen -package lwt.syntax -syntax camlp4o unikernel.cmx main.cmx -o main.native.o
-pkg-config --print-errors --exists mirage-xen
-ld -d -static -nostdlib \
-  _build/main.native.o \
-  -L/home/opam/.opam/4.01.0/lib/tcpip -ltcpip_xen_stubs \
-  $(pkg-config --static --libs mirage-xen) \
-  /usr/lib/gcc/x86_64-redhat-linux/4.8.2/libgcc.a \
-  -o mir-ethifv4.xen
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/ethifv4'
-cd io_page && make
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/io_page'
-ocamlbuild -classic-display -use-ocamlfind -pkgs lwt.syntax,mirage-console.xen,mirage-types.lwt -tags "syntax(camlp4o),annot,bin_annot,strict_sequence,principal" -tag-line "<static*.*>: -syntax(camlp4o)" -cflag -g -lflags -g,-linkpkg,-dontlink,unix main.native.o
-ocamlfind ocamldep -package mirage-types.lwt -package mirage-console.xen -package lwt.syntax -syntax camlp4o -modules main.ml > main.ml.depends
-ocamlfind ocamldep -package mirage-types.lwt -package mirage-console.xen -package lwt.syntax -syntax camlp4o -modules unikernel.ml > unikernel.ml.depends
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package mirage-types.lwt -package mirage-console.xen -package lwt.syntax -syntax camlp4o -o unikernel.cmo unikernel.ml
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package mirage-types.lwt -package mirage-console.xen -package lwt.syntax -syntax camlp4o -o main.cmo main.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package mirage-types.lwt -package mirage-console.xen -package lwt.syntax -syntax camlp4o -o unikernel.cmx unikernel.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package mirage-types.lwt -package mirage-console.xen -package lwt.syntax -syntax camlp4o -o main.cmx main.ml
-ocamlfind ocamlopt -g -linkpkg -dontlink unix -output-obj -package mirage-types.lwt -package mirage-console.xen -package lwt.syntax -syntax camlp4o unikernel.cmx main.cmx -o main.native.o
-pkg-config --print-errors --exists mirage-xen
-ld -d -static -nostdlib \
-  _build/main.native.o \
-   \
-  $(pkg-config --static --libs mirage-xen) \
-  /usr/lib/gcc/x86_64-redhat-linux/4.8.2/libgcc.a \
-  -o mir-io_page.xen
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/io_page'
-make -C lwt build
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/lwt'
-TARGET=heads1 mirage configure src/config.ml --xen 
-[32mMirage[m      [36mUsing specified config file:[m src/config.ml
-[32mMirage[m      [36mCompiling for target:[m Xen
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/lwt/src/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/lwt/src && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mheads1[m      [36mUsing configuration:[m /home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml
-[32mheads1[m      1 job [Unikernels.Heads1]
-[32mheads1[m      Installing OPAM packages.
-[32mheads1[m      [33m=>[m opam install --yes mirage-console mirage-xen xen-evtchn xen-gnt xenstore
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-[32mheads1[m      [33m=>[m ocamlfind query -r -format '%d	%(xen_linkopts)' -predicates native lwt.syntax mirage-console.xen mirage-types.lwt
-[32mheads1[m      [36mGenerating:[m main.ml
-TARGET=heads1 mirage build src/config.ml
-[32mMirage[m      [36mUsing specified config file:[m src/config.ml
-[32mMirage[m      [36mCompiling for target:[m Unix
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/lwt/src/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/lwt/src && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mheads1[m      Build: [36m/home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml[m
-[32mheads1[m      [33m=>[m make build
-TARGET=heads2 mirage configure src/config.ml --xen 
-[32mMirage[m      [36mUsing specified config file:[m src/config.ml
-[32mMirage[m      [36mCompiling for target:[m Xen
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/lwt/src/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/lwt/src && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mheads2[m      [36mUsing configuration:[m /home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml
-[32mheads2[m      1 job [Unikernels.Heads2]
-[32mheads2[m      Installing OPAM packages.
-[32mheads2[m      [33m=>[m opam install --yes mirage-console mirage-xen xen-evtchn xen-gnt xenstore
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-[32mheads2[m      [33m=>[m ocamlfind query -r -format '%d	%(xen_linkopts)' -predicates native lwt.syntax mirage-console.xen mirage-types.lwt
-[32mheads2[m      [36mGenerating:[m main.ml
-TARGET=heads2 mirage build src/config.ml
-[32mMirage[m      [36mUsing specified config file:[m src/config.ml
-[32mMirage[m      [36mCompiling for target:[m Unix
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/lwt/src/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/lwt/src && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mheads2[m      Build: [36m/home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml[m
-[32mheads2[m      [33m=>[m make build
-TARGET=heads3 mirage configure src/config.ml --xen 
-[32mMirage[m      [36mUsing specified config file:[m src/config.ml
-[32mMirage[m      [36mCompiling for target:[m Xen
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/lwt/src/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/lwt/src && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mheads3[m      [36mUsing configuration:[m /home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml
-[32mheads3[m      1 job [Unikernels.Heads3]
-[32mheads3[m      Installing OPAM packages.
-[32mheads3[m      [33m=>[m opam install --yes mirage-console mirage-xen xen-evtchn xen-gnt xenstore
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-[32mheads3[m      [33m=>[m ocamlfind query -r -format '%d	%(xen_linkopts)' -predicates native lwt.syntax mirage-console.xen mirage-types.lwt
-[32mheads3[m      [36mGenerating:[m main.ml
-TARGET=heads3 mirage build src/config.ml
-[32mMirage[m      [36mUsing specified config file:[m src/config.ml
-[32mMirage[m      [36mCompiling for target:[m Unix
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/lwt/src/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/lwt/src && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mheads3[m      Build: [36m/home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml[m
-[32mheads3[m      [33m=>[m make build
-TARGET=timeout1 mirage configure src/config.ml --xen 
-[32mMirage[m      [36mUsing specified config file:[m src/config.ml
-[32mMirage[m      [36mCompiling for target:[m Xen
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/lwt/src/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/lwt/src && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mtimeout1[m    [36mUsing configuration:[m /home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml
-[32mtimeout1[m    1 job [Unikernels.Timeout1]
-[32mtimeout1[m    Installing OPAM packages.
-[32mtimeout1[m    [33m=>[m opam install --yes mirage-console mirage-xen xen-evtchn xen-gnt xenstore
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-[32mtimeout1[m    [33m=>[m ocamlfind query -r -format '%d	%(xen_linkopts)' -predicates native lwt.syntax mirage-console.xen mirage-types.lwt
-[32mtimeout1[m    [36mGenerating:[m main.ml
-TARGET=timeout1 mirage build src/config.ml
-[32mMirage[m      [36mUsing specified config file:[m src/config.ml
-[32mMirage[m      [36mCompiling for target:[m Unix
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/lwt/src/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/lwt/src && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mtimeout1[m    Build: [36m/home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml[m
-[32mtimeout1[m    [33m=>[m make build
-TARGET=timeout2 mirage configure src/config.ml --xen 
-[32mMirage[m      [36mUsing specified config file:[m src/config.ml
-[32mMirage[m      [36mCompiling for target:[m Xen
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/lwt/src/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/lwt/src && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mtimeout2[m    [36mUsing configuration:[m /home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml
-[32mtimeout2[m    1 job [Unikernels.Timeout2]
-[32mtimeout2[m    Installing OPAM packages.
-[32mtimeout2[m    [33m=>[m opam install --yes mirage-console mirage-xen xen-evtchn xen-gnt xenstore
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-[32mtimeout2[m    [33m=>[m ocamlfind query -r -format '%d	%(xen_linkopts)' -predicates native lwt.syntax mirage-console.xen mirage-types.lwt
-[32mtimeout2[m    [36mGenerating:[m main.ml
-TARGET=timeout2 mirage build src/config.ml
-[32mMirage[m      [36mUsing specified config file:[m src/config.ml
-[32mMirage[m      [36mCompiling for target:[m Unix
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/lwt/src/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/lwt/src && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mtimeout2[m    Build: [36m/home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml[m
-[32mtimeout2[m    [33m=>[m make build
-TARGET=echo_server1 mirage configure src/config.ml --xen 
-[32mMirage[m      [36mUsing specified config file:[m src/config.ml
-[32mMirage[m      [36mCompiling for target:[m Xen
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/lwt/src/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/lwt/src && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mecho_server1[m[36mUsing configuration:[m /home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml
-[32mecho_server1[m1 job [Unikernels.Echo_server1]
-[32mecho_server1[mInstalling OPAM packages.
-[32mecho_server1[m[33m=>[m opam install --yes mirage-console mirage-xen xen-evtchn xen-gnt xenstore
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-[32mecho_server1[m[33m=>[m ocamlfind query -r -format '%d	%(xen_linkopts)' -predicates native lwt.syntax mirage-console.xen mirage-types.lwt
-[32mecho_server1[m[36mGenerating:[m main.ml
-TARGET=echo_server1 mirage build src/config.ml
-[32mMirage[m      [36mUsing specified config file:[m src/config.ml
-[32mMirage[m      [36mCompiling for target:[m Unix
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/lwt/src/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/lwt/src && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mecho_server1[mBuild: [36m/home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml[m
-[32mecho_server1[m[33m=>[m make build
-TARGET=echo_server2 mirage configure src/config.ml --xen 
-[32mMirage[m      [36mUsing specified config file:[m src/config.ml
-[32mMirage[m      [36mCompiling for target:[m Xen
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/lwt/src/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/lwt/src && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mecho_server2[m[36mUsing configuration:[m /home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml
-[32mecho_server2[m1 job [Mvar_unikernels.Echo_server2]
-[32mecho_server2[mInstalling OPAM packages.
-[32mecho_server2[m[33m=>[m opam install --yes mirage-console mirage-xen xen-evtchn xen-gnt xenstore
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-[32mecho_server2[m[33m=>[m ocamlfind query -r -format '%d	%(xen_linkopts)' -predicates native lwt.syntax mirage-console.xen mirage-types.lwt
-[32mecho_server2[m[36mGenerating:[m main.ml
-TARGET=echo_server2 mirage build src/config.ml
-[32mMirage[m      [36mUsing specified config file:[m src/config.ml
-[32mMirage[m      [36mCompiling for target:[m Unix
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/lwt/src/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/lwt/src && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mecho_server2[mBuild: [36m/home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml[m
-[32mecho_server2[m[33m=>[m make build
-TARGET=int_server mirage configure src/config.ml --xen 
-[32mMirage[m      [36mUsing specified config file:[m src/config.ml
-[32mMirage[m      [36mCompiling for target:[m Xen
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/lwt/src/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/lwt/src && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mint_server[m  [36mUsing configuration:[m /home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml
-[32mint_server[m  1 job [Mvar_unikernels.Int_server]
-[32mint_server[m  Installing OPAM packages.
-[32mint_server[m  [33m=>[m opam install --yes mirage-console mirage-xen xen-evtchn xen-gnt xenstore
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-[32mint_server[m  [33m=>[m ocamlfind query -r -format '%d	%(xen_linkopts)' -predicates native lwt.syntax mirage-console.xen mirage-types.lwt
-[32mint_server[m  [36mGenerating:[m main.ml
-TARGET=int_server mirage build src/config.ml
-[32mMirage[m      [36mUsing specified config file:[m src/config.ml
-[32mMirage[m      [36mCompiling for target:[m Unix
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/lwt/src/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/lwt/src && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mint_server[m  Build: [36m/home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml[m
-[32mint_server[m  [33m=>[m make build
-TARGET=stream_server mirage configure src/config.ml --xen 
-[32mMirage[m      [36mUsing specified config file:[m src/config.ml
-[32mMirage[m      [36mCompiling for target:[m Xen
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/lwt/src/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/lwt/src && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mstream_server[m[36mUsing configuration:[m /home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml
-[32mstream_server[m1 job [Stream_server.Unikernel]
-[32mstream_server[mInstalling OPAM packages.
-[32mstream_server[m[33m=>[m opam install --yes mirage-console mirage-xen xen-evtchn xen-gnt xenstore
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
-[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-[32mstream_server[m[33m=>[m ocamlfind query -r -format '%d	%(xen_linkopts)' -predicates native lwt.syntax mirage-console.xen mirage-types.lwt
-[32mstream_server[m[36mGenerating:[m main.ml
-TARGET=stream_server mirage build src/config.ml
-[32mMirage[m      [36mUsing specified config file:[m src/config.ml
-[32mMirage[m      [36mCompiling for target:[m Unix
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/lwt/src/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/lwt/src && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mstream_server[mBuild: [36m/home/opam/opam-repository/mirage-skeleton/lwt/src/config.ml[m
-[32mstream_server[m[33m=>[m make build
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/lwt'
-cd ping && make
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/ping'
-ocamlbuild -classic-display -use-ocamlfind -pkgs lwt.syntax,mirage-console.xen,mirage-net-xen,mirage-types.lwt,tcpip.ethif,tcpip.ipv4 -tags "syntax(camlp4o),annot,bin_annot,strict_sequence,principal" -tag-line "<static*.*>: -syntax(camlp4o)" -cflag -g -lflags -g,-linkpkg,-dontlink,unix main.native.o
-ocamlfind ocamldep -package tcpip.ipv4 -package tcpip.ethif -package mirage-types.lwt -package mirage-net-xen -package mirage-console.xen -package lwt.syntax -syntax camlp4o -modules main.ml > main.ml.depends
-ocamlfind ocamldep -package tcpip.ipv4 -package tcpip.ethif -package mirage-types.lwt -package mirage-net-xen -package mirage-console.xen -package lwt.syntax -syntax camlp4o -modules unikernel.ml > unikernel.ml.depends
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.ipv4 -package tcpip.ethif -package mirage-types.lwt -package mirage-net-xen -package mirage-console.xen -package lwt.syntax -syntax camlp4o -o unikernel.cmo unikernel.ml
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.ipv4 -package tcpip.ethif -package mirage-types.lwt -package mirage-net-xen -package mirage-console.xen -package lwt.syntax -syntax camlp4o -o main.cmo main.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.ipv4 -package tcpip.ethif -package mirage-types.lwt -package mirage-net-xen -package mirage-console.xen -package lwt.syntax -syntax camlp4o -o unikernel.cmx unikernel.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.ipv4 -package tcpip.ethif -package mirage-types.lwt -package mirage-net-xen -package mirage-console.xen -package lwt.syntax -syntax camlp4o -o main.cmx main.ml
-ocamlfind ocamlopt -g -linkpkg -dontlink unix -output-obj -package tcpip.ipv4 -package tcpip.ethif -package mirage-types.lwt -package mirage-net-xen -package mirage-console.xen -package lwt.syntax -syntax camlp4o unikernel.cmx main.cmx -o main.native.o
-pkg-config --print-errors --exists mirage-xen
-ld -d -static -nostdlib \
-  _build/main.native.o \
-  -L/home/opam/.opam/4.01.0/lib/tcpip -ltcpip_xen_stubs \
-  $(pkg-config --static --libs mirage-xen) \
-  /usr/lib/gcc/x86_64-redhat-linux/4.8.2/libgcc.a \
-  -o mir-ping.xen
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/ping'
-cd static_website && make
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/static_website'
-ocamlbuild -classic-display -use-ocamlfind -pkgs lwt.syntax,conduit.mirage,cstruct,io-page,lwt,mirage-clock-xen,mirage-console.xen,mirage-http,mirage-net-xen,mirage-types,mirage-types.lwt,mirage.runtime,re.str,tcpip.stack-direct -tags "syntax(camlp4o),annot,bin_annot,strict_sequence,principal" -tag-line "<static*.*>: -syntax(camlp4o)" -cflag -g -lflags -g,-linkpkg,-dontlink,unix main.native.o
-ocamlfind ocamldep -package tcpip.stack-direct -package re.str -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules main.ml > main.ml.depends
-ocamlfind ocamldep -package tcpip.stack-direct -package re.str -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules dispatch.ml > dispatch.ml.depends
-ocamlfind ocamldep -package tcpip.stack-direct -package re.str -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package conduit.mirage -package lwt.syntax -modules static1.mli > static1.mli.depends
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package re.str -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package conduit.mirage -package lwt.syntax -syntax camlp4o -o dispatch.cmo dispatch.ml
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package re.str -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package conduit.mirage -package lwt.syntax -o static1.cmi static1.mli
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package re.str -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package conduit.mirage -package lwt.syntax -syntax camlp4o -o main.cmo main.ml
-ocamlfind ocamldep -package tcpip.stack-direct -package re.str -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package conduit.mirage -package lwt.syntax -modules static1.ml > static1.ml.depends
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package re.str -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package conduit.mirage -package lwt.syntax -syntax camlp4o -o dispatch.cmx dispatch.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package re.str -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package conduit.mirage -package lwt.syntax -o static1.cmx static1.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package re.str -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package conduit.mirage -package lwt.syntax -syntax camlp4o -o main.cmx main.ml
-ocamlfind ocamlopt -g -linkpkg -dontlink unix -output-obj -package tcpip.stack-direct -package re.str -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package conduit.mirage -package lwt.syntax -syntax camlp4o dispatch.cmx static1.cmx main.cmx -o main.native.o
-pkg-config --print-errors --exists mirage-xen
-ld -d -static -nostdlib \
-  _build/main.native.o \
-  -L/home/opam/.opam/4.01.0/lib/tcpip -ltcpip_xen_stubs \
-  $(pkg-config --static --libs mirage-xen) \
-  /usr/lib/gcc/x86_64-redhat-linux/4.8.2/libgcc.a \
-  -o mir-www.xen
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/static_website'
-cd dns && make
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/dns'
-ocamlbuild -classic-display -use-ocamlfind -pkgs lwt.syntax,cstruct,dns.lwt-core,io-page,lwt,mirage-clock-xen,mirage-console.xen,mirage-net-xen,mirage-types,mirage-types.lwt,mirage.runtime,tcpip.stack-direct -tags "syntax(camlp4o),annot,bin_annot,strict_sequence,principal" -tag-line "<static*.*>: -syntax(camlp4o)" -cflag -g -lflags -g,-linkpkg,-dontlink,unix main.native.o
-ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package dns.lwt-core -package cstruct -package lwt.syntax -syntax camlp4o -modules main.ml > main.ml.depends
-ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package dns.lwt-core -package cstruct -package lwt.syntax -modules static1.mli > static1.mli.depends
-ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package dns.lwt-core -package cstruct -package lwt.syntax -syntax camlp4o -modules unikernel.ml > unikernel.ml.depends
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package dns.lwt-core -package cstruct -package lwt.syntax -o static1.cmi static1.mli
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package dns.lwt-core -package cstruct -package lwt.syntax -syntax camlp4o -o unikernel.cmo unikernel.ml
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package dns.lwt-core -package cstruct -package lwt.syntax -syntax camlp4o -o main.cmo main.ml
-ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package dns.lwt-core -package cstruct -package lwt.syntax -modules static1.ml > static1.ml.depends
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package dns.lwt-core -package cstruct -package lwt.syntax -o static1.cmx static1.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package dns.lwt-core -package cstruct -package lwt.syntax -syntax camlp4o -o unikernel.cmx unikernel.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package dns.lwt-core -package cstruct -package lwt.syntax -syntax camlp4o -o main.cmx main.ml
-ocamlfind ocamlopt -g -linkpkg -dontlink unix -output-obj -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package dns.lwt-core -package cstruct -package lwt.syntax -syntax camlp4o static1.cmx unikernel.cmx main.cmx -o main.native.o
-pkg-config --print-errors --exists mirage-xen
-ld -d -static -nostdlib \
-  _build/main.native.o \
-  -L/home/opam/.opam/4.01.0/lib/tcpip -ltcpip_xen_stubs \
-  $(pkg-config --static --libs mirage-xen) \
-  /usr/lib/gcc/x86_64-redhat-linux/4.8.2/libgcc.a \
-  -o mir-dns.xen
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/dns'
-cd conduit_server && make
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/conduit_server'
-ocamlbuild -classic-display -use-ocamlfind -pkgs lwt.syntax,conduit.mirage,mirage-clock-xen,mirage-console.xen,mirage-http,mirage-net-xen,mirage-types.lwt,mirage.runtime,tcpip.stack-direct -tags "syntax(camlp4o),annot,bin_annot,strict_sequence,principal" -tag-line "<static*.*>: -syntax(camlp4o)" -cflag -g -lflags -g,-linkpkg,-dontlink,unix main.native.o
-ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules main.ml > main.ml.depends
-ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules unikernel.ml > unikernel.ml.depends
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package conduit.mirage -package lwt.syntax -syntax camlp4o -o unikernel.cmo unikernel.ml
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package conduit.mirage -package lwt.syntax -syntax camlp4o -o main.cmo main.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package conduit.mirage -package lwt.syntax -syntax camlp4o -o unikernel.cmx unikernel.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package conduit.mirage -package lwt.syntax -syntax camlp4o -o main.cmx main.ml
-ocamlfind ocamlopt -g -linkpkg -dontlink unix -output-obj -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package conduit.mirage -package lwt.syntax -syntax camlp4o unikernel.cmx main.cmx -o main.native.o
-pkg-config --print-errors --exists mirage-xen
-ld -d -static -nostdlib \
-  _build/main.native.o \
-  -L/home/opam/.opam/4.01.0/lib/tcpip -ltcpip_xen_stubs \
-  $(pkg-config --static --libs mirage-xen) \
-  /usr/lib/gcc/x86_64-redhat-linux/4.8.2/libgcc.a \
-  -o mir-conduit_server.xen
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/conduit_server'
-cd conduit_server_manual && make
-make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/conduit_server_manual'
-ocamlbuild -classic-display -use-ocamlfind -pkgs lwt.syntax,mirage-clock-xen,mirage-console.xen,mirage-http,mirage-net-xen,mirage-types.lwt,mirage.runtime,tcpip.stack-direct,vchan -tags "syntax(camlp4o),annot,bin_annot,strict_sequence,principal" -tag-line "<static*.*>: -syntax(camlp4o)" -cflag -g -lflags -g,-linkpkg,-dontlink,unix main.native.o
-ocamlfind ocamldep -package vchan -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt.syntax -syntax camlp4o -modules main.ml > main.ml.depends
-ocamlfind ocamldep -package vchan -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt.syntax -syntax camlp4o -modules unikernel.ml > unikernel.ml.depends
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package vchan -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt.syntax -syntax camlp4o -o unikernel.cmo unikernel.ml
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package vchan -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt.syntax -syntax camlp4o -o main.cmo main.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package vchan -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt.syntax -syntax camlp4o -o unikernel.cmx unikernel.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package vchan -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt.syntax -syntax camlp4o -o main.cmx main.ml
-ocamlfind ocamlopt -g -linkpkg -dontlink unix -output-obj -package vchan -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt.syntax -syntax camlp4o unikernel.cmx main.cmx -o main.native.o
-pkg-config --print-errors --exists mirage-xen
-ld -d -static -nostdlib \
-  _build/main.native.o \
-  -L/home/opam/.opam/4.01.0/lib/tcpip -ltcpip_xen_stubs \
-  $(pkg-config --static --libs mirage-xen) \
-  /usr/lib/gcc/x86_64-redhat-linux/4.8.2/libgcc.a \
-  -o mir-conduit_server.xen
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/conduit_server_manual'
-++ echo MIRAGE WORKS
-MIRAGE WORKS
+Fatal error:
+Stack overflow
+mirage: internal error, uncaught exception:
+        Sys_error("log: No such file or directory")
+        
+make: *** [console-configure] Error 1

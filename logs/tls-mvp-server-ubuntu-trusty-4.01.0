@@ -105,10 +105,10 @@ Building cmdliner.0.9.6:
   ocaml pkg/git.ml
   ocaml pkg/build.ml native=true native-dynlink=true
 Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/4.01.0/build/cppo.1.1.2/
+Installing conf-gmp.1.
 Building cppo.1.1.2:
   make
   make install-lib
-Installing conf-gmp.1.
 Building re.1.2.2:
   ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
   ocaml setup.ml -build
@@ -127,11 +127,11 @@ Building ctypes.0.3.3:
   make
   make install
 Installing re.1.2.2.
+Installing crunch.1.3.0.
 Building lwt.2.4.6:
   ./configure --prefix /home/opam/.opam/4.01.0 --disable-libev --disable-react --disable-ssl --enable-unix --enable-extra --enable-preemptive --disable-glib --disable-ppx
   make build
   make install
-Installing crunch.1.3.0.
 Building ocplib-endian.0.8:
   ocaml setup.ml -configure --disable-debug --prefix /home/opam/.opam/4.01.0
   ocaml setup.ml -build
@@ -158,14 +158,14 @@ Building cstruct.1.5.0:
   make
   make install
 Installing cstruct.1.5.0.
-Building asn1-combinators.0.1.1:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
-  ocaml setup.ml -build
-  ocaml setup.ml -install
 Building io-page.1.2.0:
   ./configure --prefix /home/opam/.opam/4.01.0
   make
   make install
+Building asn1-combinators.0.1.1:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
+  ocaml setup.ml -build
+  ocaml setup.ml -install
 Building nocrypto.0.2.2:
   ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
   ocaml setup.ml -build
@@ -202,9 +202,9 @@ Removing tls.0.2.0.
 [31m#[m [31mpath[m         /home/opam/.opam/4.01.0/build/tls.0.2.0
 [31m#[m [31mcompiler[m     4.01.0
 [31m#[m [31mexit-code[m    1
-[31m#[m [31menv-file[m     /home/opam/.opam/4.01.0/build/tls.0.2.0/tls-6741-70a526.env
-[31m#[m [31mstdout-file[m  /home/opam/.opam/4.01.0/build/tls.0.2.0/tls-6741-70a526.out
-[31m#[m [31mstderr-file[m  /home/opam/.opam/4.01.0/build/tls.0.2.0/tls-6741-70a526.err
+[31m#[m [31menv-file[m     /home/opam/.opam/4.01.0/build/tls.0.2.0/tls-6740-70a526.env
+[31m#[m [31mstdout-file[m  /home/opam/.opam/4.01.0/build/tls.0.2.0/tls-6740-70a526.out
+[31m#[m [31mstderr-file[m  /home/opam/.opam/4.01.0/build/tls.0.2.0/tls-6740-70a526.err
 [31m### stdout ###
 [m[31m# [m...[truncated]
 [31m# [mError: The implementation mirage/tls_mirage.ml
@@ -248,4 +248,4 @@ These actions have been completed [01msuccessfully[m
 The following [01mfailed[m
  - install   tls.0.2.0
 
-The former state can be restored with opam switch import "/home/opam/.opam/4.01.0/backup/state-20141120180339.export"
+The former state can be restored with opam switch import "/home/opam/.opam/4.01.0/backup/state-20141121180134.export"
