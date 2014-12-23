@@ -34,9 +34,9 @@ Loaded plugins: fastestmirror
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
 Loading mirror speeds from cached hostfile
- * base: mirror.nexcess.net
- * extras: mirror.metrocast.net
- * updates: mirror.atlanticmetro.net
+ * base: mirror.ubiquityservers.com
+ * extras: centos.corenetworks.net
+ * updates: centos.mirrors.tds.net
 Resolving Dependencies
 --> Running transaction check
 ---> Package openssl-devel.x86_64 1:1.0.1e-34.el7_0.6 will be installed
@@ -89,14 +89,14 @@ Downloading packages:
 (2/9): krb5-devel-1.11.3-4 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/9): keyutils-libs-devel-1.5.8-3.el7.x86_64.rpm          |  37 kB   00:00     
 (2/9): libverto-devel-0.2.5-4.el7.x86_64.rpm               |  12 kB   00:00     
 (3/9): libcom_err-devel-1.42.9-4.el7.x86_64.rpm            |  30 kB   00:00     
-(4/9): libselinux-devel-2.2.2-6.el7.x86_64.rpm             | 174 kB   00:00     
+(4/9): pcre-devel-8.32-12.el7.x86_64.rpm                   | 477 kB   00:00     
 (5/9): zlib-devel-1.2.7-13.el7.x86_64.rpm                  |  49 kB   00:00     
-(6/9): pcre-devel-8.32-12.el7.x86_64.rpm                   | 477 kB   00:00     
-(8/9): libsepol-devel-2.1. 29% [====-           ]  0.0 B/s | 779 kB   --:-- ETA (7/9): libsepol-devel-2.1.9-3.el7.x86_64.rpm               |  71 kB   00:00     
-(8/9): krb5-devel-1.11.3-49.el7.x86_64.rpm                 | 611 kB   00:01     
-(9/9): openssl-devel-1.0.1 60% [=========-      ] 1.0 MB/s | 1.6 MB   00:01 ETA (9/9): openssl-devel-1.0.1 75% [============    ] 1.0 MB/s | 2.0 MB   00:00 ETA (9/9): openssl-devel-1.0.1 96% [=============== ] 1.0 MB/s | 2.5 MB   00:00 ETA (9/9): openssl-devel-1.0.1 99% [===============-] 1.0 MB/s | 2.6 MB   00:00 ETA (9/9): openssl-devel-1.0.1e-34.el7_0.6.x86_64.rpm          | 1.2 MB   00:01     
+(6/9): libselinux-devel-2.2.2-6.el7.x86_64.rpm             | 174 kB   00:00     
+(7/9): libsepol-devel-2.1.9-3.el7.x86_64.rpm               |  71 kB   00:00     
+(8/9): openssl-devel-1.0.1e-34.el7_0.6.x86_64.rpm          | 1.2 MB   00:00     
+(9/9): krb5-devel-1.11.3-4 86% [=============-  ]  0.0 B/s | 2.3 MB   --:-- ETA (9/9): krb5-devel-1.11.3-4 86% [=============-  ]  0.0 B/s | 2.3 MB   --:-- ETA (9/9): krb5-devel-1.11.3-4 86% [=============-  ]  0.0 B/s | 2.3 MB   --:-- ETA (9/9): krb5-devel-1.11.3-4 86% [=============-  ]  876 B/s | 2.3 MB   06:49 ETA (9/9): krb5-devel-1.11.3-4 96% [=============== ]  52 kB/s | 2.5 MB   00:01 ETA (9/9): krb5-devel-1.11.3-49.el7.x86_64.rpm                 | 611 kB   00:05     
 --------------------------------------------------------------------------------
-Total                                              1.0 MB/s | 2.6 MB  00:02     
+Total                                              515 kB/s | 2.6 MB  00:05     
 Running transaction check
 Running transaction test
 Transaction test succeeded
