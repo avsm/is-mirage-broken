@@ -34,9 +34,9 @@ Loaded plugins: fastestmirror
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
 Loading mirror speeds from cached hostfile
- * base: mirror.steadfast.net
- * extras: ftpmirror.your.org
- * updates: mirror.oss.ou.edu
+ * base: mirror.ubiquityservers.com
+ * extras: mirror.sanctuaryhost.com
+ * updates: mirror.thelinuxfix.com
 Resolving Dependencies
 --> Running transaction check
 ---> Package openssl-devel.x86_64 1:1.0.1e-34.el7_0.6 will be installed
@@ -93,10 +93,10 @@ Downloading packages:
 (5/9): zlib-devel-1.2.7-13.el7.x86_64.rpm                  |  49 kB   00:00     
 (6/9): pcre-devel-8.32-12.el7.x86_64.rpm                   | 477 kB   00:00     
 (7/9): libsepol-devel-2.1.9-3.el7.x86_64.rpm               |  71 kB   00:00     
-(9/9): openssl-devel-1.0.1 48% [=======-        ]  0.0 B/s | 1.3 MB   --:-- ETA (9/9): openssl-devel-1.0.1 79% [============-   ] 1.1 MB/s | 2.1 MB   00:00 ETA (8/9): openssl-devel-1.0.1e-34.el7_0.6.x86_64.rpm          | 1.2 MB   00:00     
-(9/9): libselinux-devel-2. 93% [==============- ] 210 kB/s | 2.4 MB   00:00 ETA (9/9): libselinux-devel-2.2.2-6.el7.x86_64.rpm             | 174 kB   00:05     
+(8/9): libselinux-devel-2.2.2-6.el7.x86_64.rpm             | 174 kB   00:00     
+(9/9): openssl-devel-1.0.1 54% [========-       ]  0.0 B/s | 1.4 MB   --:-- ETA (9/9): openssl-devel-1.0.1e-34.el7_0.6.x86_64.rpm          | 1.2 MB   00:00     
 --------------------------------------------------------------------------------
-Total                                              459 kB/s | 2.6 MB  00:05     
+Total                                              2.1 MB/s | 2.6 MB  00:01     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -160,6 +160,13 @@ The following actions will be performed:
 [[32mcohttp.0.14.0[m] Downloading https://github.com/mirage/ocaml-cohttp/archive/v0.14.0.tar.gz
 [[32mconduit.0.7.1[m] Downloading https://github.com/mirage/ocaml-conduit/archive/v0.7.1.tar.gz
 [[32mcstruct.1.5.0[m] Downloading https://github.com/mirage/ocaml-cstruct/archive/v1.5.0.tar.gz
+[31m[ERROR][m Wrong checksum for /home/opam/.opam/packages.dev/cohttp.0.14.0/v0.14.0.tar.gz:
+  - b53029b397daff2639f555752f9a9b4d [expected result]
+  - 9841ea7065be56c7751cc51e37b93e80 [actual result]
+This is surely due to outdated package descriptions and should be fixed by running `opam update`.
+In case an update does not fix that problem, you can use the `--no-checksums` command-line option
+to /bypass checking for invalid checksums.
+[31m[ERROR][m https://github.com/mirage/ocaml-cohttp/archive/v0.14.0.tar.gz is not available
 [[32mfieldslib.109.20.03[m] Downloading https://ocaml.janestreet.com/ocaml-core/109.20.00/individual/fieldslib-109.20.03.tar.gz
 [[32mipaddr.2.5.0[m] Downloading https://github.com/mirage/ocaml-ipaddr/archive/2.5.0.tar.gz
 [[32mlwt.2.4.5[m] Downloading https://github.com/ocsigen/lwt/archive/2.4.5.tar.gz
@@ -171,107 +178,5 @@ The following actions will be performed:
 [[32mstringext.1.1.0[m] Downloading https://github.com/rgrinberg/stringext/archive/v1.1.0.tar.gz
 [[32mtype_conv.111.13.00[m] Downloading https://ocaml.janestreet.com/ocaml-core/111.13.00/individual/type_conv-111.13.00.tar.gz
 [[32muri.1.7.2[m] Downloading https://github.com/mirage/ocaml-uri/archive/v1.7.2.tar.gz
+[31m[ERROR][m Could not download archives of cohttp.0.14.0
 
-[36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
-Building base64.1.0.0:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing base64.1.0.0.
-Building cmdliner.0.9.6:
-  ocaml pkg/git.ml
-  ocaml pkg/build.ml native=true native-dynlink=true
-Installing cmdliner.0.9.6.
-Building optcomp.1.6:
-  ./configure --prefix /home/opam/.opam/4.01.0
-  make
-  make install
-Installing optcomp.1.6.
-Building re.1.2.2:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing re.1.2.2.
-Copying ~/.opam/repo/default/packages/ssl/ssl.0.4.7/files/pkgconfigure to ~/.opam/4.01.0/build/ssl.0.4.7/
-Building ssl.0.4.7:
-  ./configure --prefix /home/opam/.opam/4.01.0
-  make
-  make install
-Installing ssl.0.4.7.
-Building stringext.1.1.0:
-  ocaml setup.ml -configure
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing stringext.1.1.0.
-Building type_conv.111.13.00:
-  make
-  make install
-Installing type_conv.111.13.00.
-Building fieldslib.109.20.03:
-  make
-  make install
-Installing fieldslib.109.20.03.
-Building lwt.2.4.5:
-  ./configure --disable-libev --disable-react --enable-ssl --enable-unix --enable-extra --enable-preemptive --disable-glib
-  make build
-  make install
-Installing lwt.2.4.5.
-Building ocplib-endian.0.4:
-  ocaml setup.ml -configure --disable-debug --prefix /home/opam/.opam/4.01.0
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing ocplib-endian.0.4.
-Building sexplib.111.25.00:
-  ./configure --enable-syntax
-  make
-  make install
-Installing sexplib.111.25.00.
-Building cstruct.1.5.0:
-  ./configure --prefix /home/opam/.opam/4.01.0 --enable-lwt --enable-camlp4 --disable-async --enable-unix --disable-tests
-  make
-  make install
-Installing cstruct.1.5.0.
-Building ipaddr.2.5.0:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
-  make build
-  make install
-Installing ipaddr.2.5.0.
-Building uri.1.7.2:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing uri.1.7.2.
-Building conduit.0.7.1:
-  make
-  make install
-Installing conduit.0.7.1.
-Building cohttp.0.14.0:
-  make PREFIX=/home/opam/.opam/4.01.0
-  make PREFIX=/home/opam/.opam/4.01.0 install
-Installing cohttp.0.14.0.
-++ opam list --depends-on cohttp --rec -s
-+ deps='bt cowabloga facebook-sdk github imaplet-lwt iocaml irmin ketrew merge-queues merge-ropes message-switch mirage-http mirage-http-unix mirage-http-xen mirage-www opam-publish opam-sync-github-prs opium slacko sociaml-facebook-api sociaml-oauth-client sociaml-tumblr-api vhd-tool websocket xapi xapi-forkexecd xapi-idl xapi-libs-transitional xapi-netdev xapi-networkd xapi-rrd-transport xapi-rrdd xapi-rrdd-plugin xapi-squeezed xapi-tapctl xapi-xenops xapi-xenops-cli xapi-xenopsd xe xe-unikernel-upload xen-api-client '
-++ opam config env
-+ eval 'CAML_LD_LIBRARY_PATH="/home/opam/.opam/4.01.0/lib/stublibs";' export 'CAML_LD_LIBRARY_PATH;' 'MANPATH="/home/opam/.opam/4.01.0/man:";' export 'MANPATH;' 'MAKELEVEL="";' export 'MAKELEVEL;' 'MAKEFLAGS="";' export 'MAKEFLAGS;' 'PERL5LIB="/home/opam/.opam/4.01.0/lib/perl5";' export 'PERL5LIB;' 'OCAML_TOPLEVEL_PATH="/home/opam/.opam/4.01.0/lib/toplevel";' export 'OCAML_TOPLEVEL_PATH;' 'PATH="/home/opam/.opam/4.01.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin";' export 'PATH;'
-++ CAML_LD_LIBRARY_PATH=/home/opam/.opam/4.01.0/lib/stublibs
-++ export CAML_LD_LIBRARY_PATH
-++ MANPATH=/home/opam/.opam/4.01.0/man:
-++ export MANPATH
-++ MAKELEVEL=
-++ export MAKELEVEL
-++ MAKEFLAGS=
-++ export MAKEFLAGS
-++ PERL5LIB=/home/opam/.opam/4.01.0/lib/perl5
-++ export PERL5LIB
-++ OCAML_TOPLEVEL_PATH=/home/opam/.opam/4.01.0/lib/toplevel
-++ export OCAML_TOPLEVEL_PATH
-++ PATH=/home/opam/.opam/4.01.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-++ export PATH
-+ opam install bt cowabloga facebook-sdk github imaplet-lwt iocaml irmin ketrew merge-queues merge-ropes message-switch mirage-http mirage-http-unix mirage-http-xen mirage-www opam-publish opam-sync-github-prs opium slacko sociaml-facebook-api sociaml-oauth-client sociaml-tumblr-api vhd-tool websocket xapi xapi-forkexecd xapi-idl xapi-libs-transitional xapi-netdev xapi-networkd xapi-rrd-transport xapi-rrdd xapi-rrdd-plugin xapi-squeezed xapi-tapctl xapi-xenops xapi-xenops-cli xapi-xenopsd xe xe-unikernel-upload xen-api-client
-The following dependencies couldn't be met:
-  - sociaml-facebook-api[33m -> [mcohttp >= 0.12.0[33m -> [mconduit >= 0.6.0 | conduit >= 0.7.0
-  - imaplet-lwt[33m -> [mgit = 1.2.0[33m -> [mconduit = 0.5.1
-Your request can't be satisfied:
-  - Conflicting version constraints for conduit
-
-No solution found, exiting
