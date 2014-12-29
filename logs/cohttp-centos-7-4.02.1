@@ -34,9 +34,9 @@ Loaded plugins: fastestmirror
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
 Loading mirror speeds from cached hostfile
- * base: mirror.anl.gov
- * extras: bay.uchicago.edu
- * updates: mirror.team-cymru.org
+ * base: centos.mirror.constant.com
+ * extras: mirror.es.its.nyu.edu
+ * updates: mirror.atlanticmetro.net
 Resolving Dependencies
 --> Running transaction check
 ---> Package openssl-devel.x86_64 1:1.0.1e-34.el7_0.6 will be installed
@@ -87,16 +87,16 @@ Total download size: 2.6 M
 Installed size: 5.7 M
 Downloading packages:
 (2/9): krb5-devel-1.11.3-4 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/9): keyutils-libs-devel-1.5.8-3.el7.x86_64.rpm          |  37 kB   00:00     
-(2/9): libverto-devel-0.2.5-4.el7.x86_64.rpm               |  12 kB   00:00     
-(3/9): libcom_err-devel-1.42.9-4.el7.x86_64.rpm            |  30 kB   00:00     
-(4/9): krb5-devel-1.11.3-49.el7.x86_64.rpm                 | 611 kB   00:00     
-(5/9): zlib-devel-1.2.7-13.el7.x86_64.rpm                  |  49 kB   00:00     
-(6/9): pcre-devel-8.32-12.el7.x86_64.rpm                   | 477 kB   00:00     
-(7/9): libselinux-devel-2.2.2-6.el7.x86_64.rpm             | 174 kB   00:00     
-(8/9): openssl-devel-1.0.1e-34.el7_0.6.x86_64.rpm          | 1.2 MB   00:00     
-(9/9): libsepol-devel-2.1. 97% [===============-]  0.0 B/s | 2.5 MB   --:-- ETA (9/9): libsepol-devel-2.1. 98% [===============-]  24 kB/s | 2.6 MB   00:01 ETA (9/9): libsepol-devel-2.1.9-3.el7.x86_64.rpm               |  71 kB   00:01     
+(2/9): libcom_err-devel-1.42.9-4.el7.x86_64.rpm            |  30 kB   00:00     
+(3/9): krb5-devel-1.11.3-49.el7.x86_64.rpm                 | 611 kB   00:00     
+(4/9): libselinux-devel-2.2.2-6.el7.x86_64.rpm             | 174 kB   00:00     
+(5/9): libsepol-devel-2.1.9-3.el7.x86_64.rpm               |  71 kB   00:00     
+(6/9): libverto-devel-0.2.5-4.el7.x86_64.rpm               |  12 kB   00:00     
+(7/9): pcre-devel-8.32-12.el7.x86_64.rpm                   | 477 kB   00:00     
+(9/9): zlib-devel-1.2.7-13 52% [========        ]  0.0 B/s | 1.4 MB   --:-- ETA (8/9): zlib-devel-1.2.7-13.el7.x86_64.rpm                  |  49 kB   00:00     
+(9/9): openssl-devel-1.0.1 54% [========-       ] 8.9 kB/s | 1.4 MB   02:15 ETA (9/9): openssl-devel-1.0.1 60% [=========-      ]  36 kB/s | 1.6 MB   00:29 ETA (9/9): openssl-devel-1.0.1e-34.el7_0.6.x86_64.rpm          | 1.2 MB   00:05     
 --------------------------------------------------------------------------------
-Total                                              1.5 MB/s | 2.6 MB  00:01     
+Total                                              403 kB/s | 2.6 MB  00:06     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -138,11 +138,11 @@ Complete!
 The following actions will be performed:
  - install   base-bytes.base                       [required by base64]
  - install   re.1.2.2                              [required by cohttp]
- - install   stringext.1.1.0                       [required by cohttp]
  - install   ssl.0.4.7
  - install   cmdliner.0.9.6                        [required by cohttp]
  - install   cppo.1.1.2                            [required by ocplib-endian]
  - install   type_conv.112.01.00                   [required by fieldslib]
+ - install   stringext.1.2.0                       [required by cohttp]
  - install   base64.2.0.0                          [required by cohttp]
  - install   lwt.2.4.5
  - install   ocplib-endian.0.8                     [required by cstruct]
@@ -169,7 +169,7 @@ The following actions will be performed:
 [[32mre.1.2.2[m] Downloading https://github.com/ocaml/ocaml-re/archive/ocaml-re-1.2.2.tar.gz
 [[32msexplib.112.06.00[m] Downloading https://ocaml.janestreet.com/ocaml-core/112.06.00/individual/sexplib-112.06.00.tar.gz
 [[32mssl.0.4.7[m] Downloading http://downloads.sourceforge.net/project/savonet/ocaml-ssl/0.4.7/ocaml-ssl-0.4.7.tar.gz
-[[32mstringext.1.1.0[m] Downloading https://github.com/rgrinberg/stringext/archive/v1.1.0.tar.gz
+[[32mstringext.1.2.0[m] Downloading https://github.com/rgrinberg/stringext/archive/v1.2.0.tar.gz
 [[32mtype_conv.112.01.00[m] Downloading https://ocaml.janestreet.com/ocaml-core/112.01.00/individual/type_conv-112.01.00.tar.gz
 [[32muri.1.7.2[m] Downloading https://github.com/mirage/ocaml-uri/archive/v1.7.2.tar.gz
 
@@ -195,11 +195,6 @@ Building ssl.0.4.7:
   make
   make install
 Installing ssl.0.4.7.
-Building stringext.1.1.0:
-  ocaml setup.ml -configure
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing stringext.1.1.0.
 Building type_conv.112.01.00:
   make
   make install
@@ -228,6 +223,11 @@ Building sexplib.112.06.00:
   make
   make install
 Installing sexplib.112.06.00.
+Building stringext.1.2.0:
+  ocaml setup.ml -configure
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing stringext.1.2.0.
 Building cstruct.1.5.0:
   ./configure --prefix /home/opam/.opam/4.02.1 --enable-lwt --enable-camlp4 --disable-async --enable-unix --disable-tests
   make
