@@ -34,9 +34,9 @@ Loaded plugins: fastestmirror
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
 Loading mirror speeds from cached hostfile
- * base: mirror.sanctuaryhost.com
- * extras: mirror.es.its.nyu.edu
- * updates: mirror.solarvps.com
+ * base: mirrors.usinternet.com
+ * extras: centos.chi.host-engine.com
+ * updates: mirror.lug.udel.edu
 Package 1:gmp-5.1.1-5.el7.x86_64 already installed and latest version
 Resolving Dependencies
 --> Running transaction check
@@ -61,9 +61,9 @@ Total download size: 197 k
 Installed size: 361 k
 Downloading packages:
 (1/2): libffi-devel-3.0.13-11.el7.x86_64.rpm               |  22 kB   00:00     
-(2/2): gmp-devel-5.1.1-5.e 11% [=-              ]  0.0 B/s |  22 kB   --:-- ETA (2/2): gmp-devel-5.1.1-5.el7.x86_64.rpm                    | 175 kB   00:00     
+(2/2): gmp-devel-5.1.1-5.el7.x86_64.rpm                    | 175 kB   00:00     
 --------------------------------------------------------------------------------
-Total                                              460 kB/s | 197 kB  00:00     
+Total                                              428 kB/s | 197 kB  00:00     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -131,14 +131,14 @@ Installing base-bytes.base.
 Copying ~/.opam/repo/default/packages/conf-gmp/conf-gmp.1/files/test.c to ~/.opam/4.02.1/build/conf-gmp.1/
 Building conf-gmp.1:
   sh -c cc -c $CFLAGS test.c
-Installing conf-gmp.1.
 Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/4.02.1/build/cppo.1.1.2/
-Building cmdliner.0.9.6:
-  ocaml pkg/git.ml
-  ocaml pkg/build.ml native=true native-dynlink=true
+Installing conf-gmp.1.
 Building cppo.1.1.2:
   make
   make install-lib
+Building cmdliner.0.9.6:
+  ocaml pkg/git.ml
+  ocaml pkg/build.ml native=true native-dynlink=true
 Building lwt.2.4.5:
   ./configure --disable-libev --disable-react --disable-ssl --enable-unix --enable-extra --enable-preemptive --disable-glib
   make build
@@ -189,14 +189,14 @@ Building cstruct.1.5.0:
   make install
 Installing ipaddr.2.5.0.
 Installing cstruct.1.5.0.
-Building io-page.1.2.0:
-  ./configure --prefix /home/opam/.opam/4.02.1
-  make
-  make install
 Building asn1-combinators.0.1.1:
   ocaml setup.ml -configure --prefix /home/opam/.opam/4.02.1
   ocaml setup.ml -build
   ocaml setup.ml -install
+Building io-page.1.2.0:
+  ./configure --prefix /home/opam/.opam/4.02.1
+  make
+  make install
 Building nocrypto.0.3.0:
   ocaml setup.ml -configure --prefix /home/opam/.opam/4.02.1
   ocaml setup.ml -build
@@ -205,11 +205,11 @@ Installing io-page.1.2.0.
 Building mirage-types.2.2.0:
   make install-types
 Installing mirage-types.2.2.0.
-Installing asn1-combinators.0.1.1.
 Building mirage.2.2.0:
   ./configure --bindir /home/opam/.opam/4.02.1/bin
   make
   make install
+Installing asn1-combinators.0.1.1.
 Installing mirage.2.2.0.
 Installing nocrypto.0.3.0.
 Building x509.0.2.1:
