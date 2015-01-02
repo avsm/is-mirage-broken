@@ -34,9 +34,9 @@ Loaded plugins: fastestmirror
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
 Loading mirror speeds from cached hostfile
- * base: mirrors.chkhosting.com
- * extras: mirror.wiredtree.com
- * updates: mirrors.rit.edu
+ * base: centos.corenetworks.net
+ * extras: centos.mirror.constant.com
+ * updates: mirror.wiredtree.com
 Package 1:gmp-5.1.1-5.el7.x86_64 already installed and latest version
 Resolving Dependencies
 --> Running transaction check
@@ -60,10 +60,10 @@ Install  2 Packages
 Total download size: 197 k
 Installed size: 361 k
 Downloading packages:
-(2/2): libffi-devel-3.0.13 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/2): libffi-devel-3.0.13-11.el7.x86_64.rpm               |  22 kB   00:00     
-(2/2): gmp-devel-5.1.1-5.el7.x86_64.rpm                    | 175 kB   00:00     
+(1/2): gmp-devel-5.1.1-5.el7.x86_64.rpm                    | 175 kB   00:00     
+(2/2): libffi-devel-3.0.13 88% [==============  ]  0.0 B/s | 175 kB   --:-- ETA (2/2): libffi-devel-3.0.13-11.el7.x86_64.rpm               |  22 kB   00:00     
 --------------------------------------------------------------------------------
-Total                                              448 kB/s | 197 kB  00:00     
+Total                                              475 kB/s | 197 kB  00:00     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -132,13 +132,13 @@ Copying ~/.opam/repo/default/packages/conf-gmp/conf-gmp.1/files/test.c to ~/.opa
 Building conf-gmp.1:
   sh -c cc -c $CFLAGS test.c
 Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/4.02.1/build/cppo.1.1.2/
-Building cmdliner.0.9.6:
-  ocaml pkg/git.ml
-  ocaml pkg/build.ml native=true native-dynlink=true
+Installing conf-gmp.1.
 Building cppo.1.1.2:
   make
   make install-lib
-Installing conf-gmp.1.
+Building cmdliner.0.9.6:
+  ocaml pkg/git.ml
+  ocaml pkg/build.ml native=true native-dynlink=true
 Building lwt.2.4.5:
   ./configure --disable-libev --disable-react --disable-ssl --enable-unix --enable-extra --enable-preemptive --disable-glib
   make build
@@ -189,14 +189,14 @@ Building cstruct.1.5.0:
   make install
 Installing ipaddr.2.5.0.
 Installing cstruct.1.5.0.
-Building asn1-combinators.0.1.1:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.02.1
-  ocaml setup.ml -build
-  ocaml setup.ml -install
 Building io-page.1.2.0:
   ./configure --prefix /home/opam/.opam/4.02.1
   make
   make install
+Building asn1-combinators.0.1.1:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/4.02.1
+  ocaml setup.ml -build
+  ocaml setup.ml -install
 Building nocrypto.0.3.0:
   ocaml setup.ml -configure --prefix /home/opam/.opam/4.02.1
   ocaml setup.ml -build
@@ -204,12 +204,12 @@ Building nocrypto.0.3.0:
 Installing io-page.1.2.0.
 Building mirage-types.2.2.0:
   make install-types
-Installing asn1-combinators.0.1.1.
 Installing mirage-types.2.2.0.
 Building mirage.2.2.0:
   ./configure --bindir /home/opam/.opam/4.02.1/bin
   make
   make install
+Installing asn1-combinators.0.1.1.
 Installing mirage.2.2.0.
 Installing nocrypto.0.3.0.
 Building x509.0.2.1:
