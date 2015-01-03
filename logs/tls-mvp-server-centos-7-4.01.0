@@ -33,10 +33,12 @@ Loaded plugins: fastestmirror
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
+home_ocaml/primary         0% [                 ]  0.0 B/s |    0 B   --:-- ETA home_ocaml/primary                                         |  13 kB   00:00     
 Loading mirror speeds from cached hostfile
- * base: centos.corenetworks.net
- * extras: centos.mirror.constant.com
- * updates: mirrors.gigenet.com
+ * base: mirror.steadfast.net
+ * extras: cosmos.cites.illinois.edu
+ * updates: ftpmirror.your.org
+home_ocaml: [##                                                          ] 1/21home_ocaml: [#####                                                       ] 2/21home_ocaml: [########                                                    ] 3/21home_ocaml: [###########                                                 ] 4/21home_ocaml: [##############                                              ] 5/21home_ocaml: [#################                                           ] 6/21home_ocaml: [####################                                        ] 7/21home_ocaml: [######################                                      ] 8/21home_ocaml: [#########################                                   ] 9/21home_ocaml: [############################                               ] 10/21home_ocaml: [##############################                             ] 11/21home_ocaml: [#################################                          ] 12/21home_ocaml: [####################################                       ] 13/21home_ocaml: [#######################################                    ] 14/21home_ocaml: [##########################################                 ] 15/21home_ocaml: [############################################               ] 16/21home_ocaml: [###############################################            ] 17/21home_ocaml: [##################################################         ] 18/21home_ocaml: [#####################################################      ] 19/21home_ocaml: [########################################################   ] 20/21home_ocaml                                                                21/21
 Package 1:gmp-5.1.1-5.el7.x86_64 already installed and latest version
 Resolving Dependencies
 --> Running transaction check
@@ -131,11 +133,11 @@ Installing base-bytes.legacy.
 Copying ~/.opam/repo/default/packages/conf-gmp/conf-gmp.1/files/test.c to ~/.opam/4.01.0/build/conf-gmp.1/
 Building conf-gmp.1:
   sh -c cc -c $CFLAGS test.c
-Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/4.01.0/build/cppo.1.1.2/
-Installing conf-gmp.1.
 Building cmdliner.0.9.6:
   ocaml pkg/git.ml
   ocaml pkg/build.ml native=true native-dynlink=true
+Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/4.01.0/build/cppo.1.1.2/
+Installing conf-gmp.1.
 Building cppo.1.1.2:
   make
   make install-lib
@@ -183,17 +185,13 @@ Building ipaddr.2.5.0:
   make build
   make install
 Installing lwt.2.4.5.
+Installing ipaddr.2.5.0.
 Building cstruct.1.5.0:
   ./configure --prefix /home/opam/.opam/4.01.0 --enable-lwt --enable-camlp4 --disable-async --enable-unix --disable-tests
   make
   make install
-Installing ipaddr.2.5.0.
 Installing cstruct.1.5.0.
 Building asn1-combinators.0.1.1:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Building nocrypto.0.3.0:
   ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
   ocaml setup.ml -build
   ocaml setup.ml -install
@@ -201,6 +199,10 @@ Building io-page.1.2.0:
   ./configure --prefix /home/opam/.opam/4.01.0
   make
   make install
+Building nocrypto.0.3.0:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
+  ocaml setup.ml -build
+  ocaml setup.ml -install
 Installing io-page.1.2.0.
 Building mirage-types.2.2.0:
   make install-types
