@@ -33,12 +33,12 @@ Loaded plugins: fastestmirror
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-home_ocaml/primary         0% [                 ]  0.0 B/s |    0 B   --:-- ETA home_ocaml/primary                                         |  13 kB   00:00     
+home_ocaml/primary         0% [                 ]  0.0 B/s |    0 B   --:-- ETA home_ocaml/primary         95% [=============== ]  0.0 B/s |  17 kB   --:-- ETA home_ocaml/primary                                         |  17 kB   00:01     
 Loading mirror speeds from cached hostfile
- * base: mirror.steadfast.net
- * extras: cosmos.cites.illinois.edu
- * updates: ftpmirror.your.org
-home_ocaml: [##                                                          ] 1/21home_ocaml: [#####                                                       ] 2/21home_ocaml: [########                                                    ] 3/21home_ocaml: [###########                                                 ] 4/21home_ocaml: [##############                                              ] 5/21home_ocaml: [#################                                           ] 6/21home_ocaml: [####################                                        ] 7/21home_ocaml: [######################                                      ] 8/21home_ocaml: [#########################                                   ] 9/21home_ocaml: [############################                               ] 10/21home_ocaml: [##############################                             ] 11/21home_ocaml: [#################################                          ] 12/21home_ocaml: [####################################                       ] 13/21home_ocaml: [#######################################                    ] 14/21home_ocaml: [##########################################                 ] 15/21home_ocaml: [############################################               ] 16/21home_ocaml: [###############################################            ] 17/21home_ocaml: [##################################################         ] 18/21home_ocaml: [#####################################################      ] 19/21home_ocaml: [########################################################   ] 20/21home_ocaml                                                                21/21
+ * base: centos.mirror.constant.com
+ * extras: reflector.westga.edu
+ * updates: centos-mirror.jchost.net
+home_ocaml: [#                                                           ] 1/40home_ocaml: [###                                                         ] 2/40home_ocaml: [####                                                        ] 3/40home_ocaml: [######                                                      ] 4/40home_ocaml: [#######                                                     ] 5/40home_ocaml: [#########                                                   ] 6/40home_ocaml: [##########                                                  ] 7/40home_ocaml: [############                                                ] 8/40home_ocaml: [#############                                               ] 9/40home_ocaml: [##############                                             ] 10/40home_ocaml: [################                                           ] 11/40home_ocaml: [#################                                          ] 12/40home_ocaml: [###################                                        ] 13/40home_ocaml: [####################                                       ] 14/40home_ocaml: [######################                                     ] 15/40home_ocaml: [#######################                                    ] 16/40home_ocaml: [#########################                                  ] 17/40home_ocaml: [##########################                                 ] 18/40home_ocaml: [############################                               ] 19/40home_ocaml: [#############################                              ] 20/40home_ocaml: [##############################                             ] 21/40home_ocaml: [################################                           ] 22/40home_ocaml: [#################################                          ] 23/40home_ocaml: [###################################                        ] 24/40home_ocaml: [####################################                       ] 25/40home_ocaml: [######################################                     ] 26/40home_ocaml: [#######################################                    ] 27/40home_ocaml: [#########################################                  ] 28/40home_ocaml: [##########################################                 ] 29/40home_ocaml: [############################################               ] 30/40home_ocaml: [#############################################              ] 31/40home_ocaml: [###############################################            ] 32/40home_ocaml: [################################################           ] 33/40home_ocaml: [##################################################         ] 34/40home_ocaml: [###################################################        ] 35/40home_ocaml: [#####################################################      ] 36/40home_ocaml: [######################################################     ] 37/40home_ocaml: [########################################################   ] 38/40home_ocaml: [#########################################################  ] 39/40home_ocaml                                                                40/40
 Package 1:gmp-5.1.1-5.el7.x86_64 already installed and latest version
 Resolving Dependencies
 --> Running transaction check
@@ -62,10 +62,10 @@ Install  2 Packages
 Total download size: 197 k
 Installed size: 361 k
 Downloading packages:
-(2/2): libffi-devel-3.0.13 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/2): gmp-devel-5.1.1-5.el7.x86_64.rpm                    | 175 kB   00:00     
-(2/2): libffi-devel-3.0.13-11.el7.x86_64.rpm               |  22 kB   00:00     
+(1/2): libffi-devel-3.0.13-11.el7.x86_64.rpm               |  22 kB   00:00     
+(2/2): gmp-devel-5.1.1-5.e 11% [=-              ]  0.0 B/s |  22 kB   --:-- ETA (2/2): gmp-devel-5.1.1-5.el7.x86_64.rpm                    | 175 kB   00:00     
 --------------------------------------------------------------------------------
-Total                                              370 kB/s | 197 kB  00:00     
+Total                                              350 kB/s | 197 kB  00:00     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -129,15 +129,15 @@ The following actions will be performed:
 [[32mzarith.1.3[m] Downloading https://forge.ocamlcore.org/frs/download.php/1471/zarith-1.3.tgz
 
 [36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
-Installing base-bytes.legacy.
 Copying ~/.opam/repo/default/packages/conf-gmp/conf-gmp.1/files/test.c to ~/.opam/4.01.0/build/conf-gmp.1/
+Installing base-bytes.legacy.
 Building conf-gmp.1:
   sh -c cc -c $CFLAGS test.c
+Installing conf-gmp.1.
+Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/4.01.0/build/cppo.1.1.2/
 Building cmdliner.0.9.6:
   ocaml pkg/git.ml
   ocaml pkg/build.ml native=true native-dynlink=true
-Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/4.01.0/build/cppo.1.1.2/
-Installing conf-gmp.1.
 Building cppo.1.1.2:
   make
   make install-lib
@@ -207,11 +207,11 @@ Installing io-page.1.2.0.
 Building mirage-types.2.2.0:
   make install-types
 Installing mirage-types.2.2.0.
+Installing asn1-combinators.0.1.1.
 Building mirage.2.2.0:
   ./configure --bindir /home/opam/.opam/4.01.0/bin
   make
   make install
-Installing asn1-combinators.0.1.1.
 Installing mirage.2.2.0.
 Installing nocrypto.0.3.0.
 Building x509.0.2.1:
