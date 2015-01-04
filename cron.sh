@@ -1,15 +1,15 @@
 #!/bin/sh -x
 
-sudo docker.io pull avsm/docker-opam
+sudo docker.io pull avsm/docker-opam-build
 
 git pull --no-edit
 
 OUTPUT_FILE=README.md
 
 for script in mirage-www mirage-skeleton tls-mvp-server cohttp; do
-  for distro in ubuntu-trusty centos-7; do
+  for distro in ubuntu-14.04 debian-stable debian-testing centos-7; do
     for ver in 4.01.0 4.02.1; do
-      ./build.sh $distro-$ver $script 2>&1 | tee logs/$script-$distro-$ver
+      ./build.sh $distro-ocaml-$ver $script 2>&1 | tee logs/$script-$distro-$ver
     done
   done
 done

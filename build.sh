@@ -3,7 +3,7 @@
 tag=$1
 script=$2
 
-repo=avsm/docker-opam
+repo=avsm/docker-opam-build
 docker=docker.io
 
 sudo ${docker} run --rm=true -v `pwd`/scripts:/scripts -t $repo:$tag sh -c "/scripts/$script"
