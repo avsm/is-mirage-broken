@@ -1,231 +1,9 @@
 + tag=ubuntu-trusty-4.01.0
 + script=cohttp
-+ repo=avsm/docker-opam
++ repo=avsm/docker-opam-build
 + docker=docker.io
 + pwd
-+ sudo docker.io run --rm=true -v /home/opam/is-mirage-broken/scripts:/scripts -t avsm/docker-opam:ubuntu-trusty-4.01.0 sh -c /scripts/cohttp
-+ opam remote add mirage git://github.com/mirage/mirage-dev
-[[1;34mmirage[m] Fetching git://github.com/mirage/mirage-dev
-Updating ~/.opam/repo/compiler-index ...
-Updating ~/.opam/compilers/ ...
-Updating ~/.opam/repo/package-index ...
-Updating ~/.opam/packages/ ...
-The following packages have been UPDATED upstream:
- - camlp4.4.01.0
- - ocamlfind.1.5.5
-+ opam update -u
-[[1;34mmirage[m] Fetching git://github.com/mirage/mirage-dev
-[[1;34mdefault[m] Synchronizing with /home/opam/opam-repository
-Updating ~/.opam/repo/compiler-index ...
-Updating ~/.opam/compilers/ ...
-Updating ~/.opam/repo/package-index ...
-Updating ~/.opam/packages/ ...
-Everything as up-to-date as possible (run with --verbose to show unavailable upgrades).
-+ opam installext lwt ssl cohttp
-++ opam install lwt ssl cohttp -e ubuntu
-+ depext=libssl-dev
-+ echo Ubuntu depexts: libssl-dev
-Ubuntu depexts: libssl-dev
-+ '[' libssl-dev '!=' '' ']'
-+ sudo apt-get update -y
-0% [Working]            Ign http://archive.ubuntu.com trusty InRelease
-            10% [Connecting to download.opensuse.org (195.135.221.134)]                                                           Ign http://archive.ubuntu.com trusty-updates InRelease
-17% [Connecting to download.opensuse.org (195.135.221.134)]                                                           Ign http://archive.ubuntu.com trusty-security InRelease
-21% [Connecting to download.opensuse.org (195.135.221.134)]                                                           Hit http://archive.ubuntu.com trusty Release.gpg
-                                                           44% [Waiting for headers]                         Get:1 http://archive.ubuntu.com trusty-updates Release.gpg [933 B]
-                         100% [1 Release.gpg 933 B/933 B 100%] [Waiting for headers]                                                           100% [Waiting for headers]                          Hit http://archive.ubuntu.com trusty-security Release.gpg
-100% [Waiting for headers]                          Ign http://download.opensuse.org  InRelease
-100% [Waiting for headers]                          Hit http://archive.ubuntu.com trusty Release
-100% [Waiting for headers]                          Get:2 http://archive.ubuntu.com trusty-updates Release [62.0 kB]
-                          Get:3 http://download.opensuse.org  Release.gpg [481 B]
-                          100% [Working]              100% [Release gpgv 58.5 kB] [Waiting for headers] [Connecting to download.opens                                                                               Hit http://archive.ubuntu.com trusty-security Release
-100% [Release gpgv 58.5 kB] [Connecting to download.opensuse.org (195.135.221.1                                                                               100% [Connecting to download.opensuse.org (195.135.221.134)]                                                            100% [2 Release gpgv 62.0 kB] [Waiting for headers] [Connecting to download.ope100% [Waiting for headers] [Connecting to download.opensuse.org (195.135.221.13100% [Release gpgv 62.0 kB] [Waiting for headers] [Connecting to download.opens                                                                               Hit http://archive.ubuntu.com trusty/main Sources
-100% [Release gpgv 62.0 kB] [Connecting to download.opensuse.org (195.135.221.1                                                                               Get:4 http://download.opensuse.org  Release [987 B]
-                                                                               100% [Working]              100% [Sources 0 B] [Waiting for headers]                                        100% [Sources 0 B] [4 Release gpgv 987 B] [Waiting for headers]                                                               100% [Sources 1335 kB] [Waiting for headers]                                            Hit http://archive.ubuntu.com trusty/restricted Sources
-                                            100% [Sources 1335 kB] [Waiting for headers] [Connecting to download.opensuse.o                                                                               Hit http://archive.ubuntu.com trusty/universe Sources
-100% [Sources 1335 kB] [Waiting for headers] [Connecting to download.opensuse.o                                                                               Hit http://archive.ubuntu.com trusty/main amd64 Packages
-                                                                               100% [Sources 1335 kB] [Connecting to download.opensuse.org (195.135.221.134)]                                                                              Hit http://archive.ubuntu.com trusty/restricted amd64 Packages
-                                                                              100% [Sources 1335 kB] [Waiting for headers] [Connecting to download.opensuse.o                                                                               Hit http://archive.ubuntu.com trusty/universe amd64 Packages
-                                                                               100% [Sources 1335 kB] [Waiting for headers] [Waiting for headers]                                                                  Get:5 http://archive.ubuntu.com trusty-updates/main Sources [193 kB]
-                                                                  31% [Sources 1335 kB] [5 Sources 14.2 kB/193 kB 7%] [Waiting for headers]                                                                         Get:6 http://download.opensuse.org  Packages [5758 B]
-                                                                         65% [Sources 1335 kB] [5 Sources 101 kB/193 kB 52%] [6 Packages 5758 B/5758 B 1                                                                               65% [Sources 1335 kB] [5 Sources 101 kB/193 kB 52%]                                                   100% [Sources 1335 kB]                                             43.7 kB/s 0s                                                                               Get:7 http://archive.ubuntu.com trusty-updates/restricted Sources [1874 B]
-99% [Sources 1335 kB] [7 Sources 0 B/1874 B 0%]                    43.7 kB/s 0s100% [Sources 1335 kB]                                             43.7 kB/s 0s100% [Waiting for headers]                                         43.7 kB/s 0s100% [Sources 0 B] [Waiting for headers]                           43.7 kB/s 0s100% [Waiting for headers]                                         43.7 kB/s 0s100% [Sources 0 B] [Waiting for headers]                           43.7 kB/s 0s                                                                               Get:8 http://archive.ubuntu.com trusty-updates/universe Sources [119 kB]
-97% [Sources 0 B] [8 Sources 65.1 kB/119 kB 55%]                   43.7 kB/s 1s100% [Sources 0 B]                                                 43.7 kB/s 0s                                                                               Get:9 http://archive.ubuntu.com trusty-updates/main amd64 Packages [493 kB]
-78% [Sources 7926 kB] [9 Packages 0 B/493 kB 0%]                  43.7 kB/s 11s100% [Sources 7926 kB]                                             43.7 kB/s 0s                                                                               Get:10 http://archive.ubuntu.com trusty-updates/restricted amd64 Packages [14.8 kB]
-99% [Sources 7926 kB] [10 Packages 0 B/14.8 kB 0%]                 43.7 kB/s 0s100% [Sources 7926 kB]                                             43.7 kB/s 0s                                                                               Get:11 http://archive.ubuntu.com trusty-updates/universe amd64 Packages [298 kB]
-88% [Sources 7926 kB] [11 Packages 0 B/298 kB 0%]                  43.7 kB/s 6s100% [Sources 7926 kB]                                             43.7 kB/s 0s                                                                               Hit http://archive.ubuntu.com trusty-security/main Sources
-100% [Sources 7926 kB]                                             43.7 kB/s 0s                                                                               Hit http://archive.ubuntu.com trusty-security/restricted Sources
-100% [Sources 7926 kB]                                             43.7 kB/s 0s                                                                               Hit http://archive.ubuntu.com trusty-security/universe Sources
-100% [Sources 7926 kB]                                             43.7 kB/s 0s                                                                               Hit http://archive.ubuntu.com trusty-security/main amd64 Packages
-100% [Sources 7926 kB]                                             43.7 kB/s 0s                                                                               Hit http://archive.ubuntu.com trusty-security/restricted amd64 Packages
-100% [Sources 7926 kB]                                             43.7 kB/s 0s                                                                               Hit http://archive.ubuntu.com trusty-security/universe amd64 Packages
-100% [Sources 7926 kB]                                             43.7 kB/s 0s100% [Sources 7926 kB]                                             43.7 kB/s 0s100% [Sources 7926 kB]                                             43.7 kB/s 0s100% [Working]                                                     43.7 kB/s 0s100% [Packages 0 B]                                                43.7 kB/s 0s100% [Working]                                                     43.7 kB/s 0s100% [Packages 0 B]                                                43.7 kB/s 0s100% [Working]                                                     43.7 kB/s 0s100% [Packages 0 B]                                                43.7 kB/s 0s100% [Packages 7589 kB]                                            43.7 kB/s 0s100% [Packages 7589 kB]                                            43.7 kB/s 0s100% [Working]                                                     43.7 kB/s 0s100% [6 Packages 5763 B]                                           43.7 kB/s 0s100% [Working]                                                     43.7 kB/s 0s100% [5 Sources 193 kB]                                            43.7 kB/s 0s100% [Working]                                                     43.7 kB/s 0s100% [7 Sources 1874 B]                                            43.7 kB/s 0s100% [Working]                                                     43.7 kB/s 0s100% [8 Sources 119 kB]                                            43.7 kB/s 0s100% [Working]                                                     43.7 kB/s 0s100% [9 Packages 493 kB]                                           43.7 kB/s 0s100% [Working]                                                     43.7 kB/s 0s100% [10 Packages 14.8 kB]                                         43.7 kB/s 0s100% [Working]                                                     43.7 kB/s 0s100% [11 Packages 298 kB]                                          43.7 kB/s 0s100% [Working]                                                     43.7 kB/s 0s100% [Sources 0 B]                                                 43.7 kB/s 0s100% [Working]                                                     43.7 kB/s 0s100% [Sources 0 B]                                                 43.7 kB/s 0s100% [Working]                                                     43.7 kB/s 0s100% [Sources 0 B]                                                 43.7 kB/s 0s100% [Working]                                                     43.7 kB/s 0s100% [Packages 0 B]                                                43.7 kB/s 0s100% [Working]                                                     43.7 kB/s 0s100% [Packages 0 B]                                                43.7 kB/s 0s100% [Working]                                                     43.7 kB/s 0s100% [Packages 0 B]                                                43.7 kB/s 0s100% [Working]                                                     43.7 kB/s 0s                                                                               Fetched 1189 kB in 9s (122 kB/s)
-Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... Done
-W: Size of file /var/lib/apt/lists/download.opensuse.org_repositories_home:_ocaml_xUbuntu%5f14.04_Packages.gz is not what the server reported 5758 5763
-W: Size of file /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_trusty-updates_main_binary-amd64_Packages.gz is not what the server reported 492889 492947
-W: Size of file /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_trusty-updates_universe_binary-amd64_Packages.gz is not what the server reported 298242 298291
-+ sudo apt-get install -qq -y build-essential m4
-+ sudo apt-get install -qq -y libssl-dev
-Selecting previously unselected package zlib1g-dev:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 23151 files and directories currently installed.)
-Preparing to unpack .../zlib1g-dev_1%3a1.2.8.dfsg-1ubuntu1_amd64.deb ...
-Unpacking zlib1g-dev:amd64 (1:1.2.8.dfsg-1ubuntu1) ...
-Selecting previously unselected package libssl-dev:amd64.
-Preparing to unpack .../libssl-dev_1.0.1f-1ubuntu2.7_amd64.deb ...
-Unpacking libssl-dev:amd64 (1.0.1f-1ubuntu2.7) ...
-Selecting previously unselected package libssl-doc.
-Preparing to unpack .../libssl-doc_1.0.1f-1ubuntu2.7_all.deb ...
-Unpacking libssl-doc (1.0.1f-1ubuntu2.7) ...
-Setting up zlib1g-dev:amd64 (1:1.2.8.dfsg-1ubuntu1) ...
-Setting up libssl-dev:amd64 (1.0.1f-1ubuntu2.7) ...
-Setting up libssl-doc (1.0.1f-1ubuntu2.7) ...
-++ opam install lwt ssl cohttp -e source,linux
-+ srcext=
-+ echo Ubuntu srcexts:
-Ubuntu srcexts:
-+ '[' '' '!=' '' ']'
-+ opam install lwt ssl cohttp
-The following actions will be performed:
- - install   re.1.2.2                              [required by cohttp]
- - install   type_conv.111.13.00                   [required by fieldslib]
- - install   base-bytes.legacy                     [required by base64]
- - install   ssl.0.4.7
- - install   base-no-ppx.base                      [required by lwt]
- - install   cmdliner.0.9.6                        [required by cohttp]
- - install   cppo.1.1.2                            [required by ocplib-endian]
- - install   sexplib.111.17.00                     [required by cohttp]
- - install   fieldslib.109.20.03                   [required by cohttp]
- - install   stringext.1.2.0                       [required by cohttp]
- - install   base64.2.0.0                          [required by cohttp]
- - install   lwt.2.4.6
- - install   ocplib-endian.0.8                     [required by cstruct]
- - install   ipaddr.2.5.0                          [required by conduit]
- - install   uri.1.7.2                             [required by cohttp]
- - install   cstruct.1.5.0                         [required by conduit]
- - install   conduit.0.7.1                         [required by cohttp]
- - install   cohttp.0.15.0
-=== [33m18[m to install ===
-
-[36m=-=-[m [01mSynchronizing package archives[m [36m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
-[[32mbase64.2.0.0[m] Downloading https://github.com/mirage/ocaml-base64/archive/v2.0.0.tar.gz
-[[32mcmdliner.0.9.6[m] Downloading http://erratique.ch/software/cmdliner/releases/cmdliner-0.9.6.tbz
-[[32mcohttp.0.15.0[m] Downloading https://github.com/mirage/ocaml-cohttp/archive/v0.15.0.tar.gz
-[[32mconduit.0.7.1[m] Downloading https://github.com/mirage/ocaml-conduit/archive/v0.7.1.tar.gz
-[[32mcppo.1.1.2[m] Downloading http://mjambon.com/releases/cppo/cppo-1.1.2.tar.gz
-[[32mcstruct.1.5.0[m] Downloading https://github.com/mirage/ocaml-cstruct/archive/v1.5.0.tar.gz
-[[32mfieldslib.109.20.03[m] Downloading https://ocaml.janestreet.com/ocaml-core/109.20.00/individual/fieldslib-109.20.03.tar.gz
-[[32mipaddr.2.5.0[m] Downloading https://github.com/mirage/ocaml-ipaddr/archive/2.5.0.tar.gz
-[[32mlwt.2.4.6[m] Downloading https://github.com/ocsigen/lwt/archive/2.4.6.tar.gz
-[[32mocplib-endian.0.8[m] Downloading https://github.com/OCamlPro/ocplib-endian/archive/0.8.tar.gz
-[[32mre.1.2.2[m] Downloading https://github.com/ocaml/ocaml-re/archive/ocaml-re-1.2.2.tar.gz
-[[32msexplib.111.17.00[m] Downloading https://ocaml.janestreet.com/ocaml-core/111.17.00/individual/sexplib-111.17.00.tar.gz
-[[32mssl.0.4.7[m] Downloading http://downloads.sourceforge.net/project/savonet/ocaml-ssl/0.4.7/ocaml-ssl-0.4.7.tar.gz
-[[32mstringext.1.2.0[m] Downloading https://github.com/rgrinberg/stringext/archive/v1.2.0.tar.gz
-[[32mtype_conv.111.13.00[m] Downloading https://ocaml.janestreet.com/ocaml-core/111.13.00/individual/type_conv-111.13.00.tar.gz
-[[32muri.1.7.2[m] Downloading https://github.com/mirage/ocaml-uri/archive/v1.7.2.tar.gz
-
-[36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
-Installing base-bytes.legacy.
-Installing base-no-ppx.base.
-Building cmdliner.0.9.6:
-  ocaml pkg/git.ml
-  ocaml pkg/build.ml native=true native-dynlink=true
-Installing cmdliner.0.9.6.
-Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/4.01.0/build/cppo.1.1.2/
-Building cppo.1.1.2:
-  make
-  make install-lib
-Installing cppo.1.1.2.
-Building re.1.2.2:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing re.1.2.2.
-Copying ~/.opam/repo/default/packages/ssl/ssl.0.4.7/files/pkgconfigure to ~/.opam/4.01.0/build/ssl.0.4.7/
-Building ssl.0.4.7:
-  ./configure --prefix /home/opam/.opam/4.01.0
-  make
-  make install
-Installing ssl.0.4.7.
-Building type_conv.111.13.00:
-  make
-  make install
-Installing type_conv.111.13.00.
-Building base64.2.0.0:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing base64.2.0.0.
-Building fieldslib.109.20.03:
-  make
-  make install
-Installing fieldslib.109.20.03.
-Building lwt.2.4.6:
-  ./configure --prefix /home/opam/.opam/4.01.0 --disable-libev --disable-react --enable-ssl --enable-unix --enable-extra --enable-preemptive --disable-glib --disable-ppx
-  make build
-  make install
-Installing lwt.2.4.6.
-Building ocplib-endian.0.8:
-  ocaml setup.ml -configure --disable-debug --prefix /home/opam/.opam/4.01.0
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing ocplib-endian.0.8.
-Building sexplib.111.17.00:
-  ./configure --enable-syntax
-  make
-  make install
-Installing sexplib.111.17.00.
-Building stringext.1.2.0:
-  ocaml setup.ml -configure
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing stringext.1.2.0.
-Building cstruct.1.5.0:
-  ./configure --prefix /home/opam/.opam/4.01.0 --enable-lwt --enable-camlp4 --disable-async --enable-unix --disable-tests
-  make
-  make install
-Installing cstruct.1.5.0.
-Building ipaddr.2.5.0:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
-  make build
-  make install
-Installing ipaddr.2.5.0.
-Building uri.1.7.2:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing uri.1.7.2.
-Building conduit.0.7.1:
-  make
-  make install
-Installing conduit.0.7.1.
-Building cohttp.0.15.0:
-  make PREFIX=/home/opam/.opam/4.01.0
-  make PREFIX=/home/opam/.opam/4.01.0 install
-Installing cohttp.0.15.0.
-+ opam list --depends-on cohttp --rec -s
-+ deps=bt cowabloga facebook-sdk github imaplet-lwt iocaml irmin ketrew merge-queues merge-ropes message-switch mirage-http mirage-http-unix mirage-http-xen mirage-www opam-publish opam-sync-github-prs opium slacko sociaml-facebook-api sociaml-oauth-client sociaml-tumblr-api vhd-tool websocket xapi xapi-forkexecd xapi-idl xapi-libs-transitional xapi-netdev xapi-networkd xapi-rrd-transport xapi-rrdd xapi-rrdd-plugin xapi-squeezed xapi-tapctl xapi-xenops xapi-xenops-cli xapi-xenopsd xe xe-unikernel-upload xen-api-client 
-+ opam config env
-+ eval CAML_LD_LIBRARY_PATH="/home/opam/.opam/4.01.0/lib/stublibs"; export CAML_LD_LIBRARY_PATH; MANPATH="/home/opam/.opam/4.01.0/man:"; export MANPATH; MAKELEVEL=""; export MAKELEVEL; MAKEFLAGS=""; export MAKEFLAGS; PERL5LIB="/home/opam/.opam/4.01.0/lib/perl5"; export PERL5LIB; OCAML_TOPLEVEL_PATH="/home/opam/.opam/4.01.0/lib/toplevel"; export OCAML_TOPLEVEL_PATH; PATH="/home/opam/.opam/4.01.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"; export PATH;
-+ CAML_LD_LIBRARY_PATH=/home/opam/.opam/4.01.0/lib/stublibs
-+ export CAML_LD_LIBRARY_PATH
-+ MANPATH=/home/opam/.opam/4.01.0/man:
-+ export MANPATH
-+ MAKELEVEL=
-+ export MAKELEVEL
-+ MAKEFLAGS=
-+ export MAKEFLAGS
-+ PERL5LIB=/home/opam/.opam/4.01.0/lib/perl5
-+ export PERL5LIB
-+ OCAML_TOPLEVEL_PATH=/home/opam/.opam/4.01.0/lib/toplevel
-+ export OCAML_TOPLEVEL_PATH
-+ PATH=/home/opam/.opam/4.01.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-+ export PATH
-+ opam install bt cowabloga facebook-sdk github imaplet-lwt iocaml irmin ketrew merge-queues merge-ropes message-switch mirage-http mirage-http-unix mirage-http-xen mirage-www opam-publish opam-sync-github-prs opium slacko sociaml-facebook-api sociaml-oauth-client sociaml-tumblr-api vhd-tool websocket xapi xapi-forkexecd xapi-idl xapi-libs-transitional xapi-netdev xapi-networkd xapi-rrd-transport xapi-rrdd xapi-rrdd-plugin xapi-squeezed xapi-tapctl xapi-xenops xapi-xenops-cli xapi-xenopsd xe xe-unikernel-upload xen-api-client
-The following dependencies couldn't be met:
-  - merge-queues[33m -> [mirmin = 0.8.3[33m -> [mgit = 1.2.0[33m -> [mconduit = 0.5.1
-  - ketrew[33m -> [mcohttp >= 0.12.0[33m -> [mconduit >= 0.6.0 | conduit >= 0.7.0
-Your request can't be satisfied:
-  - Conflicting version constraints for conduit
-
-No solution found, exiting
++ sudo docker.io run --rm=true -v /home/opam/is-mirage-broken/scripts:/scripts -t avsm/docker-opam-build:ubuntu-trusty-4.01.0 sh -c /scripts/cohttp
+Unable to find image 'avsm/docker-opam-build:ubuntu-trusty-4.01.0' locally
+Pulling repository avsm/docker-opam-build
+2015/01/04 03:00:26 Tag ubuntu-trusty-4.01.0 not found in repository avsm/docker-opam-build

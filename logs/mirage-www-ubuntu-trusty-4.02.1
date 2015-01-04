@@ -1,1999 +1,9 @@
 + tag=ubuntu-trusty-4.02.1
 + script=mirage-www
-+ repo=avsm/docker-opam
++ repo=avsm/docker-opam-build
 + docker=docker.io
 + pwd
-+ sudo docker.io run --rm=true -v /home/opam/is-mirage-broken/scripts:/scripts -t avsm/docker-opam:ubuntu-trusty-4.02.1 sh -c /scripts/mirage-www
-+ export MIRAGE_APPLICATION=www
-+ . /scripts/build_mirage
-+ [ -z www ]
-+ [ -d .git ]
-+ git pull
-remote: Counting objects: 2642, done.[K
-remote: Compressing objects:   0% (1/1593)   [Kremote: Compressing objects:   1% (16/1593)   [Kremote: Compressing objects:   2% (32/1593)   [Kremote: Compressing objects:   3% (48/1593)   [Kremote: Compressing objects:   4% (64/1593)   [Kremote: Compressing objects:   5% (80/1593)   [Kremote: Compressing objects:   6% (96/1593)   [Kremote: Compressing objects:   7% (112/1593)   [Kremote: Compressing objects:   8% (128/1593)   [Kremote: Compressing objects:   9% (144/1593)   [Kremote: Compressing objects:  10% (160/1593)   [Kremote: Compressing objects:  11% (176/1593)   [Kremote: Compressing objects:  12% (192/1593)   [Kremote: Compressing objects:  13% (208/1593)   [Kremote: Compressing objects:  14% (224/1593)   [Kremote: Compressing objects:  15% (239/1593)   [Kremote: Compressing objects:  16% (255/1593)   [Kremote: Compressing objects:  17% (271/1593)   [Kremote: Compressing objects:  18% (287/1593)   [Kremote: Compressing objects:  19% (303/1593)   [Kremote: Compressing objects:  20% (319/1593)   [Kremote: Compressing objects:  21% (335/1593)   [Kremote: Compressing objects:  22% (351/1593)   [Kremote: Compressing objects:  23% (367/1593)   [Kremote: Compressing objects:  24% (383/1593)   [Kremote: Compressing objects:  25% (399/1593)   [Kremote: Compressing objects:  26% (415/1593)   [Kremote: Compressing objects:  27% (431/1593)   [Kremote: Compressing objects:  28% (447/1593)   [Kremote: Compressing objects:  29% (462/1593)   [Kremote: Compressing objects:  30% (478/1593)   [Kremote: Compressing objects:  31% (494/1593)   [Kremote: Compressing objects:  32% (510/1593)   [Kremote: Compressing objects:  33% (526/1593)   [Kremote: Compressing objects:  34% (542/1593)   [Kremote: Compressing objects:  35% (558/1593)   [Kremote: Compressing objects:  36% (574/1593)   [Kremote: Compressing objects:  37% (590/1593)   [Kremote: Compressing objects:  38% (606/1593)   [Kremote: Compressing objects:  39% (622/1593)   [Kremote: Compressing objects:  40% (638/1593)   [Kremote: Compressing objects:  41% (654/1593)   [Kremote: Compressing objects:  42% (670/1593)   [Kremote: Compressing objects:  43% (685/1593)   [Kremote: Compressing objects:  44% (701/1593)   [Kremote: Compressing objects:  45% (717/1593)   [Kremote: Compressing objects:  46% (733/1593)   [Kremote: Compressing objects:  47% (749/1593)   [Kremote: Compressing objects:  48% (765/1593)   [Kremote: Compressing objects:  49% (781/1593)   [Kremote: Compressing objects:  50% (797/1593)   [Kremote: Compressing objects:  51% (813/1593)   [Kremote: Compressing objects:  52% (829/1593)   [Kremote: Compressing objects:  53% (845/1593)   [Kremote: Compressing objects:  54% (861/1593)   [Kremote: Compressing objects:  55% (877/1593)   [Kremote: Compressing objects:  56% (893/1593)   [Kremote: Compressing objects:  57% (909/1593)   [Kremote: Compressing objects:  58% (924/1593)   [Kremote: Compressing objects:  59% (940/1593)   [Kremote: Compressing objects:  60% (956/1593)   [Kremote: Compressing objects:  61% (972/1593)   [Kremote: Compressing objects:  62% (988/1593)   [Kremote: Compressing objects:  63% (1004/1593)   [Kremote: Compressing objects:  64% (1020/1593)   [Kremote: Compressing objects:  65% (1036/1593)   [Kremote: Compressing objects:  66% (1052/1593)   [Kremote: Compressing objects:  67% (1068/1593)   [Kremote: Compressing objects:  68% (1084/1593)   [Kremote: Compressing objects:  69% (1100/1593)   [Kremote: Compressing objects:  70% (1116/1593)   [Kremote: Compressing objects:  71% (1132/1593)   [Kremote: Compressing objects:  72% (1147/1593)   [Kremote: Compressing objects:  73% (1163/1593)   [Kremote: Compressing objects:  74% (1179/1593)   [Kremote: Compressing objects:  75% (1195/1593)   [Kremote: Compressing objects:  76% (1211/1593)   [Kremote: Compressing objects:  77% (1227/1593)   [Kremote: Compressing objects:  78% (1243/1593)   [Kremote: Compressing objects:  79% (1259/1593)   [Kremote: Compressing objects:  80% (1275/1593)   [Kremote: Compressing objects:  81% (1291/1593)   [Kremote: Compressing objects:  82% (1307/1593)   [Kremote: Compressing objects:  83% (1323/1593)   [Kremote: Compressing objects:  84% (1339/1593)   [Kremote: Compressing objects:  85% (1355/1593)   [Kremote: Compressing objects:  86% (1370/1593)   [Kremote: Compressing objects:  87% (1386/1593)   [Kremote: Compressing objects:  88% (1402/1593)   [Kremote: Compressing objects:  89% (1418/1593)   [Kremote: Compressing objects:  90% (1434/1593)   [Kremote: Compressing objects:  91% (1450/1593)   [Kremote: Compressing objects:  92% (1466/1593)   [Kremote: Compressing objects:  93% (1482/1593)   [Kremote: Compressing objects:  94% (1498/1593)   [Kremote: Compressing objects:  95% (1514/1593)   [Kremote: Compressing objects:  96% (1530/1593)   [Kremote: Compressing objects:  97% (1546/1593)   [Kremote: Compressing objects:  98% (1562/1593)   [Kremote: Compressing objects:  99% (1578/1593)   [Kremote: Compressing objects: 100% (1593/1593)   [Kremote: Compressing objects: 100% (1593/1593), done.[K
-Receiving objects:   0% (1/2642)   Receiving objects:   1% (27/2642)   Receiving objects:   2% (53/2642)   Receiving objects:   3% (80/2642)   Receiving objects:   4% (106/2642)   Receiving objects:   5% (133/2642)   Receiving objects:   6% (159/2642)   Receiving objects:   7% (185/2642)   Receiving objects:   8% (212/2642)   Receiving objects:   9% (238/2642)   Receiving objects:  10% (265/2642)   Receiving objects:  11% (291/2642)   Receiving objects:  12% (318/2642)   Receiving objects:  13% (344/2642)   Receiving objects:  14% (370/2642)   Receiving objects:  15% (397/2642)   Receiving objects:  16% (423/2642)   Receiving objects:  17% (450/2642)   Receiving objects:  18% (476/2642)   Receiving objects:  19% (502/2642)   Receiving objects:  20% (529/2642)   Receiving objects:  21% (555/2642)   Receiving objects:  22% (582/2642)   Receiving objects:  23% (608/2642)   Receiving objects:  24% (635/2642)   Receiving objects:  25% (661/2642)   Receiving objects:  26% (687/2642)   Receiving objects:  27% (714/2642)   Receiving objects:  28% (740/2642)   Receiving objects:  29% (767/2642)   Receiving objects:  30% (793/2642)   Receiving objects:  31% (820/2642)   Receiving objects:  32% (846/2642)   Receiving objects:  33% (872/2642)   Receiving objects:  34% (899/2642)   Receiving objects:  35% (925/2642)   Receiving objects:  36% (952/2642)   Receiving objects:  37% (978/2642)   Receiving objects:  38% (1004/2642)   Receiving objects:  39% (1031/2642)   Receiving objects:  40% (1057/2642)   Receiving objects:  41% (1084/2642)   Receiving objects:  42% (1110/2642)   Receiving objects:  43% (1137/2642)   Receiving objects:  44% (1163/2642)   Receiving objects:  45% (1189/2642)   Receiving objects:  46% (1216/2642)   Receiving objects:  47% (1242/2642)   Receiving objects:  48% (1269/2642)   Receiving objects:  49% (1295/2642)   Receiving objects:  50% (1321/2642)   Receiving objects:  51% (1348/2642)   Receiving objects:  52% (1374/2642)   Receiving objects:  53% (1401/2642)   Receiving objects:  54% (1427/2642)   Receiving objects:  55% (1454/2642)   Receiving objects:  56% (1480/2642)   Receiving objects:  57% (1506/2642)   Receiving objects:  58% (1533/2642)   Receiving objects:  59% (1559/2642)   Receiving objects:  60% (1586/2642)   Receiving objects:  61% (1612/2642)   Receiving objects:  62% (1639/2642)   Receiving objects:  63% (1665/2642)   Receiving objects:  64% (1691/2642)   Receiving objects:  65% (1718/2642)   Receiving objects:  66% (1744/2642)   Receiving objects:  67% (1771/2642)   Receiving objects:  68% (1797/2642)   Receiving objects:  69% (1823/2642)   Receiving objects:  70% (1850/2642)   Receiving objects:  71% (1876/2642)   Receiving objects:  72% (1903/2642)   Receiving objects:  73% (1929/2642)   Receiving objects:  74% (1956/2642)   Receiving objects:  75% (1982/2642)   Receiving objects:  76% (2008/2642)   Receiving objects:  77% (2035/2642)   Receiving objects:  78% (2061/2642)   Receiving objects:  79% (2088/2642)   Receiving objects:  80% (2114/2642)   Receiving objects:  81% (2141/2642)   Receiving objects:  82% (2167/2642)   Receiving objects:  83% (2193/2642)   remote: Total 2642 (delta 1173), reused 2216 (delta 970)[K
-Receiving objects:  84% (2220/2642)   Receiving objects:  85% (2246/2642)   Receiving objects:  86% (2273/2642)   Receiving objects:  87% (2299/2642)   Receiving objects:  88% (2325/2642)   Receiving objects:  89% (2352/2642)   Receiving objects:  90% (2378/2642)   Receiving objects:  91% (2405/2642)   Receiving objects:  92% (2431/2642)   Receiving objects:  93% (2458/2642)   Receiving objects:  94% (2484/2642)   Receiving objects:  95% (2510/2642)   Receiving objects:  96% (2537/2642)   Receiving objects:  97% (2563/2642)   Receiving objects:  98% (2590/2642)   Receiving objects:  99% (2616/2642)   Receiving objects: 100% (2642/2642)   Receiving objects: 100% (2642/2642), 439.97 KiB | 0 bytes/s, done.
-Resolving deltas:   0% (0/1173)   Resolving deltas:   1% (12/1173)   Resolving deltas:   2% (24/1173)   Resolving deltas:   3% (37/1173)   Resolving deltas:  14% (165/1173)   Resolving deltas:  25% (301/1173)   Resolving deltas:  26% (315/1173)   Resolving deltas:  27% (323/1173)   Resolving deltas:  28% (329/1173)   Resolving deltas:  29% (341/1173)   Resolving deltas:  30% (353/1173)   Resolving deltas:  31% (366/1173)   Resolving deltas:  32% (376/1173)   Resolving deltas:  33% (391/1173)   Resolving deltas:  34% (399/1173)   Resolving deltas:  35% (414/1173)   Resolving deltas:  36% (423/1173)   Resolving deltas:  37% (435/1173)   Resolving deltas:  38% (447/1173)   Resolving deltas:  39% (458/1173)   Resolving deltas:  40% (471/1173)   Resolving deltas:  41% (483/1173)   Resolving deltas:  42% (493/1173)   Resolving deltas:  43% (505/1173)   Resolving deltas:  44% (518/1173)   Resolving deltas:  45% (528/1173)   Resolving deltas:  46% (541/1173)   Resolving deltas:  47% (553/1173)   Resolving deltas:  51% (607/1173)   Resolving deltas:  52% (610/1173)   Resolving deltas:  53% (632/1173)   Resolving deltas:  54% (634/1173)   Resolving deltas:  56% (657/1173)   Resolving deltas:  59% (695/1173)   Resolving deltas:  61% (718/1173)   Resolving deltas:  64% (758/1173)   Resolving deltas:  65% (764/1173)   Resolving deltas:  66% (777/1173)   Resolving deltas:  67% (786/1173)   Resolving deltas:  68% (799/1173)   Resolving deltas:  69% (811/1173)   Resolving deltas:  70% (825/1173)   Resolving deltas:  71% (833/1173)   Resolving deltas:  72% (848/1173)   Resolving deltas:  73% (860/1173)   Resolving deltas:  74% (871/1173)   Resolving deltas:  75% (885/1173)   Resolving deltas:  76% (892/1173)   Resolving deltas:  77% (905/1173)   Resolving deltas:  78% (918/1173)   Resolving deltas:  79% (927/1173)   Resolving deltas:  80% (940/1173)   Resolving deltas: 100% (1173/1173)   Resolving deltas: 100% (1173/1173), done.
-From git://github.com/ocaml/opam-repository
-   a824417..ae314ac  master     -> origin/master
-Updating a824417..ae314ac
-Fast-forward
- compilers/4.01.0/4.01.0+BER.comp                   |   2 [32m+[m[31m-[m
- .../4.02.1+musl+static/4.02.1+musl+static.comp     |  20 [32m+[m
- .../4.02.1+musl+static/4.02.1+musl+static.descr    |   3 [32m+[m
- compilers/4.02.1/4.02.1+musl/4.02.1+musl.comp      |  18 [32m+[m
- compilers/4.02.1/4.02.1+musl/4.02.1+musl.descr     |   3 [32m+[m
- compilers/4.03.0/4.03.0+pr100/4.03.0+pr100.comp    |   2 [32m+[m[31m-[m
- compilers/4.03.0/4.03.0+pr103/4.03.0+pr103.descr   |   1 [31m-[m
- compilers/4.03.0/4.03.0+pr110/4.03.0+pr110.comp    |  11 [31m-[m
- compilers/4.03.0/4.03.0+pr110/4.03.0+pr110.descr   |   1 [31m-[m
- compilers/4.03.0/4.03.0+pr113/4.03.0+pr113.descr   |   1 [31m-[m
- compilers/4.03.0/4.03.0+pr115/4.03.0+pr115.comp    |   2 [32m+[m[31m-[m
- .../4.03.0+pr119.comp}                             |   2 [32m+[m[31m-[m
- compilers/4.03.0/4.03.0+pr119/4.03.0+pr119.descr   |   1 [32m+[m
- compilers/4.03.0/4.03.0+pr120/4.03.0+pr120.comp    |  11 [32m+[m
- compilers/4.03.0/4.03.0+pr120/4.03.0+pr120.descr   |   1 [32m+[m
- compilers/4.03.0/4.03.0+pr122/4.03.0+pr122.comp    |  11 [32m+[m
- compilers/4.03.0/4.03.0+pr122/4.03.0+pr122.descr   |   1 [32m+[m
- .../4.03.0+pr125.comp}                             |   2 [32m+[m[31m-[m
- compilers/4.03.0/4.03.0+pr125/4.03.0+pr125.descr   |   1 [32m+[m
- .../4.03.0+pr126.comp}                             |   2 [32m+[m[31m-[m
- compilers/4.03.0/4.03.0+pr126/4.03.0+pr126.descr   |   1 [32m+[m
- .../4.03.0+pr129.comp}                             |   2 [32m+[m[31m-[m
- compilers/4.03.0/4.03.0+pr129/4.03.0+pr129.descr   |   1 [32m+[m
- compilers/4.03.0/4.03.0+pr132/4.03.0+pr132.comp    |  11 [32m+[m
- compilers/4.03.0/4.03.0+pr132/4.03.0+pr132.descr   |   1 [32m+[m
- .../4.03.0+pr43.comp}                              |   2 [32m+[m[31m-[m
- compilers/4.03.0/4.03.0+pr43/4.03.0+pr43.descr     |   1 [32m+[m
- .../4.03.0+pr46.comp}                              |   2 [32m+[m[31m-[m
- compilers/4.03.0/4.03.0+pr46/4.03.0+pr46.descr     |   1 [32m+[m
- .../4.03.0+pr51.comp}                              |   2 [32m+[m[31m-[m
- compilers/4.03.0/4.03.0+pr51/4.03.0+pr51.descr     |   1 [32m+[m
- .../4.03.0+pr63.comp}                              |   2 [32m+[m[31m-[m
- compilers/4.03.0/4.03.0+pr63/4.03.0+pr63.descr     |   1 [32m+[m
- compilers/4.03.0/4.03.0+pr69/4.03.0+pr69.descr     |   1 [31m-[m
- compilers/4.03.0/4.03.0+pr73/4.03.0+pr73.descr     |   1 [31m-[m
- compilers/4.03.0/4.03.0+pr79/4.03.0+pr79.descr     |   1 [31m-[m
- compilers/4.03.0/4.03.0+pr84/4.03.0+pr84.descr     |   1 [31m-[m
- compilers/4.03.0/4.03.0+pr92/4.03.0+pr92.comp      |   2 [32m+[m[31m-[m
- compilers/4.03.0/4.03.0+pr93/4.03.0+pr93.descr     |   1 [31m-[m
- compilers/4.03.0/4.03.0+pr94/4.03.0+pr94.descr     |   1 [31m-[m
- compilers/4.03.0/4.03.0+pr95/4.03.0+pr95.comp      |  11 [31m-[m
- compilers/4.03.0/4.03.0+pr95/4.03.0+pr95.descr     |   1 [31m-[m
- compilers/4.03.0/4.03.0+pr96/4.03.0+pr96.comp      |  11 [31m-[m
- compilers/4.03.0/4.03.0+pr96/4.03.0+pr96.descr     |   1 [31m-[m
- compilers/4.03.0/4.03.0+pr98/4.03.0+pr98.comp      |   2 [32m+[m[31m-[m
- packages/0install/0install.2.8/descr               |   6 [32m+[m
- .../0install/0install.2.8/files/0install.install   |  19 [32m+[m
- .../0install/0install.2.8/files/gui_gtk_dir.patch  |  13 [32m+[m
- packages/0install/0install.2.8/opam                |  14 [32m+[m
- packages/0install/0install.2.8/url                 |   2 [32m+[m
- packages/KaSim/KaSim.3.5.141112/descr              |   1 [32m+[m
- packages/KaSim/KaSim.3.5.141112/opam               |  18 [32m+[m
- packages/KaSim/KaSim.3.5.141112/url                |   2 [32m+[m
- packages/aacplus/aacplus.0.2.1/opam                |   2 [32m+[m[31m-[m
- packages/acpc/acpc.1.0/opam                        |   4 [32m+[m[31m-[m
- packages/acpc/acpc.1.1/opam                        |   4 [32m+[m[31m-[m
- packages/acpc/acpc.1.2/opam                        |   4 [32m+[m[31m-[m
- packages/ago/ago.0.1/descr                         |   7 [32m+[m
- packages/ago/ago.0.1/opam                          |  13 [32m+[m
- packages/ago/ago.0.1/url                           |   2 [32m+[m
- packages/alberto/alberto.0.2/opam                  |   1 [32m+[m
- packages/alberto/alberto.0.3/descr                 |   7 [32m+[m
- packages/alberto/alberto.0.3/opam                  |  19 [32m+[m
- packages/alberto/alberto.0.3/url                   |   2 [32m+[m
- packages/alpaca/alpaca.1.0.2/opam                  |   2 [32m+[m[31m-[m
- packages/alt-ergo/alt-ergo.0.99.1/descr            |   1 [32m+[m
- .../alt-ergo.0.99.1/files/alt-ergo.install         |   3 [32m+[m
- packages/alt-ergo/alt-ergo.0.99.1/opam             |  13 [32m+[m
- packages/alt-ergo/alt-ergo.0.99.1/url              |   2 [32m+[m
- packages/altgr-ergo/altgr-ergo.0.99.1/descr        |   1 [32m+[m
- .../altgr-ergo.0.99.1/files/altgr-ergo.install     |   3 [32m+[m
- packages/altgr-ergo/altgr-ergo.0.99.1/opam         |  15 [32m+[m
- packages/altgr-ergo/altgr-ergo.0.99.1/url          |   2 [32m+[m
- packages/ancient/ancient.0.9.0/opam                |   1 [32m+[m
- packages/async/async.112.06.00/descr               |   5 [32m+[m
- packages/async/async.112.06.00/findlib             |   1 [32m+[m
- packages/async/async.112.06.00/opam                |  16 [32m+[m
- packages/async/async.112.06.00/url                 |   2 [32m+[m
- .../async_extended/async_extended.112.06.00/descr  |   4 [32m+[m
- .../async_extended.112.06.00/findlib               |   1 [32m+[m
- .../async_extended/async_extended.112.06.00/opam   |  20 [32m+[m
- .../async_extended/async_extended.112.06.00/url    |   2 [32m+[m
- packages/async_extra/async_extra.112.06.00/descr   |   5 [32m+[m
- packages/async_extra/async_extra.112.06.00/findlib |   1 [32m+[m
- packages/async_extra/async_extra.112.06.00/opam    |  21 [32m+[m
- packages/async_extra/async_extra.112.06.00/url     |   2 [32m+[m
- packages/async_find/async_find.111.28.00/opam      |   4 [32m+[m[31m-[m
- .../async_inotify/async_inotify.111.28.00/opam     |   4 [32m+[m[31m-[m
- packages/async_kernel/async_kernel.112.06.00/descr |   5 [32m+[m
- .../async_kernel/async_kernel.112.06.00/findlib    |   1 [32m+[m
- packages/async_kernel/async_kernel.112.06.00/opam  |  20 [32m+[m
- packages/async_kernel/async_kernel.112.06.00/url   |   2 [32m+[m
- .../async_parallel/async_parallel.111.28.00/opam   |   8 [32m+[m[31m-[m
- packages/async_shell/async_shell.109.28.03/opam    |   4 [32m+[m[31m-[m
- packages/async_smtp/async_smtp.109.38.alpha1/opam  |   4 [32m+[m[31m-[m
- packages/async_ssl/async_ssl.111.06.00/opam        |   1 [32m+[m
- packages/async_ssl/async_ssl.111.08.00/opam        |   1 [32m+[m
- packages/async_ssl/async_ssl.111.21.00/opam        |  11 [32m+[m[31m-[m
- packages/async_unix/async_unix.112.06.00/descr     |   5 [32m+[m
- packages/async_unix/async_unix.112.06.00/findlib   |   1 [32m+[m
- packages/async_unix/async_unix.112.06.00/opam      |  23 [32m++[m
- packages/async_unix/async_unix.112.06.00/url       |   2 [32m+[m
- packages/atd2cconv/atd2cconv.0.0.0/descr           |   1 [32m+[m
- packages/atd2cconv/atd2cconv.0.0.0/opam            |  11 [32m+[m
- packages/atd2cconv/atd2cconv.0.0.0/url             |   3 [32m+[m
- packages/atdgen/atdgen.1.5.0/descr                 |  13 [32m+[m
- packages/atdgen/atdgen.1.5.0/files/atdgen.install  |   4 [32m+[m
- packages/atdgen/atdgen.1.5.0/findlib               |   1 [32m+[m
- packages/atdgen/atdgen.1.5.0/opam                  |  16 [32m+[m
- packages/atdgen/atdgen.1.5.0/url                   |   2 [32m+[m
- packages/baardskeerder/baardskeerder.0.5.2/opam    |   1 [32m+[m
- .../base-metaocaml-ocamlfind.base/descr            |   1 [32m+[m
- .../files/metaocaml.conf                           |   2 [32m+[m
- .../base-metaocaml-ocamlfind.base/opam             |  10 [32m+[m
- packages/base64/base64.1.1.0/descr                 |   6 [32m+[m
- packages/base64/base64.1.1.0/findlib               |   1 [32m+[m
- packages/base64/base64.1.1.0/opam                  |  26 [32m++[m
- packages/base64/base64.1.1.0/url                   |   2 [32m+[m
- packages/base64/base64.2.0.0/descr                 |   8 [32m+[m
- packages/base64/base64.2.0.0/findlib               |   1 [32m+[m
- packages/base64/base64.2.0.0/opam                  |  26 [32m++[m
- packages/base64/base64.2.0.0/url                   |   2 [32m+[m
- packages/benchmark/benchmark.1.4/descr             |   4 [32m+[m
- packages/benchmark/benchmark.1.4/findlib           |   1 [32m+[m
- packages/benchmark/benchmark.1.4/opam              |  26 [32m++[m
- packages/benchmark/benchmark.1.4/url               |   2 [32m+[m
- packages/bignum/bignum.112.06.00/descr             |   1 [32m+[m
- packages/bignum/bignum.112.06.00/findlib           |   1 [32m+[m
- packages/bignum/bignum.112.06.00/opam              |  18 [32m+[m
- packages/bignum/bignum.112.06.00/url               |   2 [32m+[m
- packages/bin_prot/bin_prot.112.06.00/descr         |   5 [32m+[m
- packages/bin_prot/bin_prot.112.06.00/findlib       |   1 [32m+[m
- packages/bin_prot/bin_prot.112.06.00/opam          |  13 [32m+[m
- packages/bin_prot/bin_prot.112.06.00/url           |   2 [32m+[m
- packages/bitstring/bitstring.2.0.3/opam            |   1 [32m+[m
- .../bitstring/bitstring.2.0.4/files/fix_402.patch  | 341 [32m++++++++++++++++[m
- packages/bitstring/bitstring.2.0.4/opam            |   8 [32m+[m[31m-[m
- packages/cache/cache.1.0/opam                      |   1 [32m+[m
- packages/camlpdf/camlpdf.2.1.1/descr               |   1 [32m+[m
- packages/camlpdf/camlpdf.2.1.1/opam                |   8 [32m+[m
- packages/camlpdf/camlpdf.2.1.1/url                 |   2 [32m+[m
- packages/camlprime/camlprime.0.5/descr             |   4 [32m+[m
- packages/camlprime/camlprime.0.5/opam              |  14 [32m+[m
- packages/camlprime/camlprime.0.5/url               |   2 [32m+[m
- packages/cconv/cconv.0.2/descr                     |   6 [32m+[m
- packages/cconv/cconv.0.2/findlib                   |   1 [32m+[m
- packages/cconv/cconv.0.2/opam                      |  29 [32m++[m
- packages/cconv/cconv.0.2/url                       |   2 [32m+[m
- packages/cduce/cduce.0.5.5/opam                    |   1 [32m+[m
- packages/cmdliner/cmdliner.0.9.6/findlib           |   1 [32m+[m
- packages/coccinelle/coccinelle.1.0.0-rc21/opam     |   2 [32m+[m[31m-[m
- packages/coccinelle/coccinelle.1.0.0-rc22/opam     |   2 [32m+[m[31m-[m
- packages/cohttp/cohttp.0.13.0/descr                |   9 [32m+[m
- packages/cohttp/cohttp.0.13.0/opam                 |  32 [32m++[m
- packages/cohttp/cohttp.0.13.0/url                  |   2 [32m+[m
- packages/cohttp/cohttp.0.14.0/descr                |   9 [32m+[m
- packages/cohttp/cohttp.0.14.0/opam                 |  55 [32m+++[m
- packages/cohttp/cohttp.0.14.0/url                  |   2 [32m+[m
- packages/cohttp/cohttp.0.15.0/descr                |   9 [32m+[m
- packages/cohttp/cohttp.0.15.0/opam                 |  50 [32m+++[m
- packages/cohttp/cohttp.0.15.0/url                  |   2 [32m+[m
- packages/conduit/conduit.0.7.0/descr               |   9 [32m+[m
- packages/conduit/conduit.0.7.0/opam                |  37 [32m++[m
- packages/conduit/conduit.0.7.0/url                 |   2 [32m+[m
- packages/conduit/conduit.0.7.1/descr               |  15 [32m+[m
- packages/conduit/conduit.0.7.1/opam                |  37 [32m++[m
- packages/conduit/conduit.0.7.1/url                 |   2 [32m+[m
- packages/conf-gmp/conf-gmp.1/opam                  |   2 [32m+[m[31m-[m
- .../conf-python-2-7-dev.1.0/opam                   |   4 [32m+[m
- packages/conf-python-2-7/conf-python-2-7.1.0/opam  |   4 [32m+[m
- packages/containers/containers.0.6.1/descr         |  10 [32m+[m
- packages/containers/containers.0.6.1/findlib       |   1 [32m+[m
- packages/containers/containers.0.6.1/opam          |  32 [32m++[m
- packages/containers/containers.0.6.1/url           |   2 [32m+[m
- packages/containers/containers.0.7/descr           |  10 [32m+[m
- packages/containers/containers.0.7/findlib         |   1 [32m+[m
- packages/containers/containers.0.7/opam            |  37 [32m++[m
- packages/containers/containers.0.7/url             |   2 [32m+[m
- packages/core/core.112.06.00/descr                 |   4 [32m+[m
- packages/core/core.112.06.00/files/core.install    |   1 [32m+[m
- packages/core/core.112.06.00/findlib               |   1 [32m+[m
- packages/core/core.112.06.00/opam                  |  28 [32m++[m
- packages/core/core.112.06.00/url                   |   2 [32m+[m
- packages/core/core.112.06.01/descr                 |   4 [32m+[m
- packages/core/core.112.06.01/files/core.install    |   1 [32m+[m
- packages/core/core.112.06.01/findlib               |   1 [32m+[m
- packages/core/core.112.06.01/opam                  |  27 [32m++[m
- packages/core/core.112.06.01/url                   |   2 [32m+[m
- packages/core_bench/core_bench.112.06.00/descr     |   1 [32m+[m
- packages/core_bench/core_bench.112.06.00/findlib   |   1 [32m+[m
- packages/core_bench/core_bench.112.06.00/opam      |  16 [32m+[m
- packages/core_bench/core_bench.112.06.00/url       |   2 [32m+[m
- .../core_extended/core_extended.112.06.00/descr    |   4 [32m+[m
- .../core_extended/core_extended.112.06.00/findlib  |   1 [32m+[m
- .../core_extended/core_extended.112.06.00/opam     |  25 [32m++[m
- packages/core_extended/core_extended.112.06.00/url |   2 [32m+[m
- packages/core_kernel/core_kernel.112.06.00/descr   |   6 [32m+[m
- packages/core_kernel/core_kernel.112.06.00/findlib |   1 [32m+[m
- packages/core_kernel/core_kernel.112.06.00/opam    |  25 [32m++[m
- packages/core_kernel/core_kernel.112.06.00/url     |   2 [32m+[m
- packages/cow/cow.0.10.0/opam                       |   2 [32m+[m[31m-[m
- packages/cow/cow.0.10.1/opam                       |   2 [32m+[m[31m-[m
- packages/cow/cow.1.0.0/opam                        |   2 [32m+[m[31m-[m
- packages/cow/cow.1.1.0/descr                       |  17 [32m+[m
- packages/cow/cow.1.1.0/opam                        |  32 [32m++[m
- packages/cow/cow.1.1.0/url                         |   2 [32m+[m
- packages/cowabloga/cowabloga.0.0.8/opam            |   2 [32m+[m[31m-[m
- packages/cowabloga/cowabloga.0.0.9/descr           |   3 [32m+[m
- packages/cowabloga/cowabloga.0.0.9/opam            |  19 [32m+[m
- packages/cowabloga/cowabloga.0.0.9/url             |   2 [32m+[m
- packages/cpdf/cpdf.2.1.1/descr                     |   2 [32m+[m
- packages/cpdf/cpdf.2.1.1/files/cpdf.install        |   1 [32m+[m
- packages/cpdf/cpdf.2.1.1/findlib                   |   1 [32m+[m
- packages/cpdf/cpdf.2.1.1/opam                      |  12 [32m+[m
- packages/cpdf/cpdf.2.1.1/url                       |   2 [32m+[m
- packages/cryptokit/cryptokit.1.10/descr            |   5 [32m+[m
- packages/cryptokit/cryptokit.1.10/findlib          |   1 [32m+[m
- packages/cryptokit/cryptokit.1.10/opam             |  12 [32m+[m
- packages/cryptokit/cryptokit.1.10/url              |   2 [32m+[m
- packages/cryptokit/cryptokit.1.6/opam              |   1 [32m+[m
- packages/cryptokit/cryptokit.1.7/opam              |   1 [32m+[m
- packages/cryptokit/cryptokit.1.9/opam              |   1 [32m+[m
- packages/cstruct/cstruct.1.3.0/opam                |   1 [32m+[m
- packages/cstruct/cstruct.1.3.1/opam                |   1 [32m+[m
- packages/cstruct/cstruct.1.4.0/opam                |   1 [32m+[m
- packages/cstruct/cstruct.1.5.0/opam                |   1 [32m+[m
- packages/ctypes/ctypes.0.1.1/opam                  |   2 [32m+[m[31m-[m
- packages/ctypes/ctypes.0.2.3/opam                  |   2 [32m+[m[31m-[m
- packages/ctypes/ctypes.0.3.1/opam                  |  20 [31m-[m
- packages/ctypes/ctypes.0.3.2/descr                 |   1 [31m-[m
- packages/ctypes/ctypes.0.3.2/findlib               |   1 [31m-[m
- packages/ctypes/ctypes.0.3.2/url                   |   2 [31m-[m
- packages/ctypes/ctypes.0.3.3/descr                 |   1 [31m-[m
- packages/ctypes/ctypes.0.3.3/findlib               |   1 [31m-[m
- packages/ctypes/ctypes.0.3.3/opam                  |  20 [31m-[m
- packages/ctypes/ctypes.0.3.3/url                   |   2 [31m-[m
- .../ctypes/{ctypes.0.3.1 => ctypes.0.3.4}/descr    |   0
- .../ctypes/{ctypes.0.3.1 => ctypes.0.3.4}/findlib  |   0
- .../ctypes/{ctypes.0.3.2 => ctypes.0.3.4}/opam     |   2 [32m+[m[31m-[m
- packages/ctypes/{ctypes.0.3.1 => ctypes.0.3.4}/url |   4 [32m+[m[31m-[m
- packages/ctypes/ctypes.0.3/descr                   |   1 [31m-[m
- packages/ctypes/ctypes.0.3/findlib                 |   1 [31m-[m
- packages/ctypes/ctypes.0.3/opam                    |  20 [31m-[m
- packages/ctypes/ctypes.0.3/url                     |   2 [31m-[m
- .../custom_printf/custom_printf.112.06.00/descr    |   4 [32m+[m
- .../custom_printf/custom_printf.112.06.00/findlib  |   1 [32m+[m
- .../custom_printf/custom_printf.112.06.00/opam     |  13 [32m+[m
- packages/custom_printf/custom_printf.112.06.00/url |   2 [32m+[m
- packages/dns/dns.0.10.0/opam                       |   2 [32m+[m[31m-[m
- packages/dns/dns.0.11.0/opam                       |   2 [32m+[m[31m-[m
- packages/dns/dns.0.12.0/descr                      |   5 [32m+[m
- packages/dns/dns.0.12.0/findlib                    |   1 [32m+[m
- packages/dns/dns.0.12.0/opam                       |  40 [32m++[m
- packages/dns/dns.0.12.0/url                        |   2 [32m+[m
- packages/dockerfile/dockerfile.1.0.0/descr         |  18 [32m+[m
- packages/dockerfile/dockerfile.1.0.0/opam          |  16 [32m+[m
- packages/dockerfile/dockerfile.1.0.0/url           |   2 [32m+[m
- packages/dolog/dolog.0.1/opam                      |   2 [32m+[m[31m-[m
- packages/dolog/dolog.0.2/opam                      |   2 [32m+[m[31m-[m
- packages/dolog/dolog.0.3/opam                      |   2 [32m+[m[31m-[m
- packages/dolog/dolog.0.4/opam                      |   2 [32m+[m[31m-[m
- packages/dolog/dolog.0.5/opam                      |   2 [32m+[m[31m-[m
- packages/dolog/dolog.0.6/descr                     |   1 [32m+[m
- packages/dolog/dolog.0.6/findlib                   |   1 [32m+[m
- packages/dolog/dolog.0.6/opam                      |  15 [32m+[m
- packages/dolog/dolog.0.6/url                       |   2 [32m+[m
- packages/dolog/dolog.1.0/descr                     |   1 [32m+[m
- packages/dolog/dolog.1.0/findlib                   |   1 [32m+[m
- packages/dolog/dolog.1.0/opam                      |  15 [32m+[m
- packages/dolog/dolog.1.0/url                       |   2 [32m+[m
- packages/efl/efl.1.12.0/descr                      |  12 [32m+[m
- packages/efl/efl.1.12.0/opam                       |  18 [32m+[m
- packages/efl/efl.1.12.0/url                        |   2 [32m+[m
- .../email_message/email_message.109.42.alpha1/opam |  14 [32m+[m[31m-[m
- packages/extprot/extprot.1.1.1/opam                |   1 [32m+[m
- packages/extprot/extprot.1.1.2/descr               |   5 [32m+[m
- packages/extprot/extprot.1.1.2/findlib             |   1 [32m+[m
- packages/extprot/extprot.1.1.2/opam                |  20 [32m+[m
- packages/extprot/extprot.1.1.2/url                 |   2 [32m+[m
- packages/ezjsonm/ezjsonm.0.3.1/descr               |   9 [32m+[m
- packages/ezjsonm/ezjsonm.0.3.1/findlib             |   1 [32m+[m
- packages/ezjsonm/ezjsonm.0.3.1/opam                |  25 [32m++[m
- packages/ezjsonm/ezjsonm.0.3.1/url                 |   2 [32m+[m
- packages/ezjsonm/ezjsonm.0.4.0/descr               |   9 [32m+[m
- packages/ezjsonm/ezjsonm.0.4.0/opam                |  24 [32m++[m
- packages/ezjsonm/ezjsonm.0.4.0/url                 |   2 [32m+[m
- packages/faillib/faillib.111.17.00/opam            |   2 [32m+[m[31m-[m
- packages/froc/froc.0.2.2/opam                      |   1 [32m+[m
- packages/gedcom/gedcom.1.0.0/descr                 |   8 [32m+[m
- packages/gedcom/gedcom.1.0.0/opam                  |  16 [32m+[m
- packages/gedcom/gedcom.1.0.0/url                   |   2 [32m+[m
- packages/gen/gen.0.2.2/descr                       |   1 [32m+[m
- packages/gen/gen.0.2.2/findlib                     |   1 [32m+[m
- packages/gen/gen.0.2.2/opam                        |  19 [32m+[m
- packages/gen/gen.0.2.2/url                         |   2 [32m+[m
- packages/gen/gen.0.2.3/descr                       |   4 [32m+[m
- packages/gen/gen.0.2.3/findlib                     |   1 [32m+[m
- packages/gen/gen.0.2.3/opam                        |  19 [32m+[m
- packages/gen/gen.0.2.3/url                         |   2 [32m+[m
- packages/genspir/genspir.0.1/opam                  |   2 [32m+[m[31m-[m
- packages/git/git.1.0.0/opam                        |   2 [32m+[m[31m-[m
- packages/git/git.1.0.1/opam                        |   2 [32m+[m[31m-[m
- packages/git/git.1.0.2/opam                        |   2 [32m+[m[31m-[m
- packages/git/git.1.1.0/opam                        |   2 [32m+[m[31m-[m
- packages/git/git.1.2.0/opam                        |   2 [32m+[m[31m-[m
- packages/git/git.1.3.0/opam                        |   2 [32m+[m[31m-[m
- packages/git/git.1.4.0/opam                        |   2 [32m+[m[31m-[m
- packages/git/git.1.4.1/descr                       |  17 [32m+[m
- packages/git/git.1.4.1/findlib                     |   3 [32m+[m
- packages/git/git.1.4.1/opam                        |  41 [32m++[m
- packages/git/git.1.4.1/url                         |   2 [32m+[m
- packages/git/git.1.4.2/descr                       |  17 [32m+[m
- packages/git/git.1.4.2/findlib                     |   3 [32m+[m
- packages/git/git.1.4.2/opam                        |  39 [32m++[m
- packages/git/git.1.4.2/url                         |   2 [32m+[m
- packages/git/git.1.4.3/descr                       |  17 [32m+[m
- packages/git/git.1.4.3/opam                        |  32 [32m++[m
- packages/git/git.1.4.3/url                         |   2 [32m+[m
- packages/github/github.0.8.2/opam                  |   2 [32m+[m[31m-[m
- packages/github/github.0.8.3/opam                  |   2 [32m+[m[31m-[m
- packages/github/github.0.8.4/opam                  |   2 [32m+[m[31m-[m
- packages/github/github.0.8.5/opam                  |   2 [32m+[m[31m-[m
- packages/github/github.0.8.6/opam                  |   2 [32m+[m[31m-[m
- packages/github/github.0.9.0/opam                  |   2 [32m+[m[31m-[m
- packages/github/github.0.9.1/opam                  |   2 [32m+[m[31m-[m
- packages/github/github.0.9.2/opam                  |   2 [32m+[m[31m-[m
- packages/github/github.0.9.3/descr                 |   1 [32m+[m
- packages/github/github.0.9.3/findlib               |   1 [32m+[m
- packages/github/github.0.9.3/opam                  |  32 [32m++[m
- packages/github/github.0.9.3/url                   |   2 [32m+[m
- packages/github/github.0.9.4/descr                 |   1 [32m+[m
- packages/github/github.0.9.4/findlib               |   1 [32m+[m
- packages/github/github.0.9.4/opam                  |  32 [32m++[m
- packages/github/github.0.9.4/url                   |   2 [32m+[m
- packages/humane-re/humane-re.0.1.0/descr           |   1 [32m+[m
- packages/humane-re/humane-re.0.1.0/findlib         |   1 [32m+[m
- packages/humane-re/humane-re.0.1.0/opam            |  23 [32m++[m
- packages/humane-re/humane-re.0.1.0/url             |   2 [32m+[m
- packages/imaplet-lwt/imaplet-lwt.0.1.3/descr       |   1 [32m+[m
- packages/imaplet-lwt/imaplet-lwt.0.1.3/opam        |  14 [32m+[m
- packages/imaplet-lwt/imaplet-lwt.0.1.3/url         |   2 [32m+[m
- packages/inotify/inotify.1.4/url                   |   2 [32m+[m[31m-[m
- packages/inotify/inotify.1.5/url                   |   2 [32m+[m[31m-[m
- packages/io-page/io-page.1.2.0/descr               |   1 [32m+[m
- packages/io-page/io-page.1.2.0/findlib             |   1 [32m+[m
- packages/io-page/io-page.1.2.0/opam                |  24 [32m++[m
- packages/io-page/io-page.1.2.0/url                 |   2 [32m+[m
- packages/ipaddr/ipaddr.2.5.0/opam                  |   2 [32m+[m[31m-[m
- packages/irmin/irmin.0.7.0/descr                   |   6 [32m+[m[31m-[m
- packages/irmin/irmin.0.7.0/opam                    |   4 [32m+[m[31m-[m
- packages/irmin/irmin.0.8.0/descr                   |   6 [32m+[m[31m-[m
- packages/irmin/irmin.0.8.0/opam                    |   4 [32m+[m[31m-[m
- packages/irmin/irmin.0.8.1/descr                   |   6 [32m+[m[31m-[m
- packages/irmin/irmin.0.8.1/opam                    |   4 [32m+[m[31m-[m
- packages/irmin/irmin.0.8.2/descr                   |   6 [32m+[m[31m-[m
- packages/irmin/irmin.0.8.2/opam                    |   4 [32m+[m[31m-[m
- packages/irmin/irmin.0.8.3/descr                   |   6 [32m+[m[31m-[m
- packages/irmin/irmin.0.8.3/opam                    |   4 [32m+[m[31m-[m
- packages/irmin/irmin.0.9.0/descr                   |   9 [32m+[m
- packages/irmin/irmin.0.9.0/opam                    |  49 [32m+++[m
- packages/irmin/irmin.0.9.0/url                     |   2 [32m+[m
- packages/irmin/irmin.0.9.1/descr                   |   9 [32m+[m
- packages/irmin/irmin.0.9.1/opam                    |  48 [32m+++[m
- packages/irmin/irmin.0.9.1/url                     |   2 [32m+[m
- packages/itv-tree/itv-tree.0.1/opam                |   2 [32m+[m[31m-[m
- packages/itv-tree/itv-tree.2.0/opam                |   2 [32m+[m[31m-[m
- packages/jenga/jenga.112.06.00/descr               |   1 [32m+[m
- packages/jenga/jenga.112.06.00/files/jenga.install |   6 [32m+[m
- packages/jenga/jenga.112.06.00/findlib             |   1 [32m+[m
- packages/jenga/jenga.112.06.00/opam                |  26 [32m++[m
- packages/jenga/jenga.112.06.00/url                 |   2 [32m+[m
- packages/ketrew/ketrew.0.0.0/descr                 |   1 [32m+[m
- packages/ketrew/ketrew.0.0.0/opam                  |  19 [32m+[m
- packages/ketrew/ketrew.0.0.0/url                   |   3 [32m+[m
- packages/lacc/lacc.0.1/opam                        |   2 [32m+[m[31m-[m
- packages/lacc/lacc.0.2/opam                        |   2 [32m+[m[31m-[m
- packages/lbfgs/lbfgs.0.8.5/opam                    |   1 [32m+[m
- packages/lbfgs/lbfgs.0.8.6/descr                   |   3 [32m+[m
- packages/lbfgs/lbfgs.0.8.6/findlib                 |   1 [32m+[m
- packages/lbfgs/lbfgs.0.8.6/opam                    |  29 [32m++[m
- packages/lbfgs/lbfgs.0.8.6/url                     |   2 [32m+[m
- .../lwt/lwt.2.4.6/files/patch-ocsigen-lwt-101.diff |  49 [32m+++[m
- packages/lwt/lwt.2.4.6/opam                        |   4 [32m+[m[31m-[m
- packages/lz4/lz4.1.0.0/opam                        |   2 [32m+[m[31m-[m
- packages/menhir/menhir.20141215/descr              |   1 [32m+[m
- .../menhir/menhir.20141215/files/menhir.install    |   1 [32m+[m
- packages/menhir/menhir.20141215/findlib            |   1 [32m+[m
- packages/menhir/menhir.20141215/opam               |   9 [32m+[m
- packages/menhir/menhir.20141215/url                |   2 [32m+[m
- packages/mikmatch/mikmatch.1.0.8/descr             |   1 [32m+[m
- packages/mikmatch/mikmatch.1.0.8/opam              |  23 [32m++[m
- packages/mikmatch/mikmatch.1.0.8/url               |   2 [32m+[m
- packages/mirage-console/mirage-console.2.1.0/descr |   1 [32m+[m
- packages/mirage-console/mirage-console.2.1.0/opam  |  25 [32m++[m
- packages/mirage-console/mirage-console.2.1.0/url   |   2 [32m+[m
- packages/mirage-http/mirage-http.2.1.0/descr       |   1 [32m+[m
- packages/mirage-http/mirage-http.2.1.0/opam        |  17 [32m+[m
- packages/mirage-http/mirage-http.2.1.0/url         |   2 [32m+[m
- .../mirage-net-macosx.1.0.0/descr                  |  15 [32m+[m
- .../mirage-net-macosx/mirage-net-macosx.1.0.0/opam |  24 [32m++[m
- .../mirage-net-macosx/mirage-net-macosx.1.0.0/url  |   2 [32m+[m
- packages/mirage-net-xen/mirage-net-xen.1.2.0/descr |   8 [32m+[m
- packages/mirage-net-xen/mirage-net-xen.1.2.0/opam  |  21 [32m+[m
- packages/mirage-net-xen/mirage-net-xen.1.2.0/url   |   2 [32m+[m
- packages/mirage-profile/mirage-profile.0.3/descr   |   6 [32m+[m
- packages/mirage-profile/mirage-profile.0.3/opam    |  28 [32m++[m
- packages/mirage-profile/mirage-profile.0.3/url     |   2 [32m+[m
- packages/mirage-profile/mirage-profile.0.4/descr   |   6 [32m+[m
- packages/mirage-profile/mirage-profile.0.4/opam    |  28 [32m++[m
- packages/mirage-profile/mirage-profile.0.4/url     |   2 [32m+[m
- packages/mirage-tc/mirage-tc.0.1.0/opam            |   2 [32m+[m[31m-[m
- packages/mirage-tc/mirage-tc.0.2.0/descr           |  35 [32m++[m
- packages/mirage-tc/mirage-tc.0.2.0/opam            |  25 [32m++[m
- packages/mirage-tc/mirage-tc.0.2.0/url             |   2 [32m+[m
- packages/mirage-tc/mirage-tc.0.2.1/descr           |  35 [32m++[m
- packages/mirage-tc/mirage-tc.0.2.1/opam            |  25 [32m++[m
- packages/mirage-tc/mirage-tc.0.2.1/url             |   2 [32m+[m
- packages/mirage-tc/mirage-tc.0.3.0/descr           |  35 [32m++[m
- packages/mirage-tc/mirage-tc.0.3.0/opam            |  24 [32m++[m
- packages/mirage-tc/mirage-tc.0.3.0/url             |   2 [32m+[m
- .../mirage-types-lwt/mirage-types-lwt.2.1.0/descr  |  14 [32m+[m
- .../mirage-types-lwt/mirage-types-lwt.2.1.0/opam   |  16 [32m+[m
- .../mirage-types-lwt/mirage-types-lwt.2.1.1/descr  |  14 [32m+[m
- .../mirage-types-lwt/mirage-types-lwt.2.1.1/opam   |  16 [32m+[m
- .../mirage-types-lwt/mirage-types-lwt.2.2.0/descr  |  14 [32m+[m
- .../mirage-types-lwt/mirage-types-lwt.2.2.0/opam   |  16 [32m+[m
- packages/mirage-types/mirage-types.2.1.0/descr     |   1 [32m+[m
- packages/mirage-types/mirage-types.2.1.0/opam      |  15 [32m+[m
- packages/mirage-types/mirage-types.2.1.0/url       |   2 [32m+[m
- packages/mirage-types/mirage-types.2.1.1/descr     |   1 [32m+[m
- packages/mirage-types/mirage-types.2.1.1/opam      |  15 [32m+[m
- packages/mirage-types/mirage-types.2.1.1/url       |   2 [32m+[m
- packages/mirage-types/mirage-types.2.2.0/descr     |   1 [32m+[m
- packages/mirage-types/mirage-types.2.2.0/opam      |  15 [32m+[m
- packages/mirage-types/mirage-types.2.2.0/url       |   2 [32m+[m
- packages/mirage-unix/mirage-unix.2.0.1/descr       |   1 [32m+[m
- packages/mirage-unix/mirage-unix.2.0.1/findlib     |   1 [32m+[m
- packages/mirage-unix/mirage-unix.2.0.1/opam        |  18 [32m+[m
- packages/mirage-unix/mirage-unix.2.0.1/url         |   2 [32m+[m
- packages/mirage-unix/mirage-unix.2.1.0/descr       |   1 [32m+[m
- packages/mirage-unix/mirage-unix.2.1.0/findlib     |   1 [32m+[m
- packages/mirage-unix/mirage-unix.2.1.0/opam        |  19 [32m+[m
- packages/mirage-unix/mirage-unix.2.1.0/url         |   2 [32m+[m
- packages/mirage-unix/mirage-unix.2.1.1/descr       |   1 [32m+[m
- packages/mirage-unix/mirage-unix.2.1.1/findlib     |   1 [32m+[m
- packages/mirage-unix/mirage-unix.2.1.1/opam        |  19 [32m+[m
- packages/mirage-unix/mirage-unix.2.1.1/url         |   2 [32m+[m
- packages/mirage-unix/mirage-unix.2.1.2/descr       |   1 [32m+[m
- packages/mirage-unix/mirage-unix.2.1.2/findlib     |   1 [32m+[m
- packages/mirage-unix/mirage-unix.2.1.2/opam        |  19 [32m+[m
- packages/mirage-unix/mirage-unix.2.1.2/url         |   2 [32m+[m
- .../mirage-xen-minios.0.5.0/descr                  |   4 [32m+[m
- .../mirage-xen-minios/mirage-xen-minios.0.5.0/opam |  10 [32m+[m
- .../mirage-xen-minios/mirage-xen-minios.0.5.0/url  |   2 [32m+[m
- .../mirage-xen-minios.0.6.0/descr                  |   4 [32m+[m
- .../mirage-xen-minios/mirage-xen-minios.0.6.0/opam |  10 [32m+[m
- .../mirage-xen-minios/mirage-xen-minios.0.6.0/url  |   2 [32m+[m
- packages/mirage-xen/mirage-xen.2.0.1/descr         |   1 [32m+[m
- packages/mirage-xen/mirage-xen.2.0.1/opam          |  22 [32m++[m
- packages/mirage-xen/mirage-xen.2.0.1/url           |   2 [32m+[m
- packages/mirage-xen/mirage-xen.2.1.0/descr         |   1 [32m+[m
- packages/mirage-xen/mirage-xen.2.1.0/opam          |  23 [32m++[m
- packages/mirage-xen/mirage-xen.2.1.0/url           |   2 [32m+[m
- packages/mirage-xen/mirage-xen.2.1.1/descr         |   1 [32m+[m
- packages/mirage-xen/mirage-xen.2.1.1/opam          |  23 [32m++[m
- packages/mirage-xen/mirage-xen.2.1.1/url           |   2 [32m+[m
- packages/mirage-xen/mirage-xen.2.1.2/descr         |   1 [32m+[m
- packages/mirage-xen/mirage-xen.2.1.2/opam          |  23 [32m++[m
- packages/mirage-xen/mirage-xen.2.1.2/url           |   2 [32m+[m
- packages/mirage/mirage.2.1.0/descr                 |  10 [32m+[m
- packages/mirage/mirage.2.1.0/opam                  |  36 [32m++[m
- packages/mirage/mirage.2.1.0/url                   |   2 [32m+[m
- packages/mirage/mirage.2.1.1/descr                 |  10 [32m+[m
- packages/mirage/mirage.2.1.1/opam                  |  36 [32m++[m
- packages/mirage/mirage.2.1.1/url                   |   2 [32m+[m
- packages/mirage/mirage.2.2.0/descr                 |  10 [32m+[m
- packages/mirage/mirage.2.2.0/opam                  |  36 [32m++[m
- packages/mirage/mirage.2.2.0/url                   |   2 [32m+[m
- packages/mpi/mpi.1.01/opam                         |   2 [32m+[m[31m-[m
- packages/mqtt/mqtt.0.0.1/descr                     |   1 [32m+[m
- packages/mqtt/mqtt.0.0.1/opam                      |  18 [32m+[m
- packages/mqtt/mqtt.0.0.1/url                       |   2 [32m+[m
- packages/mstruct/mstruct.1.0.0/opam                |   2 [32m+[m[31m-[m
- packages/mstruct/mstruct.1.1.0/opam                |   2 [32m+[m[31m-[m
- packages/mstruct/mstruct.1.2.0/opam                |   2 [32m+[m[31m-[m
- packages/mstruct/mstruct.1.3.0/opam                |   2 [32m+[m[31m-[m
- packages/mstruct/mstruct.1.3.1/opam                |   2 [32m+[m[31m-[m
- packages/mstruct/mstruct.1.3.2/descr               |  11 [32m+[m
- packages/mstruct/mstruct.1.3.2/opam                |  17 [32m+[m
- packages/mstruct/mstruct.1.3.2/url                 |   2 [32m+[m
- packages/mustache/mustache.0.0.1/opam              |   2 [32m+[m[31m-[m
- packages/mustache/mustache.0.0.2/opam              |   2 [32m+[m[31m-[m
- packages/mustache/mustache.1.0.0/opam              |   2 [32m+[m[31m-[m
- packages/nocrypto/nocrypto.0.2.0/opam              |   3 [32m+[m[31m-[m
- packages/nocrypto/nocrypto.0.2.2/opam              |   3 [32m+[m[31m-[m
- packages/nocrypto/nocrypto.0.3.0/descr             |   6 [32m+[m
- packages/nocrypto/nocrypto.0.3.0/findlib           |   1 [32m+[m
- packages/nocrypto/nocrypto.0.3.0/opam              |  27 [32m++[m
- packages/nocrypto/nocrypto.0.3.0/url               |   2 [32m+[m
- packages/ocaml_plugin/ocaml_plugin.112.06.00/descr |   1 [32m+[m
- .../ocaml_plugin/ocaml_plugin.112.06.00/findlib    |   1 [32m+[m
- packages/ocaml_plugin/ocaml_plugin.112.06.00/opam  |  17 [32m+[m
- packages/ocaml_plugin/ocaml_plugin.112.06.00/url   |   2 [32m+[m
- packages/ocamldsort/ocamldsort.0.15.0/url          |   2 [32m+[m[31m-[m
- packages/ocamldsort/ocamldsort.0.16.0/url          |   2 [32m+[m[31m-[m
- packages/ocamleditor/ocamleditor.1.13.2/descr      |   3 [32m+[m
- packages/ocamleditor/ocamleditor.1.13.2/opam       |  18 [32m+[m
- packages/ocamleditor/ocamleditor.1.13.2/url        |   2 [32m+[m
- packages/ocamlscript/ocamlscript.2.0.4/descr       |   1 [32m+[m
- .../ocamlscript.2.0.4/files/ocamlscript.install    |   1 [32m+[m
- packages/ocamlscript/ocamlscript.2.0.4/findlib     |   1 [32m+[m
- packages/ocamlscript/ocamlscript.2.0.4/opam        |   8 [32m+[m
- packages/ocamlscript/ocamlscript.2.0.4/url         |   2 [32m+[m
- packages/ocapic/ocapic.3.0/opam                    |   1 [32m+[m
- packages/ocp-index/ocp-index.1.1.1/descr           |   7 [32m+[m
- .../ocp-index.1.1.1/files/ocaml.4.02.patch         | 440 [32m+++++++++++++++++++++[m
- packages/ocp-index/ocp-index.1.1.1/opam            |  32 [32m++[m
- packages/ocp-index/ocp-index.1.1.1/url             |   2 [32m+[m
- packages/ocplib-endian/ocplib-endian.0.8/descr     |   6 [32m+[m
- packages/ocplib-endian/ocplib-endian.0.8/opam      |  19 [32m+[m
- packages/ocplib-endian/ocplib-endian.0.8/url       |   2 [32m+[m
- packages/omd/omd.1.2.3/descr                       |   7 [32m+[m
- packages/omd/omd.1.2.3/files/omd.install           |   4 [32m+[m
- packages/omd/omd.1.2.3/opam                        |  21 [32m+[m
- packages/omd/omd.1.2.3/url                         |   2 [32m+[m
- packages/omd/omd.1.2.4/descr                       |   7 [32m+[m
- packages/omd/omd.1.2.4/files/omd.install           |   4 [32m+[m
- packages/omd/omd.1.2.4/opam                        |  21 [32m+[m
- packages/omd/omd.1.2.4/url                         |   2 [32m+[m
- packages/oni/oni.1.0.11/descr                      |   1 [32m+[m
- packages/oni/oni.1.0.11/findlib                    |   1 [32m+[m
- packages/oni/oni.1.0.11/opam                       |  12 [32m+[m
- packages/oni/oni.1.0.11/url                        |   2 [32m+[m
- .../opam-installext/opam-installext.1.0.0/descr    |  19 [32m+[m
- .../opam-installext/opam-installext.1.0.0/opam     |  10 [32m+[m
- packages/opam-installext/opam-installext.1.0.0/url |   2 [32m+[m
- .../opam-installext/opam-installext.1.0.1/descr    |  19 [32m+[m
- .../opam-installext/opam-installext.1.0.1/opam     |  10 [32m+[m
- packages/opam-installext/opam-installext.1.0.1/url |   2 [32m+[m
- .../opam-lib/opam-lib.1.2.0/files/fix-wait.diff    |  19 [32m+[m
- packages/opam-lib/opam-lib.1.2.0/opam              |   1 [32m+[m
- packages/opam-publish/opam-publish.0.2.1/descr     |   4 [32m+[m
- packages/opam-publish/opam-publish.0.2.1/opam      |  14 [32m+[m
- packages/opam-publish/opam-publish.0.2.1/url       |   2 [32m+[m
- packages/opam-query/opam-query.1.2/descr           |   4 [32m+[m
- packages/opam-query/opam-query.1.2/opam            |  16 [32m+[m
- packages/opam-query/opam-query.1.2/url             |   2 [32m+[m
- packages/openflow/openflow.0.7.0/descr             |   5 [32m+[m
- packages/openflow/openflow.0.7.0/findlib           |   1 [32m+[m
- packages/openflow/openflow.0.7.0/opam              |  22 [32m++[m
- packages/openflow/openflow.0.7.0/url               |   2 [32m+[m
- packages/opium/opium.0.11.0/descr                  |  11 [32m+[m
- packages/opium/opium.0.11.0/findlib                |   2 [32m+[m
- packages/opium/opium.0.11.0/opam                   |  29 [32m++[m
- packages/opium/opium.0.11.0/url                    |   2 [32m+[m
- packages/opium/opium.0.12.0/descr                  |  11 [32m+[m
- packages/opium/opium.0.12.0/opam                   |  47 [32m+++[m
- packages/opium/opium.0.12.0/url                    |   2 [32m+[m
- packages/pa_bench/pa_bench.112.06.00/descr         |   3 [32m+[m
- packages/pa_bench/pa_bench.112.06.00/findlib       |   1 [32m+[m
- packages/pa_bench/pa_bench.112.06.00/opam          |  12 [32m+[m
- packages/pa_bench/pa_bench.112.06.00/url           |   2 [32m+[m
- packages/pa_test/pa_test.111.08.00/opam            |   4 [32m+[m[31m-[m
- packages/pa_test/pa_test.111.08.01/descr           |   4 [32m+[m
- packages/pa_test/pa_test.111.08.01/findlib         |   1 [32m+[m
- packages/pa_test/pa_test.111.08.01/opam            |  13 [32m+[m
- packages/pa_test/pa_test.111.08.01/url             |   2 [32m+[m
- packages/patdiff/patdiff.112.06.00/descr           |   1 [32m+[m
- packages/patdiff/patdiff.112.06.00/opam            |  11 [32m+[m
- packages/patdiff/patdiff.112.06.00/url             |   2 [32m+[m
- .../patience_diff/patience_diff.111.28.00/opam     |   8 [32m+[m[31m-[m
- packages/pcre/pcre.7.1.3/descr                     |   4 [32m+[m
- packages/pcre/pcre.7.1.3/findlib                   |   1 [32m+[m
- packages/pcre/pcre.7.1.3/opam                      |  28 [32m++[m
- packages/pcre/pcre.7.1.3/url                       |   2 [32m+[m
- packages/pcre/pcre.7.1.5/descr                     |   4 [32m+[m
- packages/pcre/pcre.7.1.5/findlib                   |   1 [32m+[m
- packages/pcre/pcre.7.1.5/opam                      |  24 [32m++[m
- packages/pcre/pcre.7.1.5/url                       |   2 [32m+[m
- packages/piqilib/piqilib.0.6.10/descr              |   1 [32m+[m
- packages/piqilib/piqilib.0.6.10/findlib            |   1 [32m+[m
- packages/piqilib/piqilib.0.6.10/opam               |  21 [32m+[m
- packages/piqilib/piqilib.0.6.10/url                |   2 [32m+[m
- packages/piqilib/piqilib.0.6.8/opam                |   2 [32m+[m[31m-[m
- packages/piqilib/piqilib.0.6.9/opam                |   2 [32m+[m[31m-[m
- packages/plasma/plasma.0.6.1/opam                  |   5 [32m+[m
- packages/plasma/plasma.0.6.2/opam                  |   5 [32m+[m
- packages/ppx_deriving/ppx_deriving.1.1/descr       |   5 [32m+[m
- packages/ppx_deriving/ppx_deriving.1.1/opam        |  19 [32m+[m
- packages/ppx_deriving/ppx_deriving.1.1/url         |   2 [32m+[m
- .../ppx_deriving_yojson.2.1/descr                  |   4 [32m+[m
- .../ppx_deriving_yojson.2.1/opam                   |  22 [32m++[m
- .../ppx_deriving_yojson.2.1/url                    |   2 [32m+[m
- packages/ppx_include/ppx_include.1.0/descr         |   4 [32m+[m
- packages/ppx_include/ppx_include.1.0/opam          |  13 [32m+[m
- packages/ppx_include/ppx_include.1.0/url           |   2 [32m+[m
- packages/ppx_monad/ppx_monad.0.0.1/descr           |   1 [32m+[m
- packages/ppx_monad/ppx_monad.0.0.1/opam            |  15 [32m+[m
- packages/ppx_monad/ppx_monad.0.0.1/url             |   2 [32m+[m
- packages/ppx_tools/ppx_tools.0.99.1/opam           |   2 [32m+[m[31m-[m
- packages/ppx_tools/ppx_tools.0.99.2/opam           |   2 [32m+[m[31m-[m
- packages/prob-cache/prob-cache.1.0.0/descr         |   5 [32m+[m
- packages/prob-cache/prob-cache.1.0.0/opam          |  33 [32m++[m
- packages/prob-cache/prob-cache.1.0.0/url           |   2 [32m+[m
- packages/ranger/ranger.0.1.0/descr                 |   7 [32m+[m
- packages/ranger/ranger.0.1.0/opam                  |  26 [32m++[m
- packages/ranger/ranger.0.1.0/url                   |   2 [32m+[m
- packages/re2/re2.112.06.00/descr                   |   1 [32m+[m
- packages/re2/re2.112.06.00/findlib                 |   1 [32m+[m
- packages/re2/re2.112.06.00/opam                    |  14 [32m+[m
- packages/re2/re2.112.06.00/url                     |   2 [32m+[m
- packages/res/res.4.0.7/descr                       |   2 [32m+[m
- packages/res/res.4.0.7/findlib                     |   1 [32m+[m
- packages/res/res.4.0.7/opam                        |  22 [32m++[m
- packages/res/res.4.0.7/url                         |   2 [32m+[m
- packages/riakc_ppx/riakc_ppx.3.1.0/descr           |   1 [32m+[m
- packages/riakc_ppx/riakc_ppx.3.1.0/findlib         |   1 [32m+[m
- packages/riakc_ppx/riakc_ppx.3.1.0/opam            |  25 [32m++[m
- packages/riakc_ppx/riakc_ppx.3.1.0/url             |   2 [32m+[m
- packages/riakc_ppx/riakc_ppx.3.1.1/descr           |   1 [32m+[m
- packages/riakc_ppx/riakc_ppx.3.1.1/findlib         |   1 [32m+[m
- packages/riakc_ppx/riakc_ppx.3.1.1/opam            |  25 [32m++[m
- packages/riakc_ppx/riakc_ppx.3.1.1/url             |   2 [32m+[m
- packages/riakc_ppx/riakc_ppx.3.1.2/descr           |   1 [32m+[m
- packages/riakc_ppx/riakc_ppx.3.1.2/findlib         |   1 [32m+[m
- packages/riakc_ppx/riakc_ppx.3.1.2/opam            |  25 [32m++[m
- packages/riakc_ppx/riakc_ppx.3.1.2/url             |   2 [32m+[m
- packages/rpc_parallel/rpc_parallel.112.01.00/opam  |   6 [32m+[m[31m-[m
- packages/safa/safa.1.3/descr                       |  11 [32m+[m
- packages/safa/safa.1.3/opam                        |  13 [32m+[m
- packages/safa/safa.1.3/url                         |   2 [32m+[m
- packages/satML-plugin/satML-plugin.0.99.1/descr    |   1 [32m+[m
- packages/satML-plugin/satML-plugin.0.99.1/opam     |  14 [32m+[m
- packages/satML-plugin/satML-plugin.0.99.1/url      |   2 [32m+[m
- packages/sexplib/sexplib.111.25.00/opam            |   9 [32m+[m[31m-[m
- packages/sexplib/sexplib.112.01.00/opam            |   9 [32m+[m[31m-[m
- packages/sexplib/sexplib.112.06.00/descr           |   5 [32m+[m
- packages/sexplib/sexplib.112.06.00/findlib         |   3 [32m+[m
- packages/sexplib/sexplib.112.06.00/opam            |  19 [32m+[m
- packages/sexplib/sexplib.112.06.00/url             |   2 [32m+[m
- packages/slacko/slacko.0.11.0/descr                |   5 [32m+[m
- packages/slacko/slacko.0.11.0/opam                 |  21 [32m+[m
- packages/slacko/slacko.0.11.0/url                  |   2 [32m+[m
- packages/slacko/slacko.0.12.0/descr                |   5 [32m+[m
- packages/slacko/slacko.0.12.0/opam                 |  21 [32m+[m
- packages/slacko/slacko.0.12.0/url                  |   2 [32m+[m
- packages/slap/slap.0.2.2/descr                     |   7 [32m+[m
- packages/slap/slap.0.2.2/opam                      |  24 [32m++[m
- packages/slap/slap.0.2.2/url                       |   2 [32m+[m
- packages/spatial_index/spatial_index.0.0.2/descr   |   1 [32m+[m
- packages/spatial_index/spatial_index.0.0.2/opam    |  17 [32m+[m
- packages/spatial_index/spatial_index.0.0.2/url     |   2 [32m+[m
- packages/stemmer/stemmer.0.2/descr                 |   4 [32m+[m
- packages/stemmer/stemmer.0.2/opam                  |  14 [32m+[m
- packages/stemmer/stemmer.0.2/url                   |   2 [32m+[m
- packages/stog-rdf/stog-rdf.0.11.0/opam             |   2 [32m+[m[31m-[m
- packages/stog-writing/stog-writing.0.13.0/opam     |   2 [32m+[m[31m-[m
- packages/stone/stone.0.3.3/descr                   |   2 [32m+[m
- packages/stone/stone.0.3.3/opam                    |  11 [32m+[m
- packages/stone/stone.0.3.3/url                     |   2 [32m+[m
- packages/stringext/stringext.1.1.0/descr           |   1 [32m+[m
- packages/stringext/stringext.1.1.0/findlib         |   1 [32m+[m
- packages/stringext/stringext.1.1.0/opam            |  14 [32m+[m
- packages/stringext/stringext.1.1.0/url             |   2 [32m+[m
- packages/stringext/stringext.1.2.0/descr           |   5 [32m+[m
- packages/stringext/stringext.1.2.0/opam            |  24 [32m++[m
- packages/stringext/stringext.1.2.0/url             |   2 [32m+[m
- packages/sundialsml/sundialsml.2.5.0p0/descr       |  31 [32m++[m
- packages/sundialsml/sundialsml.2.5.0p0/findlib     |   1 [32m+[m
- packages/sundialsml/sundialsml.2.5.0p0/opam        |  43 [32m++[m
- packages/sundialsml/sundialsml.2.5.0p0/url         |   2 [32m+[m
- packages/sundialsml/sundialsml.2.5.0p1/descr       |  31 [32m++[m
- packages/sundialsml/sundialsml.2.5.0p1/findlib     |   1 [32m+[m
- packages/sundialsml/sundialsml.2.5.0p1/opam        |  43 [32m++[m
- packages/sundialsml/sundialsml.2.5.0p1/url         |   2 [32m+[m
- packages/sundialsml/sundialsml.2.5.0p2/descr       |  31 [32m++[m
- packages/sundialsml/sundialsml.2.5.0p2/findlib     |   1 [32m+[m
- packages/sundialsml/sundialsml.2.5.0p2/opam        |  43 [32m++[m
- packages/sundialsml/sundialsml.2.5.0p2/url         |   2 [32m+[m
- packages/symkat/symkat.1.3/descr                   |  12 [32m+[m
- packages/symkat/symkat.1.3/opam                    |  12 [32m+[m
- packages/symkat/symkat.1.3/url                     |   2 [32m+[m
- packages/tcpip/tcpip.2.0.2/descr                   |   1 [32m+[m
- packages/tcpip/tcpip.2.0.2/opam                    |  20 [32m+[m
- packages/tcpip/tcpip.2.0.2/url                     |   2 [32m+[m
- packages/tcpip/tcpip.2.0.3/descr                   |   1 [32m+[m
- packages/tcpip/tcpip.2.0.3/opam                    |  20 [32m+[m
- packages/tcpip/tcpip.2.0.3/url                     |   2 [32m+[m
- packages/tcpip/tcpip.2.1.0/descr                   |   1 [32m+[m
- packages/tcpip/tcpip.2.1.0/opam                    |  35 [32m++[m
- packages/tcpip/tcpip.2.1.0/url                     |   2 [32m+[m
- packages/tcpip/tcpip.2.2.0/descr                   |   1 [32m+[m
- packages/tcpip/tcpip.2.2.0/opam                    |  36 [32m++[m
- packages/tcpip/tcpip.2.2.0/url                     |   2 [32m+[m
- packages/tcpip/tcpip.2.2.1/descr                   |   1 [32m+[m
- packages/tcpip/tcpip.2.2.1/opam                    |  36 [32m++[m
- packages/tcpip/tcpip.2.2.1/url                     |   2 [32m+[m
- packages/tdk/tdk.0.1.0/descr                       |   4 [32m+[m[31m-[m
- packages/tdk/tdk.0.1.0/opam                        |   2 [32m+[m[31m-[m
- packages/tdk/tdk.0.1.1/descr                       |   6 [32m+[m
- packages/tdk/tdk.0.1.1/findlib                     |   1 [32m+[m
- packages/tdk/tdk.0.1.1/opam                        |  13 [32m+[m
- packages/tdk/tdk.0.1.1/url                         |   2 [32m+[m
- packages/text/text.0.8.0/descr                     |   1 [32m+[m
- packages/text/text.0.8.0/findlib                   |   1 [32m+[m
- packages/text/text.0.8.0/opam                      |  10 [32m+[m
- packages/text/text.0.8.0/url                       |   2 [32m+[m
- packages/textutils/textutils.112.06.00/descr       |   1 [32m+[m
- packages/textutils/textutils.112.06.00/findlib     |   1 [32m+[m
- packages/textutils/textutils.112.06.00/opam        |  12 [32m+[m
- packages/textutils/textutils.112.06.00/url         |   2 [32m+[m
- packages/tls/tls.0.1.0/opam                        |   1 [32m+[m
- packages/tls/tls.0.2.0/opam                        |   3 [32m+[m[31m-[m
- packages/tls/tls.0.3.0/descr                       |   4 [32m+[m
- packages/tls/tls.0.3.0/findlib                     |   1 [32m+[m
- packages/tls/tls.0.3.0/opam                        |  32 [32m++[m
- packages/tls/tls.0.3.0/url                         |   2 [32m+[m
- packages/toml/toml.2.0.0/descr                     |   4 [32m+[m
- packages/toml/toml.2.0.0/findlib                   |   1 [32m+[m
- packages/toml/toml.2.0.0/opam                      |  14 [32m+[m
- packages/toml/toml.2.0.0/url                       |   2 [32m+[m
- packages/toml/toml.2.1.0/descr                     |   4 [32m+[m
- packages/toml/toml.2.1.0/findlib                   |   1 [32m+[m
- packages/toml/toml.2.1.0/opam                      |  14 [32m+[m
- packages/toml/toml.2.1.0/url                       |   2 [32m+[m
- packages/tophide/tophide.1.0.3/descr               |   3 [32m+[m
- packages/tophide/tophide.1.0.3/findlib             |   1 [32m+[m
- packages/tophide/tophide.1.0.3/opam                |  10 [32m+[m
- packages/tophide/tophide.1.0.3/url                 |   2 [32m+[m
- packages/type_conv/type_conv.112.01.00/opam        |   6 [32m+[m[31m-[m
- packages/typerep/typerep.112.06.00/descr           |   1 [32m+[m
- packages/typerep/typerep.112.06.00/findlib         |   3 [32m+[m
- packages/typerep/typerep.112.06.00/opam            |  20 [32m+[m
- packages/typerep/typerep.112.06.00/url             |   2 [32m+[m
- packages/tyxml/tyxml.3.4.0/descr                   |   6 [32m+[m
- packages/tyxml/tyxml.3.4.0/opam                    |  26 [32m++[m
- packages/tyxml/tyxml.3.4.0/url                     |   2 [32m+[m
- packages/uri/uri.1.1/opam                          |   1 [32m+[m
- packages/utop/utop.1.16/opam                       |   2 [32m+[m[31m-[m
- packages/utop/utop.1.17/descr                      |   6 [32m+[m
- packages/utop/utop.1.17/files/utop.install         |   6 [32m+[m
- packages/utop/utop.1.17/findlib                    |   1 [32m+[m
- packages/utop/utop.1.17/opam                       |  33 [32m++[m
- packages/utop/utop.1.17/url                        |   2 [32m+[m
- packages/uucp/uucp.0.9.1/descr                     |  11 [32m+[m
- packages/uucp/uucp.0.9.1/opam                      |  17 [32m+[m
- packages/uucp/uucp.0.9.1/url                       |   2 [32m+[m
- packages/uuseg/uuseg.0.8.0/descr                   |  19 [32m+[m
- packages/uuseg/uuseg.0.8.0/opam                    |  24 [32m++[m
- packages/uuseg/uuseg.0.8.0/url                     |   2 [32m+[m
- packages/vector3/vector3.0.2/opam                  |   2 [32m+[m[31m-[m
- packages/vmnet/vmnet.1.0.0/descr                   |  30 [32m++[m
- packages/vmnet/vmnet.1.0.0/opam                    |  22 [32m++[m
- packages/vmnet/vmnet.1.0.0/url                     |   2 [32m+[m
- packages/vmnet/vmnet.1.0.1/descr                   |  30 [32m++[m
- packages/vmnet/vmnet.1.0.1/opam                    |  22 [32m++[m
- packages/vmnet/vmnet.1.0.1/url                     |   2 [32m+[m
- packages/websocket/websocket.0.9/descr             |   1 [32m+[m
- .../websocket.0.9/files/websocket.install          |  12 [32m+[m
- packages/websocket/websocket.0.9/findlib           |   1 [32m+[m
- packages/websocket/websocket.0.9/opam              |  18 [32m+[m
- packages/websocket/websocket.0.9/url               |   2 [32m+[m
- packages/x509/x509.0.1.0/opam                      |   1 [32m+[m
- packages/x509/x509.0.2.0/opam                      |   1 [32m+[m
- packages/x509/x509.0.2.1/descr                     |   4 [32m+[m
- packages/x509/x509.0.2.1/findlib                   |   1 [32m+[m
- packages/x509/x509.0.2.1/opam                      |  27 [32m++[m
- packages/x509/x509.0.2.1/url                       |   2 [32m+[m
- packages/xe/xe.0.6.0/opam                          |   2 [32m+[m[31m-[m
- packages/xe/xe.0.6.2/opam                          |   2 [32m+[m[31m-[m
- packages/xe/xe.0.6.3/descr                         |   4 [32m+[m
- packages/xe/xe.0.6.3/opam                          |  23 [32m++[m
- packages/xe/xe.0.6.3/url                           |   2 [32m+[m
- packages/xen-gnt/xen-gnt.2.1.0/descr               |   5 [32m+[m
- packages/xen-gnt/xen-gnt.2.1.0/opam                |  25 [32m++[m
- packages/xen-gnt/xen-gnt.2.1.0/url                 |   2 [32m+[m
- packages/xentropyd/xentropyd.0.9.1/descr           |   8 [32m+[m
- packages/xentropyd/xentropyd.0.9.1/opam            |  31 [32m++[m
- packages/xentropyd/xentropyd.0.9.1/url             |   2 [32m+[m
- packages/yojson/yojson.1.2.0/descr                 |   9 [32m+[m
- packages/yojson/yojson.1.2.0/files/yojson.install  |   1 [32m+[m
- packages/yojson/yojson.1.2.0/findlib               |   1 [32m+[m
- packages/yojson/yojson.1.2.0/opam                  |  13 [32m+[m
- packages/yojson/yojson.1.2.0/url                   |   2 [32m+[m
- packages/zenon/zenon.0.7.1/findlib                 |   0
- packages/zenon/zenon.0.7.1/url                     |   4 [32m+[m[31m-[m
- 786 files changed, 6488 insertions(+), 283 deletions(-)
- create mode 100644 compilers/4.02.1/4.02.1+musl+static/4.02.1+musl+static.comp
- create mode 100644 compilers/4.02.1/4.02.1+musl+static/4.02.1+musl+static.descr
- create mode 100644 compilers/4.02.1/4.02.1+musl/4.02.1+musl.comp
- create mode 100644 compilers/4.02.1/4.02.1+musl/4.02.1+musl.descr
- delete mode 100644 compilers/4.03.0/4.03.0+pr103/4.03.0+pr103.descr
- delete mode 100644 compilers/4.03.0/4.03.0+pr110/4.03.0+pr110.comp
- delete mode 100644 compilers/4.03.0/4.03.0+pr110/4.03.0+pr110.descr
- delete mode 100644 compilers/4.03.0/4.03.0+pr113/4.03.0+pr113.descr
- rename compilers/4.03.0/{4.03.0+pr113/4.03.0+pr113.comp => 4.03.0+pr119/4.03.0+pr119.comp} (77%)
- create mode 100644 compilers/4.03.0/4.03.0+pr119/4.03.0+pr119.descr
- create mode 100644 compilers/4.03.0/4.03.0+pr120/4.03.0+pr120.comp
- create mode 100644 compilers/4.03.0/4.03.0+pr120/4.03.0+pr120.descr
- create mode 100644 compilers/4.03.0/4.03.0+pr122/4.03.0+pr122.comp
- create mode 100644 compilers/4.03.0/4.03.0+pr122/4.03.0+pr122.descr
- rename compilers/4.03.0/{4.03.0+pr84/4.03.0+pr84.comp => 4.03.0+pr125/4.03.0+pr125.comp} (79%)
- create mode 100644 compilers/4.03.0/4.03.0+pr125/4.03.0+pr125.descr
- rename compilers/4.03.0/{4.03.0+pr73/4.03.0+pr73.comp => 4.03.0+pr126/4.03.0+pr126.comp} (80%)
- create mode 100644 compilers/4.03.0/4.03.0+pr126/4.03.0+pr126.descr
- rename compilers/4.03.0/{4.03.0+pr69/4.03.0+pr69.comp => 4.03.0+pr129/4.03.0+pr129.comp} (77%)
- create mode 100644 compilers/4.03.0/4.03.0+pr129/4.03.0+pr129.descr
- create mode 100644 compilers/4.03.0/4.03.0+pr132/4.03.0+pr132.comp
- create mode 100644 compilers/4.03.0/4.03.0+pr132/4.03.0+pr132.descr
- rename compilers/4.03.0/{4.03.0+pr79/4.03.0+pr79.comp => 4.03.0+pr43/4.03.0+pr43.comp} (81%)
- create mode 100644 compilers/4.03.0/4.03.0+pr43/4.03.0+pr43.descr
- rename compilers/4.03.0/{4.03.0+pr103/4.03.0+pr103.comp => 4.03.0+pr46/4.03.0+pr46.comp} (82%)
- create mode 100644 compilers/4.03.0/4.03.0+pr46/4.03.0+pr46.descr
- rename compilers/4.03.0/{4.03.0+pr94/4.03.0+pr94.comp => 4.03.0+pr51/4.03.0+pr51.comp} (80%)
- create mode 100644 compilers/4.03.0/4.03.0+pr51/4.03.0+pr51.descr
- rename compilers/4.03.0/{4.03.0+pr93/4.03.0+pr93.comp => 4.03.0+pr63/4.03.0+pr63.comp} (81%)
- create mode 100644 compilers/4.03.0/4.03.0+pr63/4.03.0+pr63.descr
- delete mode 100644 compilers/4.03.0/4.03.0+pr69/4.03.0+pr69.descr
- delete mode 100644 compilers/4.03.0/4.03.0+pr73/4.03.0+pr73.descr
- delete mode 100644 compilers/4.03.0/4.03.0+pr79/4.03.0+pr79.descr
- delete mode 100644 compilers/4.03.0/4.03.0+pr84/4.03.0+pr84.descr
- delete mode 100644 compilers/4.03.0/4.03.0+pr93/4.03.0+pr93.descr
- delete mode 100644 compilers/4.03.0/4.03.0+pr94/4.03.0+pr94.descr
- delete mode 100644 compilers/4.03.0/4.03.0+pr95/4.03.0+pr95.comp
- delete mode 100644 compilers/4.03.0/4.03.0+pr95/4.03.0+pr95.descr
- delete mode 100644 compilers/4.03.0/4.03.0+pr96/4.03.0+pr96.comp
- delete mode 100644 compilers/4.03.0/4.03.0+pr96/4.03.0+pr96.descr
- create mode 100644 packages/0install/0install.2.8/descr
- create mode 100644 packages/0install/0install.2.8/files/0install.install
- create mode 100644 packages/0install/0install.2.8/files/gui_gtk_dir.patch
- create mode 100644 packages/0install/0install.2.8/opam
- create mode 100644 packages/0install/0install.2.8/url
- create mode 100644 packages/KaSim/KaSim.3.5.141112/descr
- create mode 100644 packages/KaSim/KaSim.3.5.141112/opam
- create mode 100644 packages/KaSim/KaSim.3.5.141112/url
- create mode 100644 packages/ago/ago.0.1/descr
- create mode 100644 packages/ago/ago.0.1/opam
- create mode 100644 packages/ago/ago.0.1/url
- create mode 100644 packages/alberto/alberto.0.3/descr
- create mode 100644 packages/alberto/alberto.0.3/opam
- create mode 100644 packages/alberto/alberto.0.3/url
- create mode 100644 packages/alt-ergo/alt-ergo.0.99.1/descr
- create mode 100644 packages/alt-ergo/alt-ergo.0.99.1/files/alt-ergo.install
- create mode 100644 packages/alt-ergo/alt-ergo.0.99.1/opam
- create mode 100644 packages/alt-ergo/alt-ergo.0.99.1/url
- create mode 100644 packages/altgr-ergo/altgr-ergo.0.99.1/descr
- create mode 100644 packages/altgr-ergo/altgr-ergo.0.99.1/files/altgr-ergo.install
- create mode 100644 packages/altgr-ergo/altgr-ergo.0.99.1/opam
- create mode 100644 packages/altgr-ergo/altgr-ergo.0.99.1/url
- create mode 100644 packages/async/async.112.06.00/descr
- create mode 100644 packages/async/async.112.06.00/findlib
- create mode 100644 packages/async/async.112.06.00/opam
- create mode 100644 packages/async/async.112.06.00/url
- create mode 100644 packages/async_extended/async_extended.112.06.00/descr
- create mode 100644 packages/async_extended/async_extended.112.06.00/findlib
- create mode 100644 packages/async_extended/async_extended.112.06.00/opam
- create mode 100644 packages/async_extended/async_extended.112.06.00/url
- create mode 100644 packages/async_extra/async_extra.112.06.00/descr
- create mode 100644 packages/async_extra/async_extra.112.06.00/findlib
- create mode 100644 packages/async_extra/async_extra.112.06.00/opam
- create mode 100644 packages/async_extra/async_extra.112.06.00/url
- create mode 100644 packages/async_kernel/async_kernel.112.06.00/descr
- create mode 100644 packages/async_kernel/async_kernel.112.06.00/findlib
- create mode 100644 packages/async_kernel/async_kernel.112.06.00/opam
- create mode 100644 packages/async_kernel/async_kernel.112.06.00/url
- create mode 100644 packages/async_unix/async_unix.112.06.00/descr
- create mode 100644 packages/async_unix/async_unix.112.06.00/findlib
- create mode 100644 packages/async_unix/async_unix.112.06.00/opam
- create mode 100644 packages/async_unix/async_unix.112.06.00/url
- create mode 100644 packages/atd2cconv/atd2cconv.0.0.0/descr
- create mode 100644 packages/atd2cconv/atd2cconv.0.0.0/opam
- create mode 100644 packages/atd2cconv/atd2cconv.0.0.0/url
- create mode 100644 packages/atdgen/atdgen.1.5.0/descr
- create mode 100644 packages/atdgen/atdgen.1.5.0/files/atdgen.install
- create mode 100644 packages/atdgen/atdgen.1.5.0/findlib
- create mode 100644 packages/atdgen/atdgen.1.5.0/opam
- create mode 100644 packages/atdgen/atdgen.1.5.0/url
- create mode 100644 packages/base-metaocaml-ocamlfind/base-metaocaml-ocamlfind.base/descr
- create mode 100644 packages/base-metaocaml-ocamlfind/base-metaocaml-ocamlfind.base/files/metaocaml.conf
- create mode 100644 packages/base-metaocaml-ocamlfind/base-metaocaml-ocamlfind.base/opam
- create mode 100644 packages/base64/base64.1.1.0/descr
- create mode 100644 packages/base64/base64.1.1.0/findlib
- create mode 100644 packages/base64/base64.1.1.0/opam
- create mode 100644 packages/base64/base64.1.1.0/url
- create mode 100644 packages/base64/base64.2.0.0/descr
- create mode 100644 packages/base64/base64.2.0.0/findlib
- create mode 100644 packages/base64/base64.2.0.0/opam
- create mode 100644 packages/base64/base64.2.0.0/url
- create mode 100644 packages/benchmark/benchmark.1.4/descr
- create mode 100644 packages/benchmark/benchmark.1.4/findlib
- create mode 100644 packages/benchmark/benchmark.1.4/opam
- create mode 100644 packages/benchmark/benchmark.1.4/url
- create mode 100644 packages/bignum/bignum.112.06.00/descr
- create mode 100644 packages/bignum/bignum.112.06.00/findlib
- create mode 100644 packages/bignum/bignum.112.06.00/opam
- create mode 100644 packages/bignum/bignum.112.06.00/url
- create mode 100644 packages/bin_prot/bin_prot.112.06.00/descr
- create mode 100644 packages/bin_prot/bin_prot.112.06.00/findlib
- create mode 100644 packages/bin_prot/bin_prot.112.06.00/opam
- create mode 100644 packages/bin_prot/bin_prot.112.06.00/url
- create mode 100644 packages/bitstring/bitstring.2.0.4/files/fix_402.patch
- create mode 100644 packages/camlpdf/camlpdf.2.1.1/descr
- create mode 100644 packages/camlpdf/camlpdf.2.1.1/opam
- create mode 100644 packages/camlpdf/camlpdf.2.1.1/url
- create mode 100644 packages/camlprime/camlprime.0.5/descr
- create mode 100644 packages/camlprime/camlprime.0.5/opam
- create mode 100644 packages/camlprime/camlprime.0.5/url
- create mode 100644 packages/cconv/cconv.0.2/descr
- create mode 100644 packages/cconv/cconv.0.2/findlib
- create mode 100644 packages/cconv/cconv.0.2/opam
- create mode 100644 packages/cconv/cconv.0.2/url
- create mode 100644 packages/cmdliner/cmdliner.0.9.6/findlib
- create mode 100644 packages/cohttp/cohttp.0.13.0/descr
- create mode 100644 packages/cohttp/cohttp.0.13.0/opam
- create mode 100644 packages/cohttp/cohttp.0.13.0/url
- create mode 100644 packages/cohttp/cohttp.0.14.0/descr
- create mode 100644 packages/cohttp/cohttp.0.14.0/opam
- create mode 100644 packages/cohttp/cohttp.0.14.0/url
- create mode 100644 packages/cohttp/cohttp.0.15.0/descr
- create mode 100644 packages/cohttp/cohttp.0.15.0/opam
- create mode 100644 packages/cohttp/cohttp.0.15.0/url
- create mode 100644 packages/conduit/conduit.0.7.0/descr
- create mode 100644 packages/conduit/conduit.0.7.0/opam
- create mode 100644 packages/conduit/conduit.0.7.0/url
- create mode 100644 packages/conduit/conduit.0.7.1/descr
- create mode 100644 packages/conduit/conduit.0.7.1/opam
- create mode 100644 packages/conduit/conduit.0.7.1/url
- create mode 100644 packages/containers/containers.0.6.1/descr
- create mode 100644 packages/containers/containers.0.6.1/findlib
- create mode 100644 packages/containers/containers.0.6.1/opam
- create mode 100644 packages/containers/containers.0.6.1/url
- create mode 100644 packages/containers/containers.0.7/descr
- create mode 100644 packages/containers/containers.0.7/findlib
- create mode 100644 packages/containers/containers.0.7/opam
- create mode 100644 packages/containers/containers.0.7/url
- create mode 100644 packages/core/core.112.06.00/descr
- create mode 100644 packages/core/core.112.06.00/files/core.install
- create mode 100644 packages/core/core.112.06.00/findlib
- create mode 100644 packages/core/core.112.06.00/opam
- create mode 100644 packages/core/core.112.06.00/url
- create mode 100644 packages/core/core.112.06.01/descr
- create mode 100644 packages/core/core.112.06.01/files/core.install
- create mode 100644 packages/core/core.112.06.01/findlib
- create mode 100644 packages/core/core.112.06.01/opam
- create mode 100644 packages/core/core.112.06.01/url
- create mode 100644 packages/core_bench/core_bench.112.06.00/descr
- create mode 100644 packages/core_bench/core_bench.112.06.00/findlib
- create mode 100644 packages/core_bench/core_bench.112.06.00/opam
- create mode 100644 packages/core_bench/core_bench.112.06.00/url
- create mode 100644 packages/core_extended/core_extended.112.06.00/descr
- create mode 100644 packages/core_extended/core_extended.112.06.00/findlib
- create mode 100644 packages/core_extended/core_extended.112.06.00/opam
- create mode 100644 packages/core_extended/core_extended.112.06.00/url
- create mode 100644 packages/core_kernel/core_kernel.112.06.00/descr
- create mode 100644 packages/core_kernel/core_kernel.112.06.00/findlib
- create mode 100644 packages/core_kernel/core_kernel.112.06.00/opam
- create mode 100644 packages/core_kernel/core_kernel.112.06.00/url
- create mode 100644 packages/cow/cow.1.1.0/descr
- create mode 100644 packages/cow/cow.1.1.0/opam
- create mode 100644 packages/cow/cow.1.1.0/url
- create mode 100644 packages/cowabloga/cowabloga.0.0.9/descr
- create mode 100644 packages/cowabloga/cowabloga.0.0.9/opam
- create mode 100644 packages/cowabloga/cowabloga.0.0.9/url
- create mode 100644 packages/cpdf/cpdf.2.1.1/descr
- create mode 100644 packages/cpdf/cpdf.2.1.1/files/cpdf.install
- create mode 100644 packages/cpdf/cpdf.2.1.1/findlib
- create mode 100644 packages/cpdf/cpdf.2.1.1/opam
- create mode 100644 packages/cpdf/cpdf.2.1.1/url
- create mode 100644 packages/cryptokit/cryptokit.1.10/descr
- create mode 100644 packages/cryptokit/cryptokit.1.10/findlib
- create mode 100644 packages/cryptokit/cryptokit.1.10/opam
- create mode 100644 packages/cryptokit/cryptokit.1.10/url
- delete mode 100644 packages/ctypes/ctypes.0.3.1/opam
- delete mode 100644 packages/ctypes/ctypes.0.3.2/descr
- delete mode 100644 packages/ctypes/ctypes.0.3.2/findlib
- delete mode 100644 packages/ctypes/ctypes.0.3.2/url
- delete mode 100644 packages/ctypes/ctypes.0.3.3/descr
- delete mode 100644 packages/ctypes/ctypes.0.3.3/findlib
- delete mode 100644 packages/ctypes/ctypes.0.3.3/opam
- delete mode 100644 packages/ctypes/ctypes.0.3.3/url
- rename packages/ctypes/{ctypes.0.3.1 => ctypes.0.3.4}/descr (100%)
- rename packages/ctypes/{ctypes.0.3.1 => ctypes.0.3.4}/findlib (100%)
- rename packages/ctypes/{ctypes.0.3.2 => ctypes.0.3.4}/opam (85%)
- rename packages/ctypes/{ctypes.0.3.1 => ctypes.0.3.4}/url (53%)
- delete mode 100644 packages/ctypes/ctypes.0.3/descr
- delete mode 100644 packages/ctypes/ctypes.0.3/findlib
- delete mode 100644 packages/ctypes/ctypes.0.3/opam
- delete mode 100644 packages/ctypes/ctypes.0.3/url
- create mode 100644 packages/custom_printf/custom_printf.112.06.00/descr
- create mode 100644 packages/custom_printf/custom_printf.112.06.00/findlib
- create mode 100644 packages/custom_printf/custom_printf.112.06.00/opam
- create mode 100644 packages/custom_printf/custom_printf.112.06.00/url
- create mode 100644 packages/dns/dns.0.12.0/descr
- create mode 100644 packages/dns/dns.0.12.0/findlib
- create mode 100644 packages/dns/dns.0.12.0/opam
- create mode 100644 packages/dns/dns.0.12.0/url
- create mode 100644 packages/dockerfile/dockerfile.1.0.0/descr
- create mode 100644 packages/dockerfile/dockerfile.1.0.0/opam
- create mode 100644 packages/dockerfile/dockerfile.1.0.0/url
- create mode 100644 packages/dolog/dolog.0.6/descr
- create mode 100644 packages/dolog/dolog.0.6/findlib
- create mode 100644 packages/dolog/dolog.0.6/opam
- create mode 100644 packages/dolog/dolog.0.6/url
- create mode 100644 packages/dolog/dolog.1.0/descr
- create mode 100644 packages/dolog/dolog.1.0/findlib
- create mode 100644 packages/dolog/dolog.1.0/opam
- create mode 100644 packages/dolog/dolog.1.0/url
- create mode 100644 packages/efl/efl.1.12.0/descr
- create mode 100644 packages/efl/efl.1.12.0/opam
- create mode 100644 packages/efl/efl.1.12.0/url
- create mode 100644 packages/extprot/extprot.1.1.2/descr
- create mode 100644 packages/extprot/extprot.1.1.2/findlib
- create mode 100644 packages/extprot/extprot.1.1.2/opam
- create mode 100644 packages/extprot/extprot.1.1.2/url
- create mode 100644 packages/ezjsonm/ezjsonm.0.3.1/descr
- create mode 100644 packages/ezjsonm/ezjsonm.0.3.1/findlib
- create mode 100644 packages/ezjsonm/ezjsonm.0.3.1/opam
- create mode 100644 packages/ezjsonm/ezjsonm.0.3.1/url
- create mode 100644 packages/ezjsonm/ezjsonm.0.4.0/descr
- create mode 100644 packages/ezjsonm/ezjsonm.0.4.0/opam
- create mode 100644 packages/ezjsonm/ezjsonm.0.4.0/url
- create mode 100644 packages/gedcom/gedcom.1.0.0/descr
- create mode 100644 packages/gedcom/gedcom.1.0.0/opam
- create mode 100644 packages/gedcom/gedcom.1.0.0/url
- create mode 100644 packages/gen/gen.0.2.2/descr
- create mode 100644 packages/gen/gen.0.2.2/findlib
- create mode 100644 packages/gen/gen.0.2.2/opam
- create mode 100644 packages/gen/gen.0.2.2/url
- create mode 100644 packages/gen/gen.0.2.3/descr
- create mode 100644 packages/gen/gen.0.2.3/findlib
- create mode 100644 packages/gen/gen.0.2.3/opam
- create mode 100644 packages/gen/gen.0.2.3/url
- create mode 100644 packages/git/git.1.4.1/descr
- create mode 100644 packages/git/git.1.4.1/findlib
- create mode 100644 packages/git/git.1.4.1/opam
- create mode 100644 packages/git/git.1.4.1/url
- create mode 100644 packages/git/git.1.4.2/descr
- create mode 100644 packages/git/git.1.4.2/findlib
- create mode 100644 packages/git/git.1.4.2/opam
- create mode 100644 packages/git/git.1.4.2/url
- create mode 100644 packages/git/git.1.4.3/descr
- create mode 100644 packages/git/git.1.4.3/opam
- create mode 100644 packages/git/git.1.4.3/url
- create mode 100644 packages/github/github.0.9.3/descr
- create mode 100644 packages/github/github.0.9.3/findlib
- create mode 100644 packages/github/github.0.9.3/opam
- create mode 100644 packages/github/github.0.9.3/url
- create mode 100644 packages/github/github.0.9.4/descr
- create mode 100644 packages/github/github.0.9.4/findlib
- create mode 100644 packages/github/github.0.9.4/opam
- create mode 100644 packages/github/github.0.9.4/url
- create mode 100644 packages/humane-re/humane-re.0.1.0/descr
- create mode 100644 packages/humane-re/humane-re.0.1.0/findlib
- create mode 100644 packages/humane-re/humane-re.0.1.0/opam
- create mode 100644 packages/humane-re/humane-re.0.1.0/url
- create mode 100644 packages/imaplet-lwt/imaplet-lwt.0.1.3/descr
- create mode 100644 packages/imaplet-lwt/imaplet-lwt.0.1.3/opam
- create mode 100644 packages/imaplet-lwt/imaplet-lwt.0.1.3/url
- create mode 100644 packages/io-page/io-page.1.2.0/descr
- create mode 100644 packages/io-page/io-page.1.2.0/findlib
- create mode 100644 packages/io-page/io-page.1.2.0/opam
- create mode 100644 packages/io-page/io-page.1.2.0/url
- create mode 100644 packages/irmin/irmin.0.9.0/descr
- create mode 100644 packages/irmin/irmin.0.9.0/opam
- create mode 100644 packages/irmin/irmin.0.9.0/url
- create mode 100644 packages/irmin/irmin.0.9.1/descr
- create mode 100644 packages/irmin/irmin.0.9.1/opam
- create mode 100644 packages/irmin/irmin.0.9.1/url
- create mode 100644 packages/jenga/jenga.112.06.00/descr
- create mode 100644 packages/jenga/jenga.112.06.00/files/jenga.install
- create mode 100644 packages/jenga/jenga.112.06.00/findlib
- create mode 100644 packages/jenga/jenga.112.06.00/opam
- create mode 100644 packages/jenga/jenga.112.06.00/url
- create mode 100644 packages/ketrew/ketrew.0.0.0/descr
- create mode 100644 packages/ketrew/ketrew.0.0.0/opam
- create mode 100644 packages/ketrew/ketrew.0.0.0/url
- create mode 100644 packages/lbfgs/lbfgs.0.8.6/descr
- create mode 100644 packages/lbfgs/lbfgs.0.8.6/findlib
- create mode 100644 packages/lbfgs/lbfgs.0.8.6/opam
- create mode 100644 packages/lbfgs/lbfgs.0.8.6/url
- create mode 100644 packages/lwt/lwt.2.4.6/files/patch-ocsigen-lwt-101.diff
- create mode 100644 packages/menhir/menhir.20141215/descr
- create mode 100644 packages/menhir/menhir.20141215/files/menhir.install
- create mode 100644 packages/menhir/menhir.20141215/findlib
- create mode 100644 packages/menhir/menhir.20141215/opam
- create mode 100644 packages/menhir/menhir.20141215/url
- create mode 100644 packages/mikmatch/mikmatch.1.0.8/descr
- create mode 100644 packages/mikmatch/mikmatch.1.0.8/opam
- create mode 100644 packages/mikmatch/mikmatch.1.0.8/url
- create mode 100644 packages/mirage-console/mirage-console.2.1.0/descr
- create mode 100644 packages/mirage-console/mirage-console.2.1.0/opam
- create mode 100644 packages/mirage-console/mirage-console.2.1.0/url
- create mode 100644 packages/mirage-http/mirage-http.2.1.0/descr
- create mode 100644 packages/mirage-http/mirage-http.2.1.0/opam
- create mode 100644 packages/mirage-http/mirage-http.2.1.0/url
- create mode 100644 packages/mirage-net-macosx/mirage-net-macosx.1.0.0/descr
- create mode 100644 packages/mirage-net-macosx/mirage-net-macosx.1.0.0/opam
- create mode 100644 packages/mirage-net-macosx/mirage-net-macosx.1.0.0/url
- create mode 100644 packages/mirage-net-xen/mirage-net-xen.1.2.0/descr
- create mode 100644 packages/mirage-net-xen/mirage-net-xen.1.2.0/opam
- create mode 100644 packages/mirage-net-xen/mirage-net-xen.1.2.0/url
- create mode 100644 packages/mirage-profile/mirage-profile.0.3/descr
- create mode 100644 packages/mirage-profile/mirage-profile.0.3/opam
- create mode 100644 packages/mirage-profile/mirage-profile.0.3/url
- create mode 100644 packages/mirage-profile/mirage-profile.0.4/descr
- create mode 100644 packages/mirage-profile/mirage-profile.0.4/opam
- create mode 100644 packages/mirage-profile/mirage-profile.0.4/url
- create mode 100644 packages/mirage-tc/mirage-tc.0.2.0/descr
- create mode 100644 packages/mirage-tc/mirage-tc.0.2.0/opam
- create mode 100644 packages/mirage-tc/mirage-tc.0.2.0/url
- create mode 100644 packages/mirage-tc/mirage-tc.0.2.1/descr
- create mode 100644 packages/mirage-tc/mirage-tc.0.2.1/opam
- create mode 100644 packages/mirage-tc/mirage-tc.0.2.1/url
- create mode 100644 packages/mirage-tc/mirage-tc.0.3.0/descr
- create mode 100644 packages/mirage-tc/mirage-tc.0.3.0/opam
- create mode 100644 packages/mirage-tc/mirage-tc.0.3.0/url
- create mode 100644 packages/mirage-types-lwt/mirage-types-lwt.2.1.0/descr
- create mode 100644 packages/mirage-types-lwt/mirage-types-lwt.2.1.0/opam
- create mode 100644 packages/mirage-types-lwt/mirage-types-lwt.2.1.1/descr
- create mode 100644 packages/mirage-types-lwt/mirage-types-lwt.2.1.1/opam
- create mode 100644 packages/mirage-types-lwt/mirage-types-lwt.2.2.0/descr
- create mode 100644 packages/mirage-types-lwt/mirage-types-lwt.2.2.0/opam
- create mode 100644 packages/mirage-types/mirage-types.2.1.0/descr
- create mode 100644 packages/mirage-types/mirage-types.2.1.0/opam
- create mode 100644 packages/mirage-types/mirage-types.2.1.0/url
- create mode 100644 packages/mirage-types/mirage-types.2.1.1/descr
- create mode 100644 packages/mirage-types/mirage-types.2.1.1/opam
- create mode 100644 packages/mirage-types/mirage-types.2.1.1/url
- create mode 100644 packages/mirage-types/mirage-types.2.2.0/descr
- create mode 100644 packages/mirage-types/mirage-types.2.2.0/opam
- create mode 100644 packages/mirage-types/mirage-types.2.2.0/url
- create mode 100644 packages/mirage-unix/mirage-unix.2.0.1/descr
- create mode 100644 packages/mirage-unix/mirage-unix.2.0.1/findlib
- create mode 100644 packages/mirage-unix/mirage-unix.2.0.1/opam
- create mode 100644 packages/mirage-unix/mirage-unix.2.0.1/url
- create mode 100644 packages/mirage-unix/mirage-unix.2.1.0/descr
- create mode 100644 packages/mirage-unix/mirage-unix.2.1.0/findlib
- create mode 100644 packages/mirage-unix/mirage-unix.2.1.0/opam
- create mode 100644 packages/mirage-unix/mirage-unix.2.1.0/url
- create mode 100644 packages/mirage-unix/mirage-unix.2.1.1/descr
- create mode 100644 packages/mirage-unix/mirage-unix.2.1.1/findlib
- create mode 100644 packages/mirage-unix/mirage-unix.2.1.1/opam
- create mode 100644 packages/mirage-unix/mirage-unix.2.1.1/url
- create mode 100644 packages/mirage-unix/mirage-unix.2.1.2/descr
- create mode 100644 packages/mirage-unix/mirage-unix.2.1.2/findlib
- create mode 100644 packages/mirage-unix/mirage-unix.2.1.2/opam
- create mode 100644 packages/mirage-unix/mirage-unix.2.1.2/url
- create mode 100644 packages/mirage-xen-minios/mirage-xen-minios.0.5.0/descr
- create mode 100644 packages/mirage-xen-minios/mirage-xen-minios.0.5.0/opam
- create mode 100644 packages/mirage-xen-minios/mirage-xen-minios.0.5.0/url
- create mode 100644 packages/mirage-xen-minios/mirage-xen-minios.0.6.0/descr
- create mode 100644 packages/mirage-xen-minios/mirage-xen-minios.0.6.0/opam
- create mode 100644 packages/mirage-xen-minios/mirage-xen-minios.0.6.0/url
- create mode 100644 packages/mirage-xen/mirage-xen.2.0.1/descr
- create mode 100644 packages/mirage-xen/mirage-xen.2.0.1/opam
- create mode 100644 packages/mirage-xen/mirage-xen.2.0.1/url
- create mode 100644 packages/mirage-xen/mirage-xen.2.1.0/descr
- create mode 100644 packages/mirage-xen/mirage-xen.2.1.0/opam
- create mode 100644 packages/mirage-xen/mirage-xen.2.1.0/url
- create mode 100644 packages/mirage-xen/mirage-xen.2.1.1/descr
- create mode 100644 packages/mirage-xen/mirage-xen.2.1.1/opam
- create mode 100644 packages/mirage-xen/mirage-xen.2.1.1/url
- create mode 100644 packages/mirage-xen/mirage-xen.2.1.2/descr
- create mode 100644 packages/mirage-xen/mirage-xen.2.1.2/opam
- create mode 100644 packages/mirage-xen/mirage-xen.2.1.2/url
- create mode 100644 packages/mirage/mirage.2.1.0/descr
- create mode 100644 packages/mirage/mirage.2.1.0/opam
- create mode 100644 packages/mirage/mirage.2.1.0/url
- create mode 100644 packages/mirage/mirage.2.1.1/descr
- create mode 100644 packages/mirage/mirage.2.1.1/opam
- create mode 100644 packages/mirage/mirage.2.1.1/url
- create mode 100644 packages/mirage/mirage.2.2.0/descr
- create mode 100644 packages/mirage/mirage.2.2.0/opam
- create mode 100644 packages/mirage/mirage.2.2.0/url
- create mode 100644 packages/mqtt/mqtt.0.0.1/descr
- create mode 100644 packages/mqtt/mqtt.0.0.1/opam
- create mode 100644 packages/mqtt/mqtt.0.0.1/url
- create mode 100644 packages/mstruct/mstruct.1.3.2/descr
- create mode 100644 packages/mstruct/mstruct.1.3.2/opam
- create mode 100644 packages/mstruct/mstruct.1.3.2/url
- create mode 100644 packages/nocrypto/nocrypto.0.3.0/descr
- create mode 100644 packages/nocrypto/nocrypto.0.3.0/findlib
- create mode 100644 packages/nocrypto/nocrypto.0.3.0/opam
- create mode 100644 packages/nocrypto/nocrypto.0.3.0/url
- create mode 100644 packages/ocaml_plugin/ocaml_plugin.112.06.00/descr
- create mode 100644 packages/ocaml_plugin/ocaml_plugin.112.06.00/findlib
- create mode 100644 packages/ocaml_plugin/ocaml_plugin.112.06.00/opam
- create mode 100644 packages/ocaml_plugin/ocaml_plugin.112.06.00/url
- create mode 100644 packages/ocamleditor/ocamleditor.1.13.2/descr
- create mode 100644 packages/ocamleditor/ocamleditor.1.13.2/opam
- create mode 100644 packages/ocamleditor/ocamleditor.1.13.2/url
- create mode 100644 packages/ocamlscript/ocamlscript.2.0.4/descr
- create mode 100644 packages/ocamlscript/ocamlscript.2.0.4/files/ocamlscript.install
- create mode 100644 packages/ocamlscript/ocamlscript.2.0.4/findlib
- create mode 100644 packages/ocamlscript/ocamlscript.2.0.4/opam
- create mode 100644 packages/ocamlscript/ocamlscript.2.0.4/url
- create mode 100644 packages/ocp-index/ocp-index.1.1.1/descr
- create mode 100644 packages/ocp-index/ocp-index.1.1.1/files/ocaml.4.02.patch
- create mode 100644 packages/ocp-index/ocp-index.1.1.1/opam
- create mode 100644 packages/ocp-index/ocp-index.1.1.1/url
- create mode 100644 packages/ocplib-endian/ocplib-endian.0.8/descr
- create mode 100644 packages/ocplib-endian/ocplib-endian.0.8/opam
- create mode 100644 packages/ocplib-endian/ocplib-endian.0.8/url
- create mode 100644 packages/omd/omd.1.2.3/descr
- create mode 100644 packages/omd/omd.1.2.3/files/omd.install
- create mode 100644 packages/omd/omd.1.2.3/opam
- create mode 100644 packages/omd/omd.1.2.3/url
- create mode 100644 packages/omd/omd.1.2.4/descr
- create mode 100644 packages/omd/omd.1.2.4/files/omd.install
- create mode 100644 packages/omd/omd.1.2.4/opam
- create mode 100644 packages/omd/omd.1.2.4/url
- create mode 100644 packages/oni/oni.1.0.11/descr
- create mode 100644 packages/oni/oni.1.0.11/findlib
- create mode 100644 packages/oni/oni.1.0.11/opam
- create mode 100644 packages/oni/oni.1.0.11/url
- create mode 100644 packages/opam-installext/opam-installext.1.0.0/descr
- create mode 100644 packages/opam-installext/opam-installext.1.0.0/opam
- create mode 100644 packages/opam-installext/opam-installext.1.0.0/url
- create mode 100644 packages/opam-installext/opam-installext.1.0.1/descr
- create mode 100644 packages/opam-installext/opam-installext.1.0.1/opam
- create mode 100644 packages/opam-installext/opam-installext.1.0.1/url
- create mode 100644 packages/opam-lib/opam-lib.1.2.0/files/fix-wait.diff
- create mode 100644 packages/opam-publish/opam-publish.0.2.1/descr
- create mode 100644 packages/opam-publish/opam-publish.0.2.1/opam
- create mode 100644 packages/opam-publish/opam-publish.0.2.1/url
- create mode 100644 packages/opam-query/opam-query.1.2/descr
- create mode 100644 packages/opam-query/opam-query.1.2/opam
- create mode 100644 packages/opam-query/opam-query.1.2/url
- create mode 100644 packages/openflow/openflow.0.7.0/descr
- create mode 100644 packages/openflow/openflow.0.7.0/findlib
- create mode 100644 packages/openflow/openflow.0.7.0/opam
- create mode 100644 packages/openflow/openflow.0.7.0/url
- create mode 100644 packages/opium/opium.0.11.0/descr
- create mode 100644 packages/opium/opium.0.11.0/findlib
- create mode 100644 packages/opium/opium.0.11.0/opam
- create mode 100644 packages/opium/opium.0.11.0/url
- create mode 100644 packages/opium/opium.0.12.0/descr
- create mode 100644 packages/opium/opium.0.12.0/opam
- create mode 100644 packages/opium/opium.0.12.0/url
- create mode 100644 packages/pa_bench/pa_bench.112.06.00/descr
- create mode 100644 packages/pa_bench/pa_bench.112.06.00/findlib
- create mode 100644 packages/pa_bench/pa_bench.112.06.00/opam
- create mode 100644 packages/pa_bench/pa_bench.112.06.00/url
- create mode 100644 packages/pa_test/pa_test.111.08.01/descr
- create mode 100644 packages/pa_test/pa_test.111.08.01/findlib
- create mode 100644 packages/pa_test/pa_test.111.08.01/opam
- create mode 100644 packages/pa_test/pa_test.111.08.01/url
- create mode 100644 packages/patdiff/patdiff.112.06.00/descr
- create mode 100644 packages/patdiff/patdiff.112.06.00/opam
- create mode 100644 packages/patdiff/patdiff.112.06.00/url
- create mode 100644 packages/pcre/pcre.7.1.3/descr
- create mode 100644 packages/pcre/pcre.7.1.3/findlib
- create mode 100644 packages/pcre/pcre.7.1.3/opam
- create mode 100644 packages/pcre/pcre.7.1.3/url
- create mode 100644 packages/pcre/pcre.7.1.5/descr
- create mode 100644 packages/pcre/pcre.7.1.5/findlib
- create mode 100644 packages/pcre/pcre.7.1.5/opam
- create mode 100644 packages/pcre/pcre.7.1.5/url
- create mode 100644 packages/piqilib/piqilib.0.6.10/descr
- create mode 100644 packages/piqilib/piqilib.0.6.10/findlib
- create mode 100644 packages/piqilib/piqilib.0.6.10/opam
- create mode 100644 packages/piqilib/piqilib.0.6.10/url
- create mode 100644 packages/ppx_deriving/ppx_deriving.1.1/descr
- create mode 100644 packages/ppx_deriving/ppx_deriving.1.1/opam
- create mode 100644 packages/ppx_deriving/ppx_deriving.1.1/url
- create mode 100644 packages/ppx_deriving_yojson/ppx_deriving_yojson.2.1/descr
- create mode 100644 packages/ppx_deriving_yojson/ppx_deriving_yojson.2.1/opam
- create mode 100644 packages/ppx_deriving_yojson/ppx_deriving_yojson.2.1/url
- create mode 100644 packages/ppx_include/ppx_include.1.0/descr
- create mode 100644 packages/ppx_include/ppx_include.1.0/opam
- create mode 100644 packages/ppx_include/ppx_include.1.0/url
- create mode 100644 packages/ppx_monad/ppx_monad.0.0.1/descr
- create mode 100644 packages/ppx_monad/ppx_monad.0.0.1/opam
- create mode 100644 packages/ppx_monad/ppx_monad.0.0.1/url
- create mode 100644 packages/prob-cache/prob-cache.1.0.0/descr
- create mode 100644 packages/prob-cache/prob-cache.1.0.0/opam
- create mode 100644 packages/prob-cache/prob-cache.1.0.0/url
- create mode 100644 packages/ranger/ranger.0.1.0/descr
- create mode 100644 packages/ranger/ranger.0.1.0/opam
- create mode 100644 packages/ranger/ranger.0.1.0/url
- create mode 100644 packages/re2/re2.112.06.00/descr
- create mode 100644 packages/re2/re2.112.06.00/findlib
- create mode 100644 packages/re2/re2.112.06.00/opam
- create mode 100644 packages/re2/re2.112.06.00/url
- create mode 100644 packages/res/res.4.0.7/descr
- create mode 100644 packages/res/res.4.0.7/findlib
- create mode 100644 packages/res/res.4.0.7/opam
- create mode 100644 packages/res/res.4.0.7/url
- create mode 100644 packages/riakc_ppx/riakc_ppx.3.1.0/descr
- create mode 100644 packages/riakc_ppx/riakc_ppx.3.1.0/findlib
- create mode 100644 packages/riakc_ppx/riakc_ppx.3.1.0/opam
- create mode 100644 packages/riakc_ppx/riakc_ppx.3.1.0/url
- create mode 100644 packages/riakc_ppx/riakc_ppx.3.1.1/descr
- create mode 100644 packages/riakc_ppx/riakc_ppx.3.1.1/findlib
- create mode 100644 packages/riakc_ppx/riakc_ppx.3.1.1/opam
- create mode 100644 packages/riakc_ppx/riakc_ppx.3.1.1/url
- create mode 100644 packages/riakc_ppx/riakc_ppx.3.1.2/descr
- create mode 100644 packages/riakc_ppx/riakc_ppx.3.1.2/findlib
- create mode 100644 packages/riakc_ppx/riakc_ppx.3.1.2/opam
- create mode 100644 packages/riakc_ppx/riakc_ppx.3.1.2/url
- create mode 100644 packages/safa/safa.1.3/descr
- create mode 100644 packages/safa/safa.1.3/opam
- create mode 100644 packages/safa/safa.1.3/url
- create mode 100644 packages/satML-plugin/satML-plugin.0.99.1/descr
- create mode 100644 packages/satML-plugin/satML-plugin.0.99.1/opam
- create mode 100644 packages/satML-plugin/satML-plugin.0.99.1/url
- create mode 100644 packages/sexplib/sexplib.112.06.00/descr
- create mode 100644 packages/sexplib/sexplib.112.06.00/findlib
- create mode 100644 packages/sexplib/sexplib.112.06.00/opam
- create mode 100644 packages/sexplib/sexplib.112.06.00/url
- create mode 100644 packages/slacko/slacko.0.11.0/descr
- create mode 100644 packages/slacko/slacko.0.11.0/opam
- create mode 100644 packages/slacko/slacko.0.11.0/url
- create mode 100644 packages/slacko/slacko.0.12.0/descr
- create mode 100644 packages/slacko/slacko.0.12.0/opam
- create mode 100644 packages/slacko/slacko.0.12.0/url
- create mode 100644 packages/slap/slap.0.2.2/descr
- create mode 100644 packages/slap/slap.0.2.2/opam
- create mode 100644 packages/slap/slap.0.2.2/url
- create mode 100644 packages/spatial_index/spatial_index.0.0.2/descr
- create mode 100644 packages/spatial_index/spatial_index.0.0.2/opam
- create mode 100644 packages/spatial_index/spatial_index.0.0.2/url
- create mode 100644 packages/stemmer/stemmer.0.2/descr
- create mode 100644 packages/stemmer/stemmer.0.2/opam
- create mode 100644 packages/stemmer/stemmer.0.2/url
- create mode 100644 packages/stone/stone.0.3.3/descr
- create mode 100644 packages/stone/stone.0.3.3/opam
- create mode 100644 packages/stone/stone.0.3.3/url
- create mode 100644 packages/stringext/stringext.1.1.0/descr
- create mode 100644 packages/stringext/stringext.1.1.0/findlib
- create mode 100644 packages/stringext/stringext.1.1.0/opam
- create mode 100644 packages/stringext/stringext.1.1.0/url
- create mode 100644 packages/stringext/stringext.1.2.0/descr
- create mode 100644 packages/stringext/stringext.1.2.0/opam
- create mode 100644 packages/stringext/stringext.1.2.0/url
- create mode 100644 packages/sundialsml/sundialsml.2.5.0p0/descr
- create mode 100644 packages/sundialsml/sundialsml.2.5.0p0/findlib
- create mode 100644 packages/sundialsml/sundialsml.2.5.0p0/opam
- create mode 100644 packages/sundialsml/sundialsml.2.5.0p0/url
- create mode 100644 packages/sundialsml/sundialsml.2.5.0p1/descr
- create mode 100644 packages/sundialsml/sundialsml.2.5.0p1/findlib
- create mode 100644 packages/sundialsml/sundialsml.2.5.0p1/opam
- create mode 100644 packages/sundialsml/sundialsml.2.5.0p1/url
- create mode 100644 packages/sundialsml/sundialsml.2.5.0p2/descr
- create mode 100644 packages/sundialsml/sundialsml.2.5.0p2/findlib
- create mode 100644 packages/sundialsml/sundialsml.2.5.0p2/opam
- create mode 100644 packages/sundialsml/sundialsml.2.5.0p2/url
- create mode 100644 packages/symkat/symkat.1.3/descr
- create mode 100644 packages/symkat/symkat.1.3/opam
- create mode 100644 packages/symkat/symkat.1.3/url
- create mode 100644 packages/tcpip/tcpip.2.0.2/descr
- create mode 100644 packages/tcpip/tcpip.2.0.2/opam
- create mode 100644 packages/tcpip/tcpip.2.0.2/url
- create mode 100644 packages/tcpip/tcpip.2.0.3/descr
- create mode 100644 packages/tcpip/tcpip.2.0.3/opam
- create mode 100644 packages/tcpip/tcpip.2.0.3/url
- create mode 100644 packages/tcpip/tcpip.2.1.0/descr
- create mode 100644 packages/tcpip/tcpip.2.1.0/opam
- create mode 100644 packages/tcpip/tcpip.2.1.0/url
- create mode 100644 packages/tcpip/tcpip.2.2.0/descr
- create mode 100644 packages/tcpip/tcpip.2.2.0/opam
- create mode 100644 packages/tcpip/tcpip.2.2.0/url
- create mode 100644 packages/tcpip/tcpip.2.2.1/descr
- create mode 100644 packages/tcpip/tcpip.2.2.1/opam
- create mode 100644 packages/tcpip/tcpip.2.2.1/url
- create mode 100644 packages/tdk/tdk.0.1.1/descr
- create mode 100644 packages/tdk/tdk.0.1.1/findlib
- create mode 100644 packages/tdk/tdk.0.1.1/opam
- create mode 100644 packages/tdk/tdk.0.1.1/url
- create mode 100644 packages/text/text.0.8.0/descr
- create mode 100644 packages/text/text.0.8.0/findlib
- create mode 100644 packages/text/text.0.8.0/opam
- create mode 100644 packages/text/text.0.8.0/url
- create mode 100644 packages/textutils/textutils.112.06.00/descr
- create mode 100644 packages/textutils/textutils.112.06.00/findlib
- create mode 100644 packages/textutils/textutils.112.06.00/opam
- create mode 100644 packages/textutils/textutils.112.06.00/url
- create mode 100644 packages/tls/tls.0.3.0/descr
- create mode 100644 packages/tls/tls.0.3.0/findlib
- create mode 100644 packages/tls/tls.0.3.0/opam
- create mode 100644 packages/tls/tls.0.3.0/url
- create mode 100644 packages/toml/toml.2.0.0/descr
- create mode 100644 packages/toml/toml.2.0.0/findlib
- create mode 100644 packages/toml/toml.2.0.0/opam
- create mode 100644 packages/toml/toml.2.0.0/url
- create mode 100644 packages/toml/toml.2.1.0/descr
- create mode 100644 packages/toml/toml.2.1.0/findlib
- create mode 100644 packages/toml/toml.2.1.0/opam
- create mode 100644 packages/toml/toml.2.1.0/url
- create mode 100644 packages/tophide/tophide.1.0.3/descr
- create mode 100644 packages/tophide/tophide.1.0.3/findlib
- create mode 100644 packages/tophide/tophide.1.0.3/opam
- create mode 100644 packages/tophide/tophide.1.0.3/url
- create mode 100644 packages/typerep/typerep.112.06.00/descr
- create mode 100644 packages/typerep/typerep.112.06.00/findlib
- create mode 100644 packages/typerep/typerep.112.06.00/opam
- create mode 100644 packages/typerep/typerep.112.06.00/url
- create mode 100644 packages/tyxml/tyxml.3.4.0/descr
- create mode 100644 packages/tyxml/tyxml.3.4.0/opam
- create mode 100644 packages/tyxml/tyxml.3.4.0/url
- create mode 100644 packages/utop/utop.1.17/descr
- create mode 100644 packages/utop/utop.1.17/files/utop.install
- create mode 100644 packages/utop/utop.1.17/findlib
- create mode 100644 packages/utop/utop.1.17/opam
- create mode 100644 packages/utop/utop.1.17/url
- create mode 100644 packages/uucp/uucp.0.9.1/descr
- create mode 100644 packages/uucp/uucp.0.9.1/opam
- create mode 100644 packages/uucp/uucp.0.9.1/url
- create mode 100644 packages/uuseg/uuseg.0.8.0/descr
- create mode 100644 packages/uuseg/uuseg.0.8.0/opam
- create mode 100644 packages/uuseg/uuseg.0.8.0/url
- create mode 100644 packages/vmnet/vmnet.1.0.0/descr
- create mode 100644 packages/vmnet/vmnet.1.0.0/opam
- create mode 100644 packages/vmnet/vmnet.1.0.0/url
- create mode 100644 packages/vmnet/vmnet.1.0.1/descr
- create mode 100644 packages/vmnet/vmnet.1.0.1/opam
- create mode 100644 packages/vmnet/vmnet.1.0.1/url
- create mode 100644 packages/websocket/websocket.0.9/descr
- create mode 100644 packages/websocket/websocket.0.9/files/websocket.install
- create mode 100644 packages/websocket/websocket.0.9/findlib
- create mode 100644 packages/websocket/websocket.0.9/opam
- create mode 100644 packages/websocket/websocket.0.9/url
- create mode 100644 packages/x509/x509.0.2.1/descr
- create mode 100644 packages/x509/x509.0.2.1/findlib
- create mode 100644 packages/x509/x509.0.2.1/opam
- create mode 100644 packages/x509/x509.0.2.1/url
- create mode 100644 packages/xe/xe.0.6.3/descr
- create mode 100644 packages/xe/xe.0.6.3/opam
- create mode 100644 packages/xe/xe.0.6.3/url
- create mode 100644 packages/xen-gnt/xen-gnt.2.1.0/descr
- create mode 100644 packages/xen-gnt/xen-gnt.2.1.0/opam
- create mode 100644 packages/xen-gnt/xen-gnt.2.1.0/url
- create mode 100644 packages/xentropyd/xentropyd.0.9.1/descr
- create mode 100644 packages/xentropyd/xentropyd.0.9.1/opam
- create mode 100644 packages/xentropyd/xentropyd.0.9.1/url
- create mode 100644 packages/yojson/yojson.1.2.0/descr
- create mode 100644 packages/yojson/yojson.1.2.0/files/yojson.install
- create mode 100644 packages/yojson/yojson.1.2.0/findlib
- create mode 100644 packages/yojson/yojson.1.2.0/opam
- create mode 100644 packages/yojson/yojson.1.2.0/url
- delete mode 100644 packages/zenon/zenon.0.7.1/findlib
-+ opam remote add mirage git://github.com/mirage/mirage-dev
-[[1;34mmirage[m] Fetching git://github.com/mirage/mirage-dev
-Updating ~/.opam/repo/compiler-index ...
-Updating ~/.opam/compilers/ ...
-Updating ~/.opam/repo/package-index ...
-Updating ~/.opam/packages/ ...
-The following packages have been UPDATED upstream:
- - camlp4.4.02.1+1
- - ocamlfind.1.5.5
-+ opam update -u
-[[1;34mmirage[m] Fetching git://github.com/mirage/mirage-dev
-[[1;34mdefault[m] Synchronizing with /home/opam/opam-repository
-Updating ~/.opam/repo/compiler-index ...
-Updating ~/.opam/compilers/ ...
-The following NEW compilers are available:
- - 4.01.0+BER
- - 4.02.1+musl
- - 4.02.1+musl+static
- - 4.03.0+pr100
- - 4.03.0+pr115
- - 4.03.0+pr119
- - 4.03.0+pr120
- - 4.03.0+pr122
- - 4.03.0+pr125
- - 4.03.0+pr126
- - 4.03.0+pr129
- - 4.03.0+pr132
- - 4.03.0+pr43
- - 4.03.0+pr46
- - 4.03.0+pr51
- - 4.03.0+pr63
- - 4.03.0+pr92
- - 4.03.0+pr98
-The following compiler descriptions have been DELETED:
- - 4.03.0+pr103
- - 4.03.0+pr110
- - 4.03.0+pr113
- - 4.03.0+pr69
- - 4.03.0+pr73
- - 4.03.0+pr79
- - 4.03.0+pr84
- - 4.03.0+pr93
- - 4.03.0+pr94
- - 4.03.0+pr95
- - 4.03.0+pr96
-Updating ~/.opam/repo/package-index ...
-Updating ~/.opam/packages/ ...
-The following packages have been DELETED:
- - ctypes.0.3
- - ctypes.0.3.1
- - ctypes.0.3.2
- - ctypes.0.3.3
-Everything as up-to-date as possible (run with --verbose to show unavailable upgrades).
-+ opam installext -j 3 mirage ssl
-++ opam install -j 3 mirage ssl -e ubuntu
-+ depext=libssl-dev
-+ echo Ubuntu depexts: libssl-dev
-Ubuntu depexts: libssl-dev
-+ '[' libssl-dev '!=' '' ']'
-+ sudo apt-get install -qq -y build-essential m4
-+ sudo apt-get install -qq -y libssl-dev
-Selecting previously unselected package zlib1g-dev:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 23151 files and directories currently installed.)
-Preparing to unpack .../zlib1g-dev_1%3a1.2.8.dfsg-1ubuntu1_amd64.deb ...
-Unpacking zlib1g-dev:amd64 (1:1.2.8.dfsg-1ubuntu1) ...
-Selecting previously unselected package libssl-dev:amd64.
-Preparing to unpack .../libssl-dev_1.0.1f-1ubuntu2.7_amd64.deb ...
-Unpacking libssl-dev:amd64 (1.0.1f-1ubuntu2.7) ...
-Selecting previously unselected package libssl-doc.
-Preparing to unpack .../libssl-doc_1.0.1f-1ubuntu2.7_all.deb ...
-Unpacking libssl-doc (1.0.1f-1ubuntu2.7) ...
-Setting up zlib1g-dev:amd64 (1:1.2.8.dfsg-1ubuntu1) ...
-Setting up libssl-dev:amd64 (1.0.1f-1ubuntu2.7) ...
-Setting up libssl-doc (1.0.1f-1ubuntu2.7) ...
-++ opam install -j 3 mirage ssl -e source,linux
-+ srcext=
-+ echo Ubuntu srcexts:
-Ubuntu srcexts:
-+ '[' '' '!=' '' ']'
-+ opam install -j 3 mirage ssl
-The following actions will be performed:
- - install   ppx_tools.0.99.2                      [required by lwt]
- - install   base-bytes.base                       [required by ocplib-endian]
- - install   ssl.0.4.7
- - install   re.1.2.2                              [required by mirage]
- - install   cmdliner.0.9.6                        [required by mirage]
- - install   cppo.1.1.2                            [required by ocplib-endian]
- - install   type_conv.112.01.00                   [required by ipaddr, cstruct]
- - install   lwt.2.4.6                             [required by mirage]
- - install   crunch.1.3.0                          [required by mirage]
- - install   ocplib-endian.0.8                     [required by cstruct]
- - install   sexplib.112.06.00                     [required by mirage]
- - install   ipaddr.2.5.0                          [required by mirage]
- - install   cstruct.1.5.0                         [required by mirage]
- - install   io-page.1.2.0                         [required by mirage]
- - install   mirage-types.2.2.0                    [required by mirage]
- - install   mirage.2.2.0
-=== [33m16[m to install ===
-
-[36m=-=-[m [01mSynchronizing package archives[m [36m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
-[[32mcmdliner.0.9.6[m] Downloading http://erratique.ch/software/cmdliner/releases/cmdliner-0.9.6.tbz
-[[32mcppo.1.1.2[m] Downloading http://mjambon.com/releases/cppo/cppo-1.1.2.tar.gz
-[[32mcrunch.1.3.0[m] Downloading https://github.com/mirage/ocaml-crunch/archive/v1.3.0.tar.gz
-[[32mcstruct.1.5.0[m] Downloading https://github.com/mirage/ocaml-cstruct/archive/v1.5.0.tar.gz
-[[32mio-page.1.2.0[m] Downloading https://github.com/mirage/io-page/archive/v1.2.0.tar.gz
-[[32mipaddr.2.5.0[m] Downloading https://github.com/mirage/ocaml-ipaddr/archive/2.5.0.tar.gz
-[[32mlwt.2.4.6[m] Downloading https://github.com/ocsigen/lwt/archive/2.4.6.tar.gz
-[[32mmirage.2.2.0[m] Downloading https://github.com/mirage/mirage/archive/v2.2.0.tar.gz
-[[32mmirage-types.2.2.0[m] Downloading https://github.com/mirage/mirage/archive/v2.2.0.tar.gz
-[[32mocplib-endian.0.8[m] Downloading https://github.com/OCamlPro/ocplib-endian/archive/0.8.tar.gz
-[[32mppx_tools.0.99.2[m] Downloading http://github.com/alainfrisch/ppx_tools/archive/ppx_tools_0.99.2.tar.gz
-[[32mre.1.2.2[m] Downloading https://github.com/ocaml/ocaml-re/archive/ocaml-re-1.2.2.tar.gz
-[[32msexplib.112.06.00[m] Downloading https://ocaml.janestreet.com/ocaml-core/112.06.00/individual/sexplib-112.06.00.tar.gz
-[[32mssl.0.4.7[m] Downloading http://downloads.sourceforge.net/project/savonet/ocaml-ssl/0.4.7/ocaml-ssl-0.4.7.tar.gz
-[[32mtype_conv.112.01.00[m] Downloading https://ocaml.janestreet.com/ocaml-core/112.01.00/individual/type_conv-112.01.00.tar.gz
-
-[36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
-Installing base-bytes.base.
-Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/4.02.1/build/cppo.1.1.2/
-Building cppo.1.1.2:
-  make
-  make install-lib
-Building ppx_tools.0.99.2:
-  make all
-  make install
-Building cmdliner.0.9.6:
-  ocaml pkg/git.ml
-  ocaml pkg/build.ml native=true native-dynlink=true
-Installing cmdliner.0.9.6.
-Building re.1.2.2:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.02.1
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing cppo.1.1.2.
-Copying ~/.opam/repo/default/packages/ssl/ssl.0.4.7/files/pkgconfigure to ~/.opam/4.02.1/build/ssl.0.4.7/
-Building ssl.0.4.7:
-  ./configure --prefix /home/opam/.opam/4.02.1
-  make
-  make install
-Installing ppx_tools.0.99.2.
-Building type_conv.112.01.00:
-  make
-  make install
-Installing re.1.2.2.
-Installing type_conv.112.01.00.
-Building crunch.1.3.0:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.02.1
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Building ocplib-endian.0.8:
-  ocaml setup.ml -configure --disable-debug --prefix /home/opam/.opam/4.02.1
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing ssl.0.4.7.
-Copying ~/.opam/repo/default/packages/lwt/lwt.2.4.6/files/patch-ocsigen-lwt-101.diff to ~/.opam/4.02.1/build/lwt.2.4.6/
-Building lwt.2.4.6:
-  ./configure --prefix /home/opam/.opam/4.02.1 --disable-libev --disable-react --enable-ssl --enable-unix --enable-extra --enable-preemptive --disable-glib --enable-ppx
-  make build
-  make install
-Installing ocplib-endian.0.8.
-Building sexplib.112.06.00:
-  ./configure --enable-syntax
-  make
-  make install
-Installing crunch.1.3.0.
-Installing sexplib.112.06.00.
-Building ipaddr.2.5.0:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.02.1
-  make build
-  make install
-Installing ipaddr.2.5.0.
-Installing lwt.2.4.6.
-Building cstruct.1.5.0:
-  ./configure --prefix /home/opam/.opam/4.02.1 --enable-lwt --enable-camlp4 --disable-async --enable-unix --disable-tests
-  make
-  make install
-Installing cstruct.1.5.0.
-Building io-page.1.2.0:
-  ./configure --prefix /home/opam/.opam/4.02.1
-  make
-  make install
-Installing io-page.1.2.0.
-Building mirage-types.2.2.0:
-  make install-types
-Installing mirage-types.2.2.0.
-Building mirage.2.2.0:
-  ./configure --bindir /home/opam/.opam/4.02.1/bin
-  make
-  make install
-Installing mirage.2.2.0.
-+ opam config env
-+ eval CAML_LD_LIBRARY_PATH="/home/opam/.opam/4.02.1/lib/stublibs"; export CAML_LD_LIBRARY_PATH; MANPATH="/home/opam/.opam/4.02.1/man:"; export MANPATH; MAKELEVEL=""; export MAKELEVEL; MAKEFLAGS=""; export MAKEFLAGS; PERL5LIB="/home/opam/.opam/4.02.1/lib/perl5"; export PERL5LIB; OCAML_TOPLEVEL_PATH="/home/opam/.opam/4.02.1/lib/toplevel"; export OCAML_TOPLEVEL_PATH; PATH="/home/opam/.opam/4.02.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"; export PATH;
-+ CAML_LD_LIBRARY_PATH=/home/opam/.opam/4.02.1/lib/stublibs
-+ export CAML_LD_LIBRARY_PATH
-+ MANPATH=/home/opam/.opam/4.02.1/man:
-+ export MANPATH
-+ MAKELEVEL=
-+ export MAKELEVEL
-+ MAKEFLAGS=
-+ export MAKEFLAGS
-+ PERL5LIB=/home/opam/.opam/4.02.1/lib/perl5
-+ export PERL5LIB
-+ OCAML_TOPLEVEL_PATH=/home/opam/.opam/4.02.1/lib/toplevel
-+ export OCAML_TOPLEVEL_PATH
-+ PATH=/home/opam/.opam/4.02.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-+ export PATH
-+ git clone git://github.com/mirage/mirage-www
-Cloning into 'mirage-www'...
-remote: Counting objects: 5820, done.[K
-remote: Compressing objects:   0% (1/123)   [Kremote: Compressing objects:   1% (2/123)   [Kremote: Compressing objects:   2% (3/123)   [Kremote: Compressing objects:   3% (4/123)   [Kremote: Compressing objects:   4% (5/123)   [Kremote: Compressing objects:   5% (7/123)   [Kremote: Compressing objects:   6% (8/123)   [Kremote: Compressing objects:   7% (9/123)   [Kremote: Compressing objects:   8% (10/123)   [Kremote: Compressing objects:   9% (12/123)   [Kremote: Compressing objects:  10% (13/123)   [Kremote: Compressing objects:  11% (14/123)   [Kremote: Compressing objects:  12% (15/123)   [Kremote: Compressing objects:  13% (16/123)   [Kremote: Compressing objects:  14% (18/123)   [Kremote: Compressing objects:  15% (19/123)   [Kremote: Compressing objects:  16% (20/123)   [Kremote: Compressing objects:  17% (21/123)   [Kremote: Compressing objects:  18% (23/123)   [Kremote: Compressing objects:  19% (24/123)   [Kremote: Compressing objects:  20% (25/123)   [Kremote: Compressing objects:  21% (26/123)   [Kremote: Compressing objects:  22% (28/123)   [Kremote: Compressing objects:  23% (29/123)   [Kremote: Compressing objects:  24% (30/123)   [Kremote: Compressing objects:  25% (31/123)   [Kremote: Compressing objects:  26% (32/123)   [Kremote: Compressing objects:  27% (34/123)   [Kremote: Compressing objects:  28% (35/123)   [Kremote: Compressing objects:  29% (36/123)   [Kremote: Compressing objects:  30% (37/123)   [Kremote: Compressing objects:  31% (39/123)   [Kremote: Compressing objects:  32% (40/123)   [Kremote: Compressing objects:  33% (41/123)   [Kremote: Compressing objects:  34% (42/123)   [Kremote: Compressing objects:  35% (44/123)   [Kremote: Compressing objects:  36% (45/123)   [Kremote: Compressing objects:  37% (46/123)   [Kremote: Compressing objects:  38% (47/123)   [Kremote: Compressing objects:  39% (48/123)   [Kremote: Compressing objects:  40% (50/123)   [Kremote: Compressing objects:  41% (51/123)   [Kremote: Compressing objects:  42% (52/123)   [Kremote: Compressing objects:  43% (53/123)   [Kremote: Compressing objects:  44% (55/123)   [Kremote: Compressing objects:  45% (56/123)   [Kremote: Compressing objects:  46% (57/123)   [Kremote: Compressing objects:  47% (58/123)   [Kremote: Compressing objects:  48% (60/123)   [Kremote: Compressing objects:  49% (61/123)   [Kremote: Compressing objects:  50% (62/123)   [Kremote: Compressing objects:  51% (63/123)   [Kremote: Compressing objects:  52% (64/123)   [Kremote: Compressing objects:  53% (66/123)   [Kremote: Compressing objects:  54% (67/123)   [Kremote: Compressing objects:  55% (68/123)   [Kremote: Compressing objects:  56% (69/123)   [Kremote: Compressing objects:  57% (71/123)   [Kremote: Compressing objects:  58% (72/123)   [Kremote: Compressing objects:  59% (73/123)   [Kremote: Compressing objects:  60% (74/123)   [Kremote: Compressing objects:  61% (76/123)   [Kremote: Compressing objects:  62% (77/123)   [Kremote: Compressing objects:  63% (78/123)   [Kremote: Compressing objects:  64% (79/123)   [Kremote: Compressing objects:  65% (80/123)   [Kremote: Compressing objects:  66% (82/123)   [Kremote: Compressing objects:  67% (83/123)   [Kremote: Compressing objects:  68% (84/123)   [Kremote: Compressing objects:  69% (85/123)   [Kremote: Compressing objects:  70% (87/123)   [Kremote: Compressing objects:  71% (88/123)   [Kremote: Compressing objects:  72% (89/123)   [Kremote: Compressing objects:  73% (90/123)   [Kremote: Compressing objects:  74% (92/123)   [Kremote: Compressing objects:  75% (93/123)   [Kremote: Compressing objects:  76% (94/123)   [Kremote: Compressing objects:  77% (95/123)   [Kremote: Compressing objects:  78% (96/123)   [Kremote: Compressing objects:  79% (98/123)   [Kremote: Compressing objects:  80% (99/123)   [Kremote: Compressing objects:  81% (100/123)   [Kremote: Compressing objects:  82% (101/123)   [Kremote: Compressing objects:  83% (103/123)   [Kremote: Compressing objects:  84% (104/123)   [Kremote: Compressing objects:  85% (105/123)   [Kremote: Compressing objects:  86% (106/123)   [Kremote: Compressing objects:  87% (108/123)   [Kremote: Compressing objects:  88% (109/123)   [Kremote: Compressing objects:  89% (110/123)   [Kremote: Compressing objects:  90% (111/123)   [Kremote: Compressing objects:  91% (112/123)   [Kremote: Compressing objects:  92% (114/123)   [Kremote: Compressing objects:  93% (115/123)   [Kremote: Compressing objects:  94% (116/123)   [Kremote: Compressing objects:  95% (117/123)   [Kremote: Compressing objects:  96% (119/123)   [Kremote: Compressing objects:  97% (120/123)   [Kremote: Compressing objects:  98% (121/123)   [Kremote: Compressing objects:  99% (122/123)   [Kremote: Compressing objects: 100% (123/123)   [Kremote: Compressing objects: 100% (123/123), done.[K
-Receiving objects:   0% (1/5820)   Receiving objects:   1% (59/5820)   Receiving objects:   2% (117/5820)   Receiving objects:   3% (175/5820)   Receiving objects:   4% (233/5820)   Receiving objects:   5% (291/5820)   Receiving objects:   6% (350/5820)   Receiving objects:   7% (408/5820)   Receiving objects:   8% (466/5820)   Receiving objects:   9% (524/5820)   Receiving objects:  10% (582/5820)   Receiving objects:  11% (641/5820)   Receiving objects:  12% (699/5820)   Receiving objects:  13% (757/5820)   Receiving objects:  14% (815/5820)   Receiving objects:  15% (873/5820)   Receiving objects:  16% (932/5820)   Receiving objects:  17% (990/5820)   Receiving objects:  18% (1048/5820)   Receiving objects:  19% (1106/5820)   Receiving objects:  20% (1164/5820)   Receiving objects:  21% (1223/5820)   Receiving objects:  22% (1281/5820)   Receiving objects:  23% (1339/5820), 1.07 MiB | 2.10 MiB/s   Receiving objects:  24% (1397/5820), 1.07 MiB | 2.10 MiB/s   Receiving objects:  25% (1455/5820), 1.07 MiB | 2.10 MiB/s   Receiving objects:  26% (1514/5820), 1.07 MiB | 2.10 MiB/s   Receiving objects:  27% (1572/5820), 1.07 MiB | 2.10 MiB/s   Receiving objects:  28% (1630/5820), 1.07 MiB | 2.10 MiB/s   Receiving objects:  29% (1688/5820), 1.07 MiB | 2.10 MiB/s   Receiving objects:  29% (1726/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  30% (1746/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  31% (1805/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  32% (1863/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  33% (1921/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  34% (1979/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  35% (2037/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  36% (2096/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  37% (2154/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  38% (2212/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  39% (2270/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  40% (2328/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  41% (2387/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  42% (2445/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  43% (2503/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  44% (2561/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  45% (2619/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  46% (2678/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  47% (2736/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  48% (2794/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  49% (2852/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  50% (2910/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  51% (2969/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  52% (3027/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  53% (3085/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  54% (3143/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  55% (3201/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  56% (3260/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  57% (3318/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  58% (3376/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  59% (3434/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  60% (3492/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  61% (3551/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  62% (3609/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  63% (3667/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  64% (3725/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  65% (3783/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  66% (3842/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  67% (3900/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  68% (3958/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  69% (4016/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  70% (4074/5820), 2.22 MiB | 2.19 MiB/s   Receiving objects:  71% (4133/5820), 3.00 MiB | 1.95 MiB/s   Receiving objects:  72% (4191/5820), 3.00 MiB | 1.95 MiB/s   Receiving objects:  73% (4249/5820), 3.00 MiB | 1.95 MiB/s   Receiving objects:  74% (4307/5820), 3.00 MiB | 1.95 MiB/s   Receiving objects:  75% (4365/5820), 3.00 MiB | 1.95 MiB/s   Receiving objects:  76% (4424/5820), 3.00 MiB | 1.95 MiB/s   Receiving objects:  77% (4482/5820), 3.00 MiB | 1.95 MiB/s   Receiving objects:  78% (4540/5820), 3.00 MiB | 1.95 MiB/s   Receiving objects:  79% (4598/5820), 3.00 MiB | 1.95 MiB/s   Receiving objects:  80% (4656/5820), 3.00 MiB | 1.95 MiB/s   Receiving objects:  81% (4715/5820), 3.00 MiB | 1.95 MiB/s   Receiving objects:  82% (4773/5820), 3.00 MiB | 1.95 MiB/s   Receiving objects:  83% (4831/5820), 3.00 MiB | 1.95 MiB/s   Receiving objects:  84% (4889/5820), 3.00 MiB | 1.95 MiB/s   Receiving objects:  85% (4947/5820), 3.00 MiB | 1.95 MiB/s   Receiving objects:  86% (5006/5820), 3.00 MiB | 1.95 MiB/s   Receiving objects:  87% (5064/5820), 3.00 MiB | 1.95 MiB/s   Receiving objects:  88% (5122/5820), 3.00 MiB | 1.95 MiB/s   Receiving objects:  89% (5180/5820), 3.00 MiB | 1.95 MiB/s   Receiving objects:  90% (5238/5820), 3.00 MiB | 1.95 MiB/s   Receiving objects:  91% (5297/5820), 3.00 MiB | 1.95 MiB/s   Receiving objects:  92% (5355/5820), 3.00 MiB | 1.95 MiB/s   Receiving objects:  93% (5413/5820), 3.00 MiB | 1.95 MiB/s   Receiving objects:  94% (5471/5820), 3.00 MiB | 1.95 MiB/s   Receiving objects:  95% (5529/5820), 3.00 MiB | 1.95 MiB/s   Receiving objects:  96% (5588/5820), 3.00 MiB | 1.95 MiB/s   Receiving objects:  97% (5646/5820), 3.00 MiB | 1.95 MiB/s   Receiving objects:  98% (5704/5820), 3.00 MiB | 1.95 MiB/s   remote: Total 5820 (delta 82), reused 0 (delta 0)[K
-Receiving objects:  99% (5762/5820), 3.00 MiB | 1.95 MiB/s   Receiving objects: 100% (5820/5820), 3.00 MiB | 1.95 MiB/s   Receiving objects: 100% (5820/5820), 4.27 MiB | 1.95 MiB/s, done.
-Resolving deltas:   0% (0/3604)   Resolving deltas:   1% (38/3604)   Resolving deltas:   2% (76/3604)   Resolving deltas:   3% (121/3604)   Resolving deltas:   4% (163/3604)   Resolving deltas:   8% (289/3604)   Resolving deltas:   9% (328/3604)   Resolving deltas:  10% (365/3604)   Resolving deltas:  11% (408/3604)   Resolving deltas:  12% (462/3604)   Resolving deltas:  13% (470/3604)   Resolving deltas:  14% (506/3604)   Resolving deltas:  15% (545/3604)   Resolving deltas:  16% (585/3604)   Resolving deltas:  17% (618/3604)   Resolving deltas:  18% (658/3604)   Resolving deltas:  19% (687/3604)   Resolving deltas:  20% (722/3604)   Resolving deltas:  21% (765/3604)   Resolving deltas:  22% (821/3604)   Resolving deltas:  24% (875/3604)   Resolving deltas:  25% (933/3604)   Resolving deltas:  26% (942/3604)   Resolving deltas:  28% (1021/3604)   Resolving deltas:  31% (1122/3604)   Resolving deltas:  37% (1334/3604)   Resolving deltas:  40% (1457/3604)   Resolving deltas:  42% (1516/3604)   Resolving deltas:  43% (1555/3604)   Resolving deltas:  46% (1689/3604)   Resolving deltas:  47% (1719/3604)   Resolving deltas:  48% (1736/3604)   Resolving deltas:  49% (1767/3604)   Resolving deltas:  50% (1837/3604)   Resolving deltas:  51% (1848/3604)   Resolving deltas:  52% (1893/3604)   Resolving deltas:  55% (1995/3604)   Resolving deltas:  56% (2032/3604)   Resolving deltas:  57% (2058/3604)   Resolving deltas:  58% (2095/3604)   Resolving deltas:  59% (2143/3604)   Resolving deltas:  60% (2190/3604)   Resolving deltas:  61% (2201/3604)   Resolving deltas:  62% (2245/3604)   Resolving deltas:  63% (2277/3604)   Resolving deltas:  65% (2363/3604)   Resolving deltas:  66% (2394/3604)   Resolving deltas:  67% (2427/3604)   Resolving deltas:  68% (2459/3604)   Resolving deltas:  70% (2529/3604)   Resolving deltas:  71% (2562/3604)   Resolving deltas:  72% (2619/3604)   Resolving deltas:  73% (2631/3604)   Resolving deltas:  74% (2674/3604)   Resolving deltas:  76% (2764/3604)   Resolving deltas:  77% (2777/3604)   Resolving deltas:  78% (2821/3604)   Resolving deltas:  79% (2849/3604)   Resolving deltas:  80% (2903/3604)   Resolving deltas:  81% (2924/3604)   Resolving deltas:  82% (2971/3604)   Resolving deltas:  83% (2997/3604)   Resolving deltas:  84% (3037/3604)   Resolving deltas:  85% (3067/3604)   Resolving deltas:  86% (3126/3604)   Resolving deltas:  87% (3139/3604)   Resolving deltas:  88% (3182/3604)   Resolving deltas:  89% (3208/3604)   Resolving deltas:  90% (3246/3604)   Resolving deltas:  91% (3280/3604)   Resolving deltas:  92% (3316/3604)   Resolving deltas:  93% (3359/3604)   Resolving deltas:  94% (3388/3604)   Resolving deltas:  95% (3424/3604)   Resolving deltas:  96% (3461/3604)   Resolving deltas:  97% (3497/3604)   Resolving deltas:  98% (3532/3604)   Resolving deltas:  99% (3577/3604)   Resolving deltas: 100% (3604/3604)   Resolving deltas: 100% (3604/3604), done.
-Checking connectivity... done.
-+ cd mirage-www
-+ export MODE=unix
-+ make configure
-mirage configure src/config.ml  --unix
-[32mMirage[m      [36mUsing specified config file:[m src/config.ml
-[32mMirage[m      [36mCompiling for target:[m Unix
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-www/src/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-www/src/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-www/src && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mwww[m         [36mUsing configuration:[m /home/opam/opam-repository/mirage-www/src/config.ml
-[32mwww[m         1 job [Dispatch.Main]
-[32mwww[m         Installing OPAM packages.
-[32mwww[m         [33m=>[m opam install --yes conduit cow cowabloga crunch cstruct io-page lwt mirage-clock-unix mirage-conduit mirage-console mirage-fs-unix mirage-http mirage-net-unix mirage-types mirage-unix tcpip vchan
-[1;34m[NOTE][m Package crunch is already installed (current version is 1.3.0).
-[1;34m[NOTE][m Package cstruct is already installed (current version is 1.5.0).
-[1;34m[NOTE][m Package io-page is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package lwt is already installed (current version is 2.4.6).
-[1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
-The following actions will be performed:
- - install   fieldslib.109.20.03                   [required by cohttp]
- - install   stringext.1.2.0                       [required by conduit]
- - install   hex.0.1.0                             [required by ezjsonm]
- - install   dyntype.0.9.0                         [required by cow]
- - install   ounit.2.0.0                           [required by mirage-net-unix, cow]
- - install   base64.2.0.0                          [required by cohttp]
- - install   omd.1.2.4                             [required by cowabloga, cow]
- - install   ulex.1.1                              [required by cow]
- - install   mirage-profile.0.4                    [required by tcpip, mirage-unix]
- - install   mirage-clock-unix.1.0.0
- - install   mirage-types-lwt.2.2.0                [required by vchan, mirage-console, mirage-http]
- - install   xmlm.1.2.0                            [required by cow]
- - install   mirage-fs-unix.1.1.3
- - install   uutf.0.9.3                            [required by jsonm]
- - install   xenstore.1.2.5                        [required by vchan]
- - install   uri.1.7.2                             [required by cow, conduit]
- - install   tuntap.1.0.0                          [required by mirage-net-unix]
- - install   shared-memory-ring.1.1.0              [required by mirage-unix]
- - install   jsonm.0.9.1                           [required by ezjsonm]
- - install   xenstore_transport.0.9.4              [required by vchan]
- - install   mirage-net-unix.1.1.1
- - install   mirage-unix.2.1.2
- - install   ezjsonm.0.4.0                         [required by cow]
- - install   vchan.2.0.0
- - install   mirage-console.2.1.0
- - install   cow.1.1.0
- - install   tcpip.2.2.1
- - install   dns.0.12.0                            [required by mirage-dns]
- - install   mirage-dns.2.0.0                      [required by mirage-conduit, conduit]
- - install   conduit.0.7.1
- - install   mirage-conduit.2.0.0
- - install   cohttp.0.15.0                         [required by mirage-http, cowabloga]
- - install   mirage-http.2.1.0
- - install   cowabloga.0.0.9
-=== [33m34[m to install ===
-
-[36m=-=-[m [01mSynchronizing package archives[m [36m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
-[[32mbase64.2.0.0[m] Downloading https://github.com/mirage/ocaml-base64/archive/v2.0.0.tar.gz
-[[32mcohttp.0.15.0[m] Downloading https://github.com/mirage/ocaml-cohttp/archive/v0.15.0.tar.gz
-[[32mconduit.0.7.1[m] Downloading https://github.com/mirage/ocaml-conduit/archive/v0.7.1.tar.gz
-[[32mcow.1.1.0[m] Downloading https://github.com/mirage/ocaml-cow/archive/v1.1.0.tar.gz
-[[32mcowabloga.0.0.9[m] Downloading https://github.com/mirage/cowabloga/archive/v0.0.9.tar.gz
-[[32mdns.0.12.0[m] Downloading https://github.com/mirage/ocaml-dns/archive/v0.12.0.tar.gz
-[[32mdyntype.0.9.0[m] Downloading https://github.com/mirage/dyntype/archive/dyntype-0.9.0.tar.gz
-[[32mezjsonm.0.4.0[m] Downloading https://github.com/mirage/ezjsonm/archive/0.4.0.tar.gz
-[[32mfieldslib.109.20.03[m] Downloading https://ocaml.janestreet.com/ocaml-core/109.20.00/individual/fieldslib-109.20.03.tar.gz
-[[32mhex.0.1.0[m] Downloading https://github.com/mirage/ocaml-hex/archive/0.1.0.tar.gz
-[[32mjsonm.0.9.1[m] Downloading http://erratique.ch/software/jsonm/releases/jsonm-0.9.1.tbz
-[[32mmirage-clock-unix.1.0.0[m] Downloading https://github.com/mirage/mirage-clock/archive/v1.0.0.tar.gz
-[[32mmirage-console.2.1.0[m] Downloading https://github.com/mirage/mirage-console/archive/2.1.0.tar.gz
-[[32mmirage-fs-unix.1.1.3[m] Downloading https://github.com/mirage/mirage-fs-unix/archive/v1.1.3.tar.gz
-[[32mmirage-http.2.1.0[m] Downloading https://github.com/mirage/mirage-http/archive/v2.1.0.tar.gz
-[[32mmirage-net-unix.1.1.1[m] Downloading https://github.com/mirage/mirage-net-unix/archive/v1.1.1.tar.gz
-[[32mmirage-profile.0.4[m] Downloading https://github.com/mirage/mirage-profile/archive/v0.4.tar.gz
-[[32mmirage-unix.2.1.2[m] Downloading https://github.com/mirage/mirage-platform/archive/v2.1.2.tar.gz
-[[32momd.1.2.4[m] Downloading http://pw374.github.io/distrib/omd/omd-1.2.4.tar.gz
-[[32mounit.2.0.0[m] Downloading http://forge.ocamlcore.org/frs/download.php/1258/ounit-2.0.0.tar.gz
-[[32mshared-memory-ring.1.1.0[m] Downloading https://github.com/mirage/shared-memory-ring/archive/1.1.0.tar.gz
-[[32mstringext.1.2.0[m] Downloading https://github.com/rgrinberg/stringext/archive/v1.2.0.tar.gz
-[[32mtcpip.2.2.1[m] Downloading https://github.com/mirage/mirage-tcpip/archive/v2.2.1.tar.gz
-[[32mtuntap.1.0.0[m] Downloading https://github.com/mirage/ocaml-tuntap/archive/v1.0.0.tar.gz
-[[32mulex.1.1[m] Downloading http://ftp.de.debian.org/debian/pool/main/u/ulex/ulex_1.1.orig.tar.gz
-[[32muri.1.7.2[m] Downloading https://github.com/mirage/ocaml-uri/archive/v1.7.2.tar.gz
-[[32muutf.0.9.3[m] Downloading http://erratique.ch/software/uutf/releases/uutf-0.9.3.tbz
-[[32mvchan.2.0.0[m] Downloading https://github.com/mirage/ocaml-vchan/archive/v2.0.0.tar.gz
-[[32mxenstore.1.2.5[m] Downloading https://github.com/mirage/ocaml-xenstore/archive/1.2.5.tar.gz
-[[32mxenstore_transport.0.9.4[m] Downloading https://github.com/djs55/ocaml-xenstore-clients/archive/0.9.4.tar.gz
-[[32mxmlm.1.2.0[m] Downloading http://erratique.ch/software/xmlm/releases/xmlm-1.2.0.tbz
-
-[36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
-Building base64.2.0.0:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.02.1
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing base64.2.0.0.
-Building dyntype.0.9.0:
-  make
-  make install
-Installing dyntype.0.9.0.
-Building fieldslib.109.20.03:
-  make
-  make install
-Installing fieldslib.109.20.03.
-Building hex.0.1.0:
-  make
-  make install
-Installing hex.0.1.0.
-Building mirage-clock-unix.1.0.0:
-  make unix-build
-  make unix-install
-Installing mirage-clock-unix.1.0.0.
-Building mirage-fs-unix.1.1.3:
-  make
-  make install
-Installing mirage-fs-unix.1.1.3.
-Building mirage-profile.0.4:
-  ./configure --prefix /home/opam/.opam/4.02.1 --disable-xen
-  make
-  make install
-Installing mirage-profile.0.4.
-Installing mirage-types-lwt.2.2.0.
-Copying ~/.opam/repo/default/packages/omd/omd.1.2.4/files/omd.install to ~/.opam/4.02.1/build/omd.1.2.4/
-Building omd.1.2.4:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.02.1
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing omd.1.2.4.
-Building ounit.2.0.0:
-  make build
-  make install
-Installing ounit.2.0.0.
-Building stringext.1.2.0:
-  ocaml setup.ml -configure
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing stringext.1.2.0.
-Building ulex.1.1:
-  make
-  make all.opt
-  make install
-Installing ulex.1.1.
-Building uutf.0.9.3:
-  ./pkg/pkg-git
-  ./pkg/build true
-Installing uutf.0.9.3.
-Building xmlm.1.2.0:
-  ./pkg/pkg-git
-  ./pkg/build true
-Installing xmlm.1.2.0.
-Copying ~/.opam/repo/default/packages/jsonm/jsonm.0.9.1/files/jsonm.install to ~/.opam/4.02.1/build/jsonm.0.9.1/
-Building jsonm.0.9.1:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.02.1
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing jsonm.0.9.1.
-Building shared-memory-ring.1.1.0:
-  make all
-  make install
-Installing shared-memory-ring.1.1.0.
-Building tuntap.1.0.0:
-  make PREFIX=/home/opam/.opam/4.02.1
-  make PREFIX=/home/opam/.opam/4.02.1 install
-Installing tuntap.1.0.0.
-Building uri.1.7.2:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.02.1
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing uri.1.7.2.
-Building xenstore.1.2.5:
-  make all
-  make install
-Installing xenstore.1.2.5.
-Building ezjsonm.0.4.0:
-  ./configure --prefix /home/opam/.opam/4.02.1 --enable-lwt
-  make
-  make install
-Installing ezjsonm.0.4.0.
-Building mirage-net-unix.1.1.1:
-  make
-  make install
-Installing mirage-net-unix.1.1.1.
-Building mirage-unix.2.1.2:
-  make unix-build
-  make unix-install PREFIX=/home/opam/.opam/4.02.1
-Installing mirage-unix.2.1.2.
-Building xenstore_transport.0.9.4:
-  make all
-  make install
-Installing xenstore_transport.0.9.4.
-Building cow.1.1.0:
-  make all
-  make install
-Installing cow.1.1.0.
-Building mirage-console.2.1.0:
-  make
-  make install
-Installing mirage-console.2.1.0.
-Building vchan.2.0.0:
-  ./configure
-  make
-  make install
-Installing vchan.2.0.0.
-Building tcpip.2.2.1:
-  ./configure --prefix /home/opam/.opam/4.02.1 --disable-xen
-  make
-  make install
-Installing tcpip.2.2.1.
-Building dns.0.12.0:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.02.1 --enable-lwt --enable-mirage
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing dns.0.12.0.
-Building mirage-dns.2.0.0:
-  ocamlfind query dns.mirage
-Installing mirage-dns.2.0.0.
-Building conduit.0.7.1:
-  make
-  make install
-Installing conduit.0.7.1.
-Building cohttp.0.15.0:
-  make PREFIX=/home/opam/.opam/4.02.1
-  make PREFIX=/home/opam/.opam/4.02.1 install
-Installing cohttp.0.15.0.
-Building mirage-conduit.2.0.0:
-  ocamlfind query conduit.mirage
-Installing mirage-conduit.2.0.0.
-Building cowabloga.0.0.9:
-  make all
-  make install
-Installing cowabloga.0.0.9.
-Building mirage-http.2.1.0:
-  make
-  make install
-Installing mirage-http.2.1.0.
-[32mwww[m         [36mGenerating:[m main.ml
-+ make depend
-cd src && make depend
-make[1]: Entering directory `/home/opam/opam-repository/mirage-www/src'
-opam install conduit cow cowabloga crunch cstruct io-page lwt mirage-clock-unix mirage-conduit mirage-console mirage-fs-unix mirage-http mirage-net-unix mirage-types mirage-unix tcpip vchan --verbose
-[1;34m[NOTE][m Package conduit is already installed (current version is 0.7.1).
-[1;34m[NOTE][m Package cow is already installed (current version is 1.1.0).
-[1;34m[NOTE][m Package cowabloga is already installed (current version is 0.0.9).
-[1;34m[NOTE][m Package crunch is already installed (current version is 1.3.0).
-[1;34m[NOTE][m Package cstruct is already installed (current version is 1.5.0).
-[1;34m[NOTE][m Package io-page is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package lwt is already installed (current version is 2.4.6).
-[1;34m[NOTE][m Package mirage-clock-unix is already installed (current version is 1.0.0).
-[1;34m[NOTE][m Package mirage-conduit is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package mirage-fs-unix is already installed (current version is 1.1.3).
-[1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
-[1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
-[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
-[1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
-[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-www/src'
-+ make build
-cd src && make build
-make[1]: Entering directory `/home/opam/opam-repository/mirage-www/src'
-ocamlbuild -classic-display -use-ocamlfind -pkgs lwt.syntax,conduit.mirage,cow.syntax,cowabloga,cstruct,io-page,io-page.unix,lwt,mirage-clock-unix,mirage-console.unix,mirage-fs-unix,mirage-http,mirage-net-unix,mirage-types,mirage-types.lwt,mirage.runtime,tcpip.stack-direct -tags "syntax(camlp4o),annot,bin_annot,strict_sequence,principal" -tag-line "<static*.*>: -syntax(camlp4o)" -cflag -g -lflags -g,-linkpkg main.native
-ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules main.ml > main.ml.depends
-ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules dispatch.ml > dispatch.ml.depends
-ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules blog.ml > blog.ml.depends
-ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules data.ml > data.ml.depends
-ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules bactrian.ml > bactrian.ml.depends
-ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules paper.ml > paper.ml.depends
-ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules perf.ml > perf.ml.depends
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o bactrian.cmo bactrian.ml
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o paper.cmo paper.ml
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o perf.cmo perf.ml
-ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules pages.ml > pages.ml.depends
-ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules site_config.ml > site_config.ml.depends
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o data.cmo data.ml
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o site_config.cmo site_config.ml
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o pages.cmo pages.ml
-ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules wiki.ml > wiki.ml.depends
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o blog.cmo blog.ml
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o wiki.cmo wiki.ml
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o dispatch.cmo dispatch.ml
-ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o main.cmo main.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o bactrian.cmx bactrian.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o paper.cmx paper.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o perf.cmx perf.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o data.cmx data.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o site_config.cmx site_config.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o pages.cmx pages.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o blog.cmx blog.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o wiki.cmx wiki.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o dispatch.cmx dispatch.ml
-ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o main.cmx main.ml
-ocamlfind ocamlopt -g -linkpkg -linkpkg -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o bactrian.cmx paper.cmx perf.cmx data.cmx site_config.cmx pages.cmx blog.cmx wiki.cmx dispatch.cmx main.cmx -o main.native
-ln -nfs _build/main.native mir-www
-make[1]: Leaving directory `/home/opam/opam-repository/mirage-www/src'
-+ export MODE=xen
-+ make configure
-mirage configure src/config.ml  --xen
-[32mMirage[m      [36mUsing specified config file:[m src/config.ml
-[32mMirage[m      [36mCompiling for target:[m Xen
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-www/src/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-www/src/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-www/src && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mwww[m         [36mUsing configuration:[m /home/opam/opam-repository/mirage-www/src/config.ml
-[32mwww[m         1 job [Dispatch.Main]
-[32mwww[m         Installing OPAM packages.
-[32mwww[m         [33m=>[m opam install --yes conduit cow cowabloga crunch cstruct io-page lwt mirage-clock-xen mirage-conduit mirage-console mirage-http mirage-net-xen mirage-types mirage-xen tcpip vchan xen-evtchn xen-gnt xenstore
-[1;34m[NOTE][m Package conduit is already installed (current version is 0.7.1).
-[1;34m[NOTE][m Package cow is already installed (current version is 1.1.0).
-[1;34m[NOTE][m Package cowabloga is already installed (current version is 0.0.9).
-[1;34m[NOTE][m Package crunch is already installed (current version is 1.3.0).
-[1;34m[NOTE][m Package cstruct is already installed (current version is 1.5.0).
-[1;34m[NOTE][m Package io-page is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package lwt is already installed (current version is 2.4.6).
-[1;34m[NOTE][m Package mirage-conduit is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
-[1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
-[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
-[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
-[31m[ERROR][m mirage-xen is not available because it requires OCaml >= 4.01.0 & < 4.02.0.
-mirage: internal error, uncaught exception:
-        Sys_error("log: No such file or directory")
-        
-make: *** [configure] Error 1
++ sudo docker.io run --rm=true -v /home/opam/is-mirage-broken/scripts:/scripts -t avsm/docker-opam-build:ubuntu-trusty-4.02.1 sh -c /scripts/mirage-www
+Unable to find image 'avsm/docker-opam-build:ubuntu-trusty-4.02.1' locally
+Pulling repository avsm/docker-opam-build
+2015/01/04 03:00:08 Tag ubuntu-trusty-4.02.1 not found in repository avsm/docker-opam-build
