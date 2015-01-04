@@ -1,0 +1,66 @@
++ tag=debian-stable-ocaml-4.01.0
++ script=mirage-www
++ repo=avsm/docker-opam-build
++ docker=docker.io
++ pwd
++ sudo docker.io run --rm=true -v /home/opam/is-mirage-broken/scripts:/scripts -t avsm/docker-opam-build:debian-stable-ocaml-4.01.0 sh -c /scripts/mirage-www
++ export MIRAGE_APPLICATION=www
++ . /scripts/build_mirage
++ [ -z www ]
++ [ -d .git ]
++ git pull
+remote: Counting objects: 36, done.[K
+remote: Compressing objects:   4% (1/23)   [Kremote: Compressing objects:   8% (2/23)   [Kremote: Compressing objects:  13% (3/23)   [Kremote: Compressing objects:  17% (4/23)   [Kremote: Compressing objects:  21% (5/23)   [Kremote: Compressing objects:  26% (6/23)   [Kremote: Compressing objects:  30% (7/23)   [Kremote: Compressing objects:  34% (8/23)   [Kremote: Compressing objects:  39% (9/23)   [Kremote: Compressing objects:  43% (10/23)   [Kremote: Compressing objects:  47% (11/23)   [Kremote: Compressing objects:  52% (12/23)   [Kremote: Compressing objects:  56% (13/23)   [Kremote: Compressing objects:  60% (14/23)   [Kremote: Compressing objects:  65% (15/23)   [Kremote: Compressing objects:  69% (16/23)   [Kremote: Compressing objects:  73% (17/23)   [Kremote: Compressing objects:  78% (18/23)   [Kremote: Compressing objects:  82% (19/23)   [Kremote: Compressing objects:  86% (20/23)   [Kremote: Compressing objects:  91% (21/23)   [Kremote: Compressing objects:  95% (22/23)   [Kremote: Compressing objects: 100% (23/23)   [Kremote: Compressing objects: 100% (23/23), done.[K
+remote: Total 36 (delta 14), reused 27 (delta 12)[K
+Unpacking objects:   2% (1/36)   Unpacking objects:   5% (2/36)   Unpacking objects:   8% (3/36)   Unpacking objects:  11% (4/36)   Unpacking objects:  13% (5/36)   Unpacking objects:  16% (6/36)   Unpacking objects:  19% (7/36)   Unpacking objects:  22% (8/36)   Unpacking objects:  25% (9/36)   Unpacking objects:  27% (10/36)   Unpacking objects:  30% (11/36)   Unpacking objects:  33% (12/36)   Unpacking objects:  36% (13/36)   Unpacking objects:  38% (14/36)   Unpacking objects:  41% (15/36)   Unpacking objects:  44% (16/36)   Unpacking objects:  47% (17/36)   Unpacking objects:  50% (18/36)   Unpacking objects:  52% (19/36)   Unpacking objects:  55% (20/36)   Unpacking objects:  58% (21/36)   Unpacking objects:  61% (22/36)   Unpacking objects:  63% (23/36)   Unpacking objects:  66% (24/36)   Unpacking objects:  69% (25/36)   Unpacking objects:  72% (26/36)   Unpacking objects:  75% (27/36)   Unpacking objects:  77% (28/36)   Unpacking objects:  80% (29/36)   Unpacking objects:  83% (30/36)   Unpacking objects:  86% (31/36)   Unpacking objects:  88% (32/36)   Unpacking objects:  91% (33/36)   Unpacking objects:  94% (34/36)   Unpacking objects:  97% (35/36)   Unpacking objects: 100% (36/36)   Unpacking objects: 100% (36/36), done.
+From git://github.com/ocaml/opam-repository
+   ae314ac..6158f06  master     -> origin/master
+Updating ae314ac..6158f06
+Fast-forward
+ packages/ocaml-src/ocaml-src.3.12.1/opam  |    3 ++-
+ packages/ocaml-src/ocaml-src.4.00.0/opam  |    3 ++-
+ packages/ocaml-src/ocaml-src.4.00.1/opam  |    3 ++-
+ packages/ocaml-src/ocaml-src.4.01.0/descr |    1 +
+ packages/ocaml-src/ocaml-src.4.01.0/opam  |    5 +++++
+ packages/ocaml-src/ocaml-src.4.01.0/url   |    2 ++
+ packages/ocaml-src/ocaml-src.4.02.0/opam  |    3 ++-
+ packages/ocaml-src/ocaml-src.4.02.1/descr |    1 +
+ packages/ocaml-src/ocaml-src.4.02.1/opam  |    5 +++++
+ packages/ocaml-src/ocaml-src.4.02.1/url   |    2 ++
+ packages/ocamlpp/ocamlpp.1.0/opam         |    1 +
+ 11 files changed, 25 insertions(+), 4 deletions(-)
+ create mode 100644 packages/ocaml-src/ocaml-src.4.01.0/descr
+ create mode 100644 packages/ocaml-src/ocaml-src.4.01.0/opam
+ create mode 100644 packages/ocaml-src/ocaml-src.4.01.0/url
+ create mode 100644 packages/ocaml-src/ocaml-src.4.02.1/descr
+ create mode 100644 packages/ocaml-src/ocaml-src.4.02.1/opam
+ create mode 100644 packages/ocaml-src/ocaml-src.4.02.1/url
++ opam remote add mirage git://github.com/mirage/mirage-dev
+[[1;34mmirage[m] Fetching git://github.com/mirage/mirage-dev
+Updating ~/.opam/repo/compiler-index ...
+Updating ~/.opam/compilers/ ...
+Updating ~/.opam/repo/package-index ...
+Updating ~/.opam/packages/ ...
++ opam update -u
+[[1;34mmirage[m] Fetching git://github.com/mirage/mirage-dev
+[[1;34mdefault[m] Synchronizing with /home/opam/opam-repository
+Updating ~/.opam/repo/compiler-index ...
+Updating ~/.opam/compilers/ ...
+Updating ~/.opam/repo/package-index ...
+Updating ~/.opam/packages/ ...
+Already up-to-date.
++ opam installext -j 3 mirage ssl
+++ opam install -j 3 mirage ssl -e debian
+[ERROR] mirage is not available because it requires OCaml >= 4.01.0.
++ depext=
++ echo Debian depexts:
+Debian depexts:
++ '[' '' '!=' '' ']'
+++ opam install -j 3 mirage ssl -e source,linux
+[ERROR] mirage is not available because it requires OCaml >= 4.01.0.
++ srcext=
++ echo Debian srcexts:
+Debian srcexts:
++ '[' '' '!=' '' ']'
++ opam install -j 3 mirage ssl
+[31m[ERROR][m mirage is not available because it requires OCaml >= 4.01.0.

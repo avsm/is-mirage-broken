@@ -1,0 +1,224 @@
++ tag=debian-stable-ocaml-4.02.1
++ script=cohttp
++ repo=avsm/docker-opam-build
++ docker=docker.io
++ pwd
++ sudo docker.io run --rm=true -v /home/opam/is-mirage-broken/scripts:/scripts -t avsm/docker-opam-build:debian-stable-ocaml-4.02.1 sh -c /scripts/cohttp
++ opam remote add mirage git://github.com/mirage/mirage-dev
+[[1;34mmirage[m] Fetching git://github.com/mirage/mirage-dev
+Updating ~/.opam/repo/compiler-index ...
+Updating ~/.opam/compilers/ ...
+Updating ~/.opam/repo/package-index ...
+Updating ~/.opam/packages/ ...
++ opam update -u
+[[1;34mmirage[m] Fetching git://github.com/mirage/mirage-dev
+[[1;34mdefault[m] Synchronizing with /home/opam/opam-repository
+Updating ~/.opam/repo/compiler-index ...
+Updating ~/.opam/compilers/ ...
+Updating ~/.opam/repo/package-index ...
+Updating ~/.opam/packages/ ...
+Already up-to-date.
++ opam installext lwt ssl cohttp
+++ opam install lwt ssl cohttp -e debian
++ depext='libssl-dev m4'
++ echo Debian depexts: libssl-dev m4
+Debian depexts: libssl-dev m4
++ '[' 'libssl-dev m4' '!=' '' ']'
++ sudo apt-get update -y
+0% [Working]            Get:1 http://security.debian.org stable/updates Release.gpg [836 B]
+            100% [Waiting for headers] [1 Release.gpg 836 B/836 B 100%] [Waiting for header                                                                               100% [Waiting for headers] [Waiting for headers]                                                Hit http://download.opensuse.org  Release.gpg
+100% [Waiting for headers] [Waiting for headers]                                                Get:2 http://security.debian.org stable/updates Release [102 kB]
+                                                15% [Waiting for headers] [2 Release 14.2 kB/102 kB 14%] [Waiting for headers]                                                                              31% [2 Release 31.5 kB/102 kB 31%] [Waiting for headers]                                                        100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Hit http://http.debian.net stable Release.gpg
+                                                                      Hit http://download.opensuse.org  Release
+                                                                      100% [Waiting for headers]                          100% [2 Release gpgv 102 kB] [Waiting for headers]                                                  100% [Waiting for headers]                          100% [Release gpgv 989 B] [Waiting for headers] [Waiting for headers]                                                                     100% [Release gpgv 989 B] [Waiting for headers]                                               100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Hit http://security.debian.org stable/updates/main amd64 Packages
+100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Get:3 http://http.debian.net stable-updates Release.gpg [836 B]
+                                                                      100% [Waiting for headers] [Waiting for headers]                                                100% [Packages 0 B] [Waiting for headers] [Waiting for headers]                                                               100% [Waiting for headers] [Waiting for headers]                                                100% [Waiting for headers]                          Hit http://download.opensuse.org  Packages
+                          100% [Waiting for headers] [Waiting for headers]                                                100% [Packages 0 B] [Waiting for headers] [Waiting for headers]                                                               100% [Waiting for headers] [Waiting for headers]                                                Hit http://http.debian.net stable Release
+                                                100% [Waiting for headers]                          100% [Release gpgv 168 kB] [Waiting for headers]                                                100% [Waiting for headers]                          100% [Working]              Get:4 http://http.debian.net stable-updates Release [124 kB]
+              79% [4 Release 13.0 kB/124 kB 11%] [Waiting for headers]                                                        91% [4 Release 76.7 kB/124 kB 62%]                                  100% [Working]              100% [4 Release gpgv 124 kB]                            Hit http://http.debian.net stable/main amd64 Packages
+100% [4 Release gpgv 124 kB]                            100% [Working]              100% [Packages 0 B]                   100% [Packages 7625 kB]                       Get:5 http://http.debian.net stable-updates/main amd64 Packages [3329 B]
+100% [Packages 7625 kB]100% [Packages 7625 kB]100% [Packages 7625 kB]                       100% [Working]100% [Working]              Fetched 231 kB in 2s (102 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 36%Reading package lists... 88%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
++ sudo apt-get install -qq -y build-essential m4
++ sudo apt-get install -qq -y libssl-dev m4
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package zlib1g-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 20036 files and directories currently installed.)
+Unpacking zlib1g-dev:amd64 (from .../zlib1g-dev_1%3a1.2.7.dfsg-13_amd64.deb) ...
+Selecting previously unselected package libssl-dev.
+Unpacking libssl-dev (from .../libssl-dev_1.0.1e-2+deb7u13_amd64.deb) ...
+Selecting previously unselected package libssl-doc.
+Unpacking libssl-doc (from .../libssl-doc_1.0.1e-2+deb7u13_all.deb) ...
+Setting up zlib1g-dev:amd64 (1:1.2.7.dfsg-13) ...
+Setting up libssl-dev (1.0.1e-2+deb7u13) ...
+Setting up libssl-doc (1.0.1e-2+deb7u13) ...
+++ opam install lwt ssl cohttp -e source,linux
++ srcext=
++ echo Debian srcexts:
+Debian srcexts:
++ '[' '' '!=' '' ']'
++ opam install lwt ssl cohttp
+The following actions will be performed:
+ - install   ocamlfind.1.5.5                       [required by ssl, cohttp, lwt]
+ - install   camlp4.4.02.1+system                  [required by lwt]
+ - install   ssl.0.4.7
+ - install   re.1.2.2                              [required by cohttp]
+ - install   ppx_tools.0.99.2                      [required by lwt]
+ - install   cppo.1.1.2                            [required by ocplib-endian]
+ - install   cmdliner.0.9.6                        [required by cohttp]
+ - install   base-bytes.base                       [required by base64]
+ - install   type_conv.112.01.00                   [required by fieldslib]
+ - install   lwt.2.4.6
+ - install   stringext.1.2.0                       [required by cohttp]
+ - install   ocplib-endian.0.8                     [required by cstruct]
+ - install   base64.2.0.0                          [required by cohttp]
+ - install   sexplib.112.06.00                     [required by cohttp]
+ - install   fieldslib.109.20.03                   [required by cohttp]
+ - install   uri.1.7.2                             [required by cohttp]
+ - install   ipaddr.2.5.0                          [required by conduit]
+ - install   cstruct.1.5.0                         [required by conduit]
+ - install   conduit.0.7.1                         [required by cohttp]
+ - install   cohttp.0.15.0
+=== [33m20[m to install ===
+
+[36m=-=-[m [01mSynchronizing package archives[m [36m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+[[32mbase64.2.0.0[m] Downloading https://github.com/mirage/ocaml-base64/archive/v2.0.0.tar.gz
+[[32mcmdliner.0.9.6[m] Downloading http://erratique.ch/software/cmdliner/releases/cmdliner-0.9.6.tbz
+[[32mcohttp.0.15.0[m] Downloading https://github.com/mirage/ocaml-cohttp/archive/v0.15.0.tar.gz
+[[32mconduit.0.7.1[m] Downloading https://github.com/mirage/ocaml-conduit/archive/v0.7.1.tar.gz
+[[32mcppo.1.1.2[m] Downloading http://mjambon.com/releases/cppo/cppo-1.1.2.tar.gz
+[[32mcstruct.1.5.0[m] Downloading https://github.com/mirage/ocaml-cstruct/archive/v1.5.0.tar.gz
+[[32mfieldslib.109.20.03[m] Downloading https://ocaml.janestreet.com/ocaml-core/109.20.00/individual/fieldslib-109.20.03.tar.gz
+[[32mipaddr.2.5.0[m] Downloading https://github.com/mirage/ocaml-ipaddr/archive/2.5.0.tar.gz
+[[32mlwt.2.4.6[m] Downloading https://github.com/ocsigen/lwt/archive/2.4.6.tar.gz
+[[32mocamlfind.1.5.5[m] Downloading http://download.camlcity.org/download/findlib-1.5.5.tar.gz
+[[32mocplib-endian.0.8[m] Downloading https://github.com/OCamlPro/ocplib-endian/archive/0.8.tar.gz
+[[32mppx_tools.0.99.2[m] Downloading http://github.com/alainfrisch/ppx_tools/archive/ppx_tools_0.99.2.tar.gz
+[[32mre.1.2.2[m] Downloading https://github.com/ocaml/ocaml-re/archive/ocaml-re-1.2.2.tar.gz
+[[32msexplib.112.06.00[m] Downloading https://ocaml.janestreet.com/ocaml-core/112.06.00/individual/sexplib-112.06.00.tar.gz
+[[32mssl.0.4.7[m] Downloading http://downloads.sourceforge.net/project/savonet/ocaml-ssl/0.4.7/ocaml-ssl-0.4.7.tar.gz
+[[32mstringext.1.2.0[m] Downloading https://github.com/rgrinberg/stringext/archive/v1.2.0.tar.gz
+[[32mtype_conv.112.01.00[m] Downloading https://ocaml.janestreet.com/ocaml-core/112.01.00/individual/type_conv-112.01.00.tar.gz
+[[32muri.1.7.2[m] Downloading https://github.com/mirage/ocaml-uri/archive/v1.7.2.tar.gz
+
+[36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+Copying ~/.opam/repo/default/packages/camlp4/camlp4.4.02.1+system/files/install to ~/.opam/system/build/camlp4.4.02.1+system/
+Copying ~/.opam/repo/default/packages/camlp4/camlp4.4.02.1+system/files/check-camlp4.sh to ~/.opam/system/build/camlp4.4.02.1+system/
+Building camlp4.4.02.1+system:
+  sh ./check-camlp4.sh
+Installing camlp4.4.02.1+system.
+Copying ~/.opam/repo/default/packages/ocamlfind/ocamlfind.1.5.5/files/ocamlfind.install to ~/.opam/system/build/ocamlfind.1.5.5/
+Building ocamlfind.1.5.5:
+  ./configure -bindir /home/opam/.opam/system/bin -sitelib /home/opam/.opam/system/lib -mandir /home/opam/.opam/system/man -config /home/opam/.opam/system/lib/findlib.conf -no-topfind
+  make all
+  make opt
+  make install
+Installing ocamlfind.1.5.5.
+Installing base-bytes.base.
+Building cmdliner.0.9.6:
+  ocaml pkg/git.ml
+  ocaml pkg/build.ml native=true native-dynlink=true
+Installing cmdliner.0.9.6.
+Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/system/build/cppo.1.1.2/
+Building cppo.1.1.2:
+  make
+  make install-lib
+Installing cppo.1.1.2.
+Building ppx_tools.0.99.2:
+  make all
+  make install
+Installing ppx_tools.0.99.2.
+Building re.1.2.2:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/system
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing re.1.2.2.
+Copying ~/.opam/repo/default/packages/ssl/ssl.0.4.7/files/pkgconfigure to ~/.opam/system/build/ssl.0.4.7/
+Building ssl.0.4.7:
+  ./configure --prefix /home/opam/.opam/system
+  make
+  make install
+Installing ssl.0.4.7.
+Building type_conv.112.01.00:
+  make
+  make install
+Installing type_conv.112.01.00.
+Building base64.2.0.0:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/system
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing base64.2.0.0.
+Building fieldslib.109.20.03:
+  make
+  make install
+Installing fieldslib.109.20.03.
+Copying ~/.opam/repo/default/packages/lwt/lwt.2.4.6/files/patch-ocsigen-lwt-101.diff to ~/.opam/system/build/lwt.2.4.6/
+Building lwt.2.4.6:
+  ./configure --prefix /home/opam/.opam/system --disable-libev --disable-react --enable-ssl --enable-unix --enable-extra --enable-preemptive --disable-glib --enable-ppx
+  make build
+  make install
+Installing lwt.2.4.6.
+Building ocplib-endian.0.8:
+  ocaml setup.ml -configure --disable-debug --prefix /home/opam/.opam/system
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing ocplib-endian.0.8.
+Building sexplib.112.06.00:
+  ./configure --enable-syntax
+  make
+  make install
+Installing sexplib.112.06.00.
+Building stringext.1.2.0:
+  ocaml setup.ml -configure
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing stringext.1.2.0.
+Building cstruct.1.5.0:
+  ./configure --prefix /home/opam/.opam/system --enable-lwt --enable-camlp4 --disable-async --enable-unix --disable-tests
+  make
+  make install
+Installing cstruct.1.5.0.
+Building ipaddr.2.5.0:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/system
+  make build
+  make install
+Installing ipaddr.2.5.0.
+Building uri.1.7.2:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/system
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing uri.1.7.2.
+Building conduit.0.7.1:
+  make
+  make install
+Installing conduit.0.7.1.
+Building cohttp.0.15.0:
+  make PREFIX=/home/opam/.opam/system
+  make PREFIX=/home/opam/.opam/system install
+Installing cohttp.0.15.0.
++ opam list --depends-on cohttp --rec -s
++ deps=bt cowabloga facebook-sdk github imaplet-lwt iocaml irmin merge-queues merge-ropes message-switch mirage-http mirage-http-unix mirage-www ojs-base opam-publish opam-sync-github-prs opium slacko sociaml-facebook-api sociaml-oauth-client sociaml-tumblr-api vhd-tool websocket xapi xapi-forkexecd xapi-idl xapi-libs-transitional xapi-netdev xapi-networkd xapi-rrd-transport xapi-rrdd xapi-rrdd-plugin xapi-squeezed xapi-tapctl xapi-xenops xapi-xenops-cli xapi-xenopsd xe xe-unikernel-upload xen-api-client 
++ opam config env
++ eval CAML_LD_LIBRARY_PATH="/home/opam/.opam/system/lib/stublibs:/usr/lib/ocaml/stublibs"; export CAML_LD_LIBRARY_PATH; MANPATH="/home/opam/.opam/system/man:"; export MANPATH; MAKELEVEL=""; export MAKELEVEL; MAKEFLAGS=""; export MAKEFLAGS; PERL5LIB="/home/opam/.opam/system/lib/perl5"; export PERL5LIB; OCAML_TOPLEVEL_PATH="/home/opam/.opam/system/lib/toplevel"; export OCAML_TOPLEVEL_PATH; PATH="/home/opam/.opam/system/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"; export PATH;
++ CAML_LD_LIBRARY_PATH=/home/opam/.opam/system/lib/stublibs:/usr/lib/ocaml/stublibs
++ export CAML_LD_LIBRARY_PATH
++ MANPATH=/home/opam/.opam/system/man:
++ export MANPATH
++ MAKELEVEL=
++ export MAKELEVEL
++ MAKEFLAGS=
++ export MAKEFLAGS
++ PERL5LIB=/home/opam/.opam/system/lib/perl5
++ export PERL5LIB
++ OCAML_TOPLEVEL_PATH=/home/opam/.opam/system/lib/toplevel
++ export OCAML_TOPLEVEL_PATH
++ PATH=/home/opam/.opam/system/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++ export PATH
++ opam install bt cowabloga facebook-sdk github imaplet-lwt iocaml irmin merge-queues merge-ropes message-switch mirage-http mirage-http-unix mirage-www ojs-base opam-publish opam-sync-github-prs opium slacko sociaml-facebook-api sociaml-oauth-client sociaml-tumblr-api vhd-tool websocket xapi xapi-forkexecd xapi-idl xapi-libs-transitional xapi-netdev xapi-networkd xapi-rrd-transport xapi-rrdd xapi-rrdd-plugin xapi-squeezed xapi-tapctl xapi-xenops xapi-xenops-cli xapi-xenopsd xe xe-unikernel-upload xen-api-client
+The following dependencies couldn't be met:
+  - sociaml-facebook-api[33m -> [mcohttp >= 0.12.0[33m -> [mconduit >= 0.6.0 | conduit >= 0.7.0
+  - merge-queues[33m -> [mirmin = 0.8.3[33m -> [mgit = 1.2.0[33m -> [mconduit = 0.5.1
+Your request can't be satisfied:
+  - Conflicting version constraints for conduit
+
+No solution found, exiting

@@ -1,0 +1,118 @@
++ tag=debian-stable-ocaml-4.02.1
++ script=tls-mvp-server
++ repo=avsm/docker-opam-build
++ docker=docker.io
++ pwd
++ sudo docker.io run --rm=true -v /home/opam/is-mirage-broken/scripts:/scripts -t avsm/docker-opam-build:debian-stable-ocaml-4.02.1 sh -c /scripts/tls-mvp-server
++ opam remote add mirage git://github.com/mirage/mirage-dev
+[[1;34mmirage[m] Fetching git://github.com/mirage/mirage-dev
+Updating ~/.opam/repo/compiler-index ...
+Updating ~/.opam/compilers/ ...
+Updating ~/.opam/repo/package-index ...
+Updating ~/.opam/packages/ ...
++ opam update -u
+[[1;34mmirage[m] Fetching git://github.com/mirage/mirage-dev
+[[1;34mdefault[m] Synchronizing with /home/opam/opam-repository
+Updating ~/.opam/repo/compiler-index ...
+Updating ~/.opam/compilers/ ...
+Updating ~/.opam/repo/package-index ...
+Updating ~/.opam/packages/ ...
+Already up-to-date.
++ opam installext -j 3 mirage tls
+++ opam install -j 3 mirage tls -e debian
++ depext='libffi-dev libgmp-dev m4'
++ echo Debian depexts: libffi-dev libgmp-dev m4
+Debian depexts: libffi-dev libgmp-dev m4
++ '[' 'libffi-dev libgmp-dev m4' '!=' '' ']'
++ sudo apt-get update -y
+0% [Working]            Get:1 http://security.debian.org stable/updates Release.gpg [836 B]
+            100% [Connecting to http.debian.net (46.4.205.44)] [1 Release.gpg 836 B/836 B 1100% [Connecting to http.debian.net (46.4.205.44)] [Connecting to download.open                                                                               Get:2 http://security.debian.org stable/updates Release [102 kB]
+                                                                               15% [Waiting for headers] [2 Release 14.2 kB/102 kB 14%] [Waiting for headers]                                                                              Hit http://download.opensuse.org  Release.gpg
+                                                                              97% [Waiting for headers] [2 Release 99.6 kB/102 kB 97%]                                                        100% [2 Release 102 kB/102 kB 100%] [Waiting for headers]                                                         100% [Waiting for headers] [Waiting for headers]                                                100% [2 Release gpgv 102 kB] [Connecting to mirrors.centarra.com (198.52.129.24                                                                               100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Hit http://http.debian.net stable Release.gpg
+100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Hit http://security.debian.org stable/updates/main amd64 Packages
+                                                                      100% [Waiting for headers] [Waiting for headers]                                                Hit http://download.opensuse.org  Release
+                                                100% [Working]              100% [Packages 0 B] [Release gpgv 989 B] [Waiting for headers]                                                              100% [Packages 291 kB] [Waiting for headers] [Waiting for headers]                                                                  Get:3 http://http.debian.net stable-updates Release.gpg [836 B]
+100% [Packages 291 kB] [Waiting for headers] [Waiting for headers]                                                                  100% [Waiting for headers] [Waiting for headers]                                                100% [Waiting for headers]                          Hit http://download.opensuse.org  Packages
+                          100% [Waiting for headers] [Waiting for headers]                                                100% [Packages 0 B] [Waiting for headers] [Waiting for headers]                                                               100% [Waiting for headers] [Waiting for headers]                                                Hit http://http.debian.net stable Release
+                                                100% [Waiting for headers]                          100% [Release gpgv 168 kB] [Waiting for headers]                                                100% [Waiting for headers]                          100% [Working]              Get:4 http://http.debian.net stable-updates Release [124 kB]
+              79% [4 Release 13.0 kB/124 kB 11%] [Waiting for headers]                                                        91% [4 Release 76.7 kB/124 kB 62%]                                  100% [Working]              100% [4 Release gpgv 124 kB]                            Hit http://http.debian.net stable/main amd64 Packages
+100% [4 Release gpgv 124 kB]                            100% [Working]              100% [Packages 0 B]                   100% [Packages 7625 kB]                       Get:5 http://http.debian.net stable-updates/main amd64 Packages [3329 B]
+100% [Packages 7625 kB]100% [Packages 7625 kB]100% [Packages 7625 kB]                       100% [Working]              100% [5 Packages 3329 B]                        100% [Working]              Fetched 231 kB in 2s (113 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 47%Reading package lists... 82%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
++ sudo apt-get install -qq -y build-essential m4
++ sudo apt-get install -qq -y libffi-dev libgmp-dev m4
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package libgmpxx4ldbl:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 20036 files and directories currently installed.)
+Unpacking libgmpxx4ldbl:amd64 (from .../libgmpxx4ldbl_2%3a5.0.5+dfsg-2_amd64.deb) ...
+Selecting previously unselected package libffi-dev:amd64.
+Unpacking libffi-dev:amd64 (from .../libffi-dev_3.0.10-3_amd64.deb) ...
+Selecting previously unselected package libgmp-dev:amd64.
+Unpacking libgmp-dev:amd64 (from .../libgmp-dev_2%3a5.0.5+dfsg-2_amd64.deb) ...
+Setting up libgmpxx4ldbl:amd64 (2:5.0.5+dfsg-2) ...
+Setting up libffi-dev:amd64 (3.0.10-3) ...
+Setting up libgmp-dev:amd64 (2:5.0.5+dfsg-2) ...
+++ opam install -j 3 mirage tls -e source,linux
++ srcext=
++ echo Debian srcexts:
+Debian srcexts:
++ '[' '' '!=' '' ']'
++ opam install -j 3 mirage tls
+The following actions will be performed:
+ - install   conf-gmp.1                            [required by zarith]
+ - install   ocamlfind.1.5.5                       [required by tls]
+ - install   camlp4.4.02.1+system                  [required by cstruct]
+ - install   zarith.1.3                            [required by nocrypto]
+ - install   re.1.2.2                              [required by mirage]
+ - install   ppx_tools.0.99.2                      [required by lwt]
+ - install   cppo.1.1.2                            [required by ocplib-endian]
+ - install   cmdliner.0.9.6                        [required by mirage]
+ - install   base-bytes.base                       [required by ctypes, ocplib-endian]
+ - install   type_conv.112.01.00                   [required by tls]
+ - install   lwt.2.4.6                             [required by tls, mirage]
+ - install   crunch.1.3.0                          [required by mirage]
+ - install   ocplib-endian.0.8                     [required by cstruct]
+ - install   ctypes.0.3.4                          [required by nocrypto]
+ - install   sexplib.112.06.00                     [required by tls, mirage]
+ - install   ipaddr.2.5.0                          [required by mirage]
+ - install   cstruct.1.5.0                         [required by tls, mirage]
+ - install   nocrypto.0.3.0                        [required by tls]
+ - install   io-page.1.2.0                         [required by mirage]
+ - install   asn1-combinators.0.1.1                [required by x509]
+ - install   mirage-types.2.2.0                    [required by mirage]
+ - install   x509.0.2.1                            [required by tls]
+ - install   mirage.2.2.0
+ - install   tls.0.3.0
+=== [33m24[m to install ===
+
+[36m=-=-[m [01mSynchronizing package archives[m [36m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+[[32masn1-combinators.0.1.1[m] Downloading https://github.com/mirleft/ocaml-asn1-combinators/archive/0.1.1.tar.gz
+[[32mcmdliner.0.9.6[m] Downloading http://erratique.ch/software/cmdliner/releases/cmdliner-0.9.6.tbz
+[[32mcppo.1.1.2[m] Downloading http://mjambon.com/releases/cppo/cppo-1.1.2.tar.gz
+[31m[ERROR][m Wrong checksum for /home/opam/.opam/packages.dev/cppo.1.1.2/cppo-1.1.2.tar.gz:
+  - f1a551639c0c667ee8840d95ea5b2ab7 [expected result]
+  - 92e0128f0a869e9cbb519f232b5a1e5d [actual result]
+This is surely due to outdated package descriptions and should be fixed by running `opam update`.
+In case an update does not fix that problem, you can use the `--no-checksums` command-line option
+to /bypass checking for invalid checksums.
+[31m[ERROR][m http://mjambon.com/releases/cppo/cppo-1.1.2.tar.gz is not available
+[[32mcrunch.1.3.0[m] Downloading https://github.com/mirage/ocaml-crunch/archive/v1.3.0.tar.gz
+[[32mcstruct.1.5.0[m] Downloading https://github.com/mirage/ocaml-cstruct/archive/v1.5.0.tar.gz
+[[32mctypes.0.3.4[m] Downloading https://github.com/ocamllabs/ocaml-ctypes/archive/0.3.4.tar.gz
+[[32mio-page.1.2.0[m] Downloading https://github.com/mirage/io-page/archive/v1.2.0.tar.gz
+[[32mipaddr.2.5.0[m] Downloading https://github.com/mirage/ocaml-ipaddr/archive/2.5.0.tar.gz
+[[32mlwt.2.4.6[m] Downloading https://github.com/ocsigen/lwt/archive/2.4.6.tar.gz
+[[32mmirage.2.2.0[m] Downloading https://github.com/mirage/mirage/archive/v2.2.0.tar.gz
+[[32mmirage-types.2.2.0[m] Downloading https://github.com/mirage/mirage/archive/v2.2.0.tar.gz
+[[32mnocrypto.0.3.0[m] Downloading https://github.com/mirleft/ocaml-nocrypto/archive/0.3.0.tar.gz
+[[32mocamlfind.1.5.5[m] Downloading http://download.camlcity.org/download/findlib-1.5.5.tar.gz
+[[32mocplib-endian.0.8[m] Downloading https://github.com/OCamlPro/ocplib-endian/archive/0.8.tar.gz
+[[32mppx_tools.0.99.2[m] Downloading http://github.com/alainfrisch/ppx_tools/archive/ppx_tools_0.99.2.tar.gz
+[[32mre.1.2.2[m] Downloading https://github.com/ocaml/ocaml-re/archive/ocaml-re-1.2.2.tar.gz
+[[32msexplib.112.06.00[m] Downloading https://ocaml.janestreet.com/ocaml-core/112.06.00/individual/sexplib-112.06.00.tar.gz
+[[32mtls.0.3.0[m] Downloading https://github.com/mirleft/ocaml-tls/archive/0.3.0.tar.gz
+[[32mtype_conv.112.01.00[m] Downloading https://ocaml.janestreet.com/ocaml-core/112.01.00/individual/type_conv-112.01.00.tar.gz
+[[32mx509.0.2.1[m] Downloading https://github.com/mirleft/ocaml-x509/archive/0.2.1.tar.gz
+[[32mzarith.1.3[m] Downloading https://forge.ocamlcore.org/frs/download.php/1471/zarith-1.3.tgz
+[31m[ERROR][m Could not download archives of cppo.1.1.2
+

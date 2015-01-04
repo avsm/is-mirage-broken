@@ -1,0 +1,35 @@
++ tag=debian-stable-ocaml-4.01.0
++ script=tls-mvp-server
++ repo=avsm/docker-opam-build
++ docker=docker.io
++ pwd
++ sudo docker.io run --rm=true -v /home/opam/is-mirage-broken/scripts:/scripts -t avsm/docker-opam-build:debian-stable-ocaml-4.01.0 sh -c /scripts/tls-mvp-server
++ opam remote add mirage git://github.com/mirage/mirage-dev
+[[1;34mmirage[m] Fetching git://github.com/mirage/mirage-dev
+Updating ~/.opam/repo/compiler-index ...
+Updating ~/.opam/compilers/ ...
+Updating ~/.opam/repo/package-index ...
+Updating ~/.opam/packages/ ...
++ opam update -u
+[[1;34mmirage[m] Fetching git://github.com/mirage/mirage-dev
+[[1;34mdefault[m] Synchronizing with /home/opam/opam-repository
+Updating ~/.opam/repo/compiler-index ...
+Updating ~/.opam/compilers/ ...
+Updating ~/.opam/repo/package-index ...
+Updating ~/.opam/packages/ ...
+Already up-to-date.
++ opam installext -j 3 mirage tls
+++ opam install -j 3 mirage tls -e debian
+[ERROR] mirage is not available because it requires OCaml >= 4.01.0.
++ depext=
++ echo Debian depexts:
+Debian depexts:
++ '[' '' '!=' '' ']'
+++ opam install -j 3 mirage tls -e source,linux
+[ERROR] mirage is not available because it requires OCaml >= 4.01.0.
++ srcext=
++ echo Debian srcexts:
+Debian srcexts:
++ '[' '' '!=' '' ']'
++ opam install -j 3 mirage tls
+[31m[ERROR][m mirage is not available because it requires OCaml >= 4.01.0.

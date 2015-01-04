@@ -1,9 +1,9 @@
-+ tag=centos-7-4.01.0
++ tag=centos-7-ocaml-4.01.0
 + script=mirage-skeleton
 + repo=avsm/docker-opam-build
 + docker=docker.io
 + pwd
-+ sudo docker.io run --rm=true -v /home/opam/is-mirage-broken/scripts:/scripts -t avsm/docker-opam-build:centos-7-4.01.0 sh -c /scripts/mirage-skeleton
-Unable to find image 'avsm/docker-opam-build:centos-7-4.01.0' locally
++ sudo docker.io run --rm=true -v /home/opam/is-mirage-broken/scripts:/scripts -t avsm/docker-opam-build:centos-7-ocaml-4.01.0 sh -c /scripts/mirage-skeleton
+Unable to find image 'avsm/docker-opam-build:centos-7-ocaml-4.01.0' locally
 Pulling repository avsm/docker-opam-build
-2015/01/04 03:00:20 Tag centos-7-4.01.0 not found in repository avsm/docker-opam-build
+2015/01/04 17:59:51 Tag centos-7-ocaml-4.01.0 not found in repository avsm/docker-opam-build
