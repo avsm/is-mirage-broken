@@ -9,32 +9,7 @@
 + [ -z skeleton ]
 + [ -d .git ]
 + git pull
-remote: Counting objects: 36, done.[K
-remote: Compressing objects:   4% (1/23)   [Kremote: Compressing objects:   8% (2/23)   [Kremote: Compressing objects:  13% (3/23)   [Kremote: Compressing objects:  17% (4/23)   [Kremote: Compressing objects:  21% (5/23)   [Kremote: Compressing objects:  26% (6/23)   [Kremote: Compressing objects:  30% (7/23)   [Kremote: Compressing objects:  34% (8/23)   [Kremote: Compressing objects:  39% (9/23)   [Kremote: Compressing objects:  43% (10/23)   [Kremote: Compressing objects:  47% (11/23)   [Kremote: Compressing objects:  52% (12/23)   [Kremote: Compressing objects:  56% (13/23)   [Kremote: Compressing objects:  60% (14/23)   [Kremote: Compressing objects:  65% (15/23)   [Kremote: Compressing objects:  69% (16/23)   [Kremote: Compressing objects:  73% (17/23)   [Kremote: Compressing objects:  78% (18/23)   [Kremote: Compressing objects:  82% (19/23)   [Kremote: Compressing objects:  86% (20/23)   [Kremote: Compressing objects:  91% (21/23)   [Kremote: Compressing objects:  95% (22/23)   [Kremote: Compressing objects: 100% (23/23)   [Kremote: Compressing objects: 100% (23/23), done.[K
-remote: Total 36 (delta 14), reused 27 (delta 12)[K
-Unpacking objects:   2% (1/36)   Unpacking objects:   5% (2/36)   Unpacking objects:   8% (3/36)   Unpacking objects:  11% (4/36)   Unpacking objects:  13% (5/36)   Unpacking objects:  16% (6/36)   Unpacking objects:  19% (7/36)   Unpacking objects:  22% (8/36)   Unpacking objects:  25% (9/36)   Unpacking objects:  27% (10/36)   Unpacking objects:  30% (11/36)   Unpacking objects:  33% (12/36)   Unpacking objects:  36% (13/36)   Unpacking objects:  38% (14/36)   Unpacking objects:  41% (15/36)   Unpacking objects:  44% (16/36)   Unpacking objects:  47% (17/36)   Unpacking objects:  50% (18/36)   Unpacking objects:  52% (19/36)   Unpacking objects:  55% (20/36)   Unpacking objects:  58% (21/36)   Unpacking objects:  61% (22/36)   Unpacking objects:  63% (23/36)   Unpacking objects:  66% (24/36)   Unpacking objects:  69% (25/36)   Unpacking objects:  72% (26/36)   Unpacking objects:  75% (27/36)   Unpacking objects:  77% (28/36)   Unpacking objects:  80% (29/36)   Unpacking objects:  83% (30/36)   Unpacking objects:  86% (31/36)   Unpacking objects:  88% (32/36)   Unpacking objects:  91% (33/36)   Unpacking objects:  94% (34/36)   Unpacking objects:  97% (35/36)   Unpacking objects: 100% (36/36)   Unpacking objects: 100% (36/36), done.
-From git://github.com/ocaml/opam-repository
-   ae314ac..6158f06  master     -> origin/master
-Updating ae314ac..6158f06
-Fast-forward
- packages/ocaml-src/ocaml-src.3.12.1/opam  |    3 ++-
- packages/ocaml-src/ocaml-src.4.00.0/opam  |    3 ++-
- packages/ocaml-src/ocaml-src.4.00.1/opam  |    3 ++-
- packages/ocaml-src/ocaml-src.4.01.0/descr |    1 +
- packages/ocaml-src/ocaml-src.4.01.0/opam  |    5 +++++
- packages/ocaml-src/ocaml-src.4.01.0/url   |    2 ++
- packages/ocaml-src/ocaml-src.4.02.0/opam  |    3 ++-
- packages/ocaml-src/ocaml-src.4.02.1/descr |    1 +
- packages/ocaml-src/ocaml-src.4.02.1/opam  |    5 +++++
- packages/ocaml-src/ocaml-src.4.02.1/url   |    2 ++
- packages/ocamlpp/ocamlpp.1.0/opam         |    1 +
- 11 files changed, 25 insertions(+), 4 deletions(-)
- create mode 100644 packages/ocaml-src/ocaml-src.4.01.0/descr
- create mode 100644 packages/ocaml-src/ocaml-src.4.01.0/opam
- create mode 100644 packages/ocaml-src/ocaml-src.4.01.0/url
- create mode 100644 packages/ocaml-src/ocaml-src.4.02.1/descr
- create mode 100644 packages/ocaml-src/ocaml-src.4.02.1/opam
- create mode 100644 packages/ocaml-src/ocaml-src.4.02.1/url
+Already up-to-date.
 + opam remote add mirage git://github.com/mirage/mirage-dev
 [[1;34mmirage[m] Fetching git://github.com/mirage/mirage-dev
 Updating ~/.opam/repo/compiler-index ...
@@ -51,16 +26,373 @@ Updating ~/.opam/packages/ ...
 Already up-to-date.
 + opam installext -j 3 mirage ssl
 ++ opam install -j 3 mirage ssl -e debian
-[ERROR] mirage is not available because it requires OCaml >= 4.01.0.
-+ depext=
-+ echo Debian depexts:
-Debian depexts:
-+ '[' '' '!=' '' ']'
++ depext='libssl-dev m4'
++ echo Debian depexts: libssl-dev m4
+Debian depexts: libssl-dev m4
++ '[' 'libssl-dev m4' '!=' '' ']'
++ sudo apt-get update -y
+0% [Working]            Get:1 http://security.debian.org stable/updates Release.gpg [836 B]
+            100% [Connecting to http.debian.net (46.4.205.44)] [1 Release.gpg 836 B/836 B 1                                                                               100% [Connecting to http.debian.net (46.4.205.44)]                                                  Get:2 http://security.debian.org stable/updates Release [102 kB]
+                                                  15% [Connecting to http.debian.net (46.4.205.44)] [2 Release 14.1 kB/102 kB 14%                                                                               100% [Waiting for headers]                          100% [2 Release gpgv 102 kB] [Waiting for headers]                                                  100% [Waiting for headers]100% [Waiting for headers]                          Hit http://security.debian.org stable/updates/main amd64 Packages
+100% [Waiting for headers]                          100% [Packages 0 B] [Connecting to mirrors.centarra.com (198.52.129.244)] [Wait                                                                               100% [Packages 291 kB] [Connecting to mirrors.centarra.com (198.52.129.244)]                                                                            100% [Connecting to mirrors.centarra.com (198.52.129.244)]                                                          Hit http://http.debian.net stable Release.gpg
+                                                          100% [Working]              100% [Waiting for headers]                          Get:3 http://http.debian.net stable-updates Release.gpg [836 B]
+                          100% [3 Release.gpg 836 B/836 B 100%]                                     100% [Working]              100% [Waiting for headers]100% [Waiting for headers]                          Hit http://http.debian.net stable Release
+                          100% [Working]              100% [Waiting for headers] [Release gpgv 168 kB]                                                100% [Waiting for headers]100% [Waiting for headers]                          Get:4 http://http.debian.net stable-updates Release [124 kB]
+                          79% [4 Release 13.0 kB/124 kB 11%]86% [4 Release 49.2 kB/124 kB 40%]94% [4 Release 94.1 kB/124 kB 76%]                                  100% [Working]              100% [4 Release gpgv 124 kB]                            100% [Waiting for headers]100% [Waiting for headers]                          Hit http://http.debian.net stable/main amd64 Packages
+                          100% [Working]              100% [Packages 0 B] [Waiting for headers]                                         Get:5 http://http.debian.net stable-updates/main amd64 Packages [3329 B]
+                                         100% [Packages 7625 kB]100% [Packages 7625 kB]                       100% [Working]100% [Working]              Fetched 231 kB in 4s (50.3 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 56%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
++ sudo apt-get install -qq -y build-essential m4
++ sudo apt-get install -qq -y libssl-dev m4
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package zlib1g-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 20143 files and directories currently installed.)
+Unpacking zlib1g-dev:amd64 (from .../zlib1g-dev_1%3a1.2.7.dfsg-13_amd64.deb) ...
+Selecting previously unselected package libssl-dev.
+Unpacking libssl-dev (from .../libssl-dev_1.0.1e-2+deb7u13_amd64.deb) ...
+Selecting previously unselected package libssl-doc.
+Unpacking libssl-doc (from .../libssl-doc_1.0.1e-2+deb7u13_all.deb) ...
+Setting up zlib1g-dev:amd64 (1:1.2.7.dfsg-13) ...
+Setting up libssl-dev (1.0.1e-2+deb7u13) ...
+Setting up libssl-doc (1.0.1e-2+deb7u13) ...
 ++ opam install -j 3 mirage ssl -e source,linux
-[ERROR] mirage is not available because it requires OCaml >= 4.01.0.
 + srcext=
 + echo Debian srcexts:
 Debian srcexts:
 + '[' '' '!=' '' ']'
 + opam install -j 3 mirage ssl
-[31m[ERROR][m mirage is not available because it requires OCaml >= 4.01.0.
+The following actions will be performed:
+ - install   ocamlfind.1.5.5                       [required by ssl]
+ - install   camlp4.4.01.0                         [required by cstruct]
+ - install   ssl.0.4.7
+ - install   re.1.2.2                              [required by mirage]
+ - install   cmdliner.0.9.6                        [required by mirage]
+ - install   type_conv.111.13.00                   [required by ipaddr, cstruct]
+ - install   optcomp.1.6                           [required by ocplib-endian]
+ - install   lwt.2.4.5                             [required by mirage]
+ - install   crunch.1.3.0                          [required by mirage]
+ - install   sexplib.111.25.00                     [required by mirage]
+ - install   ocplib-endian.0.4                     [required by cstruct]
+ - install   ipaddr.2.5.0                          [required by mirage]
+ - install   cstruct.1.5.0                         [required by mirage]
+ - install   io-page.1.2.0                         [required by mirage]
+ - install   mirage-types.2.2.0                    [required by mirage]
+ - install   mirage.2.2.0
+=== [33m16[m to install ===
+
+[36m=-=-[m [01mSynchronizing package archives[m [36m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+[[32mcmdliner.0.9.6[m] Downloading http://erratique.ch/software/cmdliner/releases/cmdliner-0.9.6.tbz
+[[32mcrunch.1.3.0[m] Downloading https://github.com/mirage/ocaml-crunch/archive/v1.3.0.tar.gz
+[[32mcstruct.1.5.0[m] Downloading https://github.com/mirage/ocaml-cstruct/archive/v1.5.0.tar.gz
+[[32mio-page.1.2.0[m] Downloading https://github.com/mirage/io-page/archive/v1.2.0.tar.gz
+[[32mipaddr.2.5.0[m] Downloading https://github.com/mirage/ocaml-ipaddr/archive/2.5.0.tar.gz
+[[32mlwt.2.4.5[m] Downloading https://github.com/ocsigen/lwt/archive/2.4.5.tar.gz
+[[32mmirage.2.2.0[m] Downloading https://github.com/mirage/mirage/archive/v2.2.0.tar.gz
+[[32mmirage-types.2.2.0[m] Downloading https://github.com/mirage/mirage/archive/v2.2.0.tar.gz
+[[32mocamlfind.1.5.5[m] Downloading http://download.camlcity.org/download/findlib-1.5.5.tar.gz
+[[32mocplib-endian.0.4[m] Downloading https://github.com/OCamlPro/ocplib-endian/archive/0.4.tar.gz
+[[32moptcomp.1.6[m] Downloading https://github.com/diml/optcomp/archive/1.6.tar.gz
+[[32mre.1.2.2[m] Downloading https://github.com/ocaml/ocaml-re/archive/ocaml-re-1.2.2.tar.gz
+[[32msexplib.111.25.00[m] Downloading https://ocaml.janestreet.com/ocaml-core/111.25.00/individual/sexplib-111.25.00.tar.gz
+[[32mssl.0.4.7[m] Downloading http://downloads.sourceforge.net/project/savonet/ocaml-ssl/0.4.7/ocaml-ssl-0.4.7.tar.gz
+[[32mtype_conv.111.13.00[m] Downloading https://ocaml.janestreet.com/ocaml-core/111.13.00/individual/type_conv-111.13.00.tar.gz
+
+[36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+Installing camlp4.4.01.0.
+Copying ~/.opam/repo/default/packages/ocamlfind/ocamlfind.1.5.5/files/ocamlfind.install to ~/.opam/4.01.0/build/ocamlfind.1.5.5/
+Building ocamlfind.1.5.5:
+  ./configure -bindir /home/opam/.opam/4.01.0/bin -sitelib /home/opam/.opam/4.01.0/lib -mandir /home/opam/.opam/4.01.0/man -config /home/opam/.opam/4.01.0/lib/findlib.conf
+  make all
+  make opt
+  make install
+Installing ocamlfind.1.5.5.
+Building re.1.2.2:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Building optcomp.1.6:
+  ./configure --prefix /home/opam/.opam/4.01.0
+  make
+  make install
+Building cmdliner.0.9.6:
+  ocaml pkg/git.ml
+  ocaml pkg/build.ml native=true native-dynlink=true
+Installing cmdliner.0.9.6.
+Copying ~/.opam/repo/default/packages/ssl/ssl.0.4.7/files/pkgconfigure to ~/.opam/4.01.0/build/ssl.0.4.7/
+Building ssl.0.4.7:
+  ./configure --prefix /home/opam/.opam/4.01.0
+  make
+  make install
+Installing re.1.2.2.
+Building type_conv.111.13.00:
+  make
+  make install
+Installing optcomp.1.6.
+Building crunch.1.3.0:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing ssl.0.4.7.
+Building ocplib-endian.0.4:
+  ocaml setup.ml -configure --disable-debug --prefix /home/opam/.opam/4.01.0
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing type_conv.111.13.00.
+Installing crunch.1.3.0.
+Building lwt.2.4.5:
+  ./configure --disable-libev --disable-react --enable-ssl --enable-unix --enable-extra --enable-preemptive --disable-glib
+  make build
+  make install
+Building sexplib.111.25.00:
+  ./configure --enable-syntax
+  make
+  make install
+Installing ocplib-endian.0.4.
+Installing sexplib.111.25.00.
+Building ipaddr.2.5.0:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
+  make build
+  make install
+Installing ipaddr.2.5.0.
+Installing lwt.2.4.5.
+Building cstruct.1.5.0:
+  ./configure --prefix /home/opam/.opam/4.01.0 --enable-lwt --enable-camlp4 --disable-async --enable-unix --disable-tests
+  make
+  make install
+Installing cstruct.1.5.0.
+Building io-page.1.2.0:
+  ./configure --prefix /home/opam/.opam/4.01.0
+  make
+  make install
+Installing io-page.1.2.0.
+Building mirage-types.2.2.0:
+  make install-types
+Installing mirage-types.2.2.0.
+Building mirage.2.2.0:
+  ./configure --bindir /home/opam/.opam/4.01.0/bin
+  make
+  make install
+Installing mirage.2.2.0.
++ opam config env
++ eval CAML_LD_LIBRARY_PATH="/home/opam/.opam/4.01.0/lib/stublibs"; export CAML_LD_LIBRARY_PATH; MANPATH="/home/opam/.opam/4.01.0/man:"; export MANPATH; MAKELEVEL=""; export MAKELEVEL; MAKEFLAGS=""; export MAKEFLAGS; PERL5LIB="/home/opam/.opam/4.01.0/lib/perl5"; export PERL5LIB; OCAML_TOPLEVEL_PATH="/home/opam/.opam/4.01.0/lib/toplevel"; export OCAML_TOPLEVEL_PATH; PATH="/home/opam/.opam/4.01.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"; export PATH;
++ CAML_LD_LIBRARY_PATH=/home/opam/.opam/4.01.0/lib/stublibs
++ export CAML_LD_LIBRARY_PATH
++ MANPATH=/home/opam/.opam/4.01.0/man:
++ export MANPATH
++ MAKELEVEL=
++ export MAKELEVEL
++ MAKEFLAGS=
++ export MAKEFLAGS
++ PERL5LIB=/home/opam/.opam/4.01.0/lib/perl5
++ export PERL5LIB
++ OCAML_TOPLEVEL_PATH=/home/opam/.opam/4.01.0/lib/toplevel
++ export OCAML_TOPLEVEL_PATH
++ PATH=/home/opam/.opam/4.01.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++ export PATH
++ git clone git://github.com/mirage/mirage-skeleton
+Cloning into 'mirage-skeleton'...
+remote: Counting objects: 1317, done.[K
+Receiving objects:   0% (1/1317)   Receiving objects:   1% (14/1317)   Receiving objects:   2% (27/1317)   Receiving objects:   3% (40/1317)   Receiving objects:   4% (53/1317)   Receiving objects:   5% (66/1317)   Receiving objects:   6% (80/1317)   Receiving objects:   7% (93/1317)   Receiving objects:   8% (106/1317)   Receiving objects:   9% (119/1317)   Receiving objects:  10% (132/1317)   Receiving objects:  11% (145/1317)   Receiving objects:  12% (159/1317)   Receiving objects:  13% (172/1317)   Receiving objects:  14% (185/1317)   Receiving objects:  15% (198/1317)   Receiving objects:  16% (211/1317)   Receiving objects:  17% (224/1317)   Receiving objects:  18% (238/1317)   Receiving objects:  19% (251/1317)   Receiving objects:  20% (264/1317)   Receiving objects:  21% (277/1317)   Receiving objects:  22% (290/1317)   Receiving objects:  23% (303/1317)   Receiving objects:  24% (317/1317)   Receiving objects:  25% (330/1317)   Receiving objects:  26% (343/1317)   Receiving objects:  27% (356/1317)   Receiving objects:  28% (369/1317)   Receiving objects:  29% (382/1317)   Receiving objects:  30% (396/1317)   Receiving objects:  31% (409/1317)   Receiving objects:  32% (422/1317)   Receiving objects:  33% (435/1317)   Receiving objects:  34% (448/1317)   Receiving objects:  35% (461/1317)   Receiving objects:  36% (475/1317)   Receiving objects:  37% (488/1317)   Receiving objects:  38% (501/1317)   Receiving objects:  39% (514/1317)   Receiving objects:  40% (527/1317)   Receiving objects:  41% (540/1317)   Receiving objects:  42% (554/1317)   Receiving objects:  43% (567/1317)   Receiving objects:  44% (580/1317)   Receiving objects:  45% (593/1317)   Receiving objects:  46% (606/1317)   Receiving objects:  47% (619/1317)   Receiving objects:  48% (633/1317)   Receiving objects:  49% (646/1317)   Receiving objects:  50% (659/1317)   Receiving objects:  51% (672/1317)   Receiving objects:  52% (685/1317)   Receiving objects:  53% (699/1317)   Receiving objects:  54% (712/1317)   Receiving objects:  55% (725/1317)   Receiving objects:  56% (738/1317)   Receiving objects:  57% (751/1317)   Receiving objects:  58% (764/1317)   Receiving objects:  59% (778/1317)   Receiving objects:  60% (791/1317)   Receiving objects:  61% (804/1317)   Receiving objects:  62% (817/1317)   Receiving objects:  63% (830/1317)   Receiving objects:  64% (843/1317)   Receiving objects:  65% (857/1317)   Receiving objects:  66% (870/1317)   Receiving objects:  67% (883/1317)   Receiving objects:  68% (896/1317)   Receiving objects:  69% (909/1317)   Receiving objects:  70% (922/1317)   Receiving objects:  71% (936/1317)   Receiving objects:  72% (949/1317)   Receiving objects:  73% (962/1317)   Receiving objects:  74% (975/1317)   Receiving objects:  75% (988/1317)   Receiving objects:  76% (1001/1317)   Receiving objects:  77% (1015/1317)   Receiving objects:  78% (1028/1317)   Receiving objects:  79% (1041/1317)   Receiving objects:  80% (1054/1317)   Receiving objects:  81% (1067/1317)   Receiving objects:  82% (1080/1317)   Receiving objects:  83% (1094/1317)   Receiving objects:  84% (1107/1317)   Receiving objects:  85% (1120/1317)   Receiving objects:  86% (1133/1317)   Receiving objects:  87% (1146/1317)   Receiving objects:  88% (1159/1317)   Receiving objects:  89% (1173/1317)   Receiving objects:  90% (1186/1317)   Receiving objects:  91% (1199/1317)   Receiving objects:  92% (1212/1317)   Receiving objects:  93% (1225/1317)   Receiving objects:  94% (1238/1317)   remote: Total 1317 (delta 0), reused 0 (delta 0)[K
+Receiving objects:  95% (1252/1317)   Receiving objects:  96% (1265/1317)   Receiving objects:  97% (1278/1317)   Receiving objects:  98% (1291/1317)   Receiving objects:  99% (1304/1317)   Receiving objects: 100% (1317/1317)   Receiving objects: 100% (1317/1317), 232.76 KiB, done.
+Resolving deltas:   0% (0/620)   Resolving deltas:   1% (7/620)   Resolving deltas:   6% (42/620)   Resolving deltas:   8% (51/620)   Resolving deltas:   9% (56/620)   Resolving deltas:  12% (75/620)   Resolving deltas:  14% (89/620)   Resolving deltas:  15% (98/620)   Resolving deltas:  16% (103/620)   Resolving deltas:  17% (106/620)   Resolving deltas:  18% (116/620)   Resolving deltas:  19% (123/620)   Resolving deltas:  21% (132/620)   Resolving deltas:  23% (143/620)   Resolving deltas:  24% (149/620)   Resolving deltas:  25% (155/620)   Resolving deltas:  26% (166/620)   Resolving deltas:  27% (169/620)   Resolving deltas:  29% (180/620)   Resolving deltas:  30% (189/620)   Resolving deltas:  31% (194/620)   Resolving deltas:  32% (199/620)   Resolving deltas:  33% (208/620)   Resolving deltas:  34% (211/620)   Resolving deltas:  35% (218/620)   Resolving deltas:  36% (226/620)   Resolving deltas:  37% (232/620)   Resolving deltas:  38% (236/620)   Resolving deltas:  41% (255/620)   Resolving deltas:  56% (348/620)   Resolving deltas:  57% (355/620)   Resolving deltas:  58% (361/620)   Resolving deltas:  61% (382/620)   Resolving deltas:  63% (394/620)   Resolving deltas:  64% (398/620)   Resolving deltas:  65% (408/620)   Resolving deltas:  66% (414/620)   Resolving deltas:  67% (416/620)   Resolving deltas:  70% (435/620)   Resolving deltas:  74% (463/620)   Resolving deltas:  75% (465/620)   Resolving deltas:  79% (493/620)   Resolving deltas:  80% (496/620)   Resolving deltas:  82% (513/620)   Resolving deltas:  83% (516/620)   Resolving deltas:  84% (521/620)   Resolving deltas:  85% (527/620)   Resolving deltas:  87% (543/620)   Resolving deltas:  88% (548/620)   Resolving deltas:  89% (552/620)   Resolving deltas:  90% (562/620)   Resolving deltas:  91% (566/620)   Resolving deltas:  92% (571/620)   Resolving deltas:  95% (594/620)   Resolving deltas:  96% (598/620)   Resolving deltas:  97% (602/620)   Resolving deltas:  98% (611/620)   Resolving deltas:  99% (614/620)   Resolving deltas: 100% (620/620)   Resolving deltas: 100% (620/620), done.
++ cd mirage-skeleton
++ export MODE=unix
++ make configure
+mirage configure console/config.ml --unix 
+[32mMirage[m      [36mUsing specified config file:[m console/config.ml
+[32mMirage[m      [36mCompiling for target:[m Unix
+[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/console/config.ml
+[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/console/_build/config.*
+[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/console && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
+[32mconsole[m     [36mUsing configuration:[m /home/opam/opam-repository/mirage-skeleton/console/config.ml
+[32mconsole[m     1 job [Unikernel.Main]
+[32mconsole[m     Installing OPAM packages.
+[32mconsole[m     [33m=>[m opam install --yes mirage-console mirage-unix
+The following actions will be performed:
+ - install   mirage-clock-unix.1.0.0               [required by mirage-unix]
+ - install   mirage-types-lwt.2.2.0                [required by mirage-console]
+ - install   ounit.2.0.0                           [required by shared-memory-ring]
+ - install   mirage-profile.0.4                    [required by mirage-unix]
+ - install   shared-memory-ring.1.1.0              [required by mirage-unix]
+ - install   mirage-unix.2.1.2
+ - install   mirage-console.2.1.0
+=== [33m7[m to install ===
+
+[36m=-=-[m [01mSynchronizing package archives[m [36m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+[[32mmirage-clock-unix.1.0.0[m] Downloading https://github.com/mirage/mirage-clock/archive/v1.0.0.tar.gz
+[[32mmirage-console.2.1.0[m] Downloading https://github.com/mirage/mirage-console/archive/2.1.0.tar.gz
+[[32mmirage-profile.0.4[m] Downloading https://github.com/mirage/mirage-profile/archive/v0.4.tar.gz
+[[32mmirage-unix.2.1.2[m] Downloading https://github.com/mirage/mirage-platform/archive/v2.1.2.tar.gz
+[[32mounit.2.0.0[m] Downloading http://forge.ocamlcore.org/frs/download.php/1258/ounit-2.0.0.tar.gz
+[[32mshared-memory-ring.1.1.0[m] Downloading https://github.com/mirage/shared-memory-ring/archive/1.1.0.tar.gz
+
+[36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+Building mirage-clock-unix.1.0.0:
+  make unix-build
+  make unix-install
+Installing mirage-clock-unix.1.0.0.
+Building mirage-profile.0.4:
+  ./configure --prefix /home/opam/.opam/4.01.0 --disable-xen
+  make
+  make install
+Installing mirage-profile.0.4.
+Installing mirage-types-lwt.2.2.0.
+Building ounit.2.0.0:
+  make build
+  make install
+Installing ounit.2.0.0.
+Building shared-memory-ring.1.1.0:
+  make all
+  make install
+Installing shared-memory-ring.1.1.0.
+Building mirage-unix.2.1.2:
+  make unix-build
+  make unix-install PREFIX=/home/opam/.opam/4.01.0
+Installing mirage-unix.2.1.2.
+Building mirage-console.2.1.0:
+  make
+  make install
+Installing mirage-console.2.1.0.
+[32mconsole[m     [36mGenerating:[m main.ml
+cd console && make depend
+make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/console'
+opam install mirage-console mirage-unix --verbose
+[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.0).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
+make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/console'
+mirage configure entropy/config.ml --unix 
+[32mMirage[m      [36mUsing specified config file:[m entropy/config.ml
+[32mMirage[m      [36mCompiling for target:[m Unix
+[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/entropy/config.ml
+[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/entropy/_build/config.*
+[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/entropy && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
+[32mconsole[m     [36mUsing configuration:[m /home/opam/opam-repository/mirage-skeleton/entropy/config.ml
+[32mconsole[m     1 job [Unikernel.Main]
+[32mconsole[m     Installing OPAM packages.
+[32mconsole[m     [33m=>[m opam install --yes mirage-console mirage-entropy-unix mirage-unix
+[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.0).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
+The following actions will be performed:
+ - install   mirage-entropy-unix.0.1.6
+=== [33m1[m to install ===
+
+[36m=-=-[m [01mSynchronizing package archives[m [36m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+[[32mmirage-entropy-unix.0.1.6[m] Downloading https://github.com/mirage/mirage-entropy/archive/0.1.6.tar.gz
+
+[36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+Building mirage-entropy-unix.0.1.6:
+  make unix-build
+  make unix-install
+Installing mirage-entropy-unix.0.1.6.
+[32mconsole[m     [36mGenerating:[m main.ml
+cd entropy && make depend
+make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/entropy'
+opam install mirage-console mirage-entropy-unix mirage-unix --verbose
+[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.0).
+[1;34m[NOTE][m Package mirage-entropy-unix is already installed (current version is 0.1.6).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
+make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/entropy'
+mirage configure network/config.ml --unix 
+[32mMirage[m      [36mUsing specified config file:[m network/config.ml
+[32mMirage[m      [36mCompiling for target:[m Unix
+[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/network/config.ml
+[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/network/_build/config.*
+[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/network && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
+[32mnetwork[m     [36mUsing configuration:[m /home/opam/opam-repository/mirage-skeleton/network/config.ml
+[32mnetwork[m     1 job [Unikernel.Main]
+[32mnetwork[m     Installing OPAM packages.
+[32mnetwork[m     [33m=>[m opam install --yes mirage-clock-unix mirage-console mirage-net-unix mirage-unix tcpip
+[1;34m[NOTE][m Package mirage-clock-unix is already installed (current version is 1.0.0).
+[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.0).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
+The following actions will be performed:
+ - install   tuntap.1.0.0                          [required by mirage-net-unix]
+ - install   mirage-net-unix.1.1.1
+ - install   tcpip.2.2.1
+=== [33m3[m to install ===
+
+[36m=-=-[m [01mSynchronizing package archives[m [36m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+[[32mmirage-net-unix.1.1.1[m] Downloading https://github.com/mirage/mirage-net-unix/archive/v1.1.1.tar.gz
+[[32mtcpip.2.2.1[m] Downloading https://github.com/mirage/mirage-tcpip/archive/v2.2.1.tar.gz
+[[32mtuntap.1.0.0[m] Downloading https://github.com/mirage/ocaml-tuntap/archive/v1.0.0.tar.gz
+
+[36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+Building tuntap.1.0.0:
+  make PREFIX=/home/opam/.opam/4.01.0
+  make PREFIX=/home/opam/.opam/4.01.0 install
+Installing tuntap.1.0.0.
+Building mirage-net-unix.1.1.1:
+  make
+  make install
+Installing mirage-net-unix.1.1.1.
+Building tcpip.2.2.1:
+  ./configure --prefix /home/opam/.opam/4.01.0 --disable-xen
+  make
+  make install
+Installing tcpip.2.2.1.
+[32mnetwork[m     [36mGenerating:[m main.ml
+cd network && make depend
+make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/network'
+opam install mirage-clock-unix mirage-console mirage-net-unix mirage-unix tcpip --verbose
+[1;34m[NOTE][m Package mirage-clock-unix is already installed (current version is 1.0.0).
+[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.0).
+[1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
+[1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
+make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/network'
+mirage configure stackv4/config.ml --unix 
+[32mMirage[m      [36mUsing specified config file:[m stackv4/config.ml
+[32mMirage[m      [36mCompiling for target:[m Unix
+[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-skeleton/stackv4/config.ml
+[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-skeleton/stackv4/_build/config.*
+[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-skeleton/stackv4 && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
+[32mstackv4[m     [36mUsing configuration:[m /home/opam/opam-repository/mirage-skeleton/stackv4/config.ml
+[32mstackv4[m     1 job [Unikernel.Main]
+[32mstackv4[m     Installing OPAM packages.
+[32mstackv4[m     [33m=>[m opam install --yes mirage-clock-unix mirage-console mirage-http mirage-net-unix mirage-unix tcpip
+[1;34m[NOTE][m Package mirage-clock-unix is already installed (current version is 1.0.0).
+[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.0).
+[1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.1.2).
+[1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.1).
+The following actions will be performed:
+ - install   fieldslib.109.20.03                   [required by cohttp]
+ - install   xenstore.1.2.5                        [required by vchan]
+ - install   base64.1.0.0                          [required by cohttp]
+ - install   stringext.1.1.0                       [required by cohttp]
+ - install   xenstore_transport.0.9.4              [required by vchan]
+ - install   dns.0.11.0                            [required by mirage-dns]
+ - install   uri.1.7.2                             [required by cohttp]
+ - install   vchan.2.0.0                           [required by mirage-conduit]
+ - install   mirage-dns.2.0.0                      [required by mirage-conduit]
+ - install   conduit.0.7.1                         [required by mirage-conduit, cohttp]
+ - install   mirage-conduit.2.0.0                  [required by mirage-http]
+ - install   cohttp.0.14.0                         [required by mirage-http]
+ - install   mirage-http.2.1.0
+=== [33m13[m to install ===
+
+[36m=-=-[m [01mSynchronizing package archives[m [36m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+[[32mbase64.1.0.0[m] Downloading https://github.com/mirage/ocaml-base64/archive/v1.0.0.tar.gz
+[[32mcohttp.0.14.0[m] Downloading https://github.com/mirage/ocaml-cohttp/archive/v0.14.0.tar.gz
+[[32mconduit.0.7.1[m] Downloading https://github.com/mirage/ocaml-conduit/archive/v0.7.1.tar.gz
+[[32mdns.0.11.0[m] Downloading https://github.com/mirage/ocaml-dns/archive/v0.11.0.tar.gz
+[[32mfieldslib.109.20.03[m] Downloading https://ocaml.janestreet.com/ocaml-core/109.20.00/individual/fieldslib-109.20.03.tar.gz
+[31m[ERROR][m Wrong checksum for /home/opam/.opam/packages.dev/cohttp.0.14.0/v0.14.0.tar.gz:
+  - b53029b397daff2639f555752f9a9b4d [expected result]
+  - 9841ea7065be56c7751cc51e37b93e80 [actual result]
+This is surely due to outdated package descriptions and should be fixed by running `opam update`.
+In case an update does not fix that problem, you can use the `--no-checksums` command-line option
+to /bypass checking for invalid checksums.
+[31m[ERROR][m https://github.com/mirage/ocaml-cohttp/archive/v0.14.0.tar.gz is not available
+[[32mmirage-http.2.1.0[m] Downloading https://github.com/mirage/mirage-http/archive/v2.1.0.tar.gz
+[[32mstringext.1.1.0[m] Downloading https://github.com/rgrinberg/stringext/archive/v1.1.0.tar.gz
+[[32muri.1.7.2[m] Downloading https://github.com/mirage/ocaml-uri/archive/v1.7.2.tar.gz
+[[32mvchan.2.0.0[m] Downloading https://github.com/mirage/ocaml-vchan/archive/v2.0.0.tar.gz
+[[32mxenstore.1.2.5[m] Downloading https://github.com/mirage/ocaml-xenstore/archive/1.2.5.tar.gz
+[[32mxenstore_transport.0.9.4[m] Downloading https://github.com/djs55/ocaml-xenstore-clients/archive/0.9.4.tar.gz
+[31m[ERROR][m Could not download archives of cohttp.0.14.0
+
+mirage: internal error, uncaught exception:
+        Sys_error("log: No such file or directory")
+        
+make: *** [stackv4-configure] Error 1
