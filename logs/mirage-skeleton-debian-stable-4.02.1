@@ -9,16 +9,30 @@
 + [ -z skeleton ]
 + [ -d .git ]
 + git pull
-remote: Counting objects: 14, done.[K
-remote: Compressing objects:   7% (1/14)   [Kremote: Compressing objects:  14% (2/14)   [Kremote: Compressing objects:  21% (3/14)   [Kremote: Compressing objects:  28% (4/14)   [Kremote: Compressing objects:  35% (5/14)   [Kremote: Compressing objects:  42% (6/14)   [Kremote: Compressing objects:  50% (7/14)   [Kremote: Compressing objects:  57% (8/14)   [Kremote: Compressing objects:  64% (9/14)   [Kremote: Compressing objects:  71% (10/14)   [Kremote: Compressing objects:  78% (11/14)   [Kremote: Compressing objects:  85% (12/14)   [Kremote: Compressing objects:  92% (13/14)   [Kremote: Compressing objects: 100% (14/14)   [Kremote: Compressing objects: 100% (14/14), done.[K
-remote: Total 14 (delta 6), reused 0 (delta 0)[K
-Unpacking objects:   7% (1/14)   Unpacking objects:  14% (2/14)   Unpacking objects:  21% (3/14)   Unpacking objects:  28% (4/14)   Unpacking objects:  35% (5/14)   Unpacking objects:  42% (6/14)   Unpacking objects:  50% (7/14)   Unpacking objects:  57% (8/14)   Unpacking objects:  64% (9/14)   Unpacking objects:  71% (10/14)   Unpacking objects:  78% (11/14)   Unpacking objects:  85% (12/14)   Unpacking objects:  92% (13/14)   Unpacking objects: 100% (14/14)   Unpacking objects: 100% (14/14), done.
+remote: Counting objects: 30, done.[K
+remote: Compressing objects:   3% (1/30)   [Kremote: Compressing objects:   6% (2/30)   [Kremote: Compressing objects:  10% (3/30)   [Kremote: Compressing objects:  13% (4/30)   [Kremote: Compressing objects:  16% (5/30)   [Kremote: Compressing objects:  20% (6/30)   [Kremote: Compressing objects:  23% (7/30)   [Kremote: Compressing objects:  26% (8/30)   [Kremote: Compressing objects:  30% (9/30)   [Kremote: Compressing objects:  33% (10/30)   [Kremote: Compressing objects:  36% (11/30)   [Kremote: Compressing objects:  40% (12/30)   [Kremote: Compressing objects:  43% (13/30)   [Kremote: Compressing objects:  46% (14/30)   [Kremote: Compressing objects:  50% (15/30)   [Kremote: Compressing objects:  53% (16/30)   [Kremote: Compressing objects:  56% (17/30)   [Kremote: Compressing objects:  60% (18/30)   [Kremote: Compressing objects:  63% (19/30)   [Kremote: Compressing objects:  66% (20/30)   [Kremote: Compressing objects:  70% (21/30)   [Kremote: Compressing objects:  73% (22/30)   [Kremote: Compressing objects:  76% (23/30)   [Kremote: Compressing objects:  80% (24/30)   [Kremote: Compressing objects:  83% (25/30)   [Kremote: Compressing objects:  86% (26/30)   [Kremote: Compressing objects:  90% (27/30)   [Kremote: Compressing objects:  93% (28/30)   [Kremote: Compressing objects:  96% (29/30)   [Kremote: Compressing objects: 100% (30/30)   [Kremote: Compressing objects: 100% (30/30), done.[K
+remote: Total 30 (delta 10), reused 0 (delta 0)[K
+Unpacking objects:   3% (1/30)   Unpacking objects:   6% (2/30)   Unpacking objects:  10% (3/30)   Unpacking objects:  13% (4/30)   Unpacking objects:  16% (5/30)   Unpacking objects:  20% (6/30)   Unpacking objects:  23% (7/30)   Unpacking objects:  26% (8/30)   Unpacking objects:  30% (9/30)   Unpacking objects:  33% (10/30)   Unpacking objects:  36% (11/30)   Unpacking objects:  40% (12/30)   Unpacking objects:  43% (13/30)   Unpacking objects:  46% (14/30)   Unpacking objects:  50% (15/30)   Unpacking objects:  53% (16/30)   Unpacking objects:  56% (17/30)   Unpacking objects:  60% (18/30)   Unpacking objects:  63% (19/30)   Unpacking objects:  66% (20/30)   Unpacking objects:  70% (21/30)   Unpacking objects:  73% (22/30)   Unpacking objects:  76% (23/30)   Unpacking objects:  80% (24/30)   Unpacking objects:  83% (25/30)   Unpacking objects:  86% (26/30)   Unpacking objects:  90% (27/30)   Unpacking objects:  93% (28/30)   Unpacking objects:  96% (29/30)   Unpacking objects: 100% (30/30)   Unpacking objects: 100% (30/30), done.
 From git://github.com/ocaml/opam-repository
-   6158f06..8ee1a58  master     -> origin/master
-Updating 6158f06..8ee1a58
+   6158f06..41eb73e  master     -> origin/master
+Updating 6158f06..41eb73e
 Fast-forward
- packages/camlp4/camlp4.4.02.0-1modular-implicits/url |    4 ++--
- 1 file changed, 2 insertions(+), 2 deletions(-)
+ .../4.03.0+pr133.comp}                             |    2 +-
+ compilers/4.03.0/4.03.0+pr133/4.03.0+pr133.descr   |    1 +
+ compilers/4.03.0/4.03.0+pr43/4.03.0+pr43.descr     |    1 -
+ .../camlp4/camlp4.4.02.0-1modular-implicits/url    |    4 +--
+ packages/lwt/lwt.2.4.7/descr                       |    5 +++
+ packages/lwt/lwt.2.4.7/findlib                     |    1 +
+ packages/lwt/lwt.2.4.7/opam                        |   34 ++++++++++++++++++++
+ packages/lwt/lwt.2.4.7/url                         |    2 ++
+ 8 files changed, 46 insertions(+), 4 deletions(-)
+ rename compilers/4.03.0/{4.03.0+pr43/4.03.0+pr43.comp => 4.03.0+pr133/4.03.0+pr133.comp} (78%)
+ create mode 100644 compilers/4.03.0/4.03.0+pr133/4.03.0+pr133.descr
+ delete mode 100644 compilers/4.03.0/4.03.0+pr43/4.03.0+pr43.descr
+ create mode 100644 packages/lwt/lwt.2.4.7/descr
+ create mode 100644 packages/lwt/lwt.2.4.7/findlib
+ create mode 100644 packages/lwt/lwt.2.4.7/opam
+ create mode 100644 packages/lwt/lwt.2.4.7/url
 + opam remote add mirage git://github.com/mirage/mirage-dev
 [[1;34mmirage[m] Fetching git://github.com/mirage/mirage-dev
 Updating ~/.opam/repo/compiler-index ...
@@ -30,6 +44,10 @@ Updating ~/.opam/packages/ ...
 [[1;34mdefault[m] Synchronizing with /home/opam/opam-repository
 Updating ~/.opam/repo/compiler-index ...
 Updating ~/.opam/compilers/ ...
+The following NEW compiler is available:
+ - 4.03.0+pr133
+The following compiler description has been DELETED:
+ - 4.03.0+pr43
 Updating ~/.opam/repo/package-index ...
 Updating ~/.opam/packages/ ...
 Already up-to-date.
@@ -41,20 +59,19 @@ Debian depexts: libssl-dev m4
 + '[' 'libssl-dev m4' '!=' '' ']'
 + sudo apt-get update -y
 0% [Working]            Get:1 http://security.debian.org stable/updates Release.gpg [836 B]
-            100% [Waiting for headers] [1 Release.gpg 836 B/836 B 100%] [Waiting for header                                                                               100% [Waiting for headers] [Waiting for headers]100% [Waiting for headers] [Waiting for headers]                                                Get:2 http://security.debian.org stable/updates Release [102 kB]
-                                                15% [Waiting for headers] [2 Release 14.2 kB/102 kB 14%] [Waiting for headers]                                                                              Hit http://download.opensuse.org  Release.gpg
-                                                                              15% [Connecting to mirrors.centarra.com] [Waiting for headers] [2 Release 14.2                                                                                Hit http://http.debian.net stable Release.gpg
-                                                                               31% [Waiting for headers] [2 Release 31.5 kB/102 kB 31%] [Waiting for headers]                                                                              48% [2 Release 48.9 kB/102 kB 48%] [Waiting for headers]                                                        Hit http://download.opensuse.org  Release
-                                                        48% [Waiting for headers] [Waiting for headers] [2 Release 48.9 kB/102 kB 48%]                                                                              Get:3 http://http.debian.net stable-updates Release.gpg [836 B]
-                                                                              49% [Waiting for headers] [2 Release 48.9 kB/102 kB 48%]                                                        63% [Release gpgv 989 B] [Waiting for headers] [2 Release 64.1 kB/102 kB 63%]                                                                             72% [Waiting for headers] [2 Release 73.5 kB/102 kB 72%]                                                        100% [Waiting for headers] [Waiting for headers]                                                100% [2 Release gpgv 102 kB] [Waiting for headers] [Waiting for headers]                                                                        100% [2 Release gpgv 102 kB] [Waiting for headers]                                                  100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Hit http://http.debian.net stable Release
-100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      100% [Release gpgv 168 kB] [Waiting for headers] [Waiting for headers] [Waiting                                                                               100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Hit http://download.opensuse.org  Packages
-                                                                      100% [Waiting for headers] [Waiting for headers]                                                Get:4 http://security.debian.org stable/updates/main amd64 Packages [291 kB]
-                                                34% [Waiting for headers] [4 Packages 31.5 kB/291 kB 11%]                                                         34% [Packages 0 B] [Waiting for headers] [4 Packages 31.5 kB/291 kB 11%]                                                                        35% [Waiting for headers] [4 Packages 31.5 kB/291 kB 11%]                                                         35% [4 Packages 31.5 kB/291 kB 11%]                                   Get:5 http://http.debian.net stable-updates Release [124 kB]
-                                   36% [5 Release 13.0 kB/124 kB 11%] [Waiting for headers] [4 Packages 64.8 kB/29                                                                               58% [5 Release 92.7 kB/124 kB 75%] [4 Packages 102 kB/291 kB 35%]                                                                 72% [4 Packages 143 kB/291 kB 49%]                                  72% [5 Release gpgv 124 kB] [4 Packages 143 kB/291 kB 49%]                                                          72% [Waiting for headers] [4 Packages 143 kB/291 kB 49%]                                                        Hit http://http.debian.net stable/main amd64 Packages
-                                                        72% [4 Packages 143 kB/291 kB 49%]                                  80% [Packages 0 B] [Waiting for headers] [4 Packages 188 kB/291 kB 65%]                                                                       95% [Packages 7625 kB] [4 Packages 263 kB/291 kB 91%]                                                     Get:6 http://http.debian.net stable-updates/main amd64 Packages [3329 B]
-                                                     99% [Packages 7625 kB] [6 Packages 3329 B/3329 B 100%] [4 Packages 283 kB/291 k                                                                               99% [Packages 7625 kB] [4 Packages 283 kB/291 kB 97%]                                                     100% [Packages 7625 kB]100% [Packages 7625 kB]                       100% [Working]              100% [6 Packages 3329 B]                        100% [Working]              100% [4 Packages 291 kB]                        100% [Working]              Fetched 522 kB in 1s (280 kB/s)
-Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 56%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
-W: Size of file /var/lib/apt/lists/security.debian.org_dists_stable_updates_main_binary-amd64_Packages.gz is not what the server reported 290770 290840
+            100% [Connecting to http.debian.net (46.4.205.44)] [1 Release.gpg 836 B/836 B 1100% [Connecting to http.debian.net (46.4.205.44)] [Connecting to download.open                                                                               Get:2 http://security.debian.org stable/updates Release [102 kB]
+15% [Connecting to http.debian.net (46.4.205.44)] [2 Release 14.1 kB/102 kB 14%                                                                               100% [Connecting to http.debian.net (46.4.205.44)] [Waiting for headers]100% [2 Release gpgv 102 kB] [Waiting for headers] [Waiting for headers]                                                                        100% [Waiting for headers] [Waiting for headers]                                                Get:3 http://security.debian.org stable/updates/main amd64 Packages [292 kB]
+                                                31% [Waiting for headers] [3 Packages 18.5 kB/292 kB 6%] [Waiting for headers]                                                                              Hit http://download.opensuse.org  Release.gpg
+                                                                              38% [Waiting for headers] [3 Packages 47.4 kB/292 kB 16%]                                                         62% [Waiting for headers] [3 Packages 143 kB/292 kB 49%] [Waiting for headers]                                                                              100% [Connecting to mirrors.centarra.com (198.52.129.244)] [Waiting for headers                                                                               Hit http://http.debian.net stable Release.gpg
+                                                                               100% [Waiting for headers] [Waiting for headers]                                                100% [3 Packages 291 kB] [Waiting for headers] [Waiting for headers]                                                                    Hit http://download.opensuse.org  Release
+                                                                    100% [3 Packages 292 kB] [Waiting for headers]                                              100% [3 Packages 292 kB] [Release gpgv 989 B] [Waiting for headers]                                                                   100% [3 Packages 292 kB] [Release gpgv 989 B]                                             100% [3 Packages 292 kB] [Waiting for headers] [Waiting for headers]                                                                    100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Get:4 http://http.debian.net stable-updates Release.gpg [836 B]
+                                                                      100% [4 Release.gpg 836 B/836 B 100%] [Waiting for headers] [Waiting for header                                                                               100% [Waiting for headers] [Waiting for headers]                                                Hit http://download.opensuse.org  Packages
+                                                100% [Waiting for headers]                          100% [Working]              100% [Packages 5765 B]                      100% [Waiting for headers] [Waiting for headers]                                                Hit http://http.debian.net stable Release
+                                                100% [Waiting for headers]                          100% [Release gpgv 168 kB] [Waiting for headers]                                                100% [Waiting for headers]                          100% [Working]              Get:5 http://http.debian.net stable-updates Release [124 kB]
+              79% [5 Release 13.0 kB/124 kB 11%] [Waiting for headers]                                                        90% [5 Release 71.0 kB/124 kB 57%]                                  100% [Working]              100% [5 Release gpgv 124 kB]                            100% [Waiting for headers]                          Hit http://http.debian.net stable/main amd64 Packages
+                          100% [Working]              100% [Packages 0 B] [Waiting for headers]                                         100% [Packages 7625 kB]                       Get:6 http://http.debian.net stable-updates/main amd64 Packages [3329 B]
+                       100% [Packages 7625 kB] [6 Packages 3329 B/3329 B 100%]                                                       100% [Packages 7625 kB]100% [Packages 7625 kB]                       100% [Working]              100% [6 Packages 3329 B]                        100% [Working]              Fetched 523 kB in 2s (255 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 30%Reading package lists... 65%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
 + sudo apt-get install -qq -y build-essential m4
 + sudo apt-get install -qq -y libssl-dev m4
 debconf: delaying package configuration, since apt-utils is not installed
@@ -84,7 +101,7 @@ The following actions will be performed:
  - install   cmdliner.0.9.6                        [required by mirage]
  - install   base-bytes.base                       [required by ocplib-endian]
  - install   type_conv.112.01.00                   [required by ipaddr, cstruct]
- - install   lwt.2.4.6                             [required by mirage]
+ - install   lwt.2.4.7                             [required by mirage]
  - install   crunch.1.3.0                          [required by mirage]
  - install   ocplib-endian.0.8                     [required by cstruct]
  - install   sexplib.112.06.00                     [required by mirage]
@@ -102,7 +119,7 @@ The following actions will be performed:
 [[32mcstruct.1.5.0[m] Downloading https://github.com/mirage/ocaml-cstruct/archive/v1.5.0.tar.gz
 [[32mio-page.1.2.0[m] Downloading https://github.com/mirage/io-page/archive/v1.2.0.tar.gz
 [[32mipaddr.2.5.0[m] Downloading https://github.com/mirage/ocaml-ipaddr/archive/2.5.0.tar.gz
-[[32mlwt.2.4.6[m] Downloading https://github.com/ocsigen/lwt/archive/2.4.6.tar.gz
+[[32mlwt.2.4.7[m] Downloading https://github.com/ocsigen/lwt/archive/2.4.7.tar.gz
 [[32mmirage.2.2.0[m] Downloading https://github.com/mirage/mirage/archive/v2.2.0.tar.gz
 [[32mmirage-types.2.2.0[m] Downloading https://github.com/mirage/mirage/archive/v2.2.0.tar.gz
 [[32mocamlfind.1.5.5[m] Downloading http://download.camlcity.org/download/findlib-1.5.5.tar.gz
@@ -142,13 +159,13 @@ Building re.1.2.2:
   ocaml setup.ml -configure --prefix /home/opam/.opam/system
   ocaml setup.ml -build
   ocaml setup.ml -install
+Installing ppx_tools.0.99.2.
 Installing cppo.1.1.2.
 Copying ~/.opam/repo/default/packages/ssl/ssl.0.4.7/files/pkgconfigure to ~/.opam/system/build/ssl.0.4.7/
 Building ssl.0.4.7:
   ./configure --prefix /home/opam/.opam/system
   make
   make install
-Installing ppx_tools.0.99.2.
 Building type_conv.112.01.00:
   make
   make install
@@ -168,9 +185,8 @@ Building sexplib.112.06.00:
   make
   make install
 Installing crunch.1.3.0.
-Copying ~/.opam/repo/default/packages/lwt/lwt.2.4.6/files/patch-ocsigen-lwt-101.diff to ~/.opam/system/build/lwt.2.4.6/
-Building lwt.2.4.6:
-  ./configure --prefix /home/opam/.opam/system --disable-libev --disable-react --enable-ssl --enable-unix --enable-extra --enable-preemptive --disable-glib --enable-ppx
+Building lwt.2.4.7:
+  ./configure --prefix /home/opam/.opam/system --disable-libev --enable-camlp4 --disable-react --enable-ssl --enable-unix --enable-preemptive --disable-glib --enable-ppx
   make build
   make install
 Installing ocplib-endian.0.8.
@@ -180,7 +196,7 @@ Building ipaddr.2.5.0:
   make build
   make install
 Installing ipaddr.2.5.0.
-Installing lwt.2.4.6.
+Installing lwt.2.4.7.
 Building cstruct.1.5.0:
   ./configure --prefix /home/opam/.opam/system --enable-lwt --enable-camlp4 --disable-async --enable-unix --disable-tests
   make
@@ -556,7 +572,7 @@ mirage configure static_website/config.ml --unix
 [1;34m[NOTE][m Package crunch is already installed (current version is 1.3.0).
 [1;34m[NOTE][m Package cstruct is already installed (current version is 1.5.0).
 [1;34m[NOTE][m Package io-page is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package lwt is already installed (current version is 2.4.6).
+[1;34m[NOTE][m Package lwt is already installed (current version is 2.4.7).
 [1;34m[NOTE][m Package mirage-clock-unix is already installed (current version is 1.0.0).
 [1;34m[NOTE][m Package mirage-conduit is already installed (current version is 2.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.0).
@@ -577,7 +593,7 @@ opam install conduit crunch cstruct io-page lwt mirage-clock-unix mirage-conduit
 [1;34m[NOTE][m Package crunch is already installed (current version is 1.3.0).
 [1;34m[NOTE][m Package cstruct is already installed (current version is 1.5.0).
 [1;34m[NOTE][m Package io-page is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package lwt is already installed (current version is 2.4.6).
+[1;34m[NOTE][m Package lwt is already installed (current version is 2.4.7).
 [1;34m[NOTE][m Package mirage-clock-unix is already installed (current version is 1.0.0).
 [1;34m[NOTE][m Package mirage-conduit is already installed (current version is 2.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.0).
@@ -603,7 +619,7 @@ mirage configure dns/config.ml --unix
 [1;34m[NOTE][m Package cstruct is already installed (current version is 1.5.0).
 [1;34m[NOTE][m Package dns is already installed (current version is 0.12.0).
 [1;34m[NOTE][m Package io-page is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package lwt is already installed (current version is 2.4.6).
+[1;34m[NOTE][m Package lwt is already installed (current version is 2.4.7).
 [1;34m[NOTE][m Package mirage-clock-unix is already installed (current version is 1.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.0).
 [1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
@@ -620,7 +636,7 @@ opam install crunch cstruct dns io-page lwt mirage-clock-unix mirage-console mir
 [1;34m[NOTE][m Package cstruct is already installed (current version is 1.5.0).
 [1;34m[NOTE][m Package dns is already installed (current version is 0.12.0).
 [1;34m[NOTE][m Package io-page is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package lwt is already installed (current version is 2.4.6).
+[1;34m[NOTE][m Package lwt is already installed (current version is 2.4.7).
 [1;34m[NOTE][m Package mirage-clock-unix is already installed (current version is 1.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.0).
 [1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
@@ -754,7 +770,7 @@ opam install conduit crunch cstruct io-page lwt mirage-clock-unix mirage-conduit
 [1;34m[NOTE][m Package crunch is already installed (current version is 1.3.0).
 [1;34m[NOTE][m Package cstruct is already installed (current version is 1.5.0).
 [1;34m[NOTE][m Package io-page is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package lwt is already installed (current version is 2.4.6).
+[1;34m[NOTE][m Package lwt is already installed (current version is 2.4.7).
 [1;34m[NOTE][m Package mirage-clock-unix is already installed (current version is 1.0.0).
 [1;34m[NOTE][m Package mirage-conduit is already installed (current version is 2.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.0).
@@ -773,7 +789,7 @@ opam install crunch cstruct dns io-page lwt mirage-clock-unix mirage-console mir
 [1;34m[NOTE][m Package cstruct is already installed (current version is 1.5.0).
 [1;34m[NOTE][m Package dns is already installed (current version is 0.12.0).
 [1;34m[NOTE][m Package io-page is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package lwt is already installed (current version is 2.4.6).
+[1;34m[NOTE][m Package lwt is already installed (current version is 2.4.7).
 [1;34m[NOTE][m Package mirage-clock-unix is already installed (current version is 1.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.0).
 [1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
