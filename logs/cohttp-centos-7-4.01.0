@@ -30,11 +30,11 @@ Loaded plugins: fastestmirror
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 4% [-                ]  0.0 B/s | 287 kB   --:-- ETA updates/7/x86_64/primary_d 19% [===             ] 1.4 MB/s | 1.2 MB   00:03 ETA updates/7/x86_64/primary_d 46% [=======         ] 1.6 MB/s | 2.8 MB   00:01 ETA updates/7/x86_64/primary_d 71% [===========     ] 1.8 MB/s | 4.3 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.0 MB   00:02     
+updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 6% [=                ]  0.0 B/s | 380 kB   --:-- ETA updates/7/x86_64/primary_d 24% [===-            ] 1.8 MB/s | 1.5 MB   00:02 ETA updates/7/x86_64/primary_d 85% [=============-  ] 2.4 MB/s | 5.1 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.0 MB   00:01     
 Loading mirror speeds from cached hostfile
- * base: centos.mbni.med.umich.edu
- * extras: mirror.wiredtree.com
- * updates: centos.mirrors.tds.net
+ * base: mirrors.tripadvisor.com
+ * extras: mirror.ubiquityservers.com
+ * updates: mirror.sanctuaryhost.com
 Resolving Dependencies
 --> Running transaction check
 ---> Package openssl-devel.x86_64 1:1.0.1e-34.el7_0.6 will be installed
@@ -91,10 +91,10 @@ Downloading packages:
 (5/9): zlib-devel-1.2.7-13.el7.x86_64.rpm                  |  49 kB   00:00     
 (6/9): libselinux-devel-2.2.2-6.el7.x86_64.rpm             | 174 kB   00:00     
 (7/9): pcre-devel-8.32-12.el7.x86_64.rpm                   | 477 kB   00:00     
-(8/9): libsepol-devel-2.1.9-3.el7.x86_64.rpm               |  71 kB   00:00     
-(9/9): openssl-devel-1.0.1 54% [========-       ]  0.0 B/s | 1.4 MB   --:-- ETA (9/9): openssl-devel-1.0.1 74% [===========-    ] 644 kB/s | 1.9 MB   00:01 ETA (9/9): openssl-devel-1.0.1e-34.el7_0.6.x86_64.rpm          | 1.2 MB   00:00     
+(9/9): openssl-devel-1.0.1 52% [========        ]  0.0 B/s | 1.4 MB   --:-- ETA (9/9): openssl-devel-1.0.1 68% [===========     ] 518 kB/s | 1.8 MB   00:01 ETA (8/9): openssl-devel-1.0.1e-34.el7_0.6.x86_64.rpm          | 1.2 MB   00:00     
+(9/9): libsepol-devel-2.1.9-3.el7.x86_64.rpm               |  71 kB   00:01     
 --------------------------------------------------------------------------------
-Total                                              1.6 MB/s | 2.6 MB  00:01     
+Total                                              1.4 MB/s | 2.6 MB  00:01     
 Running transaction check
 Running transaction test
 Transaction test succeeded
