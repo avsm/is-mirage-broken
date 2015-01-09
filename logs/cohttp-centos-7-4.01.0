@@ -30,10 +30,9 @@ Loaded plugins: fastestmirror
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 8% [=                ]  0.0 B/s | 494 kB   --:-- ETA updates/7/x86_64/primary_d 35% [=====-          ] 2.5 MB/s | 2.1 MB   00:01 ETA updates/7/x86_64/primary_d 88% [==============  ] 3.0 MB/s | 5.3 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.0 MB   00:01     
 Loading mirror speeds from cached hostfile
- * base: mirror.ubiquityservers.com
- * extras: mirrors.adams.net
+ * base: mirrors.tripadvisor.com
+ * extras: centos.chi.host-engine.com
  * updates: mirror.wiredtree.com
 Resolving Dependencies
 --> Running transaction check
@@ -84,17 +83,17 @@ Install  1 Package (+8 Dependent packages)
 Total download size: 2.6 M
 Installed size: 5.7 M
 Downloading packages:
-(1/9): keyutils-libs-devel-1.5.8-3.el7.x86_64.rpm          |  37 kB   00:00     
+(2/9): krb5-devel-1.11.3-4 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/9): keyutils-libs-devel-1.5.8-3.el7.x86_64.rpm          |  37 kB   00:00     
 (2/9): libverto-devel-0.2.5-4.el7.x86_64.rpm               |  12 kB   00:00     
-(4/9): libcom_err-devel-1. 1% [                 ]  0.0 B/s |  49 kB   --:-- ETA (3/9): libcom_err-devel-1.42.9-4.el7.x86_64.rpm            |  30 kB   00:00     
-(4/9): krb5-devel-1.11.3-49.el7.x86_64.rpm                 | 611 kB   00:00     
-(5/9): zlib-devel-1.2.7-13.el7.x86_64.rpm                  |  49 kB   00:00     
+(3/9): libcom_err-devel-1.42.9-4.el7.x86_64.rpm            |  30 kB   00:00     
+(4/9): libselinux-devel-2.2.2-6.el7.x86_64.rpm             | 174 kB   00:00     
+(5/9): krb5-devel-1.11.3-49.el7.x86_64.rpm                 | 611 kB   00:00     
 (6/9): pcre-devel-8.32-12.el7.x86_64.rpm                   | 477 kB   00:00     
-(7/9): libsepol-devel-2.1.9-3.el7.x86_64.rpm               |  71 kB   00:00     
-(8/9): libselinux-devel-2.2.2-6.el7.x86_64.rpm             | 174 kB   00:00     
-(9/9): openssl-devel-1.0.1 76% [============    ] 1.7 MB/s | 2.0 MB   00:00 ETA (9/9): openssl-devel-1.0.1e-34.el7_0.6.x86_64.rpm          | 1.2 MB   00:00     
+(7/9): zlib-devel-1.2.7-13.el7.x86_64.rpm                  |  49 kB   00:00     
+(9/9): openssl-devel-1.0.1 52% [========        ]  0.0 B/s | 1.4 MB   --:-- ETA (8/9): libsepol-devel-2.1.9-3.el7.x86_64.rpm               |  71 kB   00:00     
+(9/9): openssl-devel-1.0.1 67% [==========-     ] 503 kB/s | 1.8 MB   00:01 ETA (9/9): openssl-devel-1.0.1e-34.el7_0.6.x86_64.rpm          | 1.2 MB   00:00     
 --------------------------------------------------------------------------------
-Total                                              1.8 MB/s | 2.6 MB  00:01     
+Total                                              1.4 MB/s | 2.6 MB  00:01     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -143,7 +142,7 @@ The following actions will be performed:
  - install   cmdliner.0.9.6                        [required by cohttp]
  - install   base-bytes.legacy                     [required by base64]
  - install   type_conv.111.13.00                   [required by fieldslib]
- - install   lwt.2.4.6
+ - install   lwt.2.4.7
  - install   stringext.1.2.0                       [required by cohttp]
  - install   ocplib-endian.0.8                     [required by cstruct]
  - install   base64.2.0.0                          [required by cohttp]
@@ -165,7 +164,7 @@ The following actions will be performed:
 [[32mcstruct.1.5.0[m] Downloading https://github.com/mirage/ocaml-cstruct/archive/v1.5.0.tar.gz
 [[32mfieldslib.109.20.03[m] Downloading https://ocaml.janestreet.com/ocaml-core/109.20.00/individual/fieldslib-109.20.03.tar.gz
 [[32mipaddr.2.5.0[m] Downloading https://github.com/mirage/ocaml-ipaddr/archive/2.5.0.tar.gz
-[[32mlwt.2.4.6[m] Downloading https://github.com/ocsigen/lwt/archive/2.4.6.tar.gz
+[[32mlwt.2.4.7[m] Downloading https://github.com/ocsigen/lwt/archive/2.4.7.tar.gz
 [[32mocamlfind.1.5.5[m] Downloading http://download.camlcity.org/download/findlib-1.5.5.tar.gz
 [[32mocplib-endian.0.8[m] Downloading https://github.com/OCamlPro/ocplib-endian/archive/0.8.tar.gz
 [[32mre.1.2.2[m] Downloading https://github.com/ocaml/ocaml-re/archive/ocaml-re-1.2.2.tar.gz
@@ -219,12 +218,11 @@ Building fieldslib.109.20.03:
   make
   make install
 Installing fieldslib.109.20.03.
-Copying ~/.opam/repo/default/packages/lwt/lwt.2.4.6/files/patch-ocsigen-lwt-101.diff to ~/.opam/4.01.0/build/lwt.2.4.6/
-Building lwt.2.4.6:
-  ./configure --prefix /home/opam/.opam/4.01.0 --disable-libev --disable-react --enable-ssl --enable-unix --enable-extra --enable-preemptive --disable-glib --disable-ppx
+Building lwt.2.4.7:
+  ./configure --prefix /home/opam/.opam/4.01.0 --disable-libev --enable-camlp4 --disable-react --enable-ssl --enable-unix --enable-preemptive --disable-glib --disable-ppx
   make build
   make install
-Installing lwt.2.4.6.
+Installing lwt.2.4.7.
 Building ocplib-endian.0.8:
   ocaml setup.ml -configure --disable-debug --prefix /home/opam/.opam/4.01.0
   ocaml setup.ml -build
@@ -283,7 +281,7 @@ Installing cohttp.0.15.0.
 ++ export PATH
 + opam install bt cowabloga facebook-sdk github imaplet-lwt iocaml irmin ketrew merge-queues merge-ropes message-switch mirage-http mirage-http-unix mirage-http-xen mirage-www opam-publish opam-sync-github-prs opium slacko sociaml-facebook-api sociaml-oauth-client sociaml-tumblr-api vhd-tool websocket xapi xapi-forkexecd xapi-idl xapi-libs-transitional xapi-netdev xapi-networkd xapi-rrd-transport xapi-rrdd xapi-rrdd-plugin xapi-squeezed xapi-tapctl xapi-xenops xapi-xenops-cli xapi-xenopsd xe xe-unikernel-upload xen-api-client
 The following dependencies couldn't be met:
-  - merge-queues[33m -> [mirmin = 0.8.3[33m -> [mgit = 1.2.0[33m -> [mconduit = 0.5.1
+  - merge-ropes[33m -> [mirmin = 0.8.3[33m -> [mgit = 1.2.0[33m -> [mconduit = 0.5.1
   - ketrew[33m -> [mcohttp >= 0.12.0[33m -> [mconduit >= 0.6.0 | conduit >= 0.7.0
 Your request can't be satisfied:
   - Conflicting version constraints for conduit
