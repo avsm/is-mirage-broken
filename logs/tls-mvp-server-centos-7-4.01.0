@@ -31,8 +31,8 @@ Loaded plugins: fastestmirror
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
 Loading mirror speeds from cached hostfile
- * base: centos.hostingxtreme.com
- * extras: centos.chi.host-engine.com
+ * base: mirror.sanctuaryhost.com
+ * extras: mirror.fdcservers.net
  * updates: mirrors.chkhosting.com
 Package 1:gmp-5.1.1-5.el7.x86_64 already installed and latest version
 Resolving Dependencies
@@ -57,10 +57,10 @@ Install  2 Packages
 Total download size: 197 k
 Installed size: 361 k
 Downloading packages:
-(1/2): libffi-devel-3.0.13-11.el7.x86_64.rpm               |  22 kB   00:00     
-(2/2): gmp-devel-5.1.1-5.e 11% [=-              ]  0.0 B/s |  22 kB   --:-- ETA (2/2): gmp-devel-5.1.1-5.el7.x86_64.rpm                    | 175 kB   00:00     
+(2/2): libffi-devel-3.0.13 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/2): gmp-devel-5.1.1-5.el7.x86_64.rpm                    | 175 kB   00:00     
+(2/2): libffi-devel-3.0.13 88% [==============  ]  0.0 B/s | 175 kB   --:-- ETA (2/2): libffi-devel-3.0.13-11.el7.x86_64.rpm               |  22 kB   00:01     
 --------------------------------------------------------------------------------
-Total                                              335 kB/s | 197 kB  00:00     
+Total                                              161 kB/s | 197 kB  00:01     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -142,14 +142,14 @@ Building ocamlfind.1.5.5:
 Installing conf-gmp.1.
 Installing ocamlfind.1.5.5.
 Installing base-bytes.legacy.
-Building lwt.2.4.7:
-  ./configure --prefix /home/opam/.opam/4.01.0 --disable-libev --enable-camlp4 --disable-react --disable-ssl --enable-unix --enable-preemptive --disable-glib --disable-ppx
-  make build
-  make install
 Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/4.01.0/build/cppo.1.1.2/
 Building cppo.1.1.2:
   make
   make install-lib
+Building lwt.2.4.7:
+  ./configure --prefix /home/opam/.opam/4.01.0 --disable-libev --enable-camlp4 --disable-react --disable-ssl --enable-unix --enable-preemptive --disable-glib --disable-ppx
+  make build
+  make install
 Building cmdliner.0.9.6:
   ocaml pkg/git.ml
   ocaml pkg/build.ml native=true native-dynlink=true
@@ -173,10 +173,10 @@ Building crunch.1.3.0:
   ocaml setup.ml -build
   ocaml setup.ml -install
 Installing zarith.1.3.
+Installing crunch.1.3.0.
 Building ctypes.0.3.4:
   make
   make install
-Installing crunch.1.3.0.
 Building ocplib-endian.0.8:
   ocaml setup.ml -configure --disable-debug --prefix /home/opam/.opam/4.01.0
   ocaml setup.ml -build
@@ -189,13 +189,13 @@ Building sexplib.111.25.00:
 Installing ctypes.0.3.4.
 Installing lwt.2.4.7.
 Installing sexplib.111.25.00.
-Building cstruct.1.5.0:
-  ./configure --prefix /home/opam/.opam/4.01.0 --enable-lwt --enable-camlp4 --disable-async --enable-unix --disable-tests
-  make
-  make install
 Building ipaddr.2.5.0:
   ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
   make build
+  make install
+Building cstruct.1.5.0:
+  ./configure --prefix /home/opam/.opam/4.01.0 --enable-lwt --enable-camlp4 --disable-async --enable-unix --disable-tests
+  make
   make install
 Installing ipaddr.2.5.0.
 Installing cstruct.1.5.0.
