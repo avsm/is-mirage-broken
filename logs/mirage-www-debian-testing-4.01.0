@@ -9,25 +9,30 @@
 + [ -z www ]
 + [ -d .git ]
 + git pull
-remote: Counting objects: 269, done.[K
-remote: Compressing objects:   0% (1/262)   [Kremote: Compressing objects:   1% (3/262)   [Kremote: Compressing objects:   2% (6/262)   [Kremote: Compressing objects:   3% (8/262)   [Kremote: Compressing objects:   4% (11/262)   [Kremote: Compressing objects:   5% (14/262)   [Kremote: Compressing objects:   6% (16/262)   [Kremote: Compressing objects:   7% (19/262)   [Kremote: Compressing objects:   8% (21/262)   [Kremote: Compressing objects:   9% (24/262)   [Kremote: Compressing objects:  10% (27/262)   [Kremote: Compressing objects:  11% (29/262)   [Kremote: Compressing objects:  12% (32/262)   [Kremote: Compressing objects:  13% (35/262)   [Kremote: Compressing objects:  14% (37/262)   [Kremote: Compressing objects:  15% (40/262)   [Kremote: Compressing objects:  16% (42/262)   [Kremote: Compressing objects:  17% (45/262)   [Kremote: Compressing objects:  18% (48/262)   [Kremote: Compressing objects:  19% (50/262)   [Kremote: Compressing objects:  20% (53/262)   [Kremote: Compressing objects:  21% (56/262)   [Kremote: Compressing objects:  22% (58/262)   [Kremote: Compressing objects:  23% (61/262)   [Kremote: Compressing objects:  24% (63/262)   [Kremote: Compressing objects:  25% (66/262)   [Kremote: Compressing objects:  26% (69/262)   [Kremote: Compressing objects:  27% (71/262)   [Kremote: Compressing objects:  28% (74/262)   [Kremote: Compressing objects:  29% (76/262)   [Kremote: Compressing objects:  30% (79/262)   [Kremote: Compressing objects:  31% (82/262)   [Kremote: Compressing objects:  32% (84/262)   [Kremote: Compressing objects:  33% (87/262)   [Kremote: Compressing objects:  34% (90/262)   [Kremote: Compressing objects:  35% (92/262)   [Kremote: Compressing objects:  36% (95/262)   [Kremote: Compressing objects:  37% (97/262)   [Kremote: Compressing objects:  38% (100/262)   [Kremote: Compressing objects:  39% (103/262)   [Kremote: Compressing objects:  40% (105/262)   [Kremote: Compressing objects:  41% (108/262)   [Kremote: Compressing objects:  42% (111/262)   [Kremote: Compressing objects:  43% (113/262)   [Kremote: Compressing objects:  44% (116/262)   [Kremote: Compressing objects:  45% (118/262)   [Kremote: Compressing objects:  46% (121/262)   [Kremote: Compressing objects:  47% (124/262)   [Kremote: Compressing objects:  48% (126/262)   [Kremote: Compressing objects:  49% (129/262)   [Kremote: Compressing objects:  50% (131/262)   [Kremote: Compressing objects:  51% (134/262)   [Kremote: Compressing objects:  52% (137/262)   [Kremote: Compressing objects:  53% (139/262)   [Kremote: Compressing objects:  54% (142/262)   [Kremote: Compressing objects:  55% (145/262)   [Kremote: Compressing objects:  56% (147/262)   [Kremote: Compressing objects:  57% (150/262)   [Kremote: Compressing objects:  58% (152/262)   [Kremote: Compressing objects:  59% (155/262)   [Kremote: Compressing objects:  60% (158/262)   [Kremote: Compressing objects:  61% (160/262)   [Kremote: Compressing objects:  62% (163/262)   [Kremote: Compressing objects:  63% (166/262)   [Kremote: Compressing objects:  64% (168/262)   [Kremote: Compressing objects:  65% (171/262)   [Kremote: Compressing objects:  66% (173/262)   [Kremote: Compressing objects:  67% (176/262)   [Kremote: Compressing objects:  68% (179/262)   [Kremote: Compressing objects:  69% (181/262)   [Kremote: Compressing objects:  70% (184/262)   [Kremote: Compressing objects:  71% (187/262)   [Kremote: Compressing objects:  72% (189/262)   [Kremote: Compressing objects:  73% (192/262)   [Kremote: Compressing objects:  74% (194/262)   [Kremote: Compressing objects:  75% (197/262)   [Kremote: Compressing objects:  76% (200/262)   [Kremote: Compressing objects:  77% (202/262)   [Kremote: Compressing objects:  78% (205/262)   [Kremote: Compressing objects:  79% (207/262)   [Kremote: Compressing objects:  80% (210/262)   [Kremote: Compressing objects:  81% (213/262)   [Kremote: Compressing objects:  82% (215/262)   [Kremote: Compressing objects:  83% (218/262)   [Kremote: Compressing objects:  84% (221/262)   [Kremote: Compressing objects:  85% (223/262)   [Kremote: Compressing objects:  86% (226/262)   [Kremote: Compressing objects:  87% (228/262)   [Kremote: Compressing objects:  88% (231/262)   [Kremote: Compressing objects:  89% (234/262)   [Kremote: Compressing objects:  90% (236/262)   [Kremote: Compressing objects:  91% (239/262)   [Kremote: Compressing objects:  92% (242/262)   [Kremote: Compressing objects:  93% (244/262)   [Kremote: Compressing objects:  94% (247/262)   [Kremote: Compressing objects:  95% (249/262)   [Kremote: Compressing objects:  96% (252/262)   [Kremote: Compressing objects:  97% (255/262)   [Kremote: Compressing objects:  98% (257/262)   [Kremote: Compressing objects:  99% (260/262)   [Kremote: Compressing objects: 100% (262/262)   [Kremote: Compressing objects: 100% (262/262), done.[K
-remote: Total 269 (delta 106), reused 8 (delta 0)[K
-Receiving objects:   0% (1/269)   Receiving objects:   1% (3/269)   Receiving objects:   2% (6/269)   Receiving objects:   3% (9/269)   Receiving objects:   4% (11/269)   Receiving objects:   5% (14/269)   Receiving objects:   6% (17/269)   Receiving objects:   7% (19/269)   Receiving objects:   8% (22/269)   Receiving objects:   9% (25/269)   Receiving objects:  10% (27/269)   Receiving objects:  11% (30/269)   Receiving objects:  12% (33/269)   Receiving objects:  13% (35/269)   Receiving objects:  14% (38/269)   Receiving objects:  15% (41/269)   Receiving objects:  16% (44/269)   Receiving objects:  17% (46/269)   Receiving objects:  18% (49/269)   Receiving objects:  19% (52/269)   Receiving objects:  20% (54/269)   Receiving objects:  21% (57/269)   Receiving objects:  22% (60/269)   Receiving objects:  23% (62/269)   Receiving objects:  24% (65/269)   Receiving objects:  25% (68/269)   Receiving objects:  26% (70/269)   Receiving objects:  27% (73/269)   Receiving objects:  28% (76/269)   Receiving objects:  29% (79/269)   Receiving objects:  30% (81/269)   Receiving objects:  31% (84/269)   Receiving objects:  32% (87/269)   Receiving objects:  33% (89/269)   Receiving objects:  34% (92/269)   Receiving objects:  35% (95/269)   Receiving objects:  36% (97/269)   Receiving objects:  37% (100/269)   Receiving objects:  38% (103/269)   Receiving objects:  39% (105/269)   Receiving objects:  40% (108/269)   Receiving objects:  41% (111/269)   Receiving objects:  42% (113/269)   Receiving objects:  43% (116/269)   Receiving objects:  44% (119/269)   Receiving objects:  45% (122/269)   Receiving objects:  46% (124/269)   Receiving objects:  47% (127/269)   Receiving objects:  48% (130/269)   Receiving objects:  49% (132/269)   Receiving objects:  50% (135/269)   Receiving objects:  51% (138/269)   Receiving objects:  52% (140/269)   Receiving objects:  53% (143/269)   Receiving objects:  54% (146/269)   Receiving objects:  55% (148/269)   Receiving objects:  56% (151/269)   Receiving objects:  57% (154/269)   Receiving objects:  58% (157/269)   Receiving objects:  59% (159/269)   Receiving objects:  60% (162/269)   Receiving objects:  61% (165/269)   Receiving objects:  62% (167/269)   Receiving objects:  63% (170/269)   Receiving objects:  64% (173/269)   Receiving objects:  65% (175/269)   Receiving objects:  66% (178/269)   Receiving objects:  67% (181/269)   Receiving objects:  68% (183/269)   Receiving objects:  69% (186/269)   Receiving objects:  70% (189/269)   Receiving objects:  71% (191/269)   Receiving objects:  72% (194/269)   Receiving objects:  73% (197/269)   Receiving objects:  74% (200/269)   Receiving objects:  75% (202/269)   Receiving objects:  76% (205/269)   Receiving objects:  77% (208/269)   Receiving objects:  78% (210/269)   Receiving objects:  79% (213/269)   Receiving objects:  80% (216/269)   Receiving objects:  81% (218/269)   Receiving objects:  82% (221/269)   Receiving objects:  83% (224/269)   Receiving objects:  84% (226/269)   Receiving objects:  85% (229/269)   Receiving objects:  86% (232/269)   Receiving objects:  87% (235/269)   Receiving objects:  88% (237/269)   Receiving objects:  89% (240/269)   Receiving objects:  90% (243/269)   Receiving objects:  91% (245/269)   Receiving objects:  92% (248/269)   Receiving objects:  93% (251/269)   Receiving objects:  94% (253/269)   Receiving objects:  95% (256/269)   Receiving objects:  96% (259/269)   Receiving objects:  97% (261/269)   Receiving objects:  98% (264/269)   Receiving objects:  99% (267/269)   Receiving objects: 100% (269/269)   Receiving objects: 100% (269/269), 56.01 KiB | 0 bytes/s, done.
-Resolving deltas:   0% (0/106)   Resolving deltas:  29% (31/106)   Resolving deltas:  30% (32/106)   Resolving deltas:  31% (33/106)   Resolving deltas:  32% (34/106)   Resolving deltas:  33% (35/106)   Resolving deltas:  34% (37/106)   Resolving deltas:  44% (47/106)   Resolving deltas:  47% (50/106)   Resolving deltas:  49% (52/106)   Resolving deltas:  58% (62/106)   Resolving deltas:  59% (63/106)   Resolving deltas:  60% (64/106)   Resolving deltas:  61% (65/106)   Resolving deltas:  62% (66/106)   Resolving deltas:  64% (68/106)   Resolving deltas:  65% (69/106)   Resolving deltas:  66% (70/106)   Resolving deltas:  68% (73/106)   Resolving deltas:  69% (74/106)   Resolving deltas:  70% (75/106)   Resolving deltas:  72% (77/106)   Resolving deltas:  73% (78/106)   Resolving deltas:  74% (79/106)   Resolving deltas:  75% (80/106)   Resolving deltas: 100% (106/106)   Resolving deltas: 100% (106/106), done.
+remote: Counting objects: 321, done.[K
+remote: Compressing objects:   0% (1/205)   [Kremote: Compressing objects:   1% (3/205)   [Kremote: Compressing objects:   2% (5/205)   [Kremote: Compressing objects:   3% (7/205)   [Kremote: Compressing objects:   4% (9/205)   [Kremote: Compressing objects:   5% (11/205)   [Kremote: Compressing objects:   6% (13/205)   [Kremote: Compressing objects:   7% (15/205)   [Kremote: Compressing objects:   8% (17/205)   [Kremote: Compressing objects:   9% (19/205)   [Kremote: Compressing objects:  10% (21/205)   [Kremote: Compressing objects:  11% (23/205)   [Kremote: Compressing objects:  12% (25/205)   [Kremote: Compressing objects:  13% (27/205)   [Kremote: Compressing objects:  14% (29/205)   [Kremote: Compressing objects:  15% (31/205)   [Kremote: Compressing objects:  16% (33/205)   [Kremote: Compressing objects:  17% (35/205)   [Kremote: Compressing objects:  18% (37/205)   [Kremote: Compressing objects:  19% (39/205)   [Kremote: Compressing objects:  20% (41/205)   [Kremote: Compressing objects:  21% (44/205)   [Kremote: Compressing objects:  22% (46/205)   [Kremote: Compressing objects:  23% (48/205)   [Kremote: Compressing objects:  24% (50/205)   [Kremote: Compressing objects:  25% (52/205)   [Kremote: Compressing objects:  26% (54/205)   [Kremote: Compressing objects:  27% (56/205)   [Kremote: Compressing objects:  28% (58/205)   [Kremote: Compressing objects:  29% (60/205)   [Kremote: Compressing objects:  30% (62/205)   [Kremote: Compressing objects:  31% (64/205)   [Kremote: Compressing objects:  32% (66/205)   [Kremote: Compressing objects:  33% (68/205)   [Kremote: Compressing objects:  34% (70/205)   [Kremote: Compressing objects:  35% (72/205)   [Kremote: Compressing objects:  36% (74/205)   [Kremote: Compressing objects:  37% (76/205)   [Kremote: Compressing objects:  38% (78/205)   [Kremote: Compressing objects:  39% (80/205)   [Kremote: Compressing objects:  40% (82/205)   [Kremote: Compressing objects:  41% (85/205)   [Kremote: Compressing objects:  42% (87/205)   [Kremote: Compressing objects:  43% (89/205)   [Kremote: Compressing objects:  44% (91/205)   [Kremote: Compressing objects:  45% (93/205)   [Kremote: Compressing objects:  46% (95/205)   [Kremote: Compressing objects:  47% (97/205)   [Kremote: Compressing objects:  48% (99/205)   [Kremote: Compressing objects:  49% (101/205)   [Kremote: Compressing objects:  50% (103/205)   [Kremote: Compressing objects:  51% (105/205)   [Kremote: Compressing objects:  52% (107/205)   [Kremote: Compressing objects:  53% (109/205)   [Kremote: Compressing objects:  54% (111/205)   [Kremote: Compressing objects:  55% (113/205)   [Kremote: Compressing objects:  56% (115/205)   [Kremote: Compressing objects:  57% (117/205)   [Kremote: Compressing objects:  58% (119/205)   [Kremote: Compressing objects:  59% (121/205)   [Kremote: Compressing objects:  60% (123/205)   [Kremote: Compressing objects:  61% (126/205)   [Kremote: Compressing objects:  62% (128/205)   [Kremote: Compressing objects:  63% (130/205)   [Kremote: Compressing objects:  64% (132/205)   [Kremote: Compressing objects:  65% (134/205)   [Kremote: Compressing objects:  66% (136/205)   [Kremote: Compressing objects:  67% (138/205)   [Kremote: Compressing objects:  68% (140/205)   [Kremote: Compressing objects:  69% (142/205)   [Kremote: Compressing objects:  70% (144/205)   [Kremote: Compressing objects:  71% (146/205)   [Kremote: Compressing objects:  72% (148/205)   [Kremote: Compressing objects:  73% (150/205)   [Kremote: Compressing objects:  74% (152/205)   [Kremote: Compressing objects:  75% (154/205)   [Kremote: Compressing objects:  76% (156/205)   [Kremote: Compressing objects:  77% (158/205)   [Kremote: Compressing objects:  78% (160/205)   [Kremote: Compressing objects:  79% (162/205)   [Kremote: Compressing objects:  80% (164/205)   [Kremote: Compressing objects:  81% (167/205)   [Kremote: Compressing objects:  82% (169/205)   [Kremote: Compressing objects:  83% (171/205)   [Kremote: Compressing objects:  84% (173/205)   [Kremote: Compressing objects:  85% (175/205)   [Kremote: Compressing objects:  86% (177/205)   [Kremote: Compressing objects:  87% (179/205)   [Kremote: Compressing objects:  88% (181/205)   [Kremote: Compressing objects:  89% (183/205)   [Kremote: Compressing objects:  90% (185/205)   [Kremote: Compressing objects:  91% (187/205)   [Kremote: Compressing objects:  92% (189/205)   [Kremote: Compressing objects:  93% (191/205)   [Kremote: Compressing objects:  94% (193/205)   [Kremote: Compressing objects:  95% (195/205)   [Kremote: Compressing objects:  96% (197/205)   [Kremote: Compressing objects:  97% (199/205)   [Kremote: Compressing objects:  98% (201/205)   [Kremote: Compressing objects:  99% (203/205)   [Kremote: Compressing objects: 100% (205/205)   [Kremote: Compressing objects: 100% (205/205), done.[K
+remote: Total 321 (delta 140), reused 243 (delta 109)[K
+Receiving objects:   0% (1/321)   Receiving objects:   1% (4/321)   Receiving objects:   2% (7/321)   Receiving objects:   3% (10/321)   Receiving objects:   4% (13/321)   Receiving objects:   5% (17/321)   Receiving objects:   6% (20/321)   Receiving objects:   7% (23/321)   Receiving objects:   8% (26/321)   Receiving objects:   9% (29/321)   Receiving objects:  10% (33/321)   Receiving objects:  11% (36/321)   Receiving objects:  12% (39/321)   Receiving objects:  13% (42/321)   Receiving objects:  14% (45/321)   Receiving objects:  15% (49/321)   Receiving objects:  16% (52/321)   Receiving objects:  17% (55/321)   Receiving objects:  18% (58/321)   Receiving objects:  19% (61/321)   Receiving objects:  20% (65/321)   Receiving objects:  21% (68/321)   Receiving objects:  22% (71/321)   Receiving objects:  23% (74/321)   Receiving objects:  24% (78/321)   Receiving objects:  25% (81/321)   Receiving objects:  26% (84/321)   Receiving objects:  27% (87/321)   Receiving objects:  28% (90/321)   Receiving objects:  29% (94/321)   Receiving objects:  30% (97/321)   Receiving objects:  31% (100/321)   Receiving objects:  32% (103/321)   Receiving objects:  33% (106/321)   Receiving objects:  34% (110/321)   Receiving objects:  35% (113/321)   Receiving objects:  36% (116/321)   Receiving objects:  37% (119/321)   Receiving objects:  38% (122/321)   Receiving objects:  39% (126/321)   Receiving objects:  40% (129/321)   Receiving objects:  41% (132/321)   Receiving objects:  42% (135/321)   Receiving objects:  43% (139/321)   Receiving objects:  44% (142/321)   Receiving objects:  45% (145/321)   Receiving objects:  46% (148/321)   Receiving objects:  47% (151/321)   Receiving objects:  48% (155/321)   Receiving objects:  49% (158/321)   Receiving objects:  50% (161/321)   Receiving objects:  51% (164/321)   Receiving objects:  52% (167/321)   Receiving objects:  53% (171/321)   Receiving objects:  54% (174/321)   Receiving objects:  55% (177/321)   Receiving objects:  56% (180/321)   Receiving objects:  57% (183/321)   Receiving objects:  58% (187/321)   Receiving objects:  59% (190/321)   Receiving objects:  60% (193/321)   Receiving objects:  61% (196/321)   Receiving objects:  62% (200/321)   Receiving objects:  63% (203/321)   Receiving objects:  64% (206/321)   Receiving objects:  65% (209/321)   Receiving objects:  66% (212/321)   Receiving objects:  67% (216/321)   Receiving objects:  68% (219/321)   Receiving objects:  69% (222/321)   Receiving objects:  70% (225/321)   Receiving objects:  71% (228/321)   Receiving objects:  72% (232/321)   Receiving objects:  73% (235/321)   Receiving objects:  74% (238/321)   Receiving objects:  75% (241/321)   Receiving objects:  76% (244/321)   Receiving objects:  77% (248/321)   Receiving objects:  78% (251/321)   Receiving objects:  79% (254/321)   Receiving objects:  80% (257/321)   Receiving objects:  81% (261/321)   Receiving objects:  82% (264/321)   Receiving objects:  83% (267/321)   Receiving objects:  84% (270/321)   Receiving objects:  85% (273/321)   Receiving objects:  86% (277/321)   Receiving objects:  87% (280/321)   Receiving objects:  88% (283/321)   Receiving objects:  89% (286/321)   Receiving objects:  90% (289/321)   Receiving objects:  91% (293/321)   Receiving objects:  92% (296/321)   Receiving objects:  93% (299/321)   Receiving objects:  94% (302/321)   Receiving objects:  95% (305/321)   Receiving objects:  96% (309/321)   Receiving objects:  97% (312/321)   Receiving objects:  98% (315/321)   Receiving objects:  99% (318/321)   Receiving objects: 100% (321/321)   Receiving objects: 100% (321/321), 62.39 KiB | 0 bytes/s, done.
+Resolving deltas:   0% (0/140)   Resolving deltas:   1% (2/140)   Resolving deltas:   2% (4/140)   Resolving deltas:   4% (6/140)   Resolving deltas:   5% (7/140)   Resolving deltas:   6% (9/140)   Resolving deltas:   8% (12/140)   Resolving deltas:   9% (13/140)   Resolving deltas:  10% (14/140)   Resolving deltas:  12% (17/140)   Resolving deltas:  15% (21/140)   Resolving deltas:  16% (23/140)   Resolving deltas:  17% (25/140)   Resolving deltas:  18% (26/140)   Resolving deltas:  20% (29/140)   Resolving deltas:  49% (69/140)   Resolving deltas:  50% (71/140)   Resolving deltas:  51% (72/140)   Resolving deltas:  52% (73/140)   Resolving deltas:  59% (83/140)   Resolving deltas:  68% (96/140)   Resolving deltas:  69% (97/140)   Resolving deltas:  70% (99/140)   Resolving deltas:  72% (102/140)   Resolving deltas:  75% (105/140)   Resolving deltas:  78% (110/140)   Resolving deltas:  80% (112/140)   Resolving deltas:  81% (114/140)   Resolving deltas: 100% (140/140)   Resolving deltas: 100% (140/140), done.
 From git://github.com/ocaml/opam-repository
-   f8945d5..5937ae9  master     -> origin/master
-Updating f8945d5..5937ae9
+   f8945d5..6dd3531  master     -> origin/master
+Updating f8945d5..6dd3531
 Fast-forward
- compilers/4.02.1/4.02.1+BER/4.02.1+BER.comp        | 16 [32m++++++++++++++[m
+ compilers/4.02.1/4.02.1+BER/4.02.1+BER.comp        | 16 [32m++++++[m
  compilers/4.02.1/4.02.1+BER/4.02.1+BER.descr       |  1 [32m+[m
+ .../4.02.1+musl+static/4.02.1+musl+static.comp     |  2 [32m+[m[31m-[m
+ compilers/4.02.1/4.02.1+musl/4.02.1+musl.comp      |  2 [32m+[m[31m-[m
  compilers/4.03.0/4.03.0+pr134/4.03.0+pr134.descr   |  1 [31m-[m
  .../4.03.0+pr46.comp}                              |  2 [32m+[m[31m-[m
  compilers/4.03.0/4.03.0+pr46/4.03.0+pr46.descr     |  1 [32m+[m
- packages/batsh/batsh.0.0.5/opam                    |  2 [32m++[m
+ packages/batsh/batsh.0.0.5/opam                    |  2 [32m+[m
  packages/camlzip/camlzip.1.04/opam                 |  1 [32m+[m
  packages/camlzip/camlzip.1.05/opam                 |  1 [32m+[m
  packages/cohttp/cohttp.0.12.0/url                  |  2 [32m+[m[31m-[m
  packages/cohttp/cohttp.0.14.0/url                  |  2 [32m+[m[31m-[m
+ packages/cohttp/cohttp.0.15.1/descr                |  9 [32m++++[m
+ packages/cohttp/cohttp.0.15.1/opam                 | 61 [32m++++++++++++++++++++++[m
+ packages/cohttp/cohttp.0.15.1/url                  |  2 [32m+[m
  packages/coinst/coinst.1.9.1/opam                  |  1 [32m+[m
  packages/conf-libpcre/conf-libpcre.1/opam          |  1 [32m+[m
  packages/core_kernel/core_kernel.109.27.00/opam    |  2 [32m+[m[31m-[m
@@ -65,8 +70,9 @@ Fast-forward
  packages/cryptokit/cryptokit.1.7/opam              |  1 [32m+[m
  packages/cryptokit/cryptokit.1.9/opam              |  1 [32m+[m
  packages/git/git.1.2.0/opam                        |  2 [32m+[m[31m-[m
- packages/git/git.1.3.0/opam                        |  3 [32m+++[m
+ packages/git/git.1.3.0/opam                        |  3 [32m++[m
  packages/gtk-light/gtk-light.0.0.1/opam            |  1 [32m+[m
+ packages/iocaml/iocaml.0.4.6/opam                  |  2 [32m+[m[31m-[m
  .../mirage-console-unix.1.0.0/opam                 |  2 [32m+[m[31m-[m
  packages/mirage-types/mirage-types.1.1.0/opam      |  2 [32m+[m[31m-[m
  packages/mirage-types/mirage-types.1.1.1/opam      |  2 [32m+[m[31m-[m
@@ -78,10 +84,10 @@ Fast-forward
  packages/mirage-types/mirage-types.2.1.0/opam      |  2 [32m+[m[31m-[m
  packages/mirage-types/mirage-types.2.1.1/opam      |  2 [32m+[m[31m-[m
  packages/mirage-types/mirage-types.2.2.0/opam      |  2 [32m+[m[31m-[m
- packages/oasis2opam/oasis2opam.0.5.1/descr         |  5 [32m+++++[m
- .../oasis2opam.0.5.1/files/oasis2opam.install      |  4 [32m++++[m
- packages/oasis2opam/oasis2opam.0.5.1/opam          | 19 [32m++++++++++++++++[m
- packages/oasis2opam/oasis2opam.0.5.1/url           |  2 [32m++[m
+ packages/oasis2opam/oasis2opam.0.5.1/descr         |  5 [32m++[m
+ .../oasis2opam.0.5.1/files/oasis2opam.install      |  4 [32m++[m
+ packages/oasis2opam/oasis2opam.0.5.1/opam          | 19 [32m+++++++[m
+ packages/oasis2opam/oasis2opam.0.5.1/url           |  2 [32m+[m
  packages/ocplib-endian/ocplib-endian.0.2/opam      |  2 [32m+[m[31m-[m
  packages/ocplib-endian/ocplib-endian.0.3/opam      |  2 [32m+[m[31m-[m
  packages/ocplib-endian/ocplib-endian.0.4/opam      |  2 [32m+[m[31m-[m
@@ -100,24 +106,38 @@ Fast-forward
  packages/ocurl/ocurl.0.7.1/opam                    |  1 [32m+[m
  packages/ocurl/ocurl.0.7.2/opam                    |  1 [32m+[m
  packages/ppx_monadic/ppx_monadic.1.0.0/url         |  2 [32m+[m[31m-[m
- packages/ppx_monadic/ppx_monadic.1.0.1/descr       |  9 [32m++++++++[m
- packages/ppx_monadic/ppx_monadic.1.0.1/opam        | 17 [32m+++++++++++++++[m
- packages/ppx_monadic/ppx_monadic.1.0.1/url         |  2 [32m++[m
- packages/sill/sill.1.2/descr                       |  3 [32m+++[m
- packages/sill/sill.1.2/files/sill.install          |  4 [32m++++[m
- packages/sill/sill.1.2/opam                        | 22 [32m+++++++++++++++++++[m
- packages/sill/sill.1.2/url                         |  2 [32m++[m
- packages/syndic/syndic.1.2/descr                   |  4 [32m++++[m
+ packages/ppx_monadic/ppx_monadic.1.0.1/descr       |  9 [32m++++[m
+ packages/ppx_monadic/ppx_monadic.1.0.1/opam        | 17 [32m++++++[m
+ packages/ppx_monadic/ppx_monadic.1.0.1/url         |  2 [32m+[m
+ .../shared-memory-ring.1.1.1/descr                 |  3 [32m++[m
+ .../shared-memory-ring.1.1.1/findlib               |  1 [32m+[m
+ .../shared-memory-ring.1.1.1/opam                  | 18 [32m+++++++[m
+ .../shared-memory-ring.1.1.1/url                   |  2 [32m+[m
+ packages/sill/sill.1.2.1/descr                     |  3 [32m++[m
+ packages/sill/sill.1.2.1/files/sill.install        |  4 [32m++[m
+ packages/sill/sill.1.2.1/opam                      | 22 [32m++++++++[m
+ packages/sill/sill.1.2.1/url                       |  2 [32m+[m
+ packages/sill/sill.1.2/descr                       |  3 [32m++[m
+ packages/sill/sill.1.2/files/sill.install          |  4 [32m++[m
+ packages/sill/sill.1.2/opam                        | 22 [32m++++++++[m
+ packages/sill/sill.1.2/url                         |  2 [32m+[m
+ packages/syndic/syndic.1.2/descr                   |  4 [32m++[m
  packages/syndic/syndic.1.2/findlib                 |  1 [32m+[m
- packages/syndic/syndic.1.2/opam                    | 25 [32m++++++++++++++++++++++[m
- packages/syndic/syndic.1.2/url                     |  2 [32m++[m
+ packages/syndic/syndic.1.2/opam                    | 25 [32m+++++++++[m
+ packages/syndic/syndic.1.2/url                     |  2 [32m+[m
+ packages/tcpip/tcpip.2.2.2/descr                   |  1 [32m+[m
+ packages/tcpip/tcpip.2.2.2/opam                    | 36 [32m+++++++++++++[m
+ packages/tcpip/tcpip.2.2.2/url                     |  2 [32m+[m
  packages/wiringpi/wiringpi.0.0.1/url               |  2 [32m+[m[31m-[m
- 94 files changed, 217 insertions(+), 58 deletions(-)
+ 111 files changed, 386 insertions(+), 61 deletions(-)
  create mode 100644 compilers/4.02.1/4.02.1+BER/4.02.1+BER.comp
  create mode 100644 compilers/4.02.1/4.02.1+BER/4.02.1+BER.descr
  delete mode 100644 compilers/4.03.0/4.03.0+pr134/4.03.0+pr134.descr
  rename compilers/4.03.0/{4.03.0+pr134/4.03.0+pr134.comp => 4.03.0+pr46/4.03.0+pr46.comp} (80%)
  create mode 100644 compilers/4.03.0/4.03.0+pr46/4.03.0+pr46.descr
+ create mode 100644 packages/cohttp/cohttp.0.15.1/descr
+ create mode 100644 packages/cohttp/cohttp.0.15.1/opam
+ create mode 100644 packages/cohttp/cohttp.0.15.1/url
  create mode 100644 packages/oasis2opam/oasis2opam.0.5.1/descr
  create mode 100644 packages/oasis2opam/oasis2opam.0.5.1/files/oasis2opam.install
  create mode 100644 packages/oasis2opam/oasis2opam.0.5.1/opam
@@ -125,6 +145,14 @@ Fast-forward
  create mode 100644 packages/ppx_monadic/ppx_monadic.1.0.1/descr
  create mode 100644 packages/ppx_monadic/ppx_monadic.1.0.1/opam
  create mode 100644 packages/ppx_monadic/ppx_monadic.1.0.1/url
+ create mode 100644 packages/shared-memory-ring/shared-memory-ring.1.1.1/descr
+ create mode 100644 packages/shared-memory-ring/shared-memory-ring.1.1.1/findlib
+ create mode 100644 packages/shared-memory-ring/shared-memory-ring.1.1.1/opam
+ create mode 100644 packages/shared-memory-ring/shared-memory-ring.1.1.1/url
+ create mode 100644 packages/sill/sill.1.2.1/descr
+ create mode 100644 packages/sill/sill.1.2.1/files/sill.install
+ create mode 100644 packages/sill/sill.1.2.1/opam
+ create mode 100644 packages/sill/sill.1.2.1/url
  create mode 100644 packages/sill/sill.1.2/descr
  create mode 100644 packages/sill/sill.1.2/files/sill.install
  create mode 100644 packages/sill/sill.1.2/opam
@@ -133,6 +161,9 @@ Fast-forward
  create mode 100644 packages/syndic/syndic.1.2/findlib
  create mode 100644 packages/syndic/syndic.1.2/opam
  create mode 100644 packages/syndic/syndic.1.2/url
+ create mode 100644 packages/tcpip/tcpip.2.2.2/descr
+ create mode 100644 packages/tcpip/tcpip.2.2.2/opam
+ create mode 100644 packages/tcpip/tcpip.2.2.2/url
 + opam remote add mirage git://github.com/mirage/mirage-dev
 [[1;34mmirage[m] Fetching git://github.com/mirage/mirage-dev
 Updating ~/.opam/repo/compiler-index ...
@@ -146,6 +177,8 @@ Updating ~/.opam/repo/compiler-index ...
 Updating ~/.opam/compilers/ ...
 The following NEW compilers are available:
  - 4.02.1+BER
+ - 4.02.1+musl
+ - 4.02.1+musl+static
  - 4.03.0+pr46
 The following compiler description has been DELETED:
  - 4.03.0+pr134
@@ -160,13 +193,13 @@ Debian depexts: libssl-dev m4
 + '[' 'libssl-dev m4' '!=' '' ']'
 + sudo apt-get update -y
 0% [Working]            Get:1 http://security.debian.org testing/updates InRelease [84.1 kB]
-            17% [Connecting to http.debian.net (46.4.205.44)] [1 InRelease 14.2 kB/84.1 kB                                                                                100% [Connecting to http.debian.net (46.4.205.44)]                                                  100% [Working]              100% [1 InRelease gpgv 84.1 kB]                               Get:2 http://http.debian.net testing InRelease [199 kB]
-                               30% [2 InRelease 0 B/199 kB 0%] [1 InRelease gpgv 84.1 kB]                                                          100% [1 InRelease gpgv 84.1 kB]                               Get:3 http://http.debian.net testing-updates InRelease [117 kB]
-                               86% [3 InRelease 60.5 kB/117 kB 52%] [1 InRelease gpgv 84.1 kB]                                                               100% [3 InRelease 117 kB/117 kB 100%]                                     100% [Working]              100% [2 InRelease gpgv 199 kB] [Waiting for headers]                                                    Get:4 http://security.debian.org testing/updates/main amd64 Packages [20 B]
-                                                    100% [2 InRelease gpgv 199 kB]                                     54.7 kB/s 0s100% [Working]                                                     54.7 kB/s 0s100% [Working]                                                     54.7 kB/s 0s100% [3 InRelease gpgv 117 kB] [Waiting for headers]               54.7 kB/s 0s100% [3 InRelease gpgv 117 kB]                                     54.7 kB/s 0s                                                                               Get:5 http://http.debian.net testing/main amd64 Packages [9076 kB]
-                                                                               4% [5 Packages 14.2 kB/9076 kB 0%] [3 InRelease gpgv 117 kB]                                                            17% [5 Packages 1177 kB/9076 kB 13%] [3 InRelease gpgv 117 kB]                                                              30% [5 Packages 2474 kB/9076 kB 27%]                          54.7 kB/s 2min 0s34% [5 Packages 2867 kB/9076 kB 32%]                         54.7 kB/s 1min 53s53% [5 Packages 4632 kB/9076 kB 51%]                         54.7 kB/s 1min 21s72% [5 Packages 6416 kB/9076 kB 71%]                              54.7 kB/s 48s92% [5 Packages 8305 kB/9076 kB 92%]                              54.7 kB/s 14s100% [Working]                                                     54.7 kB/s 0s100% [5 Packages 9081 kB] [Waiting for headers]                    54.7 kB/s 0s                                                                               Get:6 http://http.debian.net testing-updates/main amd64 Packages [20 B]
-100% [5 Packages 9081 kB] [6 Packages 0 B/20 B 0%]                 54.7 kB/s 0s100% [5 Packages 9081 kB]                                          54.7 kB/s 0s100% [5 Packages 9076 kB]                                          54.7 kB/s 0s100% [5 Packages 9076 kB]                                          54.7 kB/s 0s100% [Working]                                                     54.7 kB/s 0s100% [6 Packages 20 B]                                             54.7 kB/s 0s100% [Working]                                                     54.7 kB/s 0s                                                                               Fetched 9476 kB in 11s (807 kB/s)
-Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 30%Reading package lists... 52%Reading package lists... 74%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+            17% [Connecting to http.debian.net (46.4.205.44)] [1 InRelease 14.2 kB/84.1 kB                                                                                100% [Connecting to http.debian.net (46.4.205.44)]                                                  100% [Working]100% [Working]              Get:2 http://security.debian.org testing/updates/main amd64 Packages [20 B]
+              100% [Waiting for headers] [2 Packages 20 B/20 B 100%]                                                      100% [Waiting for headers]                                         12.4 kB/s 0s                                                                               Get:3 http://http.debian.net testing InRelease [199 kB]
+100% [Working]                                                     12.4 kB/s 0s100% [Waiting for headers] [3 InRelease gpgv 199 kB]               12.4 kB/s 0s                                                                               100% [2 Packages 20 B] [Waiting for headers] [3 InRelease gpgv 199 kB]                                                                      100% [Waiting for headers] [3 InRelease gpgv 199 kB]               12.4 kB/s 0s                                                                               Get:4 http://http.debian.net testing-updates InRelease [117 kB]
+74% [4 InRelease 13.0 kB/117 kB 11%] [3 InRelease gpgv 199 kB]     12.4 kB/s 8s100% [3 InRelease gpgv 199 kB]                                     12.4 kB/s 0s100% [3 InRelease gpgv 199 kB]                                     12.4 kB/s 0s100% [3 InRelease gpgv 199 kB]                                     12.4 kB/s 0s100% [Working]                                                     12.4 kB/s 0s100% [4 InRelease gpgv 117 kB] [Waiting for headers]               12.4 kB/s 0s100% [4 InRelease gpgv 117 kB]                                     12.4 kB/s 0s                                                                               Get:5 http://http.debian.net testing/main amd64 Packages [9076 kB]
+                                                                               4% [5 Packages 13.0 kB/9076 kB 0%] [4 InRelease gpgv 117 kB]                                                            21% [5 Packages 1632 kB/9076 kB 18%] [4 InRelease gpgv 117 kB]46% [5 Packages 4001 kB/9076 kB 44%] [4 InRelease gpgv 117 kB]64% [5 Packages 5640 kB/9076 kB 62%] [4 InRelease gpgv 117 kB]                                                              70% [5 Packages 6186 kB/9076 kB 68%]                         12.4 kB/s 3min 53s86% [5 Packages 7719 kB/9076 kB 85%]                         12.4 kB/s 1min 49s100% [Working]                                                     12.4 kB/s 0s100% [5 Packages 9081 kB]                                          12.4 kB/s 0s                                                                               Get:6 http://http.debian.net testing-updates/main amd64 Packages [20 B]
+100% [5 Packages 9081 kB] [6 Packages 0 B/20 B 0%]                 12.4 kB/s 0s100% [5 Packages 9081 kB]                                          12.4 kB/s 0s100% [5 Packages 9076 kB]                                          12.4 kB/s 0s100% [5 Packages 9076 kB]                                          12.4 kB/s 0s100% [Working]                                                     12.4 kB/s 0s100% [6 Packages 20 B]                                             12.4 kB/s 0s100% [Working]                                                     12.4 kB/s 0s                                                                               Fetched 9476 kB in 12s (779 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 47%Reading package lists... 86%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
 W: Size of file /var/lib/apt/lists/http.debian.net_debian_dists_testing_main_binary-amd64_Packages.gz is not what the server reported 9076028 9081456
 + sudo apt-get install -qq -y build-essential m4
 + sudo apt-get install -qq -y libssl-dev m4
@@ -323,9 +356,9 @@ Installing mirage.2.2.0.
 + git clone git://github.com/mirage/mirage-www
 Cloning into 'mirage-www'...
 remote: Counting objects: 5846, done.[K
-Receiving objects:   0% (1/5846)   Receiving objects:   1% (59/5846)   Receiving objects:   2% (117/5846)   Receiving objects:   3% (176/5846)   Receiving objects:   4% (234/5846)   Receiving objects:   5% (293/5846)   Receiving objects:   6% (351/5846)   Receiving objects:   7% (410/5846)   Receiving objects:   8% (468/5846)   Receiving objects:   9% (527/5846)   Receiving objects:  10% (585/5846)   Receiving objects:  11% (644/5846)   Receiving objects:  12% (702/5846)   Receiving objects:  13% (760/5846)   Receiving objects:  14% (819/5846)   Receiving objects:  15% (877/5846)   Receiving objects:  16% (936/5846)   Receiving objects:  17% (994/5846)   Receiving objects:  18% (1053/5846)   Receiving objects:  19% (1111/5846)   Receiving objects:  20% (1170/5846)   Receiving objects:  21% (1228/5846)   Receiving objects:  22% (1287/5846)   Receiving objects:  23% (1345/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  24% (1404/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  25% (1462/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  26% (1520/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  27% (1579/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  28% (1637/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  29% (1696/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  30% (1754/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  31% (1813/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  32% (1871/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  33% (1930/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  34% (1988/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  35% (2047/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  36% (2105/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  37% (2164/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  38% (2222/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  39% (2280/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  40% (2339/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  41% (2397/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  42% (2456/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  43% (2514/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  44% (2573/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  45% (2631/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  46% (2690/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  47% (2748/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  48% (2807/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  49% (2865/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  50% (2923/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  51% (2982/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  52% (3040/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  53% (3099/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  54% (3157/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  55% (3216/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  56% (3274/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  57% (3333/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  58% (3391/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  59% (3450/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  60% (3508/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  61% (3567/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  62% (3625/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  63% (3683/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  64% (3742/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  65% (3800/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  66% (3859/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  67% (3917/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  68% (3976/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  69% (4034/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  70% (4093/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  71% (4151/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  72% (4210/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  73% (4268/5846), 1.34 MiB | 2.66 MiB/s   Receiving objects:  73% (4274/5846), 3.42 MiB | 3.40 MiB/s   Receiving objects:  74% (4327/5846), 3.42 MiB | 3.40 MiB/s   Receiving objects:  75% (4385/5846), 3.42 MiB | 3.40 MiB/s   Receiving objects:  76% (4443/5846), 3.42 MiB | 3.40 MiB/s   Receiving objects:  77% (4502/5846), 3.42 MiB | 3.40 MiB/s   Receiving objects:  78% (4560/5846), 3.42 MiB | 3.40 MiB/s   Receiving objects:  79% (4619/5846), 3.42 MiB | 3.40 MiB/s   Receiving objects:  80% (4677/5846), 3.42 MiB | 3.40 MiB/s   Receiving objects:  81% (4736/5846), 3.42 MiB | 3.40 MiB/s   Receiving objects:  82% (4794/5846), 3.42 MiB | 3.40 MiB/s   Receiving objects:  83% (4853/5846), 3.42 MiB | 3.40 MiB/s   Receiving objects:  84% (4911/5846), 3.42 MiB | 3.40 MiB/s   Receiving objects:  85% (4970/5846), 3.42 MiB | 3.40 MiB/s   Receiving objects:  86% (5028/5846), 3.42 MiB | 3.40 MiB/s   Receiving objects:  87% (5087/5846), 3.42 MiB | 3.40 MiB/s   Receiving objects:  88% (5145/5846), 3.42 MiB | 3.40 MiB/s   Receiving objects:  89% (5203/5846), 3.42 MiB | 3.40 MiB/s   Receiving objects:  90% (5262/5846), 3.42 MiB | 3.40 MiB/s   Receiving objects:  91% (5320/5846), 3.42 MiB | 3.40 MiB/s   Receiving objects:  92% (5379/5846), 3.42 MiB | 3.40 MiB/s   Receiving objects:  93% (5437/5846), 3.42 MiB | 3.40 MiB/s   Receiving objects:  94% (5496/5846), 3.42 MiB | 3.40 MiB/s   Receiving objects:  95% (5554/5846), 3.42 MiB | 3.40 MiB/s   Receiving objects:  96% (5613/5846), 3.42 MiB | 3.40 MiB/s   remote: Total 5846 (delta 0), reused 0 (delta 0)[K
-Receiving objects:  97% (5671/5846), 3.42 MiB | 3.40 MiB/s   Receiving objects:  98% (5730/5846), 3.42 MiB | 3.40 MiB/s   Receiving objects:  99% (5788/5846), 3.42 MiB | 3.40 MiB/s   Receiving objects: 100% (5846/5846), 3.42 MiB | 3.40 MiB/s   Receiving objects: 100% (5846/5846), 4.24 MiB | 3.40 MiB/s, done.
-Resolving deltas:   0% (0/3641)   Resolving deltas:   1% (38/3641)   Resolving deltas:   2% (79/3641)   Resolving deltas:   3% (112/3641)   Resolving deltas:   4% (157/3641)   Resolving deltas:   5% (183/3641)   Resolving deltas:   6% (219/3641)   Resolving deltas:  13% (479/3641)   Resolving deltas:  14% (528/3641)   Resolving deltas:  15% (552/3641)   Resolving deltas:  17% (620/3641)   Resolving deltas:  18% (662/3641)   Resolving deltas:  19% (693/3641)   Resolving deltas:  20% (746/3641)   Resolving deltas:  21% (768/3641)   Resolving deltas:  22% (811/3641)   Resolving deltas:  25% (916/3641)   Resolving deltas:  26% (950/3641)   Resolving deltas:  27% (994/3641)   Resolving deltas:  28% (1020/3641)   Resolving deltas:  29% (1056/3641)   Resolving deltas:  30% (1098/3641)   Resolving deltas:  31% (1129/3641)   Resolving deltas:  32% (1193/3641)   Resolving deltas:  34% (1272/3641)   Resolving deltas:  37% (1369/3641)   Resolving deltas:  40% (1478/3641)   Resolving deltas:  43% (1602/3641)   Resolving deltas:  47% (1730/3641)   Resolving deltas:  48% (1754/3641)   Resolving deltas:  49% (1797/3641)   Resolving deltas:  52% (1928/3641)   Resolving deltas:  53% (1941/3641)   Resolving deltas:  54% (1982/3641)   Resolving deltas:  56% (2064/3641)   Resolving deltas:  57% (2092/3641)   Resolving deltas:  58% (2118/3641)   Resolving deltas:  59% (2180/3641)   Resolving deltas:  60% (2194/3641)   Resolving deltas:  61% (2235/3641)   Resolving deltas:  62% (2261/3641)   Resolving deltas:  63% (2299/3641)   Resolving deltas:  64% (2364/3641)   Resolving deltas:  65% (2371/3641)   Resolving deltas:  66% (2404/3641)   Resolving deltas:  68% (2497/3641)   Resolving deltas:  69% (2515/3641)   Resolving deltas:  73% (2669/3641)   Resolving deltas:  74% (2697/3641)   Resolving deltas:  75% (2766/3641)   Resolving deltas:  76% (2769/3641)   Resolving deltas:  78% (2848/3641)   Resolving deltas:  79% (2890/3641)   Resolving deltas:  80% (2914/3641)   Resolving deltas:  81% (2951/3641)   Resolving deltas:  82% (3007/3641)   Resolving deltas:  83% (3047/3641)   Resolving deltas:  84% (3060/3641)   Resolving deltas:  85% (3097/3641)   Resolving deltas:  86% (3132/3641)   Resolving deltas:  87% (3169/3641)   Resolving deltas:  88% (3213/3641)   Resolving deltas:  89% (3246/3641)   Resolving deltas:  90% (3278/3641)   Resolving deltas:  91% (3314/3641)   Resolving deltas:  92% (3361/3641)   Resolving deltas:  93% (3387/3641)   Resolving deltas:  94% (3427/3641)   Resolving deltas:  95% (3459/3641)   Resolving deltas:  96% (3501/3641)   Resolving deltas:  97% (3538/3641)   Resolving deltas:  98% (3572/3641)   Resolving deltas:  99% (3611/3641)   Resolving deltas: 100% (3641/3641)   Resolving deltas: 100% (3641/3641), done.
+Receiving objects:   0% (1/5846)   Receiving objects:   1% (59/5846)   Receiving objects:   2% (117/5846)   Receiving objects:   3% (176/5846)   Receiving objects:   4% (234/5846)   Receiving objects:   5% (293/5846)   Receiving objects:   6% (351/5846)   Receiving objects:   7% (410/5846)   Receiving objects:   8% (468/5846)   Receiving objects:   9% (527/5846)   Receiving objects:  10% (585/5846)   Receiving objects:  11% (644/5846)   Receiving objects:  12% (702/5846)   Receiving objects:  13% (760/5846)   Receiving objects:  14% (819/5846)   Receiving objects:  15% (877/5846)   Receiving objects:  16% (936/5846)   Receiving objects:  17% (994/5846)   Receiving objects:  18% (1053/5846)   Receiving objects:  19% (1111/5846)   Receiving objects:  20% (1170/5846)   Receiving objects:  21% (1228/5846)   Receiving objects:  22% (1287/5846)   Receiving objects:  23% (1345/5846)   Receiving objects:  24% (1404/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  25% (1462/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  26% (1520/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  27% (1579/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  28% (1637/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  29% (1696/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  30% (1754/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  31% (1813/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  32% (1871/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  33% (1930/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  34% (1988/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  35% (2047/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  36% (2105/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  37% (2164/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  38% (2222/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  39% (2280/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  40% (2339/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  41% (2397/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  42% (2456/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  43% (2514/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  44% (2573/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  45% (2631/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  46% (2690/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  47% (2748/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  48% (2807/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  49% (2865/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  50% (2923/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  51% (2982/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  52% (3040/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  53% (3099/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  54% (3157/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  55% (3216/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  56% (3274/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  57% (3333/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  58% (3391/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  59% (3450/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  60% (3508/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  61% (3567/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  62% (3625/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  63% (3683/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  64% (3742/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  65% (3800/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  66% (3859/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  67% (3917/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  68% (3976/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  69% (4034/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  70% (4093/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  71% (4151/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  72% (4210/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  73% (4268/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  74% (4327/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  75% (4385/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  76% (4443/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  77% (4502/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  78% (4560/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  79% (4619/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  80% (4677/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  81% (4736/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  82% (4794/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  83% (4853/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  84% (4911/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  85% (4970/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  86% (5028/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  87% (5087/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  88% (5145/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  89% (5203/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  90% (5262/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  91% (5320/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  92% (5379/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  93% (5437/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  94% (5496/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  95% (5554/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  96% (5613/5846), 1.69 MiB | 3.31 MiB/s   remote: Total 5846 (delta 0), reused 0 (delta 0)[K
+Receiving objects:  97% (5671/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  98% (5730/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects:  99% (5788/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects: 100% (5846/5846), 1.69 MiB | 3.31 MiB/s   Receiving objects: 100% (5846/5846), 4.24 MiB | 3.31 MiB/s, done.
+Resolving deltas:   0% (0/3641)   Resolving deltas:   1% (38/3641)   Resolving deltas:   2% (89/3641)   Resolving deltas:   3% (111/3641)   Resolving deltas:   4% (154/3641)   Resolving deltas:   5% (184/3641)   Resolving deltas:   6% (220/3641)   Resolving deltas:  17% (622/3641)   Resolving deltas:  18% (658/3641)   Resolving deltas:  19% (723/3641)   Resolving deltas:  20% (736/3641)   Resolving deltas:  21% (773/3641)   Resolving deltas:  22% (803/3641)   Resolving deltas:  24% (889/3641)   Resolving deltas:  25% (924/3641)   Resolving deltas:  26% (956/3641)   Resolving deltas:  28% (1036/3641)   Resolving deltas:  29% (1056/3641)   Resolving deltas:  30% (1097/3641)   Resolving deltas:  31% (1129/3641)   Resolving deltas:  32% (1183/3641)   Resolving deltas:  35% (1276/3641)   Resolving deltas:  38% (1403/3641)   Resolving deltas:  39% (1426/3641)   Resolving deltas:  40% (1482/3641)   Resolving deltas:  42% (1531/3641)   Resolving deltas:  43% (1571/3641)   Resolving deltas:  48% (1761/3641)   Resolving deltas:  50% (1823/3641)   Resolving deltas:  53% (1949/3641)   Resolving deltas:  54% (1967/3641)   Resolving deltas:  56% (2041/3641)   Resolving deltas:  58% (2116/3641)   Resolving deltas:  59% (2181/3641)   Resolving deltas:  60% (2196/3641)   Resolving deltas:  61% (2222/3641)   Resolving deltas:  62% (2259/3641)   Resolving deltas:  63% (2304/3641)   Resolving deltas:  64% (2345/3641)   Resolving deltas:  65% (2388/3641)   Resolving deltas:  66% (2410/3641)   Resolving deltas:  68% (2484/3641)   Resolving deltas:  69% (2526/3641)   Resolving deltas:  73% (2674/3641)   Resolving deltas:  74% (2697/3641)   Resolving deltas:  75% (2732/3641)   Resolving deltas:  78% (2843/3641)   Resolving deltas:  79% (2883/3641)   Resolving deltas:  80% (2913/3641)   Resolving deltas:  81% (2958/3641)   Resolving deltas:  82% (2990/3641)   Resolving deltas:  83% (3038/3641)   Resolving deltas:  84% (3060/3641)   Resolving deltas:  85% (3097/3641)   Resolving deltas:  86% (3132/3641)   Resolving deltas:  87% (3168/3641)   Resolving deltas:  88% (3224/3641)   Resolving deltas:  89% (3241/3641)   Resolving deltas:  90% (3287/3641)   Resolving deltas:  91% (3314/3641)   Resolving deltas:  92% (3359/3641)   Resolving deltas:  93% (3387/3641)   Resolving deltas:  94% (3428/3641)   Resolving deltas:  95% (3459/3641)   Resolving deltas:  96% (3501/3641)   Resolving deltas:  97% (3539/3641)   Resolving deltas:  98% (3574/3641)   Resolving deltas:  99% (3605/3641)   Resolving deltas: 100% (3641/3641)   Resolving deltas: 100% (3641/3641), done.
 Checking connectivity... done.
 + cd mirage-www
 + export MODE=unix
@@ -345,8 +378,292 @@ mirage configure src/config.ml  --unix
 [1;34m[NOTE][m Package io-page is already installed (current version is 1.2.0).
 [1;34m[NOTE][m Package lwt is already installed (current version is 2.4.5).
 [1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
-Fatal error:
-Stack overflow
+The following actions will be performed:
+ - install   fieldslib.109.20.03                   [required by cohttp]
+ - install   hex.0.1.0                             [required by ezjsonm]
+ - install   dyntype.0.9.0                         [required by cow]
+ - install   stringext.1.1.0                       [required by conduit]
+ - install   ounit.2.0.0                           [required by mirage-net-unix, cow]
+ - install   omd.1.2.4                             [required by cowabloga, cow]
+ - install   ulex.1.1                              [required by cow]
+ - install   base64.1.0.0                          [required by cohttp]
+ - install   mirage-profile.0.4                    [required by tcpip, mirage-unix]
+ - install   mirage-clock-unix.1.0.0
+ - install   mirage-types-lwt.2.2.0                [required by vchan, mirage-console, mirage-http]
+ - install   xmlm.1.2.0                            [required by cow]
+ - install   mirage-fs-unix.1.1.3
+ - install   uutf.0.9.3                            [required by jsonm]
+ - install   xenstore.1.2.5                        [required by vchan]
+ - install   uri.1.7.2                             [required by cow, conduit]
+ - install   tuntap.1.0.0                          [required by mirage-net-unix]
+ - install   shared-memory-ring.1.1.1              [required by mirage-unix]
+ - install   jsonm.0.9.1                           [required by ezjsonm]
+ - install   xenstore_transport.0.9.4              [required by vchan]
+ - install   mirage-net-unix.1.1.1
+ - install   mirage-unix.2.1.2
+ - install   ezjsonm.0.4.0                         [required by cow]
+ - install   vchan.2.0.0
+ - install   mirage-console.2.1.0
+ - install   cow.1.1.0
+ - install   tcpip.2.2.2
+ - install   dns.0.11.0                            [required by mirage-dns]
+ - install   mirage-dns.2.0.0                      [required by mirage-conduit, conduit]
+ - install   conduit.0.7.1
+ - install   mirage-conduit.2.0.0
+ - install   cohttp.0.14.0                         [required by mirage-http, cowabloga]
+ - install   mirage-http.2.1.0
+ - install   cowabloga.0.0.9
+=== [33m34[m to install ===
+
+[36m=-=-[m [01mSynchronizing package archives[m [36m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+[[32mbase64.1.0.0[m] Downloading https://github.com/mirage/ocaml-base64/archive/v1.0.0.tar.gz
+[[32mcohttp.0.14.0[m] Downloading https://github.com/mirage/ocaml-cohttp/archive/v0.14.0.tar.gz
+[[32mconduit.0.7.1[m] Downloading https://github.com/mirage/ocaml-conduit/archive/v0.7.1.tar.gz
+[[32mcow.1.1.0[m] Downloading https://github.com/mirage/ocaml-cow/archive/v1.1.0.tar.gz
+[[32mcowabloga.0.0.9[m] Downloading https://github.com/mirage/cowabloga/archive/v0.0.9.tar.gz
+[[32mdns.0.11.0[m] Downloading https://github.com/mirage/ocaml-dns/archive/v0.11.0.tar.gz
+[[32mdyntype.0.9.0[m] Downloading https://github.com/mirage/dyntype/archive/dyntype-0.9.0.tar.gz
+[[32mezjsonm.0.4.0[m] Downloading https://github.com/mirage/ezjsonm/archive/0.4.0.tar.gz
+[[32mfieldslib.109.20.03[m] Downloading https://ocaml.janestreet.com/ocaml-core/109.20.00/individual/fieldslib-109.20.03.tar.gz
+[[32mhex.0.1.0[m] Downloading https://github.com/mirage/ocaml-hex/archive/0.1.0.tar.gz
+[[32mjsonm.0.9.1[m] Downloading http://erratique.ch/software/jsonm/releases/jsonm-0.9.1.tbz
+[[32mmirage-clock-unix.1.0.0[m] Downloading https://github.com/mirage/mirage-clock/archive/v1.0.0.tar.gz
+[[32mmirage-console.2.1.0[m] Downloading https://github.com/mirage/mirage-console/archive/2.1.0.tar.gz
+[[32mmirage-fs-unix.1.1.3[m] Downloading https://github.com/mirage/mirage-fs-unix/archive/v1.1.3.tar.gz
+[[32mmirage-http.2.1.0[m] Downloading https://github.com/mirage/mirage-http/archive/v2.1.0.tar.gz
+[[32mmirage-net-unix.1.1.1[m] Downloading https://github.com/mirage/mirage-net-unix/archive/v1.1.1.tar.gz
+[[32mmirage-profile.0.4[m] Downloading https://github.com/mirage/mirage-profile/archive/v0.4.tar.gz
+[[32mmirage-unix.2.1.2[m] Downloading https://github.com/mirage/mirage-platform/archive/v2.1.2.tar.gz
+[[32momd.1.2.4[m] Downloading http://pw374.github.io/distrib/omd/omd-1.2.4.tar.gz
+[[32mounit.2.0.0[m] Downloading http://forge.ocamlcore.org/frs/download.php/1258/ounit-2.0.0.tar.gz
+[[32mshared-memory-ring.1.1.1[m] Downloading https://github.com/mirage/shared-memory-ring/archive/1.1.1.tar.gz
+[[32mstringext.1.1.0[m] Downloading https://github.com/rgrinberg/stringext/archive/v1.1.0.tar.gz
+[[32mtcpip.2.2.2[m] Downloading https://github.com/mirage/mirage-tcpip/archive/v2.2.2.tar.gz
+[[32mtuntap.1.0.0[m] Downloading https://github.com/mirage/ocaml-tuntap/archive/v1.0.0.tar.gz
+[[32mulex.1.1[m] Downloading http://ftp.de.debian.org/debian/pool/main/u/ulex/ulex_1.1.orig.tar.gz
+[[32muri.1.7.2[m] Downloading https://github.com/mirage/ocaml-uri/archive/v1.7.2.tar.gz
+[[32muutf.0.9.3[m] Downloading http://erratique.ch/software/uutf/releases/uutf-0.9.3.tbz
+[[32mvchan.2.0.0[m] Downloading https://github.com/mirage/ocaml-vchan/archive/v2.0.0.tar.gz
+[[32mxenstore.1.2.5[m] Downloading https://github.com/mirage/ocaml-xenstore/archive/1.2.5.tar.gz
+[[32mxenstore_transport.0.9.4[m] Downloading https://github.com/djs55/ocaml-xenstore-clients/archive/0.9.4.tar.gz
+[[32mxmlm.1.2.0[m] Downloading http://erratique.ch/software/xmlm/releases/xmlm-1.2.0.tbz
+
+[36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+Building base64.1.0.0:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/system
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing base64.1.0.0.
+Building dyntype.0.9.0:
+  make
+  make install
+Installing dyntype.0.9.0.
+Building fieldslib.109.20.03:
+  make
+  make install
+Installing fieldslib.109.20.03.
+Building hex.0.1.0:
+  make
+  make install
+Installing hex.0.1.0.
+Building mirage-clock-unix.1.0.0:
+  make unix-build
+  make unix-install
+Installing mirage-clock-unix.1.0.0.
+Building mirage-fs-unix.1.1.3:
+  make
+  make install
+Installing mirage-fs-unix.1.1.3.
+Building mirage-profile.0.4:
+  ./configure --prefix /home/opam/.opam/system --disable-xen
+  make
+  make install
+Installing mirage-profile.0.4.
+Installing mirage-types-lwt.2.2.0.
+Copying ~/.opam/repo/default/packages/omd/omd.1.2.4/files/omd.install to ~/.opam/system/build/omd.1.2.4/
+Building omd.1.2.4:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/system
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing omd.1.2.4.
+Building ounit.2.0.0:
+  make build
+  make install
+Installing ounit.2.0.0.
+Building stringext.1.1.0:
+  ocaml setup.ml -configure
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing stringext.1.1.0.
+Building ulex.1.1:
+  make
+  make all.opt
+  make install
+Installing ulex.1.1.
+Building uutf.0.9.3:
+  ./pkg/pkg-git
+  ./pkg/build true
+Installing uutf.0.9.3.
+Building xmlm.1.2.0:
+  ./pkg/pkg-git
+  ./pkg/build true
+Installing xmlm.1.2.0.
+Copying ~/.opam/repo/default/packages/jsonm/jsonm.0.9.1/files/jsonm.install to ~/.opam/system/build/jsonm.0.9.1/
+Building jsonm.0.9.1:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/system
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing jsonm.0.9.1.
+Building shared-memory-ring.1.1.1:
+  make all
+  make install
+Installing shared-memory-ring.1.1.1.
+Building tuntap.1.0.0:
+  make PREFIX=/home/opam/.opam/system
+  make PREFIX=/home/opam/.opam/system install
+Installing tuntap.1.0.0.
+Building uri.1.7.2:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/system
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing uri.1.7.2.
+Building xenstore.1.2.5:
+  make all
+  make install
+Installing xenstore.1.2.5.
+Building ezjsonm.0.4.0:
+  ./configure --prefix /home/opam/.opam/system --enable-lwt
+  make
+  make install
+Installing ezjsonm.0.4.0.
+Building mirage-net-unix.1.1.1:
+  make
+  make install
+Installing mirage-net-unix.1.1.1.
+Building mirage-unix.2.1.2:
+  make unix-build
+  make unix-install PREFIX=/home/opam/.opam/system
+Installing mirage-unix.2.1.2.
+Building xenstore_transport.0.9.4:
+  make all
+  make install
+Installing xenstore_transport.0.9.4.
+Building cow.1.1.0:
+  make all
+  make install
+Installing cow.1.1.0.
+Building mirage-console.2.1.0:
+  make
+  make install
+Installing mirage-console.2.1.0.
+Building vchan.2.0.0:
+  ./configure
+  make
+  make install
+Installing vchan.2.0.0.
+Building tcpip.2.2.2:
+  ./configure --prefix /home/opam/.opam/system --disable-xen
+  make
+  make install
+Installing tcpip.2.2.2.
+Building dns.0.11.0:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/system --enable-lwt --enable-mirage
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing dns.0.11.0.
+Building mirage-dns.2.0.0:
+  ocamlfind query dns.mirage
+Installing mirage-dns.2.0.0.
+Building conduit.0.7.1:
+  make
+  make install
+Installing conduit.0.7.1.
+Building cohttp.0.14.0:
+  make PREFIX=/home/opam/.opam/system
+  make PREFIX=/home/opam/.opam/system install
+Installing cohttp.0.14.0.
+Building mirage-conduit.2.0.0:
+  ocamlfind query conduit.mirage
+Installing mirage-conduit.2.0.0.
+Building cowabloga.0.0.9:
+  make all
+  make install
+[31m[ERROR][m The compilation of cowabloga.0.0.9 failed.
+Removing cowabloga.0.0.9.
+  ocamlfind remove cowabloga
+Building mirage-http.2.1.0:
+  make
+  make install
+Installing mirage-http.2.1.0.
+
+
+[31m#===[m [01mERROR[m [01mwhile installing cowabloga.0.0.9[m [31m===================================#[m
+[31m#[m [31mopam-version[m 1.2.0 (75c4bf0dd32913f9218ffa882e683e01d6cdfb0f)
+[31m#[m [31mos[m           linux
+[31m#[m [31mcommand[m      make all
+[31m#[m [31mpath[m         /home/opam/.opam/system/build/cowabloga.0.0.9
+[31m#[m [31mcompiler[m     system (4.01.0)
+[31m#[m [31mexit-code[m    2
+[31m#[m [31menv-file[m     /home/opam/.opam/system/build/cowabloga.0.0.9/cowabloga-16778-126656.env
+[31m#[m [31mstdout-file[m  /home/opam/.opam/system/build/cowabloga.0.0.9/cowabloga-16778-126656.out
+[31m#[m [31mstderr-file[m  /home/opam/.opam/system/build/cowabloga.0.0.9/cowabloga-16778-126656.err
+[31m### stdout ###
+[m[31m# [m...[truncated]
+[31m# [mError: This function has type
+[31m# [m         ?conn_closed:(Cohttp_lwt_unix.Server.conn -> unit) ->
+[31m# [m         callback:(Cohttp_lwt_unix.Server.conn ->
+[31m# [m                   Cohttp.Request.t ->
+[31m# [m                   Cohttp_lwt_body.t ->
+[31m# [m                   (Cohttp.Response.t * Cohttp_lwt_body.t) Lwt.t) ->
+[31m# [m         Cohttp_lwt_unix.Server.t
+[31m# [m       It is applied to too many arguments; maybe you forgot a `;'.
+[31m# [mCommand exited with code 2.
+[31m# [mMakefile:18: recipe for target 'all' failed
+[31m### stderr ###
+[m[31m# [mW: Cannot find source file matching module 'cowabloga' in library cowabloga
+[31m# [mE: Failure("Command ''/usr/bin/ocamlbuild' lib/cowabloga.cma lib/cowabloga.cmxa lib/cowabloga.a lib/cowabloga.cmxs lib_test/serve.native -tag debug' terminated with error code 10")
+[31m# [mmake: *** [all] Error 1
+
+
+[36m=-=-[m [01mError report[m [36m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+These actions have been completed [01msuccessfully[m
+ - install   uutf.0.9.3
+ - install   mirage-fs-unix.1.1.3
+ - install   mirage-conduit.2.0.0
+ - install   xmlm.1.2.0
+ - install   mirage-types-lwt.2.2.0
+ - install   cohttp.0.14.0
+ - install   mirage-clock-unix.1.0.0
+ - install   mirage-profile.0.4
+ - install   mirage-unix.2.1.2
+ - install   ezjsonm.0.4.0
+ - install   mirage-net-unix.1.1.1
+ - install   base64.1.0.0
+ - install   shared-memory-ring.1.1.1
+ - install   mirage-dns.2.0.0
+ - install   conduit.0.7.1
+ - install   xenstore.1.2.5
+ - install   ulex.1.1
+ - install   xenstore_transport.0.9.4
+ - install   omd.1.2.4
+ - install   mirage-console.2.1.0
+ - install   ounit.2.0.0
+ - install   jsonm.0.9.1
+ - install   tuntap.1.0.0
+ - install   tcpip.2.2.2
+ - install   stringext.1.1.0
+ - install   dyntype.0.9.0
+ - install   mirage-http.2.1.0
+ - install   cow.1.1.0
+ - install   dns.0.11.0
+ - install   hex.0.1.0
+ - install   uri.1.7.2
+ - install   fieldslib.109.20.03
+ - install   vchan.2.0.0
+The following [01mfailed[m
+ - install   cowabloga.0.0.9
+
+The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150011165626.export"
 mirage: internal error, uncaught exception:
         Sys_error("log: No such file or directory")
         
