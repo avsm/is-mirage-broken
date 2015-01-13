@@ -31,11 +31,11 @@ Loaded plugins: fastestmirror
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
 (2/2): updates/7/x86_64/pr 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/2): extras/7/x86_64/primary_db                          |  43 kB   00:00     
-(2/2): updates/7/x86_64/pr 39% [======          ]  0.0 B/s | 2.4 MB   --:-- ETA (2/2): updates/7/x86_64/primary_db                         | 6.0 MB   00:00     
-Loading mirror speeds from cached hostfile
- * base: mirror.tzulo.com
- * extras: centos.hostingxtreme.com
- * updates: mirror.atlanticmetro.net
+(2/2): updates/7/x86_64/pr 0% [                 ]  0.0 B/s |  43 kB   --:-- ETA (2/2): updates/7/x86_64/pr 5% [-                ] 458 kB/s | 334 kB   00:12 ETA (2/2): updates/7/x86_64/pr 24% [===-            ] 662 kB/s | 1.5 MB   00:07 ETA (2/2): updates/7/x86_64/pr 46% [=======-        ] 901 kB/s | 2.8 MB   00:03 ETA (2/2): updates/7/x86_64/pr 72% [===========-    ] 1.1 MB/s | 4.4 MB   00:01 ETA (2/2): updates/7/x86_64/pr 98% [===============-] 1.4 MB/s | 5.9 MB   00:00 ETA (2/2): updates/7/x86_64/primary_db                         | 6.0 MB   00:02     
+Determining fastest mirrors
+ * base: mirror.ubiquityservers.com
+ * extras: mirrors.chkhosting.com
+ * updates: mirror.steadfast.net
 Resolving Dependencies
 --> Running transaction check
 ---> Package openssl-devel.x86_64 1:1.0.1e-34.el7_0.6 will be installed
@@ -86,16 +86,16 @@ Total download size: 2.6 M
 Installed size: 5.7 M
 Downloading packages:
 (2/9): krb5-devel-1.11.3-4 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/9): keyutils-libs-devel-1.5.8-3.el7.x86_64.rpm          |  37 kB   00:00     
-(2/9): libcom_err-devel-1.42.9-4.el7.x86_64.rpm            |  30 kB   00:00     
-(3/9): libselinux-devel-2.2.2-6.el7.x86_64.rpm             | 174 kB   00:00     
+(2/9): libverto-devel-0.2.5-4.el7.x86_64.rpm               |  12 kB   00:00     
+(3/9): libcom_err-devel-1.42.9-4.el7.x86_64.rpm            |  30 kB   00:00     
 (4/9): libsepol-devel-2.1.9-3.el7.x86_64.rpm               |  71 kB   00:00     
-(6/9): libverto-devel-0.2. 32% [=====           ]  0.0 B/s | 867 kB   --:-- ETA (5/9): libverto-devel-0.2.5-4.el7.x86_64.rpm               |  12 kB   00:00     
-(6/9): krb5-devel-1.11.3-49.el7.x86_64.rpm                 | 611 kB   00:00     
-(7/9): zlib-devel-1.2.7-13.el7.x86_64.rpm                  |  49 kB   00:00     
-(8/9): pcre-devel-8.32-12.el7.x86_64.rpm                   | 477 kB   00:00     
-(9/9): openssl-devel-1.0.1 54% [========-       ] 910 kB/s | 1.4 MB   00:01 ETA (9/9): openssl-devel-1.0.1e-34.el7_0.6.x86_64.rpm          | 1.2 MB   00:00     
+(5/9): pcre-devel-8.32-12.el7.x86_64.rpm                   | 477 kB   00:00     
+(6/9): zlib-devel-1.2.7-13.el7.x86_64.rpm                  |  49 kB   00:00     
+(7/9): krb5-devel-1.11.3-49.el7.x86_64.rpm                 | 611 kB   00:00     
+(8/9): libselinux-devel-2.2.2-6.el7.x86_64.rpm             | 174 kB   00:00     
+(9/9): openssl-devel-1.0.1 54% [========-       ]  0.0 B/s | 1.4 MB   --:-- ETA (9/9): openssl-devel-1.0.1 77% [============    ] 719 kB/s | 2.0 MB   00:00 ETA (9/9): openssl-devel-1.0.1e-34.el7_0.6.x86_64.rpm          | 1.2 MB   00:00     
 --------------------------------------------------------------------------------
-Total                                              1.9 MB/s | 2.6 MB  00:01     
+Total                                              1.6 MB/s | 2.6 MB  00:01     
 Running transaction check
 Running transaction test
 Transaction test succeeded
