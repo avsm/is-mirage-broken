@@ -31,11 +31,11 @@ Loaded plugins: fastestmirror
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
 (2/2): updates/7/x86_64/pr 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/2): extras/7/x86_64/primary_db                          |  43 kB   00:00     
-(2/2): updates/7/x86_64/pr 84% [=============-  ]  0.0 B/s | 5.1 MB   --:-- ETA (2/2): updates/7/x86_64/primary_db                         | 6.0 MB   00:01     
+(2/2): updates/7/x86_64/pr 3% [-                ]  0.0 B/s | 213 kB   --:-- ETA (2/2): updates/7/x86_64/pr 8% [=                ] 422 kB/s | 522 kB   00:13 ETA (2/2): updates/7/x86_64/pr 15% [==-             ] 488 kB/s | 987 kB   00:10 ETA (2/2): updates/7/x86_64/pr 28% [====-           ] 614 kB/s | 1.7 MB   00:07 ETA (2/2): updates/7/x86_64/pr 43% [======-         ] 750 kB/s | 2.6 MB   00:04 ETA (2/2): updates/7/x86_64/pr 60% [=========-      ] 917 kB/s | 3.7 MB   00:02 ETA (2/2): updates/7/x86_64/pr 78% [============    ] 1.0 MB/s | 4.7 MB   00:01 ETA (2/2): updates/7/x86_64/pr 96% [=============== ] 1.2 MB/s | 5.8 MB   00:00 ETA (2/2): updates/7/x86_64/primary_db                         | 6.0 MB   00:03     
 Determining fastest mirrors
  * base: mirror.fdcservers.net
- * extras: centos.mirrors.tds.net
- * updates: mirror.fdcservers.net
+ * extras: mirror.nexcess.net
+ * updates: centos.mbni.med.umich.edu
 Resolving Dependencies
 --> Running transaction check
 ---> Package openssl-devel.x86_64 1:1.0.1e-34.el7_0.6 will be installed
@@ -86,16 +86,16 @@ Total download size: 2.6 M
 Installed size: 5.7 M
 Downloading packages:
 (2/9): krb5-devel-1.11.3-4 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/9): keyutils-libs-devel-1.5.8-3.el7.x86_64.rpm          |  37 kB   00:00     
-(2/9): libcom_err-devel-1.42.9-4.el7.x86_64.rpm            |  30 kB   00:00     
-(3/9): libselinux-devel-2.2.2-6.el7.x86_64.rpm             | 174 kB   00:00     
-(4/9): krb5-devel-1.11.3-49.el7.x86_64.rpm                 | 611 kB   00:00     
-(5/9): libsepol-devel-2.1.9-3.el7.x86_64.rpm               |  71 kB   00:00     
-(6/9): libverto-devel-0.2.5-4.el7.x86_64.rpm               |  12 kB   00:00     
-(7/9): pcre-devel-8.32-12.el7.x86_64.rpm                   | 477 kB   00:00     
-(9/9): zlib-devel-1.2.7-13 52% [========        ]  0.0 B/s | 1.4 MB   --:-- ETA (8/9): zlib-devel-1.2.7-13.el7.x86_64.rpm                  |  49 kB   00:00     
-(9/9): openssl-devel-1.0.1e-34.el7_0.6.x86_64.rpm          | 1.2 MB   00:00     
+(2/9): libverto-devel-0.2.5-4.el7.x86_64.rpm               |  12 kB   00:00     
+(3/9): libcom_err-devel-1.42.9-4.el7.x86_64.rpm            |  30 kB   00:00     
+(4/9): pcre-devel-8.32-12.el7.x86_64.rpm                   | 477 kB   00:00     
+(5/9): zlib-devel-1.2.7-13.el7.x86_64.rpm                  |  49 kB   00:00     
+(6/9): krb5-devel-1.11.3-49.el7.x86_64.rpm                 | 611 kB   00:00     
+(7/9): libselinux-devel-2.2.2-6.el7.x86_64.rpm             | 174 kB   00:00     
+(8/9): libsepol-devel-2.1.9-3.el7.x86_64.rpm               |  71 kB   00:00     
+(9/9): openssl-devel-1.0.1 54% [========-       ]  0.0 B/s | 1.4 MB   --:-- ETA (9/9): openssl-devel-1.0.1 60% [=========-      ] 186 kB/s | 1.6 MB   00:05 ETA (9/9): openssl-devel-1.0.1 69% [===========     ] 223 kB/s | 1.8 MB   00:03 ETA (9/9): openssl-devel-1.0.1 85% [=============-  ] 293 kB/s | 2.2 MB   00:01 ETA (9/9): openssl-devel-1.0.1e-34.el7_0.6.x86_64.rpm          | 1.2 MB   00:01     
 --------------------------------------------------------------------------------
-Total                                              1.7 MB/s | 2.6 MB  00:01     
+Total                                              1.1 MB/s | 2.6 MB  00:02     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -176,124 +176,6 @@ The following actions will be performed:
 [[32mstringext.1.2.0[m] Downloading https://github.com/rgrinberg/stringext/archive/v1.2.0.tar.gz
 [[32mtype_conv.112.01.00[m] Downloading https://ocaml.janestreet.com/ocaml-core/112.01.00/individual/type_conv-112.01.00.tar.gz
 [[32muri.1.7.2[m] Downloading https://github.com/mirage/ocaml-uri/archive/v1.7.2.tar.gz
+[31m[ERROR][m http://downloads.sourceforge.net/project/savonet/ocaml-ssl/0.4.7/ocaml-ssl-0.4.7.tar.gz is not available
+[31m[ERROR][m Could not download archives of ssl.0.4.7
 
-[36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
-Copying ~/.opam/repo/default/packages/camlp4/camlp4.4.02.1+system/files/install to ~/.opam/system/build/camlp4.4.02.1+system/
-Copying ~/.opam/repo/default/packages/camlp4/camlp4.4.02.1+system/files/check-camlp4.sh to ~/.opam/system/build/camlp4.4.02.1+system/
-Building camlp4.4.02.1+system:
-  sh ./check-camlp4.sh
-Installing camlp4.4.02.1+system.
-Copying ~/.opam/repo/default/packages/ocamlfind/ocamlfind.1.5.5/files/ocamlfind.install to ~/.opam/system/build/ocamlfind.1.5.5/
-Building ocamlfind.1.5.5:
-  ./configure -bindir /home/opam/.opam/system/bin -sitelib /home/opam/.opam/system/lib -mandir /home/opam/.opam/system/man -config /home/opam/.opam/system/lib/findlib.conf -no-topfind
-  make all
-  make opt
-  make install
-Installing ocamlfind.1.5.5.
-Installing base-bytes.base.
-Building cmdliner.0.9.6:
-  ocaml pkg/git.ml
-  ocaml pkg/build.ml native=true native-dynlink=true
-Installing cmdliner.0.9.6.
-Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/system/build/cppo.1.1.2/
-Building cppo.1.1.2:
-  make
-  make install-lib
-Installing cppo.1.1.2.
-Building ppx_tools.0.99.2:
-  make all
-  make install
-Installing ppx_tools.0.99.2.
-Building re.1.2.2:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/system
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing re.1.2.2.
-Copying ~/.opam/repo/default/packages/ssl/ssl.0.4.7/files/pkgconfigure to ~/.opam/system/build/ssl.0.4.7/
-Building ssl.0.4.7:
-  ./configure --prefix /home/opam/.opam/system
-  make
-  make install
-Installing ssl.0.4.7.
-Building type_conv.112.01.00:
-  make
-  make install
-Installing type_conv.112.01.00.
-Building base64.2.0.0:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/system
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing base64.2.0.0.
-Building fieldslib.109.20.03:
-  make
-  make install
-Installing fieldslib.109.20.03.
-Building lwt.2.4.7:
-  ./configure --prefix /home/opam/.opam/system --disable-libev --enable-camlp4 --disable-react --enable-ssl --enable-unix --enable-preemptive --disable-glib --enable-ppx
-  make build
-  make install
-Installing lwt.2.4.7.
-Building ocplib-endian.0.8:
-  ocaml setup.ml -configure --disable-debug --prefix /home/opam/.opam/system
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing ocplib-endian.0.8.
-Building sexplib.112.06.00:
-  ./configure --enable-syntax
-  make
-  make install
-Installing sexplib.112.06.00.
-Building stringext.1.2.0:
-  ocaml setup.ml -configure
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing stringext.1.2.0.
-Building cstruct.1.5.0:
-  ./configure --prefix /home/opam/.opam/system --enable-lwt --enable-camlp4 --disable-async --enable-unix --disable-tests
-  make
-  make install
-Installing cstruct.1.5.0.
-Building ipaddr.2.5.0:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/system
-  make build
-  make install
-Installing ipaddr.2.5.0.
-Building uri.1.7.2:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/system
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing uri.1.7.2.
-Building conduit.0.7.1:
-  make
-  make install
-Installing conduit.0.7.1.
-Building cohttp.0.15.0:
-  make PREFIX=/home/opam/.opam/system
-  make PREFIX=/home/opam/.opam/system install
-Installing cohttp.0.15.0.
-++ opam list --depends-on cohttp --rec -s
-+ deps='bt cowabloga facebook-sdk github imaplet-lwt iocaml irmin merge-queues merge-ropes message-switch mirage-http mirage-http-unix mirage-www ojs-base opam-publish opam-sync-github-prs opium slacko sociaml-facebook-api sociaml-oauth-client sociaml-tumblr-api vhd-tool websocket xapi xapi-forkexecd xapi-idl xapi-libs-transitional xapi-netdev xapi-networkd xapi-rrd-transport xapi-rrdd xapi-rrdd-plugin xapi-squeezed xapi-tapctl xapi-xenops xapi-xenops-cli xapi-xenopsd xe xe-unikernel-upload xen-api-client '
-++ opam config env
-+ eval 'CAML_LD_LIBRARY_PATH="/home/opam/.opam/system/lib/stublibs:/usr/lib64/ocaml/stublibs";' export 'CAML_LD_LIBRARY_PATH;' 'MANPATH="/home/opam/.opam/system/man:";' export 'MANPATH;' 'MAKELEVEL="";' export 'MAKELEVEL;' 'MAKEFLAGS="";' export 'MAKEFLAGS;' 'PERL5LIB="/home/opam/.opam/system/lib/perl5";' export 'PERL5LIB;' 'OCAML_TOPLEVEL_PATH="/home/opam/.opam/system/lib/toplevel";' export 'OCAML_TOPLEVEL_PATH;' 'PATH="/home/opam/.opam/system/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin";' export 'PATH;'
-++ CAML_LD_LIBRARY_PATH=/home/opam/.opam/system/lib/stublibs:/usr/lib64/ocaml/stublibs
-++ export CAML_LD_LIBRARY_PATH
-++ MANPATH=/home/opam/.opam/system/man:
-++ export MANPATH
-++ MAKELEVEL=
-++ export MAKELEVEL
-++ MAKEFLAGS=
-++ export MAKEFLAGS
-++ PERL5LIB=/home/opam/.opam/system/lib/perl5
-++ export PERL5LIB
-++ OCAML_TOPLEVEL_PATH=/home/opam/.opam/system/lib/toplevel
-++ export OCAML_TOPLEVEL_PATH
-++ PATH=/home/opam/.opam/system/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-++ export PATH
-+ opam install bt cowabloga facebook-sdk github imaplet-lwt iocaml irmin merge-queues merge-ropes message-switch mirage-http mirage-http-unix mirage-www ojs-base opam-publish opam-sync-github-prs opium slacko sociaml-facebook-api sociaml-oauth-client sociaml-tumblr-api vhd-tool websocket xapi xapi-forkexecd xapi-idl xapi-libs-transitional xapi-netdev xapi-networkd xapi-rrd-transport xapi-rrdd xapi-rrdd-plugin xapi-squeezed xapi-tapctl xapi-xenops xapi-xenops-cli xapi-xenopsd xe xe-unikernel-upload xen-api-client
-The following dependencies couldn't be met:
-  - sociaml-facebook-api[33m -> [mcohttp >= 0.12.0[33m -> [mconduit >= 0.6.0 | conduit >= 0.7.0
-  - merge-queues[33m -> [mirmin = 0.8.3[33m -> [mgit = 1.2.0[33m -> [mconduit = 0.5.1
-Your request can't be satisfied:
-  - Conflicting version constraints for conduit
-
-No solution found, exiting

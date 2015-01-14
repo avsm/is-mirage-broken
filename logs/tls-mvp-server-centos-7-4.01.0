@@ -31,11 +31,11 @@ Loaded plugins: fastestmirror
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
 (2/2): updates/7/x86_64/pr 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/2): extras/7/x86_64/primary_db                          |  43 kB   00:00     
-(2/2): updates/7/x86_64/pr 35% [=====-          ]  0.0 B/s | 2.2 MB   --:-- ETA (2/2): updates/7/x86_64/primary_db                         | 6.0 MB   00:00     
+(2/2): updates/7/x86_64/pr 3% [-                ]  0.0 B/s | 238 kB   --:-- ETA (2/2): updates/7/x86_64/pr 10% [=-              ] 593 kB/s | 618 kB   00:09 ETA (2/2): updates/7/x86_64/pr 19% [===             ] 674 kB/s | 1.2 MB   00:07 ETA (2/2): updates/7/x86_64/pr 34% [=====-          ] 820 kB/s | 2.1 MB   00:04 ETA (2/2): updates/7/x86_64/pr 59% [=========       ] 1.0 MB/s | 3.6 MB   00:02 ETA (2/2): updates/7/x86_64/pr 83% [=============   ] 1.3 MB/s | 5.0 MB   00:00 ETA (2/2): updates/7/x86_64/primary_db                         | 6.0 MB   00:02     
 Determining fastest mirrors
  * base: mirror.fdcservers.net
- * extras: centos.mirrors.tds.net
- * updates: mirror.fdcservers.net
+ * extras: mirror.nexcess.net
+ * updates: centos.mbni.med.umich.edu
 Package 1:gmp-5.1.1-5.el7.x86_64 already installed and latest version
 Resolving Dependencies
 --> Running transaction check
@@ -59,10 +59,10 @@ Install  2 Packages
 Total download size: 197 k
 Installed size: 361 k
 Downloading packages:
-(2/2): libffi-devel-3.0.13 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/2): libffi-devel-3.0.13-11.el7.x86_64.rpm               |  22 kB   00:00     
-(2/2): gmp-devel-5.1.1-5.el7.x86_64.rpm                    | 175 kB   00:00     
+(1/2): libffi-devel-3.0.13-11.el7.x86_64.rpm               |  22 kB   00:00     
+(2/2): gmp-devel-5.1.1-5.e 11% [=-              ]  0.0 B/s |  22 kB   --:-- ETA (2/2): gmp-devel-5.1.1-5.el7.x86_64.rpm                    | 175 kB   00:00     
 --------------------------------------------------------------------------------
-Total                                              324 kB/s | 197 kB  00:00     
+Total                                              348 kB/s | 197 kB  00:00     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -131,8 +131,8 @@ The following actions will be performed:
 
 [36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
 Installing base-no-ppx.base.
-Copying ~/.opam/repo/default/packages/conf-gmp/conf-gmp.1/files/test.c to ~/.opam/4.01.0/build/conf-gmp.1/
 Installing camlp4.4.01.0.
+Copying ~/.opam/repo/default/packages/conf-gmp/conf-gmp.1/files/test.c to ~/.opam/4.01.0/build/conf-gmp.1/
 Building conf-gmp.1:
   sh -c cc -c $CFLAGS test.c
 Copying ~/.opam/repo/default/packages/ocamlfind/ocamlfind.1.5.5/files/ocamlfind.install to ~/.opam/4.01.0/build/ocamlfind.1.5.5/
