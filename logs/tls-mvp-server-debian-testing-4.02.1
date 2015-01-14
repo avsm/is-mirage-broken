@@ -26,14 +26,14 @@ Debian depexts: libffi-dev libgmp-dev m4
 + '[' 'libffi-dev libgmp-dev m4' '!=' '' ']'
 + sudo apt-get update -y
 0% [Working]            Get:1 http://security.debian.org testing/updates InRelease [84.1 kB]
-            17% [Connecting to http.debian.net (46.4.205.44)] [1 InRelease 14.2 kB/84.1 kB                                                                                100% [Connecting to http.debian.net (46.4.205.44)]                                                  100% [Working]100% [Working]              Get:2 http://security.debian.org testing/updates/main amd64 Packages [20 B]
-              100% [Waiting for headers] [2 Packages 20 B/20 B 100%]                                                      100% [Waiting for headers]                                         12.8 kB/s 0s                                                                               Get:3 http://http.debian.net testing InRelease [199 kB]
-100% [Working]                                                     12.8 kB/s 0s100% [3 InRelease gpgv 199 kB]                                     12.8 kB/s 0s100% [2 Packages 20 B] [3 InRelease gpgv 199 kB]                   12.8 kB/s 0s100% [Waiting for headers] [3 InRelease gpgv 199 kB]               12.8 kB/s 0s                                                                               Get:4 http://http.debian.net testing-updates InRelease [117 kB]
-74% [4 InRelease 13.0 kB/117 kB 11%] [3 InRelease gpgv 199 kB]     12.8 kB/s 8s100% [3 InRelease gpgv 199 kB]                                     12.8 kB/s 0s100% [3 InRelease gpgv 199 kB]                                     12.8 kB/s 0s100% [3 InRelease gpgv 199 kB]                                     12.8 kB/s 0s100% [Working]                                                     12.8 kB/s 0s100% [4 InRelease gpgv 117 kB] [Waiting for headers]               12.8 kB/s 0s100% [4 InRelease gpgv 117 kB]                                     12.8 kB/s 0s                                                                               Get:5 http://http.debian.net testing/main amd64 Packages [9077 kB]
-                                                                               4% [5 Packages 13.0 kB/9077 kB 0%] [4 InRelease gpgv 117 kB]                                                            15% [5 Packages 988 kB/9077 kB 11%] [4 InRelease gpgv 117 kB]                                                             49% [5 Packages 4271 kB/9077 kB 47%]                         12.8 kB/s 6min 15s63% [5 Packages 5526 kB/9077 kB 61%]                         12.8 kB/s 4min 37s100% [Working]                                                     12.8 kB/s 0s100% [5 Packages 9081 kB]                                          12.8 kB/s 0s                                                                               Get:6 http://http.debian.net testing-updates/main amd64 Packages [20 B]
-100% [5 Packages 9081 kB] [6 Packages 0 B/20 B 0%]                 12.8 kB/s 0s100% [5 Packages 9081 kB]                                          12.8 kB/s 0s100% [5 Packages 9077 kB]                                          12.8 kB/s 0s100% [5 Packages 9077 kB]                                          12.8 kB/s 0s100% [Working]                                                     12.8 kB/s 0s100% [Working]                                                     12.8 kB/s 0s                                                                               Fetched 9477 kB in 11s (851 kB/s)
-Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 47%Reading package lists... 85%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
-W: Size of file /var/lib/apt/lists/http.debian.net_debian_dists_testing_main_binary-amd64_Packages.gz is not what the server reported 9076591 9081456
+            17% [Waiting for headers] [1 InRelease 14.2 kB/84.1 kB 17%]                                                           100% [1 InRelease 84.1 kB/84.1 kB 100%]                                       100% [Working]              Get:2 http://http.debian.net testing InRelease [199 kB]
+100% [Working]              100% [1 InRelease gpgv 84.1 kB] [Waiting for headers]                                                     Get:3 http://http.debian.net testing-updates InRelease [117 kB]
+                                                     74% [1 InRelease gpgv 84.1 kB] [3 InRelease 13.0 kB/117 kB 11%]                                                               100% [1 InRelease gpgv 84.1 kB]100% [1 InRelease gpgv 84.1 kB]100% [1 InRelease gpgv 84.1 kB]100% [1 InRelease gpgv 84.1 kB]                               100% [Working]              100% [2 InRelease gpgv 199 kB] [Connecting to security.debian.org (128.31.0.36)                                                                               Get:4 http://security.debian.org testing/updates/main amd64 Packages [20 B]
+100% [2 InRelease gpgv 199 kB]                                     52.1 kB/s 0s100% [Working]                                                     52.1 kB/s 0s100% [Working]                                                     52.1 kB/s 0s100% [3 InRelease gpgv 117 kB] [Waiting for headers]               52.1 kB/s 0s100% [3 InRelease gpgv 117 kB]                                     52.1 kB/s 0s                                                                               Get:5 http://http.debian.net testing/main amd64 Packages [9076 kB]
+                                                                               4% [3 InRelease gpgv 117 kB] [5 Packages 13.0 kB/9076 kB 0%]                                                            15% [3 InRelease gpgv 117 kB] [5 Packages 1056 kB/9076 kB 12%]58% [3 InRelease gpgv 117 kB] [5 Packages 5054 kB/9076 kB 56%]                                                              93% [5 Packages 8389 kB/9076 kB 92%]                              52.1 kB/s 13s100% [Waiting for headers]                                         52.1 kB/s 0s100% [5 Packages 9081 kB] [Waiting for headers]                    52.1 kB/s 0s100% [5 Packages 9076 kB]                                          52.1 kB/s 0s                                                                               Get:6 http://http.debian.net testing-updates/main amd64 Packages [20 B]
+100% [5 Packages 9076 kB] [6 Packages 0 B/20 B 0%]                 52.1 kB/s 0s100% [5 Packages 9076 kB]                                          52.1 kB/s 0s100% [5 Packages 9076 kB]                                          52.1 kB/s 0s100% [5 Packages 9076 kB]                                          52.1 kB/s 0s100% [Working]                                                     52.1 kB/s 0s100% [Working]                                                     52.1 kB/s 0s                                                                               Fetched 9477 kB in 10s (876 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 36%Reading package lists... 74%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+W: Size of file /var/lib/apt/lists/http.debian.net_debian_dists_testing_main_binary-amd64_Packages.gz is not what the server reported 9076423 9081456
 + sudo apt-get install -qq -y build-essential m4
 + sudo apt-get install -qq -y libffi-dev libgmp-dev m4
 debconf: unable to initialize frontend: Dialog
@@ -121,14 +121,14 @@ Building ocamlfind.1.5.5:
   make install
 Installing ocamlfind.1.5.5.
 Installing base-bytes.base.
-Building camlp4.4.02.1+1:
-  ./configure --bindir=/home/opam/.opam/4.02.1/bin --libdir=/home/opam/.opam/4.02.1/lib/ocaml --pkgdir=/home/opam/.opam/4.02.1/lib
-  make all
-  make install install-META
 Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/4.02.1/build/cppo.1.1.2/
 Building cmdliner.0.9.6:
   ocaml pkg/git.ml
   ocaml pkg/build.ml native=true native-dynlink=true
+Building camlp4.4.02.1+1:
+  ./configure --bindir=/home/opam/.opam/4.02.1/bin --libdir=/home/opam/.opam/4.02.1/lib/ocaml --pkgdir=/home/opam/.opam/4.02.1/lib
+  make all
+  make install install-META
 Building cppo.1.1.2:
   make
   make install-lib
@@ -199,11 +199,11 @@ Installing io-page.1.2.0.
 Building mirage-types.2.2.0:
   make install-types
 Installing mirage-types.2.2.0.
-Installing asn1-combinators.0.1.1.
 Building mirage.2.2.0:
   ./configure --bindir /home/opam/.opam/4.02.1/bin
   make
   make install
+Installing asn1-combinators.0.1.1.
 Installing mirage.2.2.0.
 Installing nocrypto.0.3.0.
 Building x509.0.2.1:
