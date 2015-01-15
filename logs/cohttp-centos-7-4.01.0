@@ -31,10 +31,10 @@ Loaded plugins: fastestmirror
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
 (2/2): updates/7/x86_64/pr 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/2): extras/7/x86_64/primary_db                          |  43 kB   00:00     
-(2/2): updates/7/x86_64/pr 0% [                 ]  0.0 B/s |  43 kB   --:-- ETA (2/2): updates/7/x86_64/pr 3% [-                ] 137 kB/s | 197 kB   00:43 ETA (2/2): updates/7/x86_64/pr 8% [=                ] 190 kB/s | 502 kB   00:29 ETA (2/2): updates/7/x86_64/pr 16% [==-             ] 278 kB/s | 1.0 MB   00:18 ETA (2/2): updates/7/x86_64/pr 29% [====-           ] 425 kB/s | 1.8 MB   00:10 ETA (2/2): updates/7/x86_64/pr 52% [========        ] 677 kB/s | 3.2 MB   00:04 ETA (2/2): updates/7/x86_64/pr 91% [==============- ] 1.1 MB/s | 5.5 MB   00:00 ETA (2/2): updates/7/x86_64/primary_db                         | 6.0 MB   00:03     
+(2/2): updates/7/x86_64/pr 2% [-                ]  0.0 B/s | 183 kB   --:-- ETA (2/2): updates/7/x86_64/pr 7% [=                ] 354 kB/s | 474 kB   00:16 ETA (2/2): updates/7/x86_64/pr 15% [==              ] 425 kB/s | 942 kB   00:12 ETA (2/2): updates/7/x86_64/pr 28% [====            ] 556 kB/s | 1.7 MB   00:08 ETA (2/2): updates/7/x86_64/pr 51% [========        ] 811 kB/s | 3.1 MB   00:03 ETA (2/2): updates/7/x86_64/pr 86% [=============-  ] 1.2 MB/s | 5.2 MB   00:00 ETA (2/2): updates/7/x86_64/primary_db                         | 6.0 MB   00:02     
 Determining fastest mirrors
- * base: mirror.fdcservers.net
- * extras: mirror.nexcess.net
+ * base: centos.corenetworks.net
+ * extras: centos.chi.host-engine.com
  * updates: centos.mbni.med.umich.edu
 Resolving Dependencies
 --> Running transaction check
@@ -87,15 +87,15 @@ Installed size: 5.7 M
 Downloading packages:
 (2/9): krb5-devel-1.11.3-4 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/9): keyutils-libs-devel-1.5.8-3.el7.x86_64.rpm          |  37 kB   00:00     
 (2/9): libverto-devel-0.2.5-4.el7.x86_64.rpm               |  12 kB   00:00     
-(3/9): krb5-devel-1.11.3-49.el7.x86_64.rpm                 | 611 kB   00:00     
-(4/9): libcom_err-devel-1.42.9-4.el7.x86_64.rpm            |  30 kB   00:00     
-(5/9): pcre-devel-8.32-12.el7.x86_64.rpm                   | 477 kB   00:00     
+(3/9): libcom_err-devel-1.42.9-4.el7.x86_64.rpm            |  30 kB   00:00     
+(4/9): krb5-devel-1.11.3-49.el7.x86_64.rpm                 | 611 kB   00:00     
+(5/9): libselinux-devel-2.2.2-6.el7.x86_64.rpm             | 174 kB   00:00     
 (6/9): zlib-devel-1.2.7-13.el7.x86_64.rpm                  |  49 kB   00:00     
-(7/9): libsepol-devel-2.1.9-3.el7.x86_64.rpm               |  71 kB   00:00     
-(8/9): libselinux-devel-2.2.2-6.el7.x86_64.rpm             | 174 kB   00:00     
-(9/9): openssl-devel-1.0.1 54% [========-       ]  0.0 B/s | 1.4 MB   --:-- ETA (9/9): openssl-devel-1.0.1 61% [=========-      ] 186 kB/s | 1.6 MB   00:05 ETA (9/9): openssl-devel-1.0.1 73% [===========-    ] 237 kB/s | 1.9 MB   00:03 ETA (9/9): openssl-devel-1.0.1 87% [=============-  ] 298 kB/s | 2.3 MB   00:01 ETA (9/9): openssl-devel-1.0.1e-34.el7_0.6.x86_64.rpm          | 1.2 MB   00:01     
+(7/9): pcre-devel-8.32-12.el7.x86_64.rpm                   | 477 kB   00:00     
+(8/9): libsepol-devel-2.1.9-3.el7.x86_64.rpm               |  71 kB   00:00     
+(9/9): openssl-devel-1.0.1 54% [========-       ]  0.0 B/s | 1.4 MB   --:-- ETA (9/9): openssl-devel-1.0.1 60% [=========-      ] 208 kB/s | 1.6 MB   00:05 ETA (9/9): openssl-devel-1.0.1 77% [============    ] 282 kB/s | 2.0 MB   00:02 ETA (9/9): openssl-devel-1.0.1e-34.el7_0.6.x86_64.rpm          | 1.2 MB   00:01     
 --------------------------------------------------------------------------------
-Total                                              1.1 MB/s | 2.6 MB  00:02     
+Total                                              1.4 MB/s | 2.6 MB  00:01     
 Running transaction check
 Running transaction test
 Transaction test succeeded
