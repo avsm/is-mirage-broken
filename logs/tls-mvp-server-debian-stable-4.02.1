@@ -20,38 +20,32 @@ Updating ~/.opam/packages/ ...
 Already up-to-date.
 + opam installext -j 3 mirage tls
 ++ opam install -j 3 mirage tls -e debian
-+ depext='libffi-dev libgmp-dev m4'
-+ echo Debian depexts: libffi-dev libgmp-dev m4
-Debian depexts: libffi-dev libgmp-dev m4
-+ '[' 'libffi-dev libgmp-dev m4' '!=' '' ']'
++ depext='libffi-dev m4'
++ echo Debian depexts: libffi-dev m4
+Debian depexts: libffi-dev m4
++ '[' 'libffi-dev m4' '!=' '' ']'
 + sudo apt-get update -y
-0% [Working]            Get:1 http://security.debian.org stable/updates Release.gpg [836 B]
-            100% [Connecting to http.debian.net (46.4.205.44)] [1 Release.gpg 836 B/836 B 1100% [Connecting to http.debian.net (46.4.205.44)] [Connecting to download.open                                                                               Get:2 http://security.debian.org stable/updates Release [102 kB]
-15% [Connecting to http.debian.net (46.4.205.44)] [2 Release 14.1 kB/102 kB 14%100% [Waiting for headers] [Connecting to download.opensuse.org (195.135.221.13100% [Waiting for headers] [Connecting to download.opensuse.org (195.135.221.13100% [2 Release gpgv 102 kB] [Waiting for headers] [Connecting to download.open                                                                               Get:3 http://http.debian.net stable Release.gpg [1655 B]
-98% [3 Release.gpg 0 B/1655 B 0%] [2 Release gpgv 102 kB] [Waiting for headers]                                                                               100% [2 Release gpgv 102 kB] [Waiting for headers] [Waiting for headers]                                                                        100% [Waiting for headers] [Waiting for headers]                                                Get:4 http://security.debian.org stable/updates/main amd64 Packages [293 kB]
-                                                33% [Waiting for headers] [4 Packages 26.9 kB/293 kB 9%] [Waiting for headers]                                                                              33% [4 Packages 28.6 kB/293 kB 10%] [Waiting for headers]                                                         Get:5 http://http.debian.net stable-updates Release.gpg [836 B]
-                                                         41% [5 Release.gpg 836 B/836 B 100%] [Waiting for headers] [4 Packages 59.0 kB/41% [Waiting for headers] [4 Packages 59.0 kB/293 kB 20%] [Waiting for headers]                                                                               Hit http://download.opensuse.org  Release.gpg
-                                                                               68% [Waiting for headers] [4 Packages 165 kB/293 kB 56%]76% [4 Packages 197 kB/293 kB 67%] [Waiting for headers]                                                        Get:6 http://http.debian.net stable Release [168 kB]
-                                                        56% [6 Release 14.2 kB/168 kB 8%] [Waiting for headers] [4 Packages 197 kB/293 100% [6 Release 168 kB/168 kB 100%] [Waiting for headers] [Waiting for headers]                                                                               100% [Waiting for headers] [Waiting for headers]                                                100% [4 Packages 292 kB] [Waiting for headers] [Waiting for headers]                                                                    100% [4 Packages 292 kB] [6 Release gpgv 168 kB] [Waiting for headers] [Waiting                                                                               100% [4 Packages 293 kB] [6 Release gpgv 168 kB] [Waiting for headers]                                                                      Get:7 http://http.debian.net stable-updates Release [124 kB]
-                                                                      86% [4 Packages 293 kB] [7 Release 24.7 kB/124 kB 20%] [6 Release gpgv 168 kB]                                                                                92% [4 Packages 293 kB] [7 Release 69.2 kB/124 kB 56%] [Waiting for headers]                                                                            Hit http://download.opensuse.org  Release
-                                                                            98% [4 Packages 293 kB] [7 Release 111 kB/124 kB 89%] [Waiting for headers]                                                                           100% [4 Packages 293 kB] [7 Release 124 kB/124 kB 100%] [Release gpgv 989 B] [W                                                                               100% [4 Packages 293 kB] [Release gpgv 989 B] [Waiting for headers]                                                                   100% [Release gpgv 989 B] [Waiting for headers]                                               100% [Waiting for headers]                          100% [7 Release gpgv 124 kB] [Waiting for headers]                                                  100% [Waiting for headers] [Waiting for headers]                                                100% [Waiting for headers]                          Get:8 http://http.debian.net stable/main amd64 Packages [7625 kB]
-                          9% [8 Packages 31.7 kB/7625 kB 0%] [Waiting for headers] [Waiting for headers]                                                                              Hit http://download.opensuse.org  Packages
-                                                                              10% [8 Packages 178 kB/7625 kB 2%] [Waiting for headers]11% [8 Packages 226 kB/7625 kB 3%] [Waiting for headers]                                                        16% [8 Packages 638 kB/7625 kB 8%]                                  90% [8 Packages 6797 kB/7625 kB 89%]                                    100% [Working]              100% [8 Packages 7625 kB]                         Get:9 http://http.debian.net stable-updates/main amd64 Packages [3329 B]
-                         100% [8 Packages 7625 kB] [9 Packages 0 B/3329 B 0%]                                                    100% [8 Packages 7625 kB]100% [8 Packages 7625 kB]100% [8 Packages 7625 kB]                         100% [Working]              100% [9 Packages 3329 B]                        100% [Working]              Fetched 8319 kB in 3s (2707 kB/s)
-Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 50%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+0% [Working]            0% [Connecting to security.debian.org (212.211.132.32)] [Waiting for headers]                                                                             Hit http://download.opensuse.org  Release.gpg
+                                                                             17% [Waiting for headers] [Waiting for headers] [Connecting to security.debian.                                                                               Get:1 http://http.debian.net stable Release.gpg [1655 B]
+100% [1 Release.gpg 1655 B/1655 B 100%] [Waiting for headers] [Connecting to se100% [Waiting for headers] [Connecting to security.debian.org (212.211.132.32)]100% [Connecting to security.debian.org (212.211.132.32)] [Waiting for headers]                                                                               Get:2 http://http.debian.net stable-updates Release.gpg [836 B]
+100% [2 Release.gpg 836 B/836 B 100%] [Waiting for headers] [Connecting to secu100% [Waiting for headers] [Connecting to security.debian.org (212.211.132.32)]                                                                               Hit http://download.opensuse.org  Release
+                                                                               100% [Waiting for headers] [Waiting for headers]                                                100% [Release gpgv 989 B] [Waiting for headers] [Waiting for headers]                                                                     100% [Release gpgv 989 B] [Waiting for headers]                                               100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Get:3 http://http.debian.net stable Release [168 kB]
+                                                                      9% [3 Release 13.0 kB/168 kB 8%] [Waiting for headers] [Waiting for headers] [W                                                                               49% [3 Release 81.1 kB/168 kB 48%] [Waiting for headers] [Waiting for headers]                                                                              Hit http://download.opensuse.org  Packages
+                                                                              100% [3 Release 168 kB/168 kB 100%] [Waiting for headers]                                                         Get:4 http://security.debian.org stable/updates Release.gpg [836 B]
+                                                         100% [Working]              100% [3 Release gpgv 168 kB] [Waiting for headers] [Waiting for headers]                                                                        100% [Packages 0 B] [3 Release gpgv 168 kB] [Waiting for headers] [Waiting for                                                                                100% [3 Release gpgv 168 kB] [Waiting for headers] [Waiting for headers]                                                                        Get:5 http://http.debian.net stable-updates Release [124 kB]
+                                                                        73% [3 Release gpgv 168 kB] [5 Release 42.0 kB/124 kB 34%] [Waiting for headers                                                                               73% [5 Release 42.0 kB/124 kB 34%] [Waiting for headers]                                                        100% [Waiting for headers] [Waiting for headers]                                                100% [5 Release gpgv 124 kB] [Waiting for headers] [Waiting for headers]                                                                        100% [Waiting for headers] [Waiting for headers]                                                100% [Waiting for headers]                          Get:6 http://http.debian.net stable/main amd64 Packages [7625 kB]
+                          4% [6 Packages 32.0 kB/7625 kB 0%] [Waiting for headers] [Waiting for headers]                                                                              Get:7 http://security.debian.org stable/updates Release [102 kB]
+                                                                              6% [6 Packages 144 kB/7625 kB 2%] [Waiting for headers] [7 Release 14.1 kB/102                                                                                6% [6 Packages 191 kB/7625 kB 3%] [7 Release 14.1 kB/102 kB 14%]                                                                23% [6 Packages 1489 kB/7625 kB 20%] [7 Release 56.1 kB/102 kB 55%]                                                                   37% [6 Packages 2575 kB/7625 kB 34%]                                    37% [7 Release gpgv 102 kB] [6 Packages 2575 kB/7625 kB 34%]                                                            40% [6 Packages 2785 kB/7625 kB 37%]                                    Get:8 http://security.debian.org stable/updates/main amd64 Packages [293 kB]
+                                    48% [6 Packages 3548 kB/7625 kB 47%] [8 Packages 31.5 kB/293 kB 11%]75% [6 Packages 5735 kB/7625 kB 75%] [8 Packages 99.6 kB/293 kB 34%]                                                                    94% [6 Packages 7223 kB/7625 kB 95%] [8 Packages 179 kB/293 kB 61%]                                                                   99% [8 Packages 179 kB/293 kB 61%]                                  99% [6 Packages 7625 kB] [8 Packages 179 kB/293 kB 61%]                                                       Get:9 http://http.debian.net stable-updates/main amd64 Packages [3329 B]
+                                                       99% [6 Packages 7625 kB] [9 Packages 0 B/3329 B 0%] [8 Packages 226 kB/293 kB 7                                                                               99% [6 Packages 7625 kB] [8 Packages 226 kB/293 kB 77%]                                                       100% [6 Packages 7625 kB]100% [6 Packages 7625 kB]                         100% [Working]              100% [9 Packages 3329 B]                        100% [Working]              100% [8 Packages 292 kB]                        100% [Working]              Fetched 8319 kB in 4s (1740 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 32%Reading package lists... 82%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
 + sudo apt-get install -qq -y build-essential m4
-+ sudo apt-get install -qq -y libffi-dev libgmp-dev m4
++ sudo apt-get install -qq -y libffi-dev m4
 debconf: delaying package configuration, since apt-utils is not installed
-Selecting previously unselected package libgmpxx4ldbl:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 20036 files and directories currently installed.)
-Unpacking libgmpxx4ldbl:amd64 (from .../libgmpxx4ldbl_2%3a5.0.5+dfsg-2_amd64.deb) ...
 Selecting previously unselected package libffi-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 20036 files and directories currently installed.)
 Unpacking libffi-dev:amd64 (from .../libffi-dev_3.0.10-3_amd64.deb) ...
-Selecting previously unselected package libgmp-dev:amd64.
-Unpacking libgmp-dev:amd64 (from .../libgmp-dev_2%3a5.0.5+dfsg-2_amd64.deb) ...
-Setting up libgmpxx4ldbl:amd64 (2:5.0.5+dfsg-2) ...
 Setting up libffi-dev:amd64 (3.0.10-3) ...
-Setting up libgmp-dev:amd64 (2:5.0.5+dfsg-2) ...
 ++ opam install -j 3 mirage tls -e source,linux
 + srcext=
 + echo Debian srcexts:
@@ -59,15 +53,15 @@ Debian srcexts:
 + '[' '' '!=' '' ']'
 + opam install -j 3 mirage tls
 The following actions will be performed:
- - install   conf-gmp.1                            [required by zarith]
  - install   ocamlfind.1.5.5                       [required by tls]
+ - install   gmp.6.0.0                             [required by zarith]
  - install   camlp4.4.02.1+system                  [required by cstruct]
- - install   zarith.1.3                            [required by nocrypto]
  - install   re.1.2.2                              [required by mirage]
  - install   ppx_tools.0.99.2                      [required by lwt]
  - install   cppo.1.1.2                            [required by ocplib-endian]
  - install   cmdliner.0.9.6                        [required by mirage]
  - install   base-bytes.base                       [required by ctypes, ocplib-endian]
+ - install   zarith.1.3                            [required by nocrypto]
  - install   type_conv.112.01.00                   [required by tls]
  - install   lwt.2.4.7                             [required by tls, mirage]
  - install   crunch.1.3.0                          [required by mirage]
@@ -92,6 +86,7 @@ The following actions will be performed:
 [[32mcrunch.1.3.0[m] Downloading https://github.com/mirage/ocaml-crunch/archive/v1.3.0.tar.gz
 [[32mcstruct.1.5.0[m] Downloading https://github.com/mirage/ocaml-cstruct/archive/v1.5.0.tar.gz
 [[32mctypes.0.3.4[m] Downloading https://github.com/ocamllabs/ocaml-ctypes/archive/0.3.4.tar.gz
+[[32mgmp.6.0.0[m] Downloading https://gmplib.org/download/gmp/gmp-6.0.0a.tar.xz
 [[32mio-page.1.2.0[m] Downloading https://github.com/mirage/io-page/archive/v1.2.0.tar.gz
 [[32mipaddr.2.5.0[m] Downloading https://github.com/mirage/ocaml-ipaddr/archive/2.5.0.tar.gz
 [[32mlwt.2.4.7[m] Downloading https://github.com/ocsigen/lwt/archive/2.4.7.tar.gz
@@ -110,61 +105,62 @@ The following actions will be performed:
 
 [36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
 Copying ~/.opam/repo/default/packages/camlp4/camlp4.4.02.1+system/files/install to ~/.opam/system/build/camlp4.4.02.1+system/
-Copying ~/.opam/repo/default/packages/conf-gmp/conf-gmp.1/files/test.c to ~/.opam/system/build/conf-gmp.1/
-Building conf-gmp.1:
-  sh -c cc -c $CFLAGS test.c
 Copying ~/.opam/repo/default/packages/camlp4/camlp4.4.02.1+system/files/check-camlp4.sh to ~/.opam/system/build/camlp4.4.02.1+system/
 Building camlp4.4.02.1+system:
   sh ./check-camlp4.sh
+Installing camlp4.4.02.1+system.
 Copying ~/.opam/repo/default/packages/ocamlfind/ocamlfind.1.5.5/files/ocamlfind.install to ~/.opam/system/build/ocamlfind.1.5.5/
-Installing conf-gmp.1.
 Building ocamlfind.1.5.5:
   ./configure -bindir /home/opam/.opam/system/bin -sitelib /home/opam/.opam/system/lib -mandir /home/opam/.opam/system/man -config /home/opam/.opam/system/lib/findlib.conf -no-topfind
   make all
   make opt
   make install
-Installing camlp4.4.02.1+system.
+Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/mirage-install.sh to ~/.opam/system/build/gmp.6.0.0/
+Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/mirage-build.sh to ~/.opam/system/build/gmp.6.0.0/
+Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/gmp.pc to ~/.opam/system/build/gmp.6.0.0/
+Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/gmp-6a.diff to ~/.opam/system/build/gmp.6.0.0/
+Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/META to ~/.opam/system/build/gmp.6.0.0/
+Applying gmp-6a.diff.
+Building gmp.6.0.0:
+  ./mirage-build.sh
+  ./mirage-install.sh
 Installing ocamlfind.1.5.5.
 Installing base-bytes.base.
-Building cmdliner.0.9.6:
-  ocaml pkg/git.ml
-  ocaml pkg/build.ml native=true native-dynlink=true
 Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/system/build/cppo.1.1.2/
-Building ppx_tools.0.99.2:
-  make all
-  make install
 Building cppo.1.1.2:
   make
   make install-lib
+Building cmdliner.0.9.6:
+  ocaml pkg/git.ml
+  ocaml pkg/build.ml native=true native-dynlink=true
 Installing cmdliner.0.9.6.
+Building ppx_tools.0.99.2:
+  make all
+  make install
+Installing cppo.1.1.2.
 Building re.1.2.2:
   ocaml setup.ml -configure --prefix /home/opam/.opam/system
   ocaml setup.ml -build
   ocaml setup.ml -install
-Installing cppo.1.1.2.
 Installing ppx_tools.0.99.2.
 Building type_conv.112.01.00:
   make
   make install
-Building zarith.1.3:
-  ./configure
-  make
-  make install
-Installing zarith.1.3.
+Installing type_conv.112.01.00.
 Building crunch.1.3.0:
   ocaml setup.ml -configure --prefix /home/opam/.opam/system
   ocaml setup.ml -build
   ocaml setup.ml -install
-Installing type_conv.112.01.00.
+Installing re.1.2.2.
 Building ctypes.0.3.4:
   make
   make install
-Installing re.1.2.2.
+Installing crunch.1.3.0.
 Building lwt.2.4.7:
   ./configure --prefix /home/opam/.opam/system --disable-libev --enable-camlp4 --disable-react --disable-ssl --enable-unix --enable-preemptive --disable-glib --enable-ppx
   make build
   make install
-Installing crunch.1.3.0.
+Installing ctypes.0.3.4.
 Building ocplib-endian.0.8:
   ocaml setup.ml -configure --disable-debug --prefix /home/opam/.opam/system
   ocaml setup.ml -build
@@ -174,7 +170,6 @@ Building sexplib.112.06.00:
   ./configure --enable-syntax
   make
   make install
-Installing ctypes.0.3.4.
 Installing sexplib.112.06.00.
 Building ipaddr.2.5.0:
   ocaml setup.ml -configure --prefix /home/opam/.opam/system
@@ -191,14 +186,6 @@ Building io-page.1.2.0:
   ./configure --prefix /home/opam/.opam/system
   make
   make install
-Building asn1-combinators.0.1.1:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/system
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Building nocrypto.0.3.0:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/system
-  ocaml setup.ml -build
-  ocaml setup.ml -install
 Installing io-page.1.2.0.
 Building mirage-types.2.2.0:
   make install-types
@@ -207,173 +194,75 @@ Building mirage.2.2.0:
   ./configure --bindir /home/opam/.opam/system/bin
   make
   make install
-Installing asn1-combinators.0.1.1.
 Installing mirage.2.2.0.
-Installing nocrypto.0.3.0.
-Building x509.0.2.1:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/system
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing x509.0.2.1.
-Building tls.0.3.0:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/system --enable-lwt --enable-mirage
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing tls.0.3.0.
-+ opam config env
-+ eval CAML_LD_LIBRARY_PATH="/home/opam/.opam/system/lib/stublibs:/usr/lib/ocaml/stublibs"; export CAML_LD_LIBRARY_PATH; MANPATH="/home/opam/.opam/system/man:"; export MANPATH; MAKELEVEL=""; export MAKELEVEL; MAKEFLAGS=""; export MAKEFLAGS; PERL5LIB="/home/opam/.opam/system/lib/perl5"; export PERL5LIB; OCAML_TOPLEVEL_PATH="/home/opam/.opam/system/lib/toplevel"; export OCAML_TOPLEVEL_PATH; PATH="/home/opam/.opam/system/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"; export PATH;
-+ CAML_LD_LIBRARY_PATH=/home/opam/.opam/system/lib/stublibs:/usr/lib/ocaml/stublibs
-+ export CAML_LD_LIBRARY_PATH
-+ MANPATH=/home/opam/.opam/system/man:
-+ export MANPATH
-+ MAKELEVEL=
-+ export MAKELEVEL
-+ MAKEFLAGS=
-+ export MAKEFLAGS
-+ PERL5LIB=/home/opam/.opam/system/lib/perl5
-+ export PERL5LIB
-+ OCAML_TOPLEVEL_PATH=/home/opam/.opam/system/lib/toplevel
-+ export OCAML_TOPLEVEL_PATH
-+ PATH=/home/opam/.opam/system/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-+ export PATH
-+ git clone git://github.com/mirleft/tls-mvp-server
-Cloning into 'tls-mvp-server'...
-remote: Counting objects: 24, done.[K
-remote: Compressing objects:   6% (1/15)   [Kremote: Compressing objects:  13% (2/15)   [Kremote: Compressing objects:  20% (3/15)   [Kremote: Compressing objects:  26% (4/15)   [Kremote: Compressing objects:  33% (5/15)   [Kremote: Compressing objects:  40% (6/15)   [Kremote: Compressing objects:  46% (7/15)   [Kremote: Compressing objects:  53% (8/15)   [Kremote: Compressing objects:  60% (9/15)   [Kremote: Compressing objects:  66% (10/15)   [Kremote: Compressing objects:  73% (11/15)   [Kremote: Compressing objects:  80% (12/15)   [Kremote: Compressing objects:  86% (13/15)   [Kremote: Compressing objects:  93% (14/15)   [Kremote: Compressing objects: 100% (15/15)   [Kremote: Compressing objects: 100% (15/15), done.[K
-remote: Total 24 (delta 9), reused 23 (delta 8)[K
-Receiving objects:   4% (1/24)   Receiving objects:   8% (2/24)   Receiving objects:  12% (3/24)   Receiving objects:  16% (4/24)   Receiving objects:  20% (5/24)   Receiving objects:  25% (6/24)   Receiving objects:  29% (7/24)   Receiving objects:  33% (8/24)   Receiving objects:  37% (9/24)   Receiving objects:  41% (10/24)   Receiving objects:  45% (11/24)   Receiving objects:  50% (12/24)   Receiving objects:  54% (13/24)   Receiving objects:  58% (14/24)   Receiving objects:  62% (15/24)   Receiving objects:  66% (16/24)   Receiving objects:  70% (17/24)   Receiving objects:  75% (18/24)   Receiving objects:  79% (19/24)   Receiving objects:  83% (20/24)   Receiving objects:  87% (21/24)   Receiving objects:  91% (22/24)   Receiving objects:  95% (23/24)   Receiving objects: 100% (24/24)   Receiving objects: 100% (24/24), 4.24 KiB, done.
-Resolving deltas:   0% (0/9)   Resolving deltas:  55% (5/9)   Resolving deltas:  66% (6/9)   Resolving deltas: 100% (9/9)   Resolving deltas: 100% (9/9), done.
-+ cd tls-mvp-server
-+ mirage configure --unix
-[32mMirage[m      [36mUsing scanned config file:[m config.ml
-[32mMirage[m      [36mCompiling for target:[m Unix
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/tls-mvp-server/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/tls-mvp-server/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/tls-mvp-server && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mtls-server[m  [36mUsing configuration:[m /home/opam/opam-repository/tls-mvp-server/config.ml
-[32mtls-server[m  1 job [Unikernel.Main]
-[32mtls-server[m  Installing OPAM packages.
-[32mtls-server[m  [33m=>[m opam install --yes crunch cstruct io-page lwt mirage-clock-unix mirage-console mirage-entropy-unix mirage-fs-unix mirage-types mirage-unix tcpip tls
-[1;34m[NOTE][m Package crunch is already installed (current version is 1.3.0).
-[1;34m[NOTE][m Package cstruct is already installed (current version is 1.5.0).
-[1;34m[NOTE][m Package io-page is already installed (current version is 1.2.0).
-[1;34m[NOTE][m Package lwt is already installed (current version is 2.4.7).
-[1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
-[1;34m[NOTE][m Package tls is already installed (current version is 0.3.0).
-The following actions will be performed:
- - install   ounit.2.0.0                           [required by mirage-net-unix, shared-memory-ring]
- - install   mirage-types-lwt.2.2.0                [required by tls, mirage-console]
- - install   mirage-fs-unix.1.1.3
- - install   mirage-profile.0.4                    [required by tcpip, mirage-unix]
- - install   mirage-clock-unix.1.0.0
- - install   tuntap.1.0.0                          [required by mirage-net-unix]
- - recompile tls.0.3.0
- - install   shared-memory-ring.1.1.1              [required by mirage-unix]
- - install   mirage-net-unix.1.1.1                 [required by tcpip]
- - install   mirage-unix.2.1.2
- - install   mirage-entropy-unix.0.1.6
- - install   mirage-console.2.1.0
- - install   tcpip.2.2.1
-=== [33m12[m to install | [33m1[m to reinstall ===
+[31m[ERROR][m The compilation of gmp.6.0.0 failed.
+Removing gmp.6.0.0.
+  rm -rf /home/opam/.opam/system/include/gmp.h /home/opam/.opam/system/lib/pkgconfig/gmp.pc /home/opam/.opam/system/lib/gmp
 
-[36m=-=-[m [01mSynchronizing package archives[m [36m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
-[[32mmirage-clock-unix.1.0.0[m] Downloading https://github.com/mirage/mirage-clock/archive/v1.0.0.tar.gz
-[[32mmirage-console.2.1.0[m] Downloading https://github.com/mirage/mirage-console/archive/2.1.0.tar.gz
-[[32mmirage-entropy-unix.0.1.6[m] Downloading https://github.com/mirage/mirage-entropy/archive/0.1.6.tar.gz
-[[32mmirage-fs-unix.1.1.3[m] Downloading https://github.com/mirage/mirage-fs-unix/archive/v1.1.3.tar.gz
-[[32mmirage-net-unix.1.1.1[m] Downloading https://github.com/mirage/mirage-net-unix/archive/v1.1.1.tar.gz
-[[32mmirage-profile.0.4[m] Downloading https://github.com/mirage/mirage-profile/archive/v0.4.tar.gz
-[[32mmirage-unix.2.1.2[m] Downloading https://github.com/mirage/mirage-platform/archive/v2.1.2.tar.gz
-[[32mounit.2.0.0[m] Downloading http://forge.ocamlcore.org/frs/download.php/1258/ounit-2.0.0.tar.gz
-[[32mshared-memory-ring.1.1.1[m] Downloading https://github.com/mirage/shared-memory-ring/archive/1.1.1.tar.gz
-[[32mtcpip.2.2.1[m] Downloading https://github.com/mirage/mirage-tcpip/archive/v2.2.1.tar.gz
-[[32mtls.0.3.0[m] 0.3.0.tar.gz is in the local cache, using it.
-[[32mtuntap.1.0.0[m] Downloading https://github.com/mirage/ocaml-tuntap/archive/v1.0.0.tar.gz
 
-[36m=-=-[m [01mRemoving Packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
-Removing tls.0.3.0.
-  ocamlfind remove tls
+[31m#===[m [01mERROR[m [01mwhile installing gmp.6.0.0[m [31m=========================================#[m
+[31m#[m [31mopam-version[m 1.2.0
+[31m#[m [31mos[m           linux
+[31m#[m [31mcommand[m      ./mirage-install.sh
+[31m#[m [31mpath[m         /home/opam/.opam/system/build/gmp.6.0.0
+[31m#[m [31mcompiler[m     system (4.02.1)
+[31m#[m [31mexit-code[m    1
+[31m#[m [31menv-file[m     /home/opam/.opam/system/build/gmp.6.0.0/gmp-560-2913ab.env
+[31m#[m [31mstdout-file[m  /home/opam/.opam/system/build/gmp.6.0.0/gmp-560-2913ab.out
+[31m#[m [31mstderr-file[m  /home/opam/.opam/system/build/gmp.6.0.0/gmp-560-2913ab.err
+[31m### stdout ###
+[m[31m# [m...[truncated]
+[31m# [m| explore interesting corners in compilers and has hit bugs   |
+[31m# [m| on quite a few occasions.                                   |
+[31m# [m|                                                             |
+[31m# [m+-------------------------------------------------------------+
+[31m# [m
+[31m# [mmake[4]: Leaving directory `/home/opam/.opam/system/build/gmp.6.0.0/unix'
+[31m# [mmake[3]: Leaving directory `/home/opam/.opam/system/build/gmp.6.0.0/unix'
+[31m# [mmake[2]: Leaving directory `/home/opam/.opam/system/build/gmp.6.0.0/unix'
+[31m# [mmake[1]: Leaving directory `/home/opam/.opam/system/build/gmp.6.0.0/unix'
+[31m# [mmake: Leaving directory `/home/opam/.opam/system/build/gmp.6.0.0/unix'
+[31m### stderr ###
+[m[31m# [m...[truncated]
+[31m# [m+ pkg-config --exists mirage-xen
+[31m# [m+ opam config var prefix
+[31m# [m+ PREFIX=/home/opam/.opam/system
+[31m# [m+ PKG_CONFIG_PATH=/home/opam/.opam/system/lib/pkgconfig
+[31m# [m+ export PKG_CONFIG_PATH
+[31m# [m+ make install -C unix
+[31m# [minstall-info: warning: nothing done since /usr/bin/install-info doesn't exist,
+[31m# [minstall-info: warning: you might want to install an info-browser package.
+[31m# [m+ cp gmp.pc /home/opam/.opam/system/lib/pkgconfig/
+[31m# [mcp: cannot create regular file `/home/opam/.opam/system/lib/pkgconfig/': Not a directory
 
-[36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
-Building mirage-clock-unix.1.0.0:
-  make unix-build
-  make unix-install
-Installing mirage-clock-unix.1.0.0.
-Building mirage-fs-unix.1.1.3:
-  make
-  make install
-Installing mirage-fs-unix.1.1.3.
-Building mirage-profile.0.4:
-  ./configure --prefix /home/opam/.opam/system --disable-xen
-  make
-  make install
-Installing mirage-profile.0.4.
-Installing mirage-types-lwt.2.2.0.
-Building ounit.2.0.0:
-  make build
-  make install
-Installing ounit.2.0.0.
-Building shared-memory-ring.1.1.1:
-  make all
-  make install
-Installing shared-memory-ring.1.1.1.
-Building tls.0.3.0:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/system --enable-lwt --enable-mirage
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing tls.0.3.0.
-Building tuntap.1.0.0:
-  make PREFIX=/home/opam/.opam/system
-  make PREFIX=/home/opam/.opam/system install
-Installing tuntap.1.0.0.
-Building mirage-net-unix.1.1.1:
-  make
-  make install
-Installing mirage-net-unix.1.1.1.
-Building mirage-unix.2.1.2:
-  make unix-build
-  make unix-install PREFIX=/home/opam/.opam/system
-Installing mirage-unix.2.1.2.
-Building mirage-console.2.1.0:
-  make
-  make install
-Installing mirage-console.2.1.0.
-Building mirage-entropy-unix.0.1.6:
-  make unix-build
-  make unix-install
-Installing mirage-entropy-unix.0.1.6.
-Building tcpip.2.2.1:
-  ./configure --prefix /home/opam/.opam/system --disable-xen
-  make
-  make install
-Installing tcpip.2.2.1.
-[32mtls-server[m  [36mGenerating:[m main.ml
-+ mirage build
-[32mMirage[m      [36mUsing scanned config file:[m config.ml
-[32mMirage[m      [36mCompiling for target:[m Unix
-[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/tls-mvp-server/config.ml
-[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/tls-mvp-server/_build/config.*
-[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/tls-mvp-server && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
-[32mtls-server[m  Build: [36m/home/opam/opam-repository/tls-mvp-server/config.ml[m
-[32mtls-server[m  [33m=>[m make build
-[31mtls-server[m   make: *** [main.native] Error 10
-[31mtls-server[m   ocamlfind -pkgs lwt.syntax,cstruct,io-page,io-page.unix,lwt,mirage-clock-unix,mirage-console.unix,mirage-entropy-unix,mirage-fs-unix,mirage-types,mirage-types.lwt,tcpip.channel,tcpip.stack-socket,tls,tls.mirage -tags "syntax(camlp4o),annot,bin_annot,strict_sequence,principal" -tag-line "<static*.*>: -syntax(camlp4o)" -cflag -g -lflags -g,-linkpkg main.native
-[31mtls-server[m   ocamlfind ocamldep -package tls.mirage -package tls -package tcpip.stack-socket -package tcpip.channel -package mirage-types.lwt -package mirage-types -package mirage-fs-unix -package mirage-entropy-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package lwt.syntax -syntax camlp4o -modules main.ml > main.ml.depends
-[31mtls-server[m   ocamlfind ocamldep -package tls.mirage -package tls -package tcpip.stack-socket -package tcpip.channel -package mirage-types.lwt -package mirage-types -package mirage-fs-unix -package mirage-entropy-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package lwt.syntax -syntax camlp4o -modules unikernel.ml > unikernel.ml.depends
-[31mtls-server[m   ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tls.mirage -package tls -package tcpip.stack-socket -package tcpip.channel -package mirage-types.lwt -package mirage-types -package mirage-fs-unix -package mirage-entropy-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package lwt.syntax -syntax camlp4o -o unikernel.cmo unikernel.ml
-[31mtls-server[m   + ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tls.mirage -package tls -package tcpip.stack-socket -package tcpip.channel -package mirage-types.lwt -package mirage-types -package mirage-fs-unix -package mirage-entropy-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package lwt.syntax -syntax camlp4o -o unikernel.cmo unikernel.ml
-[31mtls-server[m   File "unikernel.ml", line 25, characters 16-36:
-[31mtls-server[m   Error: Unbound module Tls_mirage.Make_flow
-[31mtls-server[m   Command exited with code 2.
-[31mtls-server[m   Hint: Recursive traversal of subdirectories was not enabled for this build,
-[31mtls-server[m     as the working directory does not look like an ocamlbuild project (no
-[31mtls-server[m     '_tags' or 'myocamlbuild.ml' file). If you have modules in subdirectories,
-[31mtls-server[m     you should add the option "-r" or create an empty '_tags' file.
-[31mtls-server[m     
-[31mtls-server[m     To enable recursive traversal for some subdirectories only, you can use the
-[31mtls-server[m     following '_tags' file:
-[31mtls-server[m     
-[31mtls-server[m         true: -traverse
-[31mtls-server[m         <dir1> or <dir2>: traverse
-[31mtls-server[m         
-[31m[ERROR][m      The command "make build" exited with code 2.
+
+[36m=-=-[m [01mError report[m [36m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+These actions have been completed [01msuccessfully[m
+ - install   camlp4.4.02.1+system
+ - install   type_conv.112.01.00
+ - install   cppo.1.1.2
+ - install   cmdliner.0.9.6
+ - install   mirage.2.2.0
+ - install   cstruct.1.5.0
+ - install   io-page.1.2.0
+ - install   ipaddr.2.5.0
+ - install   ocamlfind.1.5.5
+ - install   ppx_tools.0.99.2
+ - install   mirage-types.2.2.0
+ - install   ocplib-endian.0.8
+ - install   ctypes.0.3.4
+ - install   crunch.1.3.0
+ - install   sexplib.112.06.00
+ - install   re.1.2.2
+ - install   lwt.2.4.7
+ - install   base-bytes.base
+The following [01mfailed[m
+ - install   gmp.6.0.0
+Due to the errors, the following have been [01mcancelled[m
+ - install   zarith.1.3
+ - install   tls.0.3.0
+ - install   asn1-combinators.0.1.1
+ - install   nocrypto.0.3.0
+ - install   x509.0.2.1
+
+The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150015200802.export"
