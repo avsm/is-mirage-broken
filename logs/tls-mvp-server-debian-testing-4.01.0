@@ -26,13 +26,13 @@ Debian depexts: libffi-dev m4
 + '[' 'libffi-dev m4' '!=' '' ']'
 + sudo apt-get update -y
 0% [Working]            Get:1 http://security.debian.org testing/updates InRelease [84.1 kB]
-            17% [Connecting to http.debian.net (46.4.205.44)] [1 InRelease 14.2 kB/84.1 kB                                                                                100% [Connecting to http.debian.net (46.4.205.44)]                                                  100% [Working]              100% [1 InRelease gpgv 84.1 kB]                               Get:2 http://http.debian.net testing InRelease [199 kB]
-                               30% [2 InRelease 0 B/199 kB 0%] [1 InRelease gpgv 84.1 kB]                                                          67% [2 InRelease 106 kB/199 kB 53%]                                   Get:3 http://security.debian.org testing/updates/main amd64 Packages [20 B]
-                                   78% [2 InRelease 138 kB/199 kB 69%] [3 Packages 20 B/20 B 100%]                                                               100% [2 InRelease 199 kB/199 kB 100%]                              46.9 kB/s 0s100% [Working]                                                     46.9 kB/s 0s100% [Waiting for headers] [2 InRelease gpgv 199 kB]               46.9 kB/s 0s                                                                               100% [3 Packages 20 B] [Waiting for headers] [2 InRelease gpgv 199 kB]                                                                      100% [Waiting for headers] [2 InRelease gpgv 199 kB]               46.9 kB/s 0s                                                                               Get:4 http://http.debian.net testing-updates InRelease [117 kB]
-74% [4 InRelease 13.0 kB/117 kB 11%] [2 InRelease gpgv 199 kB]     46.9 kB/s 2s100% [2 InRelease gpgv 199 kB]                                     46.9 kB/s 0s100% [2 InRelease gpgv 199 kB]                                     46.9 kB/s 0s100% [2 InRelease gpgv 199 kB]                                     46.9 kB/s 0s100% [Working]                                                     46.9 kB/s 0s100% [4 InRelease gpgv 117 kB] [Waiting for headers]               46.9 kB/s 0s100% [4 InRelease gpgv 117 kB]                                     46.9 kB/s 0s                                                                               Get:5 http://http.debian.net testing/main amd64 Packages [9069 kB]
-                                                                               4% [5 Packages 13.0 kB/9069 kB 0%] [4 InRelease gpgv 117 kB]13% [5 Packages 847 kB/9069 kB 9%] [4 InRelease gpgv 117 kB]                                                            39% [5 Packages 3301 kB/9069 kB 36%]                          46.9 kB/s 2min 3s48% [5 Packages 4111 kB/9069 kB 45%]                         46.9 kB/s 1min 45s87% [5 Packages 7832 kB/9069 kB 86%]                              46.9 kB/s 26s100% [Working]                                                     46.9 kB/s 0s100% [5 Packages 9081 kB] [Waiting for headers]                    46.9 kB/s 0s                                                                               Get:6 http://http.debian.net testing-updates/main amd64 Packages [20 B]
-100% [5 Packages 9081 kB] [6 Packages 0 B/20 B 0%]                 46.9 kB/s 0s100% [5 Packages 9081 kB]                                          46.9 kB/s 0s100% [5 Packages 9069 kB]                                          46.9 kB/s 0s100% [5 Packages 9069 kB]                                          46.9 kB/s 0s100% [Working]                                                     46.9 kB/s 0s100% [6 Packages 20 B]                                             46.9 kB/s 0s100% [Working]                                                     46.9 kB/s 0s                                                                               Fetched 9469 kB in 10s (877 kB/s)
-Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 47%Reading package lists... 83%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+            17% [Connecting to http.debian.net] [1 InRelease 14.2 kB/84.1 kB 17%]                                                                     100% [Connecting to http.debian.net]                                    100% [1 InRelease gpgv 84.1 kB] [Connecting to http.debian.net]100% [1 InRelease gpgv 84.1 kB] [Connecting to http.debian.net]100% [1 InRelease gpgv 84.1 kB] [Connecting to http.debian.net]                                                               100% [Connecting to http.debian.net]                                    Get:2 http://security.debian.org testing/updates/main amd64 Packages [20 B]
+                                    100% [Connecting to http.debian.net] [2 Packages 20 B/20 B 100%]                                                                100% [Connecting to http.debian.net]                               11.8 kB/s 0s100% [Working]                                                     11.8 kB/s 0s100% [Working]                                                     11.8 kB/s 0s                                                                               Get:3 http://http.debian.net testing InRelease [199 kB]
+34% [3 InRelease 13.0 kB/199 kB 7%]                               11.8 kB/s 15s100% [Working]                                                     11.8 kB/s 0s100% [3 InRelease gpgv 199 kB]                                     11.8 kB/s 0s                                                                               Get:4 http://http.debian.net testing-updates InRelease [117 kB]
+71% [4 InRelease 0 B/117 kB 0%] [3 InRelease gpgv 199 kB]          11.8 kB/s 9s100% [3 InRelease gpgv 199 kB]                                     11.8 kB/s 0s100% [3 InRelease gpgv 199 kB]                                     11.8 kB/s 0s100% [Working]                                                     11.8 kB/s 0s100% [4 InRelease gpgv 117 kB] [Waiting for headers]               11.8 kB/s 0s100% [4 InRelease gpgv 117 kB]                                     11.8 kB/s 0s                                                                               Get:5 http://http.debian.net testing/main amd64 Packages [9069 kB]
+                                                                               4% [5 Packages 13.0 kB/9069 kB 0%] [4 InRelease gpgv 117 kB]                                                            13% [5 Packages 873 kB/9069 kB 10%] [4 InRelease gpgv 117 kB]                                                             88% [5 Packages 7887 kB/9069 kB 87%] [4 InRelease gpgv 117 kB]                                                              100% [4 InRelease gpgv 117 kB]                                     11.8 kB/s 0s100% [5 Packages 9081 kB] [4 InRelease gpgv 117 kB]                11.8 kB/s 0s100% [5 Packages 9069 kB]                                          11.8 kB/s 0s100% [5 Packages 9069 kB]                                          11.8 kB/s 0s                                                                               Get:6 http://http.debian.net testing-updates/main amd64 Packages [20 B]
+100% [5 Packages 9069 kB]                                          11.8 kB/s 0s100% [5 Packages 9069 kB]                                          11.8 kB/s 0s100% [Working]                                                     11.8 kB/s 0s100% [Working]                                                     11.8 kB/s 0s                                                                               Fetched 9469 kB in 11s (797 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 49%Reading package lists... 88%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
 W: Size of file /var/lib/apt/lists/http.debian.net_debian_dists_testing_main_binary-amd64_Packages.gz is not what the server reported 9068853 9081456
 + sudo apt-get install -qq -y build-essential m4
 + sudo apt-get install -qq -y libffi-dev m4
@@ -119,12 +119,12 @@ Building gmp.6.0.0:
 Installing ocamlfind.1.5.5.
 Installing base-bytes.legacy.
 Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/system/build/cppo.1.1.2/
-Building cppo.1.1.2:
-  make
-  make install-lib
 Building cmdliner.0.9.6:
   ocaml pkg/git.ml
   ocaml pkg/build.ml native=true native-dynlink=true
+Building cppo.1.1.2:
+  make
+  make install-lib
 Installing cmdliner.0.9.6.
 Building lwt.2.4.5:
   ./configure --disable-libev --disable-react --disable-ssl --enable-unix --enable-extra --enable-preemptive --disable-glib
@@ -168,12 +168,12 @@ Building ipaddr.2.5.0:
   ocaml setup.ml -configure --prefix /home/opam/.opam/system
   make build
   make install
-Installing ipaddr.2.5.0.
 Installing cstruct.1.5.0.
 Building io-page.1.2.0:
   ./configure --prefix /home/opam/.opam/system
   make
   make install
+Installing ipaddr.2.5.0.
 Installing io-page.1.2.0.
 Building mirage-types.2.2.0:
   make install-types
@@ -252,4 +252,4 @@ Due to the errors, the following have been [01mcancelled[m
  - install   nocrypto.0.3.0
  - install   x509.0.2.1
 
-The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150016072120.export"
+The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150016203353.export"

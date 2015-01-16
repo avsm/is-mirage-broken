@@ -31,10 +31,10 @@ Loaded plugins: fastestmirror
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
 (2/2): updates/7/x86_64/pr 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/2): extras/7/x86_64/primary_db                          |  43 kB   00:00     
-(2/2): updates/7/x86_64/pr 9% [=-               ]  0.0 B/s | 568 kB   --:-- ETA (2/2): updates/7/x86_64/pr 13% [==              ] 400 kB/s | 819 kB   00:13 ETA (2/2): updates/7/x86_64/pr 15% [==              ] 399 kB/s | 945 kB   00:13 ETA (2/2): updates/7/x86_64/pr 19% [===             ] 421 kB/s | 1.2 MB   00:11 ETA (2/2): updates/7/x86_64/pr 21% [===             ] 424 kB/s | 1.3 MB   00:11 ETA (2/2): updates/7/x86_64/pr 23% [===-            ] 422 kB/s | 1.4 MB   00:11 ETA (2/2): updates/7/x86_64/pr 26% [====            ] 432 kB/s | 1.6 MB   00:10 ETA (2/2): updates/7/x86_64/pr 29% [====-           ] 435 kB/s | 1.8 MB   00:10 ETA (2/2): updates/7/x86_64/pr 32% [=====           ] 440 kB/s | 1.9 MB   00:09 ETA (2/2): updates/7/x86_64/pr 34% [=====-          ] 442 kB/s | 2.1 MB   00:09 ETA (2/2): updates/7/x86_64/pr 41% [======-         ] 497 kB/s | 2.5 MB   00:07 ETA (2/2): updates/7/x86_64/pr 46% [=======         ] 531 kB/s | 2.8 MB   00:06 ETA (2/2): updates/7/x86_64/pr 51% [========        ] 560 kB/s | 3.1 MB   00:05 ETA (2/2): updates/7/x86_64/pr 57% [=========       ] 591 kB/s | 3.5 MB   00:04 ETA (2/2): updates/7/x86_64/pr 62% [=========-      ] 612 kB/s | 3.8 MB   00:03 ETA (2/2): updates/7/x86_64/pr 69% [===========     ] 660 kB/s | 4.2 MB   00:02 ETA (2/2): updates/7/x86_64/pr 76% [============    ] 706 kB/s | 4.6 MB   00:02 ETA (2/2): updates/7/x86_64/pr 81% [=============   ] 719 kB/s | 4.9 MB   00:01 ETA (2/2): updates/7/x86_64/pr 88% [==============  ] 761 kB/s | 5.4 MB   00:00 ETA (2/2): updates/7/x86_64/pr 94% [=============== ] 782 kB/s | 5.7 MB   00:00 ETA (2/2): updates/7/x86_64/primary_db                         | 6.0 MB   00:07     
+(2/2): updates/7/x86_64/pr 12% [==              ]  0.0 B/s | 780 kB   --:-- ETA (2/2): updates/7/x86_64/pr 53% [========-       ] 3.4 MB/s | 3.2 MB   00:00 ETA (2/2): updates/7/x86_64/primary_db                         | 6.0 MB   00:01     
 Determining fastest mirrors
- * base: mirror.steadfast.net
- * extras: mirror.unl.edu
+ * base: mirror.ubiquityservers.com
+ * extras: bay.uchicago.edu
  * updates: mirror.cisp.com
 Resolving Dependencies
 --> Running transaction check
@@ -56,7 +56,7 @@ Install  1 Package
 Total download size: 22 k
 Installed size: 27 k
 Downloading packages:
-libffi-devel-3.0.13-11.el7 0% [                 ]  0.0 B/s |    0 B   --:-- ETA libffi-devel-3.0.13-11.el7.x86_64.rpm                      |  22 kB   00:00     
+libffi-devel-3.0.13-11.el7.x86_64.rpm                      |  22 kB   00:00     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -147,12 +147,12 @@ Building gmp.6.0.0:
 Installing ocamlfind.1.5.5.
 Installing base-bytes.base.
 Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/system/build/cppo.1.1.2/
-Building cppo.1.1.2:
-  make
-  make install-lib
 Building cmdliner.0.9.6:
   ocaml pkg/git.ml
   ocaml pkg/build.ml native=true native-dynlink=true
+Building cppo.1.1.2:
+  make
+  make install-lib
 Installing cmdliner.0.9.6.
 Building ppx_tools.0.99.2:
   make all
@@ -167,11 +167,11 @@ Building type_conv.112.01.00:
   make
   make install
 Installing re.1.2.2.
-Installing type_conv.112.01.00.
 Building crunch.1.3.0:
   ocaml setup.ml -configure --prefix /home/opam/.opam/system
   ocaml setup.ml -build
   ocaml setup.ml -install
+Installing type_conv.112.01.00.
 Building ctypes.0.3.4:
   make
   make install
@@ -227,9 +227,9 @@ Removing gmp.6.0.0.
 [31m#[m [31mpath[m         /home/opam/.opam/system/build/gmp.6.0.0
 [31m#[m [31mcompiler[m     system (4.02.1)
 [31m#[m [31mexit-code[m    1
-[31m#[m [31menv-file[m     /home/opam/.opam/system/build/gmp.6.0.0/gmp-388-2913ab.env
-[31m#[m [31mstdout-file[m  /home/opam/.opam/system/build/gmp.6.0.0/gmp-388-2913ab.out
-[31m#[m [31mstderr-file[m  /home/opam/.opam/system/build/gmp.6.0.0/gmp-388-2913ab.err
+[31m#[m [31menv-file[m     /home/opam/.opam/system/build/gmp.6.0.0/gmp-390-2913ab.env
+[31m#[m [31mstdout-file[m  /home/opam/.opam/system/build/gmp.6.0.0/gmp-390-2913ab.out
+[31m#[m [31mstderr-file[m  /home/opam/.opam/system/build/gmp.6.0.0/gmp-390-2913ab.err
 [31m### stdout ###
 [m[31m# [m...[truncated]
 [31m# [m| explore interesting corners in compilers and has hit bugs   |
@@ -285,4 +285,4 @@ Due to the errors, the following have been [01mcancelled[m
  - install   nocrypto.0.3.0
  - install   x509.0.2.1
 
-The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150016074710.export"
+The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150016205743.export"
