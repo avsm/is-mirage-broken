@@ -30,12 +30,12 @@ Loaded plugins: fastestmirror
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-(2/2): updates/7/x86_64/pr 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/2): extras/7/x86_64/primary_db                          |  43 kB   00:00     
-(2/2): updates/7/x86_64/pr 12% [==              ]  0.0 B/s | 780 kB   --:-- ETA (2/2): updates/7/x86_64/pr 53% [========-       ] 3.4 MB/s | 3.2 MB   00:00 ETA (2/2): updates/7/x86_64/primary_db                         | 6.0 MB   00:01     
+(2/2): updates/7/x86_64/pr 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (2/2): updates/7/x86_64/pr 7% [=                ]  0.0 B/s | 441 kB   --:-- ETA (2/2): updates/7/x86_64/pr 18% [==-             ] 1.1 MB/s | 1.1 MB   00:04 ETA (2/2): updates/7/x86_64/pr 31% [====-           ] 1.1 MB/s | 1.9 MB   00:03 ETA (1/2): extras/7/x86_64/pri 41% [======-         ] 1.2 MB/s | 2.5 MB   00:02 ETA (1/2): extras/7/x86_64/primary_db                          |  43 kB   00:01     
+(2/2): updates/7/x86_64/pr 52% [========        ] 1.2 MB/s | 3.2 MB   00:02 ETA (2/2): updates/7/x86_64/pr 64% [==========      ] 1.3 MB/s | 3.9 MB   00:01 ETA (2/2): updates/7/x86_64/pr 75% [============    ] 1.4 MB/s | 4.6 MB   00:01 ETA (2/2): updates/7/x86_64/pr 85% [=============-  ] 1.4 MB/s | 5.2 MB   00:00 ETA (2/2): updates/7/x86_64/pr 97% [===============-] 1.4 MB/s | 5.9 MB   00:00 ETA (2/2): updates/7/x86_64/primary_db                         | 6.0 MB   00:03     
 Determining fastest mirrors
  * base: mirror.ubiquityservers.com
- * extras: bay.uchicago.edu
- * updates: mirror.cisp.com
+ * extras: cosmos.cites.illinois.edu
+ * updates: mirror.thelinuxfix.com
 Resolving Dependencies
 --> Running transaction check
 ---> Package libffi-devel.x86_64 0:3.0.13-11.el7 will be installed
@@ -147,12 +147,12 @@ Building gmp.6.0.0:
 Installing ocamlfind.1.5.5.
 Installing base-bytes.base.
 Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/system/build/cppo.1.1.2/
-Building cmdliner.0.9.6:
-  ocaml pkg/git.ml
-  ocaml pkg/build.ml native=true native-dynlink=true
 Building cppo.1.1.2:
   make
   make install-lib
+Building cmdliner.0.9.6:
+  ocaml pkg/git.ml
+  ocaml pkg/build.ml native=true native-dynlink=true
 Installing cmdliner.0.9.6.
 Building ppx_tools.0.99.2:
   make all
@@ -166,12 +166,12 @@ Installing ppx_tools.0.99.2.
 Building type_conv.112.01.00:
   make
   make install
-Installing re.1.2.2.
+Installing type_conv.112.01.00.
 Building crunch.1.3.0:
   ocaml setup.ml -configure --prefix /home/opam/.opam/system
   ocaml setup.ml -build
   ocaml setup.ml -install
-Installing type_conv.112.01.00.
+Installing re.1.2.2.
 Building ctypes.0.3.4:
   make
   make install
@@ -227,9 +227,9 @@ Removing gmp.6.0.0.
 [31m#[m [31mpath[m         /home/opam/.opam/system/build/gmp.6.0.0
 [31m#[m [31mcompiler[m     system (4.02.1)
 [31m#[m [31mexit-code[m    1
-[31m#[m [31menv-file[m     /home/opam/.opam/system/build/gmp.6.0.0/gmp-390-2913ab.env
-[31m#[m [31mstdout-file[m  /home/opam/.opam/system/build/gmp.6.0.0/gmp-390-2913ab.out
-[31m#[m [31mstderr-file[m  /home/opam/.opam/system/build/gmp.6.0.0/gmp-390-2913ab.err
+[31m#[m [31menv-file[m     /home/opam/.opam/system/build/gmp.6.0.0/gmp-391-2913ab.env
+[31m#[m [31mstdout-file[m  /home/opam/.opam/system/build/gmp.6.0.0/gmp-391-2913ab.out
+[31m#[m [31mstderr-file[m  /home/opam/.opam/system/build/gmp.6.0.0/gmp-391-2913ab.err
 [31m### stdout ###
 [m[31m# [m...[truncated]
 [31m# [m| explore interesting corners in compilers and has hit bugs   |
@@ -285,4 +285,4 @@ Due to the errors, the following have been [01mcancelled[m
  - install   nocrypto.0.3.0
  - install   x509.0.2.1
 
-The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150016205743.export"
+The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150017080914.export"
