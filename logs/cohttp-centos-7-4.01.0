@@ -31,12 +31,12 @@ Repodata is over 2 weeks old. Install yum-cron? Or run: yum makecache fast
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-(2/2): updates/7/x86_64/pr 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/2): extras/7/x86_64/primary_db                          |  43 kB   00:00     
-(2/2): updates/7/x86_64/pr 9% [=-               ]  0.0 B/s | 593 kB   --:-- ETA (2/2): updates/7/x86_64/pr 39% [======          ] 2.8 MB/s | 2.4 MB   00:01 ETA (2/2): updates/7/x86_64/pr 95% [=============== ] 3.3 MB/s | 5.8 MB   00:00 ETA (2/2): updates/7/x86_64/primary_db                         | 6.0 MB   00:01     
+(2/2): updates/7/x86_64/pr 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (2/2): updates/7/x86_64/pr 35% [=====-          ]  0.0 B/s | 2.2 MB   --:-- ETA (1/2): extras/7/x86_64/primary_db                          |  43 kB   00:00     
+(2/2): updates/7/x86_64/pr 89% [==============  ] 5.3 MB/s | 5.5 MB   00:00 ETA (2/2): updates/7/x86_64/primary_db                         | 6.0 MB   00:01     
 Determining fastest mirrors
- * base: mirror.steadfast.net
- * extras: reflector.westga.edu
- * updates: mirrors.gigenet.com
+ * base: mirrors.lga7.us.voxel.net
+ * extras: centos.mirrors.tds.net
+ * updates: centos.netnitco.net
 Resolving Dependencies
 --> Running transaction check
 ---> Package openssl-devel.x86_64 1:1.0.1e-34.el7_0.7 will be installed
@@ -92,18 +92,18 @@ Upgrade             ( 1 Dependent package)
 Total download size: 3.5 M
 Downloading packages:
 Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
-(2/10): krb5-devel-1.11.3- 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/10): keyutils-libs-devel-1.5.8-3.el7.x86_64.rpm         |  37 kB   00:00     
-(2/10): libverto-devel-0.2.5-4.el7.x86_64.rpm              |  12 kB   00:00     
+(2/10): krb5-devel-1.11.3- 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/10): libsepol-devel-2.1.9-3.el7.x86_64.rpm              |  71 kB   00:00     
+(2/10): keyutils-libs-devel-1.5.8-3.el7.x86_64.rpm         |  37 kB   00:00     
 (3/10): libcom_err-devel-1.42.9-4.el7.x86_64.rpm           |  30 kB   00:00     
-(4/10): libselinux-devel-2.2.2-6.el7.x86_64.rpm            | 174 kB   00:00     
-(5/10): libsepol-devel-2.1.9-3.el7.x86_64.rpm              |  71 kB   00:00     
-(6/10): pcre-devel-8.32-12.el7.x86_64.rpm                  | 477 kB   00:00     
-(7/10): krb5-devel-1.11.3-49.el7.x86_64.rpm                | 611 kB   00:00     
-(8/10): zlib-devel-1.2.7-13.el7.x86_64.rpm                 |  49 kB   00:00     
-(10/10): openssl-libs-1.0. 40% [======          ]  0.0 B/s | 1.4 MB   --:-- ETA (10/10): openssl-libs-1.0. 59% [=========-      ] 835 kB/s | 2.1 MB   00:01 ETA (9/10): openssl-devel-1.0.1e-34.el7_0.7.x86_64.rpm         | 1.2 MB   00:00     
+(4/10): libverto-devel-0.2.5-4.el7.x86_64.rpm              |  12 kB   00:00     
+(6/10): libselinux-devel-2 20% [===             ]  0.0 B/s | 755 kB   --:-- ETA (5/10): krb5-devel-1.11.3-49.el7.x86_64.rpm                | 611 kB   00:00     
+(6/10): libselinux-devel-2.2.2-6.el7.x86_64.rpm            | 174 kB   00:00     
+(7/10): zlib-devel-1.2.7-13.el7.x86_64.rpm                 |  49 kB   00:00     
+(9/10): openssl-libs-1.0.1 27% [====            ] 348 kB/s | 984 kB   00:07 ETA (8/10): pcre-devel-8.32-12.el7.x86_64.rpm                  | 477 kB   00:00     
+(9/10): openssl-devel-1.0.1e-34.el7_0.7.x86_64.rpm         | 1.2 MB   00:00     
 (10/10): openssl-libs-1.0.1e-34.el7_0.7.x86_64.rpm         | 942 kB   00:00     
 --------------------------------------------------------------------------------
-Total                                              2.2 MB/s | 3.5 MB  00:01     
+Total                                              2.1 MB/s | 3.5 MB  00:01     
 Running transaction check
 Running transaction test
 Transaction test succeeded

@@ -31,12 +31,12 @@ Repodata is over 2 weeks old. Install yum-cron? Or run: yum makecache fast
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-(2/2): updates/7/x86_64/pr 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/2): extras/7/x86_64/primary_db                          |  43 kB   00:00     
-(2/2): updates/7/x86_64/pr 8% [=-               ]  0.0 B/s | 551 kB   --:-- ETA (2/2): updates/7/x86_64/pr 34% [=====-          ] 2.4 MB/s | 2.1 MB   00:01 ETA (2/2): updates/7/x86_64/pr 75% [============    ] 2.8 MB/s | 4.6 MB   00:00 ETA (2/2): updates/7/x86_64/primary_db                         | 6.0 MB   00:01     
+(2/2): updates/7/x86_64/pr 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (2/2): updates/7/x86_64/pr 25% [====            ]  0.0 B/s | 1.5 MB   --:-- ETA (1/2): extras/7/x86_64/primary_db                          |  43 kB   00:00     
+(2/2): updates/7/x86_64/pr 72% [===========-    ] 4.6 MB/s | 4.4 MB   00:00 ETA (2/2): updates/7/x86_64/primary_db                         | 6.0 MB   00:01     
 Determining fastest mirrors
- * base: centos.chi.host-engine.com
+ * base: mirrors.rit.edu
  * extras: mirror.wiredtree.com
- * updates: mirrors.gigenet.com
+ * updates: centos.netnitco.net
 Resolving Dependencies
 --> Running transaction check
 ---> Package libffi-devel.x86_64 0:3.0.13-11.el7 will be installed
@@ -129,13 +129,13 @@ Copying ~/.opam/repo/default/packages/camlp4/camlp4.4.02.1+system/files/install 
 Copying ~/.opam/repo/default/packages/camlp4/camlp4.4.02.1+system/files/check-camlp4.sh to ~/.opam/system/build/camlp4.4.02.1+system/
 Building camlp4.4.02.1+system:
   sh ./check-camlp4.sh
+Installing camlp4.4.02.1+system.
 Copying ~/.opam/repo/default/packages/ocamlfind/ocamlfind.1.5.5/files/ocamlfind.install to ~/.opam/system/build/ocamlfind.1.5.5/
 Building ocamlfind.1.5.5:
   ./configure -bindir /home/opam/.opam/system/bin -sitelib /home/opam/.opam/system/lib -mandir /home/opam/.opam/system/man -config /home/opam/.opam/system/lib/findlib.conf -no-topfind
   make all
   make opt
   make install
-Installing camlp4.4.02.1+system.
 Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/mirage-install.sh to ~/.opam/system/build/gmp.6.0.0/
 Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/mirage-build.sh to ~/.opam/system/build/gmp.6.0.0/
 Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/gmp.pc to ~/.opam/system/build/gmp.6.0.0/
@@ -148,12 +148,12 @@ Building gmp.6.0.0:
 Installing ocamlfind.1.5.5.
 Installing base-bytes.base.
 Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/system/build/cppo.1.1.2/
-Building cppo.1.1.2:
-  make
-  make install-lib
 Building cmdliner.0.9.6:
   ocaml pkg/git.ml
   ocaml pkg/build.ml native=true native-dynlink=true
+Building cppo.1.1.2:
+  make
+  make install-lib
 Installing cmdliner.0.9.6.
 Building ppx_tools.0.99.2:
   make all
@@ -167,12 +167,12 @@ Installing ppx_tools.0.99.2.
 Building type_conv.112.01.00:
   make
   make install
-Installing re.1.2.2.
+Installing type_conv.112.01.00.
 Building crunch.1.3.0:
   ocaml setup.ml -configure --prefix /home/opam/.opam/system
   ocaml setup.ml -build
   ocaml setup.ml -install
-Installing type_conv.112.01.00.
+Installing re.1.2.2.
 Building ctypes.0.3.4:
   make
   make install
