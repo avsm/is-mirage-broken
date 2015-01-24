@@ -10,14 +10,14 @@
 ++ '[' -z skeleton ']'
 ++ '[' -d .git ']'
 ++ git pull
-remote: Counting objects: 1339, done.[K
-remote: Compressing objects:   0% (1/808)   [Kremote: Compressing objects:   1% (9/808)   [Kremote: Compressing objects:   2% (17/808)   [Kremote: Compressing objects:   3% (25/808)   [Kremote: Compressing objects:   4% (33/808)   [Kremote: Compressing objects:   5% (41/808)   [Kremote: Compressing objects:   6% (49/808)   [Kremote: Compressing objects:   7% (57/808)   [Kremote: Compressing objects:   8% (65/808)   [Kremote: Compressing objects:   9% (73/808)   [Kremote: Compressing objects:  10% (81/808)   [Kremote: Compressing objects:  11% (89/808)   [Kremote: Compressing objects:  12% (97/808)   [Kremote: Compressing objects:  13% (106/808)   [Kremote: Compressing objects:  14% (114/808)   [Kremote: Compressing objects:  15% (122/808)   [Kremote: Compressing objects:  16% (130/808)   [Kremote: Compressing objects:  17% (138/808)   [Kremote: Compressing objects:  18% (146/808)   [Kremote: Compressing objects:  19% (154/808)   [Kremote: Compressing objects:  20% (162/808)   [Kremote: Compressing objects:  21% (170/808)   [Kremote: Compressing objects:  22% (178/808)   [Kremote: Compressing objects:  23% (186/808)   [Kremote: Compressing objects:  24% (194/808)   [Kremote: Compressing objects:  25% (202/808)   [Kremote: Compressing objects:  26% (211/808)   [Kremote: Compressing objects:  27% (219/808)   [Kremote: Compressing objects:  28% (227/808)   [Kremote: Compressing objects:  29% (235/808)   [Kremote: Compressing objects:  30% (243/808)   [Kremote: Compressing objects:  31% (251/808)   [Kremote: Compressing objects:  32% (259/808)   [Kremote: Compressing objects:  33% (267/808)   [Kremote: Compressing objects:  34% (275/808)   [Kremote: Compressing objects:  35% (283/808)   [Kremote: Compressing objects:  36% (291/808)   [Kremote: Compressing objects:  37% (299/808)   [Kremote: Compressing objects:  38% (308/808)   [Kremote: Compressing objects:  39% (316/808)   [Kremote: Compressing objects:  40% (324/808)   [Kremote: Compressing objects:  41% (332/808)   [Kremote: Compressing objects:  42% (340/808)   [Kremote: Compressing objects:  43% (348/808)   [Kremote: Compressing objects:  44% (356/808)   [Kremote: Compressing objects:  45% (364/808)   [Kremote: Compressing objects:  46% (372/808)   [Kremote: Compressing objects:  47% (380/808)   [Kremote: Compressing objects:  48% (388/808)   [Kremote: Compressing objects:  49% (396/808)   [Kremote: Compressing objects:  50% (404/808)   [Kremote: Compressing objects:  51% (413/808)   [Kremote: Compressing objects:  52% (421/808)   [Kremote: Compressing objects:  53% (429/808)   [Kremote: Compressing objects:  54% (437/808)   [Kremote: Compressing objects:  55% (445/808)   [Kremote: Compressing objects:  56% (453/808)   [Kremote: Compressing objects:  57% (461/808)   [Kremote: Compressing objects:  58% (469/808)   [Kremote: Compressing objects:  59% (477/808)   [Kremote: Compressing objects:  60% (485/808)   [Kremote: Compressing objects:  61% (493/808)   [Kremote: Compressing objects:  62% (501/808)   [Kremote: Compressing objects:  63% (510/808)   [Kremote: Compressing objects:  64% (518/808)   [Kremote: Compressing objects:  65% (526/808)   [Kremote: Compressing objects:  66% (534/808)   [Kremote: Compressing objects:  67% (542/808)   [Kremote: Compressing objects:  68% (550/808)   [Kremote: Compressing objects:  69% (558/808)   [Kremote: Compressing objects:  70% (566/808)   [Kremote: Compressing objects:  71% (574/808)   [Kremote: Compressing objects:  72% (582/808)   [Kremote: Compressing objects:  73% (590/808)   [Kremote: Compressing objects:  74% (598/808)   [Kremote: Compressing objects:  75% (606/808)   [Kremote: Compressing objects:  76% (615/808)   [Kremote: Compressing objects:  77% (623/808)   [Kremote: Compressing objects:  78% (631/808)   [Kremote: Compressing objects:  79% (639/808)   [Kremote: Compressing objects:  80% (647/808)   [Kremote: Compressing objects:  81% (655/808)   [Kremote: Compressing objects:  82% (663/808)   [Kremote: Compressing objects:  83% (671/808)   [Kremote: Compressing objects:  84% (679/808)   [Kremote: Compressing objects:  85% (687/808)   [Kremote: Compressing objects:  86% (695/808)   [Kremote: Compressing objects:  87% (703/808)   [Kremote: Compressing objects:  88% (712/808)   [Kremote: Compressing objects:  89% (720/808)   [Kremote: Compressing objects:  90% (728/808)   [Kremote: Compressing objects:  91% (736/808)   [Kremote: Compressing objects:  92% (744/808)   [Kremote: Compressing objects:  93% (752/808)   [Kremote: Compressing objects:  94% (760/808)   [Kremote: Compressing objects:  95% (768/808)   [Kremote: Compressing objects:  96% (776/808)   [Kremote: Compressing objects:  97% (784/808)   [Kremote: Compressing objects:  98% (792/808)   [Kremote: Compressing objects:  99% (800/808)   [Kremote: Compressing objects: 100% (808/808)   [Kremote: Compressing objects: 100% (808/808), done.[K
-Receiving objects:   0% (1/1339)   Receiving objects:   1% (14/1339)   Receiving objects:   2% (27/1339)   Receiving objects:   3% (41/1339)   Receiving objects:   4% (54/1339)   Receiving objects:   5% (67/1339)   Receiving objects:   6% (81/1339)   Receiving objects:   7% (94/1339)   Receiving objects:   8% (108/1339)   Receiving objects:   9% (121/1339)   Receiving objects:  10% (134/1339)   Receiving objects:  11% (148/1339)   Receiving objects:  12% (161/1339)   Receiving objects:  13% (175/1339)   Receiving objects:  14% (188/1339)   Receiving objects:  15% (201/1339)   Receiving objects:  16% (215/1339)   Receiving objects:  17% (228/1339)   Receiving objects:  18% (242/1339)   Receiving objects:  19% (255/1339)   Receiving objects:  20% (268/1339)   Receiving objects:  21% (282/1339)   Receiving objects:  22% (295/1339)   Receiving objects:  23% (308/1339)   Receiving objects:  24% (322/1339)   Receiving objects:  25% (335/1339)   Receiving objects:  26% (349/1339)   Receiving objects:  27% (362/1339)   Receiving objects:  28% (375/1339)   Receiving objects:  29% (389/1339)   Receiving objects:  30% (402/1339)   Receiving objects:  31% (416/1339)   Receiving objects:  32% (429/1339)   Receiving objects:  33% (442/1339)   Receiving objects:  34% (456/1339)   Receiving objects:  35% (469/1339)   Receiving objects:  36% (483/1339)   Receiving objects:  37% (496/1339)   Receiving objects:  38% (509/1339)   Receiving objects:  39% (523/1339)   Receiving objects:  40% (536/1339)   Receiving objects:  41% (549/1339)   Receiving objects:  42% (563/1339)   Receiving objects:  43% (576/1339)   Receiving objects:  44% (590/1339)   Receiving objects:  45% (603/1339)   Receiving objects:  46% (616/1339)   Receiving objects:  47% (630/1339)   Receiving objects:  48% (643/1339)   Receiving objects:  49% (657/1339)   Receiving objects:  50% (670/1339)   Receiving objects:  51% (683/1339)   Receiving objects:  52% (697/1339)   Receiving objects:  53% (710/1339)   Receiving objects:  54% (724/1339)   Receiving objects:  55% (737/1339)   Receiving objects:  56% (750/1339)   Receiving objects:  57% (764/1339)   Receiving objects:  58% (777/1339)   Receiving objects:  59% (791/1339)   Receiving objects:  60% (804/1339)   Receiving objects:  61% (817/1339)   Receiving objects:  62% (831/1339)   Receiving objects:  63% (844/1339)   Receiving objects:  64% (857/1339)   Receiving objects:  65% (871/1339)   Receiving objects:  66% (884/1339)   Receiving objects:  67% (898/1339)   Receiving objects:  68% (911/1339)   Receiving objects:  69% (924/1339)   Receiving objects:  70% (938/1339)   remote: Total 1339 (delta 595), reused 1058 (delta 492)[K
-Receiving objects:  71% (951/1339)   Receiving objects:  72% (965/1339)   Receiving objects:  73% (978/1339)   Receiving objects:  74% (991/1339)   Receiving objects:  75% (1005/1339)   Receiving objects:  76% (1018/1339)   Receiving objects:  77% (1032/1339)   Receiving objects:  78% (1045/1339)   Receiving objects:  79% (1058/1339)   Receiving objects:  80% (1072/1339)   Receiving objects:  81% (1085/1339)   Receiving objects:  82% (1098/1339)   Receiving objects:  83% (1112/1339)   Receiving objects:  84% (1125/1339)   Receiving objects:  85% (1139/1339)   Receiving objects:  86% (1152/1339)   Receiving objects:  87% (1165/1339)   Receiving objects:  88% (1179/1339)   Receiving objects:  89% (1192/1339)   Receiving objects:  90% (1206/1339)   Receiving objects:  91% (1219/1339)   Receiving objects:  92% (1232/1339)   Receiving objects:  93% (1246/1339)   Receiving objects:  94% (1259/1339)   Receiving objects:  95% (1273/1339)   Receiving objects:  96% (1286/1339)   Receiving objects:  97% (1299/1339)   Receiving objects:  98% (1313/1339)   Receiving objects:  99% (1326/1339)   Receiving objects: 100% (1339/1339)   Receiving objects: 100% (1339/1339), 229.47 KiB | 0 bytes/s, done.
-Resolving deltas:   0% (0/595)   Resolving deltas:   1% (6/595)   Resolving deltas:   2% (12/595)   Resolving deltas:   3% (18/595)   Resolving deltas:   4% (25/595)   Resolving deltas:   5% (30/595)   Resolving deltas:   6% (36/595)   Resolving deltas:   7% (42/595)   Resolving deltas:   8% (49/595)   Resolving deltas:   9% (56/595)   Resolving deltas:  10% (60/595)   Resolving deltas:  11% (66/595)   Resolving deltas:  12% (73/595)   Resolving deltas:  13% (78/595)   Resolving deltas:  14% (84/595)   Resolving deltas:  15% (91/595)   Resolving deltas:  38% (232/595)   Resolving deltas:  39% (233/595)   Resolving deltas:  42% (255/595)   Resolving deltas:  43% (257/595)   Resolving deltas:  51% (304/595)   Resolving deltas:  55% (329/595)   Resolving deltas:  56% (336/595)   Resolving deltas:  57% (340/595)   Resolving deltas:  58% (350/595)   Resolving deltas:  60% (362/595)   Resolving deltas:  61% (363/595)   Resolving deltas:  62% (369/595)   Resolving deltas:  63% (379/595)   Resolving deltas:  64% (381/595)   Resolving deltas:  65% (388/595)   Resolving deltas:  66% (393/595)   Resolving deltas:  67% (403/595)   Resolving deltas:  68% (405/595)   Resolving deltas:  69% (412/595)   Resolving deltas:  70% (417/595)   Resolving deltas:  71% (423/595)   Resolving deltas:  72% (430/595)   Resolving deltas:  73% (436/595)   Resolving deltas:  74% (442/595)   Resolving deltas:  75% (447/595)   Resolving deltas: 100% (595/595)   Resolving deltas: 100% (595/595), done.
+remote: Counting objects: 1376, done.[K
+remote: Compressing objects:   0% (1/843)   [Kremote: Compressing objects:   1% (9/843)   [Kremote: Compressing objects:   2% (17/843)   [Kremote: Compressing objects:   3% (26/843)   [Kremote: Compressing objects:   4% (34/843)   [Kremote: Compressing objects:   5% (43/843)   [Kremote: Compressing objects:   6% (51/843)   [Kremote: Compressing objects:   7% (60/843)   [Kremote: Compressing objects:   8% (68/843)   [Kremote: Compressing objects:   9% (76/843)   [Kremote: Compressing objects:  10% (85/843)   [Kremote: Compressing objects:  11% (93/843)   [Kremote: Compressing objects:  12% (102/843)   [Kremote: Compressing objects:  13% (110/843)   [Kremote: Compressing objects:  14% (119/843)   [Kremote: Compressing objects:  15% (127/843)   [Kremote: Compressing objects:  16% (135/843)   [Kremote: Compressing objects:  17% (144/843)   [Kremote: Compressing objects:  18% (152/843)   [Kremote: Compressing objects:  19% (161/843)   [Kremote: Compressing objects:  20% (169/843)   [Kremote: Compressing objects:  21% (178/843)   [Kremote: Compressing objects:  22% (186/843)   [Kremote: Compressing objects:  23% (194/843)   [Kremote: Compressing objects:  24% (203/843)   [Kremote: Compressing objects:  25% (211/843)   [Kremote: Compressing objects:  26% (220/843)   [Kremote: Compressing objects:  27% (228/843)   [Kremote: Compressing objects:  28% (237/843)   [Kremote: Compressing objects:  29% (245/843)   [Kremote: Compressing objects:  30% (253/843)   [Kremote: Compressing objects:  31% (262/843)   [Kremote: Compressing objects:  32% (270/843)   [Kremote: Compressing objects:  33% (279/843)   [Kremote: Compressing objects:  34% (287/843)   [Kremote: Compressing objects:  35% (296/843)   [Kremote: Compressing objects:  36% (304/843)   [Kremote: Compressing objects:  37% (312/843)   [Kremote: Compressing objects:  38% (321/843)   [Kremote: Compressing objects:  39% (329/843)   [Kremote: Compressing objects:  40% (338/843)   [Kremote: Compressing objects:  41% (346/843)   [Kremote: Compressing objects:  42% (355/843)   [Kremote: Compressing objects:  43% (363/843)   [Kremote: Compressing objects:  44% (371/843)   [Kremote: Compressing objects:  45% (380/843)   [Kremote: Compressing objects:  46% (388/843)   [Kremote: Compressing objects:  47% (397/843)   [Kremote: Compressing objects:  48% (405/843)   [Kremote: Compressing objects:  49% (414/843)   [Kremote: Compressing objects:  50% (422/843)   [Kremote: Compressing objects:  51% (430/843)   [Kremote: Compressing objects:  52% (439/843)   [Kremote: Compressing objects:  53% (447/843)   [Kremote: Compressing objects:  54% (456/843)   [Kremote: Compressing objects:  55% (464/843)   [Kremote: Compressing objects:  56% (473/843)   [Kremote: Compressing objects:  57% (481/843)   [Kremote: Compressing objects:  58% (489/843)   [Kremote: Compressing objects:  59% (498/843)   [Kremote: Compressing objects:  60% (506/843)   [Kremote: Compressing objects:  61% (515/843)   [Kremote: Compressing objects:  62% (523/843)   [Kremote: Compressing objects:  63% (532/843)   [Kremote: Compressing objects:  64% (540/843)   [Kremote: Compressing objects:  65% (548/843)   [Kremote: Compressing objects:  66% (557/843)   [Kremote: Compressing objects:  67% (565/843)   [Kremote: Compressing objects:  68% (574/843)   [Kremote: Compressing objects:  69% (582/843)   [Kremote: Compressing objects:  70% (591/843)   [Kremote: Compressing objects:  71% (599/843)   [Kremote: Compressing objects:  72% (607/843)   [Kremote: Compressing objects:  73% (616/843)   [Kremote: Compressing objects:  74% (624/843)   [Kremote: Compressing objects:  75% (633/843)   [Kremote: Compressing objects:  76% (641/843)   [Kremote: Compressing objects:  77% (650/843)   [Kremote: Compressing objects:  78% (658/843)   [Kremote: Compressing objects:  79% (666/843)   [Kremote: Compressing objects:  80% (675/843)   [Kremote: Compressing objects:  81% (683/843)   [Kremote: Compressing objects:  82% (692/843)   [Kremote: Compressing objects:  83% (700/843)   [Kremote: Compressing objects:  84% (709/843)   [Kremote: Compressing objects:  85% (717/843)   [Kremote: Compressing objects:  86% (725/843)   [Kremote: Compressing objects:  87% (734/843)   [Kremote: Compressing objects:  88% (742/843)   [Kremote: Compressing objects:  89% (751/843)   [Kremote: Compressing objects:  90% (759/843)   [Kremote: Compressing objects:  91% (768/843)   [Kremote: Compressing objects:  92% (776/843)   [Kremote: Compressing objects:  93% (784/843)   [Kremote: Compressing objects:  94% (793/843)   [Kremote: Compressing objects:  95% (801/843)   [Kremote: Compressing objects:  96% (810/843)   [Kremote: Compressing objects:  97% (818/843)   [Kremote: Compressing objects:  98% (827/843)   [Kremote: Compressing objects:  99% (835/843)   [Kremote: Compressing objects: 100% (843/843)   [Kremote: Compressing objects: 100% (843/843), done.[K
+Receiving objects:   0% (1/1376)   Receiving objects:   1% (14/1376)   Receiving objects:   2% (28/1376)   Receiving objects:   3% (42/1376)   Receiving objects:   4% (56/1376)   Receiving objects:   5% (69/1376)   Receiving objects:   6% (83/1376)   Receiving objects:   7% (97/1376)   Receiving objects:   8% (111/1376)   Receiving objects:   9% (124/1376)   Receiving objects:  10% (138/1376)   Receiving objects:  11% (152/1376)   Receiving objects:  12% (166/1376)   Receiving objects:  13% (179/1376)   Receiving objects:  14% (193/1376)   Receiving objects:  15% (207/1376)   Receiving objects:  16% (221/1376)   Receiving objects:  17% (234/1376)   Receiving objects:  18% (248/1376)   Receiving objects:  19% (262/1376)   Receiving objects:  20% (276/1376)   Receiving objects:  21% (289/1376)   Receiving objects:  22% (303/1376)   Receiving objects:  23% (317/1376)   Receiving objects:  24% (331/1376)   Receiving objects:  25% (344/1376)   Receiving objects:  26% (358/1376)   Receiving objects:  27% (372/1376)   Receiving objects:  28% (386/1376)   Receiving objects:  29% (400/1376)   Receiving objects:  30% (413/1376)   Receiving objects:  31% (427/1376)   Receiving objects:  32% (441/1376)   Receiving objects:  33% (455/1376)   Receiving objects:  34% (468/1376)   Receiving objects:  35% (482/1376)   Receiving objects:  36% (496/1376)   Receiving objects:  37% (510/1376)   Receiving objects:  38% (523/1376)   Receiving objects:  39% (537/1376)   Receiving objects:  40% (551/1376)   Receiving objects:  41% (565/1376)   Receiving objects:  42% (578/1376)   Receiving objects:  43% (592/1376)   Receiving objects:  44% (606/1376)   Receiving objects:  45% (620/1376)   Receiving objects:  46% (633/1376)   Receiving objects:  47% (647/1376)   Receiving objects:  48% (661/1376)   Receiving objects:  49% (675/1376)   Receiving objects:  50% (688/1376)   Receiving objects:  51% (702/1376)   Receiving objects:  52% (716/1376)   Receiving objects:  53% (730/1376)   Receiving objects:  54% (744/1376)   Receiving objects:  55% (757/1376)   Receiving objects:  56% (771/1376)   Receiving objects:  57% (785/1376)   Receiving objects:  58% (799/1376)   Receiving objects:  59% (812/1376)   Receiving objects:  60% (826/1376)   Receiving objects:  61% (840/1376)   Receiving objects:  62% (854/1376)   Receiving objects:  63% (867/1376)   Receiving objects:  64% (881/1376)   Receiving objects:  65% (895/1376)   Receiving objects:  66% (909/1376)   Receiving objects:  67% (922/1376)   Receiving objects:  68% (936/1376)   Receiving objects:  69% (950/1376)   Receiving objects:  70% (964/1376)   remote: Total 1376 (delta 609), reused 1058 (delta 492)[K
+Receiving objects:  71% (977/1376)   Receiving objects:  72% (991/1376)   Receiving objects:  73% (1005/1376)   Receiving objects:  74% (1019/1376)   Receiving objects:  75% (1032/1376)   Receiving objects:  76% (1046/1376)   Receiving objects:  77% (1060/1376)   Receiving objects:  78% (1074/1376)   Receiving objects:  79% (1088/1376)   Receiving objects:  80% (1101/1376)   Receiving objects:  81% (1115/1376)   Receiving objects:  82% (1129/1376)   Receiving objects:  83% (1143/1376)   Receiving objects:  84% (1156/1376)   Receiving objects:  85% (1170/1376)   Receiving objects:  86% (1184/1376)   Receiving objects:  87% (1198/1376)   Receiving objects:  88% (1211/1376)   Receiving objects:  89% (1225/1376)   Receiving objects:  90% (1239/1376)   Receiving objects:  91% (1253/1376)   Receiving objects:  92% (1266/1376)   Receiving objects:  93% (1280/1376)   Receiving objects:  94% (1294/1376)   Receiving objects:  95% (1308/1376)   Receiving objects:  96% (1321/1376)   Receiving objects:  97% (1335/1376)   Receiving objects:  98% (1349/1376)   Receiving objects:  99% (1363/1376)   Receiving objects: 100% (1376/1376)   Receiving objects: 100% (1376/1376), 233.85 KiB | 0 bytes/s, done.
+Resolving deltas:   0% (0/609)   Resolving deltas:   1% (7/609)   Resolving deltas:   2% (13/609)   Resolving deltas:   3% (22/609)   Resolving deltas:   4% (25/609)   Resolving deltas:   5% (32/609)   Resolving deltas:   6% (38/609)   Resolving deltas:   7% (43/609)   Resolving deltas:   8% (50/609)   Resolving deltas:   9% (57/609)   Resolving deltas:  10% (61/609)   Resolving deltas:  11% (67/609)   Resolving deltas:  12% (75/609)   Resolving deltas:  13% (83/609)   Resolving deltas:  14% (87/609)   Resolving deltas:  15% (93/609)   Resolving deltas:  39% (243/609)   Resolving deltas:  40% (245/609)   Resolving deltas:  48% (296/609)   Resolving deltas:  49% (299/609)   Resolving deltas:  54% (330/609)   Resolving deltas:  55% (335/609)   Resolving deltas:  56% (342/609)   Resolving deltas:  58% (354/609)   Resolving deltas:  60% (368/609)   Resolving deltas:  61% (372/609)   Resolving deltas:  62% (379/609)   Resolving deltas:  63% (384/609)   Resolving deltas:  64% (390/609)   Resolving deltas:  65% (397/609)   Resolving deltas:  66% (404/609)   Resolving deltas:  67% (412/609)   Resolving deltas:  68% (415/609)   Resolving deltas:  69% (421/609)   Resolving deltas:  70% (428/609)   Resolving deltas: 100% (609/609)   Resolving deltas: 100% (609/609), done.
 From git://github.com/ocaml/opam-repository
-   f8945d5..36b14e8  master     -> origin/master
-Updating f8945d5..36b14e8
+   f8945d5..82938a8  master     -> origin/master
+Updating f8945d5..82938a8
 Fast-forward
  .../4.01.0/4.01.0+bin-ocp/4.01.0+bin-ocp.comp      |  2 +-
  compilers/4.02.1/4.02.1+BER/4.02.1+BER.comp        | 16 ++++++
@@ -167,6 +167,9 @@ Fast-forward
  packages/mirage-console/mirage-console.2.1.1/descr |  1 +
  packages/mirage-console/mirage-console.2.1.1/opam  | 25 ++++++++
  packages/mirage-console/mirage-console.2.1.1/url   |  2 +
+ packages/mirage-net-xen/mirage-net-xen.1.3.0/descr |  8 +++
+ packages/mirage-net-xen/mirage-net-xen.1.3.0/opam  | 21 +++++++
+ packages/mirage-net-xen/mirage-net-xen.1.3.0/url   |  2 +
  packages/mirage-types/mirage-types.1.1.0/opam      |  2 +-
  packages/mirage-types/mirage-types.1.1.1/opam      |  2 +-
  packages/mirage-types/mirage-types.1.1.2/opam      |  2 +-
@@ -255,6 +258,9 @@ Fast-forward
  packages/orakuda/orakuda.2.0.0/descr               |  8 +++
  packages/orakuda/orakuda.2.0.0/opam                | 18 ++++++
  packages/orakuda/orakuda.2.0.0/url                 |  1 +
+ packages/otr/otr.0.1.0/descr                       |  8 +++
+ packages/otr/otr.0.1.0/opam                        | 25 ++++++++
+ packages/otr/otr.0.1.0/url                         |  2 +
  packages/pa_test/pa_test.109.34.00/opam            |  1 +
  packages/pa_test/pa_test.109.45.00/opam            |  1 +
  packages/pa_test/pa_test.109.47.00/opam            |  1 +
@@ -354,13 +360,16 @@ Fast-forward
  packages/uutf/uutf.0.9.4/descr                     | 14 +++++
  packages/uutf/uutf.0.9.4/opam                      | 20 +++++++
  packages/uutf/uutf.0.9.4/url                       |  2 +
+ packages/vchan/vchan.2.0.1/descr                   |  4 ++
+ packages/vchan/vchan.2.0.1/opam                    | 31 ++++++++++
+ packages/vchan/vchan.2.0.1/url                     |  2 +
  packages/vhd-tool/vhd-tool.0.7.6/opam              |  5 +-
  packages/why/why.2.34/opam                         |  9 ++-
  packages/why3/why3.0.85/opam                       | 17 +++---
  packages/wiringpi/wiringpi.0.0.1/url               |  2 +-
  packages/zephyrus/zephyrus.0.1/opam                |  2 +-
  packages/zmq/zmq.4.0-3/opam                        | 18 ++++--
- 341 files changed, 2133 insertions(+), 153 deletions(-)
+ 350 files changed, 2236 insertions(+), 153 deletions(-)
  create mode 100644 compilers/4.02.1/4.02.1+BER/4.02.1+BER.comp
  create mode 100644 compilers/4.02.1/4.02.1+BER/4.02.1+BER.descr
  delete mode 100644 compilers/4.03.0/4.03.0+pr134/4.03.0+pr134.descr
@@ -434,6 +443,9 @@ Fast-forward
  create mode 100644 packages/mirage-console/mirage-console.2.1.1/descr
  create mode 100644 packages/mirage-console/mirage-console.2.1.1/opam
  create mode 100644 packages/mirage-console/mirage-console.2.1.1/url
+ create mode 100644 packages/mirage-net-xen/mirage-net-xen.1.3.0/descr
+ create mode 100644 packages/mirage-net-xen/mirage-net-xen.1.3.0/opam
+ create mode 100644 packages/mirage-net-xen/mirage-net-xen.1.3.0/url
  create mode 100644 packages/mirage-unix/mirage-unix.2.1.3/descr
  create mode 100644 packages/mirage-unix/mirage-unix.2.1.3/findlib
  create mode 100644 packages/mirage-unix/mirage-unix.2.1.3/opam
@@ -488,6 +500,9 @@ Fast-forward
  create mode 100644 packages/orakuda/orakuda.2.0.0/descr
  create mode 100644 packages/orakuda/orakuda.2.0.0/opam
  create mode 100644 packages/orakuda/orakuda.2.0.0/url
+ create mode 100644 packages/otr/otr.0.1.0/descr
+ create mode 100644 packages/otr/otr.0.1.0/opam
+ create mode 100644 packages/otr/otr.0.1.0/url
  create mode 100644 packages/ppx_deriving/ppx_deriving.2.0/descr
  create mode 100644 packages/ppx_deriving/ppx_deriving.2.0/opam
  create mode 100644 packages/ppx_deriving/ppx_deriving.2.0/url
@@ -551,6 +566,9 @@ Fast-forward
  create mode 100644 packages/uutf/uutf.0.9.4/descr
  create mode 100644 packages/uutf/uutf.0.9.4/opam
  create mode 100644 packages/uutf/uutf.0.9.4/url
+ create mode 100644 packages/vchan/vchan.2.0.1/descr
+ create mode 100644 packages/vchan/vchan.2.0.1/opam
+ create mode 100644 packages/vchan/vchan.2.0.1/url
 ++ opam remote add mirage git://github.com/mirage/mirage-dev
 [[1;34mmirage[m] Fetching git://github.com/mirage/mirage-dev
 Updating ~/.opam/repo/compiler-index ...
@@ -592,11 +610,11 @@ Repodata is over 2 weeks old. Install yum-cron? Or run: yum makecache fast
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
 (2/2): updates/7/x86_64/pr 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/2): extras/7/x86_64/primary_db                          |  43 kB   00:00     
-(2/2): updates/7/x86_64/pr 6% [=                ]  0.0 B/s | 412 kB   --:-- ETA (2/2): updates/7/x86_64/pr 20% [===             ] 1.3 MB/s | 1.3 MB   00:03 ETA (2/2): updates/7/x86_64/pr 54% [========-       ] 1.7 MB/s | 3.3 MB   00:01 ETA (2/2): updates/7/x86_64/pr 95% [=============== ] 2.1 MB/s | 5.8 MB   00:00 ETA (2/2): updates/7/x86_64/primary_db                         | 6.0 MB   00:01     
+(2/2): updates/7/x86_64/pr 43% [======-         ]  0.0 B/s | 2.6 MB   --:-- ETA (2/2): updates/7/x86_64/pr 78% [============-   ] 2.6 MB/s | 4.8 MB   00:00 ETA (2/2): updates/7/x86_64/primary_db                         | 6.0 MB   00:01     
 Determining fastest mirrors
  * base: mirror.steadfast.net
- * extras: mirror.steadfast.net
- * updates: mirror.tzulo.com
+ * extras: cosmos.cites.illinois.edu
+ * updates: cosmos.cites.illinois.edu
 Resolving Dependencies
 --> Running transaction check
 ---> Package openssl-devel.x86_64 1:1.0.1e-34.el7_0.7 will be installed
@@ -653,17 +671,17 @@ Total download size: 3.5 M
 Downloading packages:
 Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
 (2/10): krb5-devel-1.11.3- 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/10): keyutils-libs-devel-1.5.8-3.el7.x86_64.rpm         |  37 kB   00:00     
-(2/10): libcom_err-devel-1.42.9-4.el7.x86_64.rpm           |  30 kB   00:00     
-(3/10): krb5-devel-1.11.3-49.el7.x86_64.rpm                | 611 kB   00:00     
+(2/10): libverto-devel-0.2.5-4.el7.x86_64.rpm              |  12 kB   00:00     
+(3/10): libcom_err-devel-1.42.9-4.el7.x86_64.rpm           |  30 kB   00:00     
 (4/10): libsepol-devel-2.1.9-3.el7.x86_64.rpm              |  71 kB   00:00     
-(5/10): libselinux-devel-2.2.2-6.el7.x86_64.rpm            | 174 kB   00:00     
-(6/10): libverto-devel-0.2.5-4.el7.x86_64.rpm              |  12 kB   00:00     
-(8/10): openssl-libs-1.0.1 29% [====-           ]  0.0 B/s | 1.0 MB   --:-- ETA (7/10): zlib-devel-1.2.7-13.el7.x86_64.rpm                 |  49 kB   00:00     
-(10/10): pcre-devel-8.32-1 48% [=======-        ] 590 kB/s | 1.7 MB   00:03 ETA (8/10): openssl-libs-1.0.1e-34.el7_0.7.x86_64.rpm          | 942 kB   00:00     
-(9/10): openssl-devel-1.0.1e-34.el7_0.7.x86_64.rpm         | 1.2 MB   00:00     
-(10/10): pcre-devel-8.32-12.el7.x86_64.rpm                 | 477 kB   00:00     
+(6/10): libselinux-devel-2 4% [-                ]  0.0 B/s | 149 kB   --:-- ETA (5/10): pcre-devel-8.32-12.el7.x86_64.rpm                  | 477 kB   00:00     
+(6/10): libselinux-devel-2.2.2-6.el7.x86_64.rpm            | 174 kB   00:00     
+(7/10): zlib-devel-1.2.7-13.el7.x86_64.rpm                 |  49 kB   00:00     
+(9/10): openssl-devel-1.0. 45% [=======         ] 1.8 MB/s | 1.6 MB   00:01 ETA (8/10): openssl-devel-1.0.1e-34.el7_0.7.x86_64.rpm         | 1.2 MB   00:00     
+(9/10): krb5-devel-1.11.3- 75% [============    ] 1.9 MB/s | 2.7 MB   00:00 ETA (9/10): openssl-libs-1.0.1e-34.el7_0.7.x86_64.rpm          | 942 kB   00:01     
+(10/10): krb5-devel-1.11.3 97% [===============-] 1.8 MB/s | 3.4 MB   00:00 ETA (10/10): krb5-devel-1.11.3-49.el7.x86_64.rpm               | 611 kB   00:02     
 --------------------------------------------------------------------------------
-Total                                              1.9 MB/s | 3.5 MB  00:01     
+Total                                              1.5 MB/s | 3.5 MB  00:02     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -759,13 +777,13 @@ Building ocamlfind.1.5.5:
 Installing ocamlfind.1.5.5.
 Installing base-bytes.legacy.
 Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/4.01.0/build/cppo.1.1.2/
+Building cppo.1.1.2:
+  make
+  make install-lib
 Building re.1.2.2:
   ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
   ocaml setup.ml -build
   ocaml setup.ml -install
-Building cppo.1.1.2:
-  make
-  make install-lib
 Building cmdliner.0.9.6:
   ocaml pkg/git.ml
   ocaml pkg/build.ml native=true native-dynlink=true
@@ -842,10 +860,11 @@ Installing mirage.2.2.0.
 +++ export PATH
 ++ git clone git://github.com/mirage/mirage-skeleton
 Cloning into 'mirage-skeleton'...
-remote: Counting objects: 1328, done.[K
-Receiving objects:   0% (1/1328)   Receiving objects:   1% (14/1328)   Receiving objects:   2% (27/1328)   Receiving objects:   3% (40/1328)   Receiving objects:   4% (54/1328)   Receiving objects:   5% (67/1328)   Receiving objects:   6% (80/1328)   Receiving objects:   7% (93/1328)   Receiving objects:   8% (107/1328)   Receiving objects:   9% (120/1328)   Receiving objects:  10% (133/1328)   Receiving objects:  11% (147/1328)   Receiving objects:  12% (160/1328)   Receiving objects:  13% (173/1328)   Receiving objects:  14% (186/1328)   Receiving objects:  15% (200/1328)   Receiving objects:  16% (213/1328)   Receiving objects:  17% (226/1328)   Receiving objects:  18% (240/1328)   Receiving objects:  19% (253/1328)   Receiving objects:  20% (266/1328)   Receiving objects:  21% (279/1328)   Receiving objects:  22% (293/1328)   Receiving objects:  23% (306/1328)   Receiving objects:  24% (319/1328)   Receiving objects:  25% (332/1328)   Receiving objects:  26% (346/1328)   Receiving objects:  27% (359/1328)   Receiving objects:  28% (372/1328)   Receiving objects:  29% (386/1328)   Receiving objects:  30% (399/1328)   Receiving objects:  31% (412/1328)   Receiving objects:  32% (425/1328)   Receiving objects:  33% (439/1328)   Receiving objects:  34% (452/1328)   Receiving objects:  35% (465/1328)   Receiving objects:  36% (479/1328)   Receiving objects:  37% (492/1328)   Receiving objects:  38% (505/1328)   Receiving objects:  39% (518/1328)   Receiving objects:  40% (532/1328)   Receiving objects:  41% (545/1328)   Receiving objects:  42% (558/1328)   Receiving objects:  43% (572/1328)   Receiving objects:  44% (585/1328)   Receiving objects:  45% (598/1328)   Receiving objects:  46% (611/1328)   Receiving objects:  47% (625/1328)   Receiving objects:  48% (638/1328)   Receiving objects:  49% (651/1328)   Receiving objects:  50% (664/1328)   Receiving objects:  51% (678/1328)   Receiving objects:  52% (691/1328)   Receiving objects:  53% (704/1328)   Receiving objects:  54% (718/1328)   Receiving objects:  55% (731/1328)   Receiving objects:  56% (744/1328)   Receiving objects:  57% (757/1328)   Receiving objects:  58% (771/1328)   Receiving objects:  59% (784/1328)   Receiving objects:  60% (797/1328)   Receiving objects:  61% (811/1328)   Receiving objects:  62% (824/1328)   Receiving objects:  63% (837/1328)   Receiving objects:  64% (850/1328)   Receiving objects:  65% (864/1328)   Receiving objects:  66% (877/1328)   Receiving objects:  67% (890/1328)   Receiving objects:  68% (904/1328)   Receiving objects:  69% (917/1328)   Receiving objects:  70% (930/1328)   Receiving objects:  71% (943/1328)   Receiving objects:  72% (957/1328)   Receiving objects:  73% (970/1328)   Receiving objects:  74% (983/1328)   Receiving objects:  75% (996/1328)   Receiving objects:  76% (1010/1328)   Receiving objects:  77% (1023/1328)   Receiving objects:  78% (1036/1328)   Receiving objects:  79% (1050/1328)   Receiving objects:  80% (1063/1328)   Receiving objects:  81% (1076/1328)   Receiving objects:  82% (1089/1328)   remote: Total 1328 (delta 0), reused 0 (delta 0)[K
-Receiving objects:  83% (1103/1328)   Receiving objects:  84% (1116/1328)   Receiving objects:  85% (1129/1328)   Receiving objects:  86% (1143/1328)   Receiving objects:  87% (1156/1328)   Receiving objects:  88% (1169/1328)   Receiving objects:  89% (1182/1328)   Receiving objects:  90% (1196/1328)   Receiving objects:  91% (1209/1328)   Receiving objects:  92% (1222/1328)   Receiving objects:  93% (1236/1328)   Receiving objects:  94% (1249/1328)   Receiving objects:  95% (1262/1328)   Receiving objects:  96% (1275/1328)   Receiving objects:  97% (1289/1328)   Receiving objects:  98% (1302/1328)   Receiving objects:  99% (1315/1328)   Receiving objects: 100% (1328/1328)   Receiving objects: 100% (1328/1328), 235.17 KiB | 0 bytes/s, done.
-Resolving deltas:   0% (0/625)   Resolving deltas:   1% (7/625)   Resolving deltas:   3% (20/625)   Resolving deltas:   4% (27/625)   Resolving deltas:   5% (33/625)   Resolving deltas:   7% (47/625)   Resolving deltas:   9% (58/625)   Resolving deltas:  10% (64/625)   Resolving deltas:  12% (78/625)   Resolving deltas:  13% (84/625)   Resolving deltas:  15% (97/625)   Resolving deltas:  16% (101/625)   Resolving deltas:  17% (108/625)   Resolving deltas:  19% (122/625)   Resolving deltas:  20% (126/625)   Resolving deltas:  21% (137/625)   Resolving deltas:  22% (139/625)   Resolving deltas:  23% (145/625)   Resolving deltas:  24% (150/625)   Resolving deltas:  25% (160/625)   Resolving deltas:  26% (163/625)   Resolving deltas:  27% (170/625)   Resolving deltas:  28% (175/625)   Resolving deltas:  31% (195/625)   Resolving deltas:  36% (230/625)   Resolving deltas:  37% (234/625)   Resolving deltas:  38% (238/625)   Resolving deltas:  41% (257/625)   Resolving deltas:  42% (264/625)   Resolving deltas:  47% (298/625)   Resolving deltas:  48% (305/625)   Resolving deltas:  49% (307/625)   Resolving deltas:  56% (350/625)   Resolving deltas:  60% (377/625)   Resolving deltas:  61% (382/625)   Resolving deltas:  62% (392/625)   Resolving deltas:  64% (406/625)   Resolving deltas:  65% (409/625)   Resolving deltas:  66% (414/625)   Resolving deltas:  70% (438/625)   Resolving deltas:  71% (446/625)   Resolving deltas:  75% (471/625)   Resolving deltas:  76% (475/625)   Resolving deltas:  77% (482/625)   Resolving deltas:  80% (501/625)   Resolving deltas:  81% (511/625)   Resolving deltas:  82% (514/625)   Resolving deltas:  84% (525/625)   Resolving deltas:  85% (532/625)   Resolving deltas:  86% (540/625)   Resolving deltas:  88% (551/625)   Resolving deltas:  89% (557/625)   Resolving deltas:  90% (566/625)   Resolving deltas:  91% (569/625)   Resolving deltas:  92% (575/625)   Resolving deltas:  93% (582/625)   Resolving deltas:  96% (601/625)   Resolving deltas:  97% (607/625)   Resolving deltas:  98% (613/625)   Resolving deltas:  99% (619/625)   Resolving deltas: 100% (625/625)   Resolving deltas: 100% (625/625), done.
+remote: Counting objects: 1359, done.[K
+remote: Compressing objects:   3% (1/26)   [Kremote: Compressing objects:   7% (2/26)   [Kremote: Compressing objects:  11% (3/26)   [Kremote: Compressing objects:  15% (4/26)   [Kremote: Compressing objects:  19% (5/26)   [Kremote: Compressing objects:  23% (6/26)   [Kremote: Compressing objects:  26% (7/26)   [Kremote: Compressing objects:  30% (8/26)   [Kremote: Compressing objects:  34% (9/26)   [Kremote: Compressing objects:  38% (10/26)   [Kremote: Compressing objects:  42% (11/26)   [Kremote: Compressing objects:  46% (12/26)   [Kremote: Compressing objects:  50% (13/26)   [Kremote: Compressing objects:  53% (14/26)   [Kremote: Compressing objects:  57% (15/26)   [Kremote: Compressing objects:  61% (16/26)   [Kremote: Compressing objects:  65% (17/26)   [Kremote: Compressing objects:  69% (18/26)   [Kremote: Compressing objects:  73% (19/26)   [Kremote: Compressing objects:  76% (20/26)   [Kremote: Compressing objects:  80% (21/26)   [Kremote: Compressing objects:  84% (22/26)   [Kremote: Compressing objects:  88% (23/26)   [Kremote: Compressing objects:  92% (24/26)   [Kremote: Compressing objects:  96% (25/26)   [Kremote: Compressing objects: 100% (26/26)   [Kremote: Compressing objects: 100% (26/26), done.[K
+Receiving objects:   0% (1/1359)   Receiving objects:   1% (14/1359)   Receiving objects:   2% (28/1359)   Receiving objects:   3% (41/1359)   Receiving objects:   4% (55/1359)   Receiving objects:   5% (68/1359)   Receiving objects:   6% (82/1359)   Receiving objects:   7% (96/1359)   Receiving objects:   8% (109/1359)   Receiving objects:   9% (123/1359)   Receiving objects:  10% (136/1359)   Receiving objects:  11% (150/1359)   Receiving objects:  12% (164/1359)   Receiving objects:  13% (177/1359)   Receiving objects:  14% (191/1359)   Receiving objects:  15% (204/1359)   Receiving objects:  16% (218/1359)   Receiving objects:  17% (232/1359)   Receiving objects:  18% (245/1359)   Receiving objects:  19% (259/1359)   Receiving objects:  20% (272/1359)   Receiving objects:  21% (286/1359)   Receiving objects:  22% (299/1359)   Receiving objects:  23% (313/1359)   Receiving objects:  24% (327/1359)   Receiving objects:  25% (340/1359)   Receiving objects:  26% (354/1359)   Receiving objects:  27% (367/1359)   Receiving objects:  28% (381/1359)   Receiving objects:  29% (395/1359)   Receiving objects:  30% (408/1359)   Receiving objects:  31% (422/1359)   Receiving objects:  32% (435/1359)   Receiving objects:  33% (449/1359)   Receiving objects:  34% (463/1359)   Receiving objects:  35% (476/1359)   Receiving objects:  36% (490/1359)   Receiving objects:  37% (503/1359)   Receiving objects:  38% (517/1359)   Receiving objects:  39% (531/1359)   Receiving objects:  40% (544/1359)   Receiving objects:  41% (558/1359)   Receiving objects:  42% (571/1359)   Receiving objects:  43% (585/1359)   Receiving objects:  44% (598/1359)   Receiving objects:  45% (612/1359)   Receiving objects:  46% (626/1359)   Receiving objects:  47% (639/1359)   Receiving objects:  48% (653/1359)   Receiving objects:  49% (666/1359)   Receiving objects:  50% (680/1359)   Receiving objects:  51% (694/1359)   Receiving objects:  52% (707/1359)   Receiving objects:  53% (721/1359)   Receiving objects:  54% (734/1359)   Receiving objects:  55% (748/1359)   Receiving objects:  56% (762/1359)   Receiving objects:  57% (775/1359)   Receiving objects:  58% (789/1359)   Receiving objects:  59% (802/1359)   Receiving objects:  60% (816/1359)   Receiving objects:  61% (829/1359)   Receiving objects:  62% (843/1359)   Receiving objects:  63% (857/1359)   Receiving objects:  64% (870/1359)   Receiving objects:  65% (884/1359)   Receiving objects:  66% (897/1359)   Receiving objects:  67% (911/1359)   Receiving objects:  68% (925/1359)   Receiving objects:  69% (938/1359)   Receiving objects:  70% (952/1359)   Receiving objects:  71% (965/1359)   Receiving objects:  72% (979/1359)   Receiving objects:  73% (993/1359)   Receiving objects:  74% (1006/1359)   Receiving objects:  75% (1020/1359)   Receiving objects:  76% (1033/1359)   Receiving objects:  77% (1047/1359)   Receiving objects:  78% (1061/1359)   Receiving objects:  79% (1074/1359)   Receiving objects:  80% (1088/1359)   Receiving objects:  81% (1101/1359)   Receiving objects:  82% (1115/1359)   Receiving objects:  83% (1128/1359)   Receiving objects:  84% (1142/1359)   Receiving objects:  85% (1156/1359)   Receiving objects:  86% (1169/1359)   Receiving objects:  87% (1183/1359)   Receiving objects:  88% (1196/1359)   Receiving objects:  89% (1210/1359)   Receiving objects:  90% (1224/1359)   Receiving objects:  91% (1237/1359)   Receiving objects:  92% (1251/1359)   Receiving objects:  93% (1264/1359)   Receiving objects:  94% (1278/1359)   Receiving objects:  95% (1292/1359)   remote: Total 1359 (delta 11), reused 12 (delta 5)[K
+Receiving objects:  96% (1305/1359)   Receiving objects:  97% (1319/1359)   Receiving objects:  98% (1332/1359)   Receiving objects:  99% (1346/1359)   Receiving objects: 100% (1359/1359)   Receiving objects: 100% (1359/1359), 241.56 KiB | 0 bytes/s, done.
+Resolving deltas:   0% (0/636)   Resolving deltas:   1% (7/636)   Resolving deltas:   2% (17/636)   Resolving deltas:   3% (23/636)   Resolving deltas:   4% (31/636)   Resolving deltas:   5% (32/636)   Resolving deltas:   6% (41/636)   Resolving deltas:   8% (51/636)   Resolving deltas:   9% (59/636)   Resolving deltas:  11% (72/636)   Resolving deltas:  12% (79/636)   Resolving deltas:  13% (84/636)   Resolving deltas:  15% (97/636)   Resolving deltas:  16% (102/636)   Resolving deltas:  17% (114/636)   Resolving deltas:  18% (119/636)   Resolving deltas:  19% (122/636)   Resolving deltas:  20% (133/636)   Resolving deltas:  21% (137/636)   Resolving deltas:  22% (142/636)   Resolving deltas:  23% (147/636)   Resolving deltas:  24% (154/636)   Resolving deltas:  25% (160/636)   Resolving deltas:  26% (170/636)   Resolving deltas:  27% (172/636)   Resolving deltas:  28% (179/636)   Resolving deltas:  30% (194/636)   Resolving deltas:  35% (228/636)   Resolving deltas:  36% (233/636)   Resolving deltas:  37% (237/636)   Resolving deltas:  40% (255/636)   Resolving deltas:  41% (262/636)   Resolving deltas:  56% (358/636)   Resolving deltas:  57% (364/636)   Resolving deltas:  60% (385/636)   Resolving deltas:  62% (398/636)   Resolving deltas:  63% (402/636)   Resolving deltas:  64% (410/636)   Resolving deltas:  65% (414/636)   Resolving deltas:  66% (420/636)   Resolving deltas:  69% (441/636)   Resolving deltas:  74% (473/636)   Resolving deltas:  75% (478/636)   Resolving deltas:  76% (486/636)   Resolving deltas:  80% (515/636)   Resolving deltas:  81% (520/636)   Resolving deltas:  82% (524/636)   Resolving deltas:  83% (531/636)   Resolving deltas:  86% (547/636)   Resolving deltas:  87% (554/636)   Resolving deltas:  88% (566/636)   Resolving deltas:  89% (567/636)   Resolving deltas:  90% (574/636)   Resolving deltas:  91% (583/636)   Resolving deltas:  92% (587/636)   Resolving deltas:  94% (601/636)   Resolving deltas:  95% (606/636)   Resolving deltas:  96% (612/636)   Resolving deltas:  97% (619/636)   Resolving deltas:  99% (633/636)   Resolving deltas: 100% (636/636)   Resolving deltas: 100% (636/636), done.
 ++ cd mirage-skeleton
 ++ export MODE=unix
 ++ MODE=unix
@@ -1016,7 +1035,7 @@ The following actions will be performed:
  - install   uri.1.7.2                             [required by cohttp]
  - install   xenstore_transport.0.9.4              [required by vchan]
  - install   mirage-dns.2.0.0                      [required by mirage-conduit]
- - install   vchan.2.0.0                           [required by mirage-conduit]
+ - install   vchan.2.0.1                           [required by mirage-conduit]
  - install   conduit.0.7.1                         [required by mirage-conduit, cohttp]
  - install   mirage-conduit.2.0.0                  [required by mirage-http]
  - install   cohttp.0.15.1                         [required by mirage-http]
@@ -1032,7 +1051,7 @@ The following actions will be performed:
 [[32mmirage-http.2.1.0[m] Downloading https://github.com/mirage/mirage-http/archive/v2.1.0.tar.gz
 [[32mstringext.1.2.0[m] Downloading https://github.com/rgrinberg/stringext/archive/v1.2.0.tar.gz
 [[32muri.1.7.2[m] Downloading https://github.com/mirage/ocaml-uri/archive/v1.7.2.tar.gz
-[[32mvchan.2.0.0[m] Downloading https://github.com/mirage/ocaml-vchan/archive/v2.0.0.tar.gz
+[[32mvchan.2.0.1[m] Downloading https://github.com/mirage/ocaml-vchan/archive/v2.0.1.tar.gz
 [[32mxenstore.1.2.5[m] Downloading https://github.com/mirage/ocaml-xenstore/archive/1.2.5.tar.gz
 [[32mxenstore_transport.0.9.4[m] Downloading https://github.com/djs55/ocaml-xenstore-clients/archive/0.9.4.tar.gz
 
@@ -1072,11 +1091,11 @@ Installing xenstore_transport.0.9.4.
 Building mirage-dns.2.0.0:
   ocamlfind query dns.mirage
 Installing mirage-dns.2.0.0.
-Building vchan.2.0.0:
+Building vchan.2.0.1:
   ./configure
   make
   make install
-Installing vchan.2.0.0.
+Installing vchan.2.0.1.
 Building conduit.0.7.1:
   make
   make install
@@ -1192,7 +1211,7 @@ mirage configure static_website/config.ml --unix
 [1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package re is already installed (current version is 1.2.2).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.2).
-[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
+[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.1).
 [32mwww[m         [36mGenerating:[m main.ml
 [32mwww[m         [36mGenerating:[m /home/opam/opam-repository/mirage-skeleton/static_website/static1.ml
 [32mwww[m         [33m=>[m ocaml-crunch -o static1.ml /home/opam/opam-repository/mirage-skeleton/static_website/./htdocs
@@ -1213,7 +1232,7 @@ opam install conduit crunch cstruct io-page lwt mirage-clock-unix mirage-conduit
 [1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package re is already installed (current version is 1.2.2).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.2).
-[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
+[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.1).
 make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/static_website'
 mirage configure dns/config.ml --unix 
 [32mMirage[m      [36mUsing specified config file:[m dns/config.ml
@@ -1273,7 +1292,7 @@ mirage configure conduit_server/config.ml --unix
 [1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.2).
-[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
+[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.1).
 [32mconduit_server[m[36mGenerating:[m main.ml
 cd conduit_server && make depend
 make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/conduit_server'
@@ -1287,7 +1306,7 @@ opam install conduit mirage-clock-unix mirage-conduit mirage-console mirage-http
 [1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.2).
-[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
+[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.1).
 make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/conduit_server'
 mirage configure conduit_server_manual/config.ml --unix 
 [32mMirage[m      [36mUsing specified config file:[m conduit_server_manual/config.ml
@@ -1305,7 +1324,7 @@ mirage configure conduit_server_manual/config.ml --unix
 [1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
 [1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.2).
-[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
+[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.1).
 [32mconduit_server[m[36mGenerating:[m main.ml
 cd conduit_server_manual && make depend
 make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/conduit_server_manual'
@@ -1316,7 +1335,7 @@ opam install mirage-clock-unix mirage-console mirage-http mirage-net-unix mirage
 [1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
 [1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.2).
-[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
+[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.1).
 make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/conduit_server_manual'
 ++ make depend
 cd console && make depend
@@ -1390,7 +1409,7 @@ opam install conduit crunch cstruct io-page lwt mirage-clock-unix mirage-conduit
 [1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package re is already installed (current version is 1.2.2).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.2).
-[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
+[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.1).
 make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/static_website'
 cd dns && make depend
 make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/dns'
@@ -1419,7 +1438,7 @@ opam install conduit mirage-clock-unix mirage-conduit mirage-console mirage-http
 [1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.2).
-[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
+[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.1).
 make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/conduit_server'
 cd conduit_server_manual && make depend
 make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/conduit_server_manual'
@@ -1430,7 +1449,7 @@ opam install mirage-clock-unix mirage-console mirage-http mirage-net-unix mirage
 [1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 1.1.1).
 [1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.2).
-[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
+[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.1).
 make[1]: Leaving directory `/home/opam/opam-repository/mirage-skeleton/conduit_server_manual'
 ++ make build
 cd console && make
@@ -1791,7 +1810,7 @@ The following actions will be performed:
  - recompile shared-memory-ring.1.1.1              [uses mirage-profile]
  - install   mirage-xen.2.2.0
  - recompile mirage-unix.2.2.0                     [uses mirage-profile]
- - recompile vchan.2.0.0                           [uses xen-gnt, mirage-xen, xen-evtchn]
+ - recompile vchan.2.0.1                           [uses xen-gnt, mirage-xen, xen-evtchn]
  - recompile mirage-entropy-unix.0.1.6             [uses mirage-unix]
  - recompile mirage-console.2.1.1
  - recompile tcpip.2.2.2                           [uses mirage-xen, mirage-console]
@@ -1818,7 +1837,7 @@ The following actions will be performed:
 [[32mocaml-src.4.01.0[m] Downloading http://caml.inria.fr/pub/distrib/ocaml-4.01/ocaml-4.01.0.tar.gz
 [[32mshared-memory-ring.1.1.1[m] 1.1.1.tar.gz is in the local cache, using it.
 [[32mtcpip.2.2.2[m] v2.2.2.tar.gz is in the local cache, using it.
-[[32mvchan.2.0.0[m] v2.0.0.tar.gz is in the local cache, using it.
+[[32mvchan.2.0.1[m] v2.0.1.tar.gz is in the local cache, using it.
 [[32mxen-evtchn.1.0.5[m] Downloading https://github.com/mirage/ocaml-evtchn/archive/v1.0.5.tar.gz
 [[32mxen-gnt.2.1.0[m] Downloading https://github.com/mirage/ocaml-gnt/archive/v2.1.0.tar.gz
 
@@ -1832,7 +1851,7 @@ Removing cohttp.0.15.1.
   ocamlfind remove cohttp
 Removing conduit.0.7.1.
   ocamlfind remove conduit
-Removing vchan.2.0.0.
+Removing vchan.2.0.1.
   ocamlfind remove vchan
 Removing mirage-dns.2.0.0.
 Removing dns.0.12.0.
@@ -1895,11 +1914,11 @@ Building mirage-entropy-unix.0.1.6:
   make unix-build
   make unix-install
 Installing mirage-entropy-unix.0.1.6.
-Building vchan.2.0.0:
+Building vchan.2.0.1:
   ./configure
   make
   make install
-Installing vchan.2.0.0.
+Installing vchan.2.0.1.
 Building tcpip.2.2.2:
   ./configure --prefix /home/opam/.opam/4.01.0 --enable-xen
   make
@@ -1996,17 +2015,17 @@ mirage configure network/config.ml --xen
 [1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
 [1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
 The following actions will be performed:
- - install   mirage-net-xen.1.2.0
+ - install   mirage-net-xen.1.3.0
 === [33m1[m to install ===
 
 [36m=-=-[m [01mSynchronizing package archives[m [36m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
-[[32mmirage-net-xen.1.2.0[m] Downloading https://github.com/mirage/mirage-net-xen/archive/v1.2.0.tar.gz
+[[32mmirage-net-xen.1.3.0[m] Downloading https://github.com/mirage/mirage-net-xen/archive/v1.3.0.tar.gz
 
 [36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
-Building mirage-net-xen.1.2.0:
+Building mirage-net-xen.1.3.0:
   make
   make install
-Installing mirage-net-xen.1.2.0.
+Installing mirage-net-xen.1.3.0.
 [32mnetwork[m     [33m=>[m ocamlfind query -r -format '%d	%(xen_linkopts)' -predicates native lwt.syntax mirage-clock-xen mirage-console.xen mirage-net-xen mirage-types.lwt mirage.runtime tcpip.stack-direct
 [32mnetwork[m     [36mGenerating:[m main.ml
 cd network && make depend
@@ -2014,7 +2033,7 @@ make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/network'
 opam install mirage-clock-xen mirage-console mirage-net-xen mirage-xen tcpip xen-evtchn xen-gnt xenstore --verbose
 [1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
+[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.3.0).
 [1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.2).
 [1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
@@ -2034,7 +2053,7 @@ mirage configure stackv4/config.ml --xen
 [1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.1).
 [1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
+[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.3.0).
 [1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.2).
 [1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
@@ -2048,7 +2067,7 @@ opam install mirage-clock-xen mirage-console mirage-http mirage-net-xen mirage-x
 [1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.1).
 [1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
+[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.3.0).
 [1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.2).
 [1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
@@ -2067,7 +2086,7 @@ mirage configure ethifv4/config.ml --xen
 [32methifv4[m     [33m=>[m opam install --yes mirage-clock-xen mirage-console mirage-net-xen mirage-xen xen-evtchn xen-gnt xenstore
 [1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
+[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.3.0).
 [1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
 [1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
@@ -2079,7 +2098,7 @@ make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/ethifv4'
 opam install mirage-clock-xen mirage-console mirage-net-xen mirage-xen xen-evtchn xen-gnt xenstore --verbose
 [1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
+[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.3.0).
 [1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
 [1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
@@ -2122,7 +2141,7 @@ mirage configure ping/config.ml --xen
 [32mping[m        Installing OPAM packages.
 [32mping[m        [33m=>[m opam install --yes mirage-console mirage-net-xen mirage-xen tcpip xen-evtchn xen-gnt xenstore
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
+[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.3.0).
 [1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.2).
 [1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
@@ -2134,7 +2153,7 @@ cd ping && make depend
 make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/ping'
 opam install mirage-console mirage-net-xen mirage-xen tcpip xen-evtchn xen-gnt xenstore --verbose
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
+[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.3.0).
 [1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.2).
 [1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
@@ -2160,12 +2179,12 @@ mirage configure static_website/config.ml --xen
 [1;34m[NOTE][m Package mirage-conduit is already installed (current version is 2.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.1).
 [1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
+[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.3.0).
 [1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package re is already installed (current version is 1.2.2).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.2).
-[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
+[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.1).
 [1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
 [1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
 [1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
@@ -2185,12 +2204,12 @@ opam install conduit crunch cstruct io-page lwt mirage-clock-xen mirage-conduit 
 [1;34m[NOTE][m Package mirage-conduit is already installed (current version is 2.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.1).
 [1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
+[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.3.0).
 [1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package re is already installed (current version is 1.2.2).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.2).
-[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
+[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.1).
 [1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
 [1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
 [1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
@@ -2212,7 +2231,7 @@ mirage configure dns/config.ml --xen
 [1;34m[NOTE][m Package lwt is already installed (current version is 2.4.7).
 [1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
+[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.3.0).
 [1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.2).
@@ -2233,7 +2252,7 @@ opam install crunch cstruct dns io-page lwt mirage-clock-xen mirage-console mira
 [1;34m[NOTE][m Package lwt is already installed (current version is 2.4.7).
 [1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
+[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.3.0).
 [1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.2).
@@ -2256,11 +2275,11 @@ mirage configure conduit_server/config.ml --xen
 [1;34m[NOTE][m Package mirage-conduit is already installed (current version is 2.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.1).
 [1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
+[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.3.0).
 [1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.2).
-[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
+[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.1).
 [1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
 [1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
 [1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
@@ -2274,11 +2293,11 @@ opam install conduit mirage-clock-xen mirage-conduit mirage-console mirage-http 
 [1;34m[NOTE][m Package mirage-conduit is already installed (current version is 2.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.1).
 [1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
+[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.3.0).
 [1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.2).
-[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
+[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.1).
 [1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
 [1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
 [1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
@@ -2296,10 +2315,10 @@ mirage configure conduit_server_manual/config.ml --xen
 [1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.1).
 [1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
+[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.3.0).
 [1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.2).
-[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
+[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.1).
 [1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
 [1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
 [1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
@@ -2311,10 +2330,10 @@ opam install mirage-clock-xen mirage-console mirage-http mirage-net-xen mirage-x
 [1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.1).
 [1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
+[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.3.0).
 [1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.2).
-[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
+[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.1).
 [1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
 [1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
 [1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
@@ -2344,7 +2363,7 @@ make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/network'
 opam install mirage-clock-xen mirage-console mirage-net-xen mirage-xen tcpip xen-evtchn xen-gnt xenstore --verbose
 [1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
+[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.3.0).
 [1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.2).
 [1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
@@ -2357,7 +2376,7 @@ opam install mirage-clock-xen mirage-console mirage-http mirage-net-xen mirage-x
 [1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.1).
 [1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
+[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.3.0).
 [1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.2).
 [1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
@@ -2369,7 +2388,7 @@ make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/ethifv4'
 opam install mirage-clock-xen mirage-console mirage-net-xen mirage-xen xen-evtchn xen-gnt xenstore --verbose
 [1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
+[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.3.0).
 [1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
 [1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
@@ -2388,7 +2407,7 @@ cd ping && make depend
 make[1]: Entering directory `/home/opam/opam-repository/mirage-skeleton/ping'
 opam install mirage-console mirage-net-xen mirage-xen tcpip xen-evtchn xen-gnt xenstore --verbose
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
+[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.3.0).
 [1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.2).
 [1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
@@ -2407,12 +2426,12 @@ opam install conduit crunch cstruct io-page lwt mirage-clock-xen mirage-conduit 
 [1;34m[NOTE][m Package mirage-conduit is already installed (current version is 2.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.1).
 [1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
+[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.3.0).
 [1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package re is already installed (current version is 1.2.2).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.2).
-[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
+[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.1).
 [1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
 [1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
 [1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
@@ -2427,7 +2446,7 @@ opam install crunch cstruct dns io-page lwt mirage-clock-xen mirage-console mira
 [1;34m[NOTE][m Package lwt is already installed (current version is 2.4.7).
 [1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.1).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
+[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.3.0).
 [1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.2).
@@ -2443,11 +2462,11 @@ opam install conduit mirage-clock-xen mirage-conduit mirage-console mirage-http 
 [1;34m[NOTE][m Package mirage-conduit is already installed (current version is 2.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.1).
 [1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
+[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.3.0).
 [1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.2).
-[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
+[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.1).
 [1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
 [1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
 [1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
@@ -2458,10 +2477,10 @@ opam install mirage-clock-xen mirage-console mirage-http mirage-net-xen mirage-x
 [1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
 [1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.1).
 [1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
-[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.2.0).
+[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.3.0).
 [1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.2.0).
 [1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.2).
-[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.0).
+[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.1).
 [1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.5).
 [1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.1.0).
 [1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
