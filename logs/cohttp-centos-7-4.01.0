@@ -32,11 +32,11 @@ Repodata is over 2 weeks old. Install yum-cron? Or run: yum makecache fast
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
 (2/2): updates/7/x86_64/pr 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/2): extras/7/x86_64/primary_db                          |  43 kB   00:00     
-(2/2): updates/7/x86_64/pr 2% [                 ]  0.0 B/s | 132 kB   --:-- ETA (2/2): updates/7/x86_64/pr 4% [-                ] 184 kB/s | 287 kB   00:32 ETA (2/2): updates/7/x86_64/pr 8% [=                ] 218 kB/s | 527 kB   00:26 ETA (2/2): updates/7/x86_64/pr 14% [==              ] 271 kB/s | 871 kB   00:19 ETA (2/2): updates/7/x86_64/pr 21% [===-            ] 350 kB/s | 1.3 MB   00:13 ETA (2/2): updates/7/x86_64/pr 32% [=====           ] 461 kB/s | 2.0 MB   00:09 ETA (2/2): updates/7/x86_64/pr 47% [=======-        ] 611 kB/s | 2.9 MB   00:05 ETA (2/2): updates/7/x86_64/pr 68% [==========-     ] 825 kB/s | 4.1 MB   00:02 ETA (2/2): updates/7/x86_64/pr 87% [=============-  ] 1.0 MB/s | 5.3 MB   00:00 ETA (2/2): updates/7/x86_64/primary_db                         | 6.0 MB   00:03     
+(2/2): updates/7/x86_64/pr 3% [-                ]  0.0 B/s | 194 kB   --:-- ETA (2/2): updates/7/x86_64/pr 7% [=                ] 377 kB/s | 463 kB   00:15 ETA (2/2): updates/7/x86_64/pr 16% [==-             ] 462 kB/s | 1.0 MB   00:11 ETA (2/2): updates/7/x86_64/pr 31% [=====           ] 622 kB/s | 1.9 MB   00:06 ETA (2/2): updates/7/x86_64/pr 60% [=========-      ] 947 kB/s | 3.7 MB   00:02 ETA (2/2): updates/7/x86_64/pr 93% [=============== ] 1.3 MB/s | 5.7 MB   00:00 ETA (2/2): updates/7/x86_64/primary_db                         | 6.0 MB   00:02     
 Determining fastest mirrors
- * base: bay.uchicago.edu
- * extras: mirrors.gigenet.com
- * updates: centos.chi.host-engine.com
+ * base: centos.mirrors.tds.net
+ * extras: mirrors.chkhosting.com
+ * updates: centos.expedientevirtual.com
 Resolving Dependencies
 --> Running transaction check
 ---> Package openssl-devel.x86_64 1:1.0.1e-34.el7_0.7 will be installed
@@ -94,16 +94,16 @@ Downloading packages:
 Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
 (2/10): krb5-devel-1.11.3- 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/10): keyutils-libs-devel-1.5.8-3.el7.x86_64.rpm         |  37 kB   00:00     
 (2/10): libverto-devel-0.2.5-4.el7.x86_64.rpm              |  12 kB   00:00     
-(3/10): libcom_err-devel-1.42.9-4.el7.x86_64.rpm           |  30 kB   00:00     
-(4/10): libselinux-devel-2.2.2-6.el7.x86_64.rpm            | 174 kB   00:00     
-(5/10): krb5-devel-1.11.3-49.el7.x86_64.rpm                | 611 kB   00:00     
+(3/10): krb5-devel-1.11.3-49.el7.x86_64.rpm                | 611 kB   00:00     
+(4/10): libcom_err-devel-1.42.9-4.el7.x86_64.rpm           |  30 kB   00:00     
+(5/10): pcre-devel-8.32-12.el7.x86_64.rpm                  | 477 kB   00:00     
 (6/10): zlib-devel-1.2.7-13.el7.x86_64.rpm                 |  49 kB   00:00     
-(7/10): pcre-devel-8.32-12.el7.x86_64.rpm                  | 477 kB   00:00     
-(9/10): openssl-devel-1.0. 38% [======          ]  0.0 B/s | 1.4 MB   --:-- ETA (8/10): libsepol-devel-2.1.9-3.el7.x86_64.rpm              |  71 kB   00:00     
-(9/10): openssl-libs-1.0.1e-34.el7_0.7.x86_64.rpm          | 942 kB   00:00     
-(10/10): openssl-devel-1.0 69% [===========     ] 1.1 MB/s | 2.4 MB   00:00 ETA (10/10): openssl-devel-1.0 74% [===========-    ] 1.1 MB/s | 2.6 MB   00:00 ETA (10/10): openssl-devel-1.0 81% [=============   ] 1.0 MB/s | 2.9 MB   00:00 ETA (10/10): openssl-devel-1.0 91% [==============- ] 1.0 MB/s | 3.2 MB   00:00 ETA (10/10): openssl-devel-1.0.1e-34.el7_0.7.x86_64.rpm        | 1.2 MB   00:02     
+(7/10): libsepol-devel-2.1.9-3.el7.x86_64.rpm              |  71 kB   00:00     
+(9/10): openssl-devel-1.0. 35% [=====-          ]  0.0 B/s | 1.3 MB   --:-- ETA (8/10): libselinux-devel-2.2.2-6.el7.x86_64.rpm            | 174 kB   00:01     
+(10/10): openssl-libs-1.0. 46% [=======         ] 422 kB/s | 1.6 MB   00:04 ETA (9/10): openssl-libs-1.0.1e-34.el7_0.7.x86_64.rpm          | 942 kB   00:01     
+(10/10): openssl-devel-1.0 86% [=============-  ] 683 kB/s | 3.0 MB   00:00 ETA (10/10): openssl-devel-1.0.1e-34.el7_0.7.x86_64.rpm        | 1.2 MB   00:01     
 --------------------------------------------------------------------------------
-Total                                              1.2 MB/s | 3.5 MB  00:02     
+Total                                              1.7 MB/s | 3.5 MB  00:02     
 Running transaction check
 Running transaction test
 Transaction test succeeded
