@@ -1,9 +1,0 @@
-+ tag=ubuntu-trusty-4.01.0
-+ script=mirage-www
-+ repo=avsm/docker-opam-build
-+ docker=docker.io
-+ pwd
-+ sudo docker.io run --rm=true -v /home/opam/is-mirage-broken/scripts:/scripts -t avsm/docker-opam-build:ubuntu-trusty-4.01.0 sh -c /scripts/mirage-www
-Unable to find image 'avsm/docker-opam-build:ubuntu-trusty-4.01.0' locally
-Pulling repository avsm/docker-opam-build
-2015/01/04 03:00:08 Tag ubuntu-trusty-4.01.0 not found in repository avsm/docker-opam-build
