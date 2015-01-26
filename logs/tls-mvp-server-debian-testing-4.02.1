@@ -1,0 +1,37 @@
++ tag=debian-testing-ocaml-4.02.1
++ script=tls-mvp-server
++ repo=avsm/docker-opam-build
++ docker=docker.io
++ pwd
++ sudo docker.io run --rm=true -v /home/opam/is-mirage-broken/scripts:/scripts -t avsm/docker-opam-build:debian-testing-ocaml-4.02.1 sh -c /scripts/tls-mvp-server
++ opam remote add mirage git://github.com/mirage/mirage-dev
+[[1;34mmirage[m] Fetching git://github.com/mirage/mirage-dev
+Updating ~/.opam/repo/compiler-index ...
+Updating ~/.opam/compilers/ ...
+Updating ~/.opam/repo/package-index ...
+Updating ~/.opam/packages/ ...
++ opam update -u
+[[1;34mmirage[m] Fetching git://github.com/mirage/mirage-dev
+[[1;34mdefault[m] Synchronizing with /home/opam/opam-repository
+Updating ~/.opam/repo/compiler-index ...
+Updating ~/.opam/compilers/ ...
+Updating ~/.opam/repo/package-index ...
+Updating ~/.opam/packages/ ...
+Already up-to-date.
++ opam installext -j 3 mirage tls
+++ opam install -j 3 mirage tls -e debian
++ depext='libffi-dev m4'
++ echo Debian depexts: libffi-dev m4
+Debian depexts: libffi-dev m4
++ '[' 'libffi-dev m4' '!=' '' ']'
++ sudo apt-get update -y
+0% [Working]            Get:1 http://security.debian.org testing/updates InRelease [84.1 kB]
+            17% [Connecting to http.debian.net (46.4.205.44)] [1 InRelease 14.2 kB/84.1 kB                                                                                100% [Waiting for headers]                          100% [Working]100% [Working]              Get:2 http://security.debian.org testing/updates/main amd64 Packages [20 B]
+              100% [Waiting for headers] [2 Packages 20 B/20 B 100%]                                                      100% [Waiting for headers]                          Get:3 http://http.debian.net testing InRelease [199 kB]
+                          100% [Working]              100% [Waiting for headers] [3 InRelease gpgv 199 kB]                                                    100% [2 Packages 20 B] [Waiting for headers] [3 InRelease gpgv 199 kB]                                                                      100% [Waiting for headers] [3 InRelease gpgv 199 kB]                                                    Get:4 http://http.debian.net testing-updates InRelease [117 kB]
+                                                    83% [4 InRelease 50.4 kB/117 kB 43%] [3 InRelease gpgv 199 kB]                                                              100% [3 InRelease gpgv 199 kB]100% [3 InRelease gpgv 199 kB]                              100% [3 InRelease gpgv 199 kB]                                     63.1 kB/s 0s100% [Working]                                                     63.1 kB/s 0s100% [4 InRelease gpgv 117 kB] [Waiting for headers]               63.1 kB/s 0s100% [4 InRelease gpgv 117 kB]                                     63.1 kB/s 0s                                                                               Get:5 http://http.debian.net testing/main amd64 Packages [9059 kB]
+                                                                               5% [5 Packages 41.7 kB/9059 kB 0%] [4 InRelease gpgv 117 kB]                                                            19% [5 Packages 1438 kB/9059 kB 16%] [4 InRelease gpgv 117 kB]                                                              100% [4 InRelease gpgv 117 kB]                                     63.1 kB/s 0s100% [5 Packages 9081 kB] [4 InRelease gpgv 117 kB]                63.1 kB/s 0s100% [5 Packages 9059 kB]                                          63.1 kB/s 0s100% [5 Packages 9059 kB]                                          63.1 kB/s 0s                                                                               Get:6 http://http.debian.net testing-updates/main amd64 Packages [20 B]
+100% [5 Packages 9059 kB]                                          63.1 kB/s 0s100% [5 Packages 9059 kB]                                          63.1 kB/s 0s100% [Working]                                                     63.1 kB/s 0s100% [Working]                                                     63.1 kB/s 0s                                                                               Fetched 9459 kB in 8s (1060 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 26%Reading package lists... 45%Reading package lists... 68%Reading package lists... 94%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+W: Size of file /var/lib/apt/lists/http.debian.net_debian_dists_testing_main_binary-amd64_Packages.gz is not what the server reported 9058679 9081456
++ sudo apt-get install -qq -y build-essential m4
