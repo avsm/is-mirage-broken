@@ -26,32 +26,40 @@ Debian depexts: libssl-dev m4
 + '[' 'libssl-dev m4' '!=' '' ']'
 + sudo apt-get update -y
 0% [Working]            Get:1 http://security.debian.org testing/updates InRelease [84.1 kB]
-            17% [Connecting to http.debian.net (46.4.205.44)] [1 InRelease 14.2 kB/84.1 kB                                                                                100% [Connecting to http.debian.net (46.4.205.44)]                                                  100% [Working]100% [Working]              Get:2 http://security.debian.org testing/updates/main amd64 Packages [20 B]
-              100% [Waiting for headers] [2 Packages 20 B/20 B 100%]                                                      100% [Waiting for headers]                                         13.6 kB/s 0s                                                                               Get:3 http://http.debian.net testing InRelease [199 kB]
-100% [Working]                                                     13.6 kB/s 0s100% [Waiting for headers] [3 InRelease gpgv 199 kB]               13.6 kB/s 0s                                                                               100% [2 Packages 20 B] [Waiting for headers] [3 InRelease gpgv 199 kB]                                                                      100% [Waiting for headers] [3 InRelease gpgv 199 kB]               13.6 kB/s 0s                                                                               Get:4 http://http.debian.net testing-updates InRelease [117 kB]
-74% [4 InRelease 13.0 kB/117 kB 11%] [3 InRelease gpgv 199 kB]     13.6 kB/s 7s100% [3 InRelease gpgv 199 kB]                                     13.6 kB/s 0s100% [3 InRelease gpgv 199 kB]                                     13.6 kB/s 0s100% [3 InRelease gpgv 199 kB]                                     13.6 kB/s 0s100% [Working]                                                     13.6 kB/s 0s100% [4 InRelease gpgv 117 kB] [Waiting for headers]               13.6 kB/s 0s100% [4 InRelease gpgv 117 kB]                                     13.6 kB/s 0s                                                                               Get:5 http://http.debian.net testing/main amd64 Packages [9059 kB]
-                                                                               4% [5 Packages 13.0 kB/9059 kB 0%] [4 InRelease gpgv 117 kB]                                                            17% [5 Packages 1206 kB/9059 kB 13%] [4 InRelease gpgv 117 kB]81% [5 Packages 7264 kB/9059 kB 80%] [4 InRelease gpgv 117 kB]                                                              91% [5 Packages 8181 kB/9059 kB 90%]                          13.6 kB/s 1min 4s100% [Waiting for headers]                                         13.6 kB/s 0s100% [5 Packages 9081 kB] [Waiting for headers]                    13.6 kB/s 0s100% [5 Packages 9059 kB]                                          13.6 kB/s 0s                                                                               Get:6 http://http.debian.net testing-updates/main amd64 Packages [20 B]
-100% [5 Packages 9059 kB] [6 Packages 0 B/20 B 0%]                 13.6 kB/s 0s100% [5 Packages 9059 kB]                                          13.6 kB/s 0s100% [5 Packages 9059 kB]                                          13.6 kB/s 0s100% [5 Packages 9059 kB]                                          13.6 kB/s 0s100% [Working]                                                     13.6 kB/s 0s100% [6 Packages 20 B]                                             13.6 kB/s 0s100% [Working]                                                     13.6 kB/s 0s                                                                               Fetched 9459 kB in 10s (915 kB/s)
-Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 35%Reading package lists... 74%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
-W: Size of file /var/lib/apt/lists/http.debian.net_debian_dists_testing_main_binary-amd64_Packages.gz is not what the server reported 9058634 9081456
+            17% [Waiting for headers] [1 InRelease 14.2 kB/84.1 kB 17%]                                                           100% [1 InRelease 84.1 kB/84.1 kB 100%]                                       100% [Working]              Get:2 http://http.debian.net testing InRelease [199 kB]
+100% [Working]              100% [1 InRelease gpgv 84.1 kB] [Waiting for headers]                                                     Get:3 http://http.debian.net testing-updates InRelease [117 kB]
+                                                     74% [1 InRelease gpgv 84.1 kB] [3 InRelease 13.0 kB/117 kB 11%]                                                               100% [1 InRelease gpgv 84.1 kB]100% [1 InRelease gpgv 84.1 kB]                               100% [Working]              100% [2 InRelease gpgv 199 kB] [Waiting for headers]                                                    Get:4 http://security.debian.org testing/updates/main amd64 Packages [20 B]
+                                                    100% [2 InRelease gpgv 199 kB]                                     58.8 kB/s 0s100% [Working]                                                     58.8 kB/s 0s100% [Working]                                                     58.8 kB/s 0s100% [3 InRelease gpgv 117 kB] [Waiting for headers]               58.8 kB/s 0s100% [3 InRelease gpgv 117 kB]                                     58.8 kB/s 0s                                                                               Get:5 http://http.debian.net testing/main amd64 Packages [9059 kB]
+                                                                               4% [3 InRelease gpgv 117 kB] [5 Packages 13.0 kB/9059 kB 0%]                                                            16% [3 InRelease gpgv 117 kB] [5 Packages 1069 kB/9059 kB 12%]32% [3 InRelease gpgv 117 kB] [5 Packages 2585 kB/9059 kB 29%]                                                              42% [5 Packages 3535 kB/9059 kB 39%]                         58.8 kB/s 1min 33s45% [5 Packages 3844 kB/9059 kB 42%]                         58.8 kB/s 1min 28s60% [5 Packages 5276 kB/9059 kB 58%]                          58.8 kB/s 1min 4s78% [5 Packages 6949 kB/9059 kB 77%]                              58.8 kB/s 35s93% [5 Packages 8374 kB/9059 kB 92%]                              58.8 kB/s 11s100% [Working]                                                     58.8 kB/s 0s100% [5 Packages 9081 kB]                                          58.8 kB/s 0s                                                                               Get:6 http://http.debian.net testing-updates/main amd64 Packages [20 B]
+100% [5 Packages 9081 kB] [6 Packages 0 B/20 B 0%]                 58.8 kB/s 0s100% [5 Packages 9081 kB]                                          58.8 kB/s 0s100% [5 Packages 9059 kB]                                          58.8 kB/s 0s100% [5 Packages 9059 kB]                                          58.8 kB/s 0s100% [5 Packages 9059 kB]                                          58.8 kB/s 0s100% [Working]                                                     58.8 kB/s 0s100% [6 Packages 20 B]                                             58.8 kB/s 0s100% [Working]                                                     58.8 kB/s 0s                                                                               Fetched 9459 kB in 12s (781 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 35%Reading package lists... 60%Reading package lists... 79%Reading package lists... 97%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+W: Size of file /var/lib/apt/lists/http.debian.net_debian_dists_testing_main_binary-amd64_Packages.gz is not what the server reported 9058822 9081456
 + sudo apt-get install -qq -y build-essential m4
 + sudo apt-get install -qq -y libssl-dev m4
 debconf: unable to initialize frontend: Dialog
-debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 76, <> line 3.)
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 76, <> line 4.)
 debconf: falling back to frontend: Readline
-Selecting previously unselected package zlib1g-dev:amd64.
+Preconfiguring packages ...
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 22917 files and directories currently installed.)
+Preparing to unpack .../libssl1.0.0_1.0.1k-1_amd64.deb ...
+Unpacking libssl1.0.0:amd64 (1.0.1k-1) over (1.0.1j-1) ...
+Selecting previously unselected package zlib1g-dev:amd64.
 Preparing to unpack .../zlib1g-dev_1%3a1.2.8.dfsg-2+b1_amd64.deb ...
 Unpacking zlib1g-dev:amd64 (1:1.2.8.dfsg-2+b1) ...
 Selecting previously unselected package libssl-dev:amd64.
-Preparing to unpack .../libssl-dev_1.0.1j-1_amd64.deb ...
-Unpacking libssl-dev:amd64 (1.0.1j-1) ...
+Preparing to unpack .../libssl-dev_1.0.1k-1_amd64.deb ...
+Unpacking libssl-dev:amd64 (1.0.1k-1) ...
 Selecting previously unselected package libssl-doc.
-Preparing to unpack .../libssl-doc_1.0.1j-1_all.deb ...
-Unpacking libssl-doc (1.0.1j-1) ...
+Preparing to unpack .../libssl-doc_1.0.1k-1_all.deb ...
+Unpacking libssl-doc (1.0.1k-1) ...
+Setting up libssl1.0.0:amd64 (1.0.1k-1) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 76.)
+debconf: falling back to frontend: Readline
 Setting up zlib1g-dev:amd64 (1:1.2.8.dfsg-2+b1) ...
-Setting up libssl-dev:amd64 (1.0.1j-1) ...
-Setting up libssl-doc (1.0.1j-1) ...
+Setting up libssl-dev:amd64 (1.0.1k-1) ...
+Setting up libssl-doc (1.0.1k-1) ...
+Processing triggers for libc-bin (2.19-13) ...
 ++ opam install lwt ssl cohttp -e source,linux
 + srcext=
 + echo Debian srcexts:
