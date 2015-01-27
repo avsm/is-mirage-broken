@@ -4,14 +4,7 @@
 + docker=docker.io
 + pwd
 + sudo docker.io run --rm=true -v /home/opam/is-mirage-broken/scripts:/scripts -t avsm/docker-opam-build:centos-7-ocaml-4.01.0 sh -c /scripts/cohttp
-+ opam remote add mirage git://github.com/mirage/mirage-dev
-[[1;34mmirage[m] Fetching git://github.com/mirage/mirage-dev
-Updating ~/.opam/repo/compiler-index ...
-Updating ~/.opam/compilers/ ...
-Updating ~/.opam/repo/package-index ...
-Updating ~/.opam/packages/ ...
 + opam update -u
-[[1;34mmirage[m] Fetching git://github.com/mirage/mirage-dev
 [[1;34mdefault[m] Synchronizing with /home/opam/opam-repository
 Updating ~/.opam/repo/compiler-index ...
 Updating ~/.opam/compilers/ ...
@@ -31,12 +24,12 @@ Repodata is over 2 weeks old. Install yum-cron? Or run: yum makecache fast
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-(2/2): updates/7/x86_64/pr 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (2/2): updates/7/x86_64/pr 8% [=-               ]  0.0 B/s | 554 kB   --:-- ETA (2/2): updates/7/x86_64/pr 36% [=====-          ] 2.7 MB/s | 2.2 MB   00:01 ETA (2/2): updates/7/x86_64/pr 96% [=============== ] 3.3 MB/s | 5.9 MB   00:00 ETA (1/2): updates/7/x86_64/primary_db                         | 6.1 MB   00:01     
-(2/2): extras/7/x86_64/pri 99% [===============-] 2.9 MB/s | 6.1 MB   00:00 ETA (2/2): extras/7/x86_64/primary_db                          |  43 kB   00:01     
+(2/2): updates/7/x86_64/pr 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (2/2): updates/7/x86_64/pr 3% [-                ]  0.0 B/s | 241 kB   --:-- ETA (2/2): updates/7/x86_64/pr 3% [-                ]  0.0 B/s | 241 kB   --:-- ETA (2/2): updates/7/x86_64/pr 24% [===-            ] 260 kB/s | 1.5 MB   00:18 ETA (1/2): extras/7/x86_64/primary_db                          |  43 kB   00:01     
+(2/2): updates/7/x86_64/pr 28% [====-           ] 293 kB/s | 1.7 MB   00:15 ETA (2/2): updates/7/x86_64/pr 33% [=====           ] 332 kB/s | 2.0 MB   00:12 ETA (2/2): updates/7/x86_64/pr 38% [======          ] 374 kB/s | 2.3 MB   00:10 ETA (2/2): updates/7/x86_64/pr 43% [======-         ] 417 kB/s | 2.7 MB   00:08 ETA (2/2): updates/7/x86_64/pr 49% [=======-        ] 461 kB/s | 3.0 MB   00:06 ETA (2/2): updates/7/x86_64/pr 55% [========-       ] 505 kB/s | 3.4 MB   00:05 ETA (2/2): updates/7/x86_64/pr 61% [=========-      ] 554 kB/s | 3.8 MB   00:04 ETA (2/2): updates/7/x86_64/pr 68% [==========-     ] 605 kB/s | 4.2 MB   00:03 ETA (2/2): updates/7/x86_64/pr 75% [============    ] 650 kB/s | 4.6 MB   00:02 ETA (2/2): updates/7/x86_64/pr 81% [=============   ] 693 kB/s | 5.0 MB   00:01 ETA (2/2): updates/7/x86_64/pr 89% [==============  ] 741 kB/s | 5.4 MB   00:00 ETA (2/2): updates/7/x86_64/pr 97% [===============-] 795 kB/s | 5.9 MB   00:00 ETA (2/2): updates/7/x86_64/primary_db                         | 6.1 MB   00:05     
 Determining fastest mirrors
- * base: centos.mbni.med.umich.edu
- * extras: cosmos.cites.illinois.edu
- * updates: centos.chi.host-engine.com
+ * base: mirrors.usinternet.com
+ * extras: mirror.wiredtree.com
+ * updates: centos-mirror.jchost.net
 Resolving Dependencies
 --> Running transaction check
 ---> Package openssl-devel.x86_64 1:1.0.1e-34.el7_0.7 will be installed
@@ -93,17 +86,17 @@ Total download size: 3.5 M
 Downloading packages:
 Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
 (2/10): krb5-devel-1.11.3- 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/10): keyutils-libs-devel-1.5.8-3.el7.x86_64.rpm         |  37 kB   00:00     
-(2/10): libverto-devel-0.2.5-4.el7.x86_64.rpm              |  12 kB   00:00     
-(3/10): libcom_err-devel-1.42.9-4.el7.x86_64.rpm           |  30 kB   00:00     
-(4/10): libsepol-devel-2.1.9-3.el7.x86_64.rpm              |  71 kB   00:00     
+(2/10): libcom_err-devel-1.42.9-4.el7.x86_64.rpm           |  30 kB   00:00     
+(3/10): libverto-devel-0.2.5-4.el7.x86_64.rpm              |  12 kB   00:00     
+(4/10): libselinux-devel-2.2.2-6.el7.x86_64.rpm            | 174 kB   00:00     
 (5/10): krb5-devel-1.11.3-49.el7.x86_64.rpm                | 611 kB   00:00     
-(6/10): zlib-devel-1.2.7-13.el7.x86_64.rpm                 |  49 kB   00:00     
-(8/10): openssl-devel-1.0. 22% [===-            ]  0.0 B/s | 809 kB   --:-- ETA (7/10): pcre-devel-8.32-12.el7.x86_64.rpm                  | 477 kB   00:00     
-(8/10): libselinux-devel-2.2.2-6.el7.x86_64.rpm            | 174 kB   00:00     
-(10/10): openssl-libs-1.0. 67% [==========-     ] 2.0 MB/s | 2.4 MB   00:00 ETA (9/10): openssl-devel-1.0.1e-34.el7_0.7.x86_64.rpm         | 1.2 MB   00:00     
-(10/10): openssl-libs-1.0. 93% [==============- ] 2.0 MB/s | 3.3 MB   00:00 ETA (10/10): openssl-libs-1.0.1e-34.el7_0.7.x86_64.rpm         | 942 kB   00:01     
+(6/10): libsepol-devel-2.1.9-3.el7.x86_64.rpm              |  71 kB   00:00     
+(7/10): zlib-devel-1.2.7-13.el7.x86_64.rpm                 |  49 kB   00:00     
+(8/10): pcre-devel-8.32-12.el7.x86_64.rpm                  | 477 kB   00:00     
+(10/10): openssl-libs-1.0. 40% [======          ]  0.0 B/s | 1.4 MB   --:-- ETA (9/10): openssl-libs-1.0.1e-34.el7_0.7.x86_64.rpm          | 942 kB   00:00     
+(10/10): openssl-devel-1.0 72% [===========-    ] 1.3 MB/s | 2.6 MB   00:00 ETA (10/10): openssl-devel-1.0 81% [=============   ] 1.3 MB/s | 2.9 MB   00:00 ETA (10/10): openssl-devel-1.0 90% [==============- ] 1.3 MB/s | 3.2 MB   00:00 ETA (10/10): openssl-devel-1.0.1e-34.el7_0.7.x86_64.rpm        | 1.2 MB   00:01     
 --------------------------------------------------------------------------------
-Total                                              1.7 MB/s | 3.5 MB  00:02     
+Total                                              1.3 MB/s | 3.5 MB  00:02     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -278,7 +271,11 @@ Building cohttp.0.15.0:
   make PREFIX=/home/opam/.opam/4.01.0
   make PREFIX=/home/opam/.opam/4.01.0 install
 Installing cohttp.0.15.0.
-++ opam list --depends-on cohttp --rec -s
+++ opam list -i cohttp
+++ awk '{print $2}'
+++ grep -v '#'
++ cohttpver=0.15.0
+++ opam list --depends-on cohttp.0.15.0 --rec -s
 + deps='bt cowabloga facebook-sdk github imaplet-lwt iocaml irmin ketrew merge-queues merge-ropes message-switch mirage-http mirage-http-unix mirage-http-xen mirage-www opam-publish opam-sync-github-prs opium slacko sociaml-facebook-api sociaml-oauth-client sociaml-tumblr-api vhd-tool websocket xapi xapi-forkexecd xapi-idl xapi-libs-transitional xapi-netdev xapi-networkd xapi-rrd-transport xapi-rrdd xapi-rrdd-plugin xapi-squeezed xapi-tapctl xapi-xenops xapi-xenops-cli xapi-xenopsd xe xe-unikernel-upload xen-api-client '
 ++ opam config env
 + eval 'CAML_LD_LIBRARY_PATH="/home/opam/.opam/4.01.0/lib/stublibs";' export 'CAML_LD_LIBRARY_PATH;' 'MANPATH="/home/opam/.opam/4.01.0/man:";' export 'MANPATH;' 'MAKELEVEL="";' export 'MAKELEVEL;' 'MAKEFLAGS="";' export 'MAKEFLAGS;' 'PERL5LIB="/home/opam/.opam/4.01.0/lib/perl5";' export 'PERL5LIB;' 'OCAML_TOPLEVEL_PATH="/home/opam/.opam/4.01.0/lib/toplevel";' export 'OCAML_TOPLEVEL_PATH;' 'PATH="/home/opam/.opam/4.01.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin";' export 'PATH;'
