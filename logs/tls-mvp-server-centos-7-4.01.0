@@ -30,6 +30,7 @@ Loaded plugins: fastestmirror
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
+updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 7% [=                ]  0.0 B/s | 471 kB   --:-- ETA updates/7/x86_64/primary_d 36% [=====-          ] 2.7 MB/s | 2.2 MB   00:01 ETA updates/7/x86_64/primary_d 96% [=============== ] 3.3 MB/s | 5.8 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.1 MB   00:01     
 Loading mirror speeds from cached hostfile
  * base: mirror.linux.duke.edu
  * extras: mirror.linux.duke.edu
@@ -171,11 +172,11 @@ Building ctypes.0.3.4:
   make
   make install
 Installing lwt.2.4.7.
+Installing ctypes.0.3.4.
 Building ocplib-endian.0.8:
   ocaml setup.ml -configure --disable-debug --prefix /home/opam/.opam/4.01.0
   ocaml setup.ml -build
   ocaml setup.ml -install
-Installing ctypes.0.3.4.
 Building sexplib.111.25.00:
   ./configure --enable-syntax
   make
@@ -243,9 +244,9 @@ Removing tls.0.3.0.
 [31m#[m [31mpath[m         /home/opam/.opam/4.01.0/build/tls.0.3.0
 [31m#[m [31mcompiler[m     4.01.0
 [31m#[m [31mexit-code[m    1
-[31m#[m [31menv-file[m     /home/opam/.opam/4.01.0/build/tls.0.3.0/tls-24272-af3201.env
-[31m#[m [31mstdout-file[m  /home/opam/.opam/4.01.0/build/tls.0.3.0/tls-24272-af3201.out
-[31m#[m [31mstderr-file[m  /home/opam/.opam/4.01.0/build/tls.0.3.0/tls-24272-af3201.err
+[31m#[m [31menv-file[m     /home/opam/.opam/4.01.0/build/tls.0.3.0/tls-24274-af3201.env
+[31m#[m [31mstdout-file[m  /home/opam/.opam/4.01.0/build/tls.0.3.0/tls-24274-af3201.out
+[31m#[m [31mstderr-file[m  /home/opam/.opam/4.01.0/build/tls.0.3.0/tls-24274-af3201.err
 [31m### stdout ###
 [m[31m# [m...[truncated]
 [31m# [m/home/opam/.opam/4.01.0/bin/ocamlfind ocamldep -syntax camlp4o -package cstruct.syntax -package io-page -package ipaddr -package lwt -syntax camlp4o -package lwt.syntax -package mirage-types -package nocrypto -syntax camlp4o -package sexplib.syntax -package x509 -modules mirage/tls_mirage.ml > mirage/tls_mirage.ml.depends
@@ -291,4 +292,4 @@ These actions have been completed [01msuccessfully[m
 The following [01mfailed[m
  - install   tls.0.3.0
 
-The former state can be restored with opam switch import "/home/opam/.opam/4.01.0/backup/state-20150028080701.export"
+The former state can be restored with opam switch import "/home/opam/.opam/4.01.0/backup/state-20150028205152.export"
