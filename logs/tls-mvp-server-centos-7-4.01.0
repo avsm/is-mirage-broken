@@ -30,11 +30,11 @@ Loaded plugins: fastestmirror
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 6% [=                ]  0.0 B/s | 417 kB   --:-- ETA updates/7/x86_64/primary_d 18% [==-             ] 1.2 MB/s | 1.2 MB   00:04 ETA updates/7/x86_64/primary_d 37% [======          ] 1.4 MB/s | 2.5 MB   00:02 ETA updates/7/x86_64/primary_d 78% [============    ] 1.8 MB/s | 5.1 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:01     
+updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 5% [-                ]  0.0 B/s | 379 kB   --:-- ETA updates/7/x86_64/primary_d 9% [=-               ] 399 kB/s | 629 kB   00:15 ETA updates/7/x86_64/primary_d 11% [=-              ] 406 kB/s | 792 kB   00:14 ETA updates/7/x86_64/primary_d 13% [==              ] 403 kB/s | 905 kB   00:14 ETA updates/7/x86_64/primary_d 15% [==              ] 402 kB/s | 1.0 MB   00:14 ETA updates/7/x86_64/primary_d 16% [==-             ] 399 kB/s | 1.1 MB   00:14 ETA updates/7/x86_64/primary_d 18% [==-             ] 394 kB/s | 1.2 MB   00:13 ETA updates/7/x86_64/primary_d 20% [===             ] 392 kB/s | 1.3 MB   00:13 ETA updates/7/x86_64/primary_d 22% [===-            ] 395 kB/s | 1.5 MB   00:13 ETA updates/7/x86_64/primary_d 23% [===-            ] 391 kB/s | 1.6 MB   00:13 ETA updates/7/x86_64/primary_d 25% [====            ] 389 kB/s | 1.7 MB   00:12 ETA updates/7/x86_64/primary_d 27% [====            ] 392 kB/s | 1.8 MB   00:12 ETA updates/7/x86_64/primary_d 29% [====-           ] 393 kB/s | 2.0 MB   00:12 ETA updates/7/x86_64/primary_d 32% [=====           ] 407 kB/s | 2.2 MB   00:11 ETA updates/7/x86_64/primary_d 38% [======          ] 460 kB/s | 2.5 MB   00:09 ETA updates/7/x86_64/primary_d 42% [======-         ] 481 kB/s | 2.8 MB   00:08 ETA updates/7/x86_64/primary_d 45% [=======         ] 491 kB/s | 3.0 MB   00:07 ETA updates/7/x86_64/primary_d 48% [=======-        ] 502 kB/s | 3.2 MB   00:06 ETA updates/7/x86_64/primary_d 52% [========        ] 521 kB/s | 3.4 MB   00:06 ETA updates/7/x86_64/primary_d 56% [========-       ] 539 kB/s | 3.7 MB   00:05 ETA updates/7/x86_64/primary_d 60% [=========-      ] 563 kB/s | 4.0 MB   00:04 ETA updates/7/x86_64/primary_d 63% [==========      ] 572 kB/s | 4.2 MB   00:04 ETA updates/7/x86_64/primary_d 69% [===========     ] 608 kB/s | 4.6 MB   00:03 ETA updates/7/x86_64/primary_d 75% [============    ] 660 kB/s | 5.0 MB   00:02 ETA updates/7/x86_64/primary_d 83% [=============   ] 724 kB/s | 5.5 MB   00:01 ETA updates/7/x86_64/primary_d 92% [==============- ] 792 kB/s | 6.1 MB   00:00 ETA updates/7/x86_64/primary_d 99% [===============-] 844 kB/s | 6.6 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:09     
 Loading mirror speeds from cached hostfile
- * base: mirror.wiredtree.com
- * extras: mirrors.chkhosting.com
- * updates: mirror.team-cymru.org
+ * base: mirror.cisp.com
+ * extras: centos.chi.host-engine.com
+ * updates: mirrors.liquidweb.com
 Resolving Dependencies
 --> Running transaction check
 ---> Package libffi-devel.x86_64 0:3.0.13-11.el7 will be installed
@@ -55,7 +55,7 @@ Install  1 Package
 Total download size: 22 k
 Installed size: 27 k
 Downloading packages:
-libffi-devel-3.0.13-11.el7.x86_64.rpm                      |  22 kB   00:00     
+libffi-devel-3.0.13-11.el7 0% [                 ]  0.0 B/s |    0 B   --:-- ETA libffi-devel-3.0.13-11.el7.x86_64.rpm                      |  22 kB   00:00     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -244,9 +244,9 @@ Removing tls.0.3.0.
 [31m#[m [31mpath[m         /home/opam/.opam/4.01.0/build/tls.0.3.0
 [31m#[m [31mcompiler[m     4.01.0
 [31m#[m [31mexit-code[m    1
-[31m#[m [31menv-file[m     /home/opam/.opam/4.01.0/build/tls.0.3.0/tls-24303-af3201.env
-[31m#[m [31mstdout-file[m  /home/opam/.opam/4.01.0/build/tls.0.3.0/tls-24303-af3201.out
-[31m#[m [31mstderr-file[m  /home/opam/.opam/4.01.0/build/tls.0.3.0/tls-24303-af3201.err
+[31m#[m [31menv-file[m     /home/opam/.opam/4.01.0/build/tls.0.3.0/tls-24304-af3201.env
+[31m#[m [31mstdout-file[m  /home/opam/.opam/4.01.0/build/tls.0.3.0/tls-24304-af3201.out
+[31m#[m [31mstderr-file[m  /home/opam/.opam/4.01.0/build/tls.0.3.0/tls-24304-af3201.err
 [31m### stdout ###
 [m[31m# [m...[truncated]
 [31m# [m/home/opam/.opam/4.01.0/bin/ocamlfind ocamldep -syntax camlp4o -package cstruct.syntax -package io-page -package ipaddr -package lwt -syntax camlp4o -package lwt.syntax -package mirage-types -package nocrypto -syntax camlp4o -package sexplib.syntax -package x509 -modules mirage/tls_mirage.ml > mirage/tls_mirage.ml.depends
@@ -292,4 +292,4 @@ These actions have been completed [01msuccessfully[m
 The following [01mfailed[m
  - install   tls.0.3.0
 
-The former state can be restored with opam switch import "/home/opam/.opam/4.01.0/backup/state-20150102071612.export"
+The former state can be restored with opam switch import "/home/opam/.opam/4.01.0/backup/state-20150102202940.export"
