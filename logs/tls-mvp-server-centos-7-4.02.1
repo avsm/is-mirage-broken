@@ -30,11 +30,11 @@ Loaded plugins: fastestmirror
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 1% [                 ]  0.0 B/s | 133 kB   --:-- ETA updates/7/x86_64/primary_d 22% [===-            ] 2.0 MB/s | 1.5 MB   00:02 ETA updates/7/x86_64/primary_d 75% [============    ] 2.6 MB/s | 4.9 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:01     
+updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 2% [                 ]  0.0 B/s | 148 kB   --:-- ETA updates/7/x86_64/primary_d 22% [===-            ] 2.0 MB/s | 1.5 MB   00:02 ETA updates/7/x86_64/primary_d 75% [============    ] 2.6 MB/s | 5.0 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:01     
 Loading mirror speeds from cached hostfile
- * base: mirror.wiredtree.com
- * extras: mirror.rackspace.com
- * updates: reflector.westga.edu
+ * base: mirror.evolvedservers.com
+ * extras: repo.dimenoc.com
+ * updates: mirror.clarkson.edu
 Resolving Dependencies
 --> Running transaction check
 ---> Package libffi-devel.x86_64 0:3.0.13-11.el7 will be installed
@@ -128,12 +128,12 @@ Copying ~/.opam/repo/default/packages/camlp4/camlp4.4.02.1+system/files/check-ca
 Building camlp4.4.02.1+system:
   sh ./check-camlp4.sh
 Copying ~/.opam/repo/default/packages/ocamlfind/ocamlfind.1.5.5/files/ocamlfind.install to ~/.opam/system/build/ocamlfind.1.5.5/
+Installing camlp4.4.02.1+system.
 Building ocamlfind.1.5.5:
   ./configure -bindir /home/opam/.opam/system/bin -sitelib /home/opam/.opam/system/lib -mandir /home/opam/.opam/system/man -config /home/opam/.opam/system/lib/findlib.conf -no-topfind
   make all
   make opt
   make install
-Installing camlp4.4.02.1+system.
 Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/mirage-install.sh to ~/.opam/system/build/gmp.6.0.0/
 Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/mirage-build.sh to ~/.opam/system/build/gmp.6.0.0/
 Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/gmp.pc to ~/.opam/system/build/gmp.6.0.0/
@@ -165,12 +165,12 @@ Installing ppx_tools.0.99.2.
 Building type_conv.112.01.00:
   make
   make install
-Installing type_conv.112.01.00.
+Installing re.1.2.2.
 Building crunch.1.3.0:
   ocaml setup.ml -configure --prefix /home/opam/.opam/system
   ocaml setup.ml -build
   ocaml setup.ml -install
-Installing re.1.2.2.
+Installing type_conv.112.01.00.
 Building ctypes.0.3.4:
   make
   make install
@@ -300,4 +300,4 @@ These actions have been completed [01msuccessfully[m
 The following [01mfailed[m
  - install   tls.0.3.0
 
-The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150104205125.export"
+The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150105080119.export"
