@@ -23,11 +23,11 @@ Loaded plugins: fastestmirror
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 3% [-                ]  0.0 B/s | 205 kB   --:-- ETA updates/7/x86_64/primary_d 9% [=-               ] 592 kB/s | 617 kB   00:10 ETA updates/7/x86_64/primary_d 18% [==-             ] 677 kB/s | 1.2 MB   00:08 ETA updates/7/x86_64/primary_d 32% [=====           ] 821 kB/s | 2.2 MB   00:05 ETA updates/7/x86_64/primary_d 52% [========        ] 1.0 MB/s | 3.5 MB   00:03 ETA updates/7/x86_64/primary_d 84% [=============-  ] 1.4 MB/s | 5.6 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:02     
+updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 2% [                 ]  0.0 B/s | 160 kB   --:-- ETA updates/7/x86_64/primary_d 6% [=                ] 409 kB/s | 450 kB   00:15 ETA updates/7/x86_64/primary_d 11% [=-              ] 447 kB/s | 772 kB   00:13 ETA updates/7/x86_64/primary_d 18% [==-             ] 515 kB/s | 1.2 MB   00:10 ETA updates/7/x86_64/primary_d 32% [=====           ] 666 kB/s | 2.1 MB   00:06 ETA updates/7/x86_64/primary_d 51% [========        ] 887 kB/s | 3.4 MB   00:03 ETA updates/7/x86_64/primary_d 81% [============-   ] 1.2 MB/s | 5.3 MB   00:01 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:03     
 Loading mirror speeds from cached hostfile
- * base: mirror.us.oneandone.net
- * extras: mirror.tzulo.com
- * updates: mirror.wiredtree.com
+ * base: bay.uchicago.edu
+ * extras: mirror.steadfast.net
+ * updates: centos.expedientevirtual.com
 Resolving Dependencies
 --> Running transaction check
 ---> Package openssl-devel.x86_64 1:1.0.1e-34.el7_0.7 will be installed
@@ -80,14 +80,14 @@ Downloading packages:
 (2/9): krb5-devel-1.11.3-4 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/9): keyutils-libs-devel-1.5.8-3.el7.x86_64.rpm          |  37 kB   00:00     
 (2/9): libverto-devel-0.2.5-4.el7.x86_64.rpm               |  12 kB   00:00     
 (3/9): libcom_err-devel-1.42.9-4.el7.x86_64.rpm            |  30 kB   00:00     
-(5/9): libselinux-devel-2. 2% [-                ]  0.0 B/s |  79 kB   --:-- ETA (4/9): pcre-devel-8.32-12.el7.x86_64.rpm                   | 477 kB   00:00     
+(4/9): pcre-devel-8.32-12.el7.x86_64.rpm                   | 477 kB   00:00     
 (5/9): zlib-devel-1.2.7-13.el7.x86_64.rpm                  |  49 kB   00:00     
-(6/9): libselinux-devel-2.2.2-6.el7.x86_64.rpm             | 174 kB   00:00     
-(7/9): krb5-devel-1.11.3-49.el7.x86_64.rpm                 | 611 kB   00:00     
-(8/9): libsepol-devel-2.1.9-3.el7.x86_64.rpm               |  71 kB   00:00     
-(9/9): openssl-devel-1.0.1 68% [===========     ] 2.3 MB/s | 1.8 MB   00:00 ETA (9/9): openssl-devel-1.0.1 99% [===============-] 2.3 MB/s | 2.6 MB   00:00 ETA (9/9): openssl-devel-1.0.1e-34.el7_0.7.x86_64.rpm          | 1.2 MB   00:01     
+(6/9): libsepol-devel-2.1.9-3.el7.x86_64.rpm               |  71 kB   00:00     
+(7/9): libselinux-devel-2.2.2-6.el7.x86_64.rpm             | 174 kB   00:00     
+(9/9): openssl-devel-1.0.1 41% [======-         ]  0.0 B/s | 1.1 MB   --:-- ETA (8/9): krb5-devel-1.11.3-49.el7.x86_64.rpm                 | 611 kB   00:01     
+(9/9): openssl-devel-1.0.1 60% [=========-      ] 590 kB/s | 1.6 MB   00:01 ETA (9/9): openssl-devel-1.0.1 71% [===========-    ] 610 kB/s | 1.9 MB   00:01 ETA (9/9): openssl-devel-1.0.1 88% [==============  ] 662 kB/s | 2.3 MB   00:00 ETA (9/9): openssl-devel-1.0.1e-34.el7_0.7.x86_64.rpm          | 1.2 MB   00:01     
 --------------------------------------------------------------------------------
-Total                                              1.5 MB/s | 2.6 MB  00:01     
+Total                                              1.1 MB/s | 2.6 MB  00:02     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -255,9 +255,9 @@ Building cohttp.0.15.1:
   make PREFIX=/home/opam/.opam/4.01.0
   make PREFIX=/home/opam/.opam/4.01.0 install
 Installing cohttp.0.15.1.
-++ opam list -i cohttp
 ++ awk '{print $2}'
 ++ grep -v '#'
+++ opam list -i cohttp
 + cohttpver=0.15.1
 ++ opam list --depends-on cohttp.0.15.1 --rec -s
 + deps='bt cowabloga facebook-sdk github imaplet-lwt iocaml irmin merge-queues merge-ropes message-switch mirage-http mirage-http-unix mirage-http-xen mirage-www opam-publish opam-sync-github-prs opium slacko sociaml-facebook-api sociaml-oauth-client sociaml-tumblr-api vhd-tool websocket xapi xapi-forkexecd xapi-idl xapi-libs-transitional xapi-netdev xapi-networkd xapi-rrd-transport xapi-rrdd xapi-rrdd-plugin xapi-squeezed xapi-tapctl xapi-xenops xapi-xenops-cli xapi-xenopsd xe xe-unikernel-upload xen-api-client '
