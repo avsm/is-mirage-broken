@@ -30,11 +30,11 @@ Loaded plugins: fastestmirror
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 1% [                 ]  0.0 B/s | 131 kB   --:-- ETA updates/7/x86_64/primary_d 18% [==-             ] 1.7 MB/s | 1.2 MB   00:03 ETA updates/7/x86_64/primary_d 39% [======          ] 1.8 MB/s | 2.6 MB   00:02 ETA updates/7/x86_64/primary_d 59% [=========       ] 2.0 MB/s | 3.9 MB   00:01 ETA updates/7/x86_64/primary_d 79% [============-   ] 2.1 MB/s | 5.3 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:02     
+updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 4% [-                ]  0.0 B/s | 311 kB   --:-- ETA updates/7/x86_64/primary_d 17% [==-             ] 1.3 MB/s | 1.2 MB   00:04 ETA updates/7/x86_64/primary_d 48% [=======-        ] 1.6 MB/s | 3.2 MB   00:02 ETA updates/7/x86_64/primary_d 82% [=============   ] 2.0 MB/s | 5.4 MB   00:00 ETA updates/7/x86_64/primary_d 82% [=============   ] 1.9 MB/s | 5.5 MB   00:00 ETA updates/7/x86_64/primary_d 83% [=============   ] 1.7 MB/s | 5.5 MB   00:00 ETA updates/7/x86_64/primary_d 84% [=============-  ] 1.6 MB/s | 5.6 MB   00:00 ETA updates/7/x86_64/primary_d 85% [=============-  ] 1.5 MB/s | 5.6 MB   00:00 ETA updates/7/x86_64/primary_d 85% [=============-  ] 1.4 MB/s | 5.6 MB   00:00 ETA updates/7/x86_64/primary_d 85% [=============-  ] 1.3 MB/s | 5.6 MB   00:00 ETA updates/7/x86_64/primary_d 85% [=============-  ] 1.2 MB/s | 5.6 MB   00:00 ETA updates/7/x86_64/primary_d 85% [=============-  ] 1.1 MB/s | 5.6 MB   00:00 ETA updates/7/x86_64/primary_d 85% [=============-  ] 1.1 MB/s | 5.6 MB   00:00 ETA updates/7/x86_64/primary_d 85% [=============-  ] 1.0 MB/s | 5.7 MB   00:00 ETA updates/7/x86_64/primary_d 86% [=============-  ] 937 kB/s | 5.7 MB   00:01 ETA updates/7/x86_64/primary_d 86% [=============-  ] 872 kB/s | 5.7 MB   00:01 ETA updates/7/x86_64/primary_d 86% [=============-  ] 818 kB/s | 5.7 MB   00:01 ETA updates/7/x86_64/primary_d 86% [=============-  ] 761 kB/s | 5.7 MB   00:01 ETA updates/7/x86_64/primary_d 86% [=============-  ] 708 kB/s | 5.7 MB   00:01 ETA updates/7/x86_64/primary_d 86% [=============-  ] 659 kB/s | 5.7 MB   00:01 ETA updates/7/x86_64/primary_d 86% [=============-  ] 613 kB/s | 5.7 MB   00:01 ETA updates/7/x86_64/primary_d 86% [=============-  ] 571 kB/s | 5.7 MB   00:01 ETA updates/7/x86_64/primary_d 86% [=============-  ] 531 kB/s | 5.7 MB   00:01 ETA updates/7/x86_64/primary_d 87% [=============-  ] 495 kB/s | 5.7 MB   00:01 ETA updates/7/x86_64/primary_d 87% [==============  ] 470 kB/s | 5.8 MB   00:01 ETA updates/7/x86_64/primary_d 89% [==============  ] 462 kB/s | 5.9 MB   00:01 ETA updates/7/x86_64/primary_d 91% [==============- ] 463 kB/s | 6.0 MB   00:01 ETA updates/7/x86_64/primary_d 94% [=============== ] 472 kB/s | 6.2 MB   00:00 ETA updates/7/x86_64/primary_d 97% [===============-] 487 kB/s | 6.5 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:10     
 Determining fastest mirrors
- * base: mirror.fdcservers.net
- * extras: mirror.team-cymru.org
- * updates: mirrors.usinternet.com
+ * base: mirror.rackspace.com
+ * extras: mirrors.gigenet.com
+ * updates: centos.mbni.med.umich.edu
 Resolving Dependencies
 --> Running transaction check
 ---> Package libffi-devel.x86_64 0:3.0.13-11.el7 will be installed
@@ -145,13 +145,13 @@ Building gmp.6.0.0:
   ./mirage-install.sh
 Installing ocamlfind.1.5.5.
 Installing base-bytes.base.
+Building cmdliner.0.9.6:
+  ocaml pkg/git.ml
+  ocaml pkg/build.ml native=true native-dynlink=true
 Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/system/build/cppo.1.1.2/
 Building cppo.1.1.2:
   make
   make install-lib
-Building cmdliner.0.9.6:
-  ocaml pkg/git.ml
-  ocaml pkg/build.ml native=true native-dynlink=true
 Installing cmdliner.0.9.6.
 Building ppx_tools.0.99.2:
   make all
@@ -165,12 +165,12 @@ Installing ppx_tools.0.99.2.
 Building type_conv.112.01.00:
   make
   make install
-Installing re.1.2.2.
 Installing type_conv.112.01.00.
 Building crunch.1.3.0:
   ocaml setup.ml -configure --prefix /home/opam/.opam/system
   ocaml setup.ml -build
   ocaml setup.ml -install
+Installing re.1.2.2.
 Building ctypes.0.3.4:
   make
   make install
@@ -221,11 +221,11 @@ Applying xen_linkopts.patch.
 Building zarith.1.3:
   ./mirage-install.sh
 Installing zarith.1.3.
-Building nocrypto.0.3.0:
+Building asn1-combinators.0.1.1:
   ocaml setup.ml -configure --prefix /home/opam/.opam/system
   ocaml setup.ml -build
   ocaml setup.ml -install
-Building asn1-combinators.0.1.1:
+Building nocrypto.0.3.0:
   ocaml setup.ml -configure --prefix /home/opam/.opam/system
   ocaml setup.ml -build
   ocaml setup.ml -install
@@ -252,9 +252,9 @@ Removing tls.0.3.0.
 [31m#[m [31mpath[m         /home/opam/.opam/system/build/tls.0.3.0
 [31m#[m [31mcompiler[m     system (4.02.1)
 [31m#[m [31mexit-code[m    1
-[31m#[m [31menv-file[m     /home/opam/.opam/system/build/tls.0.3.0/tls-24411-d682c6.env
-[31m#[m [31mstdout-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-24411-d682c6.out
-[31m#[m [31mstderr-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-24411-d682c6.err
+[31m#[m [31menv-file[m     /home/opam/.opam/system/build/tls.0.3.0/tls-24410-d682c6.env
+[31m#[m [31mstdout-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-24410-d682c6.out
+[31m#[m [31mstderr-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-24410-d682c6.err
 [31m### stdout ###
 [m[31m# [m...[truncated]
 [31m# [m/home/opam/.opam/system/bin/ocamlfind ocamldep -syntax camlp4o -package cstruct.syntax -package io-page -package ipaddr -package lwt -syntax camlp4o -package lwt.syntax -package mirage-types -package nocrypto -syntax camlp4o -package sexplib.syntax -package x509 -modules mirage/tls_mirage.ml > mirage/tls_mirage.ml.depends
@@ -300,4 +300,4 @@ These actions have been completed [01msuccessfully[m
 The following [01mfailed[m
  - install   tls.0.3.0
 
-The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150107080700.export"
+The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150107204823.export"
