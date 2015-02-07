@@ -26,13 +26,13 @@ Debian depexts: libffi-dev m4
 + '[' 'libffi-dev m4' '!=' '' ']'
 + sudo apt-get update -y
 0% [Working]            Get:1 http://security.debian.org testing/updates InRelease [84.1 kB]
-            17% [Connecting to http.debian.net (46.4.205.44)] [1 InRelease 14.2 kB/84.1 kB                                                                                100% [Waiting for headers]                          100% [Working]100% [Working]              Get:2 http://security.debian.org testing/updates/main amd64 Packages [20 B]
-              100% [Waiting for headers] [2 Packages 20 B/20 B 100%]                                                      100% [Waiting for headers]                                         11.0 kB/s 0s                                                                               Get:3 http://http.debian.net testing InRelease [199 kB]
-100% [Working]                                                     11.0 kB/s 0s100% [Waiting for headers] [3 InRelease gpgv 199 kB]               11.0 kB/s 0s                                                                               100% [2 Packages 20 B] [Waiting for headers] [3 InRelease gpgv 199 kB]                                                                      100% [Waiting for headers] [3 InRelease gpgv 199 kB]               11.0 kB/s 0s                                                                               Get:4 http://http.debian.net testing-updates InRelease [117 kB]
-74% [4 InRelease 13.0 kB/117 kB 11%] [3 InRelease gpgv 199 kB]     11.0 kB/s 9s100% [3 InRelease gpgv 199 kB]                                     11.0 kB/s 0s100% [3 InRelease gpgv 199 kB]                                     11.0 kB/s 0s100% [3 InRelease gpgv 199 kB]                                     11.0 kB/s 0s100% [Working]                                                     11.0 kB/s 0s100% [4 InRelease gpgv 117 kB]                                     11.0 kB/s 0s100% [4 InRelease gpgv 117 kB]                                     11.0 kB/s 0s                                                                               Get:5 http://http.debian.net testing/main amd64 Packages [9052 kB]
-                                                                               4% [5 Packages 13.0 kB/9052 kB 0%] [4 InRelease gpgv 117 kB]                                                            15% [5 Packages 1001 kB/9052 kB 11%] [4 InRelease gpgv 117 kB]                                                              41% [5 Packages 3471 kB/9052 kB 38%]                         11.0 kB/s 8min 26s51% [5 Packages 4424 kB/9052 kB 49%]                         11.0 kB/s 6min 59s100% [Working]                                                     11.0 kB/s 0s100% [5 Packages 9081 kB]                                          11.0 kB/s 0s                                                                               Get:6 http://http.debian.net testing-updates/main amd64 Packages [20 B]
-100% [5 Packages 9081 kB] [6 Packages 0 B/20 B 0%]                 11.0 kB/s 0s100% [5 Packages 9081 kB]                                          11.0 kB/s 0s100% [5 Packages 9052 kB]                                          11.0 kB/s 0s100% [5 Packages 9052 kB]                                          11.0 kB/s 0s100% [5 Packages 9052 kB]                                          11.0 kB/s 0s100% [5 Packages 9052 kB]                                          11.0 kB/s 0s100% [Working]                                                     11.0 kB/s 0s100% [Working]                                                     11.0 kB/s 0s                                                                               Fetched 9453 kB in 12s (735 kB/s)
-Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 29%Reading package lists... 61%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+            17% [Connecting to http.debian.net (46.4.205.44)] [1 InRelease 14.2 kB/84.1 kB                                                                                100% [1 InRelease 84.1 kB/84.1 kB 100%]                                       100% [Working]              Get:2 http://http.debian.net testing InRelease [199 kB]
+100% [Working]              100% [1 InRelease gpgv 84.1 kB] [Waiting for headers]                                                     Get:3 http://http.debian.net testing-updates InRelease [117 kB]
+                                                     74% [1 InRelease gpgv 84.1 kB] [3 InRelease 13.0 kB/117 kB 11%]                                                               100% [1 InRelease gpgv 84.1 kB]100% [1 InRelease gpgv 84.1 kB]                               100% [Working]              100% [2 InRelease gpgv 199 kB] [Waiting for headers]                                                    Get:4 http://security.debian.org testing/updates/main amd64 Packages [20 B]
+                                                    100% [2 InRelease gpgv 199 kB]                                     51.5 kB/s 0s100% [Working]                                                     51.5 kB/s 0s100% [Working]                                                     51.5 kB/s 0s100% [3 InRelease gpgv 117 kB] [Waiting for headers]               51.5 kB/s 0s100% [3 InRelease gpgv 117 kB]                                     51.5 kB/s 0s                                                                               Get:5 http://http.debian.net testing/main amd64 Packages [9052 kB]
+                                                                               4% [3 InRelease gpgv 117 kB] [5 Packages 13.0 kB/9052 kB 0%]                                                            25% [3 InRelease gpgv 117 kB] [5 Packages 1932 kB/9052 kB 21%]                                                              66% [5 Packages 5857 kB/9052 kB 65%]                          51.5 kB/s 1min 2s73% [5 Packages 6515 kB/9052 kB 72%]                              51.5 kB/s 49s100% [Working]                                                     51.5 kB/s 0s100% [5 Packages 9081 kB]                                          51.5 kB/s 0s                                                                               Get:6 http://http.debian.net testing-updates/main amd64 Packages [20 B]
+100% [5 Packages 9081 kB] [6 Packages 0 B/20 B 0%]                 51.5 kB/s 0s100% [5 Packages 9081 kB]                                          51.5 kB/s 0s100% [5 Packages 9052 kB]                                          51.5 kB/s 0s100% [5 Packages 9052 kB]                                          51.5 kB/s 0s100% [5 Packages 9052 kB]                                          51.5 kB/s 0s100% [5 Packages 9052 kB]                                          51.5 kB/s 0s100% [Working]                                                     51.5 kB/s 0s100% [Working]                                                     51.5 kB/s 0s                                                                               Fetched 9453 kB in 11s (811 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 39%Reading package lists... 71%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
 W: Size of file /var/lib/apt/lists/http.debian.net_debian_dists_testing_main_binary-amd64_Packages.gz is not what the server reported 9052445 9081456
 + sudo apt-get install -qq -y build-essential m4
 + sudo apt-get install -qq -y libffi-dev m4
@@ -119,12 +119,12 @@ Building gmp.6.0.0:
 Installing ocamlfind.1.5.5.
 Installing base-bytes.legacy.
 Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/system/build/cppo.1.1.2/
-Building cmdliner.0.9.6:
-  ocaml pkg/git.ml
-  ocaml pkg/build.ml native=true native-dynlink=true
 Building cppo.1.1.2:
   make
   make install-lib
+Building cmdliner.0.9.6:
+  ocaml pkg/git.ml
+  ocaml pkg/build.ml native=true native-dynlink=true
 Installing cmdliner.0.9.6.
 Building lwt.2.4.5:
   ./configure --disable-libev --disable-react --disable-ssl --enable-unix --enable-extra --enable-preemptive --disable-glib
@@ -160,13 +160,13 @@ Building sexplib.111.25.00:
   make install
 Installing lwt.2.4.5.
 Installing sexplib.111.25.00.
-Building ipaddr.2.5.0:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/system
-  make build
-  make install
 Building cstruct.1.5.0:
   ./configure --prefix /home/opam/.opam/system --enable-lwt --enable-camlp4 --disable-async --enable-unix --disable-tests
   make
+  make install
+Building ipaddr.2.5.0:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/system
+  make build
   make install
 Installing ipaddr.2.5.0.
 Installing cstruct.1.5.0.
@@ -221,9 +221,9 @@ Removing tls.0.3.0.
 [31m#[m [31mpath[m         /home/opam/.opam/system/build/tls.0.3.0
 [31m#[m [31mcompiler[m     system (4.01.0)
 [31m#[m [31mexit-code[m    1
-[31m#[m [31menv-file[m     /home/opam/.opam/system/build/tls.0.3.0/tls-25823-326a35.env
-[31m#[m [31mstdout-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-25823-326a35.out
-[31m#[m [31mstderr-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-25823-326a35.err
+[31m#[m [31menv-file[m     /home/opam/.opam/system/build/tls.0.3.0/tls-25819-326a35.env
+[31m#[m [31mstdout-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-25819-326a35.out
+[31m#[m [31mstderr-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-25819-326a35.err
 [31m### stdout ###
 [m[31m# [m...[truncated]
 [31m# [m/home/opam/.opam/system/bin/ocamlfind ocamldep -syntax camlp4o -package cstruct.syntax -package io-page -package ipaddr -package lwt -syntax camlp4o -package lwt.syntax -package mirage-types -package nocrypto -syntax camlp4o -package sexplib.syntax -package x509 -modules mirage/tls_mirage.ml > mirage/tls_mirage.ml.depends
@@ -268,4 +268,4 @@ These actions have been completed [01msuccessfully[m
 The following [01mfailed[m
  - install   tls.0.3.0
 
-The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150106202648.export"
+The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150107073625.export"
