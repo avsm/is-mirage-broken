@@ -30,11 +30,11 @@ Loaded plugins: fastestmirror
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 2% [                 ]  0.0 B/s | 194 kB   --:-- ETA updates/7/x86_64/primary_d 7% [=                ] 523 kB/s | 528 kB   00:11 ETA updates/7/x86_64/primary_d 16% [==-             ] 604 kB/s | 1.1 MB   00:09 ETA updates/7/x86_64/primary_d 29% [====-           ] 742 kB/s | 1.9 MB   00:06 ETA updates/7/x86_64/primary_d 42% [======-         ] 868 kB/s | 2.8 MB   00:04 ETA updates/7/x86_64/primary_d 53% [========-       ] 963 kB/s | 3.5 MB   00:03 ETA updates/7/x86_64/primary_d 64% [==========      ] 1.0 MB/s | 4.2 MB   00:02 ETA updates/7/x86_64/primary_d 74% [===========-    ] 1.1 MB/s | 4.9 MB   00:01 ETA updates/7/x86_64/primary_d 86% [=============-  ] 1.2 MB/s | 5.7 MB   00:00 ETA updates/7/x86_64/primary_d 97% [===============-] 1.3 MB/s | 6.4 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:03     
+updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 5% [-                ]  0.0 B/s | 365 kB   --:-- ETA updates/7/x86_64/primary_d 29% [====-           ] 2.4 MB/s | 1.9 MB   00:01 ETA updates/7/x86_64/primary_d 67% [==========-     ] 2.8 MB/s | 4.5 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:01     
 Determining fastest mirrors
- * base: ftpmirror.your.org
- * extras: mirror.fdcservers.net
- * updates: centos.hostingxtreme.com
+ * base: mirror.ubiquityservers.com
+ * extras: centos.netnitco.net
+ * updates: mirror.fdcservers.net
 Resolving Dependencies
 --> Running transaction check
 ---> Package libffi-devel.x86_64 0:3.0.13-11.el7 will be installed
@@ -55,23 +55,21 @@ Install  1 Package
 Total download size: 22 k
 Installed size: 27 k
 Downloading packages:
-Traceback (most recent call last):
-  File "/usr/libexec/urlgrabber-ext-down", line 75, in <module>
-    main()
-  File "/usr/libexec/urlgrabber-ext-down", line 61, in main
-    fo = PyCurlFileObject(opts.url, opts.filename, opts)
-  File "/usr/lib/python2.7/site-packages/urlgrabber/grabber.py", line 1258, in __init__
-    self._do_open()
-  File "/usr/lib/python2.7/site-packages/urlgrabber/grabber.py", line 1589, in _do_open
-    self._do_grab()
-  File "/usr/lib/python2.7/site-packages/urlgrabber/grabber.py", line 1723, in _do_grab
-    self._do_perform()
-  File "/usr/lib/python2.7/site-packages/urlgrabber/grabber.py", line 1517, in _do_perform
-    raise KeyboardInterrupt
-KeyboardInterrupt
+libffi-devel-3.0.13-11.el7 0% [                 ]  0.0 B/s |    0 B   --:-- ETA libffi-devel-3.0.13-11.el7.x86_64.rpm                      |  22 kB   00:00     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : libffi-devel-3.0.13-11.el7.x [                             ] 1/1  Installing : libffi-devel-3.0.13-11.el7.x [#############                ] 1/1  Installing : libffi-devel-3.0.13-11.el7.x [#################            ] 1/1  Installing : libffi-devel-3.0.13-11.el7.x [##################           ] 1/1  Installing : libffi-devel-3.0.13-11.el7.x [###################          ] 1/1  Installing : libffi-devel-3.0.13-11.el7.x [#########################    ] 1/1  Installing : libffi-devel-3.0.13-11.el7.x [##########################   ] 1/1  Installing : libffi-devel-3.0.13-11.el7.x [###########################  ] 1/1  Installing : libffi-devel-3.0.13-11.el7.x [############################ ] 1/1  Installing : libffi-devel-3.0.13-11.el7.x86_64                            1/1 
+install-info: No such file or directory for /usr/share/info/libffi.info.gz
+warning: %post(libffi-devel-3.0.13-11.el7.x86_64) scriptlet failed, exit status 1
+Non-fatal POSTIN scriptlet failure in rpm package libffi-devel-3.0.13-11.el7.x86_64
+  Verifying  : libffi-devel-3.0.13-11.el7.x86_64                            1/1 
 
+Installed:
+  libffi-devel.x86_64 0:3.0.13-11.el7                                           
 
-Exiting on user cancel
+Complete!
 + opam install -j 3 mirage tls
 The following actions will be performed:
  - install   ocamlfind.1.5.5                       [required by tls]
@@ -129,13 +127,13 @@ Copying ~/.opam/repo/default/packages/camlp4/camlp4.4.02.1+system/files/install 
 Copying ~/.opam/repo/default/packages/camlp4/camlp4.4.02.1+system/files/check-camlp4.sh to ~/.opam/system/build/camlp4.4.02.1+system/
 Building camlp4.4.02.1+system:
   sh ./check-camlp4.sh
+Installing camlp4.4.02.1+system.
 Copying ~/.opam/repo/default/packages/ocamlfind/ocamlfind.1.5.5/files/ocamlfind.install to ~/.opam/system/build/ocamlfind.1.5.5/
 Building ocamlfind.1.5.5:
   ./configure -bindir /home/opam/.opam/system/bin -sitelib /home/opam/.opam/system/lib -mandir /home/opam/.opam/system/man -config /home/opam/.opam/system/lib/findlib.conf -no-topfind
   make all
   make opt
   make install
-Installing camlp4.4.02.1+system.
 Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/mirage-install.sh to ~/.opam/system/build/gmp.6.0.0/
 Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/mirage-build.sh to ~/.opam/system/build/gmp.6.0.0/
 Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/gmp.pc to ~/.opam/system/build/gmp.6.0.0/
@@ -148,12 +146,12 @@ Building gmp.6.0.0:
 Installing ocamlfind.1.5.5.
 Installing base-bytes.base.
 Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/system/build/cppo.1.1.2/
-Building cppo.1.1.2:
-  make
-  make install-lib
 Building cmdliner.0.9.6:
   ocaml pkg/git.ml
   ocaml pkg/build.ml native=true native-dynlink=true
+Building cppo.1.1.2:
+  make
+  make install-lib
 Installing cmdliner.0.9.6.
 Building ppx_tools.0.99.2:
   make all
@@ -181,9 +179,7 @@ Building lwt.2.4.7:
   ./configure --prefix /home/opam/.opam/system --disable-libev --enable-camlp4 --disable-react --disable-ssl --enable-unix --enable-preemptive --disable-glib --enable-ppx
   make build
   make install
-[31m[ERROR][m The compilation of ctypes.0.3.4 failed.
-Removing ctypes.0.3.4.
-  ocamlfind remove ctypes
+Installing ctypes.0.3.4.
 Building ocplib-endian.0.8:
   ocaml setup.ml -configure --disable-debug --prefix /home/opam/.opam/system
   ocaml setup.ml -build
@@ -229,53 +225,63 @@ Building asn1-combinators.0.1.1:
   ocaml setup.ml -configure --prefix /home/opam/.opam/system
   ocaml setup.ml -build
   ocaml setup.ml -install
+Building nocrypto.0.3.0:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/system
+  ocaml setup.ml -build
+  ocaml setup.ml -install
 Installing asn1-combinators.0.1.1.
+Installing nocrypto.0.3.0.
+Building x509.0.2.1:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/system
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing x509.0.2.1.
+Building tls.0.3.0:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/system --enable-lwt --enable-mirage
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+[31m[ERROR][m The compilation of tls.0.3.0 failed.
+Removing tls.0.3.0.
+  ocamlfind remove tls
 
 
-[31m#===[m [01mERROR[m [01mwhile installing ctypes.0.3.4[m [31m======================================#[m
+[31m#===[m [01mERROR[m [01mwhile installing tls.0.3.0[m [31m=========================================#[m
 [31m#[m [31mopam-version[m 1.2.0
 [31m#[m [31mos[m           linux
-[31m#[m [31mcommand[m      make
-[31m#[m [31mpath[m         /home/opam/.opam/system/build/ctypes.0.3.4
+[31m#[m [31mcommand[m      ocaml setup.ml -build
+[31m#[m [31mpath[m         /home/opam/.opam/system/build/tls.0.3.0
 [31m#[m [31mcompiler[m     system (4.02.1)
-[31m#[m [31mexit-code[m    2
-[31m#[m [31menv-file[m     /home/opam/.opam/system/build/ctypes.0.3.4/ctypes-3437-e0ba4f.env
-[31m#[m [31mstdout-file[m  /home/opam/.opam/system/build/ctypes.0.3.4/ctypes-3437-e0ba4f.out
-[31m#[m [31mstderr-file[m  /home/opam/.opam/system/build/ctypes.0.3.4/ctypes-3437-e0ba4f.err
+[31m#[m [31mexit-code[m    1
+[31m#[m [31menv-file[m     /home/opam/.opam/system/build/tls.0.3.0/tls-24408-d682c6.env
+[31m#[m [31mstdout-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-24408-d682c6.out
+[31m#[m [31mstderr-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-24408-d682c6.err
 [31m### stdout ###
 [m[31m# [m...[truncated]
-[31m# [mocamlfind ocamlc -c -o _build/src/ctypes-foreign-base/libffi_abi.cmi    -I _build/src/ctypes-foreign-base  -I _build/src/ctypes src/ctypes-foreign-base/libffi_abi.mli
-[31m# [mocamlfind ocamlc      -c -o _build/src/ctypes-foreign-base/libffi_abi.cmo -I _build/src/ctypes-foreign-base  -I _build/src/ctypes src/ctypes-foreign-base/libffi_abi.ml
-[31m# [mocamlfind ocamlc -c -o _build/src/ctypes-foreign-base/weakRef.cmi    -I _build/src/ctypes-foreign-base  -I _build/src/ctypes src/ctypes-foreign-base/weakRef.mli
-[31m# [mocamlfind ocamlc      -c -o _build/src/ctypes-foreign-base/weakRef.cmo -I _build/src/ctypes-foreign-base  -I _build/src/ctypes src/ctypes-foreign-base/weakRef.ml
-[31m# [mocamlfind ocamlc -c -o _build/src/ctypes-foreign-base/ffi.cmi    -I _build/src/ctypes-foreign-base  -I _build/src/ctypes src/ctypes-foreign-base/ffi.mli
-[31m# [mocamlfind ocamlc      -c -o _build/src/ctypes-foreign-base/ffi.cmo -I _build/src/ctypes-foreign-base  -I _build/src/ctypes src/ctypes-foreign-base/ffi.ml
-[31m# [mocamlfind ocamlc      -c -o _build/src/ctypes-foreign-base/foreign_basis.cmo -I _build/src/ctypes-foreign-base  -I _build/src/ctypes src/ctypes-foreign-base/foreign_basis.ml
-[31m# [mocamlfind ocamlc -a   -cclib -lctypes-foreign-base_stubs -dllib -lctypes-foreign-base_stubs   -o _build/ctypes-foreign-base.cma _build/src/ctypes-foreign-base/closure_properties.cmo _build/src/ctypes-foreign-base/dl.cmo _build/src/ctypes-foreign-base/ffi_stubs.cmo _build/src/ctypes-foreign-base/libffi_abi.cmo _build/src/ctypes-foreign-base/weakRef.cmo _build/src/ctypes-foreign-base/ffi.cmo _build/src/ctypes-foreign-base/foreign_basis.cmo 
-[31m# [mcd _build/src/ctypes-foreign-base && ocamlfind ocamlc -c -ccopt -fPIC -ccopt -Wall -ccopt -O3 -ccopt -I -ccopt /home/opam/opam-repository/src -ccopt -I -ccopt /home/opam/opam-repository/tests -o dl_stubs.o  /home/opam/.opam/system/build/ctypes.0.3.4/src/ctypes-foreign-base/dl_stubs.c
-[31m# [mcd _build/src/ctypes-foreign-base && ocamlfind ocamlc -c -ccopt -fPIC -ccopt -Wall -ccopt -O3 -ccopt -I -ccopt /home/opam/opam-repository/src -ccopt -I -ccopt /home/opam/opam-repository/tests -o ffi_call_stubs.o  /home/opam/.opam/system/build/ctypes.0.3.4/src/ctypes-foreign-base/ffi_call_stubs.c
+[31m# [m/home/opam/.opam/system/bin/ocamlfind ocamldep -syntax camlp4o -package cstruct.syntax -package io-page -package ipaddr -package lwt -syntax camlp4o -package lwt.syntax -package mirage-types -package nocrypto -syntax camlp4o -package sexplib.syntax -package x509 -modules mirage/tls_mirage.ml > mirage/tls_mirage.ml.depends
+[31m# [m/home/opam/.opam/system/bin/ocamlfind ocamlc -c -g -annot -bin-annot -I lib -syntax camlp4o -package cstruct.syntax -package io-page -package ipaddr -package lwt -syntax camlp4o -package lwt.syntax -package mirage-types -package nocrypto -syntax camlp4o -package sexplib.syntax -package x509 -I mirage -I lib -o mirage/tls_mirage.cmo mirage/tls_mirage.ml
+[31m# [m+ /home/opam/.opam/system/bin/ocamlfind ocamlc -c -g -annot -bin-annot -I lib -syntax camlp4o -package cstruct.syntax -package io-page -package ipaddr -package lwt -syntax camlp4o -package lwt.syntax -package mirage-types -package nocrypto -syntax camlp4o -package sexplib.syntax -package x509 -I mirage -I lib -o mirage/tls_mirage.cmo mirage/tls_mirage.ml
+[31m# [mFile "mirage/tls_mirage.ml", line 62, characters 44-46:
+[31m# [mError: This expression has type Io_page.t
+[31m# [m       but an expression was expected of type
+[31m# [m         Cstruct.buffer =
+[31m# [m           (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout)
+[31m# [m           Bigarray.Array1.t
+[31m# [mCommand exited with code 2.
 [31m### stderr ###
-[m[31m# [m...[truncated]
-[31m# [m/home/opam/.opam/system/build/ctypes.0.3.4/src/ctypes/type_info_stubs.c: In function 'ctypes_string_of_prim':
-[31m# [m/home/opam/.opam/system/build/ctypes.0.3.4/src/ctypes/type_info_stubs.c:130:3: warning: format '%ld' expects argument of type 'long int', but argument 4 has type 'int64' [-Wformat=]
-[31m# [m   case Int64_t: len = snprintf(buf, sizeof buf, "%" PRId64, Int64_val(v)); break;
-[31m# [m   ^
-[31m# [m/home/opam/.opam/system/build/ctypes.0.3.4/src/ctypes/type_info_stubs.c:130:3: warning: format '%ld' expects argument of type 'long int', but argument 4 has type 'int64' [-Wformat=]
-[31m# [m/home/opam/.opam/system/build/ctypes.0.3.4/src/ctypes-foreign-base/ffi_call_stubs.c:21:17: fatal error: ffi.h: No such file or directory
-[31m# [m #include <ffi.h>
-[31m# [m                 ^
-[31m# [mcompilation terminated.
-[31m# [mmake: *** [_build/src/ctypes-foreign-base/ffi_call_stubs.o] Error 2
+[m[31m# [mW: Cannot find source file matching module 'tls' in library tls
+[31m# [mE: Failure("Command ''/usr/bin/ocamlbuild' lib/tls.cma lib/tls.cmxa lib/tls.a lib/tls.cmxs lwt/tls-lwt.cma lwt/tls-lwt.cmxa lwt/tls-lwt.a lwt/tls-lwt.cmxs mirage/tls-mirage.cma mirage/tls-mirage.cmxa mirage/tls-mirage.a mirage/tls-mirage.cmxs -tag debug' terminated with error code 10")
 
 
 [36m=-=-[m [01mError report[m [36m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
 These actions have been completed [01msuccessfully[m
  - install   camlp4.4.02.1+system
+ - install   x509.0.2.1
  - install   type_conv.112.01.00
  - install   cppo.1.1.2
  - install   cmdliner.0.9.6
  - install   mirage.2.2.0
  - install   cstruct.1.5.0
+ - install   nocrypto.0.3.0
  - install   ipaddr.2.5.0
  - install   gmp.6.0.0
  - install   io-page.1.3.0
@@ -283,6 +289,7 @@ These actions have been completed [01msuccessfully[m
  - install   ppx_tools.0.99.2
  - install   mirage-types.2.2.0
  - install   ocplib-endian.0.8
+ - install   ctypes.0.3.4
  - install   crunch.1.3.0
  - install   asn1-combinators.0.1.1
  - install   sexplib.112.06.00
@@ -291,10 +298,6 @@ These actions have been completed [01msuccessfully[m
  - install   base-bytes.base
  - install   zarith.1.3
 The following [01mfailed[m
- - install   ctypes.0.3.4
-Due to the errors, the following have been [01mcancelled[m
  - install   tls.0.3.0
- - install   nocrypto.0.3.0
- - install   x509.0.2.1
 
-The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150108075826.export"
+The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150108203332.export"
