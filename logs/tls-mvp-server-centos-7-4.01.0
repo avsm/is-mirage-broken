@@ -30,11 +30,11 @@ Loaded plugins: fastestmirror
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-updates/7/x86_64/primary_d 26% [====            ]  0.0 B/s | 1.7 MB   --:-- ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:00     
+updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 65% [==========      ]  0.0 B/s | 4.3 MB   --:-- ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:00     
 Determining fastest mirrors
- * base: mirrors.chkhosting.com
- * extras: mirror.steadfast.net
- * updates: centos.chi.host-engine.com
+ * base: mirrors.rit.edu
+ * extras: mirror.thelinuxfix.com
+ * updates: mirrors.advancedhosters.com
 Resolving Dependencies
 --> Running transaction check
 ---> Package libffi-devel.x86_64 0:3.0.13-11.el7 will be installed
@@ -171,25 +171,25 @@ Installing crunch.1.3.0.
 Building ctypes.0.3.4:
   make
   make install
-Installing lwt.2.4.7.
 Installing ctypes.0.3.4.
 Building ocplib-endian.0.8:
   ocaml setup.ml -configure --disable-debug --prefix /home/opam/.opam/4.01.0
   ocaml setup.ml -build
   ocaml setup.ml -install
+Installing lwt.2.4.7.
 Building sexplib.111.25.00:
   ./configure --enable-syntax
   make
   make install
 Installing ocplib-endian.0.8.
 Installing sexplib.111.25.00.
-Building ipaddr.2.5.0:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
-  make build
-  make install
 Building cstruct.1.5.0:
   ./configure --prefix /home/opam/.opam/4.01.0 --enable-lwt --enable-camlp4 --disable-async --enable-unix --disable-tests
   make
+  make install
+Building ipaddr.2.5.0:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
+  make build
   make install
 Installing ipaddr.2.5.0.
 Installing cstruct.1.5.0.
@@ -292,4 +292,4 @@ These actions have been completed [01msuccessfully[m
 The following [01mfailed[m
  - install   tls.0.3.0
 
-The former state can be restored with opam switch import "/home/opam/.opam/4.01.0/backup/state-20150109074347.export"
+The former state can be restored with opam switch import "/home/opam/.opam/4.01.0/backup/state-20150109202828.export"

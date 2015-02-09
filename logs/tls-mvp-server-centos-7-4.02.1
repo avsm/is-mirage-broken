@@ -30,10 +30,10 @@ Loaded plugins: fastestmirror
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-updates/7/x86_64/primary_db                                | 6.6 MB   00:00     
+updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 5% [-                ]  0.0 B/s | 347 kB   --:-- ETA updates/7/x86_64/primary_d 30% [====-           ] 2.5 MB/s | 2.0 MB   00:01 ETA updates/7/x86_64/primary_d 71% [===========     ] 2.9 MB/s | 4.7 MB   00:00 ETA updates/7/x86_64/primary_d 96% [=============== ] 3.1 MB/s | 6.4 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:01     
 Determining fastest mirrors
- * base: mirrors.chkhosting.com
- * extras: mirror.steadfast.net
+ * base: centos.corenetworks.net
+ * extras: mirror.unl.edu
  * updates: centos.chi.host-engine.com
 Resolving Dependencies
 --> Running transaction check
@@ -55,7 +55,7 @@ Install  1 Package
 Total download size: 22 k
 Installed size: 27 k
 Downloading packages:
-libffi-devel-3.0.13-11.el7.x86_64.rpm                      |  22 kB   00:00     
+libffi-devel-3.0.13-11.el7 0% [                 ]  0.0 B/s |    0 B   --:-- ETA libffi-devel-3.0.13-11.el7.x86_64.rpm                      |  22 kB   00:00     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -145,13 +145,13 @@ Building gmp.6.0.0:
   ./mirage-install.sh
 Installing ocamlfind.1.5.5.
 Installing base-bytes.base.
+Building cmdliner.0.9.6:
+  ocaml pkg/git.ml
+  ocaml pkg/build.ml native=true native-dynlink=true
 Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/system/build/cppo.1.1.2/
 Building cppo.1.1.2:
   make
   make install-lib
-Building cmdliner.0.9.6:
-  ocaml pkg/git.ml
-  ocaml pkg/build.ml native=true native-dynlink=true
 Installing cmdliner.0.9.6.
 Building ppx_tools.0.99.2:
   make all
@@ -221,11 +221,11 @@ Applying xen_linkopts.patch.
 Building zarith.1.3:
   ./mirage-install.sh
 Installing zarith.1.3.
-Building asn1-combinators.0.1.1:
+Building nocrypto.0.3.0:
   ocaml setup.ml -configure --prefix /home/opam/.opam/system
   ocaml setup.ml -build
   ocaml setup.ml -install
-Building nocrypto.0.3.0:
+Building asn1-combinators.0.1.1:
   ocaml setup.ml -configure --prefix /home/opam/.opam/system
   ocaml setup.ml -build
   ocaml setup.ml -install
@@ -252,9 +252,9 @@ Removing tls.0.3.0.
 [31m#[m [31mpath[m         /home/opam/.opam/system/build/tls.0.3.0
 [31m#[m [31mcompiler[m     system (4.02.1)
 [31m#[m [31mexit-code[m    1
-[31m#[m [31menv-file[m     /home/opam/.opam/system/build/tls.0.3.0/tls-24408-d682c6.env
-[31m#[m [31mstdout-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-24408-d682c6.out
-[31m#[m [31mstderr-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-24408-d682c6.err
+[31m#[m [31menv-file[m     /home/opam/.opam/system/build/tls.0.3.0/tls-24405-d682c6.env
+[31m#[m [31mstdout-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-24405-d682c6.out
+[31m#[m [31mstderr-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-24405-d682c6.err
 [31m### stdout ###
 [m[31m# [m...[truncated]
 [31m# [m/home/opam/.opam/system/bin/ocamlfind ocamldep -syntax camlp4o -package cstruct.syntax -package io-page -package ipaddr -package lwt -syntax camlp4o -package lwt.syntax -package mirage-types -package nocrypto -syntax camlp4o -package sexplib.syntax -package x509 -modules mirage/tls_mirage.ml > mirage/tls_mirage.ml.depends
@@ -300,4 +300,4 @@ These actions have been completed [01msuccessfully[m
 The following [01mfailed[m
  - install   tls.0.3.0
 
-The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150109075318.export"
+The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150109203647.export"
