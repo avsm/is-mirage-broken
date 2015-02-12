@@ -24,11 +24,11 @@ Repodata is over 2 weeks old. Install yum-cron? Or run: yum makecache fast
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 56% [=========       ]  0.0 B/s | 3.7 MB   --:-- ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:00     
+updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |  56 kB   --:-- ETA updates/7/x86_64/primary_d 2% [                 ] 174 kB/s | 173 kB   00:37 ETA updates/7/x86_64/primary_d 5% [=                ] 208 kB/s | 399 kB   00:30 ETA updates/7/x86_64/primary_d 10% [=-              ] 258 kB/s | 719 kB   00:23 ETA updates/7/x86_64/primary_d 16% [==-             ] 320 kB/s | 1.1 MB   00:17 ETA updates/7/x86_64/primary_d 21% [===-            ] 375 kB/s | 1.5 MB   00:14 ETA updates/7/x86_64/primary_d 23% [===-            ] 375 kB/s | 1.6 MB   00:13 ETA updates/7/x86_64/primary_d 26% [====            ] 384 kB/s | 1.7 MB   00:12 ETA updates/7/x86_64/primary_d 30% [====-           ] 412 kB/s | 2.0 MB   00:11 ETA updates/7/x86_64/primary_d 35% [=====-          ] 457 kB/s | 2.3 MB   00:09 ETA updates/7/x86_64/primary_d 42% [======-         ] 516 kB/s | 2.8 MB   00:07 ETA updates/7/x86_64/primary_d 48% [=======-        ] 572 kB/s | 3.2 MB   00:06 ETA updates/7/x86_64/primary_d 55% [========-       ] 632 kB/s | 3.7 MB   00:04 ETA updates/7/x86_64/primary_d 62% [==========      ] 686 kB/s | 4.1 MB   00:03 ETA updates/7/x86_64/primary_d 69% [===========     ] 738 kB/s | 4.6 MB   00:02 ETA updates/7/x86_64/primary_d 76% [============    ] 784 kB/s | 5.1 MB   00:01 ETA updates/7/x86_64/primary_d 84% [=============   ] 832 kB/s | 5.6 MB   00:01 ETA updates/7/x86_64/primary_d 91% [==============- ] 871 kB/s | 6.0 MB   00:00 ETA updates/7/x86_64/primary_d 98% [===============-] 913 kB/s | 6.5 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:06     
 Determining fastest mirrors
- * base: centos.expedientevirtual.com
- * extras: mirror.sanctuaryhost.com
- * updates: mirrors.chkhosting.com
+ * base: mirrors.gigenet.com
+ * extras: mirror.raystedman.net
+ * updates: mirror.steadfast.net
 Resolving Dependencies
 --> Running transaction check
 ---> Package openssl-devel.x86_64 1:1.0.1e-34.el7_0.7 will be installed
@@ -79,16 +79,16 @@ Total download size: 2.6 M
 Installed size: 5.7 M
 Downloading packages:
 (2/9): krb5-devel-1.11.3-4 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/9): keyutils-libs-devel-1.5.8-3.el7.x86_64.rpm          |  37 kB   00:00     
-(2/9): krb5-devel-1.11.3-49.el7.x86_64.rpm                 | 611 kB   00:00     
+(2/9): libverto-devel-0.2.5-4.el7.x86_64.rpm               |  12 kB   00:00     
 (3/9): libcom_err-devel-1.42.9-4.el7.x86_64.rpm            |  30 kB   00:00     
-(4/9): libselinux-devel-2.2.2-6.el7.x86_64.rpm             | 174 kB   00:00     
-(5/9): libsepol-devel-2.1.9-3.el7.x86_64.rpm               |  71 kB   00:00     
-(6/9): libverto-devel-0.2.5-4.el7.x86_64.rpm               |  12 kB   00:00     
-(7/9): zlib-devel-1.2.7-13.el7.x86_64.rpm                  |  49 kB   00:00     
-(8/9): pcre-devel-8.32-12.el7.x86_64.rpm                   | 477 kB   00:00     
-(9/9): openssl-devel-1.0.1 54% [========-       ]  0.0 B/s | 1.4 MB   --:-- ETA (9/9): openssl-devel-1.0.1e-34.el7_0.7.x86_64.rpm          | 1.2 MB   00:00     
+(4/9): krb5-devel-1.11.3-49.el7.x86_64.rpm                 | 611 kB   00:00     
+(5/9): pcre-devel-8.32-12.el7.x86_64.rpm                   | 477 kB   00:00     
+(6/9): zlib-devel-1.2.7-13.el7.x86_64.rpm                  |  49 kB   00:00     
+(7/9): libselinux-devel-2.2.2-6.el7.x86_64.rpm             | 174 kB   00:00     
+(9/9): openssl-devel-1.0.1 52% [========        ]  0.0 B/s | 1.4 MB   --:-- ETA (8/9): libsepol-devel-2.1.9-3.el7.x86_64.rpm               |  71 kB   00:00     
+(9/9): openssl-devel-1.0.1 56% [=========       ] 155 kB/s | 1.5 MB   00:07 ETA (9/9): openssl-devel-1.0.1 61% [=========-      ] 166 kB/s | 1.6 MB   00:06 ETA (9/9): openssl-devel-1.0.1 68% [==========-     ] 196 kB/s | 1.8 MB   00:04 ETA (9/9): openssl-devel-1.0.1 79% [============-   ] 243 kB/s | 2.1 MB   00:02 ETA (9/9): openssl-devel-1.0.1 98% [===============-] 325 kB/s | 2.6 MB   00:00 ETA (9/9): openssl-devel-1.0.1e-34.el7_0.7.x86_64.rpm          | 1.2 MB   00:02     
 --------------------------------------------------------------------------------
-Total                                              1.6 MB/s | 2.6 MB  00:01     
+Total                                              1.0 MB/s | 2.6 MB  00:02     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -257,8 +257,8 @@ Building cohttp.0.15.1:
   make PREFIX=/home/opam/.opam/4.01.0 install
 Installing cohttp.0.15.1.
 ++ opam list -i cohttp
-++ awk '{print $2}'
 ++ grep -v '#'
+++ awk '{print $2}'
 + cohttpver=0.15.1
 ++ opam list --depends-on cohttp.0.15.1 --rec -s
 + deps='bt cowabloga facebook-sdk github imaplet-lwt iocaml irmin merge-queues merge-ropes message-switch mirage-http mirage-http-unix mirage-http-xen mirage-www opam-publish opam-sync-github-prs opium slacko sociaml-facebook-api sociaml-oauth-client sociaml-tumblr-api vhd-tool websocket xapi xapi-forkexecd xapi-idl xapi-libs-transitional xapi-netdev xapi-networkd xapi-rrd-transport xapi-rrdd xapi-rrdd-plugin xapi-squeezed xapi-tapctl xapi-xenops xapi-xenops-cli xapi-xenopsd xe xe-unikernel-upload xen-api-client '
