@@ -31,11 +31,11 @@ Repodata is over 2 weeks old. Install yum-cron? Or run: yum makecache fast
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 9% [=-               ]  0.0 B/s | 635 kB   --:-- ETA updates/7/x86_64/primary_d 29% [====-           ] 1.6 MB/s | 2.0 MB   00:02 ETA updates/7/x86_64/primary_d 34% [=====           ] 1.5 MB/s | 2.3 MB   00:02 ETA updates/7/x86_64/primary_d 40% [======          ] 1.5 MB/s | 2.7 MB   00:02 ETA updates/7/x86_64/primary_d 47% [=======-        ] 1.5 MB/s | 3.2 MB   00:02 ETA updates/7/x86_64/primary_d 53% [========-       ] 1.5 MB/s | 3.5 MB   00:02 ETA updates/7/x86_64/primary_d 60% [=========-      ] 1.5 MB/s | 4.0 MB   00:01 ETA updates/7/x86_64/primary_d 66% [==========-     ] 1.5 MB/s | 4.4 MB   00:01 ETA updates/7/x86_64/primary_d 74% [===========-    ] 1.5 MB/s | 4.9 MB   00:01 ETA updates/7/x86_64/primary_d 82% [=============   ] 1.5 MB/s | 5.4 MB   00:00 ETA updates/7/x86_64/primary_d 86% [=============-  ] 1.4 MB/s | 5.7 MB   00:00 ETA updates/7/x86_64/primary_d 93% [==============- ] 1.4 MB/s | 6.2 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:04     
+updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 2% [                 ]  0.0 B/s | 191 kB   --:-- ETA updates/7/x86_64/primary_d 9% [=-               ] 614 kB/s | 629 kB   00:09 ETA updates/7/x86_64/primary_d 21% [===             ] 736 kB/s | 1.4 MB   00:07 ETA updates/7/x86_64/primary_d 28% [====-           ] 780 kB/s | 1.9 MB   00:06 ETA updates/7/x86_64/primary_d 39% [======          ] 874 kB/s | 2.6 MB   00:04 ETA updates/7/x86_64/primary_d 49% [=======-        ] 952 kB/s | 3.3 MB   00:03 ETA updates/7/x86_64/primary_d 58% [=========       ] 1.0 MB/s | 3.8 MB   00:02 ETA updates/7/x86_64/primary_d 68% [==========-     ] 1.1 MB/s | 4.5 MB   00:01 ETA updates/7/x86_64/primary_d 77% [============    ] 1.1 MB/s | 5.1 MB   00:01 ETA updates/7/x86_64/primary_d 88% [==============  ] 1.2 MB/s | 5.9 MB   00:00 ETA updates/7/x86_64/primary_d 98% [===============-] 1.2 MB/s | 6.5 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:04     
 Determining fastest mirrors
- * base: mirrors.chkhosting.com
- * extras: bay.uchicago.edu
- * updates: mirror.steadfast.net
+ * base: mirror.sanctuaryhost.com
+ * extras: ftpmirror.your.org
+ * updates: mirror.compevo.com
 Resolving Dependencies
 --> Running transaction check
 ---> Package libffi-devel.x86_64 0:3.0.13-11.el7 will be installed
@@ -56,7 +56,7 @@ Install  1 Package
 Total download size: 22 k
 Installed size: 27 k
 Downloading packages:
-libffi-devel-3.0.13-11.el7.x86_64.rpm                      |  22 kB   00:00     
+libffi-devel-3.0.13-11.el7 0% [                 ]  0.0 B/s |    0 B   --:-- ETA libffi-devel-3.0.13-11.el7.x86_64.rpm                      |  22 kB   00:00     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -147,12 +147,12 @@ Building gmp.6.0.0:
 Installing ocamlfind.1.5.5.
 Installing base-bytes.base.
 Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/system/build/cppo.1.1.2/
-Building cmdliner.0.9.6:
-  ocaml pkg/git.ml
-  ocaml pkg/build.ml native=true native-dynlink=true
 Building cppo.1.1.2:
   make
   make install-lib
+Building cmdliner.0.9.6:
+  ocaml pkg/git.ml
+  ocaml pkg/build.ml native=true native-dynlink=true
 Installing cmdliner.0.9.6.
 Building ppx_tools.0.99.2:
   make all
@@ -166,12 +166,12 @@ Installing ppx_tools.0.99.2.
 Building type_conv.112.01.00:
   make
   make install
-Installing re.1.2.2.
 Installing type_conv.112.01.00.
 Building crunch.1.3.0:
   ocaml setup.ml -configure --prefix /home/opam/.opam/system
   ocaml setup.ml -build
   ocaml setup.ml -install
+Installing re.1.2.2.
 Building ctypes.0.3.4:
   make
   make install
@@ -253,9 +253,9 @@ Removing tls.0.3.0.
 [31m#[m [31mpath[m         /home/opam/.opam/system/build/tls.0.3.0
 [31m#[m [31mcompiler[m     system (4.02.1)
 [31m#[m [31mexit-code[m    1
-[31m#[m [31menv-file[m     /home/opam/.opam/system/build/tls.0.3.0/tls-24409-d682c6.env
-[31m#[m [31mstdout-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-24409-d682c6.out
-[31m#[m [31mstderr-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-24409-d682c6.err
+[31m#[m [31menv-file[m     /home/opam/.opam/system/build/tls.0.3.0/tls-24405-d682c6.env
+[31m#[m [31mstdout-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-24405-d682c6.out
+[31m#[m [31mstderr-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-24405-d682c6.err
 [31m### stdout ###
 [m[31m# [m...[truncated]
 [31m# [m/home/opam/.opam/system/bin/ocamlfind ocamldep -syntax camlp4o -package cstruct.syntax -package io-page -package ipaddr -package lwt -syntax camlp4o -package lwt.syntax -package mirage-types -package nocrypto -syntax camlp4o -package sexplib.syntax -package x509 -modules mirage/tls_mirage.ml > mirage/tls_mirage.ml.depends
@@ -301,4 +301,4 @@ These actions have been completed [01msuccessfully[m
 The following [01mfailed[m
  - install   tls.0.3.0
 
-The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150113074821.export"
+The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150113203928.export"
