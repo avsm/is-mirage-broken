@@ -24,11 +24,11 @@ Repodata is over 2 weeks old. Install yum-cron? Or run: yum makecache fast
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 6% [=                ]  0.0 B/s | 430 kB   --:-- ETA updates/7/x86_64/primary_d 26% [====            ] 2.0 MB/s | 1.7 MB   00:02 ETA updates/7/x86_64/primary_d 62% [==========      ] 2.3 MB/s | 4.1 MB   00:01 ETA updates/7/x86_64/primary_d 84% [=============-  ] 2.5 MB/s | 5.6 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:01     
+updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 15% [==              ]  0.0 B/s | 1.0 MB   --:-- ETA updates/7/x86_64/primary_d 44% [=======         ] 3.0 MB/s | 2.9 MB   00:01 ETA updates/7/x86_64/primary_d 62% [=========-      ] 3.0 MB/s | 4.1 MB   00:00 ETA updates/7/x86_64/primary_d 86% [=============-  ] 3.1 MB/s | 5.7 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:02     
 Determining fastest mirrors
  * base: mirror.wiredtree.com
- * extras: centos.chi.host-engine.com
- * updates: centos.corenetworks.net
+ * extras: mirror.team-cymru.org
+ * updates: mirrors.chkhosting.com
 Resolving Dependencies
 --> Running transaction check
 ---> Package openssl-devel.x86_64 1:1.0.1e-34.el7_0.7 will be installed
@@ -81,14 +81,14 @@ Downloading packages:
 (2/9): krb5-devel-1.11.3-4 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (1/9): keyutils-libs-devel-1.5.8-3.el7.x86_64.rpm          |  37 kB   00:00     
 (2/9): libverto-devel-0.2.5-4.el7.x86_64.rpm               |  12 kB   00:00     
 (3/9): libcom_err-devel-1.42.9-4.el7.x86_64.rpm            |  30 kB   00:00     
-(4/9): pcre-devel-8.32-12.el7.x86_64.rpm                   | 477 kB   00:00     
-(5/9): zlib-devel-1.2.7-13.el7.x86_64.rpm                  |  49 kB   00:00     
-(6/9): libsepol-devel-2.1.9-3.el7.x86_64.rpm               |  71 kB   00:00     
-(7/9): krb5-devel-1.11.3-49.el7.x86_64.rpm                 | 611 kB   00:00     
-(9/9): openssl-devel-1.0.1 52% [========        ]  0.0 B/s | 1.4 MB   --:-- ETA (8/9): libselinux-devel-2.2.2-6.el7.x86_64.rpm             | 174 kB   00:01     
-(9/9): openssl-devel-1.0.1 73% [===========-    ] 654 kB/s | 1.9 MB   00:01 ETA (9/9): openssl-devel-1.0.1e-34.el7_0.7.x86_64.rpm          | 1.2 MB   00:00     
+(4/9): krb5-devel-1.11.3-49.el7.x86_64.rpm                 | 611 kB   00:00     
+(5/9): pcre-devel-8.32-12.el7.x86_64.rpm                   | 477 kB   00:00     
+(6/9): libselinux-devel-2.2.2-6.el7.x86_64.rpm             | 174 kB   00:00     
+(7/9): zlib-devel-1.2.7-13.el7.x86_64.rpm                  |  49 kB   00:00     
+(8/9): libsepol-devel-2.1.9-3.el7.x86_64.rpm               |  71 kB   00:00     
+(9/9): openssl-devel-1.0.1 54% [========-       ]  0.0 B/s | 1.4 MB   --:-- ETA (9/9): openssl-devel-1.0.1 79% [============-   ] 774 kB/s | 2.1 MB   00:00 ETA (9/9): openssl-devel-1.0.1e-34.el7_0.7.x86_64.rpm          | 1.2 MB   00:00     
 --------------------------------------------------------------------------------
-Total                                              1.5 MB/s | 2.6 MB  00:01     
+Total                                              1.6 MB/s | 2.6 MB  00:01     
 Running transaction check
 Running transaction test
 Transaction test succeeded
