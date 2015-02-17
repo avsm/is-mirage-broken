@@ -27,15 +27,15 @@ Debian depexts: libffi-dev m4
 + sudo apt-get update -y
 0% [Working]            Get:1 http://security.debian.org stable/updates Release.gpg [836 B]
             100% [Connecting to http.debian.net (46.4.205.44)] [1 Release.gpg 836 B/836 B 1                                                                               100% [Connecting to http.debian.net (46.4.205.44)]                                                  Get:2 http://security.debian.org stable/updates Release [102 kB]
-                                                  15% [Connecting to http.debian.net (46.4.205.44)] [2 Release 14.1 kB/102 kB 14%                                                                               100% [Waiting for headers]                          100% [2 Release gpgv 102 kB] [Waiting for headers]                                                  100% [2 Release gpgv 102 kB]                            100% [Waiting for headers] [Waiting for headers]                                                Get:3 http://http.debian.net stable Release.gpg [1655 B]
-                                                100% [Waiting for headers]                          Get:4 http://security.debian.org stable/updates/main amd64 Packages [302 kB]
-                          32% [Waiting for headers] [4 Packages 26.9 kB/302 kB 9%]                                                        34% [4 Packages 34.4 kB/302 kB 11%]                                   Get:5 http://http.debian.net stable-updates Release.gpg [836 B]
-                                   44% [5 Release.gpg 836 B/836 B 100%] [Waiting for headers] [4 Packages 73.5 kB/                                                                               44% [Waiting for headers] [4 Packages 73.5 kB/302 kB 24%]                                                         90% [4 Packages 260 kB/302 kB 86%]                                  100% [Waiting for headers] [Waiting for headers]                                                Get:6 http://http.debian.net stable Release [168 kB]
-                                                76% [6 Release 30.4 kB/168 kB 18%] [Waiting for headers]                                                        76% [4 Packages 291 kB] [6 Release 30.4 kB/168 kB 18%] [Waiting for headers]                                                                            84% [6 Release 73.8 kB/168 kB 44%] [Waiting for headers]                                                        84% [6 Release 73.8 kB/168 kB 44%]                                  100% [Working]              100% [Waiting for headers] [6 Release gpgv 168 kB]                                                  100% [Waiting for headers]                          Get:7 http://http.debian.net stable-updates Release [124 kB]
-                          86% [7 Release 24.9 kB/124 kB 20%]                                  100% [Waiting for headers]                          100% [7 Release gpgv 124 kB] [Waiting for headers]                                                  100% [Waiting for headers]                          100% [Working]              Get:8 http://http.debian.net stable/main amd64 Packages [7625 kB]
-              9% [8 Packages 24.6 kB/7625 kB 0%] [Waiting for headers]                                                        12% [8 Packages 337 kB/7625 kB 4%]                                  51% [8 Packages 3550 kB/7625 kB 47%]                                    100% [Working]              100% [8 Packages 7625 kB]                         Get:9 http://http.debian.net stable-updates/main amd64 Packages [4104 B]
-                         100% [8 Packages 7625 kB] [9 Packages 4104 B/4104 B 100%]                                                         100% [8 Packages 7625 kB]100% [8 Packages 7625 kB]100% [8 Packages 7625 kB]                         100% [Working]              100% [9 Packages 3329 B]                        100% [Working]              Fetched 8329 kB in 2s (2876 kB/s)
-Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 57%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+                                                  13% [Connecting to http.debian.net (46.4.205.44)] [2 Release 12.3 kB/102 kB 12%                                                                               100% [Waiting for headers]                          100% [2 Release gpgv 102 kB] [Waiting for headers]                                                  100% [Waiting for headers]100% [Waiting for headers]                          Get:3 http://security.debian.org stable/updates/main amd64 Packages [302 kB]
+                          35% [Waiting for headers] [3 Packages 40.2 kB/302 kB 13%]                                                         100% [Waiting for headers] [Waiting for headers]                                                100% [Waiting for headers]                          100% [3 Packages 291 kB] [Waiting for headers]                                              100% [Waiting for headers]                          Get:4 http://http.debian.net stable Release.gpg [1655 B]
+                          100% [4 Release.gpg 1072 B/1655 B 65%]                                      100% [Working]              Get:5 http://http.debian.net stable-updates Release.gpg [836 B]
+              100% [5 Release.gpg 836 B/836 B 100%] [Waiting for headers]                                                           100% [Waiting for headers]                          100% [Working]              Get:6 http://http.debian.net stable Release [168 kB]
+              71% [6 Release 3805 B/168 kB 2%] [Waiting for headers]                                                      73% [6 Release 12.0 kB/168 kB 7%]                                 77% [6 Release 33.9 kB/168 kB 20%]79% [6 Release 48.9 kB/168 kB 29%]79% [6 Release 48.9 kB/168 kB 29%]79% [6 Release 48.9 kB/168 kB 29%]79% [6 Release 48.9 kB/168 kB 29%]79% [6 Release 48.9 kB/168 kB 29%]79% [6 Release 48.9 kB/168 kB 29%]79% [6 Release 48.9 kB/168 kB 29%]79% [6 Release 48.9 kB/168 kB 29%]79% [6 Release 48.9 kB/168 kB 29%]                                  79% [6 Release 48.9 kB/168 kB 29%]                                 72.1 kB/s 1s79% [6 Release 48.9 kB/168 kB 29%]                                 72.1 kB/s 1s79% [6 Release 48.9 kB/168 kB 29%]                                 72.1 kB/s 1s79% [6 Release 48.9 kB/168 kB 29%]                                 72.1 kB/s 1s79% [6 Release 48.9 kB/168 kB 29%]                                 72.1 kB/s 1s79% [6 Release 48.9 kB/168 kB 29%]                                 72.1 kB/s 1s79% [6 Release 48.9 kB/168 kB 29%]                                 72.1 kB/s 1s79% [6 Release 48.9 kB/168 kB 29%]                                 72.1 kB/s 1s79% [6 Release 48.9 kB/168 kB 29%]                                 72.1 kB/s 1s79% [6 Release 48.9 kB/168 kB 29%]                                 72.1 kB/s 1s79% [6 Release 48.9 kB/168 kB 29%]                                 72.1 kB/s 1s79% [6 Release 48.9 kB/168 kB 29%]                                 72.1 kB/s 1s                                                                               79% [6 Release 48.9 kB/168 kB 29%]79% [6 Release 48.9 kB/168 kB 29%]79% [6 Release 48.9 kB/168 kB 29%]79% [6 Release 48.9 kB/168 kB 29%]79% [6 Release 48.9 kB/168 kB 29%]79% [6 Release 48.9 kB/168 kB 29%]79% [6 Release 48.9 kB/168 kB 29%]79% [6 Release 48.9 kB/168 kB 29%]79% [6 Release 48.9 kB/168 kB 29%]84% [6 Release 73.6 kB/168 kB 44%]84% [6 Release 73.6 kB/168 kB 44%]84% [6 Release 76.3 kB/168 kB 45%]                                  87% [6 Release 92.7 kB/168 kB 55%]                                 7281 B/s 10s89% [6 Release 106 kB/168 kB 63%]                                   7281 B/s 8s89% [6 Release 106 kB/168 kB 63%]                                   7281 B/s 8s89% [6 Release 106 kB/168 kB 63%]                                   7281 B/s 8s89% [6 Release 106 kB/168 kB 63%]                                   7281 B/s 8s91% [6 Release 116 kB/168 kB 69%]                                   7281 B/s 7s94% [6 Release 137 kB/168 kB 81%]                                   7281 B/s 4s94% [6 Release 137 kB/168 kB 81%]                                   7281 B/s 4s94% [6 Release 137 kB/168 kB 81%]                                   7281 B/s 4s94% [6 Release 137 kB/168 kB 81%]                                   7281 B/s 4s94% [6 Release 137 kB/168 kB 81%]                                   7281 B/s 4s94% [6 Release 137 kB/168 kB 81%]                                   7281 B/s 4s94% [6 Release 137 kB/168 kB 81%]                                   7281 B/s 4s94% [6 Release 137 kB/168 kB 81%]                                   7281 B/s 4s94% [6 Release 137 kB/168 kB 81%]                                   7281 B/s 4s94% [6 Release 137 kB/168 kB 81%]                                   7281 B/s 4s94% [6 Release 137 kB/168 kB 81%]                                   7281 B/s 4s94% [6 Release 137 kB/168 kB 81%]                                   7281 B/s 4s94% [6 Release 137 kB/168 kB 81%]                                   7281 B/s 4s94% [6 Release 137 kB/168 kB 81%]                                   7281 B/s 4s94% [6 Release 137 kB/168 kB 81%]                                   7281 B/s 4s97% [6 Release 152 kB/168 kB 90%]                                   7281 B/s 2s99% [6 Release 160 kB/168 kB 95%]                                   7281 B/s 1s99% [6 Release 160 kB/168 kB 95%]                                   7281 B/s 1s99% [6 Release 160 kB/168 kB 95%]                                   3868 B/s 2s100% [6 Release 168 kB/168 kB 100%]                                 3868 B/s 0s100% [6 Release 168 kB/168 kB 100%]                                 3868 B/s 0s100% [Working]                                                      3868 B/s 0s100% [Waiting for headers] [6 Release gpgv 168 kB]                  3868 B/s 0s                                                                               Get:7 http://http.debian.net stable-updates Release [124 kB]
+82% [7 Release 1069 B/124 kB 1%] [6 Release gpgv 168 kB]           3868 B/s 31s82% [7 Release 1069 B/124 kB 1%]                                   3868 B/s 31s83% [7 Release 7909 B/124 kB 6%]                                   3868 B/s 29s85% [7 Release 18.9 kB/124 kB 15%]                                 3868 B/s 27s86% [7 Release 28.4 kB/124 kB 23%]                                 3868 B/s 24s88% [7 Release 38.0 kB/124 kB 31%]                                 3868 B/s 22s88% [7 Release 38.0 kB/124 kB 31%]                                 3868 B/s 22s88% [7 Release 38.0 kB/124 kB 31%]                                 3868 B/s 22s88% [7 Release 38.0 kB/124 kB 31%]                                 3868 B/s 22s88% [7 Release 38.0 kB/124 kB 31%]                                 3868 B/s 22s88% [7 Release 38.0 kB/124 kB 31%]                                 3868 B/s 22s88% [7 Release 38.0 kB/124 kB 31%]                                 3868 B/s 22s88% [7 Release 38.0 kB/124 kB 31%]                                 7376 B/s 11s88% [7 Release 38.0 kB/124 kB 31%]                                 7376 B/s 11s88% [7 Release 38.0 kB/124 kB 31%]                                 7376 B/s 11s88% [7 Release 38.0 kB/124 kB 31%]                                 7376 B/s 11s88% [7 Release 38.0 kB/124 kB 31%]                                 7376 B/s 11s88% [7 Release 38.0 kB/124 kB 31%]                                 7376 B/s 11s88% [7 Release 38.0 kB/124 kB 31%]                                 7376 B/s 11s88% [7 Release 40.7 kB/124 kB 33%]                                 7376 B/s 11s91% [7 Release 58.5 kB/124 kB 47%]                                  7376 B/s 8s91% [7 Release 61.3 kB/124 kB 50%]                                  7376 B/s 8s91% [7 Release 61.3 kB/124 kB 50%]                                  7376 B/s 8s91% [7 Release 61.3 kB/124 kB 50%]                                  7376 B/s 8s91% [7 Release 61.3 kB/124 kB 50%]                                 3868 B/s 16s94% [7 Release 81.8 kB/124 kB 66%]                                 3868 B/s 10s95% [7 Release 88.6 kB/124 kB 72%]                                  3868 B/s 9s96% [7 Release 96.8 kB/124 kB 78%]                                  3868 B/s 6s96% [7 Release 96.8 kB/124 kB 78%]                                  3868 B/s 6s96% [7 Release 96.8 kB/124 kB 78%]                                  3868 B/s 6s97% [7 Release 105 kB/124 kB 85%]                                   3868 B/s 4s100% [Working]                                                      3868 B/s 0s100% [Waiting for headers] [7 Release gpgv 124 kB]                  3868 B/s 0s100% [Waiting for headers]                                          3868 B/s 0s                                                                               Get:8 http://http.debian.net stable/main amd64 Packages [7625 kB]
+8% [8 Packages 6531 B/7625 kB 0%] [Connecting to http.debian.net (46.4.205.44)]9% [8 Packages 9267 B/7625 kB 0%]                            3868 B/s 32min 48s9% [8 Packages 27.1 kB/7625 kB 0%]                           3868 B/s 32min 44s9% [8 Packages 35.3 kB/7625 kB 0%]                           3868 B/s 32min 42s9% [8 Packages 42.1 kB/7625 kB 1%]                           3868 B/s 32min 40s9% [8 Packages 55.8 kB/7625 kB 1%]                           3868 B/s 32min 36s9% [8 Packages 68.1 kB/7625 kB 1%]                            20.9 kB/s 6min 0s9% [8 Packages 79.0 kB/7625 kB 1%]                            20.9 kB/s 6min 0s10% [8 Packages 102 kB/7625 kB 1%]                           20.9 kB/s 5min 59s10% [8 Packages 121 kB/7625 kB 2%]                           20.9 kB/s 5min 58s10% [8 Packages 134 kB/7625 kB 2%]                           20.9 kB/s 5min 57s10% [8 Packages 141 kB/7625 kB 2%]                           20.9 kB/s 5min 57s10% [8 Packages 150 kB/7625 kB 2%]                           20.9 kB/s 5min 56s10% [8 Packages 156 kB/7625 kB 2%]                           20.9 kB/s 5min 56s10% [8 Packages 160 kB/7625 kB 2%]                           20.9 kB/s 5min 56s10% [8 Packages 173 kB/7625 kB 2%]                           20.9 kB/s 5min 55s11% [8 Packages 197 kB/7625 kB 3%]                           20.9 kB/s 5min 54s11% [8 Packages 204 kB/7625 kB 3%]                           20.9 kB/s 5min 54s11% [8 Packages 225 kB/7625 kB 3%]                           26.2 kB/s 4min 42s11% [8 Packages 231 kB/7625 kB 3%]                           26.2 kB/s 4min 42s11% [8 Packages 250 kB/7625 kB 3%]                           26.2 kB/s 4min 41s11% [8 Packages 256 kB/7625 kB 3%]                           26.2 kB/s 4min 41s12% [8 Packages 280 kB/7625 kB 4%]                           26.2 kB/s 4min 40s12% [8 Packages 292 kB/7625 kB 4%]                           26.2 kB/s 4min 40s12% [8 Packages 310 kB/7625 kB 4%]                           26.2 kB/s 4min 39s12% [8 Packages 323 kB/7625 kB 4%]                           26.2 kB/s 4min 39s12% [8 Packages 323 kB/7625 kB 4%]                           26.2 kB/s 4min 39s12% [8 Packages 339 kB/7625 kB 4%]                           26.2 kB/s 4min 38s13% [8 Packages 398 kB/7625 kB 5%]                           26.2 kB/s 4min 36s15% [8 Packages 520 kB/7625 kB 7%]                           26.2 kB/s 4min 31s17% [8 Packages 695 kB/7625 kB 9%]                           78.1 kB/s 1min 28s20% [8 Packages 926 kB/7625 kB 12%]                          78.1 kB/s 1min 25s23% [8 Packages 1191 kB/7625 kB 16%]                         78.1 kB/s 1min 22s26% [8 Packages 1491 kB/7625 kB 20%]                         78.1 kB/s 1min 18s30% [8 Packages 1790 kB/7625 kB 23%]                         78.1 kB/s 1min 14s35% [8 Packages 2182 kB/7625 kB 29%]                          78.1 kB/s 1min 9s41% [8 Packages 2726 kB/7625 kB 36%]                          78.1 kB/s 1min 2s50% [8 Packages 3487 kB/7625 kB 46%]                              78.1 kB/s 53s62% [8 Packages 4459 kB/7625 kB 58%]                              78.1 kB/s 40s77% [8 Packages 5745 kB/7625 kB 75%]                              78.1 kB/s 24s99% [8 Packages 7502 kB/7625 kB 98%]                               78.1 kB/s 1s100% [Working]                                                     78.1 kB/s 0s100% [8 Packages 7625 kB]                                          78.1 kB/s 0s                                                                               Get:9 http://http.debian.net stable-updates/main amd64 Packages [4104 B]
+100% [8 Packages 7625 kB] [9 Packages 0 B/4104 B 0%]               78.1 kB/s 0s100% [8 Packages 7625 kB]                                          78.1 kB/s 0s100% [8 Packages 7625 kB]                                          78.1 kB/s 0s100% [8 Packages 7625 kB]                                          1140 kB/s 0s100% [Working]                                                     1140 kB/s 0s100% [9 Packages 3329 B]                                           1140 kB/s 0s100% [Working]                                                     1140 kB/s 0s                                                                               Fetched 8329 kB in 1min 7s (124 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 29%Reading package lists... 60%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
 + sudo apt-get install -qq -y build-essential m4
 + sudo apt-get install -qq -y libffi-dev m4
 debconf: delaying package configuration, since apt-utils is not installed
@@ -97,174 +97,6 @@ The following actions will be performed:
 [[32mtype_conv.111.13.00[m] Downloading https://ocaml.janestreet.com/ocaml-core/111.13.00/individual/type_conv-111.13.00.tar.gz
 [[32mx509.0.2.1[m] Downloading https://github.com/mirleft/ocaml-x509/archive/0.2.1.tar.gz
 [[32mzarith.1.3[m] Downloading https://forge.ocamlcore.org/frs/download.php/1471/zarith-1.3.tgz
+[31m[ERROR][m http://download.camlcity.org/download/findlib-1.5.5.tar.gz is not available
+[31m[ERROR][m Could not download archives of ocamlfind.1.5.5
 
-[36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
-Installing camlp4.4.01.0.
-Copying ~/.opam/repo/default/packages/ocamlfind/ocamlfind.1.5.5/files/ocamlfind.install to ~/.opam/4.01.0/build/ocamlfind.1.5.5/
-Building ocamlfind.1.5.5:
-  ./configure -bindir /home/opam/.opam/4.01.0/bin -sitelib /home/opam/.opam/4.01.0/lib -mandir /home/opam/.opam/4.01.0/man -config /home/opam/.opam/4.01.0/lib/findlib.conf
-  make all
-  make opt
-  make install
-Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/mirage-install.sh to ~/.opam/4.01.0/build/gmp.6.0.0/
-Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/mirage-build.sh to ~/.opam/4.01.0/build/gmp.6.0.0/
-Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/gmp.pc to ~/.opam/4.01.0/build/gmp.6.0.0/
-Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/gmp-6a.diff to ~/.opam/4.01.0/build/gmp.6.0.0/
-Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/META to ~/.opam/4.01.0/build/gmp.6.0.0/
-Applying gmp-6a.diff.
-Building gmp.6.0.0:
-  ./mirage-build.sh
-  ./mirage-install.sh
-Installing ocamlfind.1.5.5.
-Installing base-bytes.legacy.
-Building cmdliner.0.9.6:
-  ocaml pkg/git.ml
-  ocaml pkg/build.ml native=true native-dynlink=true
-Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/4.01.0/build/cppo.1.1.2/
-Building cppo.1.1.2:
-  make
-  make install-lib
-Installing cmdliner.0.9.6.
-Installing cppo.1.1.2.
-Building lwt.2.4.5:
-  ./configure --disable-libev --disable-react --disable-ssl --enable-unix --enable-extra --enable-preemptive --disable-glib
-  make build
-  make install
-Building re.1.2.2:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing re.1.2.2.
-Building type_conv.111.13.00:
-  make
-  make install
-Installing type_conv.111.13.00.
-Building crunch.1.3.0:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing crunch.1.3.0.
-Building ctypes.0.3.4:
-  make
-  make install
-Installing ctypes.0.3.4.
-Building ocplib-endian.0.8:
-  ocaml setup.ml -configure --disable-debug --prefix /home/opam/.opam/4.01.0
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing ocplib-endian.0.8.
-Building sexplib.111.25.00:
-  ./configure --enable-syntax
-  make
-  make install
-Installing lwt.2.4.5.
-Installing sexplib.111.25.00.
-Building cstruct.1.5.0:
-  ./configure --prefix /home/opam/.opam/4.01.0 --enable-lwt --enable-camlp4 --disable-async --enable-unix --disable-tests
-  make
-  make install
-Building ipaddr.2.5.0:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
-  make build
-  make install
-Installing ipaddr.2.5.0.
-Installing cstruct.1.5.0.
-Building io-page.1.3.0:
-  ./configure --prefix /home/opam/.opam/4.01.0
-  make
-  make install
-Installing io-page.1.3.0.
-Building mirage-types.2.2.0:
-  make install-types
-Installing mirage-types.2.2.0.
-Building mirage.2.2.0:
-  ./configure --bindir /home/opam/.opam/4.01.0/bin
-  make
-  make install
-Installing mirage.2.2.0.
-Installing gmp.6.0.0.
-Copying ~/.opam/repo/mirage/packages/zarith/zarith.1.3/files/xen_linkopts.patch to ~/.opam/4.01.0/build/zarith.1.3/
-Copying ~/.opam/repo/mirage/packages/zarith/zarith.1.3/files/mirage-install.sh to ~/.opam/4.01.0/build/zarith.1.3/
-Applying xen_linkopts.patch.
-Building zarith.1.3:
-  ./mirage-install.sh
-Installing zarith.1.3.
-Building asn1-combinators.0.1.1:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Building nocrypto.0.3.0:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing asn1-combinators.0.1.1.
-Installing nocrypto.0.3.0.
-Building x509.0.2.1:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing x509.0.2.1.
-Building tls.0.3.0:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0 --enable-lwt --enable-mirage
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-[31m[ERROR][m The compilation of tls.0.3.0 failed.
-Removing tls.0.3.0.
-  ocamlfind remove tls
-
-
-[31m#===[m [01mERROR[m [01mwhile installing tls.0.3.0[m [31m=========================================#[m
-[31m#[m [31mopam-version[m 1.2.0 (75c4bf0dd32913f9218ffa882e683e01d6cdfb0f)
-[31m#[m [31mos[m           linux
-[31m#[m [31mcommand[m      ocaml setup.ml -build
-[31m#[m [31mpath[m         /home/opam/.opam/4.01.0/build/tls.0.3.0
-[31m#[m [31mcompiler[m     4.01.0
-[31m#[m [31mexit-code[m    1
-[31m#[m [31menv-file[m     /home/opam/.opam/4.01.0/build/tls.0.3.0/tls-25736-70a526.env
-[31m#[m [31mstdout-file[m  /home/opam/.opam/4.01.0/build/tls.0.3.0/tls-25736-70a526.out
-[31m#[m [31mstderr-file[m  /home/opam/.opam/4.01.0/build/tls.0.3.0/tls-25736-70a526.err
-[31m### stdout ###
-[m[31m# [m...[truncated]
-[31m# [m/home/opam/.opam/4.01.0/bin/ocamlfind ocamldep -syntax camlp4o -package cstruct.syntax -package io-page -package ipaddr -package lwt -syntax camlp4o -package lwt.syntax -package mirage-types -package nocrypto -syntax camlp4o -package sexplib.syntax -package x509 -modules mirage/tls_mirage.ml > mirage/tls_mirage.ml.depends
-[31m# [m/home/opam/.opam/4.01.0/bin/ocamlfind ocamlc -c -g -annot -bin-annot -I lib -syntax camlp4o -package cstruct.syntax -package io-page -package ipaddr -package lwt -syntax camlp4o -package lwt.syntax -package mirage-types -package nocrypto -syntax camlp4o -package sexplib.syntax -package x509 -I mirage -I lib -o mirage/tls_mirage.cmo mirage/tls_mirage.ml
-[31m# [m+ /home/opam/.opam/4.01.0/bin/ocamlfind ocamlc -c -g -annot -bin-annot -I lib -syntax camlp4o -package cstruct.syntax -package io-page -package ipaddr -package lwt -syntax camlp4o -package lwt.syntax -package mirage-types -package nocrypto -syntax camlp4o -package sexplib.syntax -package x509 -I mirage -I lib -o mirage/tls_mirage.cmo mirage/tls_mirage.ml
-[31m# [mFile "mirage/tls_mirage.ml", line 62, characters 44-46:
-[31m# [mError: This expression has type Io_page.t
-[31m# [m       but an expression was expected of type
-[31m# [m         Cstruct.buffer =
-[31m# [m           (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout)
-[31m# [m           Bigarray.Array1.t
-[31m# [mCommand exited with code 2.
-[31m### stderr ###
-[m[31m# [mW: Cannot find source file matching module 'tls' in library tls
-[31m# [mE: Failure("Command ''/home/opam/.opam/4.01.0/bin/ocamlbuild' lib/tls.cma lib/tls.cmxa lib/tls.a lib/tls.cmxs lwt/tls-lwt.cma lwt/tls-lwt.cmxa lwt/tls-lwt.a lwt/tls-lwt.cmxs mirage/tls-mirage.cma mirage/tls-mirage.cmxa mirage/tls-mirage.a mirage/tls-mirage.cmxs -tag debug' terminated with error code 10")
-
-
-[36m=-=-[m [01mError report[m [36m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
-These actions have been completed [01msuccessfully[m
- - install   ctypes.0.3.4
- - install   lwt.2.4.5
- - install   re.1.2.2
- - install   mirage.2.2.0
- - install   type_conv.111.13.00
- - install   cmdliner.0.9.6
- - install   mirage-types.2.2.0
- - install   zarith.1.3
- - install   base-bytes.legacy
- - install   crunch.1.3.0
- - install   cppo.1.1.2
- - install   x509.0.2.1
- - install   camlp4.4.01.0
- - install   ocplib-endian.0.8
- - install   asn1-combinators.0.1.1
- - install   io-page.1.3.0
- - install   nocrypto.0.3.0
- - install   sexplib.111.25.00
- - install   ipaddr.2.5.0
- - install   cstruct.1.5.0
- - install   ocamlfind.1.5.5
- - install   gmp.6.0.0
-The following [01mfailed[m
- - install   tls.0.3.0
-
-The former state can be restored with opam switch import "/home/opam/.opam/4.01.0/backup/state-20150117063602.export"
