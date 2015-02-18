@@ -31,11 +31,11 @@ Repodata is over 2 weeks old. Install yum-cron? Or run: yum makecache fast
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-updates/7/x86_64/primary_d 77% [============    ]  0.0 B/s | 5.1 MB   --:-- ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:00     
+updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 2% [                 ]  0.0 B/s | 191 kB   --:-- ETA updates/7/x86_64/primary_d 7% [=                ] 529 kB/s | 533 kB   00:11 ETA updates/7/x86_64/primary_d 16% [==-             ] 605 kB/s | 1.1 MB   00:09 ETA updates/7/x86_64/primary_d 28% [====-           ] 732 kB/s | 1.9 MB   00:06 ETA updates/7/x86_64/primary_d 47% [=======-        ] 938 kB/s | 3.1 MB   00:03 ETA updates/7/x86_64/primary_d 75% [============    ] 1.2 MB/s | 5.0 MB   00:01 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:02     
 Determining fastest mirrors
- * base: mirror.cs.pitt.edu
- * extras: reflector.westga.edu
- * updates: centos.mirrors.tds.net
+ * base: mirrors.gigenet.com
+ * extras: mirror.steadfast.net
+ * updates: mirrors.adams.net
 Resolving Dependencies
 --> Running transaction check
 ---> Package libffi-devel.x86_64 0:3.0.13-11.el7 will be installed
@@ -56,7 +56,7 @@ Install  1 Package
 Total download size: 22 k
 Installed size: 27 k
 Downloading packages:
-libffi-devel-3.0.13-11.el7.x86_64.rpm                      |  22 kB   00:00     
+libffi-devel-3.0.13-11.el7 0% [                 ]  0.0 B/s |    0 B   --:-- ETA libffi-devel-3.0.13-11.el7.x86_64.rpm                      |  22 kB   00:00     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -126,14 +126,14 @@ The following actions will be performed:
 [36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
 Copying ~/.opam/repo/default/packages/camlp4/camlp4.4.02.1+system/files/install to ~/.opam/system/build/camlp4.4.02.1+system/
 Copying ~/.opam/repo/default/packages/camlp4/camlp4.4.02.1+system/files/check-camlp4.sh to ~/.opam/system/build/camlp4.4.02.1+system/
+Building camlp4.4.02.1+system:
+  sh ./check-camlp4.sh
 Copying ~/.opam/repo/default/packages/ocamlfind/ocamlfind.1.5.5/files/ocamlfind.install to ~/.opam/system/build/ocamlfind.1.5.5/
 Building ocamlfind.1.5.5:
   ./configure -bindir /home/opam/.opam/system/bin -sitelib /home/opam/.opam/system/lib -mandir /home/opam/.opam/system/man -config /home/opam/.opam/system/lib/findlib.conf -no-topfind
   make all
   make opt
   make install
-Building camlp4.4.02.1+system:
-  sh ./check-camlp4.sh
 Installing camlp4.4.02.1+system.
 Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/mirage-install.sh to ~/.opam/system/build/gmp.6.0.0/
 Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/mirage-build.sh to ~/.opam/system/build/gmp.6.0.0/
@@ -147,12 +147,12 @@ Building gmp.6.0.0:
 Installing ocamlfind.1.5.5.
 Installing base-bytes.base.
 Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/system/build/cppo.1.1.2/
-Building cppo.1.1.2:
-  make
-  make install-lib
 Building cmdliner.0.9.6:
   ocaml pkg/git.ml
   ocaml pkg/build.ml native=true native-dynlink=true
+Building cppo.1.1.2:
+  make
+  make install-lib
 Installing cmdliner.0.9.6.
 Building ppx_tools.0.99.2:
   make all
@@ -222,11 +222,11 @@ Applying xen_linkopts.patch.
 Building zarith.1.3:
   ./mirage-install.sh
 Installing zarith.1.3.
-Building asn1-combinators.0.1.1:
+Building nocrypto.0.3.0:
   ocaml setup.ml -configure --prefix /home/opam/.opam/system
   ocaml setup.ml -build
   ocaml setup.ml -install
-Building nocrypto.0.3.0:
+Building asn1-combinators.0.1.1:
   ocaml setup.ml -configure --prefix /home/opam/.opam/system
   ocaml setup.ml -build
   ocaml setup.ml -install
@@ -253,9 +253,9 @@ Removing tls.0.3.0.
 [31m#[m [31mpath[m         /home/opam/.opam/system/build/tls.0.3.0
 [31m#[m [31mcompiler[m     system (4.02.1)
 [31m#[m [31mexit-code[m    1
-[31m#[m [31menv-file[m     /home/opam/.opam/system/build/tls.0.3.0/tls-24407-d682c6.env
-[31m#[m [31mstdout-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-24407-d682c6.out
-[31m#[m [31mstderr-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-24407-d682c6.err
+[31m#[m [31menv-file[m     /home/opam/.opam/system/build/tls.0.3.0/tls-24406-d682c6.env
+[31m#[m [31mstdout-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-24406-d682c6.out
+[31m#[m [31mstderr-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-24406-d682c6.err
 [31m### stdout ###
 [m[31m# [m...[truncated]
 [31m# [m/home/opam/.opam/system/bin/ocamlfind ocamldep -syntax camlp4o -package cstruct.syntax -package io-page -package ipaddr -package lwt -syntax camlp4o -package lwt.syntax -package mirage-types -package nocrypto -syntax camlp4o -package sexplib.syntax -package x509 -modules mirage/tls_mirage.ml > mirage/tls_mirage.ml.depends
@@ -301,4 +301,4 @@ These actions have been completed [01msuccessfully[m
 The following [01mfailed[m
  - install   tls.0.3.0
 
-The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150117173145.export"
+The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150118081450.export"

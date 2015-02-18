@@ -20,15 +20,15 @@ Debian depexts: libssl-dev m4
 + sudo apt-get update -y
 0% [Working]            Get:1 http://security.debian.org stable/updates Release.gpg [836 B]
             100% [Connecting to http.debian.net (46.4.205.44)] [1 Release.gpg 836 B/836 B 1                                                                               100% [Connecting to http.debian.net (46.4.205.44)]                                                  Get:2 http://security.debian.org stable/updates Release [102 kB]
-                                                  15% [Connecting to http.debian.net (46.4.205.44)] [2 Release 14.2 kB/102 kB 14%                                                                               100% [Waiting for headers]                          100% [2 Release gpgv 102 kB] [Waiting for headers]                                                  100% [2 Release gpgv 102 kB]                            100% [Connecting to mirrors.bloomu.edu (148.137.11.75)] [Waiting for headers]                                                                             Get:3 http://security.debian.org stable/updates/main amd64 Packages [302 kB]
-                                                                             32% [Connecting to mirrors.bloomu.edu (148.137.11.75)] [Waiting for headers] [3                                                                               Get:4 http://http.debian.net stable Release.gpg [1655 B]
-40% [4 Release.gpg 1655 B/1655 B 100%] [Waiting for headers] [3 Packages 56.1 k                                                                               40% [Waiting for headers] [3 Packages 56.1 kB/302 kB 19%]                                                         55% [3 Packages 120 kB/302 kB 40%]                                  Get:5 http://http.debian.net stable-updates Release.gpg [836 B]
-                                  68% [5 Release.gpg 0 B/836 B 0%] [Waiting for headers] [3 Packages 172 kB/302 k                                                                               68% [Waiting for headers] [3 Packages 172 kB/302 kB 57%]                                                        100% [Waiting for headers]                          100% [Working]              100% [3 Packages 291 kB] [Waiting for headers] [Waiting for headers]                                                                    Get:6 http://http.debian.net stable Release [168 kB]
-                                                                    72% [3 Packages 302 kB] [6 Release 6541 B/168 kB 4%] [Waiting for headers]                                                                          73% [6 Release 14.7 kB/168 kB 9%] [Waiting for headers]                                                       75% [6 Release 24.3 kB/168 kB 14%]                                  100% [Working]              100% [6 Release gpgv 168 kB]                            100% [Waiting for headers]                          Get:7 http://http.debian.net stable-updates Release [124 kB]
-                          86% [7 Release 24.7 kB/124 kB 20%]                                  100% [Waiting for headers]                          100% [7 Release gpgv 124 kB] [Waiting for headers]                                                  100% [Waiting for headers]                          100% [Working]              Get:8 http://http.debian.net stable/main amd64 Packages [7625 kB]
-              9% [8 Packages 17.5 kB/7625 kB 0%] [Waiting for headers]                                                        10% [8 Packages 143 kB/7625 kB 2%]                                  31% [8 Packages 1867 kB/7625 kB 24%]55% [8 Packages 3909 kB/7625 kB 51%]80% [8 Packages 5933 kB/7625 kB 78%]                                    100% [Working]              100% [8 Packages 7625 kB]                         Get:9 http://http.debian.net stable-updates/main amd64 Packages [4104 B]
-                         100% [8 Packages 7625 kB] [9 Packages 0 B/4104 B 0%]                                                    100% [8 Packages 7625 kB]100% [8 Packages 7625 kB]100% [8 Packages 7625 kB]                         100% [Working]              100% [9 Packages 3329 B]                        100% [Working]              Fetched 8329 kB in 4s (1919 kB/s)
-Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 57%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+                                                  15% [Connecting to http.debian.net (46.4.205.44)] [2 Release 14.1 kB/102 kB 14%                                                                               100% [Waiting for headers]                          100% [2 Release gpgv 102 kB] [Waiting for headers]                                                  100% [2 Release gpgv 102 kB]                            100% [Waiting for headers]                          Get:3 http://security.debian.org stable/updates/main amd64 Packages [302 kB]
+                          32% [Connecting to mirrors.centarra.com (198.52.129.244)] [Waiting for headers]                                                                               Get:4 http://http.debian.net stable Release.gpg [1655 B]
+41% [4 Release.gpg 0 B/1655 B 0%] [Waiting for headers] [3 Packages 64.8 kB/302                                                                               42% [Waiting for headers] [3 Packages 64.8 kB/302 kB 21%]                                                         42% [3 Packages 64.8 kB/302 kB 21%]                                   Get:5 http://http.debian.net stable-updates Release.gpg [836 B]
+                                   50% [5 Release.gpg 836 B/836 B 100%] [Waiting for headers] [3 Packages 99.6 kB/                                                                               50% [Waiting for headers] [3 Packages 99.6 kB/302 kB 33%]                                                         89% [3 Packages 259 kB/302 kB 86%]                                  100% [Waiting for headers] [Waiting for headers]                                                Get:6 http://http.debian.net stable Release [168 kB]
+                                                73% [6 Release 14.5 kB/168 kB 9%] [Waiting for headers]                                                       73% [3 Packages 291 kB] [6 Release 14.5 kB/168 kB 9%] [Waiting for headers]                                                                           76% [3 Packages 302 kB] [6 Release 31.9 kB/168 kB 19%]                                                      78% [6 Release 40.5 kB/168 kB 24%]                                  100% [Working]              100% [6 Release gpgv 168 kB]                            100% [Waiting for headers]                          Get:7 http://http.debian.net stable-updates Release [124 kB]
+                          83% [7 Release 4096 B/124 kB 3%] [Waiting for headers]                                                      91% [7 Release 57.9 kB/124 kB 47%]                                  100% [Working]              100% [7 Release gpgv 124 kB]                            Get:8 http://http.debian.net stable/main amd64 Packages [7625 kB]
+                            9% [8 Packages 13.0 kB/7625 kB 0%]9% [8 Packages 85.4 kB/7625 kB 1%]13% [8 Packages 403 kB/7625 kB 5%]16% [8 Packages 652 kB/7625 kB 9%]                                  18% [8 Packages 785 kB/7625 kB 10%]20% [8 Packages 964 kB/7625 kB 13%]                                   23% [8 Packages 1196 kB/7625 kB 16%]25% [8 Packages 1386 kB/7625 kB 18%]26% [8 Packages 1476 kB/7625 kB 19%]28% [8 Packages 1620 kB/7625 kB 21%]30% [8 Packages 1835 kB/7625 kB 24%]                                    34% [8 Packages 2107 kB/7625 kB 28%]                               441 kB/s 12s36% [8 Packages 2257 kB/7625 kB 30%]                               441 kB/s 12s37% [8 Packages 2395 kB/7625 kB 31%]                               441 kB/s 11s38% [8 Packages 2501 kB/7625 kB 33%]                               441 kB/s 11s40% [8 Packages 2628 kB/7625 kB 34%]                               441 kB/s 11s42% [8 Packages 2831 kB/7625 kB 37%]                               441 kB/s 10s45% [8 Packages 3034 kB/7625 kB 40%]                               441 kB/s 10s46% [8 Packages 3164 kB/7625 kB 41%]                               441 kB/s 10s48% [8 Packages 3312 kB/7625 kB 43%]                                441 kB/s 9s50% [8 Packages 3477 kB/7625 kB 46%]                                441 kB/s 9s52% [8 Packages 3633 kB/7625 kB 48%]                                441 kB/s 9s54% [8 Packages 3769 kB/7625 kB 49%]                                441 kB/s 8s56% [8 Packages 3969 kB/7625 kB 52%]                               310 kB/s 11s58% [8 Packages 4146 kB/7625 kB 54%]                               310 kB/s 11s60% [8 Packages 4316 kB/7625 kB 57%]                               310 kB/s 10s62% [8 Packages 4482 kB/7625 kB 59%]                               310 kB/s 10s64% [8 Packages 4667 kB/7625 kB 61%]                                310 kB/s 9s67% [8 Packages 4861 kB/7625 kB 64%]                                310 kB/s 8s70% [8 Packages 5119 kB/7625 kB 67%]                                310 kB/s 8s73% [8 Packages 5400 kB/7625 kB 71%]                                310 kB/s 7s76% [8 Packages 5634 kB/7625 kB 74%]                                310 kB/s 6s78% [8 Packages 5820 kB/7625 kB 76%]                                310 kB/s 5s81% [8 Packages 6011 kB/7625 kB 79%]                                310 kB/s 5s83% [8 Packages 6228 kB/7625 kB 82%]                                310 kB/s 4s86% [8 Packages 6425 kB/7625 kB 84%]                                408 kB/s 2s88% [8 Packages 6651 kB/7625 kB 87%]                                408 kB/s 2s92% [8 Packages 6945 kB/7625 kB 91%]                                408 kB/s 1s95% [8 Packages 7186 kB/7625 kB 94%]                                408 kB/s 1s97% [8 Packages 7404 kB/7625 kB 97%]                                408 kB/s 0s99% [8 Packages 7580 kB/7625 kB 99%]                                408 kB/s 0s100% [Working]                                                      408 kB/s 0s100% [8 Packages 7625 kB]                                           408 kB/s 0s                                                                               Get:9 http://http.debian.net stable-updates/main amd64 Packages [4104 B]
+100% [8 Packages 7625 kB] [9 Packages 4104 B/4104 B 100%]           408 kB/s 0s100% [8 Packages 7625 kB]                                           408 kB/s 0s100% [8 Packages 7625 kB]                                           408 kB/s 0s100% [8 Packages 7625 kB]                                           408 kB/s 0s100% [Working]                                                      408 kB/s 0s100% [Working]                                                      408 kB/s 0s                                                                               Fetched 8329 kB in 22s (371 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 34%Reading package lists... 80%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
 + sudo apt-get install -qq -y build-essential m4
 + sudo apt-get install -qq -y libssl-dev m4
 debconf: delaying package configuration, since apt-utils is not installed
@@ -93,13 +93,121 @@ The following actions will be performed:
 [[32mssl.0.4.7[m] Downloading http://downloads.sourceforge.net/project/savonet/ocaml-ssl/0.4.7/ocaml-ssl-0.4.7.tar.gz
 [[32mstringext.1.2.0[m] Downloading https://github.com/rgrinberg/stringext/archive/v1.2.0.tar.gz
 [[32mtype_conv.111.13.00[m] Downloading https://ocaml.janestreet.com/ocaml-core/111.13.00/individual/type_conv-111.13.00.tar.gz
-[31m[ERROR][m Wrong checksum for /home/opam/.opam/packages.dev/ssl.0.4.7/ocaml-ssl-0.4.7.tar.gz:
-  - 873533ce43cf4b88b4fb0ea27289320a [expected result]
-  - b2e23b153fad3034ec48336f81eefd33 [actual result]
-This is surely due to outdated package descriptions and should be fixed by running `opam update`.
-In case an update does not fix that problem, you can use the `--no-checksums` command-line option
-to /bypass checking for invalid checksums.
-[31m[ERROR][m http://downloads.sourceforge.net/project/savonet/ocaml-ssl/0.4.7/ocaml-ssl-0.4.7.tar.gz is not available
 [[32muri.1.7.2[m] Downloading https://github.com/mirage/ocaml-uri/archive/v1.7.2.tar.gz
-[31m[ERROR][m Could not download archives of ssl.0.4.7
 
+[36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+Installing camlp4.4.01.0.
+Copying ~/.opam/repo/default/packages/ocamlfind/ocamlfind.1.5.5/files/ocamlfind.install to ~/.opam/4.01.0/build/ocamlfind.1.5.5/
+Building ocamlfind.1.5.5:
+  ./configure -bindir /home/opam/.opam/4.01.0/bin -sitelib /home/opam/.opam/4.01.0/lib -mandir /home/opam/.opam/4.01.0/man -config /home/opam/.opam/4.01.0/lib/findlib.conf
+  make all
+  make opt
+  make install
+Installing ocamlfind.1.5.5.
+Installing base-bytes.legacy.
+Building cmdliner.0.9.6:
+  ocaml pkg/git.ml
+  ocaml pkg/build.ml native=true native-dynlink=true
+Installing cmdliner.0.9.6.
+Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/4.01.0/build/cppo.1.1.2/
+Building cppo.1.1.2:
+  make
+  make install-lib
+Installing cppo.1.1.2.
+Building re.1.2.2:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing re.1.2.2.
+Copying ~/.opam/repo/default/packages/ssl/ssl.0.4.7/files/pkgconfigure to ~/.opam/4.01.0/build/ssl.0.4.7/
+Building ssl.0.4.7:
+  ./configure --prefix /home/opam/.opam/4.01.0
+  make
+  make install
+Installing ssl.0.4.7.
+Building type_conv.111.13.00:
+  make
+  make install
+Installing type_conv.111.13.00.
+Building base64.2.0.0:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing base64.2.0.0.
+Building fieldslib.109.20.03:
+  make
+  make install
+Installing fieldslib.109.20.03.
+Building lwt.2.4.5:
+  ./configure --disable-libev --disable-react --enable-ssl --enable-unix --enable-extra --enable-preemptive --disable-glib
+  make build
+  make install
+Installing lwt.2.4.5.
+Building ocplib-endian.0.8:
+  ocaml setup.ml -configure --disable-debug --prefix /home/opam/.opam/4.01.0
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing ocplib-endian.0.8.
+Building sexplib.111.25.00:
+  ./configure --enable-syntax
+  make
+  make install
+Installing sexplib.111.25.00.
+Building stringext.1.2.0:
+  ocaml setup.ml -configure
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing stringext.1.2.0.
+Building cstruct.1.5.0:
+  ./configure --prefix /home/opam/.opam/4.01.0 --enable-lwt --enable-camlp4 --disable-async --enable-unix --disable-tests
+  make
+  make install
+Installing cstruct.1.5.0.
+Building ipaddr.2.5.0:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
+  make build
+  make install
+Installing ipaddr.2.5.0.
+Building uri.1.7.2:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing uri.1.7.2.
+Building conduit.0.7.2:
+  make
+  make install
+Installing conduit.0.7.2.
+Building cohttp.0.15.0:
+  make PREFIX=/home/opam/.opam/4.01.0
+  make PREFIX=/home/opam/.opam/4.01.0 install
+Installing cohttp.0.15.0.
++ opam+ awk {print $2}
+ list -i+  cohttpgrep
+ -v #
++ cohttpver=0.15.0
++ opam list --depends-on cohttp.0.15.0 --rec -s
++ deps=bap bt cowabloga facebook-sdk github imaplet-lwt iocaml irmin merge-queues merge-ropes message-switch mirage-http mirage-http-unix mirage-http-xen mirage-www opam-publish opam-sync-github-prs opium slacko sociaml-facebook-api sociaml-oauth-client sociaml-tumblr-api vhd-tool websocket xapi xapi-forkexecd xapi-idl xapi-libs-transitional xapi-netdev xapi-networkd xapi-rrd-transport xapi-rrdd xapi-rrdd-plugin xapi-squeezed xapi-tapctl xapi-xenops xapi-xenops-cli xapi-xenopsd xe xe-unikernel-upload xen-api-client 
++ opam config env
++ eval CAML_LD_LIBRARY_PATH="/home/opam/.opam/4.01.0/lib/stublibs"; export CAML_LD_LIBRARY_PATH; MANPATH="/home/opam/.opam/4.01.0/man:"; export MANPATH; MAKELEVEL=""; export MAKELEVEL; MAKEFLAGS=""; export MAKEFLAGS; PERL5LIB="/home/opam/.opam/4.01.0/lib/perl5"; export PERL5LIB; OCAML_TOPLEVEL_PATH="/home/opam/.opam/4.01.0/lib/toplevel"; export OCAML_TOPLEVEL_PATH; PATH="/home/opam/.opam/4.01.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"; export PATH;
++ CAML_LD_LIBRARY_PATH=/home/opam/.opam/4.01.0/lib/stublibs
++ export CAML_LD_LIBRARY_PATH
++ MANPATH=/home/opam/.opam/4.01.0/man:
++ export MANPATH
++ MAKELEVEL=
++ export MAKELEVEL
++ MAKEFLAGS=
++ export MAKEFLAGS
++ PERL5LIB=/home/opam/.opam/4.01.0/lib/perl5
++ export PERL5LIB
++ OCAML_TOPLEVEL_PATH=/home/opam/.opam/4.01.0/lib/toplevel
++ export OCAML_TOPLEVEL_PATH
++ PATH=/home/opam/.opam/4.01.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++ export PATH
++ opam install bap bt cowabloga facebook-sdk github imaplet-lwt iocaml irmin merge-queues merge-ropes message-switch mirage-http mirage-http-unix mirage-http-xen mirage-www opam-publish opam-sync-github-prs opium slacko sociaml-facebook-api sociaml-oauth-client sociaml-tumblr-api vhd-tool websocket xapi xapi-forkexecd xapi-idl xapi-libs-transitional xapi-netdev xapi-networkd xapi-rrd-transport xapi-rrdd xapi-rrdd-plugin xapi-squeezed xapi-tapctl xapi-xenops xapi-xenops-cli xapi-xenopsd xe xe-unikernel-upload xen-api-client
+The following dependencies couldn't be met:
+  - merge-queues[33m -> [mirmin = 0.8.3[33m -> [mcohttp < 0.12.0
+  - bap[33m -> [mcohttp = 0.15.0
+Your request can't be satisfied:
+  - Conflicting version constraints for cohttp
+
+No solution found, exiting
