@@ -31,11 +31,11 @@ Repodata is over 2 weeks old. Install yum-cron? Or run: yum makecache fast
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 6% [=                ]  0.0 B/s | 422 kB   --:-- ETA updates/7/x86_64/primary_d 29% [====-           ] 2.4 MB/s | 2.0 MB   00:01 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:01     
+updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 4% [-                ]  0.0 B/s | 289 kB   --:-- ETA updates/7/x86_64/primary_d 13% [==              ] 1.0 MB/s | 940 kB   00:05 ETA updates/7/x86_64/primary_d 29% [====-           ] 1.1 MB/s | 2.0 MB   00:04 ETA updates/7/x86_64/primary_d 60% [=========-      ] 1.5 MB/s | 4.0 MB   00:01 ETA updates/7/x86_64/primary_d 87% [==============  ] 1.8 MB/s | 5.8 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:02     
 Determining fastest mirrors
- * base: mirrors.gigenet.com
- * extras: mirror.wiredtree.com
- * updates: mirror.tzulo.com
+ * base: mirror.beyondhosting.net
+ * extras: mirror.raystedman.net
+ * updates: mirror.rackspace.com
 Resolving Dependencies
 --> Running transaction check
 ---> Package libffi-devel.x86_64 0:3.0.13-11.el7 will be installed
@@ -245,9 +245,9 @@ Removing tls.0.3.0.
 [31m#[m [31mpath[m         /home/opam/.opam/4.01.0/build/tls.0.3.0
 [31m#[m [31mcompiler[m     4.01.0
 [31m#[m [31mexit-code[m    1
-[31m#[m [31menv-file[m     /home/opam/.opam/4.01.0/build/tls.0.3.0/tls-24309-af3201.env
-[31m#[m [31mstdout-file[m  /home/opam/.opam/4.01.0/build/tls.0.3.0/tls-24309-af3201.out
-[31m#[m [31mstderr-file[m  /home/opam/.opam/4.01.0/build/tls.0.3.0/tls-24309-af3201.err
+[31m#[m [31menv-file[m     /home/opam/.opam/4.01.0/build/tls.0.3.0/tls-24303-af3201.env
+[31m#[m [31mstdout-file[m  /home/opam/.opam/4.01.0/build/tls.0.3.0/tls-24303-af3201.out
+[31m#[m [31mstderr-file[m  /home/opam/.opam/4.01.0/build/tls.0.3.0/tls-24303-af3201.err
 [31m### stdout ###
 [m[31m# [m...[truncated]
 [31m# [m/home/opam/.opam/4.01.0/bin/ocamlfind ocamldep -syntax camlp4o -package cstruct.syntax -package io-page -package ipaddr -package lwt -syntax camlp4o -package lwt.syntax -package mirage-types -package nocrypto -syntax camlp4o -package sexplib.syntax -package x509 -modules mirage/tls_mirage.ml > mirage/tls_mirage.ml.depends
@@ -293,4 +293,4 @@ These actions have been completed [01msuccessfully[m
 The following [01mfailed[m
  - install   tls.0.3.0
 
-The former state can be restored with opam switch import "/home/opam/.opam/4.01.0/backup/state-20150119075501.export"
+The former state can be restored with opam switch import "/home/opam/.opam/4.01.0/backup/state-20150119204135.export"
