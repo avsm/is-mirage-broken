@@ -31,11 +31,11 @@ Repodata is over 2 weeks old. Install yum-cron? Or run: yum makecache fast
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 1% [                 ]  0.0 B/s |  89 kB   --:-- ETA updates/7/x86_64/primary_d 5% [-                ] 400 kB/s | 356 kB   00:16 ETA updates/7/x86_64/primary_d 12% [=-              ] 467 kB/s | 825 kB   00:12 ETA updates/7/x86_64/primary_d 22% [===-            ] 574 kB/s | 1.5 MB   00:09 ETA updates/7/x86_64/primary_d 37% [=====-          ] 737 kB/s | 2.5 MB   00:05 ETA updates/7/x86_64/primary_d 44% [=======         ] 781 kB/s | 2.9 MB   00:04 ETA updates/7/x86_64/primary_d 44% [=======         ] 731 kB/s | 2.9 MB   00:05 ETA updates/7/x86_64/primary_d 44% [=======         ] 685 kB/s | 3.0 MB   00:05 ETA updates/7/x86_64/primary_d 44% [=======         ] 641 kB/s | 3.0 MB   00:05 ETA updates/7/x86_64/primary_d 45% [=======         ] 600 kB/s | 3.0 MB   00:06 ETA updates/7/x86_64/primary_d 45% [=======         ] 562 kB/s | 3.0 MB   00:06 ETA updates/7/x86_64/primary_d 45% [=======         ] 527 kB/s | 3.0 MB   00:07 ETA updates/7/x86_64/primary_d 47% [=======-        ] 520 kB/s | 3.1 MB   00:06 ETA updates/7/x86_64/primary_d 48% [=======-        ] 495 kB/s | 3.2 MB   00:07 ETA updates/7/x86_64/primary_d 50% [========        ] 490 kB/s | 3.3 MB   00:06 ETA updates/7/x86_64/primary_d 54% [========-       ] 510 kB/s | 3.6 MB   00:06 ETA updates/7/x86_64/primary_d 61% [=========-      ] 577 kB/s | 4.1 MB   00:04 ETA updates/7/x86_64/primary_d 75% [============    ] 726 kB/s | 5.0 MB   00:02 ETA updates/7/x86_64/primary_d 83% [=============   ] 779 kB/s | 5.5 MB   00:01 ETA updates/7/x86_64/primary_d 83% [=============   ] 730 kB/s | 5.5 MB   00:01 ETA updates/7/x86_64/primary_d 83% [=============   ] 681 kB/s | 5.5 MB   00:01 ETA updates/7/x86_64/primary_d 83% [=============   ] 638 kB/s | 5.5 MB   00:01 ETA updates/7/x86_64/primary_d 83% [=============   ] 598 kB/s | 5.5 MB   00:01 ETA updates/7/x86_64/primary_d 83% [=============   ] 560 kB/s | 5.5 MB   00:01 ETA updates/7/x86_64/primary_d 84% [=============   ] 525 kB/s | 5.5 MB   00:02 ETA updates/7/x86_64/primary_d 84% [=============   ] 492 kB/s | 5.6 MB   00:02 ETA updates/7/x86_64/primary_d 84% [=============   ] 462 kB/s | 5.6 MB   00:02 ETA updates/7/x86_64/primary_d 85% [=============-  ] 446 kB/s | 5.6 MB   00:02 ETA updates/7/x86_64/primary_d 86% [=============-  ] 426 kB/s | 5.7 MB   00:02 ETA updates/7/x86_64/primary_d 88% [==============  ] 430 kB/s | 5.8 MB   00:01 ETA updates/7/x86_64/primary_d 94% [=============== ] 487 kB/s | 6.3 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:11     
+updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 11% [=-              ]  0.0 B/s | 751 kB   --:-- ETA updates/7/x86_64/primary_d 47% [=======-        ] 3.8 MB/s | 3.1 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:01     
 Determining fastest mirrors
- * base: centos.chi.host-engine.com
+ * base: mirror.evolvedservers.com
  * extras: centos.mirrors.tds.net
- * updates: centos.chi.host-engine.com
+ * updates: ftpmirror.your.org
 Resolving Dependencies
 --> Running transaction check
 ---> Package libffi-devel.x86_64 0:3.0.13-11.el7 will be installed
@@ -147,12 +147,12 @@ Building gmp.6.0.0:
 Installing ocamlfind.1.5.5.
 Installing base-bytes.base.
 Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/system/build/cppo.1.1.2/
-Building cppo.1.1.2:
-  make
-  make install-lib
 Building cmdliner.0.9.6:
   ocaml pkg/git.ml
   ocaml pkg/build.ml native=true native-dynlink=true
+Building cppo.1.1.2:
+  make
+  make install-lib
 Installing cmdliner.0.9.6.
 Building ppx_tools.0.99.2:
   make all
@@ -167,11 +167,11 @@ Building type_conv.112.01.00:
   make
   make install
 Installing re.1.2.2.
+Installing type_conv.112.01.00.
 Building crunch.1.3.0:
   ocaml setup.ml -configure --prefix /home/opam/.opam/system
   ocaml setup.ml -build
   ocaml setup.ml -install
-Installing type_conv.112.01.00.
 Building ctypes.0.3.4:
   make
   make install
@@ -301,4 +301,4 @@ These actions have been completed [01msuccessfully[m
 The following [01mfailed[m
  - install   tls.0.3.0
 
-The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150121080232.export"
+The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150121205058.export"
