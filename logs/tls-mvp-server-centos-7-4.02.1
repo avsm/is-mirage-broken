@@ -31,11 +31,11 @@ Repodata is over 2 weeks old. Install yum-cron? Or run: yum makecache fast
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 11% [=-              ]  0.0 B/s | 751 kB   --:-- ETA updates/7/x86_64/primary_d 47% [=======-        ] 3.8 MB/s | 3.1 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:01     
+updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 5% [-                ]  0.0 B/s | 348 kB   --:-- ETA updates/7/x86_64/primary_d 20% [===             ] 1.6 MB/s | 1.4 MB   00:03 ETA updates/7/x86_64/primary_d 53% [========-       ] 1.9 MB/s | 3.5 MB   00:01 ETA updates/7/x86_64/primary_d 82% [=============   ] 2.2 MB/s | 5.4 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:01     
 Determining fastest mirrors
- * base: mirror.evolvedservers.com
- * extras: centos.mirrors.tds.net
- * updates: ftpmirror.your.org
+ * base: mirror.wiredtree.com
+ * extras: mirror.team-cymru.org
+ * updates: cosmos.cites.illinois.edu
 Resolving Dependencies
 --> Running transaction check
 ---> Package libffi-devel.x86_64 0:3.0.13-11.el7 will be installed
@@ -56,7 +56,7 @@ Install  1 Package
 Total download size: 22 k
 Installed size: 27 k
 Downloading packages:
-libffi-devel-3.0.13-11.el7 0% [                 ]  0.0 B/s |    0 B   --:-- ETA libffi-devel-3.0.13-11.el7.x86_64.rpm                      |  22 kB   00:00     
+libffi-devel-3.0.13-11.el7.x86_64.rpm                      |  22 kB   00:00     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -167,11 +167,11 @@ Building type_conv.112.01.00:
   make
   make install
 Installing re.1.2.2.
-Installing type_conv.112.01.00.
 Building crunch.1.3.0:
   ocaml setup.ml -configure --prefix /home/opam/.opam/system
   ocaml setup.ml -build
   ocaml setup.ml -install
+Installing type_conv.112.01.00.
 Building ctypes.0.3.4:
   make
   make install
@@ -301,4 +301,4 @@ These actions have been completed [01msuccessfully[m
 The following [01mfailed[m
  - install   tls.0.3.0
 
-The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150121205058.export"
+The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150122080433.export"
