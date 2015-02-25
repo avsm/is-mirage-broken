@@ -9,520 +9,522 @@
 + [ -z www ]
 + [ -d .git ]
 + git pull
-remote: Counting objects: 1810, done.[K
-remote: Compressing objects:   0% (1/314)   [Kremote: Compressing objects:   1% (4/314)   [Kremote: Compressing objects:   2% (7/314)   [Kremote: Compressing objects:   3% (10/314)   [Kremote: Compressing objects:   4% (13/314)   [Kremote: Compressing objects:   5% (16/314)   [Kremote: Compressing objects:   6% (19/314)   [Kremote: Compressing objects:   7% (22/314)   [Kremote: Compressing objects:   8% (26/314)   [Kremote: Compressing objects:   9% (29/314)   [Kremote: Compressing objects:  10% (32/314)   [Kremote: Compressing objects:  11% (35/314)   [Kremote: Compressing objects:  12% (38/314)   [Kremote: Compressing objects:  13% (41/314)   [Kremote: Compressing objects:  14% (44/314)   [Kremote: Compressing objects:  15% (48/314)   [Kremote: Compressing objects:  16% (51/314)   [Kremote: Compressing objects:  17% (54/314)   [Kremote: Compressing objects:  18% (57/314)   [Kremote: Compressing objects:  19% (60/314)   [Kremote: Compressing objects:  20% (63/314)   [Kremote: Compressing objects:  21% (66/314)   [Kremote: Compressing objects:  22% (70/314)   [Kremote: Compressing objects:  23% (73/314)   [Kremote: Compressing objects:  24% (76/314)   [Kremote: Compressing objects:  25% (79/314)   [Kremote: Compressing objects:  26% (82/314)   [Kremote: Compressing objects:  27% (85/314)   [Kremote: Compressing objects:  28% (88/314)   [Kremote: Compressing objects:  29% (92/314)   [Kremote: Compressing objects:  30% (95/314)   [Kremote: Compressing objects:  31% (98/314)   [Kremote: Compressing objects:  32% (101/314)   [Kremote: Compressing objects:  33% (104/314)   [Kremote: Compressing objects:  34% (107/314)   [Kremote: Compressing objects:  35% (110/314)   [Kremote: Compressing objects:  36% (114/314)   [Kremote: Compressing objects:  37% (117/314)   [Kremote: Compressing objects:  38% (120/314)   [Kremote: Compressing objects:  39% (123/314)   [Kremote: Compressing objects:  40% (126/314)   [Kremote: Compressing objects:  41% (129/314)   [Kremote: Compressing objects:  42% (132/314)   [Kremote: Compressing objects:  43% (136/314)   [Kremote: Compressing objects:  44% (139/314)   [Kremote: Compressing objects:  45% (142/314)   [Kremote: Compressing objects:  46% (145/314)   [Kremote: Compressing objects:  47% (148/314)   [Kremote: Compressing objects:  48% (151/314)   [Kremote: Compressing objects:  49% (154/314)   [Kremote: Compressing objects:  50% (157/314)   [Kremote: Compressing objects:  51% (161/314)   [Kremote: Compressing objects:  52% (164/314)   [Kremote: Compressing objects:  53% (167/314)   [Kremote: Compressing objects:  54% (170/314)   [Kremote: Compressing objects:  55% (173/314)   [Kremote: Compressing objects:  56% (176/314)   [Kremote: Compressing objects:  57% (179/314)   [Kremote: Compressing objects:  58% (183/314)   [Kremote: Compressing objects:  59% (186/314)   [Kremote: Compressing objects:  60% (189/314)   [Kremote: Compressing objects:  61% (192/314)   [Kremote: Compressing objects:  62% (195/314)   [Kremote: Compressing objects:  63% (198/314)   [Kremote: Compressing objects:  64% (201/314)   [Kremote: Compressing objects:  65% (205/314)   [Kremote: Compressing objects:  66% (208/314)   [Kremote: Compressing objects:  67% (211/314)   [Kremote: Compressing objects:  68% (214/314)   [Kremote: Compressing objects:  69% (217/314)   [Kremote: Compressing objects:  70% (220/314)   [Kremote: Compressing objects:  71% (223/314)   [Kremote: Compressing objects:  72% (227/314)   [Kremote: Compressing objects:  73% (230/314)   [Kremote: Compressing objects:  74% (233/314)   [Kremote: Compressing objects:  75% (236/314)   [Kremote: Compressing objects:  76% (239/314)   [Kremote: Compressing objects:  77% (242/314)   [Kremote: Compressing objects:  78% (245/314)   [Kremote: Compressing objects:  79% (249/314)   [Kremote: Compressing objects:  80% (252/314)   [Kremote: Compressing objects:  81% (255/314)   [Kremote: Compressing objects:  82% (258/314)   [Kremote: Compressing objects:  83% (261/314)   [Kremote: Compressing objects:  84% (264/314)   [Kremote: Compressing objects:  85% (267/314)   [Kremote: Compressing objects:  86% (271/314)   [Kremote: Compressing objects:  87% (274/314)   [Kremote: Compressing objects:  88% (277/314)   [Kremote: Compressing objects:  89% (280/314)   [Kremote: Compressing objects:  90% (283/314)   [Kremote: Compressing objects:  91% (286/314)   [Kremote: Compressing objects:  92% (289/314)   [Kremote: Compressing objects:  93% (293/314)   [Kremote: Compressing objects:  94% (296/314)   [Kremote: Compressing objects:  95% (299/314)   [Kremote: Compressing objects:  96% (302/314)   [Kremote: Compressing objects:  97% (305/314)   [Kremote: Compressing objects:  98% (308/314)   [Kremote: Compressing objects:  99% (311/314)   [Kremote: Compressing objects: 100% (314/314)   [Kremote: Compressing objects: 100% (314/314), done.[K
-Receiving objects:   0% (1/1810)   Receiving objects:   1% (19/1810)   Receiving objects:   2% (37/1810)   Receiving objects:   3% (55/1810)   Receiving objects:   4% (73/1810)   Receiving objects:   5% (91/1810)   Receiving objects:   6% (109/1810)   Receiving objects:   7% (127/1810)   Receiving objects:   8% (145/1810)   Receiving objects:   9% (163/1810)   Receiving objects:  10% (181/1810)   Receiving objects:  11% (200/1810)   Receiving objects:  12% (218/1810)   Receiving objects:  13% (236/1810)   Receiving objects:  14% (254/1810)   Receiving objects:  15% (272/1810)   Receiving objects:  16% (290/1810)   Receiving objects:  17% (308/1810)   Receiving objects:  18% (326/1810)   Receiving objects:  19% (344/1810)   Receiving objects:  20% (362/1810)   Receiving objects:  21% (381/1810)   Receiving objects:  22% (399/1810)   Receiving objects:  23% (417/1810)   Receiving objects:  24% (435/1810)   Receiving objects:  25% (453/1810)   Receiving objects:  26% (471/1810)   Receiving objects:  27% (489/1810)   Receiving objects:  28% (507/1810)   Receiving objects:  29% (525/1810)   Receiving objects:  30% (543/1810)   Receiving objects:  31% (562/1810)   Receiving objects:  32% (580/1810)   Receiving objects:  33% (598/1810)   Receiving objects:  34% (616/1810)   Receiving objects:  35% (634/1810)   Receiving objects:  36% (652/1810)   Receiving objects:  37% (670/1810)   Receiving objects:  38% (688/1810)   Receiving objects:  39% (706/1810)   Receiving objects:  40% (724/1810)   Receiving objects:  41% (743/1810)   Receiving objects:  42% (761/1810)   Receiving objects:  43% (779/1810)   Receiving objects:  44% (797/1810)   Receiving objects:  45% (815/1810)   Receiving objects:  46% (833/1810)   Receiving objects:  47% (851/1810)   Receiving objects:  48% (869/1810)   Receiving objects:  49% (887/1810)   Receiving objects:  50% (905/1810)   Receiving objects:  51% (924/1810)   Receiving objects:  52% (942/1810)   Receiving objects:  53% (960/1810)   Receiving objects:  54% (978/1810)   Receiving objects:  55% (996/1810)   Receiving objects:  56% (1014/1810)   Receiving objects:  57% (1032/1810)   Receiving objects:  58% (1050/1810)   Receiving objects:  59% (1068/1810)   Receiving objects:  60% (1086/1810)   Receiving objects:  61% (1105/1810)   Receiving objects:  62% (1123/1810)   Receiving objects:  63% (1141/1810)   Receiving objects:  64% (1159/1810)   Receiving objects:  65% (1177/1810)   Receiving objects:  66% (1195/1810)   Receiving objects:  67% (1213/1810)   Receiving objects:  68% (1231/1810)   Receiving objects:  69% (1249/1810)   Receiving objects:  70% (1267/1810)   Receiving objects:  71% (1286/1810)   Receiving objects:  72% (1304/1810)   Receiving objects:  73% (1322/1810)   Receiving objects:  74% (1340/1810)   remote: Total 1810 (delta 500), reused 337 (delta 337), pack-reused 1159[K
-Receiving objects:  75% (1358/1810)   Receiving objects:  76% (1376/1810)   Receiving objects:  77% (1394/1810)   Receiving objects:  78% (1412/1810)   Receiving objects:  79% (1430/1810)   Receiving objects:  80% (1448/1810)   Receiving objects:  81% (1467/1810)   Receiving objects:  82% (1485/1810)   Receiving objects:  83% (1503/1810)   Receiving objects:  84% (1521/1810)   Receiving objects:  85% (1539/1810)   Receiving objects:  86% (1557/1810)   Receiving objects:  87% (1575/1810)   Receiving objects:  88% (1593/1810)   Receiving objects:  89% (1611/1810)   Receiving objects:  90% (1629/1810)   Receiving objects:  91% (1648/1810)   Receiving objects:  92% (1666/1810)   Receiving objects:  93% (1684/1810)   Receiving objects:  94% (1702/1810)   Receiving objects:  95% (1720/1810)   Receiving objects:  96% (1738/1810)   Receiving objects:  97% (1756/1810)   Receiving objects:  98% (1774/1810)   Receiving objects:  99% (1792/1810)   Receiving objects: 100% (1810/1810)   Receiving objects: 100% (1810/1810), 300.60 KiB | 0 bytes/s, done.
-Resolving deltas:   0% (0/828)   Resolving deltas:   1% (9/828)   Resolving deltas:   2% (18/828)   Resolving deltas:   5% (47/828)   Resolving deltas:   8% (70/828)   Resolving deltas:   9% (75/828)   Resolving deltas:  10% (84/828)   Resolving deltas:  11% (95/828)   Resolving deltas:  12% (100/828)   Resolving deltas:  13% (108/828)   Resolving deltas:  14% (117/828)   Resolving deltas:  15% (125/828)   Resolving deltas:  16% (133/828)   Resolving deltas:  17% (141/828)   Resolving deltas:  18% (150/828)   Resolving deltas:  19% (159/828)   Resolving deltas:  20% (169/828)   Resolving deltas:  21% (175/828)   Resolving deltas:  23% (193/828)   Resolving deltas:  24% (201/828)   Resolving deltas:  25% (207/828)   Resolving deltas:  31% (260/828)   Resolving deltas:  32% (266/828)   Resolving deltas:  33% (281/828)   Resolving deltas:  35% (290/828)   Resolving deltas:  36% (301/828)   Resolving deltas:  37% (308/828)   Resolving deltas:  38% (315/828)   Resolving deltas:  39% (327/828)   Resolving deltas:  40% (334/828)   Resolving deltas:  41% (341/828)   Resolving deltas:  42% (351/828)   Resolving deltas:  45% (375/828)   Resolving deltas:  46% (382/828)   Resolving deltas:  47% (392/828)   Resolving deltas:  48% (398/828)   Resolving deltas:  49% (406/828)   Resolving deltas:  50% (414/828)   Resolving deltas:  51% (423/828)   Resolving deltas:  66% (550/828)   Resolving deltas:  67% (555/828)   Resolving deltas:  68% (567/828)   Resolving deltas:  69% (572/828)   Resolving deltas:  70% (580/828)   Resolving deltas:  71% (590/828)   Resolving deltas:  72% (598/828)   Resolving deltas:  73% (608/828)   Resolving deltas:  74% (613/828)   Resolving deltas:  75% (622/828)   Resolving deltas:  76% (634/828)   Resolving deltas:  78% (651/828)   Resolving deltas:  79% (660/828)   Resolving deltas:  80% (667/828)   Resolving deltas: 100% (828/828)   Resolving deltas: 100% (828/828), done.
+remote: Counting objects: 1827, done.[K
+remote: Compressing objects:   0% (1/331)   [Kremote: Compressing objects:   1% (4/331)   [Kremote: Compressing objects:   2% (7/331)   [Kremote: Compressing objects:   3% (10/331)   [Kremote: Compressing objects:   4% (14/331)   [Kremote: Compressing objects:   5% (17/331)   [Kremote: Compressing objects:   6% (20/331)   [Kremote: Compressing objects:   7% (24/331)   [Kremote: Compressing objects:   8% (27/331)   [Kremote: Compressing objects:   9% (30/331)   [Kremote: Compressing objects:  10% (34/331)   [Kremote: Compressing objects:  11% (37/331)   [Kremote: Compressing objects:  12% (40/331)   [Kremote: Compressing objects:  13% (44/331)   [Kremote: Compressing objects:  14% (47/331)   [Kremote: Compressing objects:  15% (50/331)   [Kremote: Compressing objects:  16% (53/331)   [Kremote: Compressing objects:  17% (57/331)   [Kremote: Compressing objects:  18% (60/331)   [Kremote: Compressing objects:  19% (63/331)   [Kremote: Compressing objects:  20% (67/331)   [Kremote: Compressing objects:  21% (70/331)   [Kremote: Compressing objects:  22% (73/331)   [Kremote: Compressing objects:  23% (77/331)   [Kremote: Compressing objects:  24% (80/331)   [Kremote: Compressing objects:  25% (83/331)   [Kremote: Compressing objects:  26% (87/331)   [Kremote: Compressing objects:  27% (90/331)   [Kremote: Compressing objects:  28% (93/331)   [Kremote: Compressing objects:  29% (96/331)   [Kremote: Compressing objects:  30% (100/331)   [Kremote: Compressing objects:  31% (103/331)   [Kremote: Compressing objects:  32% (106/331)   [Kremote: Compressing objects:  33% (110/331)   [Kremote: Compressing objects:  34% (113/331)   [Kremote: Compressing objects:  35% (116/331)   [Kremote: Compressing objects:  36% (120/331)   [Kremote: Compressing objects:  37% (123/331)   [Kremote: Compressing objects:  38% (126/331)   [Kremote: Compressing objects:  39% (130/331)   [Kremote: Compressing objects:  40% (133/331)   [Kremote: Compressing objects:  41% (136/331)   [Kremote: Compressing objects:  42% (140/331)   [Kremote: Compressing objects:  43% (143/331)   [Kremote: Compressing objects:  44% (146/331)   [Kremote: Compressing objects:  45% (149/331)   [Kremote: Compressing objects:  46% (153/331)   [Kremote: Compressing objects:  47% (156/331)   [Kremote: Compressing objects:  48% (159/331)   [Kremote: Compressing objects:  49% (163/331)   [Kremote: Compressing objects:  50% (166/331)   [Kremote: Compressing objects:  51% (169/331)   [Kremote: Compressing objects:  52% (173/331)   [Kremote: Compressing objects:  53% (176/331)   [Kremote: Compressing objects:  54% (179/331)   [Kremote: Compressing objects:  55% (183/331)   [Kremote: Compressing objects:  56% (186/331)   [Kremote: Compressing objects:  57% (189/331)   [Kremote: Compressing objects:  58% (192/331)   [Kremote: Compressing objects:  59% (196/331)   [Kremote: Compressing objects:  60% (199/331)   [Kremote: Compressing objects:  61% (202/331)   [Kremote: Compressing objects:  62% (206/331)   [Kremote: Compressing objects:  63% (209/331)   [Kremote: Compressing objects:  64% (212/331)   [Kremote: Compressing objects:  65% (216/331)   [Kremote: Compressing objects:  66% (219/331)   [Kremote: Compressing objects:  67% (222/331)   [Kremote: Compressing objects:  68% (226/331)   [Kremote: Compressing objects:  69% (229/331)   [Kremote: Compressing objects:  70% (232/331)   [Kremote: Compressing objects:  71% (236/331)   [Kremote: Compressing objects:  72% (239/331)   [Kremote: Compressing objects:  73% (242/331)   [Kremote: Compressing objects:  74% (245/331)   [Kremote: Compressing objects:  75% (249/331)   [Kremote: Compressing objects:  76% (252/331)   [Kremote: Compressing objects:  77% (255/331)   [Kremote: Compressing objects:  78% (259/331)   [Kremote: Compressing objects:  79% (262/331)   [Kremote: Compressing objects:  80% (265/331)   [Kremote: Compressing objects:  81% (269/331)   [Kremote: Compressing objects:  82% (272/331)   [Kremote: Compressing objects:  83% (275/331)   [Kremote: Compressing objects:  84% (279/331)   [Kremote: Compressing objects:  85% (282/331)   [Kremote: Compressing objects:  86% (285/331)   [Kremote: Compressing objects:  87% (288/331)   [Kremote: Compressing objects:  88% (292/331)   [Kremote: Compressing objects:  89% (295/331)   [Kremote: Compressing objects:  90% (298/331)   [Kremote: Compressing objects:  91% (302/331)   [Kremote: Compressing objects:  92% (305/331)   [Kremote: Compressing objects:  93% (308/331)   [Kremote: Compressing objects:  94% (312/331)   [Kremote: Compressing objects:  95% (315/331)   [Kremote: Compressing objects:  96% (318/331)   [Kremote: Compressing objects:  97% (322/331)   [Kremote: Compressing objects:  98% (325/331)   [Kremote: Compressing objects:  99% (328/331)   [Kremote: Compressing objects: 100% (331/331)   [Kremote: Compressing objects: 100% (331/331), done.[K
+Receiving objects:   0% (1/1827)   Receiving objects:   1% (19/1827)   Receiving objects:   2% (37/1827)   Receiving objects:   3% (55/1827)   Receiving objects:   4% (74/1827)   Receiving objects:   5% (92/1827)   Receiving objects:   6% (110/1827)   Receiving objects:   7% (128/1827)   Receiving objects:   8% (147/1827)   Receiving objects:   9% (165/1827)   Receiving objects:  10% (183/1827)   Receiving objects:  11% (201/1827)   Receiving objects:  12% (220/1827)   Receiving objects:  13% (238/1827)   Receiving objects:  14% (256/1827)   Receiving objects:  15% (275/1827)   Receiving objects:  16% (293/1827)   Receiving objects:  17% (311/1827)   Receiving objects:  18% (329/1827)   Receiving objects:  19% (348/1827)   Receiving objects:  20% (366/1827)   Receiving objects:  21% (384/1827)   Receiving objects:  22% (402/1827)   Receiving objects:  23% (421/1827)   Receiving objects:  24% (439/1827)   Receiving objects:  25% (457/1827)   Receiving objects:  26% (476/1827)   Receiving objects:  27% (494/1827)   Receiving objects:  28% (512/1827)   Receiving objects:  29% (530/1827)   Receiving objects:  30% (549/1827)   Receiving objects:  31% (567/1827)   Receiving objects:  32% (585/1827)   Receiving objects:  33% (603/1827)   Receiving objects:  34% (622/1827)   Receiving objects:  35% (640/1827)   Receiving objects:  36% (658/1827)   Receiving objects:  37% (676/1827)   Receiving objects:  38% (695/1827)   Receiving objects:  39% (713/1827)   Receiving objects:  40% (731/1827)   Receiving objects:  41% (750/1827)   Receiving objects:  42% (768/1827)   Receiving objects:  43% (786/1827)   Receiving objects:  44% (804/1827)   Receiving objects:  45% (823/1827)   Receiving objects:  46% (841/1827)   Receiving objects:  47% (859/1827)   Receiving objects:  48% (877/1827)   Receiving objects:  49% (896/1827)   Receiving objects:  50% (914/1827)   Receiving objects:  51% (932/1827)   Receiving objects:  52% (951/1827)   Receiving objects:  53% (969/1827)   Receiving objects:  54% (987/1827)   Receiving objects:  55% (1005/1827)   Receiving objects:  56% (1024/1827)   Receiving objects:  57% (1042/1827)   Receiving objects:  58% (1060/1827)   Receiving objects:  59% (1078/1827)   Receiving objects:  60% (1097/1827)   Receiving objects:  61% (1115/1827)   Receiving objects:  62% (1133/1827)   Receiving objects:  63% (1152/1827)   Receiving objects:  64% (1170/1827)   Receiving objects:  65% (1188/1827)   Receiving objects:  66% (1206/1827)   Receiving objects:  67% (1225/1827)   Receiving objects:  68% (1243/1827)   Receiving objects:  69% (1261/1827)   Receiving objects:  70% (1279/1827)   Receiving objects:  71% (1298/1827)   Receiving objects:  72% (1316/1827)   Receiving objects:  73% (1334/1827)   Receiving objects:  74% (1352/1827)   Receiving objects:  75% (1371/1827)   remote: Total 1827 (delta 509), reused 337 (delta 337), pack-reused 1159[K
+Receiving objects:  76% (1389/1827)   Receiving objects:  77% (1407/1827)   Receiving objects:  78% (1426/1827)   Receiving objects:  79% (1444/1827)   Receiving objects:  80% (1462/1827)   Receiving objects:  81% (1480/1827)   Receiving objects:  82% (1499/1827)   Receiving objects:  83% (1517/1827)   Receiving objects:  84% (1535/1827)   Receiving objects:  85% (1553/1827)   Receiving objects:  86% (1572/1827)   Receiving objects:  87% (1590/1827)   Receiving objects:  88% (1608/1827)   Receiving objects:  89% (1627/1827)   Receiving objects:  90% (1645/1827)   Receiving objects:  91% (1663/1827)   Receiving objects:  92% (1681/1827)   Receiving objects:  93% (1700/1827)   Receiving objects:  94% (1718/1827)   Receiving objects:  95% (1736/1827)   Receiving objects:  96% (1754/1827)   Receiving objects:  97% (1773/1827)   Receiving objects:  98% (1791/1827)   Receiving objects:  99% (1809/1827)   Receiving objects: 100% (1827/1827)   Receiving objects: 100% (1827/1827), 305.80 KiB | 0 bytes/s, done.
+Resolving deltas:   0% (0/837)   Resolving deltas:   1% (9/837)   Resolving deltas:   2% (17/837)   Resolving deltas:   3% (26/837)   Resolving deltas:   5% (42/837)   Resolving deltas:   6% (52/837)   Resolving deltas:   8% (67/837)   Resolving deltas:   9% (80/837)   Resolving deltas:  10% (84/837)   Resolving deltas:  11% (94/837)   Resolving deltas:  12% (101/837)   Resolving deltas:  13% (109/837)   Resolving deltas:  14% (118/837)   Resolving deltas:  15% (126/837)   Resolving deltas:  16% (134/837)   Resolving deltas:  17% (145/837)   Resolving deltas:  19% (160/837)   Resolving deltas:  20% (168/837)   Resolving deltas:  21% (176/837)   Resolving deltas:  22% (185/837)   Resolving deltas:  25% (211/837)   Resolving deltas:  29% (243/837)   Resolving deltas:  31% (265/837)   Resolving deltas:  33% (280/837)   Resolving deltas:  39% (328/837)   Resolving deltas:  40% (336/837)   Resolving deltas:  41% (344/837)   Resolving deltas:  42% (355/837)   Resolving deltas:  43% (363/837)   Resolving deltas:  44% (371/837)   Resolving deltas:  45% (377/837)   Resolving deltas:  46% (386/837)   Resolving deltas:  47% (395/837)   Resolving deltas:  48% (402/837)   Resolving deltas:  49% (413/837)   Resolving deltas:  50% (421/837)   Resolving deltas:  53% (448/837)   Resolving deltas:  54% (453/837)   Resolving deltas:  68% (571/837)   Resolving deltas:  69% (578/837)   Resolving deltas:  70% (594/837)   Resolving deltas:  71% (600/837)   Resolving deltas:  72% (606/837)   Resolving deltas:  73% (615/837)   Resolving deltas:  74% (621/837)   Resolving deltas:  75% (628/837)   Resolving deltas:  77% (646/837)   Resolving deltas:  78% (653/837)   Resolving deltas:  80% (672/837)   Resolving deltas:  82% (691/837)   Resolving deltas:  83% (696/837)   Resolving deltas:  84% (704/837)   Resolving deltas: 100% (837/837)   Resolving deltas: 100% (837/837), done.
 From git://github.com/ocaml/opam-repository
-   1bc2a58..92c4981  master     -> origin/master
-Updating 1bc2a58..92c4981
+   1bc2a58..ec73704  master     -> origin/master
+Updating 1bc2a58..ec73704
 Fast-forward
- .travis-ci-install.sh                              |  1 [32m+[m
- .travis-ci.sh                                      |  7 [32m++[m[31m-[m
- .travis.yml                                        |  6 [32m++[m
- compilers/4.02.1/4.02.1+32bit/4.02.1+32bit.comp    |  2 [32m+[m[31m-[m
- .../4.03.0+pr103.comp}                             |  2 [32m+[m[31m-[m
- compilers/4.03.0/4.03.0+pr103/4.03.0+pr103.descr   |  1 [32m+[m
- .../4.03.0+pr138.comp}                             |  2 [32m+[m[31m-[m
- compilers/4.03.0/4.03.0+pr138/4.03.0+pr138.descr   |  1 [32m+[m
- compilers/4.03.0/4.03.0+pr139/4.03.0+pr139.comp    | 11 [32m++++[m
- compilers/4.03.0/4.03.0+pr139/4.03.0+pr139.descr   |  1 [32m+[m
- .../4.03.0+pr140.comp}                             |  2 [32m+[m[31m-[m
- compilers/4.03.0/4.03.0+pr140/4.03.0+pr140.descr   |  1 [32m+[m
- compilers/4.03.0/4.03.0+pr141/4.03.0+pr141.comp    | 11 [32m++++[m
- compilers/4.03.0/4.03.0+pr141/4.03.0+pr141.descr   |  1 [32m+[m
- .../4.03.0+pr144.comp}                             |  2 [32m+[m[31m-[m
- compilers/4.03.0/4.03.0+pr144/4.03.0+pr144.descr   |  1 [32m+[m
- compilers/4.03.0/4.03.0+pr145/4.03.0+pr145.comp    | 11 [32m++++[m
- compilers/4.03.0/4.03.0+pr145/4.03.0+pr145.descr   |  1 [32m+[m
- .../4.03.0+pr146.comp}                             |  2 [32m+[m[31m-[m
- compilers/4.03.0/4.03.0+pr146/4.03.0+pr146.descr   |  1 [32m+[m
- compilers/4.03.0/4.03.0+pr65/4.03.0+pr65.descr     |  1 [31m-[m
- compilers/4.03.0/4.03.0+pr68/4.03.0+pr68.descr     |  1 [31m-[m
- compilers/4.03.0/4.03.0+pr71/4.03.0+pr71.descr     |  1 [31m-[m
- compilers/4.03.0/4.03.0+pr76/4.03.0+pr76.descr     |  1 [31m-[m
- compilers/4.03.0/4.03.0+pr78/4.03.0+pr78.comp      | 11 [31m----[m
- compilers/4.03.0/4.03.0+pr78/4.03.0+pr78.descr     |  1 [31m-[m
- compilers/4.03.0/4.03.0+pr80/4.03.0+pr80.descr     |  1 [31m-[m
- compilers/4.03.0/4.03.0+pr92/4.03.0+pr92.comp      | 11 [31m----[m
- compilers/4.03.0/4.03.0+pr92/4.03.0+pr92.descr     |  1 [31m-[m
- compilers/4.03.0/4.03.0+pr98/4.03.0+pr98.comp      | 11 [31m----[m
- compilers/4.03.0/4.03.0+pr98/4.03.0+pr98.descr     |  1 [31m-[m
- packages/ISO8601/ISO8601.0.1.2/descr               |  1 [32m+[m
- packages/ISO8601/ISO8601.0.1.2/findlib             |  1 [32m+[m
- packages/ISO8601/ISO8601.0.1.2/opam                | 29 [32m++++++++++[m
- packages/ISO8601/ISO8601.0.1.2/url                 |  2 [32m+[m
- packages/acpc/acpc.1.2.1/descr                     |  1 [32m+[m
- packages/acpc/acpc.1.2.1/opam                      | 51 [32m+++++++++++++++++[m
- packages/acpc/acpc.1.2.1/url                       |  2 [32m+[m
- packages/acpc/acpc.1.2.2/descr                     |  1 [32m+[m
- packages/acpc/acpc.1.2.2/opam                      | 51 [32m+++++++++++++++++[m
- packages/acpc/acpc.1.2.2/url                       |  2 [32m+[m
- packages/ago/ago.0.2/descr                         |  5 [32m++[m
- packages/ago/ago.0.2/opam                          | 13 [32m+++++[m
- packages/ago/ago.0.2/url                           |  2 [32m+[m
- packages/async/async.112.17.00/descr               |  5 [32m++[m
- packages/async/async.112.17.00/findlib             |  1 [32m+[m
- packages/async/async.112.17.00/opam                | 16 [32m++++++[m
- packages/async/async.112.17.00/url                 |  2 [32m+[m
- .../async_extended/async_extended.112.17.00/descr  |  4 [32m++[m
- .../async_extended.112.17.00/findlib               |  1 [32m+[m
- .../async_extended/async_extended.112.17.00/opam   | 20 [32m+++++++[m
- .../async_extended/async_extended.112.17.00/url    |  2 [32m+[m
- packages/async_extra/async_extra.112.17.00/descr   |  5 [32m++[m
- packages/async_extra/async_extra.112.17.00/findlib |  1 [32m+[m
- packages/async_extra/async_extra.112.17.00/opam    | 21 [32m+++++++[m
- packages/async_extra/async_extra.112.17.00/url     |  2 [32m+[m
- packages/async_find/async_find.111.28.00/opam      |  4 [32m+[m[31m-[m
- .../async_inotify/async_inotify.111.28.00/opam     |  4 [32m+[m[31m-[m
- packages/async_kernel/async_kernel.112.17.00/descr |  5 [32m++[m
- .../async_kernel/async_kernel.112.17.00/findlib    |  1 [32m+[m
- packages/async_kernel/async_kernel.112.17.00/opam  | 20 [32m+++++++[m
- packages/async_kernel/async_kernel.112.17.00/url   |  2 [32m+[m
- .../async_parallel/async_parallel.112.17.00/descr  |  3 [32m+[m
- .../async_parallel.112.17.00/findlib               |  1 [32m+[m
- .../async_parallel/async_parallel.112.17.00/opam   | 17 [32m++++++[m
- .../async_parallel/async_parallel.112.17.00/url    |  2 [32m+[m
- packages/async_shell/async_shell.109.28.03/opam    |  4 [32m+[m[31m-[m
- packages/async_smtp/async_smtp.109.38.alpha1/opam  |  6 [32m+[m[31m-[m
- packages/async_smtp/async_smtp.112.17.00/descr     |  1 [32m+[m
- packages/async_smtp/async_smtp.112.17.00/findlib   |  1 [32m+[m
- packages/async_smtp/async_smtp.112.17.00/opam      | 11 [32m++++[m
- packages/async_smtp/async_smtp.112.17.00/url       |  2 [32m+[m
- packages/async_ssl/async_ssl.112.17.00/descr       |  4 [32m++[m
- packages/async_ssl/async_ssl.112.17.00/findlib     |  1 [32m+[m
- packages/async_ssl/async_ssl.112.17.00/opam        | 20 [32m+++++++[m
- packages/async_ssl/async_ssl.112.17.00/url         |  2 [32m+[m
- packages/async_unix/async_unix.112.17.00/descr     |  5 [32m++[m
- packages/async_unix/async_unix.112.17.00/findlib   |  1 [32m+[m
- packages/async_unix/async_unix.112.17.00/opam      | 23 [32m++++++++[m
- packages/async_unix/async_unix.112.17.00/url       |  2 [32m+[m
- packages/bap/bap.0.9.1/opam                        |  6 [32m+[m[31m-[m
- packages/bap/bap.0.9.2/descr                       |  7 [32m+++[m
- packages/bap/bap.0.9.2/opam                        | 37 [32m+++++++++++++[m
- packages/bap/bap.0.9.2/url                         |  2 [32m+[m
- packages/bap/bap.0.9.3/descr                       |  7 [32m+++[m
- packages/bap/bap.0.9.3/opam                        | 46 [32m++++++++++++++++[m
- packages/bap/bap.0.9.3/url                         |  2 [32m+[m
- packages/base64/base64.1.0.0/opam                  |  4 [32m++[m
- packages/base64/base64.1.1.0/opam                  |  4 [32m++[m
- packages/bignum/bignum.112.17.00/descr             |  1 [32m+[m
- packages/bignum/bignum.112.17.00/findlib           |  1 [32m+[m
- packages/bignum/bignum.112.17.00/opam              | 18 [32m++++++[m
- packages/bignum/bignum.112.17.00/url               |  2 [32m+[m
- packages/bin_prot/bin_prot.112.06.01/descr         |  5 [32m++[m
- packages/bin_prot/bin_prot.112.06.01/findlib       |  1 [32m+[m
- packages/bin_prot/bin_prot.112.06.01/opam          | 13 [32m+++++[m
- packages/bin_prot/bin_prot.112.06.01/url           |  2 [32m+[m
- packages/bin_prot/bin_prot.112.17.00/descr         |  5 [32m++[m
- packages/bin_prot/bin_prot.112.17.00/findlib       |  1 [32m+[m
- packages/bin_prot/bin_prot.112.17.00/opam          | 13 [32m+++++[m
- packages/bin_prot/bin_prot.112.17.00/url           |  2 [32m+[m
- packages/bitcoin/bitcoin.1.0/opam                  |  2 [32m+[m[31m-[m
- packages/bitcoin/bitcoin.1.1.1/opam                |  2 [32m+[m[31m-[m
- packages/bitcoin/bitcoin.1.1/opam                  |  2 [32m+[m[31m-[m
- packages/bookaml/bookaml.1.0/opam                  |  2 [32m+[m[31m-[m
- packages/bookaml/bookaml.2.0/descr                 |  5 [32m++[m
- packages/bookaml/bookaml.2.0/findlib               |  1 [32m+[m
- packages/bookaml/bookaml.2.0/opam                  | 27 [32m+++++++++[m
- packages/bookaml/bookaml.2.0/url                   |  2 [32m+[m
- packages/bt/bt.0.1.2/opam                          |  2 [32m+[m[31m-[m
- packages/bt/bt.0.2/opam                            |  2 [32m+[m[31m-[m
- packages/cmdliner/cmdliner.0.9.7/descr             | 17 [32m++++++[m
- .../cmdliner.0.9.7/files/backport_pre_4_00_0.patch | 30 [32m++++++++++[m
- packages/cmdliner/cmdliner.0.9.7/opam              | 17 [32m++++++[m
- packages/cmdliner/cmdliner.0.9.7/url               |  2 [32m+[m
- packages/cohttp/cohttp.0.15.2/descr                |  9 [32m+++[m
- packages/cohttp/cohttp.0.15.2/opam                 | 60 [32m++++++++++++++++++++[m
- packages/cohttp/cohttp.0.15.2/url                  |  2 [32m+[m
- packages/cohttp/cohttp.0.9.14/opam                 | 15 [32m+++[m[31m--[m
- packages/cohttp/cohttp.0.9.15/opam                 | 14 [32m+++[m[31m--[m
- packages/cohttp/cohttp.0.9.16/opam                 | 10 [32m+++[m[31m-[m
- packages/conf-gnutls/conf-gnutls.1/descr           |  2 [32m+[m
- packages/conf-gnutls/conf-gnutls.1/opam            |  7 [32m+++[m
- packages/conf-gssapi/conf-gssapi.1/descr           |  2 [32m+[m
- packages/conf-gssapi/conf-gssapi.1/opam            |  7 [32m+++[m
- packages/core/core.112.17.00/descr                 |  4 [32m++[m
- packages/core/core.112.17.00/files/core.install    |  1 [32m+[m
- packages/core/core.112.17.00/findlib               |  1 [32m+[m
- packages/core/core.112.17.00/opam                  | 27 [32m+++++++++[m
- packages/core/core.112.17.00/url                   |  2 [32m+[m
- packages/core_bench/core_bench.112.17.00/descr     |  1 [32m+[m
- packages/core_bench/core_bench.112.17.00/findlib   |  1 [32m+[m
- packages/core_bench/core_bench.112.17.00/opam      | 16 [32m++++++[m
- packages/core_bench/core_bench.112.17.00/url       |  2 [32m+[m
- .../core_extended/core_extended.112.17.00/descr    |  4 [32m++[m
- .../files/openbsd-quota-disable.diff               | 64 [32m++++++++++++++++++++++[m
- .../core_extended/core_extended.112.17.00/findlib  |  1 [32m+[m
- .../core_extended/core_extended.112.17.00/opam     | 25 [32m+++++++++[m
- packages/core_extended/core_extended.112.17.00/url |  2 [32m+[m
- packages/core_kernel/core_kernel.112.17.00/descr   |  6 [32m++[m
- packages/core_kernel/core_kernel.112.17.00/findlib |  1 [32m+[m
- packages/core_kernel/core_kernel.112.17.00/opam    | 25 [32m+++++++++[m
- packages/core_kernel/core_kernel.112.17.00/url     |  2 [32m+[m
- packages/cow/cow.1.2.0/descr                       | 17 [32m++++++[m
- packages/cow/cow.1.2.0/opam                        | 37 [32m+++++++++++++[m
- packages/cow/cow.1.2.0/url                         |  2 [32m+[m
- .../custom_printf/custom_printf.112.17.00/descr    |  4 [32m++[m
- .../custom_printf/custom_printf.112.17.00/findlib  |  1 [32m+[m
- .../custom_printf/custom_printf.112.17.00/opam     | 13 [32m+++++[m
- packages/custom_printf/custom_printf.112.17.00/url |  2 [32m+[m
- packages/depext/depext.0.3/opam                    |  9 [32m++[m[31m-[m
- packages/dns/dns.0.10.0/opam                       |  5 [32m+[m[31m-[m
- packages/dns/dns.0.11.0/opam                       |  1 [32m+[m
- packages/dns/dns.0.12.0/opam                       |  1 [32m+[m
- packages/dns/dns.0.13.0/opam                       |  1 [32m+[m
- packages/dns/dns.0.14.0/descr                      |  5 [32m++[m
- packages/dns/dns.0.14.0/findlib                    |  1 [32m+[m
- packages/dns/dns.0.14.0/opam                       | 46 [32m++++++++++++++++[m
- packages/dns/dns.0.14.0/url                        |  2 [32m+[m
- packages/dns/dns.0.9.0/opam                        |  2 [32m+[m[31m-[m
- packages/dns/dns.0.9.1/opam                        |  2 [32m+[m[31m-[m
- packages/dnscurve/dnscurve.0.3.0/descr             |  3 [32m+[m
- packages/dnscurve/dnscurve.0.3.0/findlib           |  1 [32m+[m
- packages/dnscurve/dnscurve.0.3.0/opam              | 15 [32m+++++[m
- packages/dnscurve/dnscurve.0.3.0/url               |  2 [32m+[m
- packages/dog/dog.0.1.0/descr                       |  1 [32m+[m
- packages/dog/dog.0.1.0/opam                        | 28 [32m++++++++++[m
- packages/dog/dog.0.1.0/url                         |  2 [32m+[m
- packages/dose/dose.3.1.2/opam                      |  2 [32m+[m[31m-[m
- packages/dose/dose.3.2-rc2/opam                    |  2 [32m+[m[31m-[m
- packages/dose/dose.3.2.2+opam/opam                 |  2 [32m+[m[31m-[m
- packages/dose/dose.3.2.2/opam                      |  2 [32m+[m[31m-[m
- ...d-failure-cases-in-favor-of-finer-diagnos.patch | 28 [32m++++++++++[m
- packages/dose/dose.3.3/opam                        |  3 [32m+[m[31m-[m
- packages/dumpast/dumpast.0.2.0/descr               | 11 [32m++++[m
- packages/dumpast/dumpast.0.2.0/opam                | 15 [32m+++++[m
- packages/dumpast/dumpast.0.2.0/url                 |  2 [32m+[m
- .../email_message/email_message.109.42.alpha1/opam | 14 [32m++[m[31m---[m
- .../email_message/email_message.112.17.00/descr    |  1 [32m+[m
- .../email_message/email_message.112.17.00/findlib  |  1 [32m+[m
- .../email_message/email_message.112.17.00/opam     | 16 [32m++++++[m
- packages/email_message/email_message.112.17.00/url |  2 [32m+[m
- packages/ezjsonm/ezjsonm.0.4.1/descr               |  9 [32m+++[m
- packages/ezjsonm/ezjsonm.0.4.1/opam                | 24 [32m++++++++[m
- packages/ezjsonm/ezjsonm.0.4.1/url                 |  2 [32m+[m
- packages/faillib/faillib.111.17.00/opam            |  2 [32m+[m[31m-[m
- packages/fat-filesystem/fat-filesystem.0.10.1/opam |  2 [32m+[m[31m-[m
- .../fat-filesystem/fat-filesystem.0.10.2/descr     |  4 [32m++[m
- .../fat-filesystem/fat-filesystem.0.10.2/findlib   |  1 [32m+[m
- packages/fat-filesystem/fat-filesystem.0.10.2/opam | 21 [32m+++++++[m
- packages/fat-filesystem/fat-filesystem.0.10.2/url  |  2 [32m+[m
- packages/flowtype/flowtype.0.3.0/descr             | 15 [32m+++++[m
- .../flowtype/flowtype.0.3.0/files/flowtype.install |  1 [32m+[m
- packages/flowtype/flowtype.0.3.0/opam              | 15 [32m+++++[m
- packages/flowtype/flowtype.0.3.0/url               |  2 [32m+[m
- packages/flowtype/flowtype.0.4.0/descr             | 15 [32m+++++[m
- .../flowtype/flowtype.0.4.0/files/flowtype.install |  1 [32m+[m
- packages/flowtype/flowtype.0.4.0/opam              | 15 [32m+++++[m
- packages/flowtype/flowtype.0.4.0/url               |  2 [32m+[m
- packages/frenetic/frenetic.3.2.0/descr             |  1 [32m+[m
- packages/frenetic/frenetic.3.2.0/findlib           |  1 [32m+[m
- packages/frenetic/frenetic.3.2.0/opam              | 30 [32m++++++++++[m
- packages/frenetic/frenetic.3.2.0/url               |  3 [32m+[m
- packages/frenetic/frenetic.3.3.0/descr             |  1 [32m+[m
- packages/frenetic/frenetic.3.3.0/findlib           |  1 [32m+[m
- packages/frenetic/frenetic.3.3.0/opam              | 32 [32m+++++++++++[m
- packages/frenetic/frenetic.3.3.0/url               |  3 [32m+[m
- packages/fstreams/fstreams.0.2.1/descr             | 16 [32m++++++[m
- packages/fstreams/fstreams.0.2.1/opam              | 14 [32m+++++[m
- packages/fstreams/fstreams.0.2.1/url               |  2 [32m+[m
- packages/git/git.1.4.10/descr                      | 17 [32m++++++[m
- packages/git/git.1.4.10/opam                       | 48 [32m++++++++++++++++[m
- packages/git/git.1.4.10/url                        |  2 [32m+[m
- packages/git/git.1.4.6/descr                       | 17 [32m++++++[m
- packages/git/git.1.4.6/opam                        | 42 [32m++++++++++++++[m
- packages/git/git.1.4.6/url                         |  2 [32m+[m
- packages/git/git.1.4.7/descr                       | 17 [32m++++++[m
- packages/git/git.1.4.7/opam                        | 42 [32m++++++++++++++[m
- packages/git/git.1.4.7/url                         |  2 [32m+[m
- packages/git/git.1.4.8/descr                       | 17 [32m++++++[m
- packages/git/git.1.4.8/opam                        | 42 [32m++++++++++++++[m
- packages/git/git.1.4.8/url                         |  2 [32m+[m
- packages/git/git.1.4.9/descr                       | 17 [32m++++++[m
- packages/git/git.1.4.9/opam                        | 42 [32m++++++++++++++[m
- packages/git/git.1.4.9/url                         |  2 [32m+[m
- .../google-drive-ocamlfuse.0.5.13/descr            |  4 [32m++[m
- .../google-drive-ocamlfuse.0.5.13/opam             | 19 [32m+++++++[m
- .../google-drive-ocamlfuse.0.5.13/url              |  2 [32m+[m
- packages/gpx/gpx.1.0.1/descr                       |  5 [32m++[m
- packages/gpx/gpx.1.0.1/opam                        | 26 [32m+++++++++[m
- packages/gpx/gpx.1.0.1/url                         |  2 [32m+[m
- packages/gpx/gpx.1.0.2/descr                       |  5 [32m++[m
- packages/gpx/gpx.1.0.2/opam                        | 26 [32m+++++++++[m
- packages/gpx/gpx.1.0.2/url                         |  2 [32m+[m
- packages/gpx/gpx.1.1.0/descr                       |  5 [32m++[m
- packages/gpx/gpx.1.1.0/opam                        | 31 [32m+++++++++++[m
- packages/gpx/gpx.1.1.0/url                         |  2 [32m+[m
- packages/gsl/gsl.1.18.2/descr                      |  3 [32m+[m
- packages/gsl/gsl.1.18.2/findlib                    |  1 [32m+[m
- packages/gsl/gsl.1.18.2/opam                       | 29 [32m++++++++++[m
- packages/gsl/gsl.1.18.2/url                        |  2 [32m+[m
- packages/hevea/hevea.2.21/descr                    |  1 [32m+[m
- packages/hevea/hevea.2.21/opam                     | 13 [32m+++++[m
- packages/hevea/hevea.2.21/url                      |  2 [32m+[m
- packages/io-page/io-page.1.4.0/descr               |  1 [32m+[m
- packages/io-page/io-page.1.4.0/findlib             |  1 [32m+[m
- packages/io-page/io-page.1.4.0/opam                | 23 [32m++++++++[m
- packages/io-page/io-page.1.4.0/url                 |  2 [32m+[m
- packages/ipaddr/ipaddr.2.6.0/descr                 | 23 [32m++++++++[m
- packages/ipaddr/ipaddr.2.6.0/opam                  | 30 [32m++++++++++[m
- packages/ipaddr/ipaddr.2.6.0/url                   |  2 [32m+[m
- packages/ipaddr/ipaddr.2.6.1/descr                 | 23 [32m++++++++[m
- packages/ipaddr/ipaddr.2.6.1/opam                  | 29 [32m++++++++++[m
- packages/ipaddr/ipaddr.2.6.1/url                   |  2 [32m+[m
- packages/irmin/irmin.0.7.0/opam                    |  2 [32m+[m[31m-[m
- packages/irmin/irmin.0.8.0/opam                    |  2 [32m+[m[31m-[m
- packages/irmin/irmin.0.8.1/opam                    |  2 [32m+[m[31m-[m
- packages/irmin/irmin.0.8.2/opam                    |  2 [32m+[m[31m-[m
- packages/irmin/irmin.0.9.0/opam                    |  4 [32m+[m[31m-[m
- packages/irmin/irmin.0.9.1/opam                    |  6 [32m+[m[31m-[m
- packages/irmin/irmin.0.9.2/opam                    |  7 [32m++[m[31m-[m
- packages/irmin/irmin.0.9.3/descr                   |  9 [32m+++[m
- packages/irmin/irmin.0.9.3/opam                    | 45 [32m+++++++++++++++[m
- packages/irmin/irmin.0.9.3/url                     |  2 [32m+[m
- packages/jenga/jenga.112.17.00/descr               |  1 [32m+[m
- packages/jenga/jenga.112.17.00/files/jenga.install |  6 [32m++[m
- packages/jenga/jenga.112.17.00/findlib             |  1 [32m+[m
- packages/jenga/jenga.112.17.00/opam                | 26 [32m+++++++++[m
- packages/jenga/jenga.112.17.00/url                 |  2 [32m+[m
- packages/js_of_ocaml/js_of_ocaml.1.2/opam          |  1 [32m+[m
- packages/js_of_ocaml/js_of_ocaml.1.3.1/opam        |  1 [32m+[m
- packages/js_of_ocaml/js_of_ocaml.1.3.2/opam        |  1 [32m+[m
- packages/js_of_ocaml/js_of_ocaml.1.4.0/opam        |  1 [32m+[m
- packages/js_of_ocaml/js_of_ocaml.2.0/opam          |  1 [32m+[m
- packages/js_of_ocaml/js_of_ocaml.2.1/opam          |  1 [32m+[m
- packages/js_of_ocaml/js_of_ocaml.2.2/opam          |  1 [32m+[m
- packages/js_of_ocaml/js_of_ocaml.2.3/opam          |  1 [32m+[m
- packages/js_of_ocaml/js_of_ocaml.2.4.1/opam        |  1 [32m+[m
- packages/js_of_ocaml/js_of_ocaml.2.4/opam          |  1 [32m+[m
- packages/js_of_ocaml/js_of_ocaml.2.5/opam          |  1 [32m+[m
- packages/kinetic-client/kinetic-client.0.0.3/descr |  2 [32m+[m
- packages/kinetic-client/kinetic-client.0.0.3/opam  | 24 [32m++++++++[m
- packages/kinetic-client/kinetic-client.0.0.3/url   |  2 [32m+[m
- packages/libres3/libres3.0.1/opam                  |  2 [32m+[m[31m-[m
- packages/libres3/libres3.0.2/opam                  |  2 [32m+[m[31m-[m
- packages/libres3/libres3.0.3/opam                  |  2 [32m+[m[31m-[m
- packages/libres3/libres3.0.9/opam                  |  4 [32m+[m[31m-[m
- packages/libres3/libres3.1.0/opam                  |  2 [32m+[m[31m-[m
- packages/llvm/llvm.3.1/descr                       |  4 [32m+[m[31m-[m
- packages/lz4/lz4.1.0.0/opam                        |  2 [32m+[m[31m-[m
- packages/macaroons/macaroons.0.1.0/descr           | 12 [32m++++[m
- packages/macaroons/macaroons.0.1.0/opam            | 24 [32m++++++++[m
- packages/macaroons/macaroons.0.1.0/url             |  2 [32m+[m
- packages/magic-mime/magic-mime.1.0.0/descr         | 21 [32m+++++++[m
- packages/magic-mime/magic-mime.1.0.0/opam          | 14 [32m+++++[m
- packages/magic-mime/magic-mime.1.0.0/url           |  2 [32m+[m
- packages/merlin/merlin.2.1.1/descr                 |  1 [32m+[m
- packages/merlin/merlin.2.1.1/opam                  | 45 [32m+++++++++++++++[m
- packages/merlin/merlin.2.1.1/url                   |  2 [32m+[m
- .../mirage-block-xen/mirage-block-xen.1.1.0/opam   |  2 [32m+[m[31m-[m
- .../mirage-block-xen/mirage-block-xen.1.2.0/opam   |  2 [32m+[m[31m-[m
- .../mirage-block-xen/mirage-block-xen.1.3.0/descr  |  6 [32m++[m
- .../mirage-block-xen/mirage-block-xen.1.3.0/opam   | 25 [32m+++++++++[m
- .../mirage-block-xen/mirage-block-xen.1.3.0/url    |  2 [32m+[m
- packages/mirage-dns/mirage-dns.2.0.0/opam          |  1 [32m+[m
- .../mirage-http-unix/mirage-http-unix.1.0.0/opam   |  2 [32m+[m[31m-[m
- .../mirage-http-xen/mirage-http-xen.1.0.0/opam     |  2 [32m+[m[31m-[m
- .../mirage-net-unix/mirage-net-unix.2.1.0/descr    |  1 [32m+[m
- .../mirage-net-unix/mirage-net-unix.2.1.0/findlib  |  1 [32m+[m
- .../mirage-net-unix/mirage-net-unix.2.1.0/opam     | 17 [32m++++++[m
- packages/mirage-net-unix/mirage-net-unix.2.1.0/url |  2 [32m+[m
- .../mirage-xen-minios.0.7.0/descr                  |  4 [32m++[m
- .../mirage-xen-minios/mirage-xen-minios.0.7.0/opam | 10 [32m++++[m
- .../mirage-xen-minios/mirage-xen-minios.0.7.0/url  |  2 [32m+[m
- packages/mirage-xen/mirage-xen.2.2.0/opam          |  2 [32m+[m[31m-[m
- packages/mirage-xen/mirage-xen.2.2.1/opam          |  2 [32m+[m[31m-[m
- packages/mirage/mirage.2.2.0/opam                  |  2 [32m+[m[31m-[m
- packages/mirage/mirage.2.2.1/descr                 | 10 [32m++++[m
- packages/mirage/mirage.2.2.1/opam                  | 36 [32m++++++++++++[m
- packages/mirage/mirage.2.2.1/url                   |  2 [32m+[m
- packages/msgpack/msgpack.1.1.0/descr               |  4 [32m++[m
- packages/msgpack/msgpack.1.1.0/opam                | 17 [32m++++++[m
- packages/msgpack/msgpack.1.1.0/url                 |  2 [32m+[m
- packages/msgpack/msgpack.1.1.1/descr               |  4 [32m++[m
- packages/msgpack/msgpack.1.1.1/opam                | 17 [32m++++++[m
- packages/msgpack/msgpack.1.1.1/url                 |  2 [32m+[m
- packages/nbd/nbd.1.0.1/opam                        |  1 [32m+[m
- packages/nbd/nbd.1.0.2/opam                        |  3 [32m+[m[31m-[m
- packages/nocrypto/nocrypto.0.3.1/descr             |  6 [32m++[m
- packages/nocrypto/nocrypto.0.3.1/findlib           |  1 [32m+[m
- packages/nocrypto/nocrypto.0.3.1/opam              | 32 [32m+++++++++++[m
- packages/nocrypto/nocrypto.0.3.1/url               |  2 [32m+[m
- packages/ocaml_plugin/ocaml_plugin.112.17.00/descr |  1 [32m+[m
- .../ocaml_plugin/ocaml_plugin.112.17.00/findlib    |  1 [32m+[m
- packages/ocaml_plugin/ocaml_plugin.112.17.00/opam  | 17 [32m++++++[m
- packages/ocaml_plugin/ocaml_plugin.112.17.00/url   |  2 [32m+[m
- packages/ocamlgraph/ocamlgraph.1.8.6/descr         |  1 [32m+[m
- .../ocamlgraph.1.8.6/files/ocamlgraph.install      |  6 [32m++[m
- packages/ocamlgraph/ocamlgraph.1.8.6/findlib       |  1 [32m+[m
- packages/ocamlgraph/ocamlgraph.1.8.6/opam          | 31 [32m+++++++++++[m
- packages/ocamlgraph/ocamlgraph.1.8.6/url           |  2 [32m+[m
- packages/ocamlnet/ocamlnet.4.0.1/descr             |  9 [32m+++[m
- .../ocamlnet/ocamlnet.4.0.1/files/ocamlnet.install |  4 [32m++[m
- packages/ocamlnet/ocamlnet.4.0.1/opam              | 45 [32m+++++++++++++++[m
- packages/ocamlnet/ocamlnet.4.0.1/url               |  2 [32m+[m
- packages/ocamltter/ocamltter.4.0.0/opam            |  2 [32m+[m[31m-[m
- packages/ocamltter/ocamltter.4.0.1/descr           | 23 [32m++++++++[m
- packages/ocamltter/ocamltter.4.0.1/opam            | 22 [32m++++++++[m
- packages/ocamltter/ocamltter.4.0.1/url             |  2 [32m+[m
- packages/ocp-build/ocp-build.1.99.8-beta/url       |  4 [32m+[m[31m-[m
- packages/ocp-manager/ocp-manager.0.1.2/url         |  4 [32m+[m[31m-[m
- packages/ocp-manager/ocp-manager.0.1.3/url         |  4 [32m+[m[31m-[m
- packages/ocveralls/ocveralls.0.1.0/descr           |  1 [32m+[m
- packages/ocveralls/ocveralls.0.1.0/findlib         |  1 [32m+[m
- packages/ocveralls/ocveralls.0.1.0/opam            | 20 [32m+++++++[m
- packages/ocveralls/ocveralls.0.1.0/url             |  2 [32m+[m
- packages/ocveralls/ocveralls.0.2.0/descr           |  3 [32m+[m
- packages/ocveralls/ocveralls.0.2.0/findlib         |  1 [32m+[m
- packages/ocveralls/ocveralls.0.2.0/opam            | 20 [32m+++++++[m
- packages/ocveralls/ocveralls.0.2.0/url             |  2 [32m+[m
- packages/ojquery/ojquery.0.1/opam                  |  3 [32m+[m
- packages/openflow/openflow.0.8.0/descr             |  5 [32m++[m
- packages/openflow/openflow.0.8.0/findlib           |  1 [32m+[m
- packages/openflow/openflow.0.8.0/opam              | 27 [32m+++++++++[m
- packages/openflow/openflow.0.8.0/url               |  2 [32m+[m
- packages/openflow/openflow.0.9.0/descr             |  5 [32m++[m
- packages/openflow/openflow.0.9.0/findlib           |  1 [32m+[m
- packages/openflow/openflow.0.9.0/opam              | 27 [32m+++++++++[m
- packages/openflow/openflow.0.9.0/url               |  2 [32m+[m
- packages/opium/opium.0.13.0/descr                  | 11 [32m++++[m
- packages/opium/opium.0.13.0/opam                   | 47 [32m++++++++++++++++[m
- packages/opium/opium.0.13.0/url                    |  2 [32m+[m
- packages/orakuda/orakuda.2.0.0/opam                |  3 [32m+[m[31m-[m
- packages/orakuda/orakuda.2.0.0/url                 |  1 [32m+[m
- packages/pa_bench/pa_bench.112.06.00/opam          |  2 [32m+[m[31m-[m
- packages/pa_ounit/pa_ounit.112.17.00/descr         |  8 [32m+++[m
- packages/pa_ounit/pa_ounit.112.17.00/findlib       |  1 [32m+[m
- packages/pa_ounit/pa_ounit.112.17.00/opam          | 12 [32m++++[m
- packages/pa_ounit/pa_ounit.112.17.00/url           |  2 [32m+[m
- packages/pa_test/pa_test.111.08.01/opam            |  2 [32m+[m[31m-[m
- packages/packet/packet.0.4.0/descr                 |  4 [32m++[m
- packages/packet/packet.0.4.0/findlib               |  1 [32m+[m
- packages/packet/packet.0.4.0/opam                  | 26 [32m+++++++++[m
- packages/packet/packet.0.4.0/url                   |  2 [32m+[m
- packages/parmap/parmap.1.0-rc6/descr               |  8 [32m+++[m
- packages/parmap/parmap.1.0-rc6/findlib             |  1 [32m+[m
- packages/parmap/parmap.1.0-rc6/opam                | 23 [32m++++++++[m
- packages/parmap/parmap.1.0-rc6/url                 |  2 [32m+[m
- packages/patdiff/patdiff.112.17.00/descr           |  1 [32m+[m
- packages/patdiff/patdiff.112.17.00/opam            | 11 [32m++++[m
- packages/patdiff/patdiff.112.17.00/url             |  2 [32m+[m
- .../patience_diff/patience_diff.111.28.00/opam     |  8 [32m+[m[31m--[m
- packages/pcap-format/pcap-format.0.3.3/opam        |  5 [32m+[m[31m-[m
- packages/planets/planets.0.1.14/descr              |  1 [32m+[m
- .../planets/planets.0.1.14/files/planets.install   |  1 [32m+[m
- packages/planets/planets.0.1.14/opam               | 15 [32m+++++[m
- packages/planets/planets.0.1.14/url                |  2 [32m+[m
- packages/postgresql/postgresql.3.0.0/descr         |  3 [32m+[m
- packages/postgresql/postgresql.3.0.0/findlib       |  1 [32m+[m
- packages/postgresql/postgresql.3.0.0/opam          | 35 [32m++++++++++++[m
- packages/postgresql/postgresql.3.0.0/url           |  2 [32m+[m
- .../ppx_deriving_protobuf.2.1/descr                |  2 [32m+[m
- .../ppx_deriving_protobuf.2.1/opam                 | 19 [32m+++++++[m
- .../ppx_deriving_protobuf.2.1/url                  |  2 [32m+[m
- packages/ppx_meta_conv/ppx_meta_conv.2.0.0/url     |  1 [32m+[m
- packages/ppx_meta_conv/ppx_meta_conv.2.0.1/descr   |  3 [32m+[m
- packages/ppx_meta_conv/ppx_meta_conv.2.0.1/opam    | 20 [32m+++++++[m
- packages/ppx_meta_conv/ppx_meta_conv.2.0.1/url     |  2 [32m+[m
- packages/ppx_monadic/ppx_monadic.1.0.3/descr       | 10 [32m++++[m
- packages/ppx_monadic/ppx_monadic.1.0.3/opam        | 17 [32m++++++[m
- packages/ppx_monadic/ppx_monadic.1.0.3/url         |  2 [32m+[m
- packages/ppx_test/ppx_test.1.1.0/descr             |  7 [32m+++[m
- packages/ppx_test/ppx_test.1.1.0/opam              | 17 [32m++++++[m
- packages/ppx_test/ppx_test.1.1.0/url               |  2 [32m+[m
- packages/re/re.1.3.0/descr                         |  8 [32m+++[m
- packages/re/re.1.3.0/opam                          | 28 [32m++++++++++[m
- packages/re/re.1.3.0/url                           |  2 [32m+[m
- packages/re2/re2.112.06.00/opam                    |  8 [32m+[m[31m--[m
- packages/rpc_parallel/rpc_parallel.112.17.00/descr |  5 [32m++[m
- .../rpc_parallel/rpc_parallel.112.17.00/findlib    |  1 [32m+[m
- packages/rpc_parallel/rpc_parallel.112.17.00/opam  | 16 [32m++++++[m
- packages/rpc_parallel/rpc_parallel.112.17.00/url   |  2 [32m+[m
- packages/sexplib/sexplib.112.06.00/opam            |  3 [32m+[m[31m-[m
- packages/sexplib/sexplib.112.17.00/descr           |  5 [32m++[m
- packages/sexplib/sexplib.112.17.00/findlib         |  3 [32m+[m
- packages/sexplib/sexplib.112.17.00/opam            | 19 [32m+++++++[m
- packages/sexplib/sexplib.112.17.00/url             |  2 [32m+[m
- packages/sill/sill.1.3/descr                       |  3 [32m+[m
- packages/sill/sill.1.3/files/sill.install          |  4 [32m++[m
- packages/sill/sill.1.3/opam                        | 24 [32m++++++++[m
- packages/sill/sill.1.3/url                         |  2 [32m+[m
- packages/slap/slap.0.2.3/descr                     |  7 [32m+++[m
- packages/slap/slap.0.2.3/opam                      | 24 [32m++++++++[m
- packages/slap/slap.0.2.3/url                       |  2 [32m+[m
- .../sociaml-tumblr-api.0.1.0/opam                  |  2 [32m+[m[31m-[m
- .../sociaml-tumblr-api.0.2.0/opam                  |  2 [32m+[m[31m-[m
- packages/spotinstall/spotinstall.1.2.0/opam        |  2 [32m+[m[31m-[m
- packages/spotlib/spotlib.2.5.1/url                 |  1 [32m+[m
- packages/spotlib/spotlib.2.5.2/descr               |  3 [32m+[m
- packages/spotlib/spotlib.2.5.2/opam                | 17 [32m++++++[m
- packages/spotlib/spotlib.2.5.2/url                 |  2 [32m+[m
- packages/sqlite3/sqlite3.2.0.8/descr               |  7 [32m+++[m
- packages/sqlite3/sqlite3.2.0.8/findlib             |  1 [32m+[m
- packages/sqlite3/sqlite3.2.0.8/opam                | 29 [32m++++++++++[m
- packages/sqlite3/sqlite3.2.0.8/url                 |  2 [32m+[m
- packages/sqlite3/sqlite3.2.0.9/descr               |  7 [32m+++[m
- packages/sqlite3/sqlite3.2.0.9/findlib             |  1 [32m+[m
- packages/sqlite3/sqlite3.2.0.9/opam                | 29 [32m++++++++++[m
- packages/sqlite3/sqlite3.2.0.9/url                 |  2 [32m+[m
- packages/textutils/textutils.112.17.00/descr       |  1 [32m+[m
- packages/textutils/textutils.112.17.00/findlib     |  1 [32m+[m
- packages/textutils/textutils.112.17.00/opam        | 12 [32m++++[m
- packages/textutils/textutils.112.17.00/url         |  2 [32m+[m
- packages/tls/tls.0.1.0/opam                        |  1 [32m+[m
- packages/tls/tls.0.2.0/opam                        |  1 [32m+[m
- packages/tls/tls.0.3.0/opam                        |  6 [32m+[m[31m-[m
- packages/toml/toml.2.2.0/descr                     |  4 [32m++[m
- packages/toml/toml.2.2.0/findlib                   |  1 [32m+[m
- packages/toml/toml.2.2.0/opam                      | 16 [32m++++++[m
- packages/toml/toml.2.2.0/url                       |  2 [32m+[m
- packages/toml/toml.2.2.1/descr                     |  4 [32m++[m
- packages/toml/toml.2.2.1/findlib                   |  1 [32m+[m
- packages/toml/toml.2.2.1/opam                      | 17 [32m++++++[m
- packages/toml/toml.2.2.1/url                       |  2 [32m+[m
- packages/topology/topology.0.4.0/descr             |  1 [32m+[m
- packages/topology/topology.0.4.0/findlib           |  1 [32m+[m
- packages/topology/topology.0.4.0/opam              | 24 [32m++++++++[m
- packages/topology/topology.0.4.0/url               |  2 [32m+[m
- packages/travis-senv/travis-senv.1.0.0/opam        |  2 [32m+[m[31m-[m
- packages/tuareg/tuareg.2.0.8/files/tuareg.install  |  5 [32m++[m
- packages/tuareg/tuareg.2.0.8/opam                  | 31 [32m+++++[m[31m------[m
- packages/tuareg/tuareg.2.0.8/url                   |  2 [32m+[m[31m-[m
- packages/typerep/typerep.112.17.00/descr           |  1 [32m+[m
- packages/typerep/typerep.112.17.00/findlib         |  1 [32m+[m
- packages/typerep/typerep.112.17.00/opam            | 16 [32m++++++[m
- packages/typerep/typerep.112.17.00/url             |  2 [32m+[m
- .../typerep_extended.112.17.00/descr               |  4 [32m++[m
- .../typerep_extended.112.17.00/findlib             |  1 [32m+[m
- .../typerep_extended.112.17.00/opam                | 16 [32m++++++[m
- .../typerep_extended.112.17.00/url                 |  2 [32m+[m
- packages/uri/uri.1.8.0/descr                       |  1 [32m+[m
- packages/uri/uri.1.8.0/findlib                     |  1 [32m+[m
- packages/uri/uri.1.8.0/opam                        | 35 [32m++++++++++++[m
- packages/uri/uri.1.8.0/url                         |  2 [32m+[m
- packages/user-setup/user-setup.0.3/descr           |  8 [32m+++[m
- packages/user-setup/user-setup.0.3/opam            | 21 [32m+++++++[m
- packages/user-setup/user-setup.0.3/url             |  2 [32m+[m
- .../websocket.0.9.1/files/websocket.install        | 12 [31m----[m
- packages/websocket/websocket.0.9.2/descr           |  1 [32m+[m
- packages/websocket/websocket.0.9.2/findlib         |  1 [32m+[m
- packages/websocket/websocket.0.9.2/opam            | 17 [32m++++++[m
- packages/websocket/websocket.0.9.2/url             |  2 [32m+[m
- .../xapi-rrd-transport.0.7.2/opam                  |  1 [32m+[m
- packages/xen-evtchn/xen-evtchn.1.0.6/descr         |  3 [32m+[m
- packages/xen-evtchn/xen-evtchn.1.0.6/opam          | 23 [32m++++++++[m
- packages/xen-evtchn/xen-evtchn.1.0.6/url           |  2 [32m+[m
- packages/xen-gnt/xen-gnt.0.9.9/opam                |  2 [32m+[m[31m-[m
- packages/xen-gnt/xen-gnt.1.0.0/opam                |  2 [32m+[m[31m-[m
- packages/xen-gnt/xen-gnt.1.0.1/opam                |  2 [32m+[m[31m-[m
- packages/xen-gnt/xen-gnt.1.0.2/opam                |  2 [32m+[m[31m-[m
- packages/xen-gnt/xen-gnt.1.0.3/opam                |  2 [32m+[m[31m-[m
- packages/xentropyd/xentropyd.0.9.3/descr           |  8 [32m+++[m
- packages/xentropyd/xentropyd.0.9.3/opam            | 33 [32m+++++++++++[m
- packages/xentropyd/xentropyd.0.9.3/url             |  2 [32m+[m
- 504 files changed, 3899 insertions(+), 183 deletions(-)
+ .travis-ci-install.sh                              |   1 [32m+[m
+ .travis-ci.sh                                      |   7 [32m+[m[31m-[m
+ .travis.yml                                        |   6 [32m+[m
+ compilers/4.02.1/4.02.1+32bit/4.02.1+32bit.comp    |   2 [32m+[m[31m-[m
+ .../4.03.0+pr103.comp}                             |   2 [32m+[m[31m-[m
+ compilers/4.03.0/4.03.0+pr103/4.03.0+pr103.descr   |   1 [32m+[m
+ .../4.03.0+pr138.comp}                             |   2 [32m+[m[31m-[m
+ compilers/4.03.0/4.03.0+pr138/4.03.0+pr138.descr   |   1 [32m+[m
+ compilers/4.03.0/4.03.0+pr139/4.03.0+pr139.comp    |  11 [32m+[m
+ compilers/4.03.0/4.03.0+pr139/4.03.0+pr139.descr   |   1 [32m+[m
+ .../4.03.0+pr140.comp}                             |   2 [32m+[m[31m-[m
+ compilers/4.03.0/4.03.0+pr140/4.03.0+pr140.descr   |   1 [32m+[m
+ compilers/4.03.0/4.03.0+pr141/4.03.0+pr141.comp    |  11 [32m+[m
+ compilers/4.03.0/4.03.0+pr141/4.03.0+pr141.descr   |   1 [32m+[m
+ .../4.03.0+pr144.comp}                             |   2 [32m+[m[31m-[m
+ compilers/4.03.0/4.03.0+pr144/4.03.0+pr144.descr   |   1 [32m+[m
+ compilers/4.03.0/4.03.0+pr145/4.03.0+pr145.comp    |  11 [32m+[m
+ compilers/4.03.0/4.03.0+pr145/4.03.0+pr145.descr   |   1 [32m+[m
+ .../4.03.0+pr146.comp}                             |   2 [32m+[m[31m-[m
+ compilers/4.03.0/4.03.0+pr146/4.03.0+pr146.descr   |   1 [32m+[m
+ compilers/4.03.0/4.03.0+pr65/4.03.0+pr65.descr     |   1 [31m-[m
+ compilers/4.03.0/4.03.0+pr68/4.03.0+pr68.descr     |   1 [31m-[m
+ compilers/4.03.0/4.03.0+pr71/4.03.0+pr71.descr     |   1 [31m-[m
+ compilers/4.03.0/4.03.0+pr76/4.03.0+pr76.descr     |   1 [31m-[m
+ compilers/4.03.0/4.03.0+pr78/4.03.0+pr78.comp      |  11 [31m-[m
+ compilers/4.03.0/4.03.0+pr78/4.03.0+pr78.descr     |   1 [31m-[m
+ compilers/4.03.0/4.03.0+pr80/4.03.0+pr80.descr     |   1 [31m-[m
+ compilers/4.03.0/4.03.0+pr92/4.03.0+pr92.comp      |  11 [31m-[m
+ compilers/4.03.0/4.03.0+pr92/4.03.0+pr92.descr     |   1 [31m-[m
+ compilers/4.03.0/4.03.0+pr98/4.03.0+pr98.comp      |  11 [31m-[m
+ compilers/4.03.0/4.03.0+pr98/4.03.0+pr98.descr     |   1 [31m-[m
+ packages/ISO8601/ISO8601.0.1.2/descr               |   1 [32m+[m
+ packages/ISO8601/ISO8601.0.1.2/findlib             |   1 [32m+[m
+ packages/ISO8601/ISO8601.0.1.2/opam                |  29 [32m++[m
+ packages/ISO8601/ISO8601.0.1.2/url                 |   2 [32m+[m
+ packages/acpc/acpc.1.2.1/descr                     |   1 [32m+[m
+ packages/acpc/acpc.1.2.1/opam                      |  51 [32m++++[m
+ packages/acpc/acpc.1.2.1/url                       |   2 [32m+[m
+ packages/acpc/acpc.1.2.2/descr                     |   1 [32m+[m
+ packages/acpc/acpc.1.2.2/opam                      |  51 [32m++++[m
+ packages/acpc/acpc.1.2.2/url                       |   2 [32m+[m
+ packages/ago/ago.0.2/descr                         |   5 [32m+[m
+ packages/ago/ago.0.2/opam                          |  13 [32m+[m
+ packages/ago/ago.0.2/url                           |   2 [32m+[m
+ packages/async/async.112.17.00/descr               |   5 [32m+[m
+ packages/async/async.112.17.00/findlib             |   1 [32m+[m
+ packages/async/async.112.17.00/opam                |  16 [32m+[m
+ packages/async/async.112.17.00/url                 |   2 [32m+[m
+ .../async_extended/async_extended.112.17.00/descr  |   4 [32m+[m
+ .../async_extended.112.17.00/findlib               |   1 [32m+[m
+ .../async_extended/async_extended.112.17.00/opam   |  20 [32m++[m
+ .../async_extended/async_extended.112.17.00/url    |   2 [32m+[m
+ packages/async_extra/async_extra.112.17.00/descr   |   5 [32m+[m
+ packages/async_extra/async_extra.112.17.00/findlib |   1 [32m+[m
+ packages/async_extra/async_extra.112.17.00/opam    |  21 [32m++[m
+ packages/async_extra/async_extra.112.17.00/url     |   2 [32m+[m
+ packages/async_find/async_find.111.28.00/opam      |   4 [32m+[m[31m-[m
+ .../async_inotify/async_inotify.111.28.00/opam     |   4 [32m+[m[31m-[m
+ packages/async_kernel/async_kernel.112.17.00/descr |   5 [32m+[m
+ .../async_kernel/async_kernel.112.17.00/findlib    |   1 [32m+[m
+ packages/async_kernel/async_kernel.112.17.00/opam  |  20 [32m++[m
+ packages/async_kernel/async_kernel.112.17.00/url   |   2 [32m+[m
+ .../async_parallel/async_parallel.112.17.00/descr  |   3 [32m+[m
+ .../async_parallel.112.17.00/findlib               |   1 [32m+[m
+ .../async_parallel/async_parallel.112.17.00/opam   |  17 [32m++[m
+ .../async_parallel/async_parallel.112.17.00/url    |   2 [32m+[m
+ packages/async_shell/async_shell.109.28.03/opam    |   4 [32m+[m[31m-[m
+ packages/async_smtp/async_smtp.109.38.alpha1/opam  |   6 [32m+[m[31m-[m
+ packages/async_smtp/async_smtp.112.17.00/descr     |   1 [32m+[m
+ packages/async_smtp/async_smtp.112.17.00/findlib   |   1 [32m+[m
+ packages/async_smtp/async_smtp.112.17.00/opam      |  11 [32m+[m
+ packages/async_smtp/async_smtp.112.17.00/url       |   2 [32m+[m
+ packages/async_ssl/async_ssl.112.17.00/descr       |   4 [32m+[m
+ packages/async_ssl/async_ssl.112.17.00/findlib     |   1 [32m+[m
+ packages/async_ssl/async_ssl.112.17.00/opam        |  20 [32m++[m
+ packages/async_ssl/async_ssl.112.17.00/url         |   2 [32m+[m
+ packages/async_unix/async_unix.112.17.00/descr     |   5 [32m+[m
+ packages/async_unix/async_unix.112.17.00/findlib   |   1 [32m+[m
+ packages/async_unix/async_unix.112.17.00/opam      |  23 [32m++[m
+ packages/async_unix/async_unix.112.17.00/url       |   2 [32m+[m
+ packages/bap/bap.0.9.1/opam                        |   6 [32m+[m[31m-[m
+ packages/bap/bap.0.9.2/descr                       |   7 [32m+[m
+ packages/bap/bap.0.9.2/opam                        |  37 [32m+++[m
+ packages/bap/bap.0.9.2/url                         |   2 [32m+[m
+ packages/bap/bap.0.9.3/descr                       |   7 [32m+[m
+ packages/bap/bap.0.9.3/opam                        |  46 [32m+++[m
+ packages/bap/bap.0.9.3/url                         |   2 [32m+[m
+ packages/base64/base64.1.0.0/opam                  |   4 [32m+[m
+ packages/base64/base64.1.1.0/opam                  |   4 [32m+[m
+ packages/bignum/bignum.112.17.00/descr             |   1 [32m+[m
+ packages/bignum/bignum.112.17.00/findlib           |   1 [32m+[m
+ packages/bignum/bignum.112.17.00/opam              |  18 [32m++[m
+ packages/bignum/bignum.112.17.00/url               |   2 [32m+[m
+ packages/bin_prot/bin_prot.112.06.01/descr         |   5 [32m+[m
+ packages/bin_prot/bin_prot.112.06.01/findlib       |   1 [32m+[m
+ packages/bin_prot/bin_prot.112.06.01/opam          |  13 [32m+[m
+ packages/bin_prot/bin_prot.112.06.01/url           |   2 [32m+[m
+ packages/bin_prot/bin_prot.112.17.00/descr         |   5 [32m+[m
+ packages/bin_prot/bin_prot.112.17.00/findlib       |   1 [32m+[m
+ packages/bin_prot/bin_prot.112.17.00/opam          |  13 [32m+[m
+ packages/bin_prot/bin_prot.112.17.00/url           |   2 [32m+[m
+ packages/bitcoin/bitcoin.1.0/opam                  |   2 [32m+[m[31m-[m
+ packages/bitcoin/bitcoin.1.1.1/opam                |   2 [32m+[m[31m-[m
+ packages/bitcoin/bitcoin.1.1/opam                  |   2 [32m+[m[31m-[m
+ packages/bookaml/bookaml.1.0/opam                  |   2 [32m+[m[31m-[m
+ packages/bookaml/bookaml.2.0/descr                 |   5 [32m+[m
+ packages/bookaml/bookaml.2.0/findlib               |   1 [32m+[m
+ packages/bookaml/bookaml.2.0/opam                  |  27 [32m++[m
+ packages/bookaml/bookaml.2.0/url                   |   2 [32m+[m
+ packages/bt/bt.0.1.2/opam                          |   2 [32m+[m[31m-[m
+ packages/bt/bt.0.2/opam                            |   2 [32m+[m[31m-[m
+ packages/cmdliner/cmdliner.0.9.7/descr             |  17 [32m++[m
+ .../cmdliner.0.9.7/files/backport_pre_4_00_0.patch |  30 [32m++[m
+ packages/cmdliner/cmdliner.0.9.7/opam              |  17 [32m++[m
+ packages/cmdliner/cmdliner.0.9.7/url               |   2 [32m+[m
+ packages/cohttp/cohttp.0.15.2/descr                |   9 [32m+[m
+ packages/cohttp/cohttp.0.15.2/opam                 |  60 [32m++++[m
+ packages/cohttp/cohttp.0.15.2/url                  |   2 [32m+[m
+ packages/cohttp/cohttp.0.9.14/opam                 |  15 [32m+[m[31m-[m
+ packages/cohttp/cohttp.0.9.15/opam                 |  14 [32m+[m[31m-[m
+ packages/cohttp/cohttp.0.9.16/opam                 |  10 [32m+[m[31m-[m
+ packages/conf-gnutls/conf-gnutls.1/descr           |   2 [32m+[m
+ packages/conf-gnutls/conf-gnutls.1/opam            |   7 [32m+[m
+ packages/conf-gssapi/conf-gssapi.1/descr           |   2 [32m+[m
+ packages/conf-gssapi/conf-gssapi.1/opam            |   7 [32m+[m
+ .../coq/coq.8.4.5/files/build_with_trunk.patch     | 330 [32m+++++++++++++++++++++[m
+ packages/coq/coq.8.4.5/opam                        |  11 [32m+[m[31m-[m
+ packages/core/core.112.17.00/descr                 |   4 [32m+[m
+ packages/core/core.112.17.00/files/core.install    |   1 [32m+[m
+ packages/core/core.112.17.00/findlib               |   1 [32m+[m
+ packages/core/core.112.17.00/opam                  |  27 [32m++[m
+ packages/core/core.112.17.00/url                   |   2 [32m+[m
+ packages/core_bench/core_bench.112.17.00/descr     |   1 [32m+[m
+ packages/core_bench/core_bench.112.17.00/findlib   |   1 [32m+[m
+ packages/core_bench/core_bench.112.17.00/opam      |  16 [32m+[m
+ packages/core_bench/core_bench.112.17.00/url       |   2 [32m+[m
+ .../core_extended/core_extended.112.17.00/descr    |   4 [32m+[m
+ .../files/openbsd-quota-disable.diff               |  64 [32m++++[m
+ .../core_extended/core_extended.112.17.00/findlib  |   1 [32m+[m
+ .../core_extended/core_extended.112.17.00/opam     |  25 [32m++[m
+ packages/core_extended/core_extended.112.17.00/url |   2 [32m+[m
+ packages/core_kernel/core_kernel.112.17.00/descr   |   6 [32m+[m
+ packages/core_kernel/core_kernel.112.17.00/findlib |   1 [32m+[m
+ packages/core_kernel/core_kernel.112.17.00/opam    |  25 [32m++[m
+ packages/core_kernel/core_kernel.112.17.00/url     |   2 [32m+[m
+ packages/cow/cow.1.2.0/descr                       |  17 [32m++[m
+ packages/cow/cow.1.2.0/opam                        |  37 [32m+++[m
+ packages/cow/cow.1.2.0/url                         |   2 [32m+[m
+ .../custom_printf/custom_printf.112.17.00/descr    |   4 [32m+[m
+ .../custom_printf/custom_printf.112.17.00/findlib  |   1 [32m+[m
+ .../custom_printf/custom_printf.112.17.00/opam     |  13 [32m+[m
+ packages/custom_printf/custom_printf.112.17.00/url |   2 [32m+[m
+ packages/depext/depext.0.3/opam                    |   9 [32m+[m[31m-[m
+ packages/dns/dns.0.10.0/opam                       |   5 [32m+[m[31m-[m
+ packages/dns/dns.0.11.0/opam                       |   1 [32m+[m
+ packages/dns/dns.0.12.0/opam                       |   1 [32m+[m
+ packages/dns/dns.0.13.0/opam                       |   1 [32m+[m
+ packages/dns/dns.0.14.0/descr                      |   5 [32m+[m
+ packages/dns/dns.0.14.0/findlib                    |   1 [32m+[m
+ packages/dns/dns.0.14.0/opam                       |  46 [32m+++[m
+ packages/dns/dns.0.14.0/url                        |   2 [32m+[m
+ packages/dns/dns.0.9.0/opam                        |   2 [32m+[m[31m-[m
+ packages/dns/dns.0.9.1/opam                        |   2 [32m+[m[31m-[m
+ packages/dnscurve/dnscurve.0.3.0/descr             |   3 [32m+[m
+ packages/dnscurve/dnscurve.0.3.0/findlib           |   1 [32m+[m
+ packages/dnscurve/dnscurve.0.3.0/opam              |  15 [32m+[m
+ packages/dnscurve/dnscurve.0.3.0/url               |   2 [32m+[m
+ packages/dog/dog.0.1.0/descr                       |   1 [32m+[m
+ packages/dog/dog.0.1.0/opam                        |  28 [32m++[m
+ packages/dog/dog.0.1.0/url                         |   2 [32m+[m
+ packages/dose/dose.3.1.2/opam                      |   2 [32m+[m[31m-[m
+ packages/dose/dose.3.2-rc2/opam                    |   2 [32m+[m[31m-[m
+ packages/dose/dose.3.2.2+opam/opam                 |   2 [32m+[m[31m-[m
+ packages/dose/dose.3.2.2/opam                      |   2 [32m+[m[31m-[m
+ ...d-failure-cases-in-favor-of-finer-diagnos.patch |  28 [32m++[m
+ packages/dose/dose.3.3/opam                        |   3 [32m+[m[31m-[m
+ packages/dumpast/dumpast.0.2.0/descr               |  11 [32m+[m
+ packages/dumpast/dumpast.0.2.0/opam                |  15 [32m+[m
+ packages/dumpast/dumpast.0.2.0/url                 |   2 [32m+[m
+ .../email_message/email_message.109.42.alpha1/opam |  14 [32m+[m[31m-[m
+ .../email_message/email_message.112.17.00/descr    |   1 [32m+[m
+ .../email_message/email_message.112.17.00/findlib  |   1 [32m+[m
+ .../email_message/email_message.112.17.00/opam     |  16 [32m+[m
+ packages/email_message/email_message.112.17.00/url |   2 [32m+[m
+ packages/ezjsonm/ezjsonm.0.4.1/descr               |   9 [32m+[m
+ packages/ezjsonm/ezjsonm.0.4.1/opam                |  24 [32m++[m
+ packages/ezjsonm/ezjsonm.0.4.1/url                 |   2 [32m+[m
+ packages/faillib/faillib.111.17.00/opam            |   2 [32m+[m[31m-[m
+ packages/fat-filesystem/fat-filesystem.0.10.1/opam |   2 [32m+[m[31m-[m
+ .../fat-filesystem/fat-filesystem.0.10.2/descr     |   4 [32m+[m
+ .../fat-filesystem/fat-filesystem.0.10.2/findlib   |   1 [32m+[m
+ packages/fat-filesystem/fat-filesystem.0.10.2/opam |  21 [32m++[m
+ packages/fat-filesystem/fat-filesystem.0.10.2/url  |   2 [32m+[m
+ packages/flowtype/flowtype.0.3.0/descr             |  15 [32m+[m
+ .../flowtype/flowtype.0.3.0/files/flowtype.install |   1 [32m+[m
+ packages/flowtype/flowtype.0.3.0/opam              |  15 [32m+[m
+ packages/flowtype/flowtype.0.3.0/url               |   2 [32m+[m
+ packages/flowtype/flowtype.0.4.0/descr             |  15 [32m+[m
+ .../flowtype/flowtype.0.4.0/files/flowtype.install |   1 [32m+[m
+ packages/flowtype/flowtype.0.4.0/opam              |  15 [32m+[m
+ packages/flowtype/flowtype.0.4.0/url               |   2 [32m+[m
+ packages/frenetic/frenetic.3.2.0/descr             |   1 [32m+[m
+ packages/frenetic/frenetic.3.2.0/findlib           |   1 [32m+[m
+ packages/frenetic/frenetic.3.2.0/opam              |  30 [32m++[m
+ packages/frenetic/frenetic.3.2.0/url               |   3 [32m+[m
+ packages/frenetic/frenetic.3.3.0/descr             |   1 [32m+[m
+ packages/frenetic/frenetic.3.3.0/findlib           |   1 [32m+[m
+ packages/frenetic/frenetic.3.3.0/opam              |  32 [32m++[m
+ packages/frenetic/frenetic.3.3.0/url               |   3 [32m+[m
+ packages/fstreams/fstreams.0.2.1/descr             |  16 [32m+[m
+ packages/fstreams/fstreams.0.2.1/opam              |  14 [32m+[m
+ packages/fstreams/fstreams.0.2.1/url               |   2 [32m+[m
+ packages/git/git.1.4.10/descr                      |  17 [32m++[m
+ packages/git/git.1.4.10/opam                       |  48 [32m+++[m
+ packages/git/git.1.4.10/url                        |   2 [32m+[m
+ packages/git/git.1.4.6/descr                       |  17 [32m++[m
+ packages/git/git.1.4.6/opam                        |  42 [32m+++[m
+ packages/git/git.1.4.6/url                         |   2 [32m+[m
+ packages/git/git.1.4.7/descr                       |  17 [32m++[m
+ packages/git/git.1.4.7/opam                        |  42 [32m+++[m
+ packages/git/git.1.4.7/url                         |   2 [32m+[m
+ packages/git/git.1.4.8/descr                       |  17 [32m++[m
+ packages/git/git.1.4.8/opam                        |  42 [32m+++[m
+ packages/git/git.1.4.8/url                         |   2 [32m+[m
+ packages/git/git.1.4.9/descr                       |  17 [32m++[m
+ packages/git/git.1.4.9/opam                        |  42 [32m+++[m
+ packages/git/git.1.4.9/url                         |   2 [32m+[m
+ .../google-drive-ocamlfuse.0.5.13/descr            |   4 [32m+[m
+ .../google-drive-ocamlfuse.0.5.13/opam             |  19 [32m++[m
+ .../google-drive-ocamlfuse.0.5.13/url              |   2 [32m+[m
+ packages/gpx/gpx.1.0.1/descr                       |   5 [32m+[m
+ packages/gpx/gpx.1.0.1/opam                        |  26 [32m++[m
+ packages/gpx/gpx.1.0.1/url                         |   2 [32m+[m
+ packages/gpx/gpx.1.0.2/descr                       |   5 [32m+[m
+ packages/gpx/gpx.1.0.2/opam                        |  26 [32m++[m
+ packages/gpx/gpx.1.0.2/url                         |   2 [32m+[m
+ packages/gpx/gpx.1.1.0/descr                       |   5 [32m+[m
+ packages/gpx/gpx.1.1.0/opam                        |  31 [32m++[m
+ packages/gpx/gpx.1.1.0/url                         |   2 [32m+[m
+ packages/gsl/gsl.1.18.2/descr                      |   3 [32m+[m
+ packages/gsl/gsl.1.18.2/findlib                    |   1 [32m+[m
+ packages/gsl/gsl.1.18.2/opam                       |  29 [32m++[m
+ packages/gsl/gsl.1.18.2/url                        |   2 [32m+[m
+ packages/hevea/hevea.2.21/descr                    |   1 [32m+[m
+ packages/hevea/hevea.2.21/opam                     |  13 [32m+[m
+ packages/hevea/hevea.2.21/url                      |   2 [32m+[m
+ packages/io-page/io-page.1.4.0/descr               |   1 [32m+[m
+ packages/io-page/io-page.1.4.0/findlib             |   1 [32m+[m
+ packages/io-page/io-page.1.4.0/opam                |  23 [32m++[m
+ packages/io-page/io-page.1.4.0/url                 |   2 [32m+[m
+ packages/ipaddr/ipaddr.2.6.0/descr                 |  23 [32m++[m
+ packages/ipaddr/ipaddr.2.6.0/opam                  |  30 [32m++[m
+ packages/ipaddr/ipaddr.2.6.0/url                   |   2 [32m+[m
+ packages/ipaddr/ipaddr.2.6.1/descr                 |  23 [32m++[m
+ packages/ipaddr/ipaddr.2.6.1/opam                  |  29 [32m++[m
+ packages/ipaddr/ipaddr.2.6.1/url                   |   2 [32m+[m
+ packages/irmin/irmin.0.7.0/opam                    |   2 [32m+[m[31m-[m
+ packages/irmin/irmin.0.8.0/opam                    |   2 [32m+[m[31m-[m
+ packages/irmin/irmin.0.8.1/opam                    |   2 [32m+[m[31m-[m
+ packages/irmin/irmin.0.8.2/opam                    |   2 [32m+[m[31m-[m
+ packages/irmin/irmin.0.9.0/opam                    |   4 [32m+[m[31m-[m
+ packages/irmin/irmin.0.9.1/opam                    |   6 [32m+[m[31m-[m
+ packages/irmin/irmin.0.9.2/opam                    |   7 [32m+[m[31m-[m
+ packages/irmin/irmin.0.9.3/descr                   |   9 [32m+[m
+ packages/irmin/irmin.0.9.3/opam                    |  45 [32m+++[m
+ packages/irmin/irmin.0.9.3/url                     |   2 [32m+[m
+ packages/jenga/jenga.112.17.00/descr               |   1 [32m+[m
+ packages/jenga/jenga.112.17.00/files/jenga.install |   6 [32m+[m
+ packages/jenga/jenga.112.17.00/findlib             |   1 [32m+[m
+ packages/jenga/jenga.112.17.00/opam                |  26 [32m++[m
+ packages/jenga/jenga.112.17.00/url                 |   2 [32m+[m
+ packages/js_of_ocaml/js_of_ocaml.1.2/opam          |   1 [32m+[m
+ packages/js_of_ocaml/js_of_ocaml.1.3.1/opam        |   1 [32m+[m
+ packages/js_of_ocaml/js_of_ocaml.1.3.2/opam        |   1 [32m+[m
+ packages/js_of_ocaml/js_of_ocaml.1.4.0/opam        |   1 [32m+[m
+ packages/js_of_ocaml/js_of_ocaml.2.0/opam          |   1 [32m+[m
+ packages/js_of_ocaml/js_of_ocaml.2.1/opam          |   1 [32m+[m
+ packages/js_of_ocaml/js_of_ocaml.2.2/opam          |   1 [32m+[m
+ packages/js_of_ocaml/js_of_ocaml.2.3/opam          |   1 [32m+[m
+ packages/js_of_ocaml/js_of_ocaml.2.4.1/opam        |   1 [32m+[m
+ packages/js_of_ocaml/js_of_ocaml.2.4/opam          |   1 [32m+[m
+ packages/js_of_ocaml/js_of_ocaml.2.5/opam          |   1 [32m+[m
+ packages/kinetic-client/kinetic-client.0.0.3/descr |   2 [32m+[m
+ packages/kinetic-client/kinetic-client.0.0.3/opam  |  24 [32m++[m
+ packages/kinetic-client/kinetic-client.0.0.3/url   |   2 [32m+[m
+ packages/libres3/libres3.0.1/opam                  |   2 [32m+[m[31m-[m
+ packages/libres3/libres3.0.2/opam                  |   2 [32m+[m[31m-[m
+ packages/libres3/libres3.0.3/opam                  |   2 [32m+[m[31m-[m
+ packages/libres3/libres3.0.9/opam                  |   4 [32m+[m[31m-[m
+ packages/libres3/libres3.1.0/opam                  |   2 [32m+[m[31m-[m
+ packages/llvm/llvm.3.1/descr                       |   4 [32m+[m[31m-[m
+ packages/lz4/lz4.1.0.0/opam                        |   2 [32m+[m[31m-[m
+ packages/macaroons/macaroons.0.1.0/descr           |  12 [32m+[m
+ packages/macaroons/macaroons.0.1.0/opam            |  24 [32m++[m
+ packages/macaroons/macaroons.0.1.0/url             |   2 [32m+[m
+ packages/magic-mime/magic-mime.1.0.0/descr         |  21 [32m++[m
+ packages/magic-mime/magic-mime.1.0.0/opam          |  14 [32m+[m
+ packages/magic-mime/magic-mime.1.0.0/url           |   2 [32m+[m
+ packages/merlin/merlin.2.1.1/descr                 |   1 [32m+[m
+ packages/merlin/merlin.2.1.1/opam                  |  45 [32m+++[m
+ packages/merlin/merlin.2.1.1/url                   |   2 [32m+[m
+ .../mirage-block-xen/mirage-block-xen.1.1.0/opam   |   2 [32m+[m[31m-[m
+ .../mirage-block-xen/mirage-block-xen.1.2.0/opam   |   2 [32m+[m[31m-[m
+ .../mirage-block-xen/mirage-block-xen.1.3.0/descr  |   6 [32m+[m
+ .../mirage-block-xen/mirage-block-xen.1.3.0/opam   |  25 [32m++[m
+ .../mirage-block-xen/mirage-block-xen.1.3.0/url    |   2 [32m+[m
+ packages/mirage-dns/mirage-dns.2.0.0/opam          |   1 [32m+[m
+ .../mirage-http-unix/mirage-http-unix.1.0.0/opam   |   2 [32m+[m[31m-[m
+ .../mirage-http-xen/mirage-http-xen.1.0.0/opam     |   2 [32m+[m[31m-[m
+ .../mirage-net-unix/mirage-net-unix.2.1.0/descr    |   1 [32m+[m
+ .../mirage-net-unix/mirage-net-unix.2.1.0/findlib  |   1 [32m+[m
+ .../mirage-net-unix/mirage-net-unix.2.1.0/opam     |  17 [32m++[m
+ packages/mirage-net-unix/mirage-net-unix.2.1.0/url |   2 [32m+[m
+ .../mirage-xen-minios.0.7.0/descr                  |   4 [32m+[m
+ .../mirage-xen-minios/mirage-xen-minios.0.7.0/opam |  10 [32m+[m
+ .../mirage-xen-minios/mirage-xen-minios.0.7.0/url  |   2 [32m+[m
+ packages/mirage-xen/mirage-xen.2.2.0/opam          |   2 [32m+[m[31m-[m
+ packages/mirage-xen/mirage-xen.2.2.1/opam          |   2 [32m+[m[31m-[m
+ packages/mirage/mirage.2.2.0/opam                  |   2 [32m+[m[31m-[m
+ packages/mirage/mirage.2.2.1/descr                 |  10 [32m+[m
+ packages/mirage/mirage.2.2.1/opam                  |  36 [32m+++[m
+ packages/mirage/mirage.2.2.1/url                   |   2 [32m+[m
+ packages/msgpack/msgpack.1.1.0/descr               |   4 [32m+[m
+ packages/msgpack/msgpack.1.1.0/opam                |  17 [32m++[m
+ packages/msgpack/msgpack.1.1.0/url                 |   2 [32m+[m
+ packages/msgpack/msgpack.1.1.1/descr               |   4 [32m+[m
+ packages/msgpack/msgpack.1.1.1/opam                |  17 [32m++[m
+ packages/msgpack/msgpack.1.1.1/url                 |   2 [32m+[m
+ packages/nbd/nbd.1.0.1/opam                        |   1 [32m+[m
+ packages/nbd/nbd.1.0.2/opam                        |   3 [32m+[m[31m-[m
+ packages/nocrypto/nocrypto.0.3.1/descr             |   6 [32m+[m
+ packages/nocrypto/nocrypto.0.3.1/findlib           |   1 [32m+[m
+ packages/nocrypto/nocrypto.0.3.1/opam              |  32 [32m++[m
+ packages/nocrypto/nocrypto.0.3.1/url               |   2 [32m+[m
+ packages/ocaml_plugin/ocaml_plugin.112.17.00/descr |   1 [32m+[m
+ .../ocaml_plugin/ocaml_plugin.112.17.00/findlib    |   1 [32m+[m
+ packages/ocaml_plugin/ocaml_plugin.112.17.00/opam  |  17 [32m++[m
+ packages/ocaml_plugin/ocaml_plugin.112.17.00/url   |   2 [32m+[m
+ packages/ocamlgraph/ocamlgraph.1.8.6/descr         |   1 [32m+[m
+ .../ocamlgraph.1.8.6/files/ocamlgraph.install      |   6 [32m+[m
+ packages/ocamlgraph/ocamlgraph.1.8.6/findlib       |   1 [32m+[m
+ packages/ocamlgraph/ocamlgraph.1.8.6/opam          |  31 [32m++[m
+ packages/ocamlgraph/ocamlgraph.1.8.6/url           |   2 [32m+[m
+ packages/ocamlnet/ocamlnet.4.0.1/descr             |   9 [32m+[m
+ .../ocamlnet/ocamlnet.4.0.1/files/ocamlnet.install |   4 [32m+[m
+ packages/ocamlnet/ocamlnet.4.0.1/opam              |  45 [32m+++[m
+ packages/ocamlnet/ocamlnet.4.0.1/url               |   2 [32m+[m
+ packages/ocamltter/ocamltter.4.0.0/opam            |   2 [32m+[m[31m-[m
+ packages/ocamltter/ocamltter.4.0.1/descr           |  23 [32m++[m
+ packages/ocamltter/ocamltter.4.0.1/opam            |  22 [32m++[m
+ packages/ocamltter/ocamltter.4.0.1/url             |   2 [32m+[m
+ packages/ocp-build/ocp-build.1.99.8-beta/url       |   4 [32m+[m[31m-[m
+ packages/ocp-manager/ocp-manager.0.1.2/url         |   4 [32m+[m[31m-[m
+ packages/ocp-manager/ocp-manager.0.1.3/url         |   4 [32m+[m[31m-[m
+ packages/ocveralls/ocveralls.0.1.0/descr           |   1 [32m+[m
+ packages/ocveralls/ocveralls.0.1.0/findlib         |   1 [32m+[m
+ packages/ocveralls/ocveralls.0.1.0/opam            |  20 [32m++[m
+ packages/ocveralls/ocveralls.0.1.0/url             |   2 [32m+[m
+ packages/ocveralls/ocveralls.0.2.0/descr           |   3 [32m+[m
+ packages/ocveralls/ocveralls.0.2.0/findlib         |   1 [32m+[m
+ packages/ocveralls/ocveralls.0.2.0/opam            |  20 [32m++[m
+ packages/ocveralls/ocveralls.0.2.0/url             |   2 [32m+[m
+ packages/ojquery/ojquery.0.1/opam                  |   3 [32m+[m
+ packages/openflow/openflow.0.8.0/descr             |   5 [32m+[m
+ packages/openflow/openflow.0.8.0/findlib           |   1 [32m+[m
+ packages/openflow/openflow.0.8.0/opam              |  27 [32m++[m
+ packages/openflow/openflow.0.8.0/url               |   2 [32m+[m
+ packages/openflow/openflow.0.9.0/descr             |   5 [32m+[m
+ packages/openflow/openflow.0.9.0/findlib           |   1 [32m+[m
+ packages/openflow/openflow.0.9.0/opam              |  27 [32m++[m
+ packages/openflow/openflow.0.9.0/url               |   2 [32m+[m
+ packages/opium/opium.0.13.0/descr                  |  11 [32m+[m
+ packages/opium/opium.0.13.0/opam                   |  47 [32m+++[m
+ packages/opium/opium.0.13.0/url                    |   2 [32m+[m
+ packages/orakuda/orakuda.2.0.0/opam                |   3 [32m+[m[31m-[m
+ packages/orakuda/orakuda.2.0.0/url                 |   1 [32m+[m
+ packages/pa_bench/pa_bench.112.06.00/opam          |   2 [32m+[m[31m-[m
+ packages/pa_ounit/pa_ounit.112.17.00/descr         |   8 [32m+[m
+ packages/pa_ounit/pa_ounit.112.17.00/findlib       |   1 [32m+[m
+ packages/pa_ounit/pa_ounit.112.17.00/opam          |  12 [32m+[m
+ packages/pa_ounit/pa_ounit.112.17.00/url           |   2 [32m+[m
+ packages/pa_test/pa_test.111.08.01/opam            |   2 [32m+[m[31m-[m
+ packages/packet/packet.0.4.0/descr                 |   4 [32m+[m
+ packages/packet/packet.0.4.0/findlib               |   1 [32m+[m
+ packages/packet/packet.0.4.0/opam                  |  26 [32m++[m
+ packages/packet/packet.0.4.0/url                   |   2 [32m+[m
+ packages/parmap/parmap.1.0-rc6/descr               |   8 [32m+[m
+ packages/parmap/parmap.1.0-rc6/findlib             |   1 [32m+[m
+ packages/parmap/parmap.1.0-rc6/opam                |  23 [32m++[m
+ packages/parmap/parmap.1.0-rc6/url                 |   2 [32m+[m
+ packages/patdiff/patdiff.112.17.00/descr           |   1 [32m+[m
+ packages/patdiff/patdiff.112.17.00/opam            |  11 [32m+[m
+ packages/patdiff/patdiff.112.17.00/url             |   2 [32m+[m
+ .../patience_diff/patience_diff.111.28.00/opam     |   8 [32m+[m[31m-[m
+ packages/pcap-format/pcap-format.0.3.3/opam        |   5 [32m+[m[31m-[m
+ packages/planets/planets.0.1.14/descr              |   1 [32m+[m
+ .../planets/planets.0.1.14/files/planets.install   |   1 [32m+[m
+ packages/planets/planets.0.1.14/opam               |  15 [32m+[m
+ packages/planets/planets.0.1.14/url                |   2 [32m+[m
+ packages/postgresql/postgresql.3.0.0/descr         |   3 [32m+[m
+ packages/postgresql/postgresql.3.0.0/findlib       |   1 [32m+[m
+ packages/postgresql/postgresql.3.0.0/opam          |  35 [32m+++[m
+ packages/postgresql/postgresql.3.0.0/url           |   2 [32m+[m
+ .../ppx_deriving_protobuf.2.1/descr                |   2 [32m+[m
+ .../ppx_deriving_protobuf.2.1/opam                 |  19 [32m++[m
+ .../ppx_deriving_protobuf.2.1/url                  |   2 [32m+[m
+ packages/ppx_meta_conv/ppx_meta_conv.2.0.0/url     |   1 [32m+[m
+ packages/ppx_meta_conv/ppx_meta_conv.2.0.1/descr   |   3 [32m+[m
+ packages/ppx_meta_conv/ppx_meta_conv.2.0.1/opam    |  20 [32m++[m
+ packages/ppx_meta_conv/ppx_meta_conv.2.0.1/url     |   2 [32m+[m
+ packages/ppx_monadic/ppx_monadic.1.0.3/descr       |  10 [32m+[m
+ packages/ppx_monadic/ppx_monadic.1.0.3/opam        |  17 [32m++[m
+ packages/ppx_monadic/ppx_monadic.1.0.3/url         |   2 [32m+[m
+ packages/ppx_test/ppx_test.1.1.0/descr             |   7 [32m+[m
+ packages/ppx_test/ppx_test.1.1.0/opam              |  17 [32m++[m
+ packages/ppx_test/ppx_test.1.1.0/url               |   2 [32m+[m
+ packages/re/re.1.3.0/descr                         |   8 [32m+[m
+ packages/re/re.1.3.0/opam                          |  28 [32m++[m
+ packages/re/re.1.3.0/url                           |   2 [32m+[m
+ packages/re2/re2.112.06.00/opam                    |   8 [32m+[m[31m-[m
+ packages/rpc_parallel/rpc_parallel.112.17.00/descr |   5 [32m+[m
+ .../rpc_parallel/rpc_parallel.112.17.00/findlib    |   1 [32m+[m
+ packages/rpc_parallel/rpc_parallel.112.17.00/opam  |  16 [32m+[m
+ packages/rpc_parallel/rpc_parallel.112.17.00/url   |   2 [32m+[m
+ packages/sexplib/sexplib.112.06.00/opam            |   3 [32m+[m[31m-[m
+ packages/sexplib/sexplib.112.17.00/descr           |   5 [32m+[m
+ packages/sexplib/sexplib.112.17.00/findlib         |   3 [32m+[m
+ packages/sexplib/sexplib.112.17.00/opam            |  19 [32m++[m
+ packages/sexplib/sexplib.112.17.00/url             |   2 [32m+[m
+ packages/sill/sill.1.3/descr                       |   3 [32m+[m
+ packages/sill/sill.1.3/files/sill.install          |   4 [32m+[m
+ packages/sill/sill.1.3/opam                        |  24 [32m++[m
+ packages/sill/sill.1.3/url                         |   2 [32m+[m
+ packages/slap/slap.0.2.3/descr                     |   7 [32m+[m
+ packages/slap/slap.0.2.3/opam                      |  24 [32m++[m
+ packages/slap/slap.0.2.3/url                       |   2 [32m+[m
+ .../sociaml-tumblr-api.0.1.0/opam                  |   2 [32m+[m[31m-[m
+ .../sociaml-tumblr-api.0.2.0/opam                  |   2 [32m+[m[31m-[m
+ packages/spotinstall/spotinstall.1.2.0/opam        |   2 [32m+[m[31m-[m
+ packages/spotlib/spotlib.2.5.1/url                 |   1 [32m+[m
+ packages/spotlib/spotlib.2.5.2/descr               |   3 [32m+[m
+ packages/spotlib/spotlib.2.5.2/opam                |  17 [32m++[m
+ packages/spotlib/spotlib.2.5.2/url                 |   2 [32m+[m
+ packages/sqlite3/sqlite3.2.0.8/descr               |   7 [32m+[m
+ packages/sqlite3/sqlite3.2.0.8/findlib             |   1 [32m+[m
+ packages/sqlite3/sqlite3.2.0.8/opam                |  29 [32m++[m
+ packages/sqlite3/sqlite3.2.0.8/url                 |   2 [32m+[m
+ packages/sqlite3/sqlite3.2.0.9/descr               |   7 [32m+[m
+ packages/sqlite3/sqlite3.2.0.9/findlib             |   1 [32m+[m
+ packages/sqlite3/sqlite3.2.0.9/opam                |  29 [32m++[m
+ packages/sqlite3/sqlite3.2.0.9/url                 |   2 [32m+[m
+ packages/textutils/textutils.112.17.00/descr       |   1 [32m+[m
+ packages/textutils/textutils.112.17.00/findlib     |   1 [32m+[m
+ packages/textutils/textutils.112.17.00/opam        |  12 [32m+[m
+ packages/textutils/textutils.112.17.00/url         |   2 [32m+[m
+ packages/tls/tls.0.1.0/opam                        |   1 [32m+[m
+ packages/tls/tls.0.2.0/opam                        |   1 [32m+[m
+ packages/tls/tls.0.3.0/opam                        |   6 [32m+[m[31m-[m
+ packages/toml/toml.2.2.0/descr                     |   4 [32m+[m
+ packages/toml/toml.2.2.0/findlib                   |   1 [32m+[m
+ packages/toml/toml.2.2.0/opam                      |  16 [32m+[m
+ packages/toml/toml.2.2.0/url                       |   2 [32m+[m
+ packages/toml/toml.2.2.1/descr                     |   4 [32m+[m
+ packages/toml/toml.2.2.1/findlib                   |   1 [32m+[m
+ packages/toml/toml.2.2.1/opam                      |  17 [32m++[m
+ packages/toml/toml.2.2.1/url                       |   2 [32m+[m
+ packages/topology/topology.0.4.0/descr             |   1 [32m+[m
+ packages/topology/topology.0.4.0/findlib           |   1 [32m+[m
+ packages/topology/topology.0.4.0/opam              |  24 [32m++[m
+ packages/topology/topology.0.4.0/url               |   2 [32m+[m
+ packages/travis-senv/travis-senv.1.0.0/opam        |   2 [32m+[m[31m-[m
+ packages/tuareg/tuareg.2.0.8/files/tuareg.install  |   5 [32m+[m
+ packages/tuareg/tuareg.2.0.8/opam                  |  31 [32m+[m[31m-[m
+ packages/tuareg/tuareg.2.0.8/url                   |   2 [32m+[m[31m-[m
+ packages/typerep/typerep.112.17.00/descr           |   1 [32m+[m
+ packages/typerep/typerep.112.17.00/findlib         |   1 [32m+[m
+ packages/typerep/typerep.112.17.00/opam            |  16 [32m+[m
+ packages/typerep/typerep.112.17.00/url             |   2 [32m+[m
+ .../typerep_extended.112.17.00/descr               |   4 [32m+[m
+ .../typerep_extended.112.17.00/findlib             |   1 [32m+[m
+ .../typerep_extended.112.17.00/opam                |  16 [32m+[m
+ .../typerep_extended.112.17.00/url                 |   2 [32m+[m
+ packages/uri/uri.1.8.0/descr                       |   1 [32m+[m
+ packages/uri/uri.1.8.0/findlib                     |   1 [32m+[m
+ packages/uri/uri.1.8.0/opam                        |  35 [32m+++[m
+ packages/uri/uri.1.8.0/url                         |   2 [32m+[m
+ packages/user-setup/user-setup.0.3/descr           |   8 [32m+[m
+ packages/user-setup/user-setup.0.3/opam            |  21 [32m++[m
+ packages/user-setup/user-setup.0.3/url             |   2 [32m+[m
+ .../websocket.0.9.1/files/websocket.install        |  12 [31m-[m
+ packages/websocket/websocket.0.9.2/descr           |   1 [32m+[m
+ packages/websocket/websocket.0.9.2/findlib         |   1 [32m+[m
+ packages/websocket/websocket.0.9.2/opam            |  17 [32m++[m
+ packages/websocket/websocket.0.9.2/url             |   2 [32m+[m
+ .../xapi-rrd-transport.0.7.2/opam                  |   1 [32m+[m
+ packages/xen-evtchn/xen-evtchn.1.0.6/descr         |   3 [32m+[m
+ packages/xen-evtchn/xen-evtchn.1.0.6/opam          |  23 [32m++[m
+ packages/xen-evtchn/xen-evtchn.1.0.6/url           |   2 [32m+[m
+ packages/xen-gnt/xen-gnt.0.9.9/opam                |   2 [32m+[m[31m-[m
+ packages/xen-gnt/xen-gnt.1.0.0/opam                |   2 [32m+[m[31m-[m
+ packages/xen-gnt/xen-gnt.1.0.1/opam                |   2 [32m+[m[31m-[m
+ packages/xen-gnt/xen-gnt.1.0.2/opam                |   2 [32m+[m[31m-[m
+ packages/xen-gnt/xen-gnt.1.0.3/opam                |   2 [32m+[m[31m-[m
+ packages/xentropyd/xentropyd.0.9.3/descr           |   8 [32m+[m
+ packages/xentropyd/xentropyd.0.9.3/opam            |  33 [32m+++[m
+ packages/xentropyd/xentropyd.0.9.3/url             |   2 [32m+[m
+ 506 files changed, 4237 insertions(+), 186 deletions(-)
  rename compilers/4.03.0/{4.03.0+pr80/4.03.0+pr80.comp => 4.03.0+pr103/4.03.0+pr103.comp} (81%)
  create mode 100644 compilers/4.03.0/4.03.0+pr103/4.03.0+pr103.descr
  rename compilers/4.03.0/{4.03.0+pr71/4.03.0+pr71.comp => 4.03.0+pr138/4.03.0+pr138.comp} (79%)
@@ -628,6 +630,7 @@ Fast-forward
  create mode 100644 packages/conf-gnutls/conf-gnutls.1/opam
  create mode 100644 packages/conf-gssapi/conf-gssapi.1/descr
  create mode 100644 packages/conf-gssapi/conf-gssapi.1/opam
+ create mode 100644 packages/coq/coq.8.4.5/files/build_with_trunk.patch
  create mode 100644 packages/core/core.112.17.00/descr
  create mode 100644 packages/core/core.112.17.00/files/core.install
  create mode 100644 packages/core/core.112.17.00/findlib
@@ -975,26 +978,26 @@ Debian depexts: libssl-dev m4
              100% [1 Release.gpg 933 B/933 B 100%]                                     100% [Waiting for headers]                          Get:2 http://archive.ubuntu.com trusty-security Release.gpg [933 B]
                           100% [2 Release.gpg 933 B/933 B 100%]                                     100% [Waiting for headers]                          Hit http://archive.ubuntu.com trusty Release
                           100% [Working]              Get:3 http://archive.ubuntu.com trusty-updates Release [62.0 kB]
-100% [Working]              100% [Release gpgv 58.5 kB] [Waiting for headers]                                                 Get:4 http://archive.ubuntu.com trusty-security Release [62.0 kB]
-                                                 62% [Release gpgv 58.5 kB] [4 Release 14.2 kB/62.0 kB 23%]                                                          100% [Release gpgv 58.5 kB]                           100% [Working]              100% [3 Release gpgv 62.0 kB]                             100% [Waiting for headers]                          100% [4 Release gpgv 62.0 kB] [Waiting for headers]                                                   100% [Waiting for headers]                          Hit http://archive.ubuntu.com trusty/main Sources
-                          100% [Working]                                                     20.2 kB/s 0s100% [Sources 0 B] [Waiting for headers]                           20.2 kB/s 0s                                                                               Hit http://archive.ubuntu.com trusty/restricted Sources
-100% [Sources 1335 kB] [Waiting for headers]                       20.2 kB/s 0s                                                                               Hit http://archive.ubuntu.com trusty/universe Sources
-100% [Sources 1335 kB] [Waiting for headers]                       20.2 kB/s 0s                                                                               Hit http://archive.ubuntu.com trusty/main amd64 Packages
-100% [Waiting for headers]                                         20.2 kB/s 0s                                                                               Hit http://archive.ubuntu.com trusty/restricted amd64 Packages
-100% [Working]                                                     20.2 kB/s 0s100% [Sources 0 B] [Waiting for headers]                           20.2 kB/s 0s100% [Waiting for headers]                                         20.2 kB/s 0s100% [Sources 0 B] [Waiting for headers]                           20.2 kB/s 0s                                                                               Hit http://archive.ubuntu.com trusty/universe amd64 Packages
-100% [Sources 0 B] [Waiting for headers]                           20.2 kB/s 0s                                                                               Get:5 http://archive.ubuntu.com trusty-updates/main Sources [230 kB]
-90% [Sources 0 B] [5 Sources 65.5 kB/230 kB 29%]                   20.2 kB/s 8s100% [Sources 0 B]                                                 20.2 kB/s 0s                                                                               Get:6 http://archive.ubuntu.com trusty-updates/restricted Sources [1874 B]
-100% [Sources 7926 kB] [6 Sources 0 B/1874 B 0%]                   20.2 kB/s 0s100% [Sources 7926 kB]                                             20.2 kB/s 0s                                                                               Get:7 http://archive.ubuntu.com trusty-updates/universe Sources [130 kB]
-93% [Sources 7926 kB] [7 Sources 0 B/130 kB 0%]                    20.2 kB/s 6s100% [Sources 7926 kB]                                             20.2 kB/s 0s                                                                               Get:8 http://archive.ubuntu.com trusty-updates/main amd64 Packages [565 kB]
-76% [Sources 7926 kB] [8 Packages 0 B/565 kB 0%]                  20.2 kB/s 27s100% [Sources 7926 kB]                                             20.2 kB/s 0s                                                                               Get:9 http://archive.ubuntu.com trusty-updates/restricted amd64 Packages [14.8 kB]
-99% [Sources 7926 kB] [9 Packages 0 B/14.8 kB 0%]                  20.2 kB/s 0s100% [Sources 7926 kB]                                             20.2 kB/s 0s                                                                               Get:10 http://archive.ubuntu.com trusty-updates/universe amd64 Packages [329 kB]
-88% [Sources 7926 kB] [10 Packages 0 B/329 kB 0%]                 20.2 kB/s 16s100% [Sources 7926 kB]                                             20.2 kB/s 0s                                                                               Get:11 http://archive.ubuntu.com trusty-security/main Sources [88.3 kB]
-97% [Sources 7926 kB] [11 Sources 0 B/88.3 kB 0%]                  20.2 kB/s 4s100% [Sources 7926 kB]                                             20.2 kB/s 0s                                                                               Get:12 http://archive.ubuntu.com trusty-security/restricted Sources [1874 B]
-100% [Sources 7926 kB] [12 Sources 0 B/1874 B 0%]                  20.2 kB/s 0s100% [Sources 7926 kB]                                             20.2 kB/s 0s                                                                               Get:13 http://archive.ubuntu.com trusty-security/universe Sources [19.6 kB]
-99% [Sources 7926 kB] [13 Sources 0 B/19.6 kB 0%]                  20.2 kB/s 0s100% [Sources 7926 kB]                                             20.2 kB/s 0s                                                                               Get:14 http://archive.ubuntu.com trusty-security/main amd64 Packages [277 kB]
-91% [Sources 7926 kB] [14 Packages 0 B/277 kB 0%]                 20.2 kB/s 13s100% [Sources 7926 kB]                                             20.2 kB/s 0s                                                                               Get:15 http://archive.ubuntu.com trusty-security/restricted amd64 Packages [14.8 kB]
-100% [Sources 7926 kB] [15 Packages 0 B/14.8 kB 0%]                20.2 kB/s 0s100% [Sources 7926 kB]                                             20.2 kB/s 0s                                                                               Get:16 http://archive.ubuntu.com trusty-security/universe amd64 Packages [113 kB]
-97% [Sources 7926 kB] [16 Packages 0 B/113 kB 0%]                  20.2 kB/s 5s100% [Sources 7926 kB]                                             20.2 kB/s 0s100% [Sources 7926 kB]                                             20.2 kB/s 0s100% [Sources 7926 kB]                                             20.2 kB/s 0s100% [Working]                                                     20.2 kB/s 0s100% [Packages 0 B]                                                20.2 kB/s 0s100% [Packages 1743 kB]                                            20.2 kB/s 0s100% [Working]                                                     20.2 kB/s 0s100% [Packages 0 B]                                                20.2 kB/s 0s100% [Working]                                                     20.2 kB/s 0s100% [Packages 0 B]                                                20.2 kB/s 0s100% [Packages 7589 kB]                                            20.2 kB/s 0s100% [Packages 7589 kB]                                            20.2 kB/s 0s100% [Packages 7589 kB]                                            20.2 kB/s 0s100% [Working]                                                     20.2 kB/s 0s100% [5 Sources 193 kB]                                            20.2 kB/s 0s100% [Working]                                                     20.2 kB/s 0s100% [6 Sources 1874 B]                                            20.2 kB/s 0s100% [Working]                                                     20.2 kB/s 0s100% [7 Sources 119 kB]                                            20.2 kB/s 0s100% [Working]                                                     20.2 kB/s 0s100% [8 Packages 493 kB]                                           20.2 kB/s 0s100% [Working]                                                     20.2 kB/s 0s100% [9 Packages 14.8 kB]                                          20.2 kB/s 0s100% [Working]                                                     20.2 kB/s 0s100% [10 Packages 298 kB]                                          20.2 kB/s 0s100% [Working]                                                     20.2 kB/s 0s100% [11 Sources 70.1 kB]                                          20.2 kB/s 0s100% [Working]                                                     20.2 kB/s 0s100% [12 Sources 1874 B]                                           20.2 kB/s 0s100% [Working]                                                     20.2 kB/s 0s100% [13 Sources 19.1 kB]                                          20.2 kB/s 0s100% [Working]                                                     20.2 kB/s 0s100% [14 Packages 229 kB]                                          20.2 kB/s 0s100% [Working]                                                     20.2 kB/s 0s100% [15 Packages 14.8 kB]                                         20.2 kB/s 0s100% [Working]                                                     20.2 kB/s 0s100% [16 Packages 98.1 kB]                                         20.2 kB/s 0s100% [Working]                                                     20.2 kB/s 0s                                                                               Fetched 1911 kB in 11s (161 kB/s)
+100% [Working]              100% [Release gpgv 58.5 kB] [Waiting for headers]                                                 100% [Waiting for headers]                          100% [3 Release gpgv 62.0 kB] [Waiting for headers]                                                   100% [Waiting for headers]                          Get:4 http://archive.ubuntu.com trusty-security Release [62.0 kB]
+                          57% [4 Release 8192 B/62.0 kB 13%]                                  100% [Working]              100% [4 Release gpgv 62.0 kB]                             100% [Waiting for headers]                          Hit http://archive.ubuntu.com trusty/main Sources
+                          100% [Working]                                                     19.7 kB/s 0s                                                                               Hit http://archive.ubuntu.com trusty/restricted Sources
+                                                                               Hit http://archive.ubuntu.com trusty/universe Sources
+                                                                               Hit http://archive.ubuntu.com trusty/main amd64 Packages
+                                                                               Hit http://archive.ubuntu.com trusty/restricted amd64 Packages
+                                                                               Hit http://archive.ubuntu.com trusty/universe amd64 Packages
+                                                                               Get:5 http://archive.ubuntu.com trusty-updates/main Sources [230 kB]
+                                                                               Get:6 http://archive.ubuntu.com trusty-updates/restricted Sources [1874 B]
+                                                                               Get:7 http://archive.ubuntu.com trusty-updates/universe Sources [130 kB]
+                                                                               Get:8 http://archive.ubuntu.com trusty-updates/main amd64 Packages [565 kB]
+63% [8 Packages 179 kB/565 kB 32%]                                19.7 kB/s 19s63% [Sources 1335 kB] [8 Packages 179 kB/565 kB 32%]              19.7 kB/s 19s87% [8 Packages 263 kB/565 kB 47%]                                19.7 kB/s 15s87% [8 Packages 263 kB/565 kB 47%]                                19.7 kB/s 15s87% [Sources 0 B] [8 Packages 263 kB/565 kB 47%]                  19.7 kB/s 15s100% [Sources 7926 kB]                                             19.7 kB/s 0s                                                                               Get:9 http://archive.ubuntu.com trusty-updates/restricted amd64 Packages [14.8 kB]
+99% [Sources 7926 kB] [9 Packages 0 B/14.8 kB 0%]                  19.7 kB/s 0s100% [Sources 7926 kB]                                             19.7 kB/s 0s                                                                               Get:10 http://archive.ubuntu.com trusty-updates/universe amd64 Packages [329 kB]
+88% [Sources 7926 kB] [10 Packages 0 B/329 kB 0%]                 19.7 kB/s 16s100% [Sources 7926 kB]                                             19.7 kB/s 0s100% [Waiting for headers]                                         19.7 kB/s 0s100% [Packages 0 B] [Waiting for headers]                          19.7 kB/s 0s                                                                               Get:11 http://archive.ubuntu.com trusty-security/main Sources [88.3 kB]
+99% [Packages 1743 kB] [11 Sources 0 B/88.3 kB 0%]                 19.7 kB/s 4s100% [Packages 1743 kB]                                            19.7 kB/s 0s                                                                               Get:12 http://archive.ubuntu.com trusty-security/restricted Sources [1874 B]
+100% [Packages 1743 kB] [12 Sources 0 B/1874 B 0%]                 19.7 kB/s 0s100% [Packages 1743 kB]                                            19.7 kB/s 0s                                                                               Get:13 http://archive.ubuntu.com trusty-security/universe Sources [19.6 kB]
+100% [Packages 1743 kB] [13 Sources 0 B/19.6 kB 0%]                19.7 kB/s 0s100% [Packages 1743 kB]                                            19.7 kB/s 0s100% [Waiting for headers]                                         19.7 kB/s 0s100% [Packages 0 B] [Waiting for headers]                          19.7 kB/s 0s100% [Waiting for headers]                                         19.7 kB/s 0s100% [Packages 0 B] [Waiting for headers]                          19.7 kB/s 0s                                                                               Get:14 http://archive.ubuntu.com trusty-security/main amd64 Packages [277 kB]
+98% [Packages 0 B] [14 Packages 0 B/277 kB 0%]                    19.7 kB/s 14s100% [Packages 7589 kB]                                            19.7 kB/s 0s                                                                               Get:15 http://archive.ubuntu.com trusty-security/restricted amd64 Packages [14.8 kB]
+100% [Packages 7589 kB] [15 Packages 0 B/14.8 kB 0%]               19.7 kB/s 0s100% [Packages 7589 kB]                                            19.7 kB/s 0s                                                                               Get:16 http://archive.ubuntu.com trusty-security/universe amd64 Packages [113 kB]
+99% [Packages 7589 kB] [16 Packages 0 B/113 kB 0%]                 19.7 kB/s 5s100% [Packages 7589 kB]                                            19.7 kB/s 0s100% [Packages 7589 kB]                                            19.7 kB/s 0s100% [Working]                                                     19.7 kB/s 0s100% [5 Sources 193 kB]                                            19.7 kB/s 0s100% [Working]                                                     19.7 kB/s 0s100% [6 Sources 1874 B]                                            19.7 kB/s 0s100% [Working]                                                     19.7 kB/s 0s100% [7 Sources 119 kB]                                            19.7 kB/s 0s100% [Working]                                                     19.7 kB/s 0s100% [8 Packages 493 kB]                                           19.7 kB/s 0s100% [Working]                                                     19.7 kB/s 0s100% [9 Packages 14.8 kB]                                          19.7 kB/s 0s100% [Working]                                                     19.7 kB/s 0s100% [10 Packages 298 kB]                                          19.7 kB/s 0s100% [Working]                                                     19.7 kB/s 0s100% [11 Sources 70.1 kB]                                          19.7 kB/s 0s100% [Working]                                                     19.7 kB/s 0s100% [12 Sources 1874 B]                                           19.7 kB/s 0s100% [Working]                                                     19.7 kB/s 0s100% [13 Sources 19.1 kB]                                          19.7 kB/s 0s100% [Working]                                                     19.7 kB/s 0s100% [14 Packages 229 kB]                                          19.7 kB/s 0s100% [Working]                                                     19.7 kB/s 0s100% [15 Packages 14.8 kB]                                         19.7 kB/s 0s100% [Working]                                                     19.7 kB/s 0s100% [16 Packages 98.1 kB]                                         19.7 kB/s 0s100% [Working]                                                     19.7 kB/s 0s                                                                               Fetched 1911 kB in 9s (198 kB/s)
 Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 32%Reading package lists... Done
 + sudo apt-get install -qq -y build-essential m4
 + sudo apt-get install -qq -y libssl-dev m4
@@ -1060,8 +1063,8 @@ The following actions will be performed:
 
 [36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
 Installing camlp4.4.01.0.
-Copying ~/.opam/repo/default/packages/ocamlfind/ocamlfind.1.5.5/files/ocamlfind.install to ~/.opam/system/build/ocamlfind.1.5.5/
 Copying ~/.opam/repo/default/packages/cmdliner/cmdliner.0.9.7/files/backport_pre_4_00_0.patch to ~/.opam/system/build/cmdliner.0.9.7/
+Copying ~/.opam/repo/default/packages/ocamlfind/ocamlfind.1.5.5/files/ocamlfind.install to ~/.opam/system/build/ocamlfind.1.5.5/
 Building ocamlfind.1.5.5:
   ./configure -bindir /home/opam/.opam/system/bin -sitelib /home/opam/.opam/system/lib -mandir /home/opam/.opam/system/man -config /home/opam/.opam/system/lib/findlib.conf -no-topfind
   make all
@@ -1072,14 +1075,14 @@ Building cmdliner.0.9.7:
   ocaml pkg/build.ml native=true native-dynlink=true
 Installing cmdliner.0.9.7.
 Installing ocamlfind.1.5.5.
-Building crunch.1.3.0:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/system
-  ocaml setup.ml -build
-  ocaml setup.ml -install
 Building optcomp.1.6:
   ./configure --prefix /home/opam/.opam/system
   make
   make install
+Building crunch.1.3.0:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/system
+  ocaml setup.ml -build
+  ocaml setup.ml -install
 Building re.1.2.2:
   ocaml setup.ml -configure --prefix /home/opam/.opam/system
   ocaml setup.ml -build
@@ -1091,23 +1094,23 @@ Building ssl.0.4.7:
   make
   make install
 Installing re.1.2.2.
+Installing optcomp.1.6.
 Building type_conv.111.13.00:
   make
   make install
-Installing optcomp.1.6.
 Building ocplib-endian.0.4:
   ocaml setup.ml -configure --disable-debug --prefix /home/opam/.opam/system
   ocaml setup.ml -build
   ocaml setup.ml -install
-Installing type_conv.111.13.00.
-Building sexplib.111.25.00:
-  ./configure --enable-syntax
-  make
-  make install
 Installing ssl.0.4.7.
 Building lwt.2.4.5:
   ./configure --disable-libev --disable-react --enable-ssl --enable-unix --enable-extra --enable-preemptive --disable-glib
   make build
+  make install
+Installing type_conv.111.13.00.
+Building sexplib.111.25.00:
+  ./configure --enable-syntax
+  make
   make install
 Installing ocplib-endian.0.4.
 Installing sexplib.111.25.00.
@@ -1154,9 +1157,9 @@ Installing mirage.2.2.1.
 + git clone git://github.com/mirage/mirage-www
 Cloning into 'mirage-www'...
 remote: Counting objects: 6052, done.[K
-Receiving objects:   0% (1/6052)   Receiving objects:   1% (61/6052)   Receiving objects:   2% (122/6052)   Receiving objects:   3% (182/6052)   Receiving objects:   4% (243/6052)   Receiving objects:   5% (303/6052)   Receiving objects:   6% (364/6052)   Receiving objects:   7% (424/6052)   Receiving objects:   8% (485/6052)   Receiving objects:   9% (545/6052)   Receiving objects:  10% (606/6052)   Receiving objects:  11% (666/6052)   Receiving objects:  12% (727/6052)   Receiving objects:  13% (787/6052)   Receiving objects:  14% (848/6052)   Receiving objects:  15% (908/6052)   Receiving objects:  16% (969/6052)   Receiving objects:  17% (1029/6052)   Receiving objects:  18% (1090/6052)   Receiving objects:  19% (1150/6052)   Receiving objects:  20% (1211/6052)   Receiving objects:  21% (1271/6052)   Receiving objects:  22% (1332/6052)   Receiving objects:  22% (1367/6052), 1.11 MiB | 1.08 MiB/s   Receiving objects:  23% (1392/6052), 1.11 MiB | 1.08 MiB/s   Receiving objects:  24% (1453/6052), 1.11 MiB | 1.08 MiB/s   Receiving objects:  25% (1513/6052), 1.11 MiB | 1.08 MiB/s   Receiving objects:  26% (1574/6052), 1.11 MiB | 1.08 MiB/s   Receiving objects:  27% (1635/6052), 1.11 MiB | 1.08 MiB/s   Receiving objects:  28% (1695/6052), 1.11 MiB | 1.08 MiB/s   Receiving objects:  29% (1756/6052), 1.11 MiB | 1.08 MiB/s   Receiving objects:  30% (1816/6052), 1.11 MiB | 1.08 MiB/s   Receiving objects:  31% (1877/6052), 1.11 MiB | 1.08 MiB/s   Receiving objects:  32% (1937/6052), 1.11 MiB | 1.08 MiB/s   Receiving objects:  33% (1998/6052), 1.11 MiB | 1.08 MiB/s   Receiving objects:  34% (2058/6052), 1.11 MiB | 1.08 MiB/s   Receiving objects:  35% (2119/6052), 1.11 MiB | 1.08 MiB/s   Receiving objects:  36% (2179/6052), 1.11 MiB | 1.08 MiB/s   Receiving objects:  37% (2240/6052), 1.11 MiB | 1.08 MiB/s   Receiving objects:  38% (2300/6052), 1.11 MiB | 1.08 MiB/s   Receiving objects:  39% (2361/6052), 1.11 MiB | 1.08 MiB/s   Receiving objects:  40% (2421/6052), 1.11 MiB | 1.08 MiB/s   Receiving objects:  41% (2482/6052), 1.11 MiB | 1.08 MiB/s   Receiving objects:  42% (2542/6052), 1.11 MiB | 1.08 MiB/s   Receiving objects:  43% (2603/6052), 1.11 MiB | 1.08 MiB/s   Receiving objects:  44% (2663/6052), 1.11 MiB | 1.08 MiB/s   Receiving objects:  45% (2724/6052), 1.11 MiB | 1.08 MiB/s   Receiving objects:  46% (2784/6052), 1.11 MiB | 1.08 MiB/s   Receiving objects:  47% (2845/6052), 1.11 MiB | 1.08 MiB/s   Receiving objects:  48% (2905/6052), 1.11 MiB | 1.08 MiB/s   Receiving objects:  49% (2966/6052), 1.11 MiB | 1.08 MiB/s   Receiving objects:  50% (3026/6052), 1.11 MiB | 1.08 MiB/s   Receiving objects:  51% (3087/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  52% (3148/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  53% (3208/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  54% (3269/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  55% (3329/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  56% (3390/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  57% (3450/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  58% (3511/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  59% (3571/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  60% (3632/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  61% (3692/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  62% (3753/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  63% (3813/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  64% (3874/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  65% (3934/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  66% (3995/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  67% (4055/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  68% (4116/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  69% (4176/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  70% (4237/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  71% (4297/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  72% (4358/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  73% (4418/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  74% (4479/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  75% (4539/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  76% (4600/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  77% (4661/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  78% (4721/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  79% (4782/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  80% (4842/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  81% (4903/6052), 2.89 MiB | 1.90 MiB/s   Receiving objects:  81% (4908/6052), 4.00 MiB | 1.36 MiB/s   Receiving objects:  82% (4963/6052), 4.00 MiB | 1.36 MiB/s   Receiving objects:  83% (5024/6052), 4.00 MiB | 1.36 MiB/s   Receiving objects:  84% (5084/6052), 4.00 MiB | 1.36 MiB/s   Receiving objects:  85% (5145/6052), 4.00 MiB | 1.36 MiB/s   Receiving objects:  86% (5205/6052), 4.00 MiB | 1.36 MiB/s   Receiving objects:  87% (5266/6052), 4.00 MiB | 1.36 MiB/s   Receiving objects:  88% (5326/6052), 4.00 MiB | 1.36 MiB/s   Receiving objects:  89% (5387/6052), 4.00 MiB | 1.36 MiB/s   Receiving objects:  90% (5447/6052), 4.00 MiB | 1.36 MiB/s   Receiving objects:  91% (5508/6052), 4.00 MiB | 1.36 MiB/s   Receiving objects:  92% (5568/6052), 4.00 MiB | 1.36 MiB/s   Receiving objects:  93% (5629/6052), 4.00 MiB | 1.36 MiB/s   Receiving objects:  94% (5689/6052), 4.00 MiB | 1.36 MiB/s   Receiving objects:  95% (5750/6052), 4.00 MiB | 1.36 MiB/s   Receiving objects:  96% (5810/6052), 4.00 MiB | 1.36 MiB/s   remote: Total 6052 (delta 0), reused 0 (delta 0), pack-reused 6052[K
-Receiving objects:  97% (5871/6052), 4.00 MiB | 1.36 MiB/s   Receiving objects:  98% (5931/6052), 4.00 MiB | 1.36 MiB/s   Receiving objects:  99% (5992/6052), 4.00 MiB | 1.36 MiB/s   Receiving objects: 100% (6052/6052), 4.00 MiB | 1.36 MiB/s   Receiving objects: 100% (6052/6052), 4.33 MiB | 1.36 MiB/s, done.
-Resolving deltas:   0% (0/3786)   Resolving deltas:   1% (46/3786)   Resolving deltas:   2% (79/3786)   Resolving deltas:   3% (117/3786)   Resolving deltas:   4% (171/3786)   Resolving deltas:   8% (322/3786)   Resolving deltas:   9% (358/3786)   Resolving deltas:  10% (380/3786)   Resolving deltas:  11% (417/3786)   Resolving deltas:  12% (465/3786)   Resolving deltas:  13% (498/3786)   Resolving deltas:  14% (533/3786)   Resolving deltas:  15% (568/3786)   Resolving deltas:  16% (607/3786)   Resolving deltas:  17% (646/3786)   Resolving deltas:  18% (682/3786)   Resolving deltas:  22% (857/3786)   Resolving deltas:  24% (916/3786)   Resolving deltas:  25% (975/3786)   Resolving deltas:  26% (1002/3786)   Resolving deltas:  36% (1377/3786)   Resolving deltas:  40% (1534/3786)   Resolving deltas:  41% (1561/3786)   Resolving deltas:  44% (1685/3786)   Resolving deltas:  45% (1734/3786)   Resolving deltas:  46% (1749/3786)   Resolving deltas:  50% (1910/3786)   Resolving deltas:  51% (1965/3786)   Resolving deltas:  52% (1994/3786)   Resolving deltas:  53% (2019/3786)   Resolving deltas:  55% (2099/3786)   Resolving deltas:  57% (2172/3786)   Resolving deltas:  58% (2231/3786)   Resolving deltas:  59% (2262/3786)   Resolving deltas:  60% (2292/3786)   Resolving deltas:  62% (2350/3786)   Resolving deltas:  63% (2396/3786)   Resolving deltas:  64% (2433/3786)   Resolving deltas:  65% (2463/3786)   Resolving deltas:  66% (2509/3786)   Resolving deltas:  67% (2548/3786)   Resolving deltas:  69% (2636/3786)   Resolving deltas:  70% (2660/3786)   Resolving deltas:  74% (2814/3786)   Resolving deltas:  75% (2842/3786)   Resolving deltas:  76% (2910/3786)   Resolving deltas:  77% (2916/3786)   Resolving deltas:  79% (2996/3786)   Resolving deltas:  80% (3033/3786)   Resolving deltas:  81% (3073/3786)   Resolving deltas:  82% (3108/3786)   Resolving deltas:  83% (3150/3786)   Resolving deltas:  84% (3189/3786)   Resolving deltas:  85% (3234/3786)   Resolving deltas:  86% (3260/3786)   Resolving deltas:  87% (3297/3786)   Resolving deltas:  88% (3333/3786)   Resolving deltas:  89% (3370/3786)   Resolving deltas:  90% (3411/3786)   Resolving deltas:  91% (3454/3786)   Resolving deltas:  92% (3486/3786)   Resolving deltas:  93% (3525/3786)   Resolving deltas:  94% (3560/3786)   Resolving deltas:  95% (3598/3786)   Resolving deltas:  96% (3637/3786)   Resolving deltas:  97% (3677/3786)   Resolving deltas:  98% (3719/3786)   Resolving deltas:  99% (3751/3786)   Resolving deltas: 100% (3786/3786)   Resolving deltas: 100% (3786/3786), done.
+Receiving objects:   0% (1/6052)   Receiving objects:   1% (61/6052)   Receiving objects:   2% (122/6052)   Receiving objects:   3% (182/6052)   Receiving objects:   4% (243/6052)   Receiving objects:   5% (303/6052)   Receiving objects:   6% (364/6052)   Receiving objects:   7% (424/6052)   Receiving objects:   8% (485/6052)   Receiving objects:   9% (545/6052)   Receiving objects:  10% (606/6052)   Receiving objects:  11% (666/6052)   Receiving objects:  12% (727/6052)   Receiving objects:  13% (787/6052)   Receiving objects:  14% (848/6052)   Receiving objects:  15% (908/6052)   Receiving objects:  16% (969/6052)   Receiving objects:  17% (1029/6052)   Receiving objects:  18% (1090/6052)   Receiving objects:  19% (1150/6052)   Receiving objects:  20% (1211/6052)   Receiving objects:  21% (1271/6052)   Receiving objects:  22% (1332/6052)   Receiving objects:  23% (1392/6052)   Receiving objects:  24% (1453/6052)   Receiving objects:  25% (1513/6052)   Receiving objects:  26% (1574/6052)   Receiving objects:  27% (1635/6052)   Receiving objects:  28% (1695/6052)   Receiving objects:  29% (1756/6052)   Receiving objects:  30% (1816/6052)   Receiving objects:  31% (1877/6052)   Receiving objects:  32% (1937/6052)   Receiving objects:  33% (1998/6052)   Receiving objects:  34% (2058/6052)   Receiving objects:  35% (2119/6052)   Receiving objects:  36% (2179/6052)   Receiving objects:  37% (2240/6052)   Receiving objects:  38% (2300/6052)   Receiving objects:  39% (2361/6052)   Receiving objects:  40% (2421/6052)   Receiving objects:  41% (2482/6052)   Receiving objects:  42% (2542/6052)   Receiving objects:  43% (2603/6052)   Receiving objects:  44% (2663/6052)   Receiving objects:  45% (2724/6052)   Receiving objects:  46% (2784/6052)   Receiving objects:  47% (2845/6052)   Receiving objects:  48% (2905/6052)   Receiving objects:  49% (2966/6052)   Receiving objects:  50% (3026/6052)   Receiving objects:  51% (3087/6052)   Receiving objects:  52% (3148/6052)   Receiving objects:  53% (3208/6052)   Receiving objects:  54% (3269/6052)   Receiving objects:  55% (3329/6052)   Receiving objects:  56% (3390/6052)   Receiving objects:  57% (3450/6052)   Receiving objects:  58% (3511/6052)   Receiving objects:  59% (3571/6052)   Receiving objects:  60% (3632/6052)   Receiving objects:  61% (3692/6052)   Receiving objects:  62% (3753/6052)   Receiving objects:  63% (3813/6052)   Receiving objects:  64% (3874/6052)   Receiving objects:  65% (3934/6052)   Receiving objects:  66% (3995/6052)   Receiving objects:  67% (4055/6052)   Receiving objects:  68% (4116/6052)   Receiving objects:  69% (4176/6052)   Receiving objects:  70% (4237/6052)   Receiving objects:  71% (4297/6052)   Receiving objects:  72% (4358/6052)   Receiving objects:  73% (4418/6052)   Receiving objects:  74% (4479/6052)   Receiving objects:  75% (4539/6052)   Receiving objects:  76% (4600/6052)   Receiving objects:  77% (4661/6052)   Receiving objects:  78% (4721/6052)   Receiving objects:  79% (4782/6052)   Receiving objects:  80% (4842/6052)   Receiving objects:  81% (4903/6052)   Receiving objects:  82% (4963/6052)   Receiving objects:  83% (5024/6052)   Receiving objects:  84% (5084/6052)   Receiving objects:  85% (5145/6052)   Receiving objects:  86% (5205/6052)   Receiving objects:  87% (5266/6052)   Receiving objects:  88% (5326/6052), 4.13 MiB | 8.23 MiB/s   Receiving objects:  89% (5387/6052), 4.13 MiB | 8.23 MiB/s   Receiving objects:  90% (5447/6052), 4.13 MiB | 8.23 MiB/s   Receiving objects:  91% (5508/6052), 4.13 MiB | 8.23 MiB/s   Receiving objects:  92% (5568/6052), 4.13 MiB | 8.23 MiB/s   Receiving objects:  93% (5629/6052), 4.13 MiB | 8.23 MiB/s   Receiving objects:  94% (5689/6052), 4.13 MiB | 8.23 MiB/s   Receiving objects:  95% (5750/6052), 4.13 MiB | 8.23 MiB/s   Receiving objects:  96% (5810/6052), 4.13 MiB | 8.23 MiB/s   remote: Total 6052 (delta 0), reused 0 (delta 0), pack-reused 6052[K
+Receiving objects:  97% (5871/6052), 4.13 MiB | 8.23 MiB/s   Receiving objects:  98% (5931/6052), 4.13 MiB | 8.23 MiB/s   Receiving objects:  99% (5992/6052), 4.13 MiB | 8.23 MiB/s   Receiving objects: 100% (6052/6052), 4.13 MiB | 8.23 MiB/s   Receiving objects: 100% (6052/6052), 4.33 MiB | 8.23 MiB/s, done.
+Resolving deltas:   0% (0/3786)   Resolving deltas:   1% (46/3786)   Resolving deltas:   2% (81/3786)   Resolving deltas:   3% (117/3786)   Resolving deltas:   4% (170/3786)   Resolving deltas:   8% (335/3786)   Resolving deltas:   9% (348/3786)   Resolving deltas:  10% (379/3786)   Resolving deltas:  11% (418/3786)   Resolving deltas:  12% (465/3786)   Resolving deltas:  13% (498/3786)   Resolving deltas:  14% (532/3786)   Resolving deltas:  15% (568/3786)   Resolving deltas:  16% (609/3786)   Resolving deltas:  17% (644/3786)   Resolving deltas:  18% (688/3786)   Resolving deltas:  20% (782/3786)   Resolving deltas:  22% (856/3786)   Resolving deltas:  23% (874/3786)   Resolving deltas:  25% (953/3786)   Resolving deltas:  26% (990/3786)   Resolving deltas:  29% (1127/3786)   Resolving deltas:  38% (1450/3786)   Resolving deltas:  45% (1741/3786)   Resolving deltas:  46% (1752/3786)   Resolving deltas:  48% (1818/3786)   Resolving deltas:  49% (1868/3786)   Resolving deltas:  50% (1899/3786)   Resolving deltas:  51% (1942/3786)   Resolving deltas:  54% (2053/3786)   Resolving deltas:  55% (2098/3786)   Resolving deltas:  57% (2178/3786)   Resolving deltas:  59% (2247/3786)   Resolving deltas:  60% (2273/3786)   Resolving deltas:  61% (2347/3786)   Resolving deltas:  62% (2357/3786)   Resolving deltas:  63% (2394/3786)   Resolving deltas:  64% (2453/3786)   Resolving deltas:  65% (2464/3786)   Resolving deltas:  66% (2512/3786)   Resolving deltas:  67% (2542/3786)   Resolving deltas:  69% (2617/3786)   Resolving deltas:  70% (2655/3786)   Resolving deltas:  71% (2702/3786)   Resolving deltas:  72% (2727/3786)   Resolving deltas:  73% (2780/3786)   Resolving deltas:  74% (2803/3786)   Resolving deltas:  76% (2894/3786)   Resolving deltas:  77% (2918/3786)   Resolving deltas:  79% (2994/3786)   Resolving deltas:  80% (3037/3786)   Resolving deltas:  81% (3077/3786)   Resolving deltas:  82% (3114/3786)   Resolving deltas:  83% (3148/3786)   Resolving deltas:  84% (3185/3786)   Resolving deltas:  85% (3235/3786)   Resolving deltas:  86% (3260/3786)   Resolving deltas:  87% (3301/3786)   Resolving deltas:  88% (3335/3786)   Resolving deltas:  89% (3370/3786)   Resolving deltas:  90% (3417/3786)   Resolving deltas:  91% (3453/3786)   Resolving deltas:  92% (3484/3786)   Resolving deltas:  93% (3521/3786)   Resolving deltas:  94% (3569/3786)   Resolving deltas:  95% (3603/3786)   Resolving deltas:  96% (3635/3786)   Resolving deltas:  97% (3673/3786)   Resolving deltas:  98% (3713/3786)   Resolving deltas:  99% (3753/3786)   Resolving deltas: 100% (3786/3786)   Resolving deltas: 100% (3786/3786), done.
 Checking connectivity... done.
 + cd mirage-www
 + export MODE=unix

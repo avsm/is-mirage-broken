@@ -31,11 +31,11 @@ Repodata is over 2 weeks old. Install yum-cron? Or run: yum makecache fast
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 3% [-                ]  0.0 B/s | 208 kB   --:-- ETA updates/7/x86_64/primary_d 10% [=-              ] 757 kB/s | 720 kB   00:08 ETA updates/7/x86_64/primary_d 18% [==-             ] 808 kB/s | 1.2 MB   00:06 ETA updates/7/x86_64/primary_d 25% [====            ] 855 kB/s | 1.7 MB   00:05 ETA updates/7/x86_64/primary_d 33% [=====           ] 899 kB/s | 2.2 MB   00:05 ETA updates/7/x86_64/primary_d 40% [======-         ] 940 kB/s | 2.7 MB   00:04 ETA updates/7/x86_64/primary_d 48% [=======-        ] 978 kB/s | 3.2 MB   00:03 ETA updates/7/x86_64/primary_d 55% [========-       ] 1.0 MB/s | 3.7 MB   00:02 ETA updates/7/x86_64/primary_d 63% [==========      ] 1.0 MB/s | 4.2 MB   00:02 ETA updates/7/x86_64/primary_d 70% [===========     ] 1.1 MB/s | 4.7 MB   00:01 ETA updates/7/x86_64/primary_d 78% [============-   ] 1.1 MB/s | 5.2 MB   00:01 ETA updates/7/x86_64/primary_d 85% [=============-  ] 1.1 MB/s | 5.7 MB   00:00 ETA updates/7/x86_64/primary_d 93% [==============- ] 1.1 MB/s | 6.2 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:05     
+updates/7/x86_64/primary_d 12% [=-              ]  0.0 B/s | 846 kB   --:-- ETA updates/7/x86_64/primary_d 47% [=======-        ] 2.4 MB/s | 3.2 MB   00:01 ETA updates/7/x86_64/primary_d 86% [=============-  ] 2.8 MB/s | 5.8 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:01     
 Determining fastest mirrors
- * base: mirror.steadfast.net
- * extras: mirrors.chkhosting.com
- * updates: mirror.steadfast.net
+ * base: centos.chi.host-engine.com
+ * extras: centos-mirror.jchost.net
+ * updates: centos.corenetworks.net
 Resolving Dependencies
 --> Running transaction check
 ---> Package libffi-devel.x86_64 0:3.0.13-11.el7 will be installed
@@ -56,7 +56,7 @@ Install  1 Package
 Total download size: 22 k
 Installed size: 27 k
 Downloading packages:
-libffi-devel-3.0.13-11.el7 0% [                 ]  0.0 B/s |    0 B   --:-- ETA libffi-devel-3.0.13-11.el7.x86_64.rpm                      |  22 kB   00:00     
+libffi-devel-3.0.13-11.el7.x86_64.rpm                      |  22 kB   00:00     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -184,13 +184,13 @@ Building sexplib.111.25.00:
   make install
 Installing ocplib-endian.0.8.
 Installing sexplib.111.25.00.
-Building ipaddr.2.5.0:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
-  make build
-  make install
 Building cstruct.1.5.0:
   ./configure --prefix /home/opam/.opam/4.01.0 --enable-lwt --enable-camlp4 --disable-async --enable-unix --disable-tests
   make
+  make install
+Building ipaddr.2.5.0:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
+  make build
   make install
 Installing ipaddr.2.5.0.
 Installing cstruct.1.5.0.
@@ -245,9 +245,9 @@ Removing tls.0.3.0.
 [31m#[m [31mpath[m         /home/opam/.opam/4.01.0/build/tls.0.3.0
 [31m#[m [31mcompiler[m     4.01.0
 [31m#[m [31mexit-code[m    1
-[31m#[m [31menv-file[m     /home/opam/.opam/4.01.0/build/tls.0.3.0/tls-24304-af3201.env
-[31m#[m [31mstdout-file[m  /home/opam/.opam/4.01.0/build/tls.0.3.0/tls-24304-af3201.out
-[31m#[m [31mstderr-file[m  /home/opam/.opam/4.01.0/build/tls.0.3.0/tls-24304-af3201.err
+[31m#[m [31menv-file[m     /home/opam/.opam/4.01.0/build/tls.0.3.0/tls-24306-af3201.env
+[31m#[m [31mstdout-file[m  /home/opam/.opam/4.01.0/build/tls.0.3.0/tls-24306-af3201.out
+[31m#[m [31mstderr-file[m  /home/opam/.opam/4.01.0/build/tls.0.3.0/tls-24306-af3201.err
 [31m### stdout ###
 [m[31m# [m...[truncated]
 [31m# [m/home/opam/.opam/4.01.0/bin/ocamlfind ocamldep -syntax camlp4o -package cstruct.syntax -package io-page -package ipaddr -package lwt -syntax camlp4o -package lwt.syntax -package mirage-types -package nocrypto -syntax camlp4o -package sexplib.syntax -package x509 -modules mirage/tls_mirage.ml > mirage/tls_mirage.ml.depends
@@ -293,4 +293,4 @@ These actions have been completed [01msuccessfully[m
 The following [01mfailed[m
  - install   tls.0.3.0
 
-The former state can be restored with opam switch import "/home/opam/.opam/4.01.0/backup/state-20150125072427.export"
+The former state can be restored with opam switch import "/home/opam/.opam/4.01.0/backup/state-20150125205434.export"
