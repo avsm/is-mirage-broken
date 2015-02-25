@@ -31,7 +31,7 @@ Repodata is over 2 weeks old. Install yum-cron? Or run: yum makecache fast
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 3% [-                ]  0.0 B/s | 208 kB   --:-- ETA updates/7/x86_64/primary_d 10% [=-              ] 744 kB/s | 720 kB   00:08 ETA updates/7/x86_64/primary_d 18% [==-             ] 795 kB/s | 1.2 MB   00:06 ETA updates/7/x86_64/primary_d 24% [===-            ] 833 kB/s | 1.6 MB   00:06 ETA updates/7/x86_64/primary_d 32% [=====           ] 878 kB/s | 2.1 MB   00:05 ETA updates/7/x86_64/primary_d 37% [======          ] 899 kB/s | 2.5 MB   00:04 ETA updates/7/x86_64/primary_d 45% [=======         ] 939 kB/s | 3.0 MB   00:03 ETA updates/7/x86_64/primary_d 53% [========        ] 976 kB/s | 3.5 MB   00:03 ETA updates/7/x86_64/primary_d 60% [=========-      ] 1.0 MB/s | 4.0 MB   00:02 ETA updates/7/x86_64/primary_d 67% [==========-     ] 1.0 MB/s | 4.4 MB   00:02 ETA updates/7/x86_64/primary_d 73% [===========-    ] 1.0 MB/s | 4.9 MB   00:01 ETA updates/7/x86_64/primary_d 80% [============-   ] 1.1 MB/s | 5.3 MB   00:01 ETA updates/7/x86_64/primary_d 87% [==============  ] 1.1 MB/s | 5.8 MB   00:00 ETA updates/7/x86_64/primary_d 95% [=============== ] 1.1 MB/s | 6.3 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:05     
+updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 2% [                 ]  0.0 B/s | 144 kB   --:-- ETA updates/7/x86_64/primary_d 7% [=                ] 567 kB/s | 528 kB   00:11 ETA updates/7/x86_64/primary_d 15% [==              ] 630 kB/s | 1.0 MB   00:09 ETA updates/7/x86_64/primary_d 22% [===-            ] 689 kB/s | 1.5 MB   00:07 ETA updates/7/x86_64/primary_d 29% [====-           ] 735 kB/s | 2.0 MB   00:06 ETA updates/7/x86_64/primary_d 36% [=====-          ] 786 kB/s | 2.5 MB   00:05 ETA updates/7/x86_64/primary_d 44% [=======         ] 834 kB/s | 3.0 MB   00:04 ETA updates/7/x86_64/primary_d 51% [========        ] 826 kB/s | 3.4 MB   00:03 ETA updates/7/x86_64/primary_d 52% [========        ] 787 kB/s | 3.5 MB   00:04 ETA updates/7/x86_64/primary_d 58% [=========       ] 810 kB/s | 3.9 MB   00:03 ETA updates/7/x86_64/primary_d 66% [==========-     ] 857 kB/s | 4.4 MB   00:02 ETA updates/7/x86_64/primary_d 73% [===========-    ] 900 kB/s | 4.9 MB   00:01 ETA updates/7/x86_64/primary_d 81% [=============   ] 940 kB/s | 5.4 MB   00:01 ETA updates/7/x86_64/primary_d 88% [==============  ] 978 kB/s | 5.9 MB   00:00 ETA updates/7/x86_64/primary_d 91% [==============- ] 931 kB/s | 6.1 MB   00:00 ETA updates/7/x86_64/primary_d 92% [==============- ] 885 kB/s | 6.1 MB   00:00 ETA updates/7/x86_64/primary_d 97% [===============-] 889 kB/s | 6.5 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:06     
 Determining fastest mirrors
  * base: centos.mirrors.tds.net
  * extras: mirrors.chkhosting.com
@@ -129,12 +129,12 @@ Copying ~/.opam/repo/default/packages/camlp4/camlp4.4.02.1+system/files/check-ca
 Building camlp4.4.02.1+system:
   sh ./check-camlp4.sh
 Copying ~/.opam/repo/default/packages/ocamlfind/ocamlfind.1.5.5/files/ocamlfind.install to ~/.opam/system/build/ocamlfind.1.5.5/
-Installing camlp4.4.02.1+system.
 Building ocamlfind.1.5.5:
   ./configure -bindir /home/opam/.opam/system/bin -sitelib /home/opam/.opam/system/lib -mandir /home/opam/.opam/system/man -config /home/opam/.opam/system/lib/findlib.conf -no-topfind
   make all
   make opt
   make install
+Installing camlp4.4.02.1+system.
 Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/mirage-install.sh to ~/.opam/system/build/gmp.6.0.0/
 Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/mirage-build.sh to ~/.opam/system/build/gmp.6.0.0/
 Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/gmp.pc to ~/.opam/system/build/gmp.6.0.0/
@@ -146,13 +146,13 @@ Building gmp.6.0.0:
   ./mirage-install.sh
 Installing ocamlfind.1.5.5.
 Installing base-bytes.base.
-Building cmdliner.0.9.6:
-  ocaml pkg/git.ml
-  ocaml pkg/build.ml native=true native-dynlink=true
 Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/system/build/cppo.1.1.2/
 Building cppo.1.1.2:
   make
   make install-lib
+Building cmdliner.0.9.6:
+  ocaml pkg/git.ml
+  ocaml pkg/build.ml native=true native-dynlink=true
 Installing cmdliner.0.9.6.
 Building ppx_tools.0.99.2:
   make all
@@ -166,12 +166,12 @@ Installing ppx_tools.0.99.2.
 Building type_conv.112.01.00:
   make
   make install
-Installing re.1.2.2.
+Installing type_conv.112.01.00.
 Building crunch.1.3.0:
   ocaml setup.ml -configure --prefix /home/opam/.opam/system
   ocaml setup.ml -build
   ocaml setup.ml -install
-Installing type_conv.112.01.00.
+Installing re.1.2.2.
 Building ctypes.0.3.4:
   make
   make install
@@ -253,9 +253,9 @@ Removing tls.0.3.0.
 [31m#[m [31mpath[m         /home/opam/.opam/system/build/tls.0.3.0
 [31m#[m [31mcompiler[m     system (4.02.1)
 [31m#[m [31mexit-code[m    1
-[31m#[m [31menv-file[m     /home/opam/.opam/system/build/tls.0.3.0/tls-24407-d682c6.env
-[31m#[m [31mstdout-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-24407-d682c6.out
-[31m#[m [31mstderr-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-24407-d682c6.err
+[31m#[m [31menv-file[m     /home/opam/.opam/system/build/tls.0.3.0/tls-24408-d682c6.env
+[31m#[m [31mstdout-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-24408-d682c6.out
+[31m#[m [31mstderr-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-24408-d682c6.err
 [31m### stdout ###
 [m[31m# [m...[truncated]
 [31m# [m/home/opam/.opam/system/bin/ocamlfind ocamldep -syntax camlp4o -package cstruct.syntax -package io-page -package ipaddr -package lwt -syntax camlp4o -package lwt.syntax -package mirage-types -package nocrypto -syntax camlp4o -package sexplib.syntax -package x509 -modules mirage/tls_mirage.ml > mirage/tls_mirage.ml.depends
@@ -301,4 +301,4 @@ These actions have been completed [01msuccessfully[m
 The following [01mfailed[m
  - install   tls.0.3.0
 
-The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150124205923.export"
+The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150125073415.export"
