@@ -31,11 +31,11 @@ Repodata is over 2 weeks old. Install yum-cron? Or run: yum makecache fast
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 13% [==              ]  0.0 B/s | 884 kB   --:-- ETA updates/7/x86_64/primary_d 67% [==========-     ] 5.8 MB/s | 4.5 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:01     
+updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 11% [=-              ]  0.0 B/s | 755 kB   --:-- ETA updates/7/x86_64/primary_d 26% [====            ] 1.6 MB/s | 1.7 MB   00:03 ETA updates/7/x86_64/primary_d 37% [=====-          ] 1.6 MB/s | 2.5 MB   00:02 ETA updates/7/x86_64/primary_d 53% [========-       ] 1.7 MB/s | 3.5 MB   00:01 ETA updates/7/x86_64/primary_d 58% [=========       ] 1.7 MB/s | 3.9 MB   00:01 ETA updates/7/x86_64/primary_d 64% [==========      ] 1.7 MB/s | 4.3 MB   00:01 ETA updates/7/x86_64/primary_d 72% [===========-    ] 1.6 MB/s | 4.8 MB   00:01 ETA updates/7/x86_64/primary_d 80% [============-   ] 1.6 MB/s | 5.3 MB   00:00 ETA updates/7/x86_64/primary_d 87% [=============-  ] 1.6 MB/s | 5.8 MB   00:00 ETA updates/7/x86_64/primary_d 94% [=============== ] 1.6 MB/s | 6.3 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:03     
 Determining fastest mirrors
- * base: centos.mbni.med.umich.edu
- * extras: centos.mbni.med.umich.edu
- * updates: mirror.steadfast.net
+ * base: bay.uchicago.edu
+ * extras: mirror.steadfast.net
+ * updates: mirrors.chkhosting.com
 Resolving Dependencies
 --> Running transaction check
 ---> Package libffi-devel.x86_64 0:3.0.13-11.el7 will be installed
@@ -147,12 +147,12 @@ Building gmp.6.0.0:
 Installing ocamlfind.1.5.5.
 Installing base-bytes.base.
 Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/system/build/cppo.1.1.2/
-Building cppo.1.1.2:
-  make
-  make install-lib
 Building cmdliner.0.9.6:
   ocaml pkg/git.ml
   ocaml pkg/build.ml native=true native-dynlink=true
+Building cppo.1.1.2:
+  make
+  make install-lib
 Installing cmdliner.0.9.6.
 Building ppx_tools.0.99.2:
   make all
@@ -301,4 +301,4 @@ These actions have been completed [01msuccessfully[m
 The following [01mfailed[m
  - install   tls.0.3.0
 
-The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150128081054.export"
+The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150128205133.export"
