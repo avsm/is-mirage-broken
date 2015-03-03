@@ -31,11 +31,11 @@ Repodata is over 2 weeks old. Install yum-cron? Or run: yum makecache fast
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 1% [                 ]  0.0 B/s | 105 kB   --:-- ETA updates/7/x86_64/primary_d 7% [=                ] 568 kB/s | 496 kB   00:11 ETA updates/7/x86_64/primary_d 19% [===             ] 692 kB/s | 1.3 MB   00:07 ETA updates/7/x86_64/primary_d 43% [======-         ] 968 kB/s | 2.9 MB   00:03 ETA updates/7/x86_64/primary_d 65% [==========      ] 1.2 MB/s | 4.3 MB   00:01 ETA updates/7/x86_64/primary_d 80% [============-   ] 1.3 MB/s | 5.3 MB   00:00 ETA updates/7/x86_64/primary_d 89% [==============  ] 1.3 MB/s | 5.9 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:02     
+updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 9% [=-               ]  0.0 B/s | 634 kB   --:-- ETA updates/7/x86_64/primary_d 48% [=======-        ] 4.1 MB/s | 3.2 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:01     
 Determining fastest mirrors
- * base: bay.uchicago.edu
- * extras: ftpmirror.your.org
- * updates: mirror.team-cymru.org
+ * base: mirror.team-cymru.org
+ * extras: centos.chi.host-engine.com
+ * updates: mirror.nexcess.net
 Resolving Dependencies
 --> Running transaction check
 ---> Package libffi-devel.x86_64 0:3.0.13-11.el7 will be installed
@@ -56,7 +56,7 @@ Install  1 Package
 Total download size: 22 k
 Installed size: 27 k
 Downloading packages:
-libffi-devel-3.0.13-11.el7.x86_64.rpm                      |  22 kB   00:00     
+libffi-devel-3.0.13-11.el7 0% [                 ]  0.0 B/s |    0 B   --:-- ETA libffi-devel-3.0.13-11.el7.x86_64.rpm                      |  22 kB   00:00     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -128,7 +128,6 @@ Copying ~/.opam/repo/default/packages/camlp4/camlp4.4.02.1+system/files/install 
 Copying ~/.opam/repo/default/packages/camlp4/camlp4.4.02.1+system/files/check-camlp4.sh to ~/.opam/system/build/camlp4.4.02.1+system/
 Building camlp4.4.02.1+system:
   sh ./check-camlp4.sh
-Installing camlp4.4.02.1+system.
 Copying ~/.opam/repo/default/packages/ocamlfind/ocamlfind.1.5.5/files/ocamlfind.install to ~/.opam/system/build/ocamlfind.1.5.5/
 Building ocamlfind.1.5.5:
   ./configure -bindir /home/opam/.opam/system/bin -sitelib /home/opam/.opam/system/lib -mandir /home/opam/.opam/system/man -config /home/opam/.opam/system/lib/findlib.conf -no-topfind
@@ -141,6 +140,7 @@ Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/gmp.pc to ~/.opam/syste
 Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/gmp-6a.diff to ~/.opam/system/build/gmp.6.0.0/
 Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/META to ~/.opam/system/build/gmp.6.0.0/
 Applying gmp-6a.diff.
+Installing camlp4.4.02.1+system.
 Building gmp.6.0.0:
   ./mirage-build.sh
   ./mirage-install.sh
@@ -167,11 +167,11 @@ Building type_conv.112.01.00:
   make
   make install
 Installing type_conv.112.01.00.
-Installing re.1.2.2.
 Building crunch.1.3.0:
   ocaml setup.ml -configure --prefix /home/opam/.opam/system
   ocaml setup.ml -build
   ocaml setup.ml -install
+Installing re.1.2.2.
 Building ctypes.0.3.4:
   make
   make install
@@ -253,9 +253,9 @@ Removing tls.0.3.0.
 [31m#[m [31mpath[m         /home/opam/.opam/system/build/tls.0.3.0
 [31m#[m [31mcompiler[m     system (4.02.1)
 [31m#[m [31mexit-code[m    1
-[31m#[m [31menv-file[m     /home/opam/.opam/system/build/tls.0.3.0/tls-24407-d682c6.env
-[31m#[m [31mstdout-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-24407-d682c6.out
-[31m#[m [31mstderr-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-24407-d682c6.err
+[31m#[m [31menv-file[m     /home/opam/.opam/system/build/tls.0.3.0/tls-24408-d682c6.env
+[31m#[m [31mstdout-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-24408-d682c6.out
+[31m#[m [31mstderr-file[m  /home/opam/.opam/system/build/tls.0.3.0/tls-24408-d682c6.err
 [31m### stdout ###
 [m[31m# [m...[truncated]
 [31m# [m/home/opam/.opam/system/bin/ocamlfind ocamldep -syntax camlp4o -package cstruct.syntax -package io-page -package ipaddr -package lwt -syntax camlp4o -package lwt.syntax -package mirage-types -package nocrypto -syntax camlp4o -package sexplib.syntax -package x509 -modules mirage/tls_mirage.ml > mirage/tls_mirage.ml.depends
@@ -301,4 +301,4 @@ These actions have been completed [01msuccessfully[m
 The following [01mfailed[m
  - install   tls.0.3.0
 
-The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150202205311.export"
+The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150203081321.export"
