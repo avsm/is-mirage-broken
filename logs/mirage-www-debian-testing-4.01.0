@@ -9,19 +9,20 @@
 + [ -z www ]
 + [ -d .git ]
 + git pull
-remote: Counting objects: 2254, done.[K
-remote: Compressing objects:   0% (1/352)   [Kremote: Compressing objects:   1% (4/352)   [Kremote: Compressing objects:   2% (8/352)   [Kremote: Compressing objects:   3% (11/352)   [Kremote: Compressing objects:   4% (15/352)   [Kremote: Compressing objects:   5% (18/352)   [Kremote: Compressing objects:   6% (22/352)   [Kremote: Compressing objects:   7% (25/352)   [Kremote: Compressing objects:   8% (29/352)   [Kremote: Compressing objects:   9% (32/352)   [Kremote: Compressing objects:  10% (36/352)   [Kremote: Compressing objects:  11% (39/352)   [Kremote: Compressing objects:  12% (43/352)   [Kremote: Compressing objects:  13% (46/352)   [Kremote: Compressing objects:  14% (50/352)   [Kremote: Compressing objects:  15% (53/352)   [Kremote: Compressing objects:  16% (57/352)   [Kremote: Compressing objects:  17% (60/352)   [Kremote: Compressing objects:  18% (64/352)   [Kremote: Compressing objects:  19% (67/352)   [Kremote: Compressing objects:  20% (71/352)   [Kremote: Compressing objects:  21% (74/352)   [Kremote: Compressing objects:  22% (78/352)   [Kremote: Compressing objects:  23% (81/352)   [Kremote: Compressing objects:  24% (85/352)   [Kremote: Compressing objects:  25% (88/352)   [Kremote: Compressing objects:  26% (92/352)   [Kremote: Compressing objects:  27% (96/352)   [Kremote: Compressing objects:  28% (99/352)   [Kremote: Compressing objects:  29% (103/352)   [Kremote: Compressing objects:  30% (106/352)   [Kremote: Compressing objects:  31% (110/352)   [Kremote: Compressing objects:  32% (113/352)   [Kremote: Compressing objects:  33% (117/352)   [Kremote: Compressing objects:  34% (120/352)   [Kremote: Compressing objects:  35% (124/352)   [Kremote: Compressing objects:  36% (127/352)   [Kremote: Compressing objects:  37% (131/352)   [Kremote: Compressing objects:  38% (134/352)   [Kremote: Compressing objects:  39% (138/352)   [Kremote: Compressing objects:  40% (141/352)   [Kremote: Compressing objects:  41% (145/352)   [Kremote: Compressing objects:  42% (148/352)   [Kremote: Compressing objects:  43% (152/352)   [Kremote: Compressing objects:  44% (155/352)   [Kremote: Compressing objects:  45% (159/352)   [Kremote: Compressing objects:  46% (162/352)   [Kremote: Compressing objects:  47% (166/352)   [Kremote: Compressing objects:  48% (169/352)   [Kremote: Compressing objects:  49% (173/352)   [Kremote: Compressing objects:  50% (176/352)   [Kremote: Compressing objects:  51% (180/352)   [Kremote: Compressing objects:  52% (184/352)   [Kremote: Compressing objects:  53% (187/352)   [Kremote: Compressing objects:  54% (191/352)   [Kremote: Compressing objects:  55% (194/352)   [Kremote: Compressing objects:  56% (198/352)   [Kremote: Compressing objects:  57% (201/352)   [Kremote: Compressing objects:  58% (205/352)   [Kremote: Compressing objects:  59% (208/352)   [Kremote: Compressing objects:  60% (212/352)   [Kremote: Compressing objects:  61% (215/352)   [Kremote: Compressing objects:  62% (219/352)   [Kremote: Compressing objects:  63% (222/352)   [Kremote: Compressing objects:  64% (226/352)   [Kremote: Compressing objects:  65% (229/352)   [Kremote: Compressing objects:  66% (233/352)   [Kremote: Compressing objects:  67% (236/352)   [Kremote: Compressing objects:  68% (240/352)   [Kremote: Compressing objects:  69% (243/352)   [Kremote: Compressing objects:  70% (247/352)   [Kremote: Compressing objects:  71% (250/352)   [Kremote: Compressing objects:  72% (254/352)   [Kremote: Compressing objects:  73% (257/352)   [Kremote: Compressing objects:  74% (261/352)   [Kremote: Compressing objects:  75% (264/352)   [Kremote: Compressing objects:  76% (268/352)   [Kremote: Compressing objects:  77% (272/352)   [Kremote: Compressing objects:  78% (275/352)   [Kremote: Compressing objects:  79% (279/352)   [Kremote: Compressing objects:  80% (282/352)   [Kremote: Compressing objects:  81% (286/352)   [Kremote: Compressing objects:  82% (289/352)   [Kremote: Compressing objects:  83% (293/352)   [Kremote: Compressing objects:  84% (296/352)   [Kremote: Compressing objects:  85% (300/352)   [Kremote: Compressing objects:  86% (303/352)   [Kremote: Compressing objects:  87% (307/352)   [Kremote: Compressing objects:  88% (310/352)   [Kremote: Compressing objects:  89% (314/352)   [Kremote: Compressing objects:  90% (317/352)   [Kremote: Compressing objects:  91% (321/352)   [Kremote: Compressing objects:  92% (324/352)   [Kremote: Compressing objects:  93% (328/352)   [Kremote: Compressing objects:  94% (331/352)   [Kremote: Compressing objects:  95% (335/352)   [Kremote: Compressing objects:  96% (338/352)   [Kremote: Compressing objects:  97% (342/352)   [Kremote: Compressing objects:  98% (345/352)   [Kremote: Compressing objects:  99% (349/352)   [Kremote: Compressing objects: 100% (352/352)   [Kremote: Compressing objects: 100% (352/352), done.[K
-Receiving objects:   0% (1/2254)   Receiving objects:   1% (23/2254)   Receiving objects:   2% (46/2254)   Receiving objects:   3% (68/2254)   Receiving objects:   4% (91/2254)   Receiving objects:   5% (113/2254)   Receiving objects:   6% (136/2254)   Receiving objects:   7% (158/2254)   Receiving objects:   8% (181/2254)   Receiving objects:   9% (203/2254)   Receiving objects:  10% (226/2254)   Receiving objects:  11% (248/2254)   Receiving objects:  12% (271/2254)   Receiving objects:  13% (294/2254)   Receiving objects:  14% (316/2254)   Receiving objects:  15% (339/2254)   Receiving objects:  16% (361/2254)   Receiving objects:  17% (384/2254)   Receiving objects:  18% (406/2254)   Receiving objects:  19% (429/2254)   Receiving objects:  20% (451/2254)   Receiving objects:  21% (474/2254)   Receiving objects:  22% (496/2254)   Receiving objects:  23% (519/2254)   Receiving objects:  24% (541/2254)   Receiving objects:  25% (564/2254)   Receiving objects:  26% (587/2254)   Receiving objects:  27% (609/2254)   Receiving objects:  28% (632/2254)   Receiving objects:  29% (654/2254)   Receiving objects:  30% (677/2254)   Receiving objects:  31% (699/2254)   Receiving objects:  32% (722/2254)   Receiving objects:  33% (744/2254)   Receiving objects:  34% (767/2254)   Receiving objects:  35% (789/2254)   Receiving objects:  36% (812/2254)   Receiving objects:  37% (834/2254)   Receiving objects:  38% (857/2254)   Receiving objects:  39% (880/2254)   Receiving objects:  40% (902/2254)   Receiving objects:  41% (925/2254)   Receiving objects:  42% (947/2254)   Receiving objects:  43% (970/2254)   Receiving objects:  44% (992/2254)   Receiving objects:  45% (1015/2254)   Receiving objects:  46% (1037/2254)   Receiving objects:  47% (1060/2254)   Receiving objects:  48% (1082/2254)   Receiving objects:  49% (1105/2254)   Receiving objects:  50% (1127/2254)   Receiving objects:  51% (1150/2254)   Receiving objects:  52% (1173/2254)   Receiving objects:  53% (1195/2254)   Receiving objects:  54% (1218/2254)   Receiving objects:  55% (1240/2254)   Receiving objects:  56% (1263/2254)   Receiving objects:  57% (1285/2254)   Receiving objects:  58% (1308/2254)   Receiving objects:  59% (1330/2254)   Receiving objects:  60% (1353/2254)   Receiving objects:  61% (1375/2254)   Receiving objects:  62% (1398/2254)   Receiving objects:  63% (1421/2254)   Receiving objects:  64% (1443/2254)   Receiving objects:  65% (1466/2254)   Receiving objects:  66% (1488/2254)   Receiving objects:  67% (1511/2254)   Receiving objects:  68% (1533/2254)   Receiving objects:  69% (1556/2254)   Receiving objects:  70% (1578/2254)   Receiving objects:  71% (1601/2254)   Receiving objects:  72% (1623/2254)   Receiving objects:  73% (1646/2254)   Receiving objects:  74% (1668/2254)   Receiving objects:  75% (1691/2254)   Receiving objects:  76% (1714/2254)   Receiving objects:  77% (1736/2254)   Receiving objects:  78% (1759/2254)   Receiving objects:  79% (1781/2254)   Receiving objects:  80% (1804/2254)   remote: Total 2254 (delta 584), reused 418 (delta 418), pack-reused 1480[K
-Receiving objects:  81% (1826/2254)   Receiving objects:  82% (1849/2254)   Receiving objects:  83% (1871/2254)   Receiving objects:  84% (1894/2254)   Receiving objects:  85% (1916/2254)   Receiving objects:  86% (1939/2254)   Receiving objects:  87% (1961/2254)   Receiving objects:  88% (1984/2254)   Receiving objects:  89% (2007/2254)   Receiving objects:  90% (2029/2254)   Receiving objects:  91% (2052/2254)   Receiving objects:  92% (2074/2254)   Receiving objects:  93% (2097/2254)   Receiving objects:  94% (2119/2254)   Receiving objects:  95% (2142/2254)   Receiving objects:  96% (2164/2254)   Receiving objects:  97% (2187/2254)   Receiving objects:  98% (2209/2254)   Receiving objects:  99% (2232/2254)   Receiving objects: 100% (2254/2254)   Receiving objects: 100% (2254/2254), 414.49 KiB | 0 bytes/s, done.
-Resolving deltas:   0% (0/1030)   Resolving deltas:   1% (11/1030)   Resolving deltas:   2% (21/1030)   Resolving deltas:   4% (48/1030)   Resolving deltas:   5% (60/1030)   Resolving deltas:   6% (64/1030)   Resolving deltas:   7% (73/1030)   Resolving deltas:   8% (83/1030)   Resolving deltas:   9% (94/1030)   Resolving deltas:  10% (104/1030)   Resolving deltas:  11% (115/1030)   Resolving deltas:  12% (124/1030)   Resolving deltas:  13% (135/1030)   Resolving deltas:  14% (145/1030)   Resolving deltas:  15% (155/1030)   Resolving deltas:  16% (166/1030)   Resolving deltas:  17% (177/1030)   Resolving deltas:  18% (188/1030)   Resolving deltas:  31% (325/1030)   Resolving deltas:  32% (331/1030)   Resolving deltas:  33% (341/1030)   Resolving deltas:  34% (351/1030)   Resolving deltas:  42% (438/1030)   Resolving deltas:  43% (443/1030)   Resolving deltas:  44% (454/1030)   Resolving deltas:  45% (464/1030)   Resolving deltas:  46% (477/1030)   Resolving deltas:  47% (487/1030)   Resolving deltas:  48% (496/1030)   Resolving deltas:  49% (505/1030)   Resolving deltas:  50% (515/1030)   Resolving deltas:  51% (526/1030)   Resolving deltas:  52% (536/1030)   Resolving deltas:  53% (546/1030)   Resolving deltas:  54% (559/1030)   Resolving deltas:  66% (685/1030)   Resolving deltas:  67% (691/1030)   Resolving deltas:  68% (707/1030)   Resolving deltas:  69% (713/1030)   Resolving deltas:  70% (728/1030)   Resolving deltas:  71% (732/1030)   Resolving deltas:  72% (745/1030)   Resolving deltas:  73% (753/1030)   Resolving deltas:  74% (763/1030)   Resolving deltas:  75% (776/1030)   Resolving deltas:  76% (783/1030)   Resolving deltas:  77% (799/1030)   Resolving deltas: 100% (1030/1030)   Resolving deltas: 100% (1030/1030), done.
+remote: Counting objects: 2416, done.[K
+remote: Compressing objects:   0% (1/290)   [Kremote: Compressing objects:   1% (3/290)   [Kremote: Compressing objects:   2% (6/290)   [Kremote: Compressing objects:   3% (9/290)   [Kremote: Compressing objects:   4% (12/290)   [Kremote: Compressing objects:   5% (15/290)   [Kremote: Compressing objects:   6% (18/290)   [Kremote: Compressing objects:   7% (21/290)   [Kremote: Compressing objects:   8% (24/290)   [Kremote: Compressing objects:   9% (27/290)   [Kremote: Compressing objects:  10% (29/290)   [Kremote: Compressing objects:  11% (32/290)   [Kremote: Compressing objects:  12% (35/290)   [Kremote: Compressing objects:  13% (38/290)   [Kremote: Compressing objects:  14% (41/290)   [Kremote: Compressing objects:  15% (44/290)   [Kremote: Compressing objects:  16% (47/290)   [Kremote: Compressing objects:  17% (50/290)   [Kremote: Compressing objects:  18% (53/290)   [Kremote: Compressing objects:  19% (56/290)   [Kremote: Compressing objects:  20% (58/290)   [Kremote: Compressing objects:  21% (61/290)   [Kremote: Compressing objects:  22% (64/290)   [Kremote: Compressing objects:  23% (67/290)   [Kremote: Compressing objects:  24% (70/290)   [Kremote: Compressing objects:  25% (73/290)   [Kremote: Compressing objects:  26% (76/290)   [Kremote: Compressing objects:  27% (79/290)   [Kremote: Compressing objects:  28% (82/290)   [Kremote: Compressing objects:  29% (85/290)   [Kremote: Compressing objects:  30% (87/290)   [Kremote: Compressing objects:  31% (90/290)   [Kremote: Compressing objects:  32% (93/290)   [Kremote: Compressing objects:  33% (96/290)   [Kremote: Compressing objects:  34% (99/290)   [Kremote: Compressing objects:  35% (102/290)   [Kremote: Compressing objects:  36% (105/290)   [Kremote: Compressing objects:  37% (108/290)   [Kremote: Compressing objects:  38% (111/290)   [Kremote: Compressing objects:  39% (114/290)   [Kremote: Compressing objects:  40% (116/290)   [Kremote: Compressing objects:  41% (119/290)   [Kremote: Compressing objects:  42% (122/290)   [Kremote: Compressing objects:  43% (125/290)   [Kremote: Compressing objects:  44% (128/290)   [Kremote: Compressing objects:  45% (131/290)   [Kremote: Compressing objects:  46% (134/290)   [Kremote: Compressing objects:  47% (137/290)   [Kremote: Compressing objects:  48% (140/290)   [Kremote: Compressing objects:  49% (143/290)   [Kremote: Compressing objects:  50% (145/290)   [Kremote: Compressing objects:  51% (148/290)   [Kremote: Compressing objects:  52% (151/290)   [Kremote: Compressing objects:  53% (154/290)   [Kremote: Compressing objects:  54% (157/290)   [Kremote: Compressing objects:  55% (160/290)   [Kremote: Compressing objects:  56% (163/290)   [Kremote: Compressing objects:  57% (166/290)   [Kremote: Compressing objects:  58% (169/290)   [Kremote: Compressing objects:  59% (172/290)   [Kremote: Compressing objects:  60% (174/290)   [Kremote: Compressing objects:  61% (177/290)   [Kremote: Compressing objects:  62% (180/290)   [Kremote: Compressing objects:  63% (183/290)   [Kremote: Compressing objects:  64% (186/290)   [Kremote: Compressing objects:  65% (189/290)   [Kremote: Compressing objects:  66% (192/290)   [Kremote: Compressing objects:  67% (195/290)   [Kremote: Compressing objects:  68% (198/290)   [Kremote: Compressing objects:  69% (201/290)   [Kremote: Compressing objects:  70% (203/290)   [Kremote: Compressing objects:  71% (206/290)   [Kremote: Compressing objects:  72% (209/290)   [Kremote: Compressing objects:  73% (212/290)   [Kremote: Compressing objects:  74% (215/290)   [Kremote: Compressing objects:  75% (218/290)   [Kremote: Compressing objects:  76% (221/290)   [Kremote: Compressing objects:  77% (224/290)   [Kremote: Compressing objects:  78% (227/290)   [Kremote: Compressing objects:  79% (230/290)   [Kremote: Compressing objects:  80% (232/290)   [Kremote: Compressing objects:  81% (235/290)   [Kremote: Compressing objects:  82% (238/290)   [Kremote: Compressing objects:  83% (241/290)   [Kremote: Compressing objects:  84% (244/290)   [Kremote: Compressing objects:  85% (247/290)   [Kremote: Compressing objects:  86% (250/290)   [Kremote: Compressing objects:  87% (253/290)   [Kremote: Compressing objects:  88% (256/290)   [Kremote: Compressing objects:  89% (259/290)   [Kremote: Compressing objects:  90% (261/290)   [Kremote: Compressing objects:  91% (264/290)   [Kremote: Compressing objects:  92% (267/290)   [Kremote: Compressing objects:  93% (270/290)   [Kremote: Compressing objects:  94% (273/290)   [Kremote: Compressing objects:  95% (276/290)   [Kremote: Compressing objects:  96% (279/290)   [Kremote: Compressing objects:  97% (282/290)   [Kremote: Compressing objects:  98% (285/290)   [Kremote: Compressing objects:  99% (288/290)   [Kremote: Compressing objects: 100% (290/290)   [Kremote: Compressing objects: 100% (290/290), done.[K
+Receiving objects:   0% (1/2416)   Receiving objects:   1% (25/2416)   Receiving objects:   2% (49/2416)   Receiving objects:   3% (73/2416)   Receiving objects:   4% (97/2416)   Receiving objects:   5% (121/2416)   Receiving objects:   6% (145/2416)   Receiving objects:   7% (170/2416)   Receiving objects:   8% (194/2416)   Receiving objects:   9% (218/2416)   Receiving objects:  10% (242/2416)   Receiving objects:  11% (266/2416)   Receiving objects:  12% (290/2416)   Receiving objects:  13% (315/2416)   Receiving objects:  14% (339/2416)   Receiving objects:  15% (363/2416)   Receiving objects:  16% (387/2416)   Receiving objects:  17% (411/2416)   Receiving objects:  18% (435/2416)   Receiving objects:  19% (460/2416)   Receiving objects:  20% (484/2416)   Receiving objects:  21% (508/2416)   Receiving objects:  22% (532/2416)   Receiving objects:  23% (556/2416)   Receiving objects:  24% (580/2416)   Receiving objects:  25% (604/2416)   Receiving objects:  26% (629/2416)   Receiving objects:  27% (653/2416)   Receiving objects:  28% (677/2416)   Receiving objects:  29% (701/2416)   Receiving objects:  30% (725/2416)   Receiving objects:  31% (749/2416)   Receiving objects:  32% (774/2416)   Receiving objects:  33% (798/2416)   Receiving objects:  34% (822/2416)   Receiving objects:  35% (846/2416)   Receiving objects:  36% (870/2416)   Receiving objects:  37% (894/2416)   Receiving objects:  38% (919/2416)   Receiving objects:  39% (943/2416)   Receiving objects:  40% (967/2416)   Receiving objects:  41% (991/2416)   Receiving objects:  42% (1015/2416)   Receiving objects:  43% (1039/2416)   Receiving objects:  44% (1064/2416)   Receiving objects:  45% (1088/2416)   Receiving objects:  46% (1112/2416)   Receiving objects:  47% (1136/2416)   Receiving objects:  48% (1160/2416)   Receiving objects:  49% (1184/2416)   Receiving objects:  50% (1208/2416)   Receiving objects:  51% (1233/2416)   Receiving objects:  52% (1257/2416)   Receiving objects:  53% (1281/2416)   Receiving objects:  54% (1305/2416)   Receiving objects:  55% (1329/2416)   Receiving objects:  56% (1353/2416)   Receiving objects:  57% (1378/2416)   Receiving objects:  58% (1402/2416)   Receiving objects:  59% (1426/2416)   Receiving objects:  60% (1450/2416)   Receiving objects:  61% (1474/2416)   Receiving objects:  62% (1498/2416)   Receiving objects:  63% (1523/2416)   Receiving objects:  64% (1547/2416)   Receiving objects:  65% (1571/2416)   Receiving objects:  66% (1595/2416)   Receiving objects:  67% (1619/2416)   Receiving objects:  68% (1643/2416)   Receiving objects:  69% (1668/2416)   Receiving objects:  70% (1692/2416)   Receiving objects:  71% (1716/2416)   Receiving objects:  72% (1740/2416)   Receiving objects:  73% (1764/2416)   Receiving objects:  74% (1788/2416)   Receiving objects:  75% (1812/2416)   Receiving objects:  76% (1837/2416)   Receiving objects:  77% (1861/2416)   Receiving objects:  78% (1885/2416)   Receiving objects:  79% (1909/2416)   Receiving objects:  80% (1933/2416)   Receiving objects:  81% (1957/2416)   Receiving objects:  82% (1982/2416)   remote: Total 2416 (delta 583), reused 439 (delta 439), pack-reused 1687[K
+Receiving objects:  83% (2006/2416)   Receiving objects:  84% (2030/2416)   Receiving objects:  85% (2054/2416)   Receiving objects:  86% (2078/2416)   Receiving objects:  87% (2102/2416)   Receiving objects:  88% (2127/2416)   Receiving objects:  89% (2151/2416)   Receiving objects:  90% (2175/2416)   Receiving objects:  91% (2199/2416)   Receiving objects:  92% (2223/2416)   Receiving objects:  93% (2247/2416)   Receiving objects:  94% (2272/2416)   Receiving objects:  95% (2296/2416)   Receiving objects:  96% (2320/2416)   Receiving objects:  97% (2344/2416)   Receiving objects:  98% (2368/2416)   Receiving objects:  99% (2392/2416)   Receiving objects: 100% (2416/2416)   Receiving objects: 100% (2416/2416), 448.87 KiB | 0 bytes/s, done.
+Resolving deltas:   0% (0/1113)   Resolving deltas:   1% (12/1113)   Resolving deltas:   2% (23/1113)   Resolving deltas:   4% (50/1113)   Resolving deltas:   5% (59/1113)   Resolving deltas:   6% (69/1113)   Resolving deltas:   7% (80/1113)   Resolving deltas:   8% (91/1113)   Resolving deltas:   9% (102/1113)   Resolving deltas:  10% (112/1113)   Resolving deltas:  11% (123/1113)   Resolving deltas:  12% (134/1113)   Resolving deltas:  13% (145/1113)   Resolving deltas:  14% (156/1113)   Resolving deltas:  15% (168/1113)   Resolving deltas:  16% (180/1113)   Resolving deltas:  17% (191/1113)   Resolving deltas:  18% (211/1113)   Resolving deltas:  21% (241/1113)   Resolving deltas:  22% (245/1113)   Resolving deltas:  34% (388/1113)   Resolving deltas:  35% (390/1113)   Resolving deltas:  37% (414/1113)   Resolving deltas:  38% (423/1113)   Resolving deltas:  39% (436/1113)   Resolving deltas:  40% (448/1113)   Resolving deltas:  41% (459/1113)   Resolving deltas:  42% (477/1113)   Resolving deltas:  43% (482/1113)   Resolving deltas:  44% (490/1113)   Resolving deltas:  45% (502/1113)   Resolving deltas:  46% (512/1113)   Resolving deltas:  47% (525/1113)   Resolving deltas:  48% (539/1113)   Resolving deltas:  49% (549/1113)   Resolving deltas:  50% (560/1113)   Resolving deltas:  51% (568/1113)   Resolving deltas:  52% (580/1113)   Resolving deltas:  53% (591/1113)   Resolving deltas:  54% (603/1113)   Resolving deltas:  55% (614/1113)   Resolving deltas:  56% (626/1113)   Resolving deltas:  57% (636/1113)   Resolving deltas:  58% (646/1113)   Resolving deltas:  68% (762/1113)   Resolving deltas:  69% (768/1113)   Resolving deltas:  70% (785/1113)   Resolving deltas:  71% (793/1113)   Resolving deltas:  72% (808/1113)   Resolving deltas:  73% (814/1113)   Resolving deltas:  74% (826/1113)   Resolving deltas:  75% (836/1113)   Resolving deltas:  76% (848/1113)   Resolving deltas:  77% (858/1113)   Resolving deltas:  78% (873/1113)   Resolving deltas: 100% (1113/1113)   Resolving deltas: 100% (1113/1113), done.
 From git://github.com/ocaml/opam-repository
-   1bc2a58..201f408  master     -> origin/master
-Updating 1bc2a58..201f408
+   1bc2a58..ff37e0d  master     -> origin/master
+Updating 1bc2a58..ff37e0d
 Fast-forward
  .travis-ci-install.sh                              |   1 [32m+[m
  .travis-ci.sh                                      |  33 [32m++[m[31m-[m
  .travis.yml                                        |   6 [32m+[m
  compilers/4.02.1/4.02.1+32bit/4.02.1+32bit.comp    |   2 [32m+[m[31m-[m
+ compilers/4.03.0/4.03.0+pr100/4.03.0+pr100.descr   |   1 [31m-[m
  .../4.03.0+pr103.comp}                             |   2 [32m+[m[31m-[m
  compilers/4.03.0/4.03.0+pr103/4.03.0+pr103.descr   |   1 [32m+[m
  .../4.03.0+pr138.comp}                             |   2 [32m+[m[31m-[m
@@ -32,12 +33,14 @@ Fast-forward
  compilers/4.03.0/4.03.0+pr141/4.03.0+pr141.descr   |   1 [32m+[m
  .../4.03.0+pr144.comp}                             |   2 [32m+[m[31m-[m
  compilers/4.03.0/4.03.0+pr144/4.03.0+pr144.descr   |   1 [32m+[m
- compilers/4.03.0/4.03.0+pr145/4.03.0+pr145.comp    |  11 [32m+[m
+ .../4.03.0+pr145.comp}                             |   2 [32m+[m[31m-[m
  compilers/4.03.0/4.03.0+pr145/4.03.0+pr145.descr   |   1 [32m+[m
  .../4.03.0+pr146.comp}                             |   2 [32m+[m[31m-[m
  compilers/4.03.0/4.03.0+pr146/4.03.0+pr146.descr   |   1 [32m+[m
  .../4.03.0+pr147.comp}                             |   2 [32m+[m[31m-[m
  compilers/4.03.0/4.03.0+pr147/4.03.0+pr147.descr   |   1 [32m+[m
+ compilers/4.03.0/4.03.0+pr148/4.03.0+pr148.comp    |  11 [32m+[m
+ compilers/4.03.0/4.03.0+pr148/4.03.0+pr148.descr   |   1 [32m+[m
  compilers/4.03.0/4.03.0+pr65/4.03.0+pr65.descr     |   1 [31m-[m
  compilers/4.03.0/4.03.0+pr68/4.03.0+pr68.descr     |   1 [31m-[m
  compilers/4.03.0/4.03.0+pr71/4.03.0+pr71.descr     |   1 [31m-[m
@@ -114,6 +117,9 @@ Fast-forward
  packages/bap/bap.0.9.4/descr                       |   7 [32m+[m
  packages/bap/bap.0.9.4/opam                        |  73 [32m+++++[m
  packages/bap/bap.0.9.4/url                         |   2 [32m+[m
+ packages/bap/bap.0.9.5/descr                       |   7 [32m+[m
+ packages/bap/bap.0.9.5/opam                        |  71 [32m+++++[m
+ packages/bap/bap.0.9.5/url                         |   2 [32m+[m
  packages/base64/base64.1.0.0/opam                  |   4 [32m+[m
  packages/base64/base64.1.1.0/opam                  |   4 [32m+[m
  packages/bignum/bignum.112.17.00/descr             |   1 [32m+[m
@@ -163,6 +169,7 @@ Fast-forward
  packages/containers/containers.0.9/findlib         |   1 [32m+[m
  packages/containers/containers.0.9/opam            |  43 [32m+++[m
  packages/containers/containers.0.9/url             |   2 [32m+[m
+ packages/coq/coq.8.4.5/descr                       |   3 [32m+[m[31m-[m
  .../coq/coq.8.4.5/files/build_with_trunk.patch     | 330 [32m+++++++++++++++++++++[m
  packages/coq/coq.8.4.5/opam                        |  11 [32m+[m[31m-[m
  packages/core/core.112.17.00/descr                 |   4 [32m+[m
@@ -183,6 +190,10 @@ Fast-forward
  packages/core_kernel/core_kernel.112.17.00/findlib |   1 [32m+[m
  packages/core_kernel/core_kernel.112.17.00/opam    |  25 [32m++[m
  packages/core_kernel/core_kernel.112.17.00/url     |   2 [32m+[m
+ .../core_profiler/core_profiler.112.19.00/descr    |   3 [32m+[m
+ .../core_profiler/core_profiler.112.19.00/findlib  |   1 [32m+[m
+ .../core_profiler/core_profiler.112.19.00/opam     |  16 [32m+[m
+ packages/core_profiler/core_profiler.112.19.00/url |   2 [32m+[m
  packages/cow/cow.1.2.0/descr                       |  17 [32m++[m
  packages/cow/cow.1.2.0/opam                        |  37 [32m+++[m
  packages/cow/cow.1.2.0/url                         |   2 [32m+[m
@@ -219,6 +230,9 @@ Fast-forward
  packages/dumpast/dumpast.0.2.0/descr               |  11 [32m+[m
  packages/dumpast/dumpast.0.2.0/opam                |  15 [32m+[m
  packages/dumpast/dumpast.0.2.0/url                 |   2 [32m+[m
+ packages/efl/efl.1.13.0/descr                      |  12 [32m+[m
+ packages/efl/efl.1.13.0/opam                       |  18 [32m++[m
+ packages/efl/efl.1.13.0/url                        |   2 [32m+[m
  .../email_message/email_message.109.42.alpha1/opam |  14 [32m+[m[31m-[m
  .../email_message/email_message.112.17.00/descr    |   1 [32m+[m
  .../email_message/email_message.112.17.00/findlib  |   1 [32m+[m
@@ -330,17 +344,17 @@ Fast-forward
  packages/jenga/jenga.112.17.00/findlib             |   1 [32m+[m
  packages/jenga/jenga.112.17.00/opam                |  26 [32m++[m
  packages/jenga/jenga.112.17.00/url                 |   2 [32m+[m
- packages/js_of_ocaml/js_of_ocaml.1.2/opam          |   1 [32m+[m
- packages/js_of_ocaml/js_of_ocaml.1.3.1/opam        |   1 [32m+[m
- packages/js_of_ocaml/js_of_ocaml.1.3.2/opam        |   1 [32m+[m
- packages/js_of_ocaml/js_of_ocaml.1.4.0/opam        |   1 [32m+[m
- packages/js_of_ocaml/js_of_ocaml.2.0/opam          |   1 [32m+[m
- packages/js_of_ocaml/js_of_ocaml.2.1/opam          |   1 [32m+[m
- packages/js_of_ocaml/js_of_ocaml.2.2/opam          |   1 [32m+[m
- packages/js_of_ocaml/js_of_ocaml.2.3/opam          |   1 [32m+[m
- packages/js_of_ocaml/js_of_ocaml.2.4.1/opam        |   1 [32m+[m
- packages/js_of_ocaml/js_of_ocaml.2.4/opam          |   1 [32m+[m
- packages/js_of_ocaml/js_of_ocaml.2.5/opam          |   1 [32m+[m
+ packages/js_of_ocaml/js_of_ocaml.1.2/opam          |   3 [32m+[m[31m-[m
+ packages/js_of_ocaml/js_of_ocaml.1.3.1/opam        |   3 [32m+[m[31m-[m
+ packages/js_of_ocaml/js_of_ocaml.1.3.2/opam        |   3 [32m+[m[31m-[m
+ packages/js_of_ocaml/js_of_ocaml.1.4.0/opam        |   3 [32m+[m[31m-[m
+ packages/js_of_ocaml/js_of_ocaml.2.0/opam          |   3 [32m+[m[31m-[m
+ packages/js_of_ocaml/js_of_ocaml.2.1/opam          |   3 [32m+[m[31m-[m
+ packages/js_of_ocaml/js_of_ocaml.2.2/opam          |   3 [32m+[m[31m-[m
+ packages/js_of_ocaml/js_of_ocaml.2.3/opam          |   3 [32m+[m[31m-[m
+ packages/js_of_ocaml/js_of_ocaml.2.4.1/opam        |   3 [32m+[m[31m-[m
+ packages/js_of_ocaml/js_of_ocaml.2.4/opam          |   3 [32m+[m[31m-[m
+ packages/js_of_ocaml/js_of_ocaml.2.5/opam          |   3 [32m+[m[31m-[m
  packages/kinetic-client/kinetic-client.0.0.3/descr |   2 [32m+[m
  packages/kinetic-client/kinetic-client.0.0.3/opam  |  24 [32m++[m
  packages/kinetic-client/kinetic-client.0.0.3/url   |   2 [32m+[m
@@ -378,6 +392,10 @@ Fast-forward
  packages/mirage-flow/mirage-flow.1.0.0/url         |   2 [32m+[m
  .../mirage-http-unix/mirage-http-unix.1.0.0/opam   |   2 [32m+[m[31m-[m
  .../mirage-http-xen/mirage-http-xen.1.0.0/opam     |   2 [32m+[m[31m-[m
+ .../mirage-net-macosx/mirage-net-macosx.1.0.0/opam |   2 [32m+[m[31m-[m
+ .../mirage-net-macosx.1.1.0/descr                  |  15 [32m+[m
+ .../mirage-net-macosx/mirage-net-macosx.1.1.0/opam |  24 [32m++[m
+ .../mirage-net-macosx/mirage-net-macosx.1.1.0/url  |   2 [32m+[m
  .../mirage-net-unix/mirage-net-unix.2.1.0/descr    |   1 [32m+[m
  .../mirage-net-unix/mirage-net-unix.2.1.0/findlib  |   1 [32m+[m
  .../mirage-net-unix/mirage-net-unix.2.1.0/opam     |  17 [32m++[m
@@ -409,6 +427,11 @@ Fast-forward
  .../ocaml_plugin/ocaml_plugin.112.17.00/findlib    |   1 [32m+[m
  packages/ocaml_plugin/ocaml_plugin.112.17.00/opam  |  17 [32m++[m
  packages/ocaml_plugin/ocaml_plugin.112.17.00/url   |   2 [32m+[m
+ packages/ocamlfind-lint/ocamlfind-lint.0.1.0/descr |  11 [32m+[m
+ .../files/ocamlfind-lint.install                   |   4 [32m+[m
+ .../ocamlfind-lint/ocamlfind-lint.0.1.0/findlib    |   1 [32m+[m
+ packages/ocamlfind-lint/ocamlfind-lint.0.1.0/opam  |  16 [32m+[m
+ packages/ocamlfind-lint/ocamlfind-lint.0.1.0/url   |   2 [32m+[m
  packages/ocamlgraph/ocamlgraph.1.8.6/descr         |   1 [32m+[m
  .../ocamlgraph.1.8.6/files/ocamlgraph.install      |   6 [32m+[m
  packages/ocamlgraph/ocamlgraph.1.8.6/findlib       |   1 [32m+[m
@@ -544,6 +567,9 @@ Fast-forward
  packages/sqlite3/sqlite3.2.0.9/findlib             |   1 [32m+[m
  packages/sqlite3/sqlite3.2.0.9/opam                |  29 [32m++[m
  packages/sqlite3/sqlite3.2.0.9/url                 |   2 [32m+[m
+ packages/tcpip/tcpip.2.2.3/descr                   |   1 [32m+[m
+ packages/tcpip/tcpip.2.2.3/opam                    |  36 [32m+++[m
+ packages/tcpip/tcpip.2.2.3/url                     |   2 [32m+[m
  packages/textutils/textutils.112.17.00/descr       |   1 [32m+[m
  packages/textutils/textutils.112.17.00/findlib     |   1 [32m+[m
  packages/textutils/textutils.112.17.00/opam        |  12 [32m+[m
@@ -582,6 +608,7 @@ Fast-forward
  packages/user-setup/user-setup.0.3/descr           |   8 [32m+[m
  packages/user-setup/user-setup.0.3/opam            |  21 [32m++[m
  packages/user-setup/user-setup.0.3/url             |   2 [32m+[m
+ packages/uutf/uutf.0.9.4/opam                      |   4 [32m+[m[31m-[m
  packages/vrt/vrt.0.1.0/descr                       |   7 [32m+[m
  packages/vrt/vrt.0.1.0/opam                        |  19 [32m++[m
  packages/vrt/vrt.0.1.0/url                         |   2 [32m+[m
@@ -604,7 +631,8 @@ Fast-forward
  packages/xentropyd/xentropyd.0.9.3/descr           |   8 [32m+[m
  packages/xentropyd/xentropyd.0.9.3/opam            |  33 [32m+++[m
  packages/xentropyd/xentropyd.0.9.3/url             |   2 [32m+[m
- 586 files changed, 5389 insertions(+), 201 deletions(-)
+ 613 files changed, 5655 insertions(+), 218 deletions(-)
+ delete mode 100644 compilers/4.03.0/4.03.0+pr100/4.03.0+pr100.descr
  rename compilers/4.03.0/{4.03.0+pr80/4.03.0+pr80.comp => 4.03.0+pr103/4.03.0+pr103.comp} (81%)
  create mode 100644 compilers/4.03.0/4.03.0+pr103/4.03.0+pr103.descr
  rename compilers/4.03.0/{4.03.0+pr71/4.03.0+pr71.comp => 4.03.0+pr138/4.03.0+pr138.comp} (79%)
@@ -613,14 +641,16 @@ Fast-forward
  create mode 100644 compilers/4.03.0/4.03.0+pr140/4.03.0+pr140.descr
  create mode 100644 compilers/4.03.0/4.03.0+pr141/4.03.0+pr141.comp
  create mode 100644 compilers/4.03.0/4.03.0+pr141/4.03.0+pr141.descr
- rename compilers/4.03.0/{4.03.0+pr65/4.03.0+pr65.comp => 4.03.0+pr144/4.03.0+pr144.comp} (76%)
+ rename compilers/4.03.0/{4.03.0+pr100/4.03.0+pr100.comp => 4.03.0+pr144/4.03.0+pr144.comp} (76%)
  create mode 100644 compilers/4.03.0/4.03.0+pr144/4.03.0+pr144.descr
- create mode 100644 compilers/4.03.0/4.03.0+pr145/4.03.0+pr145.comp
+ rename compilers/4.03.0/{4.03.0+pr65/4.03.0+pr65.comp => 4.03.0+pr145/4.03.0+pr145.comp} (76%)
  create mode 100644 compilers/4.03.0/4.03.0+pr145/4.03.0+pr145.descr
  rename compilers/4.03.0/{4.03.0+pr76/4.03.0+pr76.comp => 4.03.0+pr146/4.03.0+pr146.comp} (81%)
  create mode 100644 compilers/4.03.0/4.03.0+pr146/4.03.0+pr146.descr
  rename compilers/4.03.0/{4.03.0+pr78/4.03.0+pr78.comp => 4.03.0+pr147/4.03.0+pr147.comp} (78%)
  create mode 100644 compilers/4.03.0/4.03.0+pr147/4.03.0+pr147.descr
+ create mode 100644 compilers/4.03.0/4.03.0+pr148/4.03.0+pr148.comp
+ create mode 100644 compilers/4.03.0/4.03.0+pr148/4.03.0+pr148.descr
  delete mode 100644 compilers/4.03.0/4.03.0+pr65/4.03.0+pr65.descr
  delete mode 100644 compilers/4.03.0/4.03.0+pr68/4.03.0+pr68.descr
  delete mode 100644 compilers/4.03.0/4.03.0+pr71/4.03.0+pr71.descr
@@ -692,6 +722,9 @@ Fast-forward
  create mode 100644 packages/bap/bap.0.9.4/descr
  create mode 100644 packages/bap/bap.0.9.4/opam
  create mode 100644 packages/bap/bap.0.9.4/url
+ create mode 100644 packages/bap/bap.0.9.5/descr
+ create mode 100644 packages/bap/bap.0.9.5/opam
+ create mode 100644 packages/bap/bap.0.9.5/url
  create mode 100644 packages/bignum/bignum.112.17.00/descr
  create mode 100644 packages/bignum/bignum.112.17.00/findlib
  create mode 100644 packages/bignum/bignum.112.17.00/opam
@@ -748,6 +781,10 @@ Fast-forward
  create mode 100644 packages/core_kernel/core_kernel.112.17.00/findlib
  create mode 100644 packages/core_kernel/core_kernel.112.17.00/opam
  create mode 100644 packages/core_kernel/core_kernel.112.17.00/url
+ create mode 100644 packages/core_profiler/core_profiler.112.19.00/descr
+ create mode 100644 packages/core_profiler/core_profiler.112.19.00/findlib
+ create mode 100644 packages/core_profiler/core_profiler.112.19.00/opam
+ create mode 100644 packages/core_profiler/core_profiler.112.19.00/url
  create mode 100644 packages/cow/cow.1.2.0/descr
  create mode 100644 packages/cow/cow.1.2.0/opam
  create mode 100644 packages/cow/cow.1.2.0/url
@@ -771,6 +808,9 @@ Fast-forward
  create mode 100644 packages/dumpast/dumpast.0.2.0/descr
  create mode 100644 packages/dumpast/dumpast.0.2.0/opam
  create mode 100644 packages/dumpast/dumpast.0.2.0/url
+ create mode 100644 packages/efl/efl.1.13.0/descr
+ create mode 100644 packages/efl/efl.1.13.0/opam
+ create mode 100644 packages/efl/efl.1.13.0/url
  create mode 100644 packages/email_message/email_message.112.17.00/descr
  create mode 100644 packages/email_message/email_message.112.17.00/findlib
  create mode 100644 packages/email_message/email_message.112.17.00/opam
@@ -897,6 +937,9 @@ Fast-forward
  create mode 100644 packages/mirage-flow/mirage-flow.1.0.0/descr
  create mode 100644 packages/mirage-flow/mirage-flow.1.0.0/opam
  create mode 100644 packages/mirage-flow/mirage-flow.1.0.0/url
+ create mode 100644 packages/mirage-net-macosx/mirage-net-macosx.1.1.0/descr
+ create mode 100644 packages/mirage-net-macosx/mirage-net-macosx.1.1.0/opam
+ create mode 100644 packages/mirage-net-macosx/mirage-net-macosx.1.1.0/url
  create mode 100644 packages/mirage-net-unix/mirage-net-unix.2.1.0/descr
  create mode 100644 packages/mirage-net-unix/mirage-net-unix.2.1.0/findlib
  create mode 100644 packages/mirage-net-unix/mirage-net-unix.2.1.0/opam
@@ -922,6 +965,11 @@ Fast-forward
  create mode 100644 packages/ocaml_plugin/ocaml_plugin.112.17.00/findlib
  create mode 100644 packages/ocaml_plugin/ocaml_plugin.112.17.00/opam
  create mode 100644 packages/ocaml_plugin/ocaml_plugin.112.17.00/url
+ create mode 100644 packages/ocamlfind-lint/ocamlfind-lint.0.1.0/descr
+ create mode 100644 packages/ocamlfind-lint/ocamlfind-lint.0.1.0/files/ocamlfind-lint.install
+ create mode 100644 packages/ocamlfind-lint/ocamlfind-lint.0.1.0/findlib
+ create mode 100644 packages/ocamlfind-lint/ocamlfind-lint.0.1.0/opam
+ create mode 100644 packages/ocamlfind-lint/ocamlfind-lint.0.1.0/url
  create mode 100644 packages/ocamlgraph/ocamlgraph.1.8.6/descr
  create mode 100644 packages/ocamlgraph/ocamlgraph.1.8.6/files/ocamlgraph.install
  create mode 100644 packages/ocamlgraph/ocamlgraph.1.8.6/findlib
@@ -1036,6 +1084,9 @@ Fast-forward
  create mode 100644 packages/sqlite3/sqlite3.2.0.9/findlib
  create mode 100644 packages/sqlite3/sqlite3.2.0.9/opam
  create mode 100644 packages/sqlite3/sqlite3.2.0.9/url
+ create mode 100644 packages/tcpip/tcpip.2.2.3/descr
+ create mode 100644 packages/tcpip/tcpip.2.2.3/opam
+ create mode 100644 packages/tcpip/tcpip.2.2.3/url
  create mode 100644 packages/textutils/textutils.112.17.00/descr
  create mode 100644 packages/textutils/textutils.112.17.00/findlib
  create mode 100644 packages/textutils/textutils.112.17.00/opam
@@ -1104,7 +1155,9 @@ The following NEW compilers are available:
  - 4.03.0+pr145
  - 4.03.0+pr146
  - 4.03.0+pr147
+ - 4.03.0+pr148
 The following compiler descriptions have been DELETED:
+ - 4.03.0+pr100
  - 4.03.0+pr65
  - 4.03.0+pr68
  - 4.03.0+pr71
@@ -1117,6 +1170,12 @@ Updating ~/.opam/repo/package-index ...
 Updating ~/.opam/packages/ ...
 The following package has been DELETED:
  - bookaml.1.0
+[33m[WARNING][m At ~/.opam/repo/default/packages/js_of_ocaml/js_of_ocaml.1.4.0/opam:16:9:
+Version constraint (>= 0.5) no longer allowed in optional dependency (ignored).
+Use the 'conflicts' field instead.
+[33m[WARNING][m At ~/.opam/repo/default/packages/uutf/uutf.0.9.4/opam:12:9:
+Version constraint (>= 0.9.6) no longer allowed in optional dependency (ignored).
+Use the 'conflicts' field instead.
 Already up-to-date.
 + opam installext -j 3 mirage ssl
 ++ opam install -j 3 mirage ssl -e debian
@@ -1125,15 +1184,15 @@ Already up-to-date.
 Debian depexts: libssl-dev m4
 + '[' 'libssl-dev m4' '!=' '' ']'
 + sudo apt-get update -y
-0% [Working]            0% [Connecting to http.debian.net] [Connecting to security.debian.org]0% [Connecting to http.debian.net] [Connecting to security.debian.org]                                                                      Get:1 http://security.debian.org testing/updates InRelease [84.1 kB]
-                                                                      17% [Connecting to http.debian.net (46.4.205.44)] [1 InRelease 14.2 kB/84.1 kB                                                                                100% [1 InRelease 84.1 kB/84.1 kB 100%]                                       100% [Working]              Get:2 http://http.debian.net testing InRelease [199 kB]
-100% [Working]              100% [1 InRelease gpgv 84.1 kB] [Waiting for headers]                                                     Get:3 http://http.debian.net testing-updates InRelease [117 kB]
-                                                     84% [1 InRelease gpgv 84.1 kB] [3 InRelease 54.7 kB/117 kB 47%]                                                               100% [1 InRelease gpgv 84.1 kB]100% [1 InRelease gpgv 84.1 kB]                               100% [1 InRelease gpgv 84.1 kB]                                    66.3 kB/s 0s100% [1 InRelease gpgv 84.1 kB]                                    66.3 kB/s 0s100% [Working]                                                     66.3 kB/s 0s100% [2 InRelease gpgv 199 kB] [Waiting for headers]               66.3 kB/s 0s                                                                               Get:4 http://security.debian.org testing/updates/main amd64 Packages [465 B]
-100% [2 InRelease gpgv 199 kB]                                     66.3 kB/s 0s100% [Working]                                                     66.3 kB/s 0s100% [Working]                                                     66.3 kB/s 0s100% [3 InRelease gpgv 117 kB] [Waiting for headers]               66.3 kB/s 0s100% [3 InRelease gpgv 117 kB]                                     66.3 kB/s 0s                                                                               Get:5 http://http.debian.net testing/main amd64 Packages [9044 kB]
-                                                                               4% [3 InRelease gpgv 117 kB] [5 Packages 14.2 kB/9044 kB 0%]                                                            15% [3 InRelease gpgv 117 kB] [5 Packages 983 kB/9044 kB 11%]                                                             56% [3 InRelease gpgv 117 kB] [5 Packages 4894 kB/9044 kB 54%]                                                              100% [3 InRelease gpgv 117 kB]                                     66.3 kB/s 0s100% [5 Packages 9081 kB] [3 InRelease gpgv 117 kB]                66.3 kB/s 0s100% [5 Packages 9044 kB]                                          66.3 kB/s 0s100% [5 Packages 9044 kB]                                          66.3 kB/s 0s                                                                               Get:6 http://http.debian.net testing-updates/main amd64 Packages [20 B]
-100% [5 Packages 9044 kB]                                          66.3 kB/s 0s100% [5 Packages 9044 kB]                                          66.3 kB/s 0s100% [Working]                                                     1484 kB/s 0s100% [Working]                                                     1484 kB/s 0s                                                                               Fetched 9445 kB in 12s (778 kB/s)
-Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 25%Reading package lists... 68%Reading package lists... 88%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
-W: Size of file /var/lib/apt/lists/http.debian.net_debian_dists_testing_main_binary-amd64_Packages.gz is not what the server reported 9044499 9081456
+0% [Working]            Get:1 http://security.debian.org testing/updates InRelease [84.1 kB]
+            17% [Connecting to http.debian.net (46.4.205.44)] [1 InRelease 14.2 kB/84.1 kB                                                                                100% [Waiting for headers]                          100% [Working]              100% [1 InRelease gpgv 84.1 kB]                               Get:2 http://http.debian.net testing InRelease [199 kB]
+                               30% [2 InRelease 0 B/199 kB 0%] [1 InRelease gpgv 84.1 kB]                                                          100% [1 InRelease gpgv 84.1 kB]                               Get:3 http://http.debian.net testing-updates InRelease [117 kB]
+                               71% [3 InRelease 0 B/117 kB 0%] [1 InRelease gpgv 84.1 kB]                                                          100% [1 InRelease gpgv 84.1 kB]                               100% [Working]              100% [2 InRelease gpgv 199 kB] [Waiting for headers]                                                    Get:4 http://security.debian.org testing/updates/main amd64 Packages [465 B]
+                                                    100% [2 InRelease gpgv 199 kB]                                     62.7 kB/s 0s100% [Working]                                                     62.7 kB/s 0s100% [Working]                                                     62.7 kB/s 0s100% [3 InRelease gpgv 117 kB] [Waiting for headers]               62.7 kB/s 0s100% [3 InRelease gpgv 117 kB]                                     62.7 kB/s 0s                                                                               Get:5 http://http.debian.net testing/main amd64 Packages [9045 kB]
+                                                                               4% [5 Packages 14.2 kB/9045 kB 0%] [3 InRelease gpgv 117 kB]                                                            20% [5 Packages 1477 kB/9045 kB 16%] [3 InRelease gpgv 117 kB]                                                              68% [5 Packages 6029 kB/9045 kB 67%]                              62.7 kB/s 48s80% [5 Packages 7188 kB/9045 kB 79%]                              62.7 kB/s 29s100% [Working]                                                     62.7 kB/s 0s100% [5 Packages 9081 kB]                                          62.7 kB/s 0s                                                                               Get:6 http://http.debian.net testing-updates/main amd64 Packages [20 B]
+100% [5 Packages 9081 kB]                                          62.7 kB/s 0s100% [5 Packages 9045 kB]                                          62.7 kB/s 0s100% [5 Packages 9045 kB]                                          62.7 kB/s 0s100% [5 Packages 9045 kB]                                          62.7 kB/s 0s100% [Working]                                                     62.7 kB/s 0s100% [Working]                                                     62.7 kB/s 0s                                                                               Fetched 9446 kB in 9s (976 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 48%Reading package lists... 88%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+W: Size of file /var/lib/apt/lists/http.debian.net_debian_dists_testing_main_binary-amd64_Packages.gz is not what the server reported 9044794 9081456
 + sudo apt-get install -qq -y build-essential m4
 + sudo apt-get install -qq -y libssl-dev m4
 debconf: unable to initialize frontend: Dialog
@@ -1205,21 +1264,17 @@ The following actions will be performed:
 [36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
 Installing camlp4.4.01.0.
 Copying ~/.opam/repo/default/packages/ocamlfind/ocamlfind.1.5.5/files/ocamlfind.install to ~/.opam/system/build/ocamlfind.1.5.5/
+Copying ~/.opam/repo/default/packages/cmdliner/cmdliner.0.9.7/files/backport_pre_4_00_0.patch to ~/.opam/system/build/cmdliner.0.9.7/
 Building ocamlfind.1.5.5:
   ./configure -bindir /home/opam/.opam/system/bin -sitelib /home/opam/.opam/system/lib -mandir /home/opam/.opam/system/man -config /home/opam/.opam/system/lib/findlib.conf -no-topfind
   make all
   make opt
   make install
-Copying ~/.opam/repo/default/packages/cmdliner/cmdliner.0.9.7/files/backport_pre_4_00_0.patch to ~/.opam/system/build/cmdliner.0.9.7/
 Building cmdliner.0.9.7:
   ocaml pkg/git.ml
   ocaml pkg/build.ml native=true native-dynlink=true
 Installing cmdliner.0.9.7.
 Installing ocamlfind.1.5.5.
-Building crunch.1.3.0:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/system
-  ocaml setup.ml -build
-  ocaml setup.ml -install
 Building re.1.2.2:
   ocaml setup.ml -configure --prefix /home/opam/.opam/system
   ocaml setup.ml -build
@@ -1228,6 +1283,10 @@ Building optcomp.1.6:
   ./configure --prefix /home/opam/.opam/system
   make
   make install
+Building crunch.1.3.0:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/system
+  ocaml setup.ml -build
+  ocaml setup.ml -install
 Installing crunch.1.3.0.
 Copying ~/.opam/repo/default/packages/ssl/ssl.0.4.7/files/pkgconfigure to ~/.opam/system/build/ssl.0.4.7/
 Building ssl.0.4.7:
@@ -1298,9 +1357,9 @@ Installing mirage.2.2.1.
 + git clone git://github.com/mirage/mirage-www
 Cloning into 'mirage-www'...
 remote: Counting objects: 6056, done.[K
-Receiving objects:   0% (1/6056)   Receiving objects:   1% (61/6056)   Receiving objects:   2% (122/6056)   Receiving objects:   3% (182/6056)   Receiving objects:   4% (243/6056)   Receiving objects:   5% (303/6056)   Receiving objects:   6% (364/6056)   Receiving objects:   7% (424/6056)   Receiving objects:   8% (485/6056)   Receiving objects:   9% (546/6056)   Receiving objects:  10% (606/6056)   Receiving objects:  11% (667/6056)   Receiving objects:  12% (727/6056)   Receiving objects:  13% (788/6056)   Receiving objects:  14% (848/6056)   Receiving objects:  15% (909/6056)   Receiving objects:  16% (969/6056)   Receiving objects:  17% (1030/6056)   Receiving objects:  18% (1091/6056)   Receiving objects:  19% (1151/6056)   Receiving objects:  20% (1212/6056)   Receiving objects:  21% (1272/6056)   Receiving objects:  22% (1333/6056)   Receiving objects:  23% (1393/6056)   Receiving objects:  24% (1454/6056)   Receiving objects:  25% (1514/6056)   Receiving objects:  26% (1575/6056)   Receiving objects:  27% (1636/6056)   Receiving objects:  28% (1696/6056)   Receiving objects:  29% (1757/6056)   Receiving objects:  30% (1817/6056)   Receiving objects:  31% (1878/6056)   Receiving objects:  32% (1938/6056)   Receiving objects:  33% (1999/6056)   Receiving objects:  34% (2060/6056)   Receiving objects:  35% (2120/6056)   Receiving objects:  36% (2181/6056)   Receiving objects:  37% (2241/6056)   Receiving objects:  38% (2302/6056)   Receiving objects:  39% (2362/6056)   Receiving objects:  40% (2423/6056)   Receiving objects:  41% (2483/6056)   Receiving objects:  42% (2544/6056)   Receiving objects:  43% (2605/6056)   Receiving objects:  44% (2665/6056)   Receiving objects:  45% (2726/6056)   Receiving objects:  46% (2786/6056)   Receiving objects:  47% (2847/6056)   Receiving objects:  48% (2907/6056)   Receiving objects:  49% (2968/6056)   Receiving objects:  50% (3028/6056)   Receiving objects:  51% (3089/6056)   Receiving objects:  52% (3150/6056)   Receiving objects:  53% (3210/6056)   Receiving objects:  54% (3271/6056)   Receiving objects:  55% (3331/6056)   Receiving objects:  56% (3392/6056)   Receiving objects:  57% (3452/6056)   Receiving objects:  58% (3513/6056)   Receiving objects:  59% (3574/6056)   Receiving objects:  60% (3634/6056)   Receiving objects:  61% (3695/6056)   Receiving objects:  62% (3755/6056)   Receiving objects:  63% (3816/6056)   Receiving objects:  64% (3876/6056)   Receiving objects:  65% (3937/6056)   Receiving objects:  66% (3997/6056)   Receiving objects:  67% (4058/6056)   Receiving objects:  68% (4119/6056)   Receiving objects:  69% (4179/6056)   Receiving objects:  70% (4240/6056)   Receiving objects:  71% (4300/6056)   Receiving objects:  72% (4361/6056)   Receiving objects:  73% (4421/6056)   Receiving objects:  74% (4482/6056)   Receiving objects:  75% (4542/6056)   Receiving objects:  76% (4603/6056)   Receiving objects:  77% (4664/6056)   Receiving objects:  78% (4724/6056)   Receiving objects:  79% (4785/6056)   Receiving objects:  80% (4845/6056)   Receiving objects:  81% (4906/6056)   Receiving objects:  82% (4966/6056)   Receiving objects:  83% (5027/6056)   Receiving objects:  84% (5088/6056)   Receiving objects:  85% (5148/6056)   Receiving objects:  86% (5209/6056)   Receiving objects:  87% (5269/6056)   Receiving objects:  88% (5330/6056)   Receiving objects:  89% (5390/6056)   Receiving objects:  90% (5451/6056)   Receiving objects:  91% (5511/6056)   Receiving objects:  92% (5572/6056)   Receiving objects:  93% (5633/6056)   Receiving objects:  94% (5693/6056)   Receiving objects:  95% (5754/6056), 4.24 MiB | 8.47 MiB/s   remote: Total 6056 (delta 0), reused 0 (delta 0), pack-reused 6056[K
-Receiving objects:  96% (5814/6056), 4.24 MiB | 8.47 MiB/s   Receiving objects:  97% (5875/6056), 4.24 MiB | 8.47 MiB/s   Receiving objects:  98% (5935/6056), 4.24 MiB | 8.47 MiB/s   Receiving objects:  99% (5996/6056), 4.24 MiB | 8.47 MiB/s   Receiving objects: 100% (6056/6056), 4.24 MiB | 8.47 MiB/s   Receiving objects: 100% (6056/6056), 4.33 MiB | 8.47 MiB/s, done.
-Resolving deltas:   0% (0/3787)   Resolving deltas:   1% (41/3787)   Resolving deltas:   2% (76/3787)   Resolving deltas:   3% (115/3787)   Resolving deltas:   4% (158/3787)   Resolving deltas:   5% (221/3787)   Resolving deltas:   7% (266/3787)   Resolving deltas:   8% (308/3787)   Resolving deltas:   9% (366/3787)   Resolving deltas:  10% (382/3787)   Resolving deltas:  11% (418/3787)   Resolving deltas:  12% (455/3787)   Resolving deltas:  13% (496/3787)   Resolving deltas:  14% (541/3787)   Resolving deltas:  15% (569/3787)   Resolving deltas:  16% (606/3787)   Resolving deltas:  17% (645/3787)   Resolving deltas:  18% (688/3787)   Resolving deltas:  22% (845/3787)   Resolving deltas:  23% (877/3787)   Resolving deltas:  24% (926/3787)   Resolving deltas:  31% (1178/3787)   Resolving deltas:  33% (1267/3787)   Resolving deltas:  34% (1305/3787)   Resolving deltas:  36% (1375/3787)   Resolving deltas:  38% (1471/3787)   Resolving deltas:  46% (1744/3787)   Resolving deltas:  48% (1850/3787)   Resolving deltas:  49% (1877/3787)   Resolving deltas:  50% (1897/3787)   Resolving deltas:  51% (1951/3787)   Resolving deltas:  54% (2063/3787)   Resolving deltas:  55% (2107/3787)   Resolving deltas:  57% (2184/3787)   Resolving deltas:  59% (2253/3787)   Resolving deltas:  60% (2274/3787)   Resolving deltas:  61% (2322/3787)   Resolving deltas:  62% (2359/3787)   Resolving deltas:  63% (2394/3787)   Resolving deltas:  64% (2436/3787)   Resolving deltas:  65% (2466/3787)   Resolving deltas:  66% (2510/3787)   Resolving deltas:  67% (2546/3787)   Resolving deltas:  69% (2630/3787)   Resolving deltas:  70% (2657/3787)   Resolving deltas:  71% (2694/3787)   Resolving deltas:  73% (2790/3787)   Resolving deltas:  74% (2822/3787)   Resolving deltas:  75% (2843/3787)   Resolving deltas:  76% (2879/3787)   Resolving deltas:  78% (2959/3787)   Resolving deltas:  79% (3001/3787)   Resolving deltas:  80% (3031/3787)   Resolving deltas:  81% (3074/3787)   Resolving deltas:  82% (3108/3787)   Resolving deltas:  83% (3163/3787)   Resolving deltas:  84% (3184/3787)   Resolving deltas:  85% (3229/3787)   Resolving deltas:  86% (3260/3787)   Resolving deltas:  87% (3296/3787)   Resolving deltas:  88% (3338/3787)   Resolving deltas:  89% (3380/3787)   Resolving deltas:  90% (3409/3787)   Resolving deltas:  91% (3447/3787)   Resolving deltas:  92% (3485/3787)   Resolving deltas:  93% (3522/3787)   Resolving deltas:  94% (3562/3787)   Resolving deltas:  95% (3599/3787)   Resolving deltas:  96% (3639/3787)   Resolving deltas:  97% (3679/3787)   Resolving deltas:  98% (3712/3787)   Resolving deltas:  99% (3750/3787)   Resolving deltas: 100% (3787/3787)   Resolving deltas: 100% (3787/3787), done.
+Receiving objects:   0% (1/6056)   Receiving objects:   1% (61/6056)   Receiving objects:   2% (122/6056)   Receiving objects:   3% (182/6056)   Receiving objects:   4% (243/6056)   Receiving objects:   5% (303/6056)   Receiving objects:   6% (364/6056)   Receiving objects:   7% (424/6056)   Receiving objects:   8% (485/6056)   Receiving objects:   9% (546/6056)   Receiving objects:  10% (606/6056)   Receiving objects:  11% (667/6056)   Receiving objects:  12% (727/6056)   Receiving objects:  13% (788/6056)   Receiving objects:  14% (848/6056)   Receiving objects:  15% (909/6056)   Receiving objects:  16% (969/6056)   Receiving objects:  17% (1030/6056)   Receiving objects:  18% (1091/6056)   Receiving objects:  19% (1151/6056)   Receiving objects:  20% (1212/6056)   Receiving objects:  21% (1272/6056)   Receiving objects:  22% (1333/6056)   Receiving objects:  23% (1393/6056)   Receiving objects:  24% (1454/6056)   Receiving objects:  25% (1514/6056)   Receiving objects:  26% (1575/6056)   Receiving objects:  27% (1636/6056)   Receiving objects:  28% (1696/6056)   Receiving objects:  29% (1757/6056)   Receiving objects:  30% (1817/6056)   Receiving objects:  31% (1878/6056)   Receiving objects:  32% (1938/6056)   Receiving objects:  33% (1999/6056)   Receiving objects:  34% (2060/6056)   Receiving objects:  35% (2120/6056)   Receiving objects:  36% (2181/6056)   Receiving objects:  37% (2241/6056)   Receiving objects:  38% (2302/6056)   Receiving objects:  39% (2362/6056)   Receiving objects:  40% (2423/6056)   Receiving objects:  41% (2483/6056)   Receiving objects:  42% (2544/6056)   Receiving objects:  43% (2605/6056)   Receiving objects:  44% (2665/6056)   Receiving objects:  45% (2726/6056)   Receiving objects:  46% (2786/6056)   Receiving objects:  47% (2847/6056)   Receiving objects:  48% (2907/6056)   Receiving objects:  49% (2968/6056)   Receiving objects:  50% (3028/6056)   Receiving objects:  51% (3089/6056)   Receiving objects:  52% (3150/6056)   Receiving objects:  53% (3210/6056)   Receiving objects:  54% (3271/6056)   Receiving objects:  55% (3331/6056)   Receiving objects:  56% (3392/6056)   Receiving objects:  57% (3452/6056)   Receiving objects:  58% (3513/6056)   Receiving objects:  59% (3574/6056)   Receiving objects:  60% (3634/6056)   Receiving objects:  61% (3695/6056)   Receiving objects:  62% (3755/6056)   Receiving objects:  63% (3816/6056)   Receiving objects:  64% (3876/6056)   Receiving objects:  65% (3937/6056)   Receiving objects:  66% (3997/6056)   Receiving objects:  67% (4058/6056)   Receiving objects:  68% (4119/6056)   Receiving objects:  69% (4179/6056)   Receiving objects:  70% (4240/6056)   Receiving objects:  71% (4300/6056)   Receiving objects:  72% (4361/6056)   Receiving objects:  73% (4421/6056)   Receiving objects:  74% (4482/6056)   Receiving objects:  75% (4542/6056)   Receiving objects:  76% (4603/6056)   Receiving objects:  77% (4664/6056)   Receiving objects:  78% (4724/6056)   Receiving objects:  79% (4785/6056)   Receiving objects:  80% (4845/6056)   Receiving objects:  81% (4906/6056)   Receiving objects:  82% (4966/6056)   Receiving objects:  83% (5027/6056)   Receiving objects:  84% (5088/6056)   Receiving objects:  85% (5148/6056)   Receiving objects:  86% (5209/6056)   Receiving objects:  87% (5269/6056)   Receiving objects:  88% (5330/6056)   Receiving objects:  89% (5390/6056)   Receiving objects:  90% (5451/6056)   Receiving objects:  91% (5511/6056)   Receiving objects:  92% (5572/6056)   Receiving objects:  93% (5633/6056)   Receiving objects:  94% (5693/6056)   Receiving objects:  95% (5754/6056)   Receiving objects:  96% (5814/6056)   remote: Total 6056 (delta 0), reused 0 (delta 0), pack-reused 6056[K
+Receiving objects:  97% (5875/6056)   Receiving objects:  98% (5935/6056)   Receiving objects:  99% (5996/6056)   Receiving objects: 100% (6056/6056)   Receiving objects: 100% (6056/6056), 4.33 MiB | 0 bytes/s, done.
+Resolving deltas:   0% (0/3787)   Resolving deltas:   1% (38/3787)   Resolving deltas:   2% (76/3787)   Resolving deltas:   3% (138/3787)   Resolving deltas:   4% (155/3787)   Resolving deltas:   7% (296/3787)   Resolving deltas:   8% (318/3787)   Resolving deltas:   9% (344/3787)   Resolving deltas:  10% (380/3787)   Resolving deltas:  11% (426/3787)   Resolving deltas:  12% (455/3787)   Resolving deltas:  13% (494/3787)   Resolving deltas:  14% (532/3787)   Resolving deltas:  15% (575/3787)   Resolving deltas:  16% (607/3787)   Resolving deltas:  17% (644/3787)   Resolving deltas:  18% (689/3787)   Resolving deltas:  19% (723/3787)   Resolving deltas:  20% (787/3787)   Resolving deltas:  21% (799/3787)   Resolving deltas:  32% (1241/3787)   Resolving deltas:  34% (1290/3787)   Resolving deltas:  35% (1361/3787)   Resolving deltas:  36% (1385/3787)   Resolving deltas:  37% (1430/3787)   Resolving deltas:  39% (1505/3787)   Resolving deltas:  48% (1820/3787)   Resolving deltas:  49% (1874/3787)   Resolving deltas:  50% (1897/3787)   Resolving deltas:  51% (1966/3787)   Resolving deltas:  52% (1995/3787)   Resolving deltas:  53% (2041/3787)   Resolving deltas:  54% (2059/3787)   Resolving deltas:  56% (2123/3787)   Resolving deltas:  57% (2160/3787)   Resolving deltas:  59% (2260/3787)   Resolving deltas:  60% (2275/3787)   Resolving deltas:  61% (2325/3787)   Resolving deltas:  62% (2353/3787)   Resolving deltas:  63% (2403/3787)   Resolving deltas:  64% (2426/3787)   Resolving deltas:  65% (2465/3787)   Resolving deltas:  66% (2502/3787)   Resolving deltas:  67% (2549/3787)   Resolving deltas:  69% (2631/3787)   Resolving deltas:  70% (2656/3787)   Resolving deltas:  71% (2693/3787)   Resolving deltas:  72% (2742/3787)   Resolving deltas:  73% (2765/3787)   Resolving deltas:  75% (2863/3787)   Resolving deltas:  76% (2881/3787)   Resolving deltas:  77% (2950/3787)   Resolving deltas:  78% (2958/3787)   Resolving deltas:  79% (2998/3787)   Resolving deltas:  80% (3033/3787)   Resolving deltas:  81% (3078/3787)   Resolving deltas:  82% (3113/3787)   Resolving deltas:  84% (3191/3787)   Resolving deltas:  85% (3219/3787)   Resolving deltas:  86% (3258/3787)   Resolving deltas:  87% (3298/3787)   Resolving deltas:  88% (3360/3787)   Resolving deltas:  89% (3371/3787)   Resolving deltas:  90% (3409/3787)   Resolving deltas:  91% (3447/3787)   Resolving deltas:  92% (3487/3787)   Resolving deltas:  93% (3526/3787)   Resolving deltas:  94% (3561/3787)   Resolving deltas:  95% (3598/3787)   Resolving deltas:  96% (3637/3787)   Resolving deltas:  97% (3678/3787)   Resolving deltas:  98% (3713/3787)   Resolving deltas:  99% (3753/3787)   Resolving deltas: 100% (3787/3787)   Resolving deltas: 100% (3787/3787), done.
 Checking connectivity... done.
 + cd mirage-www
 + export MODE=unix
@@ -1320,10 +1379,545 @@ mirage configure src/config.ml  --unix
 [1;34m[NOTE][m Package io-page is already installed (current version is 1.4.0).
 [1;34m[NOTE][m Package lwt is already installed (current version is 2.4.5).
 [1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
-Your request can't be satisfied:
-  - No package matches mirage-conduit.
+The following actions will be performed:
+ - install   fieldslib.109.20.03                   [required by cohttp]
+ - install   hex.0.1.0                             [required by ezjsonm]
+ - install   dyntype.0.9.0                         [required by cow]
+ - install   omd.1.2.5                             [required by cowabloga, cow]
+ - install   base-bytes.legacy                     [required by uri, stringext]
+ - install   ounit.2.0.0                           [required by mirage-net-unix, cow]
+ - install   ulex.1.1                              [required by cow]
+ - install   mirage-profile.0.4                    [required by tcpip, mirage-unix]
+ - install   mirage-clock-unix.1.0.0
+ - install   mirage-types-lwt.2.2.0                [required by vchan, mirage-http, mirage-console, tcpip]
+ - install   xmlm.1.2.0                            [required by cow]
+ - install   uutf.0.9.4                            [required by jsonm]
+ - install   mirage-fs-unix.1.1.3
+ - install   stringext.1.2.0                       [required by conduit]
+ - install   base64.2.0.0                          [required by cohttp]
+ - install   xenstore.1.2.5                        [required by vchan]
+ - install   tuntap.1.0.0                          [required by mirage-net-unix]
+ - install   shared-memory-ring.1.1.1              [required by mirage-unix]
+ - install   jsonm.0.9.1                           [required by ezjsonm]
+ - install   uri.1.8.0                             [required by cow, conduit]
+ - install   xenstore_transport.0.9.4              [required by vchan]
+ - install   mirage-net-unix.2.1.0
+ - install   mirage-unix.2.2.1
+ - install   ezjsonm.0.4.1                         [required by cow]
+ - install   vchan.2.0.2
+ - install   mirage-console.2.1.1
+ - install   cow.1.2.0
+ - install   tcpip.2.2.3
+ - install   dns.0.14.0                            [required by mirage-dns]
+ - install   mirage-dns.2.0.0                      [required by mirage-conduit, conduit]
+ - install   conduit.0.7.2
+ - install   mirage-conduit.2.0.0
+ - install   cohttp.0.15.0                         [required by mirage-http, cowabloga]
+ - install   mirage-http.2.1.0
+ - install   cowabloga.0.0.9
+=== [33m35[m to install ===
 
-No solution found, exiting
-[31m[ERROR][m      The command "opam install --yes conduit cow cowabloga crunch cstruct io-page lwt mirage-clock-unix mirage-conduit mirage-console mirage-fs-unix mirage-http mirage-net-unix mirage-types mirage-unix tcpip vchan" exited with code 3.
-Makefile:37: recipe for target 'configure' failed
-make: *** [configure] Error 1
+[36m=-=-[m [01mSynchronizing package archives[m [36m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+[[32mbase64.2.0.0[m] Downloading https://github.com/mirage/ocaml-base64/archive/v2.0.0.tar.gz
+[[32mcohttp.0.15.0[m] Downloading https://github.com/mirage/ocaml-cohttp/archive/v0.15.0.tar.gz
+[[32mconduit.0.7.2[m] Downloading https://github.com/mirage/ocaml-conduit/archive/v0.7.2.tar.gz
+[[32mcow.1.2.0[m] Downloading https://github.com/mirage/ocaml-cow/archive/v1.2.0.tar.gz
+[[32mcowabloga.0.0.9[m] Downloading https://github.com/mirage/cowabloga/archive/v0.0.9.tar.gz
+[[32mdns.0.14.0[m] Downloading https://github.com/mirage/ocaml-dns/archive/v0.14.0.tar.gz
+[[32mdyntype.0.9.0[m] Downloading https://github.com/mirage/dyntype/archive/dyntype-0.9.0.tar.gz
+[[32mezjsonm.0.4.1[m] Downloading https://github.com/mirage/ezjsonm/archive/0.4.1.tar.gz
+[[32mfieldslib.109.20.03[m] Downloading https://ocaml.janestreet.com/ocaml-core/109.20.00/individual/fieldslib-109.20.03.tar.gz
+[[32mhex.0.1.0[m] Downloading https://github.com/mirage/ocaml-hex/archive/0.1.0.tar.gz
+[[32mjsonm.0.9.1[m] Downloading http://erratique.ch/software/jsonm/releases/jsonm-0.9.1.tbz
+[[32mmirage-clock-unix.1.0.0[m] Downloading https://github.com/mirage/mirage-clock/archive/v1.0.0.tar.gz
+[[32mmirage-console.2.1.1[m] Downloading https://github.com/mirage/mirage-console/archive/v2.1.1.tar.gz
+[[32mmirage-fs-unix.1.1.3[m] Downloading https://github.com/mirage/mirage-fs-unix/archive/v1.1.3.tar.gz
+[[32mmirage-http.2.1.0[m] Downloading https://github.com/mirage/mirage-http/archive/v2.1.0.tar.gz
+[[32mmirage-net-unix.2.1.0[m] Downloading https://github.com/mirage/mirage-net-unix/archive/v2.1.0.tar.gz
+[[32mmirage-profile.0.4[m] Downloading https://github.com/mirage/mirage-profile/archive/v0.4.tar.gz
+[[32mmirage-unix.2.2.1[m] Downloading https://github.com/mirage/mirage-platform/archive/v2.2.1.tar.gz
+[[32momd.1.2.5[m] Downloading http://pw374.github.io/distrib/omd/omd-1.2.5.tar.gz
+[[32mounit.2.0.0[m] Downloading http://forge.ocamlcore.org/frs/download.php/1258/ounit-2.0.0.tar.gz
+[[32mshared-memory-ring.1.1.1[m] Downloading https://github.com/mirage/shared-memory-ring/archive/1.1.1.tar.gz
+[[32mstringext.1.2.0[m] Downloading https://github.com/rgrinberg/stringext/archive/v1.2.0.tar.gz
+[[32mtcpip.2.2.3[m] Downloading https://github.com/mirage/mirage-tcpip/archive/v2.2.3.tar.gz
+[[32mtuntap.1.0.0[m] Downloading https://github.com/mirage/ocaml-tuntap/archive/v1.0.0.tar.gz
+[[32mulex.1.1[m] Downloading http://ftp.de.debian.org/debian/pool/main/u/ulex/ulex_1.1.orig.tar.gz
+[[32muri.1.8.0[m] Downloading https://github.com/mirage/ocaml-uri/archive/v1.8.0.tar.gz
+[[32muutf.0.9.4[m] Downloading http://erratique.ch/software/uutf/releases/uutf-0.9.4.tbz
+[[32mvchan.2.0.2[m] Downloading https://github.com/mirage/ocaml-vchan/archive/v2.0.2.tar.gz
+[[32mxenstore.1.2.5[m] Downloading https://github.com/mirage/ocaml-xenstore/archive/1.2.5.tar.gz
+[[32mxenstore_transport.0.9.4[m] Downloading https://github.com/djs55/ocaml-xenstore-clients/archive/0.9.4.tar.gz
+[[32mxmlm.1.2.0[m] Downloading http://erratique.ch/software/xmlm/releases/xmlm-1.2.0.tbz
+
+[36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+Installing base-bytes.legacy.
+Building dyntype.0.9.0:
+  make
+  make install
+Installing dyntype.0.9.0.
+Building fieldslib.109.20.03:
+  make
+  make install
+Installing fieldslib.109.20.03.
+Building hex.0.1.0:
+  make
+  make install
+Installing hex.0.1.0.
+Building mirage-clock-unix.1.0.0:
+  make unix-build
+  make unix-install
+Installing mirage-clock-unix.1.0.0.
+Building mirage-fs-unix.1.1.3:
+  make
+  make install
+Installing mirage-fs-unix.1.1.3.
+Building mirage-profile.0.4:
+  ./configure --prefix /home/opam/.opam/system --disable-xen
+  make
+  make install
+Installing mirage-profile.0.4.
+Installing mirage-types-lwt.2.2.0.
+Copying ~/.opam/repo/default/packages/omd/omd.1.2.5/files/omd.install to ~/.opam/system/build/omd.1.2.5/
+Building omd.1.2.5:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/system
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing omd.1.2.5.
+Building ounit.2.0.0:
+  make build
+  make install
+Installing ounit.2.0.0.
+Building ulex.1.1:
+  make
+  make all.opt
+  make install
+Installing ulex.1.1.
+Building uutf.0.9.4:
+  ocaml pkg/git.ml
+  ocaml pkg/build.ml native=true native-dynlink=true cmdliner=true
+Installing uutf.0.9.4.
+Building xmlm.1.2.0:
+  ./pkg/pkg-git
+  ./pkg/build true
+Installing xmlm.1.2.0.
+Building base64.2.0.0:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/system
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing base64.2.0.0.
+Copying ~/.opam/repo/default/packages/jsonm/jsonm.0.9.1/files/jsonm.install to ~/.opam/system/build/jsonm.0.9.1/
+Building jsonm.0.9.1:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/system
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing jsonm.0.9.1.
+Building shared-memory-ring.1.1.1:
+  make all
+  make install
+Installing shared-memory-ring.1.1.1.
+Building stringext.1.2.0:
+  ocaml setup.ml -configure
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing stringext.1.2.0.
+Building tuntap.1.0.0:
+  make PREFIX=/home/opam/.opam/system
+  make PREFIX=/home/opam/.opam/system install
+Installing tuntap.1.0.0.
+Building xenstore.1.2.5:
+  make all
+  make install
+Installing xenstore.1.2.5.
+Copying ~/.opam/repo/default/packages/ezjsonm/ezjsonm.0.4.1/files/build_with_trunk.patch to ~/.opam/system/build/ezjsonm.0.4.1/
+Applying build_with_trunk.patch.
+Building ezjsonm.0.4.1:
+  ./configure --prefix /home/opam/.opam/system --enable-lwt
+  make
+  make install
+Installing ezjsonm.0.4.1.
+Building mirage-net-unix.2.1.0:
+  make
+  make install
+Installing mirage-net-unix.2.1.0.
+Building mirage-unix.2.2.1:
+  make unix-build
+  make unix-install PREFIX=/home/opam/.opam/system
+Installing mirage-unix.2.2.1.
+Building uri.1.8.0:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/system
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing uri.1.8.0.
+Building xenstore_transport.0.9.4:
+  make all
+  make install
+Installing xenstore_transport.0.9.4.
+Building cow.1.2.0:
+  make all
+  make install
+Installing cow.1.2.0.
+Building mirage-console.2.1.1:
+  make
+  make install
+Installing mirage-console.2.1.1.
+Building vchan.2.0.2:
+  ./configure
+  make
+  make install
+Installing vchan.2.0.2.
+Building tcpip.2.2.3:
+  ./configure --prefix /home/opam/.opam/system --disable-xen
+  make
+  make install
+Installing tcpip.2.2.3.
+Building dns.0.14.0:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/system --enable-lwt --enable-mirage
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing dns.0.14.0.
+Building mirage-dns.2.0.0:
+  ocamlfind query dns.mirage
+Installing mirage-dns.2.0.0.
+Building conduit.0.7.2:
+  make
+  make install
+Installing conduit.0.7.2.
+Building cohttp.0.15.0:
+  make PREFIX=/home/opam/.opam/system
+  make PREFIX=/home/opam/.opam/system install
+Installing cohttp.0.15.0.
+Building mirage-conduit.2.0.0:
+  ocamlfind query conduit.mirage
+Installing mirage-conduit.2.0.0.
+Building cowabloga.0.0.9:
+  make all
+  make install
+Installing cowabloga.0.0.9.
+Building mirage-http.2.1.0:
+  make
+  make install
+Installing mirage-http.2.1.0.
+[32mwww[m         [36mGenerating:[m main.ml
++ make depend
+cd src && make depend
+make[1]: Entering directory '/home/opam/opam-repository/mirage-www/src'
+opam install conduit cow cowabloga crunch cstruct io-page lwt mirage-clock-unix mirage-conduit mirage-console mirage-fs-unix mirage-http mirage-net-unix mirage-types mirage-unix tcpip vchan --verbose
+[1;34m[NOTE][m Package conduit is already installed (current version is 0.7.2).
+[1;34m[NOTE][m Package cow is already installed (current version is 1.2.0).
+[1;34m[NOTE][m Package cowabloga is already installed (current version is 0.0.9).
+[1;34m[NOTE][m Package crunch is already installed (current version is 1.3.0).
+[1;34m[NOTE][m Package cstruct is already installed (current version is 1.5.0).
+[1;34m[NOTE][m Package io-page is already installed (current version is 1.4.0).
+[1;34m[NOTE][m Package lwt is already installed (current version is 2.4.5).
+[1;34m[NOTE][m Package mirage-clock-unix is already installed (current version is 1.0.0).
+[1;34m[NOTE][m Package mirage-conduit is already installed (current version is 2.0.0).
+[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-fs-unix is already installed (current version is 1.1.3).
+[1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
+[1;34m[NOTE][m Package mirage-net-unix is already installed (current version is 2.1.0).
+[1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
+[1;34m[NOTE][m Package mirage-unix is already installed (current version is 2.2.1).
+[1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.3).
+[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.2).
+make[1]: Leaving directory '/home/opam/opam-repository/mirage-www/src'
++ make build
+cd src && make build
+make[1]: Entering directory '/home/opam/opam-repository/mirage-www/src'
+ocamlbuild -classic-display -use-ocamlfind -pkgs lwt.syntax,conduit.mirage,cow.syntax,cowabloga,cstruct,io-page,io-page.unix,lwt,mirage-clock-unix,mirage-console.unix,mirage-fs-unix,mirage-http,mirage-net-unix,mirage-types,mirage-types.lwt,mirage.runtime,tcpip.stack-direct -tags "syntax(camlp4o),annot,bin_annot,strict_sequence,principal" -tag-line "<static*.*>: -syntax(camlp4o)" -cflag -g -lflags -g,-linkpkg main.native
+ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules main.ml > main.ml.depends
+ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules dispatch.ml > dispatch.ml.depends
+ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules blog.ml > blog.ml.depends
+ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules data.ml > data.ml.depends
+ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules bactrian.ml > bactrian.ml.depends
+ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules paper.ml > paper.ml.depends
+ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules perf.ml > perf.ml.depends
+ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o bactrian.cmo bactrian.ml
+ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o paper.cmo paper.ml
+ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o perf.cmo perf.ml
+ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules pages.ml > pages.ml.depends
+ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules site_config.ml > site_config.ml.depends
+ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o data.cmo data.ml
+ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o site_config.cmo site_config.ml
+ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o pages.cmo pages.ml
+ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules wiki.ml > wiki.ml.depends
+ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o blog.cmo blog.ml
+ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o wiki.cmo wiki.ml
+ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o dispatch.cmo dispatch.ml
+ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o main.cmo main.ml
+ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o bactrian.cmx bactrian.ml
+ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o paper.cmx paper.ml
+ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o perf.cmx perf.ml
+ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o data.cmx data.ml
+ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o site_config.cmx site_config.ml
+ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o pages.cmx pages.ml
+ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o blog.cmx blog.ml
+ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o wiki.cmx wiki.ml
+ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o dispatch.cmx dispatch.ml
+ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o main.cmx main.ml
+ocamlfind ocamlopt -g -linkpkg -linkpkg -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-unix -package mirage-http -package mirage-fs-unix -package mirage-console.unix -package mirage-clock-unix -package lwt -package io-page.unix -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o bactrian.cmx paper.cmx perf.cmx data.cmx site_config.cmx pages.cmx blog.cmx wiki.cmx dispatch.cmx main.cmx -o main.native
+ln -nfs _build/main.native mir-www
+make[1]: Leaving directory '/home/opam/opam-repository/mirage-www/src'
++ export MODE=xen
++ make configure
+mirage configure src/config.ml  --xen
+[32mMirage[m      [36mUsing specified config file:[m src/config.ml
+[32mMirage[m      [36mCompiling for target:[m Xen
+[32mMirage[m      [36mProcessing:[m /home/opam/opam-repository/mirage-www/src/config.ml
+[32mMirage[m      [33m=>[m rm -rf /home/opam/opam-repository/mirage-www/src/_build/config.*
+[32mMirage[m      [33m=>[m cd /home/opam/opam-repository/mirage-www/src && ocamlbuild -use-ocamlfind -tags annot,bin_annot -pkg mirage config.cmxs
+[32mwww[m         [36mUsing configuration:[m /home/opam/opam-repository/mirage-www/src/config.ml
+[32mwww[m         1 job [Dispatch.Main]
+[32mwww[m         Installing OPAM packages.
+[32mwww[m         [33m=>[m opam install --yes conduit cow cowabloga crunch cstruct io-page lwt mirage-clock-xen mirage-conduit mirage-console mirage-http mirage-net-xen mirage-types mirage-xen tcpip vchan xen-evtchn xen-gnt xenstore
+[1;34m[NOTE][m Package conduit is already installed (current version is 0.7.2).
+[1;34m[NOTE][m Package cow is already installed (current version is 1.2.0).
+[1;34m[NOTE][m Package cowabloga is already installed (current version is 0.0.9).
+[1;34m[NOTE][m Package crunch is already installed (current version is 1.3.0).
+[1;34m[NOTE][m Package cstruct is already installed (current version is 1.5.0).
+[1;34m[NOTE][m Package io-page is already installed (current version is 1.4.0).
+[1;34m[NOTE][m Package lwt is already installed (current version is 2.4.5).
+[1;34m[NOTE][m Package mirage-conduit is already installed (current version is 2.0.0).
+[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
+[1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
+[1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.3).
+[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.2).
+[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
+The following actions will be performed:
+ - install   mirage-clock-xen.1.0.0
+ - install   ocaml-src.4.01.0                      [required by mirage-xen]
+ - install   conf-pkg-config.1.0                   [required by mirage-xen]
+ - install   xen-evtchn.1.0.6
+ - install   mirage-xen-minios.0.7.0               [required by mirage-xen]
+ - recompile mirage-profile.0.4                    [uses mirage-xen-minios]
+ - install   xen-gnt.2.2.0
+ - recompile shared-memory-ring.1.1.1              [uses mirage-profile]
+ - install   mirage-xen.2.2.1
+ - recompile mirage-unix.2.2.1                     [uses mirage-profile]
+ - recompile vchan.2.0.2
+ - install   mirage-net-xen.1.3.0
+ - recompile mirage-console.2.1.1
+ - recompile tcpip.2.2.3
+ - recompile dns.0.14.0                            [uses tcpip]
+ - recompile mirage-dns.2.0.0                      [uses tcpip]
+ - recompile conduit.0.7.2
+ - recompile mirage-conduit.2.0.0
+ - recompile cohttp.0.15.0                         [uses conduit]
+ - recompile mirage-http.2.1.0
+ - recompile cowabloga.0.0.9
+=== [33m8[m to install | [33m13[m to reinstall ===
+
+[36m=-=-[m [01mSynchronizing package archives[m [36m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+[[32mcohttp.0.15.0[m] v0.15.0.tar.gz is in the local cache, using it.
+[[32mconduit.0.7.2[m] v0.7.2.tar.gz is in the local cache, using it.
+[[32mcowabloga.0.0.9[m] v0.0.9.tar.gz is in the local cache, using it.
+[[32mdns.0.14.0[m] v0.14.0.tar.gz is in the local cache, using it.
+[[32mmirage-clock-xen.1.0.0[m] Downloading https://github.com/mirage/mirage-clock/archive/v1.0.0.tar.gz
+[[32mmirage-console.2.1.1[m] v2.1.1.tar.gz is in the local cache, using it.
+[[32mmirage-http.2.1.0[m] v2.1.0.tar.gz is in the local cache, using it.
+[[32mmirage-net-xen.1.3.0[m] Downloading https://github.com/mirage/mirage-net-xen/archive/v1.3.0.tar.gz
+[[32mmirage-profile.0.4[m] v0.4.tar.gz is in the local cache, using it.
+[[32mmirage-unix.2.2.1[m] v2.2.1.tar.gz is in the local cache, using it.
+[[32mmirage-xen.2.2.1[m] Downloading https://github.com/mirage/mirage-platform/archive/v2.2.1.tar.gz
+[[32mmirage-xen-minios.0.7.0[m] Downloading https://github.com/mirage/mirage-xen-minios/releases/download/v0.7.0/mirage-xen-minios-v0.7.0.tar.bz2
+[[32mocaml-src.4.01.0[m] Downloading http://caml.inria.fr/pub/distrib/ocaml-4.01/ocaml-4.01.0.tar.gz
+[[32mshared-memory-ring.1.1.1[m] 1.1.1.tar.gz is in the local cache, using it.
+[[32mtcpip.2.2.3[m] v2.2.3.tar.gz is in the local cache, using it.
+[[32mvchan.2.0.2[m] v2.0.2.tar.gz is in the local cache, using it.
+[[32mxen-evtchn.1.0.6[m] Downloading https://github.com/mirage/ocaml-evtchn/archive/v1.0.6.tar.gz
+[[32mxen-gnt.2.2.0[m] Downloading https://github.com/mirage/ocaml-gnt/archive/v2.2.0.tar.gz
+
+[36m=-=-[m [01mRemoving Packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+Removing mirage-http.2.1.0.
+  make uninstall
+Removing cowabloga.0.0.9.
+  ocamlfind remove cowabloga
+Removing mirage-conduit.2.0.0.
+Removing cohttp.0.15.0.
+  ocamlfind remove cohttp
+Removing conduit.0.7.2.
+  ocamlfind remove conduit
+Removing vchan.2.0.2.
+  ocamlfind remove vchan
+Removing mirage-dns.2.0.0.
+Removing dns.0.14.0.
+  ocamlfind remove dns
+Removing tcpip.2.2.3.
+  ocamlfind remove tcpip
+Removing mirage-console.2.1.1.
+  ocamlfind remove mirage-console
+Removing mirage-unix.2.2.1.
+  make unix-uninstall PREFIX=/home/opam/.opam/system
+Removing shared-memory-ring.1.1.1.
+  ocamlfind remove shared-memory-ring
+Removing mirage-profile.0.4.
+  ocamlfind remove mirage-profile
+
+[36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+Building conf-pkg-config.1.0:
+  pkg-config --help
+Installing conf-pkg-config.1.0.
+Building mirage-clock-xen.1.0.0:
+  make xen-build
+  make xen-install
+Installing mirage-clock-xen.1.0.0.
+Building mirage-xen-minios.0.7.0:
+  make build
+Installing mirage-xen-minios.0.7.0.
+Building ocaml-src.4.01.0:
+  cp -r . /home/opam/.opam/system/lib/ocaml-src
+Installing ocaml-src.4.01.0.
+Building xen-evtchn.1.0.6:
+  make
+  make install
+Installing xen-evtchn.1.0.6.
+Building mirage-profile.0.4:
+  ./configure --prefix /home/opam/.opam/system --enable-xen
+  make
+  make install
+Installing mirage-profile.0.4.
+Building shared-memory-ring.1.1.1:
+  make all
+  make install
+Installing shared-memory-ring.1.1.1.
+Building xen-gnt.2.2.0:
+  make
+  make PREFIX=/home/opam/.opam/system install
+Installing xen-gnt.2.2.0.
+Building mirage-unix.2.2.1:
+  make unix-build
+  make unix-install PREFIX=/home/opam/.opam/system
+Installing mirage-unix.2.2.1.
+Building mirage-xen.2.2.1:
+  make xen-build
+  make xen-install PREFIX=/home/opam/.opam/system
+Installing mirage-xen.2.2.1.
+Building mirage-console.2.1.1:
+  make
+  make install
+Installing mirage-console.2.1.1.
+Building mirage-net-xen.1.3.0:
+  make
+  make install
+Installing mirage-net-xen.1.3.0.
+Building vchan.2.0.2:
+  ./configure
+  make
+  make install
+Installing vchan.2.0.2.
+Building tcpip.2.2.3:
+  ./configure --prefix /home/opam/.opam/system --enable-xen
+  make
+  make install
+Installing tcpip.2.2.3.
+Building dns.0.14.0:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/system --enable-lwt --enable-mirage
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing dns.0.14.0.
+Building mirage-dns.2.0.0:
+  ocamlfind query dns.mirage
+Installing mirage-dns.2.0.0.
+Building conduit.0.7.2:
+  make
+  make install
+Installing conduit.0.7.2.
+Building cohttp.0.15.0:
+  make PREFIX=/home/opam/.opam/system
+  make PREFIX=/home/opam/.opam/system install
+Installing cohttp.0.15.0.
+Building mirage-conduit.2.0.0:
+  ocamlfind query conduit.mirage
+Installing mirage-conduit.2.0.0.
+Building cowabloga.0.0.9:
+  make all
+  make install
+Installing cowabloga.0.0.9.
+Building mirage-http.2.1.0:
+  make
+  make install
+Installing mirage-http.2.1.0.
+[32mwww[m         [33m=>[m ocamlfind query -r -format '%d	%(xen_linkopts)' -predicates native lwt.syntax conduit.mirage cow.syntax cowabloga cstruct io-page lwt mirage-clock-xen mirage-console.xen mirage-http mirage-net-xen mirage-types mirage-types.lwt mirage.runtime tcpip.stack-direct
+[32mwww[m         [36mGenerating:[m main.ml
+[32mwww[m         [36mGenerating:[m /home/opam/opam-repository/mirage-www/src/static2.ml
+[32mwww[m         [33m=>[m ocaml-crunch -o static2.ml /home/opam/opam-repository/mirage-www/src/../files
+[32mwww[m         [36mGenerating:[m /home/opam/opam-repository/mirage-www/src/static1.ml
+[32mwww[m         [33m=>[m ocaml-crunch -o static1.ml /home/opam/opam-repository/mirage-www/src/../tmpl
++ make depend
+cd src && make depend
+make[1]: Entering directory '/home/opam/opam-repository/mirage-www/src'
+opam install conduit cow cowabloga crunch cstruct io-page lwt mirage-clock-xen mirage-conduit mirage-console mirage-http mirage-net-xen mirage-types mirage-xen tcpip vchan xen-evtchn xen-gnt xenstore --verbose
+[1;34m[NOTE][m Package conduit is already installed (current version is 0.7.2).
+[1;34m[NOTE][m Package cow is already installed (current version is 1.2.0).
+[1;34m[NOTE][m Package cowabloga is already installed (current version is 0.0.9).
+[1;34m[NOTE][m Package crunch is already installed (current version is 1.3.0).
+[1;34m[NOTE][m Package cstruct is already installed (current version is 1.5.0).
+[1;34m[NOTE][m Package io-page is already installed (current version is 1.4.0).
+[1;34m[NOTE][m Package lwt is already installed (current version is 2.4.5).
+[1;34m[NOTE][m Package mirage-clock-xen is already installed (current version is 1.0.0).
+[1;34m[NOTE][m Package mirage-conduit is already installed (current version is 2.0.0).
+[1;34m[NOTE][m Package mirage-console is already installed (current version is 2.1.1).
+[1;34m[NOTE][m Package mirage-http is already installed (current version is 2.1.0).
+[1;34m[NOTE][m Package mirage-net-xen is already installed (current version is 1.3.0).
+[1;34m[NOTE][m Package mirage-types is already installed (current version is 2.2.0).
+[1;34m[NOTE][m Package mirage-xen is already installed (current version is 2.2.1).
+[1;34m[NOTE][m Package tcpip is already installed (current version is 2.2.3).
+[1;34m[NOTE][m Package vchan is already installed (current version is 2.0.2).
+[1;34m[NOTE][m Package xen-evtchn is already installed (current version is 1.0.6).
+[1;34m[NOTE][m Package xen-gnt is already installed (current version is 2.2.0).
+[1;34m[NOTE][m Package xenstore is already installed (current version is 1.2.5).
+make[1]: Leaving directory '/home/opam/opam-repository/mirage-www/src'
++ make build
+cd src && make build
+make[1]: Entering directory '/home/opam/opam-repository/mirage-www/src'
+ocamlbuild -classic-display -use-ocamlfind -pkgs lwt.syntax,conduit.mirage,cow.syntax,cowabloga,cstruct,io-page,lwt,mirage-clock-xen,mirage-console.xen,mirage-http,mirage-net-xen,mirage-types,mirage-types.lwt,mirage.runtime,tcpip.stack-direct -tags "syntax(camlp4o),annot,bin_annot,strict_sequence,principal" -tag-line "<static*.*>: -syntax(camlp4o)" -cflag -g -lflags -g,-linkpkg,-dontlink,unix main.native.o
+ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules main.ml > main.ml.depends
+ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules dispatch.ml > dispatch.ml.depends
+ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules blog.ml > blog.ml.depends
+ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules data.ml > data.ml.depends
+ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules bactrian.ml > bactrian.ml.depends
+ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules paper.ml > paper.ml.depends
+ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules perf.ml > perf.ml.depends
+ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o bactrian.cmo bactrian.ml
+ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o paper.cmo paper.ml
+ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o perf.cmo perf.ml
+ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules pages.ml > pages.ml.depends
+ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules site_config.ml > site_config.ml.depends
+ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o data.cmo data.ml
+ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o site_config.cmo site_config.ml
+ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o pages.cmo pages.ml
+ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -modules wiki.ml > wiki.ml.depends
+ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o blog.cmo blog.ml
+ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o wiki.cmo wiki.ml
+ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -modules static1.mli > static1.mli.depends
+ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -modules static2.mli > static2.mli.depends
+ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o dispatch.cmo dispatch.ml
+ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -o static1.cmi static1.mli
+ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -o static2.cmi static2.mli
+ocamlfind ocamlc -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o main.cmo main.ml
+ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o bactrian.cmx bactrian.ml
+ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o paper.cmx paper.ml
+ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o perf.cmx perf.ml
+ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o data.cmx data.ml
+ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o site_config.cmx site_config.ml
+ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o pages.cmx pages.ml
+ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o blog.cmx blog.ml
+ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o wiki.cmx wiki.ml
+ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -modules static1.ml > static1.ml.depends
+ocamlfind ocamldep -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -modules static2.ml > static2.ml.depends
+ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o dispatch.cmx dispatch.ml
+ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -o static1.cmx static1.ml
+ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -o static2.cmx static2.ml
+ocamlfind ocamlopt -c -g -annot -bin-annot -principal -strict-sequence -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o -o main.cmx main.ml
+ocamlfind ocamlopt -g -linkpkg -dontlink unix -output-obj -package tcpip.stack-direct -package mirage.runtime -package mirage-types.lwt -package mirage-types -package mirage-net-xen -package mirage-http -package mirage-console.xen -package mirage-clock-xen -package lwt -package io-page -package cstruct -package cowabloga -package cow.syntax -package conduit.mirage -package lwt.syntax -syntax camlp4o bactrian.cmx paper.cmx perf.cmx data.cmx site_config.cmx pages.cmx blog.cmx wiki.cmx dispatch.cmx static1.cmx static2.cmx main.cmx -o main.native.o
+pkg-config --print-errors --exists mirage-xen
+ld -d -static -nostdlib \
+  _build/main.native.o \
+  -L/home/opam/.opam/system/lib/tcpip -ltcpip_xen_stubs \
+  $(pkg-config --static --libs mirage-xen) \
+  /usr/lib/gcc/x86_64-linux-gnu/4.9/libgcc.a \
+  -o mir-www.xen
+make[1]: Leaving directory '/home/opam/opam-repository/mirage-www/src'
++ echo MIRAGE WORKS
+MIRAGE WORKS
