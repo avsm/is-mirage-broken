@@ -31,11 +31,11 @@ Repodata is over 2 weeks old. Install yum-cron? Or run: yum makecache fast
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 7% [=                ]  0.0 B/s | 476 kB   --:-- ETA updates/7/x86_64/primary_d 25% [====            ] 2.0 MB/s | 1.7 MB   00:02 ETA updates/7/x86_64/primary_d 53% [========-       ] 2.2 MB/s | 3.6 MB   00:01 ETA updates/7/x86_64/primary_d 93% [=============== ] 2.6 MB/s | 6.2 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:01     
+updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 22% [===-            ]  0.0 B/s | 1.5 MB   --:-- ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:00     
 Determining fastest mirrors
- * base: mirror.compevo.com
- * extras: mirror.steadfast.net
- * updates: mirrors.usinternet.com
+ * base: centos.corenetworks.net
+ * extras: mirror.fdcservers.net
+ * updates: mirror.sanctuaryhost.com
 Resolving Dependencies
 --> Running transaction check
 ---> Package libffi-devel.x86_64 0:3.0.13-11.el7 will be installed
@@ -147,12 +147,12 @@ Building gmp.6.0.0:
 Installing ocamlfind.1.5.5.
 Installing base-bytes.base.
 Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/system/build/cppo.1.1.2/
-Building cmdliner.0.9.6:
-  ocaml pkg/git.ml
-  ocaml pkg/build.ml native=true native-dynlink=true
 Building cppo.1.1.2:
   make
   make install-lib
+Building cmdliner.0.9.6:
+  ocaml pkg/git.ml
+  ocaml pkg/build.ml native=true native-dynlink=true
 Installing cmdliner.0.9.6.
 Building ppx_tools.0.99.2:
   make all
@@ -243,9 +243,9 @@ Installing asn1-combinators.0.1.1.
 [31m#[m [31mpath[m         /home/opam/.opam/system/build/nocrypto.0.3.0
 [31m#[m [31mcompiler[m     system (4.02.1)
 [31m#[m [31mexit-code[m    1
-[31m#[m [31menv-file[m     /home/opam/.opam/system/build/nocrypto.0.3.0/nocrypto-23800-d37749.env
-[31m#[m [31mstdout-file[m  /home/opam/.opam/system/build/nocrypto.0.3.0/nocrypto-23800-d37749.out
-[31m#[m [31mstderr-file[m  /home/opam/.opam/system/build/nocrypto.0.3.0/nocrypto-23800-d37749.err
+[31m#[m [31menv-file[m     /home/opam/.opam/system/build/nocrypto.0.3.0/nocrypto-23797-d37749.env
+[31m#[m [31mstdout-file[m  /home/opam/.opam/system/build/nocrypto.0.3.0/nocrypto-23797-d37749.out
+[31m#[m [31mstderr-file[m  /home/opam/.opam/system/build/nocrypto.0.3.0/nocrypto-23797-d37749.err
 [31m### stdout ###
 [m[31m# [m...[truncated]
 [31m# [mmv d3des.o src/native/d3des.o
@@ -291,4 +291,4 @@ Due to the errors, the following have been [01mcancelled[m
  - install   tls.0.3.0
  - install   x509.0.2.1
 
-The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150208094448.export"
+The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150208222709.export"
