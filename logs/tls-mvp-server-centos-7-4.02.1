@@ -31,11 +31,11 @@ Repodata is over 2 weeks old. Install yum-cron? Or run: yum makecache fast
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 2% [                 ]  0.0 B/s | 165 kB   --:-- ETA updates/7/x86_64/primary_d 8% [=                ] 587 kB/s | 571 kB   00:10 ETA updates/7/x86_64/primary_d 17% [==-             ] 667 kB/s | 1.1 MB   00:08 ETA updates/7/x86_64/primary_d 35% [=====-          ] 874 kB/s | 2.4 MB   00:05 ETA updates/7/x86_64/primary_d 52% [========        ] 1.0 MB/s | 3.5 MB   00:03 ETA updates/7/x86_64/primary_d 70% [===========     ] 1.2 MB/s | 4.7 MB   00:01 ETA updates/7/x86_64/primary_d 91% [==============- ] 1.4 MB/s | 6.1 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:02     
+updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 7% [=                ]  0.0 B/s | 476 kB   --:-- ETA updates/7/x86_64/primary_d 25% [====            ] 2.0 MB/s | 1.7 MB   00:02 ETA updates/7/x86_64/primary_d 53% [========-       ] 2.2 MB/s | 3.6 MB   00:01 ETA updates/7/x86_64/primary_d 93% [=============== ] 2.6 MB/s | 6.2 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:01     
 Determining fastest mirrors
- * base: mirror.ubiquityservers.com
- * extras: centos.mirrors.tds.net
- * updates: ftpmirror.your.org
+ * base: mirror.compevo.com
+ * extras: mirror.steadfast.net
+ * updates: mirrors.usinternet.com
 Resolving Dependencies
 --> Running transaction check
 ---> Package libffi-devel.x86_64 0:3.0.13-11.el7 will be installed
@@ -230,10 +230,10 @@ Building nocrypto.0.3.0:
   ocaml setup.ml -configure --prefix /home/opam/.opam/system
   ocaml setup.ml -build
   ocaml setup.ml -install
-Installing asn1-combinators.0.1.1.
 [31m[ERROR][m The compilation of nocrypto.0.3.0 failed.
 Removing nocrypto.0.3.0.
   ocamlfind remove nocrypto
+Installing asn1-combinators.0.1.1.
 
 
 [31m#===[m [01mERROR[m [01mwhile installing nocrypto.0.3.0[m [31m====================================#[m
@@ -291,4 +291,4 @@ Due to the errors, the following have been [01mcancelled[m
  - install   tls.0.3.0
  - install   x509.0.2.1
 
-The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150207222143.export"
+The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150208094448.export"
