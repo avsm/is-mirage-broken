@@ -26,16 +26,16 @@ Debian depexts: libffi-dev m4
 + '[' 'libffi-dev m4' '!=' '' ']'
 + sudo apt-get update -y
 0% [Working]            Get:1 http://security.debian.org stable/updates Release.gpg [836 B]
-            100% [Connecting to http.debian.net (46.4.205.44)] [1 Release.gpg 836 B/836 B 1                                                                               100% [Connecting to http.debian.net (46.4.205.44)]                                                  Get:2 http://security.debian.org stable/updates Release [102 kB]
-                                                  15% [Waiting for headers] [2 Release 14.2 kB/102 kB 14%]                                                        31% [2 Release 31.5 kB/102 kB 31%]                                  Get:3 http://http.debian.net stable Release.gpg [1655 B]
-                                  46% [3 Release.gpg 1655 B/1655 B 100%] [Waiting for headers] [2 Release 46.0 kB                                                                               46% [Waiting for headers] [2 Release 46.0 kB/102 kB 45%]                                                        60% [2 Release 60.5 kB/102 kB 59%]                                  Get:4 http://http.debian.net stable-updates Release.gpg [836 B]
-                                  84% [4 Release.gpg 0 B/836 B 0%] [Waiting for headers] [2 Release 86.6 kB/102 k                                                                               85% [Waiting for headers] [2 Release 86.6 kB/102 kB 85%]                                                        100% [Waiting for headers]                          100% [Working]              100% [2 Release gpgv 102 kB] [Waiting for headers] [Waiting for headers]                                                                        Get:5 http://http.debian.net stable Release [168 kB]
-                                                                        44% [2 Release gpgv 102 kB] [5 Release 14.2 kB/168 kB 8%] [Waiting for headers]                                                                               44% [5 Release 14.2 kB/168 kB 8%] [Waiting for headers]                                                       Get:6 http://security.debian.org stable/updates/main amd64 Packages [339 kB]
-                                                       37% [5 Release 95.3 kB/168 kB 57%] [Waiting for headers] [6 Packages 27.0 kB/33                                                                               38% [5 Release 95.3 kB/168 kB 57%] [6 Packages 30.1 kB/339 kB 9%]                                                                 50% [6 Packages 30.1 kB/339 kB 9%]                                  50% [5 Release gpgv 168 kB] [6 Packages 30.1 kB/339 kB 9%]                                                          55% [Waiting for headers] [6 Packages 61.9 kB/339 kB 18%]                                                         Get:7 http://http.debian.net stable-updates Release [124 kB]
-                                                         49% [7 Release 24.9 kB/124 kB 20%] [6 Packages 61.9 kB/339 kB 18%]                                                                  62% [Waiting for headers] [6 Packages 61.9 kB/339 kB 18%]                                                         62% [7 Release gpgv 124 kB] [Waiting for headers] [6 Packages 61.9 kB/339 kB 18                                                                               67% [Waiting for headers] [6 Packages 98.1 kB/339 kB 29%]                                                         73% [6 Packages 137 kB/339 kB 40%]                                  Get:8 http://http.debian.net stable/main amd64 Packages [7625 kB]
-                                  7% [8 Packages 32.0 kB/7625 kB 0%] [Waiting for headers] [6 Packages 137 kB/339                                                                               13% [8 Packages 482 kB/7625 kB 6%] [6 Packages 227 kB/339 kB 67%]                                                                 37% [8 Packages 2355 kB/7625 kB 31%]                                    37% [6 Packages 291 kB] [8 Packages 2367 kB/7625 kB 31%]                                                        45% [8 Packages 3042 kB/7625 kB 40%]                                    100% [Working]              100% [8 Packages 7625 kB]                         Get:9 http://http.debian.net stable-updates/main amd64 Packages [4374 B]
-                         100% [8 Packages 7625 kB] [9 Packages 0 B/4374 B 0%]                                                    100% [8 Packages 7625 kB]100% [8 Packages 7625 kB]100% [8 Packages 7625 kB]                         100% [Working]              100% [9 Packages 3329 B]                        100% [Working]              Fetched 8366 kB in 2s (2848 kB/s)
-Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 56%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+            100% [Waiting for headers] [1 Release.gpg 836 B/836 B 100%]                                                           100% [Waiting for headers]100% [Waiting for headers]                          Get:2 http://security.debian.org stable/updates Release [102 kB]
+                          15% [Connecting to mirrors.centarra.com] [Waiting for headers] [2 Release 14.2                                                                                Get:3 http://http.debian.net stable Release.gpg [1655 B]
+30% [3 Release.gpg 0 B/1655 B 0%] [Waiting for headers] [2 Release 30.1 kB/102                                                                                31% [Waiting for headers] [2 Release 30.1 kB/102 kB 29%]                                                        31% [2 Release 30.1 kB/102 kB 29%]                                  Get:4 http://http.debian.net stable-updates Release.gpg [836 B]
+                                  47% [4 Release.gpg 0 B/836 B 0%] [Waiting for headers] [2 Release 47.5 kB/102 k                                                                               48% [Waiting for headers] [2 Release 47.5 kB/102 kB 46%]                                                        70% [2 Release 70.6 kB/102 kB 69%]                                  Get:5 http://http.debian.net stable Release [168 kB]
+                                  42% [5 Release 13.0 kB/168 kB 8%] [Waiting for headers] [2 Release 98.1 kB/102                                                                                100% [5 Release 168 kB/168 kB 100%] [Waiting for headers]                                                         100% [Working]              100% [2 Release gpgv 102 kB] [Waiting for headers]                                                  Get:6 http://http.debian.net stable-updates Release [124 kB]
+                                                  75% [2 Release gpgv 102 kB] [6 Release 24.9 kB/124 kB 20%]                                                          88% [6 Release 74.2 kB/124 kB 60%]                                  88% [5 Release gpgv 168 kB] [6 Release 74.2 kB/124 kB 60%] [Waiting for headers                                                                               88% [6 Release 74.2 kB/124 kB 60%] [Waiting for headers]                                                        100% [Waiting for headers] [Waiting for headers]                                                100% [6 Release gpgv 124 kB] [Waiting for headers] [Waiting for headers]                                                                        Get:7 http://security.debian.org stable/updates/main amd64 Packages [339 kB]
+                                                                        58% [6 Release gpgv 124 kB] [Waiting for headers] [7 Packages 31.5 kB/339 kB 9%                                                                               58% [Waiting for headers] [7 Packages 31.5 kB/339 kB 9%]                                                        63% [7 Packages 64.8 kB/339 kB 19%]                                   Get:8 http://http.debian.net stable/main amd64 Packages [7625 kB]
+                                   6% [8 Packages 32.0 kB/7625 kB 0%] [Waiting for headers] [7 Packages 64.8 kB/33                                                                               14% [8 Packages 596 kB/7625 kB 8%] [7 Packages 140 kB/339 kB 41%]                                                                 39% [8 Packages 2517 kB/7625 kB 33%]                                    39% [7 Packages 291 kB] [8 Packages 2552 kB/7625 kB 33%]                                                        44% [8 Packages 2911 kB/7625 kB 38%]79% [8 Packages 5865 kB/7625 kB 77%]                                    100% [Working]              100% [8 Packages 7625 kB]                         Get:9 http://http.debian.net stable-updates/main amd64 Packages [4374 B]
+                         100% [8 Packages 7625 kB] [9 Packages 4374 B/4374 B 100%]                                                         100% [8 Packages 7625 kB]100% [8 Packages 7625 kB]100% [8 Packages 7625 kB]                         100% [Working]              100% [9 Packages 3329 B]                        100% [Working]              Fetched 8366 kB in 3s (2509 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 50%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
 + sudo apt-get install -qq -y build-essential m4
 + sudo apt-get install -qq -y libffi-dev m4
 debconf: delaying package configuration, since apt-utils is not installed
@@ -126,14 +126,14 @@ Building cppo.1.1.2:
   make install-lib
 Installing cmdliner.0.9.6.
 Installing cppo.1.1.2.
-Building re.1.2.2:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
-  ocaml setup.ml -build
-  ocaml setup.ml -install
 Building lwt.2.4.5:
   ./configure --disable-libev --disable-react --disable-ssl --enable-unix --enable-extra --enable-preemptive --disable-glib
   make build
   make install
+Building re.1.2.2:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
+  ocaml setup.ml -build
+  ocaml setup.ml -install
 Installing re.1.2.2.
 Building type_conv.111.13.00:
   make
@@ -189,18 +189,18 @@ Applying xen_linkopts.patch.
 Building zarith.1.3:
   ./mirage-install.sh
 Installing zarith.1.3.
-Building asn1-combinators.0.1.1:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
-  ocaml setup.ml -build
-  ocaml setup.ml -install
 Building nocrypto.0.3.0:
   ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
   ocaml setup.ml -build
   ocaml setup.ml -install
-Installing asn1-combinators.0.1.1.
+Building asn1-combinators.0.1.1:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/4.01.0
+  ocaml setup.ml -build
+  ocaml setup.ml -install
 [31m[ERROR][m The compilation of nocrypto.0.3.0 failed.
 Removing nocrypto.0.3.0.
   ocamlfind remove nocrypto
+Installing asn1-combinators.0.1.1.
 
 
 [31m#===[m [01mERROR[m [01mwhile installing nocrypto.0.3.0[m [31m====================================#[m
@@ -210,9 +210,9 @@ Removing nocrypto.0.3.0.
 [31m#[m [31mpath[m         /home/opam/.opam/4.01.0/build/nocrypto.0.3.0
 [31m#[m [31mcompiler[m     4.01.0
 [31m#[m [31mexit-code[m    1
-[31m#[m [31menv-file[m     /home/opam/.opam/4.01.0/build/nocrypto.0.3.0/nocrypto-24934-a4abd5.env
-[31m#[m [31mstdout-file[m  /home/opam/.opam/4.01.0/build/nocrypto.0.3.0/nocrypto-24934-a4abd5.out
-[31m#[m [31mstderr-file[m  /home/opam/.opam/4.01.0/build/nocrypto.0.3.0/nocrypto-24934-a4abd5.err
+[31m#[m [31menv-file[m     /home/opam/.opam/4.01.0/build/nocrypto.0.3.0/nocrypto-24932-a4abd5.env
+[31m#[m [31mstdout-file[m  /home/opam/.opam/4.01.0/build/nocrypto.0.3.0/nocrypto-24932-a4abd5.out
+[31m#[m [31mstderr-file[m  /home/opam/.opam/4.01.0/build/nocrypto.0.3.0/nocrypto-24932-a4abd5.err
 [31m### stdout ###
 [m[31m# [m...[truncated]
 [31m# [mmv rijndael.o src/native/rijndael.o
@@ -257,4 +257,4 @@ Due to the errors, the following have been [01mcancelled[m
  - install   x509.0.2.1
  - install   tls.0.3.0
 
-The former state can be restored with opam switch import "/home/opam/.opam/4.01.0/backup/state-20150209094628.export"
+The former state can be restored with opam switch import "/home/opam/.opam/4.01.0/backup/state-20150209215451.export"
