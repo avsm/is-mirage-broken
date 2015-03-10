@@ -31,11 +31,11 @@ Repodata is over 2 weeks old. Install yum-cron? Or run: yum makecache fast
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-updates/7/x86_64/primary_d 27% [====            ]  0.0 B/s | 1.8 MB   --:-- ETA updates/7/x86_64/primary_d 97% [===============-] 5.0 MB/s | 6.4 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:00     
+updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 11% [=-              ]  0.0 B/s | 778 kB   --:-- ETA updates/7/x86_64/primary_d 50% [========        ] 4.0 MB/s | 3.3 MB   00:00 ETA updates/7/x86_64/primary_d 82% [=============   ] 4.1 MB/s | 5.4 MB   00:00 ETA updates/7/x86_64/primary_d 82% [=============   ] 3.9 MB/s | 5.5 MB   00:00 ETA updates/7/x86_64/primary_d 82% [=============   ] 3.6 MB/s | 5.5 MB   00:00 ETA updates/7/x86_64/primary_d 83% [=============   ] 3.4 MB/s | 5.6 MB   00:00 ETA updates/7/x86_64/primary_d 89% [==============  ] 3.3 MB/s | 5.9 MB   00:00 ETA updates/7/x86_64/primary_d 95% [=============== ] 3.1 MB/s | 6.3 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:03     
 Determining fastest mirrors
- * base: centos.mbni.med.umich.edu
- * extras: centos.mirrors.tds.net
- * updates: centos.mirrors.tds.net
+ * base: mirrors.gigenet.com
+ * extras: mirror.team-cymru.org
+ * updates: mirrors.usinternet.com
 Resolving Dependencies
 --> Running transaction check
 ---> Package libffi-devel.x86_64 0:3.0.13-11.el7 will be installed
@@ -56,7 +56,7 @@ Install  1 Package
 Total download size: 22 k
 Installed size: 27 k
 Downloading packages:
-libffi-devel-3.0.13-11.el7 0% [                 ]  0.0 B/s |    0 B   --:-- ETA libffi-devel-3.0.13-11.el7.x86_64.rpm                      |  22 kB   00:00     
+libffi-devel-3.0.13-11.el7.x86_64.rpm                      |  22 kB   00:00     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -235,9 +235,9 @@ Installing asn1-combinators.0.1.1.
 [31m#[m [31mpath[m         /home/opam/.opam/4.01.0/build/nocrypto.0.3.0
 [31m#[m [31mcompiler[m     4.01.0
 [31m#[m [31mexit-code[m    1
-[31m#[m [31menv-file[m     /home/opam/.opam/4.01.0/build/nocrypto.0.3.0/nocrypto-23695-90b366.env
-[31m#[m [31mstdout-file[m  /home/opam/.opam/4.01.0/build/nocrypto.0.3.0/nocrypto-23695-90b366.out
-[31m#[m [31mstderr-file[m  /home/opam/.opam/4.01.0/build/nocrypto.0.3.0/nocrypto-23695-90b366.err
+[31m#[m [31menv-file[m     /home/opam/.opam/4.01.0/build/nocrypto.0.3.0/nocrypto-23698-90b366.env
+[31m#[m [31mstdout-file[m  /home/opam/.opam/4.01.0/build/nocrypto.0.3.0/nocrypto-23698-90b366.out
+[31m#[m [31mstderr-file[m  /home/opam/.opam/4.01.0/build/nocrypto.0.3.0/nocrypto-23698-90b366.err
 [31m### stdout ###
 [m[31m# [m...[truncated]
 [31m# [mmv d3des.o src/native/d3des.o
@@ -283,4 +283,4 @@ Due to the errors, the following have been [01mcancelled[m
  - install   tls.0.3.0
  - install   x509.0.2.1
 
-The former state can be restored with opam switch import "/home/opam/.opam/4.01.0/backup/state-20150210094234.export"
+The former state can be restored with opam switch import "/home/opam/.opam/4.01.0/backup/state-20150210213352.export"
