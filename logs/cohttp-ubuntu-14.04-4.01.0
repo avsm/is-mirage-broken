@@ -5,11 +5,10 @@
 + pwd
 + sudo docker.io run --rm=true -v /home/opam/is-mirage-broken/scripts:/scripts -t avsm/docker-opam-build:ubuntu-14.04-ocaml-4.01.0 sh -c /scripts/cohttp
 + opam update -u
-[[1;34mdefault[m] Synchronizing with /home/opam/opam-repository
-Updating ~/.opam/repo/compiler-index ...
-Updating ~/.opam/compilers/ ...
-Updating ~/.opam/repo/package-index ...
-Updating ~/.opam/packages/ ...
+
+[36m=-=-[m [01mUpdating package repositories[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+[KProcessing  1/1: [[1;34mdefault[m: local][K[KProcessing  1/1: [[1;34mdefault[m: local][K[KProcessing  1/1: [[1;34mdefault[m: local][K[[1;34mdefault[m] /home/opam/opam-repository synchronized
+
 Already up-to-date.
 + opam installext lwt ssl cohttp
 ++ opam install lwt ssl cohttp -e debian
@@ -24,10 +23,10 @@ Debian depexts: libssl-dev m4
 25% [Working]             Hit http://archive.ubuntu.com trusty Release.gpg
 50% [Working]             Get:1 http://archive.ubuntu.com trusty-updates Release.gpg [933 B]
              100% [1 Release.gpg 933 B/933 B 100%]                                     100% [Waiting for headers]                          Get:2 http://archive.ubuntu.com trusty-security Release.gpg [933 B]
-                          100% [2 Release.gpg 933 B/933 B 100%]                                     100% [Waiting for headers]                          Hit http://archive.ubuntu.com trusty Release
-                          100% [Working]              Get:3 http://archive.ubuntu.com trusty-updates Release [62.0 kB]
-100% [Working]              100% [Release gpgv 58.5 kB] [Waiting for headers]                                                 100% [Waiting for headers]                          Get:4 http://archive.ubuntu.com trusty-security Release [62.0 kB]
-                          71% [4 Release 25.8 kB/62.0 kB 42%]                                   71% [3 Release gpgv 62.0 kB] [4 Release 25.8 kB/62.0 kB 42%]                                                            71% [4 Release 25.8 kB/62.0 kB 42%]                                   100% [Working]              100% [4 Release gpgv 62.0 kB]                             100% [Waiting for headers]                          Hit http://archive.ubuntu.com trusty/main Sources
+                          100% [2 Release.gpg 933 B/933 B 100%]                                     100% [Working]              Hit http://archive.ubuntu.com trusty Release
+100% [Working]              Get:3 http://archive.ubuntu.com trusty-updates Release [62.0 kB]
+100% [Working]              100% [Release gpgv 58.5 kB] [Waiting for headers]                                                 100% [Waiting for headers]                          100% [3 Release gpgv 62.0 kB] [Waiting for headers]                                                   100% [Waiting for headers]                          Get:4 http://archive.ubuntu.com trusty-security Release [62.0 kB]
+                          54% [4 Release 4096 B/62.0 kB 7%]                                 100% [Working]              100% [4 Release gpgv 62.0 kB]                             100% [Waiting for headers]                          Hit http://archive.ubuntu.com trusty/main Sources
                           100% [Working]              Hit http://archive.ubuntu.com trusty/restricted Sources
               Hit http://archive.ubuntu.com trusty/universe Sources
               Hit http://archive.ubuntu.com trusty/main amd64 Packages
@@ -37,15 +36,15 @@ Debian depexts: libssl-dev m4
               Get:6 http://archive.ubuntu.com trusty-updates/restricted Sources [2310 B]
               Get:7 http://archive.ubuntu.com trusty-updates/universe Sources [132 kB]
               Get:8 http://archive.ubuntu.com trusty-updates/main amd64 Packages [567 kB]
-100% [Working]              100% [Sources 0 B] [Waiting for headers]                                        Get:9 http://archive.ubuntu.com trusty-updates/restricted amd64 Packages [15.1 kB]
-                                        100% [Sources 1335 kB] [9 Packages 14.2 kB/15.1 kB 94%]                                                       100% [Sources 1335 kB] [Waiting for headers]                                            Get:10 http://archive.ubuntu.com trusty-updates/universe amd64 Packages [332 kB]
-                                            78% [Sources 1335 kB] [10 Packages 15.6 kB/332 kB 5%]                                                     89% [10 Packages 33.0 kB/332 kB 10%]                                    89% [Sources 0 B] [10 Packages 33.0 kB/332 kB 10%]                                                  89% [10 Packages 33.0 kB/332 kB 10%]                                    89% [Sources 0 B] [10 Packages 33.0 kB/332 kB 10%]                                                  100% [Sources 7926 kB]                      Get:11 http://archive.ubuntu.com trusty-security/main Sources [89.2 kB]
+100% [Working]              100% [Sources 1335 kB] [Waiting for headers]                                            Get:9 http://archive.ubuntu.com trusty-updates/restricted amd64 Packages [15.1 kB]
+                                            100% [Sources 1335 kB] [9 Packages 14.2 kB/15.1 kB 94%]                                                       100% [Sources 1335 kB] [Waiting for headers]                                            Get:10 http://archive.ubuntu.com trusty-updates/universe amd64 Packages [332 kB]
+                                            78% [Sources 1335 kB] [10 Packages 15.6 kB/332 kB 5%]                                                     90% [10 Packages 51.8 kB/332 kB 16%]                                    90% [Sources 5335 B] [10 Packages 51.8 kB/332 kB 16%]                                                     90% [10 Packages 51.8 kB/332 kB 16%]                                    90% [Sources 0 B] [10 Packages 51.8 kB/332 kB 16%]                                                  100% [Sources 7926 kB]                      Get:11 http://archive.ubuntu.com trusty-security/main Sources [89.2 kB]
                       97% [Sources 7926 kB] [11 Sources 0 B/89.2 kB 0%]                                                 100% [Sources 7926 kB]                      Get:12 http://archive.ubuntu.com trusty-security/restricted Sources [1874 B]
                       100% [Sources 7926 kB] [12 Sources 0 B/1874 B 0%]                                                 100% [Sources 7926 kB]                      Get:13 http://archive.ubuntu.com trusty-security/universe Sources [19.6 kB]
                       99% [Sources 7926 kB] [13 Sources 0 B/19.6 kB 0%]                                                 100% [Sources 7926 kB]                      Get:14 http://archive.ubuntu.com trusty-security/main amd64 Packages [279 kB]
-                      91% [Sources 7926 kB] [14 Packages 0 B/279 kB 0%]                                                 100% [Sources 7926 kB]                                              508 kB/s 0s                                                                               Get:15 http://archive.ubuntu.com trusty-security/restricted amd64 Packages [14.8 kB]
-100% [Sources 7926 kB] [15 Packages 0 B/14.8 kB 0%]                 508 kB/s 0s100% [Sources 7926 kB]                                              508 kB/s 0s                                                                               Get:16 http://archive.ubuntu.com trusty-security/universe amd64 Packages [114 kB]
-97% [Sources 7926 kB] [16 Packages 0 B/114 kB 0%]                   508 kB/s 0s100% [Sources 7926 kB]                                              508 kB/s 0s100% [Working]                                                      508 kB/s 0s100% [Packages 0 B]                                                 508 kB/s 0s100% [Working]                                                      508 kB/s 0s100% [Packages 0 B]                                                 508 kB/s 0s100% [Working]                                                      508 kB/s 0s100% [Packages 0 B]                                                 508 kB/s 0s100% [Packages 7589 kB]                                             508 kB/s 0s100% [Packages 7589 kB]                                             508 kB/s 0s100% [Working]                                                      508 kB/s 0s100% [5 Sources 193 kB]                                             508 kB/s 0s100% [Working]                                                      508 kB/s 0s100% [6 Sources 1874 B]                                             508 kB/s 0s100% [Working]                                                      508 kB/s 0s100% [7 Sources 119 kB]                                             508 kB/s 0s100% [Working]                                                      508 kB/s 0s100% [8 Packages 493 kB]                                            508 kB/s 0s100% [Working]                                                      508 kB/s 0s100% [9 Packages 14.8 kB]                                           508 kB/s 0s100% [Working]                                                      508 kB/s 0s100% [10 Packages 298 kB]                                           508 kB/s 0s100% [Working]                                                      508 kB/s 0s100% [11 Sources 70.1 kB]                                           508 kB/s 0s100% [Working]                                                      508 kB/s 0s100% [12 Sources 1874 B]                                            508 kB/s 0s100% [Working]                                                      508 kB/s 0s100% [13 Sources 19.1 kB]                                           508 kB/s 0s100% [Working]                                                      508 kB/s 0s100% [14 Packages 229 kB]                                           508 kB/s 0s100% [Working]                                                      508 kB/s 0s100% [15 Packages 14.8 kB]                                          508 kB/s 0s100% [Working]                                                      508 kB/s 0s100% [16 Packages 98.1 kB]                                          508 kB/s 0s100% [Working]                                                      508 kB/s 0s                                                                               Fetched 1924 kB in 8s (222 kB/s)
+                      91% [Sources 7926 kB] [14 Packages 0 B/279 kB 0%]                                                 100% [Sources 7926 kB]                      Get:15 http://archive.ubuntu.com trusty-security/restricted amd64 Packages [14.8 kB]
+                      100% [Sources 7926 kB] [15 Packages 0 B/14.8 kB 0%]                                                   100% [Sources 7926 kB]                      Get:16 http://archive.ubuntu.com trusty-security/universe amd64 Packages [114 kB]
+                      97% [Sources 7926 kB] [16 Packages 0 B/114 kB 0%]                                                 100% [Sources 7926 kB]                      100% [Sources 7926 kB]                                              543 kB/s 0s100% [Sources 7926 kB]                                              543 kB/s 0s100% [Working]                                                      543 kB/s 0s100% [Packages 0 B]                                                 543 kB/s 0s100% [Working]                                                      543 kB/s 0s100% [Packages 0 B]                                                 543 kB/s 0s100% [Working]                                                      543 kB/s 0s100% [Packages 0 B]                                                 543 kB/s 0s100% [Packages 7589 kB]                                             543 kB/s 0s100% [Packages 7589 kB]                                             543 kB/s 0s100% [Working]                                                      543 kB/s 0s100% [5 Sources 193 kB]                                             543 kB/s 0s100% [Working]                                                      543 kB/s 0s100% [6 Sources 1874 B]                                             543 kB/s 0s100% [Working]                                                      543 kB/s 0s100% [7 Sources 119 kB]                                             543 kB/s 0s100% [Working]                                                      543 kB/s 0s100% [8 Packages 493 kB]                                            543 kB/s 0s100% [Working]                                                      543 kB/s 0s100% [9 Packages 14.8 kB]                                           543 kB/s 0s100% [Working]                                                      543 kB/s 0s100% [10 Packages 298 kB]                                           543 kB/s 0s100% [Working]                                                      543 kB/s 0s100% [11 Sources 70.1 kB]                                           543 kB/s 0s100% [Working]                                                      543 kB/s 0s100% [12 Sources 1874 B]                                            543 kB/s 0s100% [Working]                                                      543 kB/s 0s100% [13 Sources 19.1 kB]                                           543 kB/s 0s100% [Working]                                                      543 kB/s 0s100% [14 Packages 229 kB]                                           543 kB/s 0s100% [Working]                                                      543 kB/s 0s100% [15 Packages 14.8 kB]                                          543 kB/s 0s100% [Working]                                                      543 kB/s 0s100% [16 Packages 98.1 kB]                                          543 kB/s 0s100% [Working]                                                      543 kB/s 0s                                                                               Fetched 1924 kB in 8s (225 kB/s)
 Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 32%Reading package lists... Done
 + sudo apt-get install -qq -y build-essential m4
 + sudo apt-get install -qq -y libssl-dev m4
@@ -74,159 +73,151 @@ Debian srcexts:
 + '[' '' '!=' '' ']'
 + opam install lwt ssl cohttp
 The following actions will be performed:
- - install   ocamlfind.1.5.5                       [required by ssl, cohttp, lwt]
- - install   camlp4.4.01.0                         [required by lwt]
- - install   ssl.0.4.7
- - install   re.1.2.2                              [required by cohttp]
- - install   cppo.1.1.2                            [required by ocplib-endian]
- - install   cmdliner.0.9.6                        [required by cohttp]
- - install   base-bytes.legacy                     [required by base64]
- - install   type_conv.111.13.00                   [required by fieldslib]
- - install   lwt.2.4.5
- - install   stringext.1.2.0                       [required by cohttp]
- - install   ocplib-endian.0.8                     [required by cstruct]
- - install   base64.2.0.0                          [required by cohttp]
- - install   sexplib.111.25.00                     [required by cohttp]
- - install   fieldslib.109.20.03                   [required by cohttp]
- - install   uri.1.7.2                             [required by cohttp]
- - install   ipaddr.2.5.0                          [required by conduit]
- - install   cstruct.1.5.0                         [required by conduit]
- - install   conduit.0.7.2                         [required by cohttp]
- - install   cohttp.0.15.0
-=== [33m19[m to install ===
+  - install [01mbase-no-ppx[m         base                    [required by lwt]
+  - install [01mcmdliner[m            0.9.7                   [required by cohttp]
+  - install [01mcamlp4[m              4.01.0                  [required by lwt]
+  - install [01mocamlfind[m           1.5.5                   [required by lwt, cohttp, ssl]
+  - install [01mtype_conv[m           111.13.00               [required by fieldslib]
+  - install [01mssl[m                 0.4.7    
+  - install [01mocamlmod[m            0.0.7                   [required by oasis]
+  - install [01mocamlify[m            0.0.1                   [required by oasis]
+  - install [01mcppo[m                1.1.2                   [required by ocplib-endian]
+  - install [01mbase-bytes[m          legacy                  [required by base64]
+  - install [01msexplib[m             111.25.00               [required by cohttp]
+  - install [01mocaml-data-notation[m 0.0.11                  [required by oasis]
+  - install [01mfieldslib[m           109.20.03               [required by cohttp]
+  - install [01mlwt[m                 2.4.7    
+  - install [01mstringext[m           1.2.0                   [required by cohttp]
+  - install [01mre[m                  1.3.0                   [required by cohttp]
+  - install [01mocplib-endian[m       0.8                     [required by cstruct]
+  - install [01mbase64[m              2.0.0                   [required by cohttp]
+  - install [01mipaddr[m              2.6.1                   [required by conduit]
+  - install [01moasis[m               0.4.5                   [required by cohttp]
+  - install [01muri[m                 1.7.2                   [required by cohttp]
+  - install [01mcstruct[m             1.5.0                   [required by conduit]
+  - install [01mconduit[m             0.7.2                   [required by cohttp]
+  - install [01mcohttp[m              0.15.2   
+===== [33m24[m to install =====
 
-[36m=-=-[m [01mSynchronizing package archives[m [36m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
-[[32mbase64.2.0.0[m] Downloading https://github.com/mirage/ocaml-base64/archive/v2.0.0.tar.gz
-[[32mcmdliner.0.9.6[m] Downloading http://erratique.ch/software/cmdliner/releases/cmdliner-0.9.6.tbz
-[[32mcohttp.0.15.0[m] Downloading https://github.com/mirage/ocaml-cohttp/archive/v0.15.0.tar.gz
-[[32mconduit.0.7.2[m] Downloading https://github.com/mirage/ocaml-conduit/archive/v0.7.2.tar.gz
-[[32mcppo.1.1.2[m] Downloading http://mjambon.com/releases/cppo/cppo-1.1.2.tar.gz
-[[32mcstruct.1.5.0[m] Downloading https://github.com/mirage/ocaml-cstruct/archive/v1.5.0.tar.gz
-[[32mfieldslib.109.20.03[m] Downloading https://ocaml.janestreet.com/ocaml-core/109.20.00/individual/fieldslib-109.20.03.tar.gz
-[[32mipaddr.2.5.0[m] Downloading https://github.com/mirage/ocaml-ipaddr/archive/2.5.0.tar.gz
-[[32mlwt.2.4.5[m] Downloading https://github.com/ocsigen/lwt/archive/2.4.5.tar.gz
-[[32mocamlfind.1.5.5[m] Downloading http://download.camlcity.org/download/findlib-1.5.5.tar.gz
-[[32mocplib-endian.0.8[m] Downloading https://github.com/OCamlPro/ocplib-endian/archive/0.8.tar.gz
-[[32mre.1.2.2[m] Downloading https://github.com/ocaml/ocaml-re/archive/ocaml-re-1.2.2.tar.gz
-[[32msexplib.111.25.00[m] Downloading https://ocaml.janestreet.com/ocaml-core/111.25.00/individual/sexplib-111.25.00.tar.gz
-[[32mssl.0.4.7[m] Downloading http://downloads.sourceforge.net/project/savonet/ocaml-ssl/0.4.7/ocaml-ssl-0.4.7.tar.gz
-[[32mstringext.1.2.0[m] Downloading https://github.com/rgrinberg/stringext/archive/v1.2.0.tar.gz
-[[32mtype_conv.111.13.00[m] Downloading https://ocaml.janestreet.com/ocaml-core/111.13.00/individual/type_conv-111.13.00.tar.gz
-[[32muri.1.7.2[m] Downloading https://github.com/mirage/ocaml-uri/archive/v1.7.2.tar.gz
+[36m=-=-[m [01mGathering sources[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+[KProcessing  3/24: [[32mbase64[m: http][K[KProcessing  4/24: [[32mbase64[m: http][K[KProcessing  5/24: [[32mbase64[m: http] [[32mcmdliner[m: http][K[KProcessing  6/24: [[32mbase64[m: http] [[32mcmdliner[m: http] [[32mcohttp[m: http][K[KProcessing  6/24: [[32mbase64[m: http] [[32mcmdliner[m: http] [[32mcohttp[m: http][K[[32mbase64.2.0.0[m] https://github.com/mirage/ocaml-base64/archive/v2.0.0.tar.gz downloaded
+[KProcessing  6/24: [[32mcmdliner[m: http] [[32mcohttp[m: http][K[KProcessing  7/24: [[32mcmdliner[m: http] [[32mcohttp[m: http] [[32mconduit[m: http][K[KProcessing  7/24: [[32mcmdliner[m: http] [[32mcohttp[m: http] [[32mconduit[m: http][K[KProcessing  7/24: [[32mcmdliner[m: http] [[32mcohttp[m: http] [[32mconduit[m: http][K[[32mcmdliner.0.9.7[m] http://erratique.ch/software/cmdliner/releases/cmdliner-0.9.7.tbz downloaded
+[KProcessing  7/24: [[32mcohttp[m: http] [[32mconduit[m: http][K[KProcessing  8/24: [[32mcohttp[m: http] [[32mconduit[m: http] [[32mcppo[m: http][K[[32mcohttp.0.15.2[m] https://github.com/mirage/ocaml-cohttp/archive/v0.15.2.tar.gz downloaded
+[KProcessing  8/24: [[32mconduit[m: http] [[32mcppo[m: http][K[KProcessing  9/24: [[32mconduit[m: http] [[32mcppo[m: http] [[32mcstruct[m: http][K[KProcessing  9/24: [[32mconduit[m: http] [[32mcppo[m: http] [[32mcstruct[m: http][K[KProcessing  9/24: [[32mconduit[m: http] [[32mcppo[m: http] [[32mcstruct[m: http][K[[32mconduit.0.7.2[m] https://github.com/mirage/ocaml-conduit/archive/v0.7.2.tar.gz downloaded
+[KProcessing  9/24: [[32mcppo[m: http] [[32mcstruct[m: http][K[KProcessing 10/24: [[32mcppo[m: http] [[32mcstruct[m: http] [[32mfieldslib[m: http][K[[32mcppo.1.1.2[m] http://mjambon.com/releases/cppo/cppo-1.1.2.tar.gz downloaded
+[KProcessing 10/24: [[32mcstruct[m: http] [[32mfieldslib[m: http][K[KProcessing 11/24: [[32mcstruct[m: http] [[32mfieldslib[m: http] [[32mipaddr[m: http][K[KProcessing 11/24: [[32mcstruct[m: http] [[32mfieldslib[m: http] [[32mipaddr[m: http][K[KProcessing 11/24: [[32mcstruct[m: http] [[32mfieldslib[m: http] [[32mipaddr[m: http][K[[32mfieldslib.109.20.03[m] https://ocaml.janestreet.com/ocaml-core/109.20.00/individual/fieldslib-109.20.03.tar.gz downloaded
+[KProcessing 11/24: [[32mcstruct[m: http] [[32mipaddr[m: http][K[KProcessing 12/24: [[32mcstruct[m: http] [[32mipaddr[m: http] [[32mlwt[m: http][K[[32mcstruct.1.5.0[m] https://github.com/mirage/ocaml-cstruct/archive/v1.5.0.tar.gz downloaded
+[KProcessing 12/24: [[32mipaddr[m: http] [[32mlwt[m: http][K[KProcessing 13/24: [[32mipaddr[m: http] [[32mlwt[m: http] [[32moasis[m: http][K[KProcessing 13/24: [[32mipaddr[m: http] [[32mlwt[m: http] [[32moasis[m: http][K[[32mipaddr.2.6.1[m] https://github.com/mirage/ocaml-ipaddr/archive/2.6.1.tar.gz downloaded
+[KProcessing 13/24: [[32mlwt[m: http] [[32moasis[m: http][K[KProcessing 14/24: [[32mlwt[m: http] [[32moasis[m: http] [[32mocaml-data-notation[m: http][K[KProcessing 14/24: [[32mlwt[m: http] [[32moasis[m: http] [[32mocaml-data-notation[m: http][K[[32mlwt.2.4.7[m] https://github.com/ocsigen/lwt/archive/2.4.7.tar.gz downloaded
+[KProcessing 14/24: [[32moasis[m: http] [[32mocaml-data-notation[m: http][K[KProcessing 15/24: [[32moasis[m: http] [[32mocaml-data-notation[m: http] [[32mocamlfind[m: http][K[KProcessing 15/24: [[32moasis[m: http] [[32mocaml-data-notation[m: http] [[32mocamlfind[m: http][K[KProcessing 15/24: [[32moasis[m: http] [[32mocaml-data-notation[m: http] [[32mocamlfind[m: http][K[[32mocaml-data-notation.0.0.11[m] https://forge.ocamlcore.org/frs/download.php/1310/ocaml-data-notation-0.0.11.tar.gz downloaded
+[KProcessing 15/24: [[32moasis[m: http] [[32mocamlfind[m: http][K[KProcessing 16/24: [[32moasis[m: http] [[32mocamlfind[m: http] [[32mocamlify[m: http][K[[32moasis.0.4.5[m] https://forge.ocamlcore.org/frs/download.php/1475/oasis-0.4.5.tar.gz downloaded
+[KProcessing 16/24: [[32mocamlfind[m: http] [[32mocamlify[m: http][K[KProcessing 17/24: [[32mocamlfind[m: http] [[32mocamlify[m: http] [[32mocamlmod[m: http][K[KProcessing 17/24: [[32mocamlfind[m: http] [[32mocamlify[m: http] [[32mocamlmod[m: http][K[[32mocamlfind.1.5.5[m] http://download.camlcity.org/download/findlib-1.5.5.tar.gz downloaded
+[KProcessing 17/24: [[32mocamlify[m: http] [[32mocamlmod[m: http][K[KProcessing 18/24: [[32mocamlify[m: http] [[32mocamlmod[m: http] [[32mocplib-endian[m: http][K[KProcessing 18/24: [[32mocamlify[m: http] [[32mocamlmod[m: http] [[32mocplib-endian[m: http][K[[32mocamlify.0.0.1[m] http://forge.ocamlcore.org/frs/download.php/379/ocamlify-0.0.1.tar.gz downloaded
+[KProcessing 18/24: [[32mocamlmod[m: http] [[32mocplib-endian[m: http][K[KProcessing 19/24: [[32mocamlmod[m: http] [[32mocplib-endian[m: http] [[32mre[m: http][K[KProcessing 19/24: [[32mocamlmod[m: http] [[32mocplib-endian[m: http] [[32mre[m: http][K[[32mocamlmod.0.0.7[m] https://forge.ocamlcore.org/frs/download.php/1350/ocamlmod-0.0.7.tar.gz downloaded
+[KProcessing 19/24: [[32mocplib-endian[m: http] [[32mre[m: http][K[KProcessing 20/24: [[32mocplib-endian[m: http] [[32mre[m: http] [[32msexplib[m: http][K[KProcessing 20/24: [[32mocplib-endian[m: http] [[32mre[m: http] [[32msexplib[m: http][K[[32mocplib-endian.0.8[m] https://github.com/OCamlPro/ocplib-endian/archive/0.8.tar.gz downloaded
+[KProcessing 20/24: [[32mre[m: http] [[32msexplib[m: http][K[KProcessing 21/24: [[32mre[m: http] [[32msexplib[m: http] [[32mssl[m: http][K[KProcessing 21/24: [[32mre[m: http] [[32msexplib[m: http] [[32mssl[m: http][K[KProcessing 21/24: [[32mre[m: http] [[32msexplib[m: http] [[32mssl[m: http][K[[32mre.1.3.0[m] https://github.com/ocaml/ocaml-re/archive/ocaml-re-1.3.0.tar.gz downloaded
+[KProcessing 21/24: [[32msexplib[m: http] [[32mssl[m: http][K[KProcessing 22/24: [[32msexplib[m: http] [[32mssl[m: http] [[32mstringext[m: http][K[[32msexplib.111.25.00[m] https://ocaml.janestreet.com/ocaml-core/111.25.00/individual/sexplib-111.25.00.tar.gz downloaded
+[KProcessing 22/24: [[32mssl[m: http] [[32mstringext[m: http][K[KProcessing 23/24: [[32mssl[m: http] [[32mstringext[m: http] [[32mtype_conv[m: http][K[KProcessing 23/24: [[32mssl[m: http] [[32mstringext[m: http] [[32mtype_conv[m: http][K[[32mtype_conv.111.13.00[m] https://ocaml.janestreet.com/ocaml-core/111.13.00/individual/type_conv-111.13.00.tar.gz downloaded
+[KProcessing 23/24: [[32mssl[m: http] [[32mstringext[m: http][K[KProcessing 24/24: [[32mssl[m: http] [[32mstringext[m: http] [[32muri[m: http][K[KProcessing 24/24: [[32mssl[m: http] [[32mstringext[m: http] [[32muri[m: http][K[[32mstringext.1.2.0[m] https://github.com/rgrinberg/stringext/archive/v1.2.0.tar.gz downloaded
+[KProcessing 24/24: [[32mssl[m: http] [[32muri[m: http][K[KProcessing 24/24: [[32mssl[m: http] [[32muri[m: http][K[KProcessing 24/24: [[32mssl[m: http] [[32muri[m: http][K[[32muri.1.7.2[m] https://github.com/mirage/ocaml-uri/archive/v1.7.2.tar.gz downloaded
+[KProcessing 24/24: [[32mssl[m: http][K[[32mssl.0.4.7[m] http://downloads.sourceforge.net/project/savonet/ocaml-ssl/0.4.7/ocaml-ssl-0.4.7.tar.gz downloaded
 
-[36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
-Installing camlp4.4.01.0.
-Copying ~/.opam/repo/default/packages/ocamlfind/ocamlfind.1.5.5/files/ocamlfind.install to ~/.opam/system/build/ocamlfind.1.5.5/
-Building ocamlfind.1.5.5:
-  ./configure -bindir /home/opam/.opam/system/bin -sitelib /home/opam/.opam/system/lib -mandir /home/opam/.opam/system/man -config /home/opam/.opam/system/lib/findlib.conf -no-topfind
-  make all
-  make opt
-  make install
-Installing ocamlfind.1.5.5.
-Installing base-bytes.legacy.
-Building cmdliner.0.9.6:
-  ocaml pkg/git.ml
-  ocaml pkg/build.ml native=true native-dynlink=true
-Installing cmdliner.0.9.6.
-Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/system/build/cppo.1.1.2/
-Building cppo.1.1.2:
-  make
-  make install-lib
-Installing cppo.1.1.2.
-Building re.1.2.2:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/system
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing re.1.2.2.
-Copying ~/.opam/repo/default/packages/ssl/ssl.0.4.7/files/pkgconfigure to ~/.opam/system/build/ssl.0.4.7/
-Building ssl.0.4.7:
-  ./configure --prefix /home/opam/.opam/system
-  make
-  make install
-Installing ssl.0.4.7.
-Building type_conv.111.13.00:
-  make
-  make install
-Installing type_conv.111.13.00.
-Building base64.2.0.0:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/system
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing base64.2.0.0.
-Building fieldslib.109.20.03:
-  make
-  make install
-Installing fieldslib.109.20.03.
-Building lwt.2.4.5:
-  ./configure --disable-libev --disable-react --enable-ssl --enable-unix --enable-extra --enable-preemptive --disable-glib
-  make build
-  make install
-Installing lwt.2.4.5.
-Building ocplib-endian.0.8:
-  ocaml setup.ml -configure --disable-debug --prefix /home/opam/.opam/system
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing ocplib-endian.0.8.
-Building sexplib.111.25.00:
-  ./configure --enable-syntax
-  make
-  make install
-Installing sexplib.111.25.00.
-Building stringext.1.2.0:
-  ocaml setup.ml -configure
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing stringext.1.2.0.
-Building cstruct.1.5.0:
-  ./configure --prefix /home/opam/.opam/system --enable-lwt --enable-camlp4 --disable-async --enable-unix --disable-tests
-  make
-  make install
-Installing cstruct.1.5.0.
-Building ipaddr.2.5.0:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/system
-  make build
-  make install
-Installing ipaddr.2.5.0.
-Building uri.1.7.2:
-  ocaml setup.ml -configure --prefix /home/opam/.opam/system
-  ocaml setup.ml -build
-  ocaml setup.ml -install
-Installing uri.1.7.2.
-Building conduit.0.7.2:
-  make
-  make install
-Installing conduit.0.7.2.
-Building cohttp.0.15.0:
-  make PREFIX=/home/opam/.opam/system
-  make PREFIX=/home/opam/.opam/system install
-Installing cohttp.0.15.0.
-+ + awk {print $2}
-opam list -i cohttp
+[36m=-=-[m [01mProcessing actions[m [36m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+-> installed [01mbase-no-ppx[m.base
+-> installed [01mcamlp4[m.4.01.0
+[KProcessing  3/24: [[32mcmdliner[m: ocaml][K[KProcessing  4/24: [[32mcmdliner[m: ocaml] [[32mocamlfind[m: ./configure][K[KProcessing  4/24: [[32mcmdliner[m: ocaml] [[32mocamlfind[m: ./configure][K[KProcessing  4/24: [[32mcmdliner[m: ocaml] [[32mocamlfind[m: make all][K-> installed [01mcmdliner[m.0.9.7
+[KProcessing  4/24: [[32mocamlfind[m: make all][K[KProcessing  4/24: [[32mocamlfind[m: make opt][K[KProcessing  4/24: [[32mocamlfind[m: make install][K-> installed [01mocamlfind[m.1.5.5
+-> installed [01mbase-bytes[m.legacy
+[KProcessing  6/24: [[32mbase64[m: ocaml setup.ml][K[KProcessing  7/24: [[32mbase64[m: ocaml setup.ml] [[32mcppo[m: make][K[KProcessing  8/24: [[32mbase64[m: ocaml setup.ml] [[32mcppo[m: make]                     + 1[K[KProcessing  9/24: [[32mbase64[m: ocaml setup.ml] [[32mcppo[m: make]                     + 2[K[KProcessing  9/24: [[32mbase64[m: ocaml setup.ml] [[32mcppo[m: make]                     + 2[K[KProcessing  9/24: [[32mbase64[m: ocaml setup.ml] [[32mcppo[m: make]                     + 2[K[KProcessing  9/24: [[32mbase64[m: ocaml setup.ml] [[32mcppo[m: make]                     + 2[K[KProcessing  9/24: [[32mbase64[m: ocaml setup.ml] [[32mcppo[m: make]                     + 2[K[KProcessing  9/24: [[32mbase64[m: ocaml setup.ml] [[32mcppo[m: make]                     + 2[K-> installed [01mocamlify[m.0.0.1
+[KProcessing  9/24: [[32mbase64[m: ocaml setup.ml] [[32mcppo[m: make]                     + 1[K[KProcessing 10/24: [[32mbase64[m: ocaml setup.ml] [[32mcppo[m: make]                     + 2[K[KProcessing 10/24: [[32mbase64[m: ocaml setup.ml] [[32mcppo[m: make]                     + 2[K[KProcessing 10/24: [[32mbase64[m: ocaml setup.ml] [[32mcppo[m: make install-lib]         + 2[K-> installed [01mcppo[m.1.1.2
+[KProcessing 10/24: [[32mbase64[m: ocaml setup.ml] [[32mocamlmod[m: ocaml setup.ml]       + 1[K[KProcessing 11/24: [[32mbase64[m: ocaml setup.ml] [[32mocamlmod[m: ocaml setup.ml]       + 2[K-> installed [01mocamlmod[m.0.0.7
+[KProcessing 11/24: [[32mbase64[m: ocaml setup.ml] [[32mocplib-endian[m: ocaml setup.ml]  + 1[K[KProcessing 12/24: [[32mbase64[m: ocaml setup.ml] [[32mocplib-endian[m: ocaml setup.ml]  + 2[K-> installed [01mbase64[m.2.0.0
+[KProcessing 12/24: [[32mocplib-endian[m: ocaml setup.ml] [[32mre[m: ocaml setup.ml]      + 1[K[KProcessing 13/24: [[32mocplib-endian[m: ocaml setup.ml] [[32mre[m: ocaml setup.ml]      + 2[K[KProcessing 13/24: [[32mocplib-endian[m: ocaml setup.ml] [[32mre[m: ocaml setup.ml]      + 2[K[KProcessing 13/24: [[32mocplib-endian[m: ocaml setup.ml] [[32mre[m: ocaml setup.ml]      + 2[K[KProcessing 13/24: [[32mocplib-endian[m: ocaml setup.ml] [[32mre[m: ocaml setup.ml]      + 2[K[KProcessing 13/24: [[32mocplib-endian[m: ocaml setup.ml] [[32mre[m: ocaml setup.ml]      + 2[K[KProcessing 13/24: [[32mocplib-endian[m: ocaml setup.ml] [[32mre[m: ocaml setup.ml]      + 2[K-> installed [01mocplib-endian[m.0.8
+[KProcessing 13/24: [[32mre[m: ocaml setup.ml] [[32mssl[m: ./configure]                   + 1[K[KProcessing 14/24: [[32mre[m: ocaml setup.ml] [[32mssl[m: ./configure]                   + 2[K-> installed [01mstringext[m.1.2.0
+[KProcessing 14/24: [[32mre[m: ocaml setup.ml] [[32mssl[m: ./configure] [[32mtype_conv[m: make][K[KProcessing 14/24: [[32mre[m: ocaml setup.ml] [[32mssl[m: make] [[32mtype_conv[m: make][K[KProcessing 14/24: [[32mre[m: ocaml setup.ml] [[32mssl[m: make] [[32mtype_conv[m: make][K[KProcessing 14/24: [[32mre[m: ocaml setup.ml] [[32mssl[m: make install] [[32mtype_conv[m: make][K-> installed [01mssl[m.0.4.7
+[KProcessing 14/24: [[32mre[m: ocaml setup.ml] [[32mtype_conv[m: make][K[KProcessing 15/24: [[32mlwt[m: ./configure] [[32mre[m: ocaml setup.ml] [[32mtype_conv[m: make][K-> installed [01mre[m.1.3.0
+[KProcessing 15/24: [[32mlwt[m: ./configure] [[32mtype_conv[m: make][K[KProcessing 15/24: [[32mlwt[m: ./configure] [[32mtype_conv[m: make install][K-> installed [01mtype_conv[m.111.13.00
+[KProcessing 15/24: [[32mlwt[m: ./configure][K[KProcessing 16/24: [[32mfieldslib[m: make] [[32mlwt[m: ./configure][K[KProcessing 17/24: [[32mfieldslib[m: make] [[32mlwt[m: ./configure]                      + 1[K[KProcessing 18/24: [[32mfieldslib[m: make] [[32mlwt[m: ./configure]                      + 2[K[KProcessing 18/24: [[32mfieldslib[m: make] [[32mlwt[m: ./configure]                      + 2[K[KProcessing 18/24: [[32mfieldslib[m: make] [[32mlwt[m: make build]                       + 2[K[KProcessing 18/24: [[32mfieldslib[m: make install] [[32mlwt[m: make build]               + 2[K-> installed [01mfieldslib[m.109.20.03
+[KProcessing 18/24: [[32mlwt[m: make build] [[32mocaml-data-notation[m: make] [[32msexplib[m: make][K[KProcessing 18/24: [[32mlwt[m: make build] [[32mocaml-data-notation[m: make install]     + 1[K-> installed [01mocaml-data-notation[m.0.0.11
+[KProcessing 18/24: [[32mlwt[m: make build] [[32msexplib[m: make][K[KProcessing 19/24: [[32mlwt[m: make build] [[32moasis[m: ocaml setup.ml] [[32msexplib[m: make][K[KProcessing 19/24: [[32mlwt[m: make build] [[32moasis[m: ocaml setup.ml] [[32msexplib[m: make][K[KProcessing 19/24: [[32mlwt[m: make build] [[32moasis[m: ocaml setup.ml]                 + 1[K-> installed [01msexplib[m.111.25.00
+[KProcessing 19/24: [[32mlwt[m: make build] [[32moasis[m: ocaml setup.ml][K[KProcessing 20/24: [[32mipaddr[m: ocaml setup.ml] [[32mlwt[m: make build]                + 1[K[KProcessing 21/24: [[32mipaddr[m: ocaml setup.ml] [[32mlwt[m: make build]                + 2[K[KProcessing 21/24: [[32mipaddr[m: make build] [[32mlwt[m: make build]                    + 2[K[KProcessing 21/24: [[32mipaddr[m: make build] [[32mlwt[m: make build]                    + 2[K[KProcessing 21/24: [[32mipaddr[m: make install] [[32mlwt[m: make build]                  + 2[K[KProcessing 21/24: [[32mipaddr[m: make install] [[32mlwt[m: make build]                  + 2[K-> installed [01mipaddr[m.2.6.1
+[KProcessing 21/24: [[32mlwt[m: make build] [[32moasis[m: ocaml setup.ml]                 + 1[K-> installed [01muri[m.1.7.2
+[KProcessing 21/24: [[32mlwt[m: make build] [[32moasis[m: ocaml setup.ml][K[KProcessing 21/24: [[32mlwt[m: make install] [[32moasis[m: ocaml setup.ml][K-> installed [01mlwt[m.2.4.7
+[KProcessing 21/24: [[32moasis[m: ocaml setup.ml][K[KProcessing 22/24: [[32mcstruct[m: ./configure] [[32moasis[m: ocaml setup.ml][K[KProcessing 22/24: [[32mcstruct[m: make] [[32moasis[m: ocaml setup.ml][K[KProcessing 22/24: [[32mcstruct[m: make install] [[32moasis[m: ocaml setup.ml][K-> installed [01mcstruct[m.1.5.0
+[KProcessing 22/24: [[32moasis[m: ocaml setup.ml][K[KProcessing 23/24: [[32mconduit[m: make] [[32moasis[m: ocaml setup.ml][K[KProcessing 23/24: [[32mconduit[m: make install] [[32moasis[m: ocaml setup.ml][K-> installed [01mconduit[m.0.7.2
+[KProcessing 23/24: [[32moasis[m: ocaml setup.ml][K[KProcessing 23/24: [[32moasis[m: ocaml setup.ml][K-> installed [01moasis[m.0.4.5
+[KProcessing 24/24: [[32mcohttp[m: make][K[KProcessing 24/24: [[32mcohttp[m: make install][K-> installed [01mcohttp[m.0.15.2
+Done.
++ opam list -i cohttp
++ awk {print $2}
 + grep -v #
-+ cohttpver=0.15.0
-+ opam list --depends-on cohttp.0.15.0 --rec -s
-+ deps=bap bt cowabloga facebook-sdk github imaplet-lwt iocaml irmin merge-queues merge-ropes message-switch mirage-http mirage-http-unix mirage-http-xen mirage-www opam-publish opam-sync-github-prs opium slacko sociaml-facebook-api sociaml-oauth-client sociaml-tumblr-api vhd-tool websocket xapi xapi-forkexecd xapi-idl xapi-libs-transitional xapi-netdev xapi-networkd xapi-rrd-transport xapi-rrdd xapi-rrdd-plugin xapi-squeezed xapi-tapctl xapi-xenops xapi-xenops-cli xapi-xenopsd xe xe-unikernel-upload xen-api-client 
++ cohttpver=0.15.2
++ opam list --depends-on cohttp.0.15.2 --rec -s
++ deps=bap
+bt
+cowabloga
+facebook-sdk
+frenetic
+github
+imaplet-lwt
+iocaml
+irmin
+merge-queues
+merge-ropes
+message-switch
+mirage-http
+mirage-http-unix
+mirage-http-xen
+mirage-www
+opam-publish
+opam-sync-github-prs
+opium
+slacko
+sociaml-facebook-api
+sociaml-oauth-client
+sociaml-tumblr-api
+spotify-cli
+spotify-web-api
+vhd-tool
+websocket
+xapi
+xapi-forkexecd
+xapi-idl
+xapi-libs-transitional
+xapi-netdev
+xapi-networkd
+xapi-rrd-transport
+xapi-rrdd
+xapi-rrdd-plugin
+xapi-squeezed
+xapi-tapctl
+xapi-xenops
+xapi-xenops-cli
+xapi-xenopsd
+xe
+xe-unikernel-upload
+xen-api-client
 + opam config env
-+ eval CAML_LD_LIBRARY_PATH="/home/opam/.opam/system/lib/stublibs:/usr/lib/ocaml/stublibs"; export CAML_LD_LIBRARY_PATH; MANPATH="/home/opam/.opam/system/man:"; export MANPATH; MAKELEVEL=""; export MAKELEVEL; MAKEFLAGS=""; export MAKEFLAGS; PERL5LIB="/home/opam/.opam/system/lib/perl5"; export PERL5LIB; OCAML_TOPLEVEL_PATH="/home/opam/.opam/system/lib/toplevel"; export OCAML_TOPLEVEL_PATH; PATH="/home/opam/.opam/system/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"; export PATH;
++ eval CAML_LD_LIBRARY_PATH="/home/opam/.opam/system/lib/stublibs:/usr/lib/ocaml/stublibs"; export CAML_LD_LIBRARY_PATH; MANPATH="/home/opam/.opam/system/man:"; export MANPATH; PERL5LIB="/home/opam/.opam/system/lib/perl5"; export PERL5LIB; OCAML_TOPLEVEL_PATH="/home/opam/.opam/system/lib/toplevel"; export OCAML_TOPLEVEL_PATH; PATH="/home/opam/.opam/system/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"; export PATH;
 + CAML_LD_LIBRARY_PATH=/home/opam/.opam/system/lib/stublibs:/usr/lib/ocaml/stublibs
 + export CAML_LD_LIBRARY_PATH
 + MANPATH=/home/opam/.opam/system/man:
 + export MANPATH
-+ MAKELEVEL=
-+ export MAKELEVEL
-+ MAKEFLAGS=
-+ export MAKEFLAGS
 + PERL5LIB=/home/opam/.opam/system/lib/perl5
 + export PERL5LIB
 + OCAML_TOPLEVEL_PATH=/home/opam/.opam/system/lib/toplevel
 + export OCAML_TOPLEVEL_PATH
 + PATH=/home/opam/.opam/system/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 + export PATH
-+ opam install bap bt cowabloga facebook-sdk github imaplet-lwt iocaml irmin merge-queues merge-ropes message-switch mirage-http mirage-http-unix mirage-http-xen mirage-www opam-publish opam-sync-github-prs opium slacko sociaml-facebook-api sociaml-oauth-client sociaml-tumblr-api vhd-tool websocket xapi xapi-forkexecd xapi-idl xapi-libs-transitional xapi-netdev xapi-networkd xapi-rrd-transport xapi-rrdd xapi-rrdd-plugin xapi-squeezed xapi-tapctl xapi-xenops xapi-xenops-cli xapi-xenopsd xe xe-unikernel-upload xen-api-client
++ opam install bap bt cowabloga facebook-sdk frenetic github imaplet-lwt iocaml irmin merge-queues merge-ropes message-switch mirage-http mirage-http-unix mirage-http-xen mirage-www opam-publish opam-sync-github-prs opium slacko sociaml-facebook-api sociaml-oauth-client sociaml-tumblr-api spotify-cli spotify-web-api vhd-tool websocket xapi xapi-forkexecd xapi-idl xapi-libs-transitional xapi-netdev xapi-networkd xapi-rrd-transport xapi-rrdd xapi-rrdd-plugin xapi-squeezed xapi-tapctl xapi-xenops xapi-xenops-cli xapi-xenopsd xe xe-unikernel-upload xen-api-client
 The following dependencies couldn't be met:
-  - merge-queues[33m -> [mirmin = 0.8.3[33m -> [mcohttp < 0.12.0
-  - bap[33m -> [mcohttp = 0.15.0
+  - mirage-http-unix[33m -> [mmirage-types <= 1.0.0
+  - merge-ropes[33m -> [mirmin = 0.8.3[33m -> [mgit = 1.2.0
 Your request can't be satisfied:
-  - Conflicting version constraints for cohttp
+  - git.1.2.0 is in conflict with mirage-types.0.2.0
+  - git.1.2.0 is in conflict with mirage-types.0.3.0
+  - git.1.2.0 is in conflict with mirage-types.0.4.0
+  - git.1.2.0 is in conflict with mirage-types.0.5.0
+  - git.1.2.0 is in conflict with mirage-types.1.0.0
 
 No solution found, exiting
