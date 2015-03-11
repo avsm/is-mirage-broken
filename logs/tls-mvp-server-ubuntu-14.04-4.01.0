@@ -34,25 +34,25 @@ Debian depexts: libffi-dev m4
               100% [2 Release.gpg 933 B/933 B 100%]                                     100% [Waiting for headers]                          Hit http://archive.ubuntu.com trusty Release
                           100% [Working]              Get:3 http://archive.ubuntu.com trusty-updates Release [62.0 kB]
 100% [Working]              100% [Release gpgv 58.5 kB] [Waiting for headers]                                                 Get:4 http://archive.ubuntu.com trusty-security Release [62.0 kB]
-                                                 70% [Release gpgv 58.5 kB] [4 Release 24.3 kB/62.0 kB 39%]                                                          70% [4 Release 24.3 kB/62.0 kB 39%]                                   70% [3 Release gpgv 62.0 kB] [4 Release 24.3 kB/62.0 kB 39%]                                                            84% [4 Release 41.7 kB/62.0 kB 67%]                                   100% [Working]              100% [4 Release gpgv 62.0 kB]                             100% [Waiting for headers]                          Hit http://archive.ubuntu.com trusty/main Sources
-100% [Waiting for headers]                          Hit http://archive.ubuntu.com trusty/restricted Sources
-                          Hit http://archive.ubuntu.com trusty/universe Sources
-                          Hit http://archive.ubuntu.com trusty/main amd64 Packages
-                          Hit http://archive.ubuntu.com trusty/restricted amd64 Packages
-                          Hit http://archive.ubuntu.com trusty/universe amd64 Packages
-                          Get:5 http://archive.ubuntu.com trusty-updates/main Sources [231 kB]
-                          Get:6 http://archive.ubuntu.com trusty-updates/restricted Sources [2310 B]
-                          Get:7 http://archive.ubuntu.com trusty-updates/universe Sources [132 kB]
-                          Get:8 http://archive.ubuntu.com trusty-updates/main amd64 Packages [566 kB]
-                          100% [Working]              100% [Sources 0 B]                  Get:9 http://archive.ubuntu.com trusty-updates/restricted amd64 Packages [15.1 kB]
-                  100% [Sources 1335 kB] [9 Packages 14.2 kB/15.1 kB 94%]                                                       100% [Sources 1335 kB]                      Get:10 http://archive.ubuntu.com trusty-updates/universe amd64 Packages [331 kB]
-                      76% [Sources 1335 kB] [10 Packages 0 B/331 kB 0%]                                                 89% [10 Packages 35.9 kB/331 kB 11%]                                    89% [Sources 0 B] [10 Packages 35.9 kB/331 kB 11%]                                                  89% [10 Packages 35.9 kB/331 kB 11%]                                    89% [Sources 0 B] [10 Packages 35.9 kB/331 kB 11%]                                                  100% [Sources 7926 kB]                                              447 kB/s 0s                                                                               Get:11 http://archive.ubuntu.com trusty-security/main Sources [88.7 kB]
-97% [Sources 7926 kB] [11 Sources 4096 B/88.7 kB 5%]                447 kB/s 0s100% [Sources 7926 kB]                                              447 kB/s 0s                                                                               Get:12 http://archive.ubuntu.com trusty-security/restricted Sources [1874 B]
-100% [Sources 7926 kB] [12 Sources 0 B/1874 B 0%]                   447 kB/s 0s100% [Sources 7926 kB]                                              447 kB/s 0s                                                                               Get:13 http://archive.ubuntu.com trusty-security/universe Sources [19.6 kB]
-99% [Sources 7926 kB] [13 Sources 0 B/19.6 kB 0%]                   447 kB/s 0s100% [Sources 7926 kB]                                              447 kB/s 0s                                                                               Get:14 http://archive.ubuntu.com trusty-security/main amd64 Packages [278 kB]
-91% [Sources 7926 kB] [14 Packages 0 B/278 kB 0%]                   447 kB/s 0s100% [Sources 7926 kB]                                              447 kB/s 0s                                                                               Get:15 http://archive.ubuntu.com trusty-security/restricted amd64 Packages [14.8 kB]
-100% [Sources 7926 kB] [15 Packages 0 B/14.8 kB 0%]                 447 kB/s 0s100% [Sources 7926 kB]                                              447 kB/s 0s                                                                               Get:16 http://archive.ubuntu.com trusty-security/universe amd64 Packages [113 kB]
-97% [Sources 7926 kB] [16 Packages 0 B/113 kB 0%]                   447 kB/s 0s100% [Sources 7926 kB]                                              447 kB/s 0s100% [Sources 7926 kB]                                              447 kB/s 0s100% [Working]                                                      447 kB/s 0s100% [Packages 0 B]                                                 447 kB/s 0s100% [Working]                                                      447 kB/s 0s100% [Packages 0 B]                                                 447 kB/s 0s100% [Working]                                                      447 kB/s 0s100% [Packages 0 B]                                                 447 kB/s 0s100% [Packages 7589 kB]                                             447 kB/s 0s100% [Packages 7589 kB]                                             447 kB/s 0s100% [Packages 7589 kB]                                             447 kB/s 0s100% [Working]                                                      447 kB/s 0s100% [5 Sources 193 kB]                                             447 kB/s 0s100% [Working]                                                      447 kB/s 0s100% [6 Sources 1874 B]                                             447 kB/s 0s100% [Working]                                                      447 kB/s 0s100% [7 Sources 119 kB]                                             447 kB/s 0s100% [Working]                                                      447 kB/s 0s100% [8 Packages 493 kB]                                            447 kB/s 0s100% [Working]                                                      447 kB/s 0s100% [9 Packages 14.8 kB]                                           447 kB/s 0s100% [Working]                                                      447 kB/s 0s100% [10 Packages 298 kB]                                           447 kB/s 0s100% [Working]                                                      447 kB/s 0s100% [11 Sources 88.7 kB]                                           447 kB/s 0s100% [Working]                                                      447 kB/s 0s100% [12 Sources 1874 B]                                            447 kB/s 0s100% [Working]                                                      447 kB/s 0s100% [13 Sources 19.1 kB]                                           447 kB/s 0s100% [Working]                                                      447 kB/s 0s100% [14 Packages 229 kB]                                           447 kB/s 0s100% [Working]                                                      447 kB/s 0s100% [15 Packages 14.8 kB]                                          447 kB/s 0s100% [Working]                                                      447 kB/s 0s100% [16 Packages 98.1 kB]                                          447 kB/s 0s100% [Working]                                                      447 kB/s 0s                                                                               Fetched 1920 kB in 9s (197 kB/s)
+                                                 62% [Release gpgv 58.5 kB] [4 Release 14.2 kB/62.0 kB 23%]                                                          100% [Release gpgv 58.5 kB]                           100% [Working]              100% [3 Release gpgv 62.0 kB] [Waiting for headers]                                                   100% [Waiting for headers]                          100% [4 Release gpgv 62.0 kB] [Waiting for headers]                                                   Hit http://archive.ubuntu.com trusty/main Sources
+                                                   100% [4 Release gpgv 62.0 kB]                             100% [Working]              100% [Sources 0 B] [Waiting for headers]                                        Hit http://archive.ubuntu.com trusty/restricted Sources
+                                        100% [Sources 1335 kB] [Waiting for headers]                                            Hit http://archive.ubuntu.com trusty/universe Sources
+100% [Sources 1335 kB] [Waiting for headers]                                            Hit http://archive.ubuntu.com trusty/main amd64 Packages
+                                            100% [Waiting for headers]                          Hit http://archive.ubuntu.com trusty/restricted amd64 Packages
+                          100% [Working]              100% [Sources 5335 B] [Waiting for headers]                                           100% [Waiting for headers]                          100% [Sources 0 B] [Waiting for headers]                                        Hit http://archive.ubuntu.com trusty/universe amd64 Packages
+                                        100% [Sources 0 B] [Waiting for headers]                            238 kB/s 0s                                                                               Get:5 http://archive.ubuntu.com trusty-updates/main Sources [232 kB]
+90% [Sources 0 B] [5 Sources 65.5 kB/232 kB 28%]                    238 kB/s 0s100% [Sources 0 B]                                                  238 kB/s 0s                                                                               Get:6 http://archive.ubuntu.com trusty-updates/restricted Sources [2310 B]
+100% [Sources 7926 kB] [6 Sources 0 B/2310 B 0%]                    238 kB/s 0s100% [Sources 7926 kB]                                              238 kB/s 0s                                                                               Get:7 http://archive.ubuntu.com trusty-updates/universe Sources [132 kB]
+93% [Sources 7926 kB] [7 Sources 0 B/132 kB 0%]                     238 kB/s 0s100% [Sources 7926 kB]                                              238 kB/s 0s                                                                               Get:8 http://archive.ubuntu.com trusty-updates/main amd64 Packages [567 kB]
+76% [Sources 7926 kB] [8 Packages 0 B/567 kB 0%]                    238 kB/s 2s100% [Sources 7926 kB]                                              238 kB/s 0s                                                                               Get:9 http://archive.ubuntu.com trusty-updates/restricted amd64 Packages [15.1 kB]
+99% [Sources 7926 kB] [9 Packages 0 B/15.1 kB 0%]                   238 kB/s 0s100% [Sources 7926 kB]                                              238 kB/s 0s                                                                               Get:10 http://archive.ubuntu.com trusty-updates/universe amd64 Packages [332 kB]
+88% [Sources 7926 kB] [10 Packages 0 B/332 kB 0%]                   238 kB/s 1s100% [Sources 7926 kB]                                              238 kB/s 0s                                                                               Get:11 http://archive.ubuntu.com trusty-security/main Sources [89.2 kB]
+97% [Sources 7926 kB] [11 Sources 0 B/89.2 kB 0%]                   238 kB/s 0s100% [Sources 7926 kB]                                              238 kB/s 0s                                                                               Get:12 http://archive.ubuntu.com trusty-security/restricted Sources [1874 B]
+100% [Sources 7926 kB] [12 Sources 0 B/1874 B 0%]                   238 kB/s 0s100% [Sources 7926 kB]                                              238 kB/s 0s                                                                               Get:13 http://archive.ubuntu.com trusty-security/universe Sources [19.6 kB]
+99% [Sources 7926 kB] [13 Sources 0 B/19.6 kB 0%]                   238 kB/s 0s100% [Sources 7926 kB]                                              238 kB/s 0s                                                                               Get:14 http://archive.ubuntu.com trusty-security/main amd64 Packages [279 kB]
+91% [Sources 7926 kB] [14 Packages 0 B/279 kB 0%]                   238 kB/s 1s100% [Sources 7926 kB]                                              238 kB/s 0s                                                                               Get:15 http://archive.ubuntu.com trusty-security/restricted amd64 Packages [14.8 kB]
+100% [Sources 7926 kB] [15 Packages 0 B/14.8 kB 0%]                 238 kB/s 0s100% [Sources 7926 kB]                                              238 kB/s 0s                                                                               Get:16 http://archive.ubuntu.com trusty-security/universe amd64 Packages [114 kB]
+97% [Sources 7926 kB] [16 Packages 0 B/114 kB 0%]                   238 kB/s 0s100% [Sources 7926 kB]                                              238 kB/s 0s100% [Working]                                                      238 kB/s 0s100% [Packages 0 B]                                                 238 kB/s 0s100% [Working]                                                      238 kB/s 0s100% [Packages 0 B]                                                 238 kB/s 0s100% [Working]                                                      238 kB/s 0s100% [Packages 0 B]                                                 238 kB/s 0s100% [Packages 7589 kB]                                             238 kB/s 0s100% [Packages 7589 kB]                                             238 kB/s 0s100% [Packages 7589 kB]                                             238 kB/s 0s100% [Working]                                                      238 kB/s 0s100% [5 Sources 193 kB]                                             238 kB/s 0s100% [Working]                                                      238 kB/s 0s100% [6 Sources 1874 B]                                             238 kB/s 0s100% [Working]                                                      238 kB/s 0s100% [7 Sources 119 kB]                                             238 kB/s 0s100% [Working]                                                      238 kB/s 0s100% [8 Packages 493 kB]                                            238 kB/s 0s100% [Working]                                                      238 kB/s 0s100% [9 Packages 14.8 kB]                                           238 kB/s 0s100% [Working]                                                      238 kB/s 0s100% [10 Packages 298 kB]                                           238 kB/s 0s100% [Working]                                                      238 kB/s 0s100% [11 Sources 70.1 kB]                                           238 kB/s 0s100% [Working]                                                      238 kB/s 0s100% [12 Sources 1874 B]                                            238 kB/s 0s100% [Working]                                                      238 kB/s 0s100% [13 Sources 19.1 kB]                                           238 kB/s 0s100% [Working]                                                      238 kB/s 0s100% [14 Packages 229 kB]                                           238 kB/s 0s100% [Working]                                                      238 kB/s 0s100% [15 Packages 14.8 kB]                                          238 kB/s 0s100% [Working]                                                      238 kB/s 0s100% [16 Packages 98.1 kB]                                          238 kB/s 0s100% [Working]                                                      238 kB/s 0s                                                                               Fetched 1924 kB in 9s (198 kB/s)
 Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 32%Reading package lists... Done
 + sudo apt-get install -qq -y build-essential m4
 + sudo apt-get install -qq -y libffi-dev m4
@@ -106,20 +106,173 @@ The following actions will be performed:
 [[32mlwt.2.4.5[m] Downloading https://github.com/ocsigen/lwt/archive/2.4.5.tar.gz
 [[32mmirage.2.2.0[m] Downloading https://github.com/mirage/mirage/archive/v2.2.0.tar.gz
 [[32mmirage-types.2.2.0[m] Downloading https://github.com/mirage/mirage/archive/v2.2.0.tar.gz
-[31m[ERROR][m curl: code 500 while downloading https://github.com/mirage/ocaml-cstruct/archive/v1.5.0.tar.gz
-[31m[ERROR][m https://github.com/mirage/ocaml-cstruct/archive/v1.5.0.tar.gz is not available
 [[32mnocrypto.0.3.0[m] Downloading https://github.com/mirleft/ocaml-nocrypto/archive/0.3.0.tar.gz
 [[32mocamlfind.1.5.5[m] Downloading http://download.camlcity.org/download/findlib-1.5.5.tar.gz
-[31m[ERROR][m curl: code 500 while downloading https://github.com/mirage/mirage/archive/v2.2.0.tar.gz
-[31m[ERROR][m https://github.com/mirage/mirage/archive/v2.2.0.tar.gz is not available
 [[32mocplib-endian.0.8[m] Downloading https://github.com/OCamlPro/ocplib-endian/archive/0.8.tar.gz
 [[32mre.1.2.2[m] Downloading https://github.com/ocaml/ocaml-re/archive/ocaml-re-1.2.2.tar.gz
 [[32msexplib.111.25.00[m] Downloading https://ocaml.janestreet.com/ocaml-core/111.25.00/individual/sexplib-111.25.00.tar.gz
 [[32mtls.0.3.0[m] Downloading https://github.com/mirleft/ocaml-tls/archive/0.3.0.tar.gz
 [[32mtype_conv.111.13.00[m] Downloading https://ocaml.janestreet.com/ocaml-core/111.13.00/individual/type_conv-111.13.00.tar.gz
 [[32mx509.0.2.1[m] Downloading https://github.com/mirleft/ocaml-x509/archive/0.2.1.tar.gz
-[31m[ERROR][m curl: code 500 while downloading https://github.com/mirage/mirage/archive/v2.2.0.tar.gz
-[31m[ERROR][m https://github.com/mirage/mirage/archive/v2.2.0.tar.gz is not available
 [[32mzarith.1.3[m] Downloading https://forge.ocamlcore.org/frs/download.php/1471/zarith-1.3.tgz
-[31m[ERROR][m Could not download archives of cstruct.1.5.0, mirage.2.2.0 and mirage-types.2.2.0
 
+[36m=-=-[m [01mInstalling packages[m [36m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+Installing camlp4.4.01.0.
+Copying ~/.opam/repo/default/packages/ocamlfind/ocamlfind.1.5.5/files/ocamlfind.install to ~/.opam/system/build/ocamlfind.1.5.5/
+Building ocamlfind.1.5.5:
+  ./configure -bindir /home/opam/.opam/system/bin -sitelib /home/opam/.opam/system/lib -mandir /home/opam/.opam/system/man -config /home/opam/.opam/system/lib/findlib.conf -no-topfind
+  make all
+  make opt
+  make install
+Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/mirage-install.sh to ~/.opam/system/build/gmp.6.0.0/
+Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/mirage-build.sh to ~/.opam/system/build/gmp.6.0.0/
+Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/gmp.pc to ~/.opam/system/build/gmp.6.0.0/
+Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/gmp-6a.diff to ~/.opam/system/build/gmp.6.0.0/
+Copying ~/.opam/repo/mirage/packages/gmp/gmp.6.0.0/files/META to ~/.opam/system/build/gmp.6.0.0/
+Applying gmp-6a.diff.
+Building gmp.6.0.0:
+  ./mirage-build.sh
+  ./mirage-install.sh
+Installing ocamlfind.1.5.5.
+Installing base-bytes.legacy.
+Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/system/build/cppo.1.1.2/
+Building cppo.1.1.2:
+  make
+  make install-lib
+Building cmdliner.0.9.6:
+  ocaml pkg/git.ml
+  ocaml pkg/build.ml native=true native-dynlink=true
+Installing cmdliner.0.9.6.
+Building lwt.2.4.5:
+  ./configure --disable-libev --disable-react --disable-ssl --enable-unix --enable-extra --enable-preemptive --disable-glib
+  make build
+  make install
+Installing cppo.1.1.2.
+Building re.1.2.2:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/system
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing re.1.2.2.
+Building type_conv.111.13.00:
+  make
+  make install
+Installing type_conv.111.13.00.
+Building crunch.1.3.0:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/system
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing crunch.1.3.0.
+Building ctypes.0.4.0:
+  make XEN=disable
+  make install XEN=disable
+Installing ctypes.0.4.0.
+Building ocplib-endian.0.8:
+  ocaml setup.ml -configure --disable-debug --prefix /home/opam/.opam/system
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Installing ocplib-endian.0.8.
+Building sexplib.111.25.00:
+  ./configure --enable-syntax
+  make
+  make install
+Installing lwt.2.4.5.
+Installing sexplib.111.25.00.
+Building ipaddr.2.5.0:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/system
+  make build
+  make install
+Building cstruct.1.5.0:
+  ./configure --prefix /home/opam/.opam/system --enable-lwt --enable-camlp4 --disable-async --enable-unix --disable-tests
+  make
+  make install
+Installing ipaddr.2.5.0.
+Installing cstruct.1.5.0.
+Building io-page.1.3.0:
+  ./configure --prefix /home/opam/.opam/system
+  make
+  make install
+Installing io-page.1.3.0.
+Building mirage-types.2.2.0:
+  make install-types
+Installing mirage-types.2.2.0.
+Building mirage.2.2.0:
+  ./configure --bindir /home/opam/.opam/system/bin
+  make
+  make install
+Installing mirage.2.2.0.
+Installing gmp.6.0.0.
+Copying ~/.opam/repo/mirage/packages/zarith/zarith.1.3/files/xen_linkopts.patch to ~/.opam/system/build/zarith.1.3/
+Copying ~/.opam/repo/mirage/packages/zarith/zarith.1.3/files/mirage-install.sh to ~/.opam/system/build/zarith.1.3/
+Applying xen_linkopts.patch.
+Building zarith.1.3:
+  ./mirage-install.sh
+Installing zarith.1.3.
+Building nocrypto.0.3.0:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/system
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+Building asn1-combinators.0.1.1:
+  ocaml setup.ml -configure --prefix /home/opam/.opam/system
+  ocaml setup.ml -build
+  ocaml setup.ml -install
+[31m[ERROR][m The compilation of nocrypto.0.3.0 failed.
+Removing nocrypto.0.3.0.
+  ocamlfind remove nocrypto
+Installing asn1-combinators.0.1.1.
+
+
+[31m#===[m [01mERROR[m [01mwhile installing nocrypto.0.3.0[m [31m====================================#[m
+[31m#[m [31mopam-version[m 1.2.0 (75c4bf0dd32913f9218ffa882e683e01d6cdfb0f)
+[31m#[m [31mos[m           linux
+[31m#[m [31mcommand[m      ocaml setup.ml -build
+[31m#[m [31mpath[m         /home/opam/.opam/system/build/nocrypto.0.3.0
+[31m#[m [31mcompiler[m     system (4.01.0)
+[31m#[m [31mexit-code[m    1
+[31m#[m [31menv-file[m     /home/opam/.opam/system/build/nocrypto.0.3.0/nocrypto-24984-70a526.env
+[31m#[m [31mstdout-file[m  /home/opam/.opam/system/build/nocrypto.0.3.0/nocrypto-24984-70a526.out
+[31m#[m [31mstderr-file[m  /home/opam/.opam/system/build/nocrypto.0.3.0/nocrypto-24984-70a526.err
+[31m### stdout ###
+[m[31m# [m...[truncated]
+[31m# [mmv d3des.o src/native/d3des.o
+[31m# [m/home/opam/.opam/system/bin/ocamlfind ocamlc -ccopt -O3 -ccopt -I/home/opam/.opam/system/lib/ctypes/.. -c src/native/nocrypto_stubs.c
+[31m# [mmv nocrypto_stubs.o src/native/nocrypto_stubs.o
+[31m# [m/home/opam/.opam/system/bin/ocamlfind ocamlc -ccopt -O3 -ccopt -I/home/opam/.opam/system/lib/ctypes/.. -c src/native/nocrypto_generated_stubs.c
+[31m# [m+ /home/opam/.opam/system/bin/ocamlfind ocamlc -ccopt -O3 -ccopt -I/home/opam/.opam/system/lib/ctypes/.. -c src/native/nocrypto_generated_stubs.c
+[31m# [msrc/native/nocrypto_generated_stubs.c:3:37: fatal error: ctypes_cstubs_internals.h: No such file or directory
+[31m# [m #include "ctypes_cstubs_internals.h"
+[31m# [m                                     ^
+[31m# [mcompilation terminated.
+[31m# [mCommand exited with code 2.
+[31m### stderr ###
+[m[31m# [mE: Failure("Command ''/usr/bin/ocamlbuild' src_gen/nocrypto_bindgen.byte src/libnocrypto_stubs.a src/dllnocrypto_stubs.so src/nocrypto.cma src/nocrypto.cmxa src/nocrypto.a src/nocrypto.cmxs -tag debug' terminated with error code 10")
+
+
+[36m=-=-[m [01mError report[m [36m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+These actions have been completed [01msuccessfully[m
+ - install   sexplib.111.25.00
+ - install   cppo.1.1.2
+ - install   cmdliner.0.9.6
+ - install   mirage.2.2.0
+ - install   cstruct.1.5.0
+ - install   ipaddr.2.5.0
+ - install   camlp4.4.01.0
+ - install   gmp.6.0.0
+ - install   io-page.1.3.0
+ - install   ocamlfind.1.5.5
+ - install   base-bytes.legacy
+ - install   mirage-types.2.2.0
+ - install   ocplib-endian.0.8
+ - install   lwt.2.4.5
+ - install   crunch.1.3.0
+ - install   asn1-combinators.0.1.1
+ - install   type_conv.111.13.00
+ - install   re.1.2.2
+ - install   ctypes.0.4.0
+ - install   zarith.1.3
+The following [01mfailed[m
+ - install   nocrypto.0.3.0
+Due to the errors, the following have been [01mcancelled[m
+ - install   tls.0.3.0
+ - install   x509.0.2.1
+
+The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150211084648.export"

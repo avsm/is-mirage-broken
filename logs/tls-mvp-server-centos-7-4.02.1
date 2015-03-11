@@ -31,11 +31,11 @@ Repodata is over 2 weeks old. Install yum-cron? Or run: yum makecache fast
 extras                                                   | 3.4 kB     00:00     
 home_ocaml                                               | 1.2 kB     00:00     
 updates                                                  | 3.4 kB     00:00     
-updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 10% [=-              ]  0.0 B/s | 711 kB   --:-- ETA updates/7/x86_64/primary_d 46% [=======         ] 3.8 MB/s | 3.1 MB   00:00 ETA updates/7/x86_64/primary_d 68% [===========     ] 3.8 MB/s | 4.6 MB   00:00 ETA updates/7/x86_64/primary_d 74% [===========-    ] 3.7 MB/s | 4.9 MB   00:00 ETA updates/7/x86_64/primary_d 93% [==============- ] 3.7 MB/s | 6.2 MB   00:00 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:02     
+updates/7/x86_64/primary_d 0% [                 ]  0.0 B/s |    0 B   --:-- ETA updates/7/x86_64/primary_d 9% [=-               ]  0.0 B/s | 656 kB   --:-- ETA updates/7/x86_64/primary_d 42% [======-         ] 3.4 MB/s | 2.8 MB   00:01 ETA updates/7/x86_64/primary_db                                | 6.6 MB   00:01     
 Determining fastest mirrors
- * base: mirrors.gigenet.com
- * extras: mirror.team-cymru.org
- * updates: mirrors.usinternet.com
+ * base: centos.mirrors.tds.net
+ * extras: mirror.tzulo.com
+ * updates: mirror.cisp.com
 Resolving Dependencies
 --> Running transaction check
 ---> Package libffi-devel.x86_64 0:3.0.13-11.el7 will be installed
@@ -56,7 +56,7 @@ Install  1 Package
 Total download size: 22 k
 Installed size: 27 k
 Downloading packages:
-libffi-devel-3.0.13-11.el7.x86_64.rpm                      |  22 kB   00:00     
+libffi-devel-3.0.13-11.el7 0% [                 ]  0.0 B/s |    0 B   --:-- ETA libffi-devel-3.0.13-11.el7.x86_64.rpm                      |  22 kB   00:00     
 Running transaction check
 Running transaction test
 Transaction test succeeded
@@ -147,12 +147,12 @@ Building gmp.6.0.0:
 Installing ocamlfind.1.5.5.
 Installing base-bytes.base.
 Copying ~/.opam/repo/default/packages/cppo/cppo.1.1.2/files/cppo.install to ~/.opam/system/build/cppo.1.1.2/
-Building cppo.1.1.2:
-  make
-  make install-lib
 Building cmdliner.0.9.6:
   ocaml pkg/git.ml
   ocaml pkg/build.ml native=true native-dynlink=true
+Building cppo.1.1.2:
+  make
+  make install-lib
 Installing cmdliner.0.9.6.
 Building ppx_tools.0.99.2:
   make all
@@ -243,9 +243,9 @@ Installing asn1-combinators.0.1.1.
 [31m#[m [31mpath[m         /home/opam/.opam/system/build/nocrypto.0.3.0
 [31m#[m [31mcompiler[m     system (4.02.1)
 [31m#[m [31mexit-code[m    1
-[31m#[m [31menv-file[m     /home/opam/.opam/system/build/nocrypto.0.3.0/nocrypto-23803-d37749.env
-[31m#[m [31mstdout-file[m  /home/opam/.opam/system/build/nocrypto.0.3.0/nocrypto-23803-d37749.out
-[31m#[m [31mstderr-file[m  /home/opam/.opam/system/build/nocrypto.0.3.0/nocrypto-23803-d37749.err
+[31m#[m [31menv-file[m     /home/opam/.opam/system/build/nocrypto.0.3.0/nocrypto-23800-d37749.env
+[31m#[m [31mstdout-file[m  /home/opam/.opam/system/build/nocrypto.0.3.0/nocrypto-23800-d37749.out
+[31m#[m [31mstderr-file[m  /home/opam/.opam/system/build/nocrypto.0.3.0/nocrypto-23800-d37749.err
 [31m### stdout ###
 [m[31m# [m...[truncated]
 [31m# [mmv d3des.o src/native/d3des.o
@@ -291,4 +291,4 @@ Due to the errors, the following have been [01mcancelled[m
  - install   tls.0.3.0
  - install   x509.0.2.1
 
-The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150210214011.export"
+The former state can be restored with opam switch import "/home/opam/.opam/system/backup/state-20150211094011.export"
